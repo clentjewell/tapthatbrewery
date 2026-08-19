@@ -1,0 +1,2766 @@
+The Future for Tap That Brewery & Keghouse
+
+1. The Problem with the Traditional Brewery Model
+
+Most craft breweries generate revenue through three primary channels:
+
+Taproom sales (pints)
+
+Wholesale keg sales to venues
+
+Packaged beer (cans or bottles)
+
+While this model works for small operations, it suffers from a fundamental limitation: it scales linearly.
+
+As breweries grow sales, they must also increase:
+
+brewing capacity
+
+staff
+
+logistics
+
+storage
+
+distribution
+
+venue relationships
+
+Revenue growth therefore requires proportionally more operational complexity and cost.
+
+Because of this structural limitation, most independent breweries plateau at approximately $1M–$3M in annual revenue.
+
+Scaling beyond that point typically requires significant capital investment in production, distribution, and national retail access.
+
+2. The Tap That Difference
+
+Tap That operates on a fundamentally different model.
+
+Rather than focusing only on selling beer, the company focuses on installing keg systems in homes, creating a network of recurring customers.
+
+Every kegerator installed becomes a long-term demand node in the ecosystem.
+
+Each installed system generates:
+
+predictable recurring keg purchases
+
+long-term customer lifetime value
+
+organic word-of-mouth marketing
+
+brand exposure within social groups
+
+This transforms the business from a traditional brewery into a platform-style beverage ecosystem.
+
+3. The Installed Base Effect
+
+The most important metric in the Tap That model is the number of kegerators installed in households.
+
+Each system represents a recurring consumption point.
+
+Example growth scenario:
+
+If Tap That sells:
+
+15 kegerators per month
+
+This results in:
+
+180 new households per year
+
+Each household consumes approximately:
+
+2 kegs per month
+
+This generates:
+
+360 kegs of monthly demand
+
+Equivalent to roughly:
+
+$50,000 monthly revenue
+
+$600,000 annual revenue
+
+Importantly, this recurring revenue comes from only the households acquired in year one.
+
+4. Compounding Growth
+
+Because additional households are added each year, the system compounds.
+
+Example projection based off 2x kegs/month:
+
+This revenue stream represents residential keg refills alone.
+
+It does not include:
+
+taproom revenue
+
+kegerator sales
+
+wholesale venue supply
+
+events
+
+merchandise
+
+When the full ecosystem is operating, total revenue could realistically exceed:
+
+$5M+ annually.
+
+5. The Visibility Multiplier
+
+Each installed kegerator becomes a marketing asset.
+
+Guests naturally notice the system and ask:
+
+“Where did you get that?”
+
+This creates organic discovery.
+
+One installed system can easily expose 20–50 people to the concept over time.
+
+This creates a powerful domino effect of adoption.
+
+6. The Tap That Flywheel
+
+This dynamic creates a self-reinforcing growth loop.
+
+Sell system
+↓
+Customer hosts friends
+↓
+Friends discover keg systems
+↓
+Some become customers
+↓
+Installed base grows
+
+Over time, beer on tap at home becomes normal within the region.
+
+7. The Strategic Opportunity
+
+Most breweries compete for:
+
+shelf space
+
+tap handles
+
+pub customers
+
+Tap That is competing for something far more valuable:
+
+ownership of the home drinking occasion.
+
+By building the largest network of home tap systems in a region, Tap That creates a structural advantage that becomes difficult for competitors to replicate.
+
+The true asset becomes:
+
+The installed base of keg households.
+
+8. Vision
+
+Tap That was founded around a simple idea:
+
+Beer tastes better on tap.
+
+Historically, that experience has been limited to pubs and venues.
+
+Tap That exists to change that.
+
+The long-term vision is to create a world where beer on tap at home becomes normal.
+
+Just as espresso machines transformed how people enjoy coffee at home, keg systems have the potential to transform how people enjoy beer.
+
+9. Mission
+
+Tap That’s mission is:
+
+To make beer on tap at home accessible, affordable, and part of everyday life.
+
+This is achieved through an ecosystem combining:
+
+brewery production
+
+accessible keg systems
+
+a wide range of drinks on tap
+
+a community-driven brand
+
+Together these elements create a platform designed to expand the number of home tap households.
+
+10. The Three Layers of Opportunity
+
+The Tap That model contains three strategic layers.
+
+Layer 1 — Local Keg Ecosystem
+
+The current stage of the business.
+
+Objectives:
+
+sell kegerators
+
+grow household installations
+
+supply keg refills
+
+expand wholesale venues
+
+build brand awareness
+
+This stage establishes the installed base.
+
+Layer 2 — Replicable Hub Model
+
+Once the model is proven locally, it can be replicated across additional cities.
+
+Each location operates as a Tap That Hub.
+
+Each hub contains:
+
+microbrewery
+
+taproom showroom
+
+keg refill depot
+
+kegerator retail
+
+Each hub services roughly:
+
+500–1500 local households.
+
+This model dramatically reduces:
+
+freight costs
+
+cold storage requirements
+
+distribution complexity
+
+At this stage, the business becomes highly franchisable.
+
+Layer 3 — Beverage Platform
+
+The long-term opportunity is even larger.
+
+Currently the system pours beer.
+
+But it can evolve into a home beverage platform capable of serving:
+
+craft beer
+
+seltzers
+
+cocktails
+
+kombucha
+
+cold brew coffee
+
+soft drinks
+
+non-alcoholic beverages
+
+At this stage, the product becomes a household appliance, not a niche beer gadget.
+
+11. The Franchise / Licensing Opportunity
+
+Once the operating model is proven locally, Tap That can scale through franchising or licensing regional hubs.
+
+Each hub would operate the same ecosystem:
+
+Tap That Hub
+↓
+Local keg households
+↓
+Recurring refill revenue
+
+A franchise operator would manage:
+
+local brewing
+
+keg refill logistics
+
+kegerator sales
+
+taproom community
+
+This creates a capital-light expansion model.
+
+Instead of centralising brewing and distribution nationally, the system grows through localised ecosystems.
+
+Benefits include:
+
+reduced logistics complexity
+
+lower freight costs
+
+fresher product
+
+strong community engagement
+
+12. Excise and Distribution Strategy
+
+Alcohol excise taxes and national distribution can create significant barriers for growing breweries.
+
+Tap That’s model helps mitigate these challenges.
+
+Possible approaches include:
+
+Local Production
+
+Each regional hub brews locally, keeping production below certain excise thresholds where possible.
+
+Contract Brewing
+
+Beer can be produced by partner breweries under license when expansion occurs.
+
+Centralised Production + Local Distribution
+
+Larger scale production can supply multiple hubs once demand is proven.
+
+Diversification into Non-Alcoholic Products
+
+Expanding into beverages such as:
+
+kombucha
+
+soft drinks
+
+cold brew
+
+cocktails
+
+reduces reliance on alcohol revenue and excise exposure.
+
+13. Platform Economics
+
+The Tap That model follows a razor-and-blade structure similar to successful consumer platforms.
+
+Examples include:
+
+Nespresso
+
+SodaStream
+
+Keurig
+
+These models operate as:
+
+Machine
+↓
+Consumables
+↓
+Recurring revenue
+
+Tap That’s equivalent structure is:
+
+Kegerator
+↓
+Kegs
+↓
+Recurring beverage consumption
+
+Because each system produces years of repeat purchases, the customer lifetime value can significantly exceed the initial machine sale.
+
+14. Long-Term Product Vision
+
+Over time, the system could evolve into a dedicated appliance:
+
+The Tap That Home Tap System
+
+Features may include:
+
+compact modern design
+
+2–6 taps
+
+interchangeable beverage kegs
+
+kitchen-friendly aesthetic
+
+Compatible beverages could include:
+
+beer
+
+RTD spirits & cocktails
+
+kombucha
+
+cold brew
+
+soft drinks
+
+non-alcoholic beverages
+
+This shifts the category from:
+
+Beer gadget → home beverage appliance
+
+15. Potential Strategic Exit Opportunities
+
+If the model succeeds, Tap That becomes attractive to several categories of buyers.
+
+Possible acquirers include:
+
+Global Beverage Companies
+
+Major beverage companies constantly seek new consumption platforms.
+
+Examples:
+
+AB InBev
+
+Lion
+
+Asahi
+
+Coca-Cola
+
+PepsiCo
+
+Appliance Companies
+
+Companies producing consumer appliances may be interested in a beverage dispensing platform.
+
+Hospitality Groups
+
+Groups operating venue networks may view Tap That as a new distribution channel.
+
+What makes the company particularly valuable is not just beer production, but:
+
+the installed base of home tap systems.
+
+16. Strategy for Scaling
+
+The scaling strategy follows a structured sequence.
+
+Step 1 — Dominate the Local Market
+
+Focus on installing 500–1000 systems locally.
+
+This proves:
+
+demand
+
+refill frequency
+
+customer acquisition economics
+
+Step 2 — Optimise the Operating Model
+
+Refine systems for:
+
+keg logistics
+
+refill operations
+
+marketing
+
+membership programs
+
+customer acquisition cost
+
+Step 3 — Document the Playbook
+
+Convert operational knowledge into a repeatable franchise operating system.
+
+Step 4 — Launch Second Market
+
+Expand to a second regional hub.
+
+Potential early markets include:
+
+Brisbane
+
+Sunshine Coast
+
+Northern Rivers
+
+Step 5 — Regional Expansion
+
+Roll out additional hubs across Australia using:
+
+company-owned locations
+
+franchise operators
+
+licensing partnerships
+
+17. The Real Business Being Built
+
+At first glance, Tap That appears to be a brewery.
+
+In reality, it is building something much more powerful.
+
+Tap That is building:
+
+The Home Tap Network.
+
+A network of households connected through the experience of drinks on tap.
+
+As the network grows, the business becomes increasingly defensible.
+
+And the brand that establishes the category first has the potential to own it.
+
+Final Insight
+
+Tap That is not simply selling beer.
+
+It is introducing people to a new behaviour:
+
+Drinks on tap at home.
+
+Businesses that successfully introduce new behaviours can grow extremely quickly once adoption begins to spread.
+
+If Tap That succeeds in normalising this behaviour, it has the potential to become the company that defined the category.
+
+The $50M+ Valuation Narrative
+
+Investors value platform ecosystems, not just breweries.
+
+A traditional brewery might be valued at:
+
+1–2× revenue
+
+But platform-style recurring businesses can reach:
+
+5–10× revenue
+
+The key metrics investors will watch are:
+
+1️⃣ Installed Systems
+
+The size of the network.
+
+Example milestone:
+
+5,000 installed systems
+
+2️⃣ Recurring Beverage Revenue
+
+Example:
+
+5,000 households
+× 2 kegs/month
+× $140 average keg
+
+=
+
+$1.4M monthly revenue
+
+=
+
+~$17M annual revenue
+
+3️⃣ Platform Value
+
+If the business reaches $15–20M revenue with strong recurring demand:
+
+Valuations could reach:
+
+$50M–$100M+
+
+Especially if the platform expands into multiple beverage categories.
+
+The Single Most Important Metric
+
+Everything in the strategy ultimately comes down to one number:
+
+Installed Kegerators
+
+Because each one creates:
+
+• recurring revenue
+• organic marketing
+• network effects
+
+The 5 Numbers That Determine Tap That’s Potential
+
+1. System Install Rate (New Households per Month)
+
+This is the engine of the entire ecosystem.
+
+Every kegerator installed becomes a long-term consumption node.
+
+Example:
+
+If Tap That installs:
+
+• 10 systems/month → 120 per year
+• 15 systems/month → 180 per year
+• 30 systems/month → 360 per year
+
+Now look what happens after 5 years.
+
+The difference between selling 10 vs 30 systems/month is enormous.
+
+Your marketing, taproom experience, and Meta ads should all focus on this one number.
+
+2. Average Keg Consumption per Household
+
+This determines lifetime value.
+
+From your experience, the current estimate is roughly:
+
+~2 kegs per month per household
+
+That is excellent.
+
+Let’s look at the economics.
+
+Example keg price:
+
+$130 average
+
+2 kegs/month = $260/month
+
+Annual household value:
+
+$3,120/year
+
+If a customer stays for 5 years:
+
+$15,600 lifetime revenue
+
+And that’s just beverages.
+
+This is why selling the system is actually customer acquisition, not the real profit centre.
+
+3. Customer Acquisition Cost (CAC)
+
+This is the cost to acquire one new household.
+
+Sources include:
+
+• Meta ads
+• taproom discovery
+• word-of-mouth
+• events
+• wholesale exposure
+
+Example scenarios:
+
+If CAC stays below $500–$700, the economics are excellent because lifetime value is so high.
+
+4. Refill Retention Rate
+
+This measures how long customers stay active.
+
+Example retention:
+
+Because the machine sits in the home, retention is usually very high.
+
+The system becomes part of the household’s entertaining routine.
+
+This is why the model is so powerful.
+
+5. Installed Base Density (Households in a Region)
+
+This determines how defensible your market becomes.
+
+Example:
+
+If the Gold Coast reaches:
+
+500 systems
+
+You start seeing regular visibility.
+
+If it reaches:
+
+1000 systems
+
+The concept becomes normal locally.
+
+If it reaches:
+
+2000+ systems
+
+Tap That effectively owns the home tap category in that region.
+
+At that point competitors struggle because:
+
+• brand awareness is already dominant
+• customers already own systems
+• switching costs exist
+
+Why These 5 Numbers Matter
+
+Together they determine the economic engine.
+
+Example scenario:
+
+Installed households:
+
+1000
+
+Average consumption:
+
+2 kegs/month
+
+Keg price:
+
+$130
+
+Monthly revenue:
+
+1000 × 2 × 130
+= $260,000/month
+
+Annual revenue:
+
+$3.1M
+
+And that’s just household refills.
+
+Add:
+
+• taproom
+• wholesale
+• kegerator sales
+• events
+
+You’re easily looking at $5M+ local ecosystem revenue.
+
+Why Investors Like This Model
+
+Most breweries rely on:
+
+• venue sales
+• retail distribution
+• constant new customer acquisition
+
+Tap That creates:
+
+a growing installed base of recurring customers.
+
+That’s much closer to:
+
+• Nespresso
+• SodaStream
+• Keurig
+
+Than a traditional brewery.
+
+The One Number That Matters Most
+
+Everything ultimately drives one metric:
+
+Installed Kegerators
+
+Because every new system produces:
+
+• years of beverage sales
+• word-of-mouth marketing
+• brand exposure
+
+This is why the strategy should be:
+
+Install as many systems as possible.
+
+Even if margins on the machines are lower.
+
+The Gold Coast Proof-of-Concept Target
+
+A very powerful milestone would be:
+
+1000 installed systems locally
+
+At that point you prove:
+
+1️⃣ real consumer demand
+2️⃣ repeat consumption behaviour
+3️⃣ viable acquisition economics
+
+Once proven, the model becomes replicable to other cities.
+
+The Strategic Insight Most Breweries Miss
+
+Breweries focus on:
+
+selling more beer.
+
+Tap That should focus on:
+
+installing more taps.
+
+Because taps create years of beer sales automatically.
+
+The 7-stage roadmap that could realistically take Tap That from a local brewery to a $100M beverage platform.
+
+It ties together everything we discussed:
+
+• installed base
+• franchise expansion
+• hardware platform
+• beverage ecosystem
+• acquisition potential.
+
+this roadmap essentially shows how Tap That could evolve from a local brewery into a national beverage platform.
+
+It’s not a prediction; it’s a strategic pathway that keeps the business focused on the right milestones at each stage.
+
+The key idea is that each stage unlocks the next one.
+
+The 7-Stage Roadmap to a $100M Tap That Platform
+
+Stage 1 — Prove the Local Ecosystem
+
+(Where you are now)
+
+Goal:
+Prove that the home tap model works consistently in one market.
+
+Key actions:
+
+• install kegerators
+• build refill customer base
+• grow taproom discovery
+• refine keg logistics
+• optimise marketing acquisition
+
+Key milestone:
+
+500–1000 installed systems
+
+At this point you have proven:
+
+demand exists
+
+customers refill regularly
+
+acquisition costs are manageable
+
+word-of-mouth growth occurs
+
+This becomes your proof of concept.
+
+Stage 2 — Dominate the Local Market
+
+Goal:
+Become synonymous with beer on tap at home in the region.
+
+Key actions:
+
+• aggressive kegerator acquisition
+• strong referral programs
+• taproom events for discovery
+• partnerships with venues and sports clubs
+• membership program for refills
+
+Milestone:
+
+1000–2000 households
+
+At this level something interesting happens:
+
+People regularly encounter Tap That systems at:
+
+• BBQs
+• parties
+• sports nights
+
+The concept becomes normal locally.
+
+That’s when the flywheel really starts spinning.
+
+Stage 3 — Build the Operating Playbook
+
+Once the model works locally, the next step is systemising it.
+
+Goal:
+
+Turn Tap That into a replicable operating system.
+
+Document everything:
+
+• keg logistics
+• refill processes
+• customer onboarding
+• taproom model
+• marketing funnels
+• kegerator installation
+• service procedures
+
+This becomes the Tap That Operating Manual.
+
+Which is the foundation of franchising or licensing.
+
+Stage 4 — Launch the Second Hub
+
+Goal:
+
+Prove the model works outside the original market.
+
+Possible locations:
+
+• Brisbane
+• Sunshine Coast
+• Northern Rivers
+
+Each hub includes:
+
+• microbrewery
+• taproom showroom
+• refill depot
+• kegerator retail
+
+Milestone:
+
+2 successful ecosystems
+
+At this stage investors begin seeing true scalability.
+
+Stage 5 — National Hub Expansion
+
+Now the model can scale through:
+
+• company-owned locations
+• franchise operators
+• licensing partnerships
+
+Each city hub serves:
+
+500–1500 households
+
+Potential markets:
+
+• Sydney
+• Melbourne
+• Perth
+• Adelaide
+• regional hubs
+
+If 20 cities averaged 1000 households each:
+
+20,000 systems nationally
+
+That is a very serious beverage network.
+
+Stage 6 — Hardware Platform
+
+Once the installed base grows large enough, the hardware becomes strategically important.
+
+Currently:
+
+Kegland produces the machines.
+
+But long-term you may want:
+
+The Tap That Home Tap System
+
+A proprietary appliance designed to pour:
+
+• beer
+• cocktails
+• kombucha
+• soft drinks
+• cold brew
+
+Why this matters:
+
+Owning the hardware layer creates:
+
+• platform lock-in
+• brand control
+• higher margins
+• licensing opportunities
+
+At this point Tap That begins to resemble:
+
+• Nespresso
+• SodaStream
+• Keurig
+
+Stage 7 — Beverage Platform
+
+At scale the system becomes something much larger.
+
+Instead of just selling beer, Tap That becomes a home beverage ecosystem.
+
+The platform could supply:
+
+• craft beer
+• hard seltzers
+• RTD spirits & cocktails
+• kombucha
+• cold brew
+• soft drinks
+• non-alcoholic beverages
+
+This expands the category dramatically.
+
+Instead of targeting only craft beer drinkers, you target:
+
+entire households.
+
+Why This Becomes Attractive to Large Companies
+
+Large beverage companies constantly look for new consumption platforms.
+
+Examples:
+
+• Nespresso (Nestlé)
+• SodaStream (PepsiCo)
+• Keurig (Keurig Dr Pepper)
+
+They are not buying drinks.
+
+They are buying control of the consumption system.
+
+If Tap That becomes the platform people use to pour drinks at home, it becomes extremely valuable.
+
+Potential acquirers could include:
+
+• AB InBev
+• Lion
+• Asahi
+• Coca-Cola
+• PepsiCo
+
+The Strategic Order That Matters
+
+The most important thing is not skipping stages.
+
+The correct order is:
+
+1️⃣ Local proof of concept
+2️⃣ Installed base growth
+3️⃣ Document the playbook
+4️⃣ Second hub
+5️⃣ National expansion
+6️⃣ Hardware platform
+7️⃣ Beverage ecosystem
+
+Everything starts with Stage 1 and 2.
+
+The Critical Inflection Point
+
+The most important milestone in the entire roadmap is:
+
+1000 installed systems in one region.
+
+That proves:
+
+• demand
+• repeat purchasing
+• word-of-mouth growth
+• viable acquisition cost
+
+Once that is proven, the model becomes much easier to scale.
+
+The Big Strategic Insight
+
+Most breweries focus on:
+
+selling more beer.
+
+Tap That should focus on:
+
+installing more taps.
+
+Because every installed tap produces years of beverage sales automatically.
+
+Yes — a 10-year exit timeline is absolutely realistic for the model you’re building. In fact, platform-style beverage businesses often take 7–12 years to reach the type of scale where strategic buyers become interested.
+
+The key is not simply “growing the brewery.”
+The goal is to build something much more valuable:
+
+A large installed network of home tap systems with recurring beverage demand.
+
+That’s the asset a buyer will pay for.
+
+Below is a realistic 10-year milestone roadmap for Tap That based on everything we've discussed.
+
+The 10-Year Tap That Exit Roadmap
+
+The Goal
+
+Build a business that is attractive to a strategic buyer within 10 years.
+
+Likely buyers:
+
+AB InBev
+
+Lion / Kirin
+
+Asahi
+
+Coca-Cola
+
+PepsiCo
+
+appliance companies
+
+hospitality groups
+
+What they care about most:
+
+1️⃣ Installed systems
+2️⃣ Recurring beverage revenue
+3️⃣ National expansion potential
+
+Phase 1 (Years 1–2)
+
+Prove the Model
+
+Goal:
+Demonstrate that the home tap ecosystem works consistently.
+
+Milestones:
+
+Install:
+
+200–400 home systems
+
+Target metrics:
+
+• 2 kegs per household per month
+• strong refill retention
+• consistent demand growth
+
+Operational goals:
+
+refine keg refill logistics
+
+optimise kegerator sales process
+
+improve taproom conversion
+
+run Meta ads to drive installations
+
+introduce refill membership program
+
+Revenue target:
+
+$1M–$1.5M annual revenue
+
+Outcome:
+
+Proof that the concept works locally.
+
+Phase 2 (Years 3–4)
+
+Dominate the Gold Coast
+
+Goal:
+
+Become the default brand for beer on tap at home in the region.
+
+Milestones:
+
+Install:
+
+800–1000 systems locally
+
+This is a major inflection point.
+
+At this level:
+
+Tap That taps appear at parties
+
+people regularly encounter the product
+
+word-of-mouth accelerates
+
+Operational goals:
+
+strong referral program
+
+taproom tasting events for kegerator owners
+
+partnerships with sports clubs
+
+wholesale exposure
+
+Revenue potential:
+
+$3M–$5M ecosystem revenue
+
+Outcome:
+
+The business becomes a proven local ecosystem.
+
+Phase 3 (Years 5–6)
+
+Replicate the Model
+
+Goal:
+
+Prove the system works in multiple markets.
+
+Launch:
+
+Second Tap That hub
+
+Possible locations:
+
+Brisbane
+
+Sunshine Coast
+
+Northern Rivers
+
+Milestones:
+
+• 1500–2000 installed systems total
+• two profitable hubs
+
+Operational focus:
+
+document operating systems
+
+refine marketing playbook
+
+standardise keg logistics
+
+build franchise / licensing framework
+
+Revenue potential:
+
+$6M–$10M
+
+Outcome:
+
+The business becomes replicable.
+
+This is when investors start paying attention.
+
+Phase 4 (Years 7–8)
+
+Regional Expansion
+
+Goal:
+
+Build a multi-city network of Tap That hubs.
+
+Expansion strategy:
+
+• company-owned hubs
+• franchise partners
+• licensing agreements
+
+Possible markets:
+
+Brisbane
+
+Sunshine Coast
+
+Sydney
+
+Melbourne
+
+Perth
+
+Adelaide
+
+Milestones:
+
+5–8 hubs
+
+Installed base:
+
+5,000–8,000 systems
+
+Revenue potential:
+
+$15M–$25M
+
+Outcome:
+
+Tap That becomes a national beverage network.
+
+At this stage you start attracting serious acquisition interest.
+
+Phase 5 (Years 9–10)
+
+Platform Expansion and Exit
+
+Goal:
+
+Position Tap That as a home beverage platform.
+
+Strategic moves:
+
+• develop Tap That branded hardware
+• expand beverage range
+• introduce non-alcoholic drinks
+• expand subscription refill model
+
+Installed base target:
+
+10,000+ systems
+
+Revenue potential:
+
+$25M–$40M+
+
+At this point, Tap That becomes very interesting to:
+
+• global beverage companies
+• consumer appliance companies
+• hospitality groups
+
+Possible valuation range:
+
+$50M–$100M+
+
+What a Buyer Would Actually Be Buying
+
+Not the brewery.
+
+They would be buying:
+
+1️⃣ Installed System Network
+
+Example:
+
+10,000 homes with Tap That systems.
+
+2️⃣ Recurring Beverage Revenue
+
+Example:
+
+10,000 households
+× 2 kegs per month
+× $140 per keg
+
+=
+
+$2.8M monthly revenue
+
+=
+
+$33M annual revenue
+
+3️⃣ Platform Potential
+
+The ability to expand the system to:
+
+cocktails
+
+kombucha
+
+cold brew
+
+soft drinks
+
+non-alcoholic beverages
+
+That’s where the real long-term value sits.
+
+The Single Most Important Metric
+
+Your strategy ultimately revolves around one number:
+
+Installed Kegerators
+
+Everything feeds into that:
+
+taproom
+
+marketing
+
+wholesale
+
+partnerships
+
+Because every installed system creates:
+
+• recurring revenue
+• organic marketing
+• long-term customers
+
+The Most Important Milestone
+
+The first huge milestone is:
+
+1,000 installed systems locally.
+
+Once you reach that point you have proven:
+
+demand exists
+
+refill behaviour is consistent
+
+word-of-mouth works
+
+acquisition costs are viable
+
+That’s when the business becomes much easier to scale.
+
+The Big Strategic Insight
+
+Most breweries focus on:
+
+selling more beer.
+
+Tap That should focus on:
+
+installing more taps.
+
+Because taps automatically generate years of beer sales.
+
+If you'd like, I can also show you something extremely helpful for the next stage:
+
+The 3 strategic decisions you should make in the next 12 months that will have the biggest impact on whether this 10-year exit actually happens.
+
+They’re not obvious — but they dramatically change the trajectory of businesses like yours.
+
+Justin — if your goal is a 10-year exit, the next 12–24 months are actually the most important period.
+
+The strategic choices you make now determine whether Tap That becomes:
+
+a $3–5M lifestyle brewery, or
+
+a $50M+ platform company.
+
+There are three decisions that will shape that outcome.
+
+The 3 Strategic Decisions That Will Determine a 10-Year Exit
+
+1. Treat Kegerators as Customer Acquisition (Not Profit)
+
+This is the single most important mindset shift.
+
+Most businesses try to make money selling the machine.
+
+But the real money is years of keg refills.
+
+Example economics
+
+Typical household:
+
+2 kegs/month
+≈ $130 average keg
+
+Monthly spend:
+
+$260
+
+Annual spend:
+
+$3,120
+
+5-year value:
+
+~$15,000 per household
+
+That means the machine is really just a customer acquisition tool.
+
+Strategic implication
+
+You should optimise for:
+
+maximum installations, not maximum margin.
+
+That might mean:
+
+reducing margin on machines
+
+offering bundles
+
+financing options
+
+referral rewards
+
+Because every new system creates years of recurring revenue.
+
+2. Design the Business for Replication
+
+If the goal is expansion or exit, Tap That must eventually become replicable in other cities.
+
+That means everything you do should eventually be able to become a playbook.
+
+Start documenting things like:
+
+Customer Acquisition
+
+Meta ad campaigns
+
+taproom conversion process
+
+referral programs
+
+wholesale lead generation
+
+Operations
+
+keg refill logistics
+
+cleaning and maintenance
+
+system installation
+
+keg tracking
+
+Customer Experience
+
+onboarding process
+
+first refill experience
+
+membership program
+
+All of this eventually becomes:
+
+The Tap That Operating System
+
+Which allows:
+
+franchising
+
+licensing
+
+rapid expansion
+
+3. Position Tap That as a Beverage Platform (Not Just a Brewery)
+
+Right now the product is perceived as:
+
+beer + kegerator
+
+But the real opportunity is much bigger.
+
+The system could eventually pour:
+
+beer
+
+cocktails
+
+seltzers
+
+kombucha
+
+cold brew
+
+soft drinks
+
+non-alcoholic drinks
+
+That changes the category from:
+
+Beer gadget → home beverage appliance
+
+And that dramatically increases the potential market.
+
+Why This Matters for Exit
+
+Large beverage companies don’t buy breweries.
+
+They buy distribution platforms.
+
+Examples:
+
+• Nespresso (Nestlé)
+• SodaStream (PepsiCo)
+• Keurig (Keurig Dr Pepper)
+
+What they purchased wasn’t coffee or soda.
+
+They purchased control of the consumption system.
+
+If Tap That becomes the system people use to pour drinks at home, it becomes extremely valuable.
+
+The Strategic Flywheel You Are Building
+
+Your business actually has a very powerful growth engine.
+
+Sell Kegerator
+
+↓
+
+Household Hosts Friends
+
+↓
+
+Friends Discover Tap System
+
+↓
+
+New Customers Buy Systems
+
+↓
+
+Installed Base Grows
+
+↓
+
+Refill Revenue Grows
+
+↓
+
+Brand Visibility Increases
+
+As the installed base grows, the flywheel spins faster.
+
+The One Metric That Matters Most
+
+Everything comes back to one number:
+
+Installed Kegerators
+
+Because every installed system creates:
+
+recurring revenue
+
+organic marketing
+
+network effects
+
+The Most Important Milestone in the Next 3–4 Years
+
+Your first huge milestone is:
+
+1,000 installed systems locally
+
+At that point you prove:
+
+the model works
+
+people refill consistently
+
+word-of-mouth spreads
+
+customer acquisition is viable
+
+Once this happens, expansion becomes far easier.
+
+A Simple Way to Think About the Next 10 Years
+
+Your strategy can be summarised in one sentence:
+
+Install taps → build refill network → replicate the ecosystem → become the home tap platform.
+
+✅ In practical terms your focus should be:
+
+Next 2 years
+→ Install systems aggressively
+
+Next 5 years
+→ Build multiple city ecosystems
+
+Next 10 years
+→ Become a national home tap network
+
+If you'd like, I can also show you something very useful for you and your partner:
+
+What the Tap That business could realistically look like at Year 10 (numbers, systems, revenue, valuation).
+
+Seeing those numbers makes the entire strategy much more tangible.
+
+Justin — this is a really important strategic question, and the answer is actually encouraging:
+
+Yes, a 10-year exit is possible without external investment, but it depends on how aggressively you want to scale.
+
+There are essentially three growth paths available to Tap That.
+
+The Three Possible Growth Paths
+
+1️⃣ Fully Self-Funded (Organic Growth)
+
+You continue funding growth from:
+
+kegerator sales
+
+keg refill cashflow
+
+taproom revenue
+
+wholesale revenue
+
+Advantages
+
+• you retain 100% ownership
+• no investor pressure
+• full strategic control
+• easier exit later
+
+Disadvantages
+
+• slower expansion
+• fewer cities by Year 10
+
+Likely outcome
+
+After 10 years you might reach:
+
+3,000–5,000 installed systems
+
+$10M–$15M revenue
+
+$30M–$60M valuation
+
+Still a very strong exit scenario.
+
+And importantly:
+
+Your model is much more cashflow friendly than most startups because kegs generate recurring revenue.
+
+2️⃣ Strategic Expansion Capital (Selective Investment)
+
+You grow organically for several years, then raise growth capital later.
+
+This is often the best path.
+
+Timeline example
+
+Years 1–4
+→ Self funded
+
+Years 5–7
+→ Raise growth capital
+
+Why this works
+
+By Year 4 you could show investors:
+
+• installed system network
+• refill behaviour
+• strong unit economics
+• proven demand
+
+At that point the business becomes much less risky to investors, so you give up less equity.
+
+Likely outcome
+
+By Year 10 you might reach:
+
+10,000+ installed systems
+
+$25M–$40M revenue
+
+$50M–$100M valuation
+
+3️⃣ Venture-Backed Scaling
+
+Raise capital early and expand rapidly.
+
+Example:
+
+Raise $2M–$5M early to open multiple hubs quickly.
+
+Advantages
+
+• faster national expansion
+• large installed base sooner
+
+Disadvantages
+
+• heavy dilution
+• investor pressure
+• higher risk
+
+This is less common for beverage businesses unless they are hardware-driven platforms.
+
+The Good News About Your Model
+
+Tap That has something extremely valuable:
+
+Recurring cashflow.
+
+Every installed system creates repeat purchases.
+
+That means the business can finance its own growth better than most startups.
+
+Example:
+
+If you reach 1000 households:
+
+1000 × 2 kegs/month × $130
+
+= $260,000 monthly revenue
+
+= $3.1M annually
+
+That creates a strong base to reinvest into growth.
+
+The Real Capital Bottleneck
+
+The biggest costs when scaling are usually:
+
+1️⃣ New Hub Setup
+
+Opening a new Tap That hub might require roughly:
+
+brewing equipment
+
+lease fitout
+
+cold storage
+
+kegerator inventory
+
+staff
+
+Estimate:
+
+$400k–$800k per hub
+
+2️⃣ Hardware Development (Future)
+
+If you eventually develop the Tap That Home Tap System, that could require:
+
+$1M–$3M+
+
+But this would happen later (Year 7–9) when the concept is proven.
+
+The Ideal Funding Strategy for Tap That
+
+The smartest path is likely:
+
+Years 1–4
+
+Grow organically.
+
+Focus on:
+
+installing systems
+
+building refill revenue
+
+dominating the Gold Coast
+
+Target:
+
+800–1000 installed systems
+
+Years 5–6
+
+Raise growth capital if needed to expand hubs.
+
+This could be:
+
+• strategic investors
+• beverage companies
+• private investors
+• franchise partners
+
+Years 7–10
+
+Expand to multiple cities.
+
+At this stage you could fund expansion via:
+
+• franchise partners
+• licensing
+• reinvested profits
+
+One Very Important Insight
+
+Your model has a huge hidden funding advantage:
+
+Franchising.
+
+If Tap That becomes franchisable, expansion could be funded by franchisees, not investors.
+
+Example:
+
+A franchise partner might invest:
+
+$500k–$1M
+
+to open a Tap That hub.
+
+This allows you to expand without raising capital.
+
+The Key Milestone That Changes Everything
+
+The moment the business becomes attractive to investors is when you reach:
+
+~1000 installed systems.
+
+At that point you prove:
+
+• repeat purchasing
+• strong demand
+• viable acquisition cost
+• word-of-mouth growth
+
+That’s when the business becomes de-risked.
+
+My Honest Assessment
+
+Based on the model you’re building:
+
+You could likely reach a 10-year exit without external investment if you:
+
+• grow steadily
+• reinvest profits
+• use franchising for expansion
+
+External capital would simply accelerate growth, not make it possible.
+
+The Real Question to Ask
+
+Instead of:
+
+"Do we need investment?"
+
+The better question is:
+
+"How fast do we want to grow?"
+
+Because the model itself is already very capital efficient.
+
+If you'd like, I can also show you something extremely helpful for your planning:
+
+A realistic Year-by-Year system installation roadmap (how many kegerators you would need to sell each year to hit a $50M+ exit).
+
+It makes the 10-year strategy much more concrete.
+
+Instead of thinking abstractly about a “$50M exit”, we reverse engineer it from the one metric that matters most in your model:
+
+Installed kegerators.
+
+Because every installed system creates:
+
+recurring keg purchases
+
+organic marketing
+
+brand visibility
+
+network effects
+
+So the question becomes:
+
+How many systems do we need installed in 10 years to build a valuable business?
+
+The 10-Year Tap That Installed Base Roadmap
+
+Below is a realistic growth curve, assuming steady scaling rather than venture-style hypergrowth.
+
+Year 1
+
+Foundation Year
+
+Focus:
+
+refining the model
+
+improving kegerator sales process
+
+building refill habits
+
+Installations:
+
+100 new systems
+
+Installed base:
+
+100 households
+
+Year 2
+
+Local Momentum
+
+Focus:
+
+improving marketing
+
+building referral programs
+
+growing taproom conversions
+
+Installations:
+
+150 new systems
+
+Installed base:
+
+250 households
+
+Year 3
+
+Word-of-Mouth Begins
+
+Focus:
+
+brand visibility
+
+social discovery
+
+partnerships with venues
+
+Installations:
+
+200 new systems
+
+Installed base:
+
+450 households
+
+Now people start seeing Tap That systems at parties and BBQs.
+
+Year 4
+
+Local Proof of Concept
+
+Focus:
+
+accelerating system installs
+
+improving refill membership
+
+refining customer acquisition
+
+Installations:
+
+300 new systems
+
+Installed base:
+
+750 households
+
+You are approaching the critical milestone.
+
+Year 5
+
+Category Ownership Locally
+
+Installations:
+
+400 new systems
+
+Installed base:
+
+1,150 households
+
+This is a huge moment.
+
+At this scale:
+
+Tap That systems appear regularly in homes
+
+word-of-mouth accelerates
+
+the concept becomes normal locally
+
+This proves the model.
+
+Phase 2: Replication
+
+Now expansion becomes easier.
+
+Year 6
+
+Second Market Launch
+
+Launch second hub (Brisbane / Sunshine Coast etc).
+
+Installations:
+
+600 new systems
+
+Installed base:
+
+1,750 households
+
+Year 7
+
+Multi-City Growth
+
+Installations:
+
+900 new systems
+
+Installed base:
+
+2,650 households
+
+Now multiple hubs operate.
+
+Year 8
+
+Regional Expansion
+
+Installations:
+
+1,200 new systems
+
+Installed base:
+
+3,850 households
+
+Year 9
+
+National Network Begins
+
+Installations:
+
+1,600 new systems
+
+Installed base:
+
+5,450 households
+
+Year 10
+
+Platform Scale
+
+Installations:
+
+2,000 new systems
+
+Installed base:
+
+7,450 households
+
+What the Business Looks Like in Year 10
+
+Installed households:
+
+~7,500
+
+Average consumption:
+
+2 kegs/month
+
+Average keg price:
+
+$130
+
+Monthly revenue
+
+7,500 × 2 × $130
+
+= $1.95M per month
+
+Annual revenue
+
+≈ $23M annually
+
+And this is only from residential keg refills.
+
+Add:
+
+taproom revenue
+
+wholesale
+
+kegerator sales
+
+events
+
+And the ecosystem could realistically reach:
+
+$25M–$30M annual revenue
+
+Possible Exit Valuation
+
+If the business reaches:
+
+$25M revenue
+with strong recurring demand
+
+Valuations could fall roughly around:
+
+$50M – $100M+
+
+depending on growth and platform potential.
+
+The Key Insight
+
+The entire 10-year strategy can be simplified to one question:
+
+How do we install more taps every year?
+
+Because taps create:
+
+future keg sales
+
+organic marketing
+
+customer networks
+
+The Milestones That Matter Most
+
+There are three critical thresholds in this model.
+
+500 systems
+
+Strong local visibility begins.
+
+1,000 systems
+
+Proof the model works.
+
+5,000+ systems
+
+National platform potential.
+
+Why Your Model Is So Interesting
+
+Most breweries try to grow by:
+
+selling more beer.
+
+Tap That grows by:
+
+installing more taps.
+
+Once the tap is installed, beer sales follow automatically.
+
+Justin — thinking about risks early is exactly what increases the probability that your 10-year exit plan actually happens.
+
+Your model is strong, but there are five key risks that could derail it if they’re not handled intentionally. The good news is they’re all manageable with the right strategy.
+
+The 5 Biggest Risks to the 10-Year Tap That Plan
+
+(And how to manage them early)
+
+1. The Model Doesn’t Scale Beyond One Location
+
+The Risk
+
+Some hospitality businesses work well locally but are hard to replicate.
+
+This can happen if:
+
+too much depends on the founders
+
+operations are inconsistent
+
+logistics become messy
+
+customer acquisition is unpredictable
+
+If that happens, expansion stalls.
+
+The Solution
+
+Start building a replicable operating system early.
+
+Document things like:
+
+• kegerator sales process
+• installation procedures
+• keg refill logistics
+• marketing funnels
+• customer onboarding
+• membership programs
+
+Your goal is to eventually create:
+
+The Tap That Playbook
+
+Which makes it possible to open the second and third hubs easily.
+
+2. Customer Acquisition Becomes Too Expensive
+
+The Risk
+
+If acquiring a new kegerator customer becomes too expensive, growth slows.
+
+Example problem:
+
+Customer acquisition cost = $1500+.
+
+That kills scalability.
+
+The Solution
+
+Build multiple acquisition channels, not just ads.
+
+Your strongest channels should be:
+
+Taproom discovery
+
+Many customers will first encounter the system in person.
+
+Word-of-mouth
+
+Each installed system becomes a demonstration.
+
+Wholesale exposure
+
+Customers see your products at venues.
+
+Referral programs
+
+Happy customers bring new customers.
+
+The goal is to make your growth partly self-propagating.
+
+3. Competitors Enter the Market
+
+The Risk
+
+If the concept works, competitors will appear.
+
+Other breweries or beverage companies may try to offer similar systems.
+
+The Solution
+
+Win the installed base race early.
+
+The business with the most systems in homes gains a huge advantage because:
+
+• customers already own the equipment
+• brand becomes the default
+• switching costs exist
+
+Think of it like:
+
+PlayStation vs Xbox.
+
+Once someone owns one system, they rarely switch.
+
+Your goal is to own the category locally first.
+
+4. Hardware Dependency (Kegland)
+
+The Risk
+
+Right now your hardware comes from Kegland.
+
+That means you don’t control:
+
+machine design
+
+keg format
+
+hardware margins
+
+If the platform becomes large, this could become a strategic weakness.
+
+The Solution
+
+Don’t worry about this now.
+
+But long term (Years 6–8), consider developing:
+
+The Tap That Home Tap System
+
+Your own branded appliance.
+
+Benefits:
+
+• platform control
+• stronger brand identity
+• higher margins
+• licensing potential
+
+But this only becomes realistic once the concept is proven.
+
+5. Founder Burnout
+
+The Risk
+
+Hospitality businesses often trap founders in day-to-day operations.
+
+If everything depends on you, scaling becomes impossible.
+
+The Solution
+
+Gradually move from:
+
+Operator → System Builder
+
+Key steps:
+
+Hire managers to run:
+
+• taproom
+• events
+• operations
+
+Focus your time on:
+
+• strategy
+• partnerships
+• growth
+• expansion planning
+
+Your role eventually becomes building the platform, not running the bar.
+
+The Hidden Advantage Tap That Has
+
+Your business has something many breweries don’t:
+
+A network effect.
+
+The more systems installed:
+
+• the more people see them
+• the more curiosity spreads
+• the more customers join
+
+Eventually the flywheel looks like this:
+
+Install Kegerator
+
+↓
+
+Customer Hosts Friends
+
+↓
+
+Guests Discover Tap System
+
+↓
+
+Some Become Customers
+
+↓
+
+Installed Base Grows
+
+↓
+
+More Visibility
+
+At scale, your customers become your marketing team.
+
+The Biggest Strategic Priority
+
+Everything comes back to one number:
+
+Installed Kegerators
+
+Because each one creates:
+
+• recurring revenue
+• organic marketing
+• network effects
+
+Your entire strategy should ultimately support:
+
+installing more taps.
+
+The Real 10-Year Success Metric
+
+If Tap That reaches something like:
+
+7,000–10,000 installed systems
+
+You’ve built something extremely valuable.
+
+At that point the company becomes:
+
+• a beverage platform
+• a national ecosystem
+• a strategic acquisition target.
+
+If you'd like, I can also show you something that would help enormously when discussing this with your partner:
+
+What the Tap That business likely looks like operationally at Year 5 (staff, hubs, revenue, systems, etc.).
+
+That midpoint picture often makes the 10-year strategy feel much more achievable.
+
+Justin — this is a really useful exercise because Year 5 is the midpoint where the business transforms.
+
+Before Year 5 you’re proving the concept.
+After Year 5 you’re scaling it.
+
+So let’s paint a realistic picture of what Tap That could look like in Year 5 if the strategy works.
+
+This is the stage where the business starts to become very attractive to investors or strategic partners.
+
+Tap That in Year 5
+
+The Midpoint of the 10-Year Strategy
+
+Installed System Network
+
+By Year 5 you should be targeting approximately:
+
+1,000–1,200 installed kegerators
+
+Most of these will still be concentrated in the Gold Coast / SEQ region.
+
+At this scale something important happens:
+
+People start encountering Tap That systems regularly at:
+
+BBQs
+
+sporting events
+
+birthday parties
+
+social gatherings
+
+This is where the word-of-mouth engine really starts accelerating.
+
+The product begins to feel normal in the region, not novel.
+
+Household Consumption
+
+Average household consumption target:
+
+~2 kegs per month
+
+Average keg price assumption:
+
+$130
+
+So each household generates roughly:
+
+$260/month
+
+or
+
+$3,120/year
+
+Residential Refill Revenue
+
+With 1,100 households:
+
+Monthly revenue:
+
+1,100 × 2 × $130
+
+≈ $286,000 per month
+
+Annual revenue:
+
+≈ $3.4M per year
+
+And that is just keg refills.
+
+Additional Revenue Streams
+
+Your ecosystem also includes:
+
+Taproom
+
+Revenue estimate:
+
+$1M – $1.5M annually
+
+This acts as both:
+
+a revenue centre
+
+a discovery channel for kegerators
+
+Kegerator Sales
+
+If you sell roughly:
+
+300–400 systems per year
+
+That creates additional revenue and feeds the installed base.
+
+Wholesale
+
+Supplying restaurants and sports clubs.
+
+Example:
+
+30 venues × 4 kegs/week
+
+This could generate:
+
+$500k – $1M annually
+
+Total Ecosystem Revenue (Year 5)
+
+Realistic range:
+
+$5M – $7M annual revenue
+
+At this stage Tap That is no longer a small brewery.
+
+It becomes a regional beverage ecosystem.
+
+What the Team Might Look Like
+
+You are no longer running everything yourself.
+
+A typical Year-5 team might include:
+
+Operations
+
+• venue manager
+• assistant manager
+• bar staff
+• events coordinator
+
+Production
+
+• head brewer
+• brewery assistant
+
+Sales
+
+• wholesale manager
+• kegerator sales / customer support
+
+Admin
+
+• bookkeeping
+• marketing support
+
+Total team:
+
+10–15 staff
+
+Operational Structure
+
+By Year 5 the business operates like this:
+
+Taproom
+
+• brand discovery
+• tasting room
+• events
+• product showcase
+
+Kegerator Sales
+
+• online enquiries
+• taproom demonstrations
+• installations
+
+Refill Depot
+
+• keg cleaning
+• refills
+• customer visits
+
+Wholesale Distribution
+
+• restaurants
+• sports clubs
+• events
+
+Strategic Position at Year 5
+
+By this point you have proven:
+
+1️⃣ People want beer on tap at home
+2️⃣ Households refill regularly
+3️⃣ Customer acquisition works
+4️⃣ Word-of-mouth spreads the concept
+
+This is the moment the business becomes scalable.
+
+The Next Strategic Move
+
+After Year 5 the focus shifts from:
+
+proving the model
+
+to
+
+replicating the model.
+
+That means:
+
+Launching Tap That Hub #2
+
+Potential markets:
+
+Brisbane
+
+Sunshine Coast
+
+Northern Rivers
+
+Why Year 5 Is So Important
+
+If you reach:
+
+~1,000 installed systems
+
+You have proven:
+
+demand
+
+refill behaviour
+
+marketing economics
+
+network effects
+
+At this point the business becomes attractive to:
+
+• investors
+• franchise partners
+• beverage companies
+
+The Founder’s Role by Year 5
+
+Ideally your role evolves from:
+
+Operator → Growth Architect
+
+Your focus becomes:
+
+• expansion strategy
+• partnerships
+• brand positioning
+• scaling the ecosystem
+
+Rather than running daily operations.
+
+The Big Picture
+
+At Year 5, Tap That is no longer just a brewery.
+
+It becomes:
+
+The Gold Coast’s home tap network.
+
+Which is the foundation for expanding to other cities.
+
+
+
+| Year | Households | Monthly Kegs | Annual Revenue |
+
+|---|---|---|---|
+
+| 1 | 180 | 360 | $600k |
+
+| 2 | 360 | 720 | $1.2M |
+
+| 3 | 540 | 1080 | $1.8M |
+
+| 4 | 720 | 1440 | $2.4M |
+
+| 5 | 900 | 1800 | $3.0M |
+
+
+
+| Systems per Month | 5 Year Installed Base |
+
+|---|---|
+
+| 10 | ~600 households |
+
+| 15 | ~900 households |
+
+| 30 | ~1800 households |
+
+
+
+| CAC | Outcome |
+
+|---|---|
+
+| $200 | extremely strong |
+
+| $400 | very healthy |
+
+| $800 | acceptable |
+
+| $1500+ | problematic |
+
+
+
+| Retention | Impact |
+
+|---|---|
+
+| 1 year | weak |
+
+| 2 years | decent |
+
+| 5+ years | extremely strong |
