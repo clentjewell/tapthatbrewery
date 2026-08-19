@@ -11,6 +11,7 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | D05 | Offer Worksheet | `01 Discover/02 Working Drafts/` | Internal | Draft | v01 | Photo-verified pricing; membership reconciliation pending |
 | D06 | Discovery Pack Synthesis | `01 Discover/02 Working Drafts/` | Internal | Draft | v01 | Centrepiece; awaits census data + client corrections |
 | — | Contacts + Stakeholders | `00 Admin/01 Contacts + Stakeholders/contacts.md` | Internal | Live | v01 | |
+| — | Maxxim Output Tracker | `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` | Internal | Live | v01 | The 65-document Maxxim 3D target catalogue with per-document status |
 
 ## Not yet created (standard Discover set)
 
