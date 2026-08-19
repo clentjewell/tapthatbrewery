@@ -21,14 +21,14 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Gate 0 — Onboarding | #1–3 | `00 Admin/04 Commercial + SOW/` | Draft v01 |
 | Discover | #4–22 (19 docs) | `01 Discover/02 Working Drafts/` | Draft v01 — **CP1 unsigned** |
 | Design — strategy | #23–33 | `02 Design/02 Working Drafts/` | Draft v01 |
-| Design — brand | #34–36 | `02 Design/02 Working Drafts/` | Draft v01 (✍ #34, #36) |
+| Design — brand | #34–36 | `02 Design/02 Working Drafts/` | Draft v01 (sign-off: #34, #36) |
 | Design — web/SEO/social/content | #37–42 | `02 Design/02 Working Drafts/` | Draft v01 |
 | Design — plans | #43–51 | `02 Design/02 Working Drafts/` | Draft v01 |
-| Design — briefs | #52–61 | `02 Design/02 Working Drafts/` | Draft v01 (✍ #61) |
-| Design — summaries | #62–64 | `02 Design/02 Working Drafts/` | Draft v01 — **CP2 unsigned** (✍ #62, #63) |
+| Design — briefs | #52–61 | `02 Design/02 Working Drafts/` | Draft v01 (sign-off: #61) |
+| Design — summaries | #62–64 | `02 Design/02 Working Drafts/` | Draft v01 — **CP2 unsigned** (sign-off: #62, #63) |
 | Deploy | #65 | `03 Deploy/02 Working Drafts/` | Framework — populated post-execution |
 
-## Sign-off documents (✍) awaiting client
+## Sign-off documents (sign-off: ) awaiting client
 
 | # | Document | Gate |
 |---|---|---|

@@ -53,6 +53,22 @@ Requires `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` in the environment. 
 
 Cloudflare's edge caches aggressively. After a deploy that removes a file, the old copy can still answer for a few minutes; confirm with a cache-buster query (`?cb=123`) before concluding something is wrong, or purge the build cache via the API.
 
+## Branding
+
+The site is a **Jewell Projects deliverable**, so it carries the JP house identity, not the client's:
+
+| | |
+|---|---|
+| Typeface | Poppins (single family, per `jp-brand-document`) |
+| Ground | Cream `#FAF8F4`, ink `#111111`, secondary `#666666`, rule `#D4D2D0` |
+| Accent | JP blue `#0066FF` — 4.56:1 on cream, passes AA. On dark grounds it drops to 3.74:1, so dark bands use a lightened `#5B8CFF` (5.72:1) |
+| Dark bands | Maxxim dark `#0E171F` |
+| Marks | Jewell wordmark leads the sidebar lockup; the Tap That badge is the client mark (sidebar roundel + gate) |
+
+Per the JP spec there are **no icons, emoji or decorative unicode glyphs** anywhere — sign-off is marked with the word "Sign-off", not a symbol.
+
+Note the separation: this is the *delivery vehicle's* branding. The client's own palette (green `#14361D`, gold `#CE9A49`) is documented inside Brand Guidelines (#34) as content, and must not be swapped to JP colours.
+
 ## The password gate
 
 A **soft gate**, not security: the password is shared with the client, and the reference pack this mirrors prints its own password on screen. It keeps the pack out of search results and away from casual visitors. Nothing behind it is confidential beyond the engagement itself.

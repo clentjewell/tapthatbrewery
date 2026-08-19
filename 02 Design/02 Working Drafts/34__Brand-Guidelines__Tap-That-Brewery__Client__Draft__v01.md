@@ -5,7 +5,7 @@
 | **Document** | Brand Guidelines — catalogue #34 |
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
-| **Status** | Draft v01 — Client · **✍ sign-off document** |
+| **Status** | Draft v01 — Client · **client sign-off** |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 

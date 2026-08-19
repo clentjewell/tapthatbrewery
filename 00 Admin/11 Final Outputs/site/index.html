@@ -7,40 +7,40 @@
 <title>Tap That Brewery · Complete 3D Process</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --keg:#14361D; --keg-deep:#0C2314; --brass:#8A5F22; --brass-lt:#CE9A49;
-  --cream:#F7F3EA; --paper:#FFFFFF; --ink:#14171A; --steel:#666E66;
-  --rule:#DDD6C6; --rule-dk:rgba(247,243,234,.16);
-  --ok:#3F7D5C; --shade:#F1EDE2;
+  --keg:#0E171F; --keg-deep:#080E14; --brass:#0066FF; --brass-lt:#5B8CFF;
+  --cream:#FAF8F4; --paper:#FFFFFF; --ink:#111111; --steel:#666666;
+  --rule:#D4D2D0; --rule-dk:rgba(250,248,244,.16);
+  --ok:#1F8A5B; --shade:#EDEBEA;
   --ease:cubic-bezier(.16,1,.3,1);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --keg:#17301C; --keg-deep:#080F0A; --brass:#CE9A49; --brass-lt:#E0BC80;
-    --cream:#E8E4DA; --paper:#131714; --ink:#E8E4DA; --steel:#99A099;
-    --rule:rgba(232,228,218,.15); --rule-dk:rgba(232,228,218,.14);
-    --ok:#63A883; --shade:#181D19;
+    --keg:#141C24; --keg-deep:#080E14; --brass:#5B8CFF; --brass-lt:#8FB4FF;
+    --cream:#E9E7E3; --paper:#14181C; --ink:#E9E7E3; --steel:#9AA0A6;
+    --rule:rgba(233,231,227,.15); --rule-dk:rgba(233,231,227,.14);
+    --ok:#4FBF8B; --shade:#191E23;
   }
 }
 :root[data-theme="dark"] {
-  --keg:#17301C; --keg-deep:#080F0A; --brass:#CE9A49; --brass-lt:#E0BC80;
-  --cream:#E8E4DA; --paper:#131714; --ink:#E8E4DA; --steel:#99A099;
-  --rule:rgba(232,228,218,.15); --rule-dk:rgba(232,228,218,.14);
-  --ok:#63A883; --shade:#181D19;
+  --keg:#141C24; --keg-deep:#080E14; --brass:#5B8CFF; --brass-lt:#8FB4FF;
+  --cream:#E9E7E3; --paper:#14181C; --ink:#E9E7E3; --steel:#9AA0A6;
+  --rule:rgba(233,231,227,.15); --rule-dk:rgba(233,231,227,.14);
+  --ok:#4FBF8B; --shade:#191E23;
 }
 
 html { scroll-behavior:smooth; }
 body {
-  font-family:'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   background:var(--cream); color:var(--ink); font-size:16px; line-height:1.65;
   -webkit-font-smoothing:antialiased;
 }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body{ background:#0F1411; } }
-:root[data-theme="dark"] body{ background:#0F1411; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body{ background:#0B0F13; } }
+:root[data-theme="dark"] body{ background:#0B0F13; }
 
 .progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--brass);z-index:400;}
 .layout{display:flex;align-items:flex-start;max-width:1400px;margin:0 auto;}
@@ -57,23 +57,23 @@ body {
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand-jp { filter: invert(1); } }
 :root[data-theme="dark"] .brand-jp { filter: invert(1); }
 .hero-badge { width: clamp(120px, 15vw, 172px); height: auto; display: block; margin-bottom: 26px; }
-.brand-sub{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em;
+.brand-sub{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--steel);margin:0 8px 14px;}
 .filter{width:calc(100% - 16px);margin:0 8px 10px;padding:8px 10px;border:1px solid var(--rule);
   border-radius:7px;background:var(--shade);color:var(--ink);font-family:inherit;font-size:13px;}
 .filter::placeholder{color:var(--steel);}
 .filter:focus{outline:none;border-color:var(--brass);}
 .nav{display:flex;flex-direction:column;gap:1px;overflow-y:auto;padding-bottom:12px;}
-.nav-phase{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em;
+.nav-phase{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--brass);margin:14px 10px 5px;}
 .nav-link{display:flex;gap:9px;align-items:baseline;text-decoration:none;color:var(--steel);
   font-size:13px;line-height:1.3;padding:6px 10px;border-radius:6px;
   border-left:2px solid transparent;transition:color .15s,background .15s;}
-.nav-num{font-family:'IBM Plex Mono',monospace;font-size:10px;opacity:.7;min-width:17px;
+.nav-num{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;opacity:.7;min-width:17px;
   font-variant-numeric:tabular-nums;}
-.nav-link:hover{color:var(--ink);background:rgba(138,95,34,.08);}
+.nav-link:hover{color:var(--ink);background:rgba(0,102,255,.08);}
 .nav-link:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
-.nav-link.active{color:var(--ink);background:rgba(138,95,34,.12);border-left-color:var(--brass);font-weight:600;}
+.nav-link.active{color:var(--ink);background:rgba(0,102,255,.12);border-left-color:var(--brass);font-weight:600;}
 .nav-link.active .nav-num{color:var(--brass);opacity:1;}
 .nav-link.edge{color:var(--ink);font-weight:600;}
 .nav-link.hide{display:none;}
@@ -85,25 +85,25 @@ body {
 .content{flex:1 1 auto;min-width:0;padding:34px clamp(22px,4.5vw,64px) 80px;max-width:940px;}
 
 /* welcome */
-.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;
+.eyebrow{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;letter-spacing:.18em;
   text-transform:uppercase;color:var(--steel);margin-bottom:20px;}
-.h-hero{font-family:'Archivo',sans-serif;font-size:clamp(36px,5.6vw,66px);font-weight:700;
+.h-hero{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(36px,5.6vw,66px);font-weight:700;
   line-height:1.03;letter-spacing:-.032em;text-wrap:balance;}
 .lead{font-size:clamp(16px,1.5vw,18.5px);line-height:1.68;color:var(--steel);max-width:60ch;margin-top:24px;}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
   border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-top:38px;}
 @media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
 .stat{background:var(--paper);padding:18px 16px;}
-.stat-n{font-family:'Archivo',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.03em;
+.stat-n{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:28px;font-weight:700;letter-spacing:-.03em;
   font-variant-numeric:tabular-nums;}
-.stat-l{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.1em;
+.stat-l{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--steel);margin-top:4px;}
 .callout{background:var(--keg);color:var(--cream);border-radius:14px;padding:clamp(26px,4vw,40px);margin-top:34px;}
-.callout .k{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;
+.callout .k{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--brass-lt);}
-.callout .q{font-family:'Archivo',sans-serif;font-size:clamp(19px,2.4vw,27px);font-weight:600;
+.callout .q{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(19px,2.4vw,27px);font-weight:600;
   line-height:1.34;letter-spacing:-.02em;margin-top:14px;max-width:26ch;text-wrap:balance;}
-.callout .b{font-size:15px;line-height:1.7;color:rgba(247,243,234,.75);margin-top:16px;max-width:62ch;}
+.callout .b{font-size:15px;line-height:1.7;color:rgba(250,248,244,.75);margin-top:16px;max-width:62ch;}
 .callout a{color:var(--brass-lt);}
 .note{font-size:13px;line-height:1.6;color:var(--steel);margin-top:22px;}
 
@@ -112,26 +112,26 @@ body {
 .doc-head{display:flex;align-items:center;justify-content:space-between;gap:14px;
   flex-wrap:wrap;margin-bottom:18px;}
 .doc-head-l{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.doc-chip{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.12em;
+.doc-chip{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;font-weight:500;letter-spacing:.12em;
   text-transform:uppercase;color:var(--brass);}
-.doc-count{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.06em;
+.doc-count{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.06em;
   color:var(--steel);font-variant-numeric:tabular-nums;}
-.pill{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.1em;
+.pill{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9px;font-weight:500;letter-spacing:.1em;
   text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid;white-space:nowrap;}
 .pill.draft{color:var(--steel);border-color:var(--rule);}
-.pill.sign{color:var(--brass);border-color:rgba(138,95,34,.45);background:rgba(138,95,34,.09);}
-.doc-title{font-family:'Archivo',sans-serif;font-size:clamp(27px,3.6vw,42px);font-weight:700;
+.pill.sign{color:var(--brass);border-color:rgba(0,102,255,.45);background:rgba(0,102,255,.09);}
+.doc-title{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(27px,3.6vw,42px);font-weight:700;
   line-height:1.08;letter-spacing:-.028em;text-wrap:balance;}
 
 /* prose */
 .prose{margin-top:26px;font-size:16px;line-height:1.75;}
 .prose > * + *{margin-top:16px;}
-.prose h3{font-family:'Archivo',sans-serif;font-size:clamp(19px,2.1vw,25px);font-weight:700;
+.prose h3{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(19px,2.1vw,25px);font-weight:700;
   line-height:1.25;letter-spacing:-.02em;margin-top:44px;padding-top:20px;
   border-top:1px solid var(--rule);text-wrap:balance;}
-.prose h4{font-family:'Archivo',sans-serif;font-size:17px;font-weight:700;line-height:1.35;
+.prose h4{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:17px;font-weight:700;line-height:1.35;
   margin-top:30px;letter-spacing:-.01em;}
-.prose h5,.prose h6{font-family:'Archivo',sans-serif;font-size:15px;font-weight:600;margin-top:24px;}
+.prose h5,.prose h6{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;margin-top:24px;}
 .prose p{max-width:70ch;}
 .prose strong{font-weight:700;}
 .prose em{font-style:italic;color:var(--steel);}
@@ -141,13 +141,13 @@ body {
 .prose li::marker{color:var(--brass);}
 .prose hr{border:0;height:1px;background:var(--rule);margin:34px 0;}
 .prose blockquote{border-left:3px solid var(--brass);padding:2px 0 2px 20px;color:var(--ink);
-  font-family:'Archivo',sans-serif;font-size:19px;font-weight:600;line-height:1.45;letter-spacing:-.015em;}
-.prose code{font-family:'IBM Plex Mono',monospace;font-size:.88em;background:var(--shade);
+  font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:19px;font-weight:600;line-height:1.45;letter-spacing:-.015em;}
+.prose code{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:.88em;background:var(--shade);
   padding:2px 5px;border-radius:3px;}
 .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--rule);
   border-radius:9px;background:var(--paper);}
 .prose table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.55;}
-.prose th{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.1em;
+.prose th{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--steel);text-align:left;font-weight:500;
   padding:11px 14px;border-bottom:1px solid var(--rule);white-space:nowrap;background:var(--shade);}
 .prose td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;}
@@ -161,12 +161,12 @@ body {
 .dn-sp{flex:1;}
 .dn-btn{flex:0 1 46%;text-decoration:none;color:inherit;padding:13px 15px;border:1px solid var(--rule);
   border-radius:9px;display:flex;flex-direction:column;gap:3px;transition:border-color .15s,background .15s;}
-.dn-btn:hover{border-color:var(--brass);background:rgba(138,95,34,.05);}
+.dn-btn:hover{border-color:var(--brass);background:rgba(0,102,255,.05);}
 .dn-btn:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
 .dn-btn.next{text-align:right;margin-left:auto;}
-.dn-btn span{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.12em;
+.dn-btn span{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.12em;
   text-transform:uppercase;color:var(--steel);}
-.dn-btn strong{font-family:'Archivo',sans-serif;font-size:14.5px;font-weight:600;line-height:1.3;}
+.dn-btn strong{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;font-weight:600;line-height:1.3;}
 
 /* to top */
 .totop{position:fixed;right:20px;bottom:20px;width:42px;height:42px;border-radius:50%;
@@ -186,7 +186,7 @@ body {
   .sidebar.open .nav{display:flex;max-height:60vh;}
   .sidebar.open .filter{display:block;}
   .navtoggle{display:block;width:100%;text-align:left;background:none;border:0;cursor:pointer;
-    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;
+    font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.12em;
     text-transform:uppercase;color:var(--brass);padding:6px 8px;}
   .content{padding:8px 20px 60px;}
   .dn-btn{flex:0 1 48%;}
@@ -210,7 +210,7 @@ body {
 <a class="nav-link edge" href="#top"><span class="nav-num">·</span><span>Welcome</span></a>
 <p class="nav-phase">Onboarding</p>
 <a class="nav-link" href="#deal-memo" data-t="deal memo"><span class="nav-num">01</span><span>Deal Memo</span></a>
-<a class="nav-link" href="#proposal" data-t="proposal"><span class="nav-num">02</span><span>Proposal<span class="sig" title="Client sign-off">✍</span></span></a>
+<a class="nav-link" href="#proposal" data-t="proposal"><span class="nav-num">02</span><span>Proposal<span class="sig" title="Client sign-off">&bull;</span></span></a>
 <a class="nav-link" href="#welcome-pack" data-t="welcome pack"><span class="nav-num">03</span><span>Welcome Pack</span></a>
 <p class="nav-phase">Discover</p>
 <a class="nav-link" href="#audience-teardown" data-t="audience teardown"><span class="nav-num">04</span><span>Audience Teardown</span></a>
@@ -229,7 +229,7 @@ body {
 <a class="nav-link" href="#funnel-review" data-t="funnel review"><span class="nav-num">17</span><span>Funnel Review</span></a>
 <a class="nav-link" href="#success-definition" data-t="success definition"><span class="nav-num">18</span><span>Success Definition</span></a>
 <a class="nav-link" href="#okrs" data-t="objectives &amp; key results"><span class="nav-num">19</span><span>Objectives &amp; Key Results</span></a>
-<a class="nav-link" href="#discover-summary" data-t="discover summary (cp1)"><span class="nav-num">20</span><span>Discover Summary (CP1)<span class="sig" title="Client sign-off">✍</span></span></a>
+<a class="nav-link" href="#discover-summary" data-t="discover summary (cp1)"><span class="nav-num">20</span><span>Discover Summary (CP1)<span class="sig" title="Client sign-off">&bull;</span></span></a>
 <a class="nav-link" href="#priority-problems" data-t="priority problems to solve"><span class="nav-num">21</span><span>Priority Problems To Solve</span></a>
 <a class="nav-link" href="#recommended-next-moves" data-t="recommended next moves"><span class="nav-num">22</span><span>Recommended Next Moves</span></a>
 <p class="nav-phase">Design</p>
@@ -244,9 +244,9 @@ body {
 <a class="nav-link" href="#brand-strategy" data-t="brand strategy"><span class="nav-num">31</span><span>Brand Strategy</span></a>
 <a class="nav-link" href="#positioning" data-t="positioning"><span class="nav-num">32</span><span>Positioning</span></a>
 <a class="nav-link" href="#messaging-offer-architecture" data-t="messaging &amp; offer architecture"><span class="nav-num">33</span><span>Messaging &amp; Offer Architecture</span></a>
-<a class="nav-link" href="#brand-guidelines" data-t="brand guidelines"><span class="nav-num">34</span><span>Brand Guidelines<span class="sig" title="Client sign-off">✍</span></span></a>
+<a class="nav-link" href="#brand-guidelines" data-t="brand guidelines"><span class="nav-num">34</span><span>Brand Guidelines<span class="sig" title="Client sign-off">&bull;</span></span></a>
 <a class="nav-link" href="#brand-copy-workbook" data-t="brand copy workbook"><span class="nav-num">35</span><span>Brand Copy Workbook</span></a>
-<a class="nav-link" href="#logo-brief" data-t="logo brief"><span class="nav-num">36</span><span>Logo Brief<span class="sig" title="Client sign-off">✍</span></span></a>
+<a class="nav-link" href="#logo-brief" data-t="logo brief"><span class="nav-num">36</span><span>Logo Brief<span class="sig" title="Client sign-off">&bull;</span></span></a>
 <a class="nav-link" href="#website-strategy" data-t="website strategy"><span class="nav-num">37</span><span>Website Strategy</span></a>
 <a class="nav-link" href="#sitemap" data-t="sitemap"><span class="nav-num">38</span><span>Sitemap</span></a>
 <a class="nav-link" href="#page-strategy" data-t="page strategy"><span class="nav-num">39</span><span>Page Strategy</span></a>
@@ -271,9 +271,9 @@ body {
 <a class="nav-link" href="#crm-brief" data-t="crm brief"><span class="nav-num">58</span><span>CRM Brief</span></a>
 <a class="nav-link" href="#pr-brief" data-t="pr brief"><span class="nav-num">59</span><span>PR Brief</span></a>
 <a class="nav-link" href="#events-brief" data-t="events brief"><span class="nav-num">60</span><span>Events Brief</span></a>
-<a class="nav-link" href="#final-brief-pack" data-t="final brief pack"><span class="nav-num">61</span><span>Final Brief Pack<span class="sig" title="Client sign-off">✍</span></span></a>
-<a class="nav-link" href="#imc-summary" data-t="imc summary"><span class="nav-num">62</span><span>IMC Summary<span class="sig" title="Client sign-off">✍</span></span></a>
-<a class="nav-link" href="#strategy-summary" data-t="strategy summary (cp2)"><span class="nav-num">63</span><span>Strategy Summary (CP2)<span class="sig" title="Client sign-off">✍</span></span></a>
+<a class="nav-link" href="#final-brief-pack" data-t="final brief pack"><span class="nav-num">61</span><span>Final Brief Pack<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="#imc-summary" data-t="imc summary"><span class="nav-num">62</span><span>IMC Summary<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="#strategy-summary" data-t="strategy summary (cp2)"><span class="nav-num">63</span><span>Strategy Summary (CP2)<span class="sig" title="Client sign-off">&bull;</span></span></a>
 <a class="nav-link" href="#approved-roadmap" data-t="approved roadmap"><span class="nav-num">64</span><span>Approved Roadmap</span></a>
 <p class="nav-phase">Deploy</p>
 <a class="nav-link" href="#case-study" data-t="case study / evidence pack"><span class="nav-num">65</span><span>Case Study / Evidence Pack</span></a>
@@ -283,7 +283,6 @@ body {
 
   <main class="content">
     <section id="top">
-      <img class="hero-badge" src="/brand/tapthat-badge.png" alt="Tap That Brewery">
       <div class="eyebrow">Jewell Projects · Tap That Brewery · Prepared for Chris Smith and Justin Mistry</div>
       <h1 class="h-hero">The complete<br>3D Process.</h1>
       <p class="lead">Every document in the set, end to end, on one page. Onboarding, Discover, Design and Deploy — built from one discovery session, one site visit, and every price on your walls. Use the contents to jump, or just scroll.</p>
@@ -433,7 +432,7 @@ body {
 
 <article class="doc" id="proposal">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Onboarding</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Onboarding</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 02 of 65</span>
   </div>
   <h2 class="doc-title">Proposal</h2>
@@ -3523,7 +3522,7 @@ body {
 
 <article class="doc" id="discover-summary">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Discover</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Discover</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 20 of 65</span>
   </div>
   <h2 class="doc-title">Discover Summary (CP1)</h2>
@@ -5946,7 +5945,7 @@ body {
 
 <article class="doc" id="brand-guidelines">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 34 of 65</span>
   </div>
   <h2 class="doc-title">Brand Guidelines</h2>
@@ -5972,7 +5971,7 @@ body {
 </tr>
 <tr>
 <td><strong>Status</strong></td>
-<td>Draft v01 — Client · <strong>✍ sign-off document</strong></td>
+<td>Draft v01 — Client · <strong>client sign-off</strong></td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
@@ -6345,7 +6344,7 @@ body {
 
 <article class="doc" id="logo-brief">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 36 of 65</span>
   </div>
   <h2 class="doc-title">Logo Brief</h2>
@@ -6371,7 +6370,7 @@ body {
 </tr>
 <tr>
 <td><strong>Status</strong></td>
-<td>Draft v01 — Client · <strong>✍ sign-off document</strong></td>
+<td>Draft v01 — Client · <strong>client sign-off</strong></td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
@@ -6504,7 +6503,7 @@ body {
 <li>[ ] Hex/CMYK values extracted and written into 34 Brand Guidelines (replacing every [TBC])</li>
 <li>[ ] Clear space, minimum sizes and misuse examples documented</li>
 <li>[ ] Trademark/ownership check complete and recorded</li>
-<li>[ ] Client sign-off on this brief's outputs (✍)</li>
+<li>[ ] Client sign-off on this brief's outputs (sign-off: )</li>
 </ul>
 <p>After lock: any new application uses these files only; any proposed change to the marks is a new, client-initiated brief.</p>
 <h3>What we need from Tap That Brewery</h3>
@@ -10778,7 +10777,7 @@ body {
 
 <article class="doc" id="final-brief-pack">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 61 of 65</span>
   </div>
   <h2 class="doc-title">Final Brief Pack</h2>
@@ -11001,7 +11000,7 @@ body {
 
 <article class="doc" id="imc-summary">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 62 of 65</span>
   </div>
   <h2 class="doc-title">IMC Summary</h2>
@@ -11015,7 +11014,7 @@ body {
 <tbody>
 <tr>
 <td><strong>Document</strong></td>
-<td>IMC Summary — catalogue #62 (✍ sign-off document)</td>
+<td>IMC Summary — catalogue #62 (client sign-off)</td>
 </tr>
 <tr>
 <td><strong>Engagement</strong></td>
@@ -11343,7 +11342,7 @@ body {
 
 <article class="doc" id="strategy-summary">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">✍ Sign-off</span><span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">Design</span><span class="pill sign">Sign-off</span><span class="pill draft">Draft v01</span></div>
     <span class="doc-count">Document 63 of 65</span>
   </div>
   <h2 class="doc-title">Strategy Summary (CP2)</h2>
@@ -11357,7 +11356,7 @@ body {
 <tbody>
 <tr>
 <td><strong>Document</strong></td>
-<td>Strategy Summary — catalogue #63 (✍ CP2 checkpoint document)</td>
+<td>Strategy Summary — catalogue #63 (client sign-off — CP2 checkpoint)</td>
 </tr>
 <tr>
 <td><strong>Engagement</strong></td>
@@ -12126,7 +12125,7 @@ body {
   </main>
 </div>
 
-<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<button class="totop" id="totop" aria-label="Back to top">Top</button>
 
 <script>
 (function () {

@@ -133,7 +133,7 @@ def main():
         if d["phase"] != last_phase:
             nav.append(f'<p class="nav-phase">{d["phase"]}</p>')
             last_phase = d["phase"]
-        star = '<span class="sig" title="Client sign-off">✍</span>' if d["signoff"] else ''
+        star = '<span class="sig" title="Client sign-off">&bull;</span>' if d["signoff"] else ''
         nav.append(
             f'<a class="nav-link" href="#{d["slug"]}" data-t="{html.escape(d["title"].lower())}">'
             f'<span class="nav-num">{d["n"]:02d}</span><span>{html.escape(d["title"])}{star}</span></a>')
@@ -149,7 +149,7 @@ def main():
         nx = (f'<a class="dn-btn next" href="#{next_d["slug"]}"><span>Next</span>'
               f'<strong>{html.escape(next_d["title"])}</strong></a>') if next_d else \
              '<a class="dn-btn next" href="#top"><span>Back to</span><strong>Welcome</strong></a>'
-        sig = '<span class="pill sign">✍ Sign-off</span>' if d["signoff"] else ''
+        sig = '<span class="pill sign">Sign-off</span>' if d["signoff"] else ''
         arts.append(f'''
 <article class="doc" id="{d["slug"]}">
   <div class="doc-head">

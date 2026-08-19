@@ -1,6 +1,6 @@
 # Maxxim 3D Output Tracker — Tap That Brewery
 
-The engagement's target output set: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." ✍ = client sign-off. CP1/CP2 = phase checkpoints.
+The engagement's target output set: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." "Sign-off" = client sign-off required. CP1/CP2 = phase checkpoints.
 
 **Status as at 19 August 2026: all 65 documents drafted (v01).** Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design set was produced ahead of CP1, so the open items below may revise inputs.
 
@@ -28,7 +28,7 @@ Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`
 | # | Document | Skill | Audience |
 |---|---|---|---|
 | 1 | Deal Memo | maxxim-deal-memo | Internal |
-| 2 | Proposal ✍ | maxxim-proposal | Client — fees/timeline left [TBC] |
+| 2 | Proposal (sign-off) | maxxim-proposal | Client — fees/timeline left [TBC] |
 | 3 | Welcome Pack | maxxim-welcome-pack | Client |
 
 ## Discover (19)
@@ -51,7 +51,7 @@ Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`
 | 17 | Funnel Review | maxxim-offer-worksheet | `17__Funnel-Review…` |
 | 18 | Success Definition | maxxim-discover-summary | `18__Success-Definition…` |
 | 19 | Objectives & Key Results | maxxim-discover-summary | `19__Objectives-and-Key-Results…` |
-| 20 | **Discover Summary (CP1)** ✍ | maxxim-discover-summary | `D06__Discovery-Pack-Synthesis…` |
+| 20 | **Discover Summary (CP1)** (sign-off) | maxxim-discover-summary | `D06__Discovery-Pack-Synthesis…` |
 | 21 | Priority Problems To Solve | maxxim-discover-summary | `21__Priority-Problems-To-Solve…` |
 | 22 | Recommended Next Moves | maxxim-discover-summary | `22__Recommended-Next-Moves…` |
 
@@ -70,9 +70,9 @@ Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`
 | 31 | Brand Strategy | maxxim-brand-strategy |
 | 32 | Positioning | maxxim-brand-strategy |
 | 33 | Messaging & Offer Architecture | maxxim-brand-strategy |
-| 34 | Brand Guidelines ✍ | maxxim-brand-guidelines |
+| 34 | Brand Guidelines (sign-off) | maxxim-brand-guidelines |
 | 35 | Brand Copy Workbook | maxxim-copy-deck |
-| 36 | Logo Brief ✍ | maxxim-logo-brief |
+| 36 | Logo Brief (sign-off) | maxxim-logo-brief |
 | 37 | Website Strategy | maxxim-website-strategy |
 | 38 | Sitemap | maxxim-website-strategy |
 | 39 | Page Strategy | maxxim-website-strategy |
@@ -93,8 +93,8 @@ Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`
 | 54 | Photo & Video Brief | maxxim-photo-video-brief |
 | 55–60 | SEO / Paid Media / EDM / CRM / PR / Events Briefs | maxxim-brief-pack |
 | 61 | Final Brief Pack | maxxim-brief-pack |
-| 62 | IMC Summary ✍ | maxxim-imc-summary |
-| 63 | **Strategy Summary (CP2)** ✍ | maxxim-strategy-summary |
+| 62 | IMC Summary (sign-off) | maxxim-imc-summary |
+| 63 | **Strategy Summary (CP2)** (sign-off) | maxxim-strategy-summary |
 | 64 | Approved Roadmap | maxxim-strategy-summary |
 
 ## Deploy (1)

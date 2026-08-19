@@ -3,7 +3,7 @@
 
 | | |
 |---|---|
-| **Document** | IMC Summary — catalogue #62 (✍ sign-off document) |
+| **Document** | IMC Summary — catalogue #62 (client sign-off) |
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Client |

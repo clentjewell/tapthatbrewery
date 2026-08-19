@@ -3,7 +3,7 @@
 
 | | |
 |---|---|
-| **Document** | Strategy Summary — catalogue #63 (✍ CP2 checkpoint document) |
+| **Document** | Strategy Summary — catalogue #63 (client sign-off — CP2 checkpoint) |
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design — sign-off |
 | **Status** | Draft v01 — Client |

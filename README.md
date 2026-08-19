@@ -9,17 +9,17 @@ Tap That Brewery sells home keg systems **at cost** ($975 for a 2-tap) and makes
 ## Where things are
 
 ```
-00 Admin/                       contacts, approvals, commercial, Artifact-Registry
-01 Discover/                    Phase 1 (current) — inputs, working drafts, finals, Gate 1 deck
-   01 Inputs/site-visit-photos/   27 photos from the Aug 2026 site visit + photo-index.md
-   02 Working Drafts/             D02, D03, D05, D06 drafts
-02 Design/                      Phase 2 — strategy, brand, copy, website (after Gate 1)
-03 Deploy/                      Phase 3 — launch, channels, CRM, reporting (after Gate 2)
-04 Deepen + Intelligence/       ongoing reviews, KPI baselines, Knowledge Hub
-05 Blueprint Extraction/        Jewell internal IP capture
-06 Source + Working + Imports/  raw files, imports, exports
-99 Archive/                     superseded versions — never delete, archive
-meetings/                       Circleback imports and meeting records
+00 Admin/ contacts, approvals, commercial, Artifact-Registry
+01 Discover/ Phase 1 (current) — inputs, working drafts, finals, Gate 1 deck
+ 01 Inputs/site-visit-photos/ 27 photos from the Aug 2026 site visit + photo-index.md
+ 02 Working Drafts/ D02, D03, D05, D06 drafts
+02 Design/ Phase 2 — strategy, brand, copy, website (after Gate 1)
+03 Deploy/ Phase 3 — launch, channels, CRM, reporting (after Gate 2)
+04 Deepen + Intelligence/ ongoing reviews, KPI baselines, Knowledge Hub
+05 Blueprint Extraction/ Jewell internal IP capture
+06 Source + Working + Imports/ raw files, imports, exports
+99 Archive/ superseded versions — never delete, archive
+meetings/ Circleback imports and meeting records
 ```
 
 ## What's in here

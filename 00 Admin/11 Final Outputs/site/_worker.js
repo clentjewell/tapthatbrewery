@@ -63,34 +63,36 @@ function gate({ next = "/", error = false } = {}) {
 <title>Tap That Brewery</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Karla:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;color:#F7F3EA;
-    font-family:'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-    background:radial-gradient(120% 120% at 50% 0%,#1D4726 0%,#14361D 45%,#081C10 100%)}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;color:#FAF8F4;
+    font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background:radial-gradient(120% 120% at 50% 0%,#18293A 0%,#0E171F 45%,#070C11 100%)}
   .card{width:100%;max-width:392px;text-align:center}
-  .badge{width:200px;height:auto;display:block;margin:0 auto 24px}
-  h1{font-family:'Archivo',sans-serif;font-weight:700;margin:0 0 8px;font-size:30px;letter-spacing:-.02em}
+  .badge{width:150px;height:auto;display:block;margin:0 auto 14px}
+  .jp{height:15px;width:auto;display:block;margin:0 auto 26px;filter:brightness(0) invert(1);opacity:.85}
+  h1{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-weight:700;margin:0 0 8px;font-size:30px;letter-spacing:-.02em}
   p.sub{opacity:.75;margin:0 0 24px;font-size:15px;line-height:1.6}
   p.err{background:rgba(210,164,90,.16);border:1px solid rgba(210,164,90,.55);
     border-radius:5px;padding:10px 12px;margin:0 0 14px;font-size:14px}
   form{display:flex;flex-direction:column;gap:12px}
-  input{padding:13px 14px;border-radius:5px;border:1px solid rgba(247,243,234,.28);
-    background:rgba(247,243,234,.10);color:#F7F3EA;font-size:16px;font-family:inherit}
-  input::placeholder{color:rgba(247,243,234,.55)}
-  input:focus{outline:none;border-color:#CE9A49;background:rgba(247,243,234,.16)}
-  button{padding:13px 14px;border-radius:4px;border:0;background:#B07C2E;color:#081C10;
-    font-family:'Archivo',sans-serif;font-size:16px;font-weight:700;cursor:pointer;letter-spacing:.01em}
-  button:hover{background:#CE9A49}
-  button:focus-visible{outline:2px solid #F7F3EA;outline-offset:2px}
-  .foot{font-family:'IBM Plex Mono',monospace;opacity:.5;font-size:11px;margin-top:22px;
+  input{padding:13px 14px;border-radius:5px;border:1px solid rgba(250,248,244,.28);
+    background:rgba(250,248,244,.10);color:#FAF8F4;font-size:16px;font-family:inherit}
+  input::placeholder{color:rgba(250,248,244,.55)}
+  input:focus{outline:none;border-color:#5B8CFF;background:rgba(250,248,244,.16)}
+  button{padding:13px 14px;border-radius:4px;border:0;background:#0066FF;color:#FFFFFF;
+    font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:16px;font-weight:700;cursor:pointer;letter-spacing:.01em}
+  button:hover{background:#2E80FF}
+  button:focus-visible{outline:2px solid #FAF8F4;outline-offset:2px}
+  .foot{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;opacity:.5;font-size:11px;margin-top:22px;
     text-transform:uppercase;letter-spacing:.14em}
 </style>
 </head>
 <body>
   <main class="card">
-    <img class="badge" src="/brand/tapthat-badge.png" alt="Tap That Brewery" width="200" height="134">
+    <img class="badge" src="/brand/tapthat-badge.png" alt="Tap That Brewery" width="150" height="101">
+    <img class="jp" src="/brand/jewell-wordmark.png" alt="Jewell Projects" width="68" height="15">
     <h1>Your 3D Process.</h1>
     <p class="sub">This pack is private. Enter the password to continue.</p>
     ${error ? '<p class="err">That password did not match. Try again.</p>' : ""}
@@ -100,7 +102,7 @@ function gate({ next = "/", error = false } = {}) {
              autocomplete="current-password" aria-label="Password" required>
       <button type="submit">View the pack</button>
     </form>
-    <p class="foot">Jewell Projects</p>
+    <p class="foot">Jewell Projects &middot; 3D Process</p>
   </main>
 </body>
 </html>`;

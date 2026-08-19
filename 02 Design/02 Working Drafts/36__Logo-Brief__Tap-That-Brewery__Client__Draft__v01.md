@@ -5,7 +5,7 @@
 | **Document** | Logo Brief — catalogue #36 |
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
-| **Status** | Draft v01 — Client · **✍ sign-off document** |
+| **Status** | Draft v01 — Client · **client sign-off** |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
@@ -72,7 +72,7 @@ The identity is **locked** when all of the following are true:
 - [ ] Hex/CMYK values extracted and written into 34 Brand Guidelines (replacing every [TBC])
 - [ ] Clear space, minimum sizes and misuse examples documented
 - [ ] Trademark/ownership check complete and recorded
-- [ ] Client sign-off on this brief's outputs (✍)
+- [ ] Client sign-off on this brief's outputs (sign-off: )
 
 After lock: any new application uses these files only; any proposed change to the marks is a new, client-initiated brief.
 
