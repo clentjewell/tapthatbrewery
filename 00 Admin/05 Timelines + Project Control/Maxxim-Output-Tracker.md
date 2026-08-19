@@ -1,84 +1,128 @@
 # Maxxim 3D Output Tracker — Tap That Brewery & Keghouse
 
-The target output set for this engagement: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." ✍ = client sign-off. CP1/CP2 = phase checkpoints.
+The engagement's target output set: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." ✍ = client sign-off. CP1/CP2 = phase checkpoints.
 
-Status key: **Done** (drafted in this repo) · **Partial** (substance exists inside another draft, needs extraction into its own document) · **Not started** · **Blocked** (named blocker).
+**Status as at 19 August 2026: all 65 documents drafted (v01).** Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design set was produced ahead of CP1, so the open items below may revise inputs.
+
+| Phase | Documents | Status |
+|---|---|---|
+| Gate 0 — Onboarding | 3 | Drafted |
+| Discover | 19 | Drafted (CP1 not signed) |
+| Design | 42 | Drafted (CP2 not signed) |
+| Deploy | 1 | Framework only — populated after execution |
+| **Total** | **65** | **Drafted v01** |
+
+## Where everything lives
+
+| Catalogue | Location |
+|---|---|
+| #1–3 (Gate 0) | `00 Admin/04 Commercial + SOW/` |
+| #4–22 (Discover) | `01 Discover/02 Working Drafts/` |
+| #23–64 (Design) | `02 Design/02 Working Drafts/` |
+| #65 (Deploy) | `03 Deploy/02 Working Drafts/` |
+
+Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`. The four Discover anchors were drafted first under JP codes and keep those filenames — mapping below.
 
 ## Onboarding — Gate 0 (3)
 
-| # | Document | Skill | Status |
+| # | Document | Skill | Audience |
 |---|---|---|---|
-| 1 | Deal Memo | maxxim-deal-memo | Not started |
-| 2 | Proposal ✍ | maxxim-proposal | Not started |
-| 3 | Welcome Pack | maxxim-welcome-pack | Not started |
+| 1 | Deal Memo | maxxim-deal-memo | Internal |
+| 2 | Proposal ✍ | maxxim-proposal | Client — fees/timeline left [TBC] |
+| 3 | Welcome Pack | maxxim-welcome-pack | Client |
 
 ## Discover (19)
 
-| # | Document | Skill | Status for Tap That |
+| # | Document | Skill | File |
 |---|---|---|---|
-| 4 | Audience Teardown | maxxim-audience-teardown | **Done (draft)** — `01 Discover/02 Working Drafts/D02` |
-| 5 | Customer Segments | maxxim-audience-teardown | Partial — segment table + estimates in D02/D06; extract |
-| 6 | Customer Pain Points | maxxim-audience-teardown | Partial — pains per segment in D02; deepen with census |
-| 7 | Buying Triggers & Barriers | maxxim-audience-teardown | Partial — 3-month cycle, 4 objections, giveaway trigger in D06 |
-| 8 | Jobs To Be Done | maxxim-audience-teardown | Not started |
-| 9 | Competitor Analysis | maxxim-competitor-analysis | **Done (draft)** — `D03` (names need verification) |
-| 10 | Category Positioning | maxxim-competitor-analysis | Partial — one-sentence position in D03 |
-| 11 | Market Gaps | maxxim-competitor-analysis | Partial — white-space statement in D06 |
-| 12 | Differentiation Opportunities | maxxim-competitor-analysis | Partial — two lead axes + contrast lines in D03 |
-| 13 | Offer Worksheet | maxxim-offer-worksheet | **Done (draft)** — `D05`, photo-verified pricing |
-| 14 | Product / Service Review | maxxim-offer-worksheet | Partial — full tap list + product range in photo-index/D06 |
-| 15 | Pricing / Packaging Notes | maxxim-offer-worksheet | Partial — complete price capture in photo-index; membership reconciliation pending |
-| 16 | Sales Process Review | maxxim-offer-worksheet | Partial — giveaway→50% close funnel documented in D06 |
-| 17 | Funnel Review | maxxim-offer-worksheet | Partial — taproom→system funnel (20–30%), wholesale outreach history in D06 |
-| 18 | Success Definition | maxxim-discover-summary | Partial — 1,000 owners / ~$2.6M in D06; formalise with founders |
-| 19 | Objectives & Key Results | maxxim-discover-summary | Not started |
-| 20 | **Discover Summary (CP1)** ✍ | maxxim-discover-summary | **Done (draft)** — `D06`; sign-off blocked on census data + membership reconciliation |
-| 21 | Priority Problems To Solve | maxxim-discover-summary | Partial — six named bottlenecks in D06 |
-| 22 | Recommended Next Moves | maxxim-discover-summary | Partial — seven hypotheses + actions in D06 |
+| 4 | Audience Teardown | maxxim-audience-teardown | `D02__Audience-Teardown…` |
+| 5 | Customer Segments | maxxim-audience-teardown | `05__Customer-Segments…` |
+| 6 | Customer Pain Points | maxxim-audience-teardown | `06__Customer-Pain-Points…` |
+| 7 | Buying Triggers & Barriers | maxxim-audience-teardown | `07__Buying-Triggers-and-Barriers…` |
+| 8 | Jobs To Be Done | maxxim-audience-teardown | `08__Jobs-To-Be-Done…` |
+| 9 | Competitor Analysis | maxxim-competitor-analysis | `D03__Competitor-Analysis…` |
+| 10 | Category Positioning | maxxim-competitor-analysis | `10__Category-Positioning…` |
+| 11 | Market Gaps | maxxim-competitor-analysis | `11__Market-Gaps…` |
+| 12 | Differentiation Opportunities | maxxim-competitor-analysis | `12__Differentiation-Opportunities…` |
+| 13 | Offer Worksheet | maxxim-offer-worksheet | `D05__Offer-Worksheet…` |
+| 14 | Product / Service Review | maxxim-offer-worksheet | `14__Product-Service-Review…` |
+| 15 | Pricing / Packaging Notes | maxxim-offer-worksheet | `15__Pricing-Packaging-Notes…` |
+| 16 | Sales Process Review | maxxim-offer-worksheet | `16__Sales-Process-Review…` |
+| 17 | Funnel Review | maxxim-offer-worksheet | `17__Funnel-Review…` |
+| 18 | Success Definition | maxxim-discover-summary | `18__Success-Definition…` |
+| 19 | Objectives & Key Results | maxxim-discover-summary | `19__Objectives-and-Key-Results…` |
+| 20 | **Discover Summary (CP1)** ✍ | maxxim-discover-summary | `D06__Discovery-Pack-Synthesis…` |
+| 21 | Priority Problems To Solve | maxxim-discover-summary | `21__Priority-Problems-To-Solve…` |
+| 22 | Recommended Next Moves | maxxim-discover-summary | `22__Recommended-Next-Moves…` |
 
 ## Design (42)
 
-All **not started** — correctly sequenced after CP1 sign-off. Production order per the catalogue:
-
-| # | Document | Skill | Notes for Tap That |
-|---|---|---|---|
-| 23–26 | Business Plan · Strategic Priorities · Growth Roadmap · Measurement Plan | maxxim-business-plan | Needs P&L detail (currently only "red at the bottom") |
-| 27–30 | Customer Profile · Customer Journey · Messaging by Stage · Conversion Pathway | maxxim-customer-profile | Journey must model the 3-month buying cycle + 75/90-day lifecycle |
-| 31–33 | Brand Strategy · Positioning · Messaging & Offer Architecture | maxxim-brand-strategy | Carry the "cost is the dirty little secret" rule + 5 pillars |
-| 34 | Brand Guidelines ✍ | maxxim-brand-guidelines | Existing identity (logo, green/gold, voice) — document, not reinvent |
-| 35 | Brand Copy Workbook | maxxim-copy-deck | |
-| 36 | Logo Brief ✍ | maxxim-logo-brief | Logo exists — likely import + lock rather than regenerate |
-| 37–39 | Website Strategy · Sitemap · Page Strategy | maxxim-website-strategy | tapthatbrewery.com.au audit first |
-| 40 | SEO Strategy | maxxim-seo-strategy | "beer on tap at home" + Gold Coast keg refill terms |
-| 41–42 | Social Strategy · Content Strategy | maxxim-social-strategy | Unlocks Social Studio; Raef is the operator |
-| 43–45 | In-Market Activation Plan · Partnership / Referral Plan · Campaign Calendar | maxxim-marketing-plan | Switcher campaign, Benchy, sports clubs, outdoor-living JVs |
-| 46–51 | Paid Media · EDM · CRM · PR · Events · Traditional Media Plans | maxxim-*-plan | CRM plan hinges on GoTab/Fishbowl integration |
-| 52–54 | Design Brief · Website Brief · Photo & Video Brief | maxxim-design-brief / website-brief / photo-video-brief | Photo & Video Brief should mandate real-customer UGC |
-| 55–61 | SEO / Paid Media / EDM / CRM / PR / Events Briefs · Final Brief Pack | maxxim-brief-pack | |
-| 62 | IMC Summary ✍ | maxxim-imc-summary | |
-| 63 | **Strategy Summary (CP2)** ✍ | maxxim-strategy-summary | |
-| 64 | Approved Roadmap | maxxim-strategy-summary | |
+| # | Document | Skill |
+|---|---|---|
+| 23 | Business Plan | maxxim-business-plan |
+| 24 | Strategic Priorities | maxxim-business-plan |
+| 25 | Growth Roadmap | maxxim-business-plan |
+| 26 | Measurement Plan | maxxim-business-plan |
+| 27 | Customer Profile | maxxim-customer-profile |
+| 28 | Customer Journey | maxxim-customer-profile |
+| 29 | Messaging by Stage | maxxim-customer-profile |
+| 30 | Conversion Pathway | maxxim-customer-profile |
+| 31 | Brand Strategy | maxxim-brand-strategy |
+| 32 | Positioning | maxxim-brand-strategy |
+| 33 | Messaging & Offer Architecture | maxxim-brand-strategy |
+| 34 | Brand Guidelines ✍ | maxxim-brand-guidelines |
+| 35 | Brand Copy Workbook | maxxim-copy-deck |
+| 36 | Logo Brief ✍ | maxxim-logo-brief |
+| 37 | Website Strategy | maxxim-website-strategy |
+| 38 | Sitemap | maxxim-website-strategy |
+| 39 | Page Strategy | maxxim-website-strategy |
+| 40 | SEO Strategy | maxxim-seo-strategy |
+| 41 | Social Strategy | maxxim-social-strategy |
+| 42 | Content Strategy | maxxim-social-strategy |
+| 43 | In-Market Activation Plan | maxxim-marketing-plan |
+| 44 | Partnership / Referral Plan | maxxim-marketing-plan |
+| 45 | Campaign Calendar | maxxim-marketing-plan |
+| 46 | Paid Media Plan | maxxim-paid-media-plan |
+| 47 | EDM Plan | maxxim-edm-plan |
+| 48 | CRM Plan | maxxim-crm-plan |
+| 49 | PR Plan | maxxim-pr-plan |
+| 50 | Events Plan | maxxim-events-plan |
+| 51 | Traditional Media Plan | maxxim-traditional-media-plan |
+| 52 | Design Brief | maxxim-design-brief |
+| 53 | Website Brief | maxxim-website-brief |
+| 54 | Photo & Video Brief | maxxim-photo-video-brief |
+| 55–60 | SEO / Paid Media / EDM / CRM / PR / Events Briefs | maxxim-brief-pack |
+| 61 | Final Brief Pack | maxxim-brief-pack |
+| 62 | IMC Summary ✍ | maxxim-imc-summary |
+| 63 | **Strategy Summary (CP2)** ✍ | maxxim-strategy-summary |
+| 64 | Approved Roadmap | maxxim-strategy-summary |
 
 ## Deploy (1)
 
 | # | Document | Skill | Status |
 |---|---|---|---|
-| 65 | Case Study / Evidence Pack | maxxim-case-study | Not started — candidate: giveaway funnel or a switcher win |
+| 65 | Case Study / Evidence Pack | maxxim-case-study | Framework only — baselines defined, populated after Deploy execution |
 
 *The rest of Deploy is execution (builds, launches, reporting from live data); Deepen is the post-launch loop — neither has document-maker skills.*
 
-## Scoreboard
+## Open items carried across the set
 
-- **Done (draft):** 4 of 65 — the four Discover anchors (#4, #9, #13, #20)
-- **Partial:** 13 — substance captured in the drafts/photo index, needs extraction into standalone documents
-- **Blocked before CP1 sign-off:** census data (Clent → Jules), membership pricing reconciliation, competitor verification
-- **Not started:** Gate 0 (3), JTBD, OKRs, all of Design (42), Deploy (1)
+These appear as flagged caveats throughout the documents. Closing them is the fastest route to CP1 sign-off.
 
-## JP-code ↔ Maxxim mapping (for this repo's filenames)
+| # | Item | Owner | Blocks |
+|---|---|---|---|
+| 1 | Census data (n=50) + supporting business docs | Clent → Jules | Segment validation, delivery pricing, CP1 |
+| 2 | Membership pricing reconciliation — two conflicting posters live in venue ($250/yr vs $300 + $120 renewal, different token bonuses) | Client | Every brief, the website Membership page, all collateral — the single most-cited blocker |
+| 3 | Competitor name verification — "Aardvark & Arrow" (handwritten) vs "Ardbach and Arrow" (transcript) | Jewell | Competitor content, comparison pages |
+| 4 | GoTab / Fishbowl integration date | Client | CRM Plan (#48), EDM automation (#47), lease-to-buy |
+| 5 | P&L detail — unit-level revenue and the taproom's actual loss | Client | Business Plan (#23), budget setting |
+| 6 | Founder confirmations — timeframe for the 1,000 target, taproom loss tolerance, franchise-story consent for PR | Client | OKRs (#19), PR Plan (#49), CP2 |
+| 7 | Brand source files — logo SVGs, hex values, fonts | Client | Brand Guidelines (#34), Logo Brief lock (#36) |
+| 8 | Product naming discrepancy — "Bong Water" vs "Bone Water" IPA | Client | Menu/collateral copy |
+| 9 | Giveaway cadence — the calendar compresses two closes to ~3.5 months apart | Client | Campaign Calendar (#45), Activation Plan (#43) |
 
-| This repo (JP codes) | Maxxim catalogue |
-|---|---|
-| D02 Audience Teardown | #4 Audience Teardown (+ feeds #5–8) |
-| D03 Competitor Analysis | #9 Competitor Analysis (+ feeds #10–12) |
-| D05 Offer Worksheet | #13 Offer Worksheet (+ feeds #14–17) |
-| D06 Discovery Pack Synthesis | #20 Discover Summary (CP1) (+ feeds #18, #21, #22) |
+## Next steps
+
+1. Close blockers 1–3 → sign **CP1** (Discover Summary, #20).
+2. Review the Design set → sign **CP2** (Strategy Summary, #63) → unlocks Deploy execution.
+3. Immediate action regardless of sign-off: fix the in-venue membership collateral conflict (#52 names it as the first thing that ships).
