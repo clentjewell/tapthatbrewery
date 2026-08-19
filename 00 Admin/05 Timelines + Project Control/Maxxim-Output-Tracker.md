@@ -1,4 +1,4 @@
-# Maxxim 3D Output Tracker — Tap That Brewery & Keghouse
+# Maxxim 3D Output Tracker — Tap That Brewery
 
 The engagement's target output set: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." ✍ = client sign-off. CP1/CP2 = phase checkpoints.
 

@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Messaging & Offer Architecture — catalogue #33 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -67,7 +67,7 @@ The four tiers from D05, rewritten as what the customer is told (naming suggesti
 - Tap Tokens + public leaderboard; referral rewards: mate buys a system = 1,000 tokens, mate gets a refill = 500
 - Corny service promise: "in by Tuesday knock-off, ready Friday"
 
-### Expansion — **"Tap That, Anywhere"**
+### Expansion — **"Tap That Brewery, Anywhere"**
 *Proposition:* the good times travel.
 - **The Benchy** portable tap — 4WD/camping/boating/caravan; no competitor (keep supplier name, brand the bundle)
 - **Keg Drop** — delivery via GoTab × Uber Direct (census-validated: $20–30 fee, 3–7 days acceptable; same-day possible)

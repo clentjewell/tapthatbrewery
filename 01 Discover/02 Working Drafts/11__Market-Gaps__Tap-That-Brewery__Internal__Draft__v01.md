@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Market Gaps — catalogue #11 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -23,7 +23,7 @@ The category's structural blind spot. Every competitor sells kegs; nobody owns t
 
 | | |
 |---|---|
-| **Evidence** | ~50% of Tap That's 220 refill customers bought their system elsewhere and switched — with zero targeted campaign. ~70% of corny-keg holdouts converted to the plastic bladder system once they experienced it. |
+| **Evidence** | ~50% of Tap That Brewery's 220 refill customers bought their system elsewhere and switched — with zero targeted campaign. ~70% of corny-keg holdouts converted to the plastic bladder system once they experienced it. |
 | **Size signal** | If half the current base arrived organically, the addressable installed base is plausibly several multiples of 220. It is the discovery session's stated "lowest-hanging fruit," and D06's H1 hypothesises switchers beat new-owner acquisition on CAC — no $975 objection, no 3-month buying cycle, margin from the first fill. |
 | **What claiming it takes** | A named "we fill any system" campaign lane (currently the offer exists but is unspoken); a first-fill switch incentive (Tap Tokens or member-rate first keg); corny Tue→Fri turnaround as the service proof; landing page + Meta/local targeting at homebrew and keg-owner audiences. Low capex — the constraint is Raef's ~70% marketing allocation. |
 
@@ -61,7 +61,7 @@ The category's structural blind spot. Every competitor sells kegs; nobody owns t
 
 ## Priority read (proposed)
 
-Gap 1 is the strategy — cheapest CAC, direct line to the 1,000-customer target. Gap 3 is the fastest claim (copy only, compliance permitting). Gaps 4 and 5 are gated by pipeline discipline and the GoTab integration respectively. Gap 2 is the defensible long game: the only gap where Tap That wouldn't just lead the category but *be* the category.
+Gap 1 is the strategy — cheapest CAC, direct line to the 1,000-customer target. Gap 3 is the fastest claim (copy only, compliance permitting). Gaps 4 and 5 are gated by pipeline discipline and the GoTab integration respectively. Gap 2 is the defensible long game: the only gap where Tap That Brewery wouldn't just lead the category but *be* the category.
 
 ## Assumptions & open items
 

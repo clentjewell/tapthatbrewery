@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Brand Guidelines — catalogue #34 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Client · **✍ sign-off document** |
 | **Date** | 19 August 2026 |
@@ -15,13 +15,13 @@
 
 ## How to read this document
 
-Tap That already has an identity — it's on the tap decals, the price board, the happy hour sign and the shirts behind the bar. These guidelines **document what exists** so everything new matches it; they do not reinvent anything. Everything below is described from the August 2026 site-visit photos (27 images); items marked **[TBC — client source files]** need your original artwork to finalise.
+Tap That Brewery already has an identity — it's on the tap decals, the price board, the happy hour sign and the shirts behind the bar. These guidelines **document what exists** so everything new matches it; they do not reinvent anything. Everything below is described from the August 2026 site-visit photos (27 images); items marked **[TBC — client source files]** need your original artwork to finalise.
 
 ## 1. Logo and marks (as observed in venue)
 
 | Mark | Where seen | Use |
 |---|---|---|
-| **Tap That badge** (primary logo — brewery name lockup) | Signage, price board, flyers, merch wall | The default mark on anything customer-facing |
+| **Tap That Brewery badge** (primary logo — brewery name lockup) | Signage, price board, flyers, merch wall | The default mark on anything customer-facing |
 | **TT mark** (compact monogram) | Tap decals, small-format applications | Where the full badge won't fit: taps, glassware, favicons |
 | **Wordmark / name-in-type** | Menu screens, receipts, documents | Text settings where a graphic mark is impractical |
 
@@ -33,7 +33,7 @@ The observed identity is **green and gold** — brewery green as the ground, gol
 
 | Role | Colour | Hex |
 |---|---|---|
-| Primary | Tap That green | **[TBC — extract from logo files]** |
+| Primary | Tap That Brewery green | **[TBC — extract from logo files]** |
 | Accent | Gold | **[TBC — extract from logo files]** |
 | Support | Off-white / cream (signage grounds), charcoal/black (menu boards, Midnight in Tokyo styling) | **[TBC]** |
 
@@ -86,7 +86,7 @@ Direction observed and to be continued: **real venue, real customers, no stock g
 
 ## Gaps needing client source files (sign-off checklist)
 
-| # | Needed from Tap That | Unlocks |
+| # | Needed from Tap That Brewery | Unlocks |
 |---|---|---|
 | 1 | Original logo files (AI/SVG/EPS — badge, TT mark, wordmark) | Section 1 geometry + Section 2 hex values |
 | 2 | Font names + licence status | Section 3 |

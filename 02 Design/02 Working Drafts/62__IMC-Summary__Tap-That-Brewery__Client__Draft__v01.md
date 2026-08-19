@@ -1,10 +1,10 @@
 # 62 — Integrated Marketing Communications Summary
-## Tap That Brewery & Keghouse · How every channel works as one system
+## Tap That Brewery · How every channel works as one system
 
 | | |
 |---|---|
 | **Document** | IMC Summary — catalogue #62 (✍ sign-off document) |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Client |
 | **Date** | 19 August 2026 |

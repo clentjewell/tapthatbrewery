@@ -1,10 +1,10 @@
 # 26 — Measurement Plan
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | Measurement Plan — catalogue #26 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |

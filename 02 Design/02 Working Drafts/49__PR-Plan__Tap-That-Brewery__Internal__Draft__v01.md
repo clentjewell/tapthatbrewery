@@ -1,10 +1,10 @@
 # 49 — PR Plan
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | PR Plan — catalogue #49 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## Posture
 
-PR is the one channel where Tap That punches above its budget, because the stories are already written — one has already run. The Gold Coast Bulletin's "Shaken but not stirred" piece (photographed framed in the venue) proves the founding story lands with mainstream local press. This plan is earned-media only: no agency retainer, no wire services, no spend beyond hours **[$0 media; agency retainer explicitly not recommended at current P&L]**. Everything is sized for a ~70%-allocation marketer plus founder time for interviews.
+PR is the one channel where Tap That Brewery punches above its budget, because the stories are already written — one has already run. The Gold Coast Bulletin's "Shaken but not stirred" piece (photographed framed in the venue) proves the founding story lands with mainstream local press. This plan is earned-media only: no agency retainer, no wire services, no spend beyond hours **[$0 media; agency retainer explicitly not recommended at current P&L]**. Everything is sized for a ~70%-allocation marketer plus founder time for interviews.
 
 ## Story assets (ranked by proof)
 

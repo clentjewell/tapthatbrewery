@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Logo Brief — catalogue #36 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Client · **✍ sign-off document** |
 | **Date** | 19 August 2026 |
@@ -15,15 +15,15 @@
 
 ## Purpose — import and lock, not redesign
 
-Tap That already has a logo that customers recognise — it's on the signage, the tap decals, the glassware and the merch wall. This brief covers **importing the existing marks, completing the variant set, and locking them** so every future asset (website, campaigns, lifecycle emails, white-label collateral) uses identical artwork.
+Tap That Brewery already has a logo that customers recognise — it's on the signage, the tap decals, the glassware and the merch wall. This brief covers **importing the existing marks, completing the variant set, and locking them** so every future asset (website, campaigns, lifecycle emails, white-label collateral) uses identical artwork.
 
-**Redesign is explicitly out of scope.** No redraws, refreshes, "modernisations" or new marks will be produced under this brief unless Tap That requests it in writing. The identity works; the job is consistency.
+**Redesign is explicitly out of scope.** No redraws, refreshes, "modernisations" or new marks will be produced under this brief unless Tap That Brewery requests it in writing. The identity works; the job is consistency.
 
 ## 1. Inventory of existing marks (as observed in venue, Aug 2026)
 
 | # | Mark | Observed on | Status |
 |---|---|---|---|
-| 1 | **Hexagonal badge** — the primary Tap That Brewery & Keghouse lockup | Signage, price board, flyers, merch | Source file needed |
+| 1 | **Hexagonal badge** — the primary Tap That Brewery lockup | Signage, price board, flyers, merch | Source file needed |
 | 2 | **TT roundel** — compact monogram | Tap decals, small formats | Source file needed |
 | 3 | **Wordmark** — the name in brand type | Menu screens, documents | Source file needed |
 
@@ -58,7 +58,7 @@ If no vector source exists for any mark, the fallback is a **faithful vector re-
 
 A gate, not a formality — especially given the franchise ambition (10–12 year horizon means the marks must travel):
 
-1. **Ownership** — confirm Tap That owns the artwork outright (original designer's assignment/licence; no stock elements with restricted licences).
+1. **Ownership** — confirm Tap That Brewery owns the artwork outright (original designer's assignment/licence; no stock elements with restricted licences).
 2. **Registrability** — IP Australia trade mark search for the name and device marks in classes 32 (beer), 40 (brewing), 43 (taproom services); note any conflicts.
 3. **Originality scan** — reverse-image check of badge and roundel against other breweries/keg businesses (the TT monogram and hex-badge forms are common in craft beer; confirm no confusable local mark, including the unverified "Aardvark & Arrow" across the road).
 4. Record findings; if a conflict surfaces, that (and only that) reopens a design conversation — client's call.
@@ -76,7 +76,7 @@ The identity is **locked** when all of the following are true:
 
 After lock: any new application uses these files only; any proposed change to the marks is a new, client-initiated brief.
 
-## What we need from Tap That
+## What we need from Tap That Brewery
 
 1. Original logo files (AI/SVG/EPS preferred; whatever exists otherwise) — badge, roundel, wordmark.
 2. Original designer's name/contact and confirmation of IP ownership.

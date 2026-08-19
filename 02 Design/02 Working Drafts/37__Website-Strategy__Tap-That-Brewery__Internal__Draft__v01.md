@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Website Strategy — catalogue #37 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -45,7 +45,7 @@ Ranking follows the buying cycle, not revenue proximity: because only ~10% buy w
 
 ## The switcher landing case
 
-The behavioural segment outranks every demographic on cost-per-refill-customer, so it gets its own landing page and campaign lane rather than a paragraph on the refills page. The page speaks to someone who owns hardware and resents nothing about it — the pitch is purely product and service: award-winning beer brewed in Burleigh, 27-tap variety, corny drop Tuesday/ready Friday, member pricing. Cost versus Aardvark & Arrow* is never mentioned (Tap That is dearer per keg); freshness, range and the club are the argument. *Name unverified.
+The behavioural segment outranks every demographic on cost-per-refill-customer, so it gets its own landing page and campaign lane rather than a paragraph on the refills page. The page speaks to someone who owns hardware and resents nothing about it — the pitch is purely product and service: award-winning beer brewed in Burleigh, 27-tap variety, corny drop Tuesday/ready Friday, member pricing. Cost versus Aardvark & Arrow* is never mentioned (Tap That Brewery is dearer per keg); freshness, range and the club are the argument. *Name unverified.
 
 ## Content strategy role: objection-handling for the 3-month window
 

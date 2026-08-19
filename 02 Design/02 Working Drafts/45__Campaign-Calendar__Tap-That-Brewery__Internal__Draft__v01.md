@@ -1,10 +1,10 @@
 # 45 — Campaign Calendar
-## Tap That Brewery & Keghouse · September 2026 – August 2027
+## Tap That Brewery · September 2026 – August 2027
 
 | | |
 |---|---|
 | **Document** | Campaign Calendar — catalogue #45 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |

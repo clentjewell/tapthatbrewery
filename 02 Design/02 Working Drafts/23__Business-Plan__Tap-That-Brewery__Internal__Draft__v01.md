@@ -1,10 +1,10 @@
 # 23 — Business Plan
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | Business Plan — catalogue #23 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## The model, stated plainly
 
-Tap That is not a brewery with a bar. It is a **refill subscription business** that gives away its margin on hardware to create subscribers. The 2-tap keg system sells for $975 — at cost, the same price as buying direct from the supplier — because the product being sold is not the system; it is the ~$200/month, ~2-keg refill habit that follows it. Everything else the business does exists to feed that engine: the owner's own mental model from discovery is *"keg system sales → refills; wholesale → refills; taproom → keg system ownership → refills."*
+Tap That Brewery is not a brewery with a bar. It is a **refill subscription business** that gives away its margin on hardware to create subscribers. The 2-tap keg system sells for $975 — at cost, the same price as buying direct from the supplier — because the product being sold is not the system; it is the ~$200/month, ~2-keg refill habit that follows it. Everything else the business does exists to feed that engine: the owner's own mental model from discovery is *"keg system sales → refills; wholesale → refills; taproom → keg system ownership → refills."*
 
 The business currently runs at a loss ("always red at the bottom of the P&L"). This plan does not treat that as a crisis of model — the model is sound — but as a crisis of **allocation**: 18 months of effort drifted to the loss-making taproom while the margin engine sat at 220 of a targeted 1,000 active customers.
 

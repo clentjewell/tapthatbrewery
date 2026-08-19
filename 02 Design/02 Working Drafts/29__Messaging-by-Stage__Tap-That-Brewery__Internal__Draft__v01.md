@@ -1,10 +1,10 @@
 # 29 — Messaging by Stage
-## What Tap That says at each journey stage — kudos/connection lead, cost closes
+## What Tap That Brewery says at each journey stage — kudos/connection lead, cost closes
 
 | | |
 |---|---|
 | **Document** | Messaging by Stage — catalogue #29 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## Purpose
 
-The words for each stage of #28's journey, governed by one rule from discovery (Christy, adopted in D06): **cost is the customer's dirty little secret — kudos and connection do the buying, savings justify it afterwards.** Cost closes; it never opens — except for high-volume drinkers, the one profile where the maths leads openly. Voice throughout is the one already on Tap That's walls: cheeky, pun-forward, warm ("Tap That Knockoffs", "Skittle Me This", "5 ways to support us — total $0.00"). Sample lines are drafts in that voice, for testing, not final copy.
+The words for each stage of #28's journey, governed by one rule from discovery (Christy, adopted in D06): **cost is the customer's dirty little secret — kudos and connection do the buying, savings justify it afterwards.** Cost closes; it never opens — except for high-volume drinkers, the one profile where the maths leads openly. Voice throughout is the one already on Tap That Brewery's walls: cheeky, pun-forward, warm ("Tap That Knockoffs", "Skittle Me This", "5 ways to support us — total $0.00"). Sample lines are drafts in that voice, for testing, not final copy.
 
 ## Awareness — hooks (kudos/connection only; no prices)
 
@@ -40,7 +40,7 @@ The 3-month window is objection-handling territory. Each of the four discovery o
 | Upfront cost (~$975) | *"We sell the system at cost. Not a typo — we make our money when you love the beer."* Follow: Afterpay/Zip; lease-to-buy when live | Systems at supplier price, photo-verified card; radical-honesty framing converts the objection into trust |
 | "My wife won't let me" | *"Bring her in. Nine of our taps are hers — seltzers, gin fizz, ranch water, mojitos on tap."* | ~1/3 of 27 taps non-beer, engineered for exactly this; gluten-reduced/lower-carb held in reserve |
 | Nowhere to put it | *"If a bar fridge fits, a 2-tap fits. Benchy fits in the tray."* + install-photo UGC | 2-tap footprint; integrated options from $1,750; real installs as evidence |
-| "I'll drink too much" | *"We asked 50 keg owners. 70% pour daily — and still only go through 1–2 kegs a month. It's a tap, not a dare."* | Census (n=50) moderation data — Tap That's single most disarming proof point |
+| "I'll drink too much" | *"We asked 50 keg owners. 70% pour daily — and still only go through 1–2 kegs a month. It's a tap, not a dare."* | Census (n=50) moderation data — Tap That Brewery's single most disarming proof point |
 
 ## Purchase moment — the close
 

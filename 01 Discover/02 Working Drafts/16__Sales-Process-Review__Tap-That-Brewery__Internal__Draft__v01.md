@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Document** | Sales Process Review — catalogue #16 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
-**Purpose.** How systems and refills actually get sold today — the real mechanics, with their conversion numbers where known — and the named gaps. The headline: Tap That converts remarkably well at the moments it controls, and loses buyers in every gap between those moments.
+**Purpose.** How systems and refills actually get sold today — the real mechanics, with their conversion numbers where known — and the named gaps. The headline: Tap That Brewery converts remarkably well at the moments it controls, and loses buyers in every gap between those moments.
 
 ## How a keg system sells today
 
@@ -44,7 +44,7 @@ But the window itself is **unmanaged**: no email/SMS nurture, no objection-answe
 - **Retention device:** Keg Crew membership ($30 off every refill — repays ~$250/yr in ~4 months at cadence) plus Tap Tokens on every dollar, leaderboard, referral rewards (1,000 tokens for a system or venue referral, 500 for a refill referral).
 - **Lifecycle:** active <75 days since last keg · at-risk 75–90 · churned 90+.
 - **Winback:** a **manual monthly SMS** to churned customers — $20 off if they buy within 2 weeks; this month testing a free family-sized Marie's Pizza (Buttercard partnership). Automation waits on the GoTab/Fishbowl integration. Churned customers contacted personally mostly say they've cut back or "hadn't gotten around to it" — lapsed, not lost.
-- **Switchers:** ~50% of refill customers bought hardware elsewhere and switched to Tap That for fills — with zero targeted effort. There is no active sales process for this, the cheapest acquisition lane the business has.
+- **Switchers:** ~50% of refill customers bought hardware elsewhere and switched to Tap That Brewery for fills — with zero targeted effort. There is no active sales process for this, the cheapest acquisition lane the business has.
 
 ## Wholesale outreach history
 

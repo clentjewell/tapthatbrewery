@@ -1,10 +1,10 @@
 # 22 — Recommended Next Moves
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | Recommended Next Moves into Design (catalogue #22) |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover → 02 Design handover |
 | **Status** | Draft v01 — Internal · Sequencing is Jewell's recommendation, pending Gate 1 |
 | **Date** | 19 August 2026 |

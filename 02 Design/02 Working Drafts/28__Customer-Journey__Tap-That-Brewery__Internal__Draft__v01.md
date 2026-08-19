@@ -1,10 +1,10 @@
 # 28 — Customer Journey
-## The end-to-end path from unaware to advocate, mapped to how Tap That actually converts
+## The end-to-end path from unaware to advocate, mapped to how Tap That Brewery actually converts
 
 | | |
 |---|---|
 | **Document** | Customer Journey — catalogue #28 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -30,7 +30,7 @@ The structural finding, carried from D05/D06: the physical journey works — the
 |---|---|---|---|---|
 | **1. Unaware** | Buys slabs; doesn't know home keg systems are a category, or thinks they're homebrew kit | Organic social (@tapthatbreweryandkeghouse), word of mouth, drive-past in the industrial estate, Hop On Brewery Tours groups | No paid awareness; no partnership presence where intent forms 6–9 months out (pool/deck builders, BBQ retail, 4WD) | Raef (organic) / unassigned (paid, partnerships) |
 | **2. Aware — the "that's a keg system?" moment** | Standing in the taproom or entering a giveaway; sees the system working, the 27 taps, the prices | Taproom (converts 20–30% of visitors to eventual owners), giveaway entries (~1,000 2×/yr), keg-system flyer, staff conversation | Giveaway entrants and taproom visitors are not captured to a named list at the moment of interest; no demo-booking path bar an email address | Venue staff / Raef |
-| **3. Consideration — the 3-month window** | Wants it; negotiating with the partner, the budget, the garage and themselves. Four objections: upfront cost, partner veto, space, "I'll drink too much" | Memory. Return taproom visits. The next giveaway | **The biggest gap in the business.** No nurture sequence, no objection content, no retargeting; ~60% of buyers sit here up to 3 months with nothing arriving from Tap That | Unassigned — the designed pathway in #30 |
+| **3. Consideration — the 3-month window** | Wants it; negotiating with the partner, the budget, the garage and themselves. Four objections: upfront cost, partner veto, space, "I'll drink too much" | Memory. Return taproom visits. The next giveaway | **The biggest gap in the business.** No nurture sequence, no objection content, no retargeting; ~60% of buyers sit here up to 3 months with nothing arriving from Tap That Brewery | Unassigned — the designed pathway in #30 |
 | **4. Purchase** | Trigger arrives: 50%-off giveaway close (22–25 conversions last round), tax return, a party, partner sign-off | In-venue close; systems at cost ($975–$2,550 + bonus credit); Afterpay/Zip; assembly & delivery $300; lease-to-buy in development (GoTab-dependent) | Purchase moment doesn't systematically attach Keg Crew membership or book the first refill; lease-to-buy timing unconfirmed | Venue staff / Justin (commercial terms) |
 | **5. Activation — first refill** | System installed; the habit is not yet formed. The first refill is the true conversion to the margin engine | Ad-hoc: customer returns when the keg runs dry; corny service (drop Tue, ready Fri); $40–100 bonus credit nudges a return | No onboarding sequence, no scheduled first-refill prompt, no "what to pour for her" starter guidance; bonus credit not framed as a first-refill hook | Unassigned — lifecycle automation |
 | **6. Habit** | ~2 kegs/month, ~$200/month; member pricing ($120 vs $150 core 20L) and Tap Tokens reward the cadence | Keg Crew $250/yr ($30 off refills, 100 tokens, 5L birthday keg), Tap Token leaderboard, tasting nights, taproom visits | Membership is not attached at purchase by default; no cadence-based prompts (a 2-keg/month customer who misses a fortnight is invisible until day 75) | Raef / lifecycle automation |

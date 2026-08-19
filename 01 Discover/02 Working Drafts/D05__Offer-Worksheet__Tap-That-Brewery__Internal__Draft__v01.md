@@ -1,5 +1,5 @@
 # D05 — Offer Worksheet
-## Tap That Brewery & Keghouse · Draft v01 · Internal · 19 Aug 2026
+## Tap That Brewery · Draft v01 · Internal · 19 Aug 2026
 
 All prices photo-verified in venue, Aug 2026 (see `01 Inputs/site-visit-photos/photo-index.md`). Membership pricing has two conflicting live posters — reconcile before publishing anything.
 

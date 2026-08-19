@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Jobs To Be Done — catalogue #08 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -13,7 +13,7 @@
 
 ## Frame
 
-Nobody hires a keg system for the hardware — the client said it themselves: *"we're in the business of connection and good times — keg systems and refills are the means, not the end."* This document states what each segment is actually hiring Tap That to do, in JTBD form (*When [situation], help me [job] so that [outcome]*), split functional / social / emotional. It then treats the four purchase moments — system, refill, taproom visit, membership — as **distinct jobs**, because a customer can fire Tap That from one while still employing it for another.
+Nobody hires a keg system for the hardware — the client said it themselves: *"we're in the business of connection and good times — keg systems and refills are the means, not the end."* This document states what each segment is actually hiring Tap That Brewery to do, in JTBD form (*When [situation], help me [job] so that [outcome]*), split functional / social / emotional. It then treats the four purchase moments — system, refill, taproom visit, membership — as **distinct jobs**, because a customer can fire Tap That Brewery from one while still employing it for another.
 
 ## Jobs by segment
 
@@ -33,7 +33,7 @@ Nobody hires a keg system for the hardware — the client said it themselves: *"
 
 ## Jobs by purchase moment
 
-The four moments hire Tap That for different things. Conflating them produces creative that sells everything and closes nothing.
+The four moments hire Tap That Brewery for different things. Conflating them produces creative that sells everything and closes nothing.
 
 | Moment | The job being hired | Success looks like | Fired when |
 |---|---|---|---|

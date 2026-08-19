@@ -1,10 +1,10 @@
 # 64 — Approved Roadmap
-## Tap That Brewery & Keghouse · Post-approval execution, Sep 2026 – Aug 2027
+## Tap That Brewery · Post-approval execution, Sep 2026 – Aug 2027
 
 | | |
 |---|---|
 | **Document** | Approved Roadmap — catalogue #64 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design → 03 Deploy handover |
 | **Status** | Draft v01 — Client · **All lines Pending CP2 sign-off** |
 | **Date** | 19 August 2026 |

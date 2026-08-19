@@ -1,5 +1,5 @@
 # D02 — Audience Teardown
-## Tap That Brewery & Keghouse · Draft v01 · Internal · 19 Aug 2026
+## Tap That Brewery · Draft v01 · Internal · 19 Aug 2026
 
 Segments ranked by commercial attractiveness for the keg system → refill model. Percentages are the client's own estimates from the discovery workshop (deliberately overlapping, not summing to 100%). Message pillars: Cost, Convenience, Connection, Kudos, Taste/Freshness.
 
@@ -12,7 +12,7 @@ Segments ranked by commercial attractiveness for the keg system → refill model
 - **Purchasing power:** solid but scrutinised; the $975 outlay is a household decision → the "my wife won't let me" objection lives here, answered by the 1/3 non-beer tap range (her drinks on tap too) and RTD/cocktail options.
 - **Message emphasis:** Connection first, cost as the quiet justification ("cheaper than a night out, and nobody needs a babysitter").
 - **Reachability:** Meta, local community groups, school/sport networks, giveaway entries.
-- **Guardrail:** this pillar must not swallow the brand — Tap That is good times for everyone, not "the dad brand."
+- **Guardrail:** this pillar must not swallow the brand — Tap That Brewery is good times for everyone, not "the dad brand."
 
 ## 2. High-volume drinkers (~20%) — the economics segment
 

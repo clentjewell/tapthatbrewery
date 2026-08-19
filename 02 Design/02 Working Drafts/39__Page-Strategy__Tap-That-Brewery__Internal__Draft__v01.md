@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Page Strategy — catalogue #39 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -49,7 +49,7 @@ House rules across all six pages: kudos/connection open, cost closes (Christy's 
 | **Message hierarchy** | 1. Whoever sold you the system, we'll keep it flowing → 2. Award-winning beer, 27 taps of choice, brewed five minutes from where you drink it → 3. Member pricing makes it routine ($120 core 20L vs $150) |
 | **Proof** | Award; brewed-on-site freshness (20L); corny service promise (drop COB Tuesday, ready Friday, $3 clean); half our refill family switched to us |
 | **CTAs** | Primary: order/book your first refill. Secondary: join Keg Crew (subject to price reconciliation) |
-| **Objections** | "Is my system compatible?" (plain answer + corny/plastic explainer); "I already have a supplier" (freshness/range/club — never sticker price; Tap That is dearer than the $85–90 rivals and doesn't apologise for it) |
+| **Objections** | "Is my system compatible?" (plain answer + corny/plastic explainer); "I already have a supplier" (freshness/range/club — never sticker price; Tap That Brewery is dearer than the $85–90 rivals and doesn't apologise for it) |
 | **Blocks in order** | Hero ("Got a keg system? We fill that.") → compatibility/how-it-works (plastic vs corny) → tap range strip incl. non-beer → refill pricing, member vs non-member → service promises → first-refill CTA → membership close |
 
 ## 4. Refills & Beer Range

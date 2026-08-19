@@ -1,4 +1,4 @@
-# Site-visit photo index — Tap That Brewery & Keghouse
+# Site-visit photo index — Tap That Brewery
 
 Source: shared Google Photos album (Clent Jewell) — https://photos.app.goo.gl/pQDjZZxGaat8CFTf7
 Captured: August 2026 site visit, Burleigh Heads taproom. 27 photos, downloaded at 1600px.
@@ -45,7 +45,7 @@ Captured: August 2026 site visit, Burleigh Heads taproom. 27 photos, downloaded 
 
 | File | What it shows |
 |---|---|
-| `06-workshop-notes-keg-refills.jpg` | KEG REFILLS: goal 1,000 refill customers, current 220; opportunity = pre-existing keg system owners switching to Tap That; ↑ TT keg system sales; delivery |
+| `06-workshop-notes-keg-refills.jpg` | KEG REFILLS: goal 1,000 refill customers, current 220; opportunity = pre-existing keg system owners switching to Tap That Brewery; ↑ TT keg system sales; delivery |
 | `12-workshop-notes-keg-systems-pillars-segments.jpg` | KEG SYSTEMS: pillars (cost, taste/freshness, connection, convenience, kudos); target markets w/ estimates — share houses 5% (kudos/cost), DINK 5% (kudos/T&F), young families 45% (cost/connection), baby boomers 20% (connection), high-volume drinkers 20% (cost/convenience), tradies 20% (kudos/connection), wankers 5% (kudos/connection), workplaces 5% (connection/cost/kudos); female market (RTDs, seltzers, cocktails); opportunities: JVPs, referral program, lease-to-buy, UGC, new product; consumer objections: upfront expense ($1000), "wife won't let me" (incorporate her fave options), nowhere to put it, don't trust myself (drink too much); competitors: "Aardvark and Arrow" (across the road), Laughing Lizard (northern Gold Coast), online distributors |
 | `19-workshop-notes-wholesale.jpg` | WHOLESALE: restaurants, sports clubs, event/more venues |
 | `27-workshop-notes-taproom-map.jpg` | TAPROOM mind map: everyday punters, local businesses, functions/events → birthdays, music, venue hire |

@@ -1,10 +1,10 @@
 # 19 — Objectives & Key Results
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | Objectives & Key Results, next 12 months (catalogue #19) |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal · **All OKRs are proposals pending founder sign-off** |
 | **Date** | 19 August 2026 |

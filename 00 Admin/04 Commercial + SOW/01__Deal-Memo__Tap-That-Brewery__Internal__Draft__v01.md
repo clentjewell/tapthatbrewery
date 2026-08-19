@@ -1,10 +1,10 @@
 # 01 — Deal Memo
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | 01 — Deal Memo (Maxxim catalogue #1, Gate 0 — Onboarding) |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 00 Admin — Gate 0 (Onboarding) |
 | **Status** | Draft v01 — Internal (Jewell only, candid) |
 | **Date** | 19 August 2026 |
@@ -18,7 +18,7 @@ Internal record of why this deal is worth doing, what shape it should take, and 
 
 ## Who the client is
 
-Tap That Brewery & Keghouse, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer — ex Burleigh Barrels, the product credibility; Brewer's Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background — the business model and the 10–12-year franchise ambition). One hybrid marketer, **Raef** (~70% marketing / 30% bar cover).
+Tap That Brewery, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer — ex Burleigh Barrels, the product credibility; Brewer's Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background — the business model and the 10–12-year franchise ambition). One hybrid marketer, **Raef** (~70% marketing / 30% bar cover).
 
 Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** — ~$200/month per active customer, ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
 

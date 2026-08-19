@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Final Brief Pack — catalogue #61 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Client |
 | **Date** | 19 August 2026 |
@@ -39,7 +39,7 @@ Nine execution briefs turn the Design-phase strategy (220 → 1,000 active keg c
 3. **Website + shoot make paid worth clicking.** #54 and #53 land in wave 2 so wave-3 paid traffic hits real proof, not the current site.
 4. **PR and Benchy ride the hooks.** #59 and #52 Kit 3 fire when their assets and signings are real — hook-driven, not calendar-driven.
 
-## What we need from Tap That to start
+## What we need from Tap That Brewery to start
 
 | Item | Blocks |
 |---|---|
@@ -55,9 +55,9 @@ Approval of this pack approves the briefs as scoped, the sequence above, and the
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
-| Tap That Brewery & Keghouse — Co-founder | Justin Mistry | | |
-| Tap That Brewery & Keghouse — Co-founder | Chris Smith | | |
-| Tap That — Marketing | Raef | | |
+| Tap That Brewery — Co-founder | Justin Mistry | | |
+| Tap That Brewery — Co-founder | Chris Smith | | |
+| Tap That Brewery — Marketing | Raef | | |
 | Jewell Projects — Engagement lead | Clent Jewell | | |
 | Jewell Projects — Strategy | Christy Kilmartin | | |
 

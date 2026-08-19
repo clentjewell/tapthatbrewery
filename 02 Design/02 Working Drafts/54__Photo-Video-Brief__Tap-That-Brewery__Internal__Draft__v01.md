@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Photo & Video Brief — catalogue #54 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -54,7 +54,7 @@ Chris Smith (at the brewhouse, working — the ex-Burleigh-Barrels comeback stor
 ## Success criteria
 
 1. Library tagged by segment × pillar × format, minimum: 40 finished stills, 12 × 9:16 cuts (15/30s), 4 testimonials, full product set, 2 founder portraits.
-2. Zero frames that could pass for stock; every hero image contains a real Tap That system or tap wall.
+2. Zero frames that could pass for stock; every hero image contains a real Tap That Brewery system or tap wall.
 3. All releases filed before any asset ships to #56.
 
 ## Assumptions & open items

@@ -1,10 +1,10 @@
 # 63 — Strategy Summary
-## Tap That Brewery & Keghouse · Design-phase checkpoint (CP2)
+## Tap That Brewery · Design-phase checkpoint (CP2)
 
 | | |
 |---|---|
 | **Document** | Strategy Summary — catalogue #63 (✍ CP2 checkpoint document) |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design — sign-off |
 | **Status** | Draft v01 — Client |
 | **Date** | 19 August 2026 |
@@ -17,7 +17,7 @@
 
 ## What this document is
 
-The Discover phase ended with a diagnosis: Tap That is a refill subscription business being run with a hospitality venue's attention — 220 active keg customers against a 1,000 target (~$2.6M), a loss-making P&L, and one marketer at ~70% capacity as the binding constraint. The Design phase turned that diagnosis into strategy, brand, channel plans and nine execution briefs. This page is what the founders are approving. Sign-off here is **CP2**: it closes Design and unlocks Deploy.
+The Discover phase ended with a diagnosis: Tap That Brewery is a refill subscription business being run with a hospitality venue's attention — 220 active keg customers against a 1,000 target (~$2.6M), a loss-making P&L, and one marketer at ~70% capacity as the binding constraint. The Design phase turned that diagnosis into strategy, brand, channel plans and nine execution briefs. This page is what the founders are approving. Sign-off here is **CP2**: it closes Design and unlocks Deploy.
 
 ## The strategic choices made — and what was deliberately rejected
 
@@ -67,9 +67,9 @@ Approval of this summary approves: the ten choices and rejections above as the o
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
-| Tap That Brewery & Keghouse — Co-founder | Justin Mistry | | |
-| Tap That Brewery & Keghouse — Co-founder | Chris Smith | | |
-| Tap That — Marketing | Raef | | |
+| Tap That Brewery — Co-founder | Justin Mistry | | |
+| Tap That Brewery — Co-founder | Chris Smith | | |
+| Tap That Brewery — Marketing | Raef | | |
 | Jewell Projects — Engagement lead | Clent Jewell | | |
 | Jewell Projects — Strategy | Christy Kilmartin | | |
 

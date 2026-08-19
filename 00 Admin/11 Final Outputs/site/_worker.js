@@ -1,5 +1,5 @@
 /**
- * Password gate for the Tap That 3D Process delivery pack.
+ * Password gate for the Tap That Brewery 3D Process delivery pack.
  *
  * Soft gate only — the password is shared with the client and is not protecting
  * secrets. It keeps the pack off search engines and away from casual visitors.
@@ -60,7 +60,7 @@ function gate({ next = "/", error = false } = {}) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Tap That Brewery &amp; Keghouse</title>
+<title>Tap That Brewery</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Karla:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
@@ -91,7 +91,7 @@ function gate({ next = "/", error = false } = {}) {
 </head>
 <body>
   <main class="card">
-    <p class="mark">Tap That · Brewery &amp; Keghouse</p>
+    <p class="mark">Tap That Brewery</p>
     <h1>Your 3D Process.</h1>
     <p class="sub">This pack is private. Enter the password to continue.</p>
     ${error ? '<p class="err">That password did not match. Try again.</p>' : ""}

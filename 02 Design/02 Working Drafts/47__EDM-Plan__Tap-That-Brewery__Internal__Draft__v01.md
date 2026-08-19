@@ -1,10 +1,10 @@
 # 47 — EDM Plan (Email + SMS)
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | EDM Plan — catalogue #47 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## Why EDM is the highest-ROI channel available
 
-Tap That already owns the lists — it just doesn't work them. The 3-month buying cycle is "currently nurtured by memory" (D06), churn management is one hand-sent monthly SMS, and the mailing list is literally a membership tier (Brew Buds). Email and SMS cost near-zero per send, need no ad-policy approvals, and are the only channels that can run the 90-day nurture and the 60/75/90-day lifecycle clock at zero media budget. On a loss-making P&L, this channel comes **before** paid media, not after.
+Tap That Brewery already owns the lists — it just doesn't work them. The 3-month buying cycle is "currently nurtured by memory" (D06), churn management is one hand-sent monthly SMS, and the mailing list is literally a membership tier (Brew Buds). Email and SMS cost near-zero per send, need no ad-policy approvals, and are the only channels that can run the 90-day nurture and the 60/75/90-day lifecycle clock at zero media budget. On a loss-making P&L, this channel comes **before** paid media, not after.
 
 ## List assets today
 

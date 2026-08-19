@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Paid Media Brief — catalogue #56 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |

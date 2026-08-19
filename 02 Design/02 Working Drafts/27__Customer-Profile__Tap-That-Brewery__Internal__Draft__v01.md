@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Customer Profile — catalogue #27 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## Purpose
 
-Discover named the segments (#05, D02); this document arms them. Each profile is built to be lifted straight into creative briefs: the pain the creative dramatises, the gain it promises, the proof Tap That already owns, and the single message that opens the conversation. The working rule throughout, per Christy's discovery reframe: **cost is the customer's dirty little secret — kudos/connection lead, cost closes.** Share estimates are the client's own and overlap deliberately.
+Discover named the segments (#05, D02); this document arms them. Each profile is built to be lifted straight into creative briefs: the pain the creative dramatises, the gain it promises, the proof Tap That Brewery already owns, and the single message that opens the conversation. The working rule throughout, per Christy's discovery reframe: **cost is the customer's dirty little secret — kudos/connection lead, cost closes.** Share estimates are the client's own and overlap deliberately.
 
 ## 1. Young families (~45%) — the lead profile
 
@@ -29,7 +29,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 | **Proof owned** | 27 taps with ~1/3 non-beer (partner buy-in engineered into the product); census (n=50): 70% of daily users pour only 1–2 kegs/month — a moderation story, not an excess story; $975 2-tap at cost with Afterpay/Zip; 20L kegs from $120 (member core) — cheaper than one babysat night out. |
 | **Opening message** | *"Your place just became the place."* Connection leads; the cost-per-night-out maths arrives later, in retargeting, as the quiet justification. |
 
-*Guardrail (carried from D02): this segment must not turn Tap That into "the dad brand."*
+*Guardrail (carried from D02): this segment must not turn Tap That Brewery into "the dad brand."*
 
 ## 2. High-volume drinkers (~20%) — the economics profile
 

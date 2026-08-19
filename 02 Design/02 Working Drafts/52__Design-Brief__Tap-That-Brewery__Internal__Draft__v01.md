@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Design Brief — catalogue #52 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -62,7 +62,7 @@ The two live membership posters conflict ($300 + $120/yr renewal vs **$250/yr**;
 
 1. Kit 4 installed and photographed with zero price conflicts remaining in venue.
 2. Kits 1–3 delivered as layered source files + export packs sized for Meta, print and web; every asset passes the voice check (would Raef post it?) and the claims discipline above.
-3. No asset leads with sticker-price comparison against local keg rivals (Tap That is 40–90% dearer and never fights there).
+3. No asset leads with sticker-price comparison against local keg rivals (Tap That Brewery is 40–90% dearer and never fights there).
 
 ## Deadlines
 

@@ -1,10 +1,10 @@
 # 65 — Case Study Evidence Pack (Framework)
-## Tap That Brewery & Keghouse · What to capture from day one
+## Tap That Brewery · What to capture from day one
 
 | | |
 |---|---|
 | **Document** | Case Study Evidence Pack — catalogue #65 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 03 Deploy |
 | **Status** | Draft v01 — Internal · **FRAMEWORK ONLY — no results exist yet; populated after Deploy execution** |
 | **Date** | 19 August 2026 |

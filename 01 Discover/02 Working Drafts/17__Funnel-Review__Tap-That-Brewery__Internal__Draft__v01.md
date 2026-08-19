@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Funnel Review — catalogue #17 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |

@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | Conversion Pathway — catalogue #30 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## Purpose
 
-Tap That already converts — 20–30% of taproom visitors become owners, giveaways close 22–25 systems a round, and half the refill base switched in from elsewhere with no campaign at all. But this is an *accidental* pathway: it works when the customer happens to walk in, and goes silent for the 3-month window where 60% of buyers decide. This document designs the deliberate version — entry points ranked by cost, a nurture machine for the window, explicit conversion triggers, and the handoff into lifecycle automation — with the checkpoints that make it measurable.
+Tap That Brewery already converts — 20–30% of taproom visitors become owners, giveaways close 22–25 systems a round, and half the refill base switched in from elsewhere with no campaign at all. But this is an *accidental* pathway: it works when the customer happens to walk in, and goes silent for the 3-month window where 60% of buyers decide. This document designs the deliberate version — entry points ranked by cost, a nurture machine for the window, explicit conversion triggers, and the handoff into lifecycle automation — with the checkpoints that make it measurable.
 
 ## Current vs designed, on a page
 

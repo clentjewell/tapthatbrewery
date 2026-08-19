@@ -1,10 +1,10 @@
-# Contacts + Stakeholders — Tap That Brewery & Keghouse
+# Contacts + Stakeholders — Tap That Brewery
 
 ## The business
 
 | | |
 |---|---|
-| **Trading name** | Tap That Brewery & Keghouse |
+| **Trading name** | Tap That Brewery |
 | **Location** | Burleigh Heads, Gold Coast, QLD (industrial area) |
 | **Website** | tapthatbrewery.com.au |
 | **Email** | cheers@tapthatbrewery.com.au |

@@ -1,9 +1,9 @@
 # D06 — Discovery Pack Synthesis
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse (Burleigh Heads, Gold Coast) |
+| **Engagement** | Jewell Projects × Tap That Brewery (Burleigh Heads, Gold Coast) |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal (Jewell + senior client) |
 | **Date** | 19 August 2026 |
@@ -20,9 +20,9 @@ Pulls the discovery session, site visit, and in-venue evidence into one validate
 
 ## Summary on a page
 
-**Business snapshot.** Tap That Brewery & Keghouse, Burleigh Heads. Founded by Chris Smith (head brewer, ex Burleigh Barrels) and Justin Mistry (physio-turned-operator), opened October, first-year award winner (Midnight in Tokyo — Brewer's Choice at Crafted). Four units: keg system sales, keg refills, taproom, wholesale. 27 taps, ~1/3 deliberately non-beer. 220 active keg customers; target 1,000; ~$200/month average refill spend = ~$2.6M revenue at target. Currently loss-making.
+**Business snapshot.** Tap That Brewery, Burleigh Heads. Founded by Chris Smith (head brewer, ex Burleigh Barrels) and Justin Mistry (physio-turned-operator), opened October, first-year award winner (Midnight in Tokyo — Brewer's Choice at Crafted). Four units: keg system sales, keg refills, taproom, wholesale. 27 taps, ~1/3 deliberately non-beer. 220 active keg customers; target 1,000; ~$200/month average refill spend = ~$2.6M revenue at target. Currently loss-making.
 
-**Core commercial read.** Tap That's problem is not product, demand, or strategy — it is that a refill subscription business is being run with a hospitality venue's attention. The margin engine (refills) has 220 of a targeted 1,000 customers, while the last 18 months of focus went to the taproom, which loses money and was only ever meant to be the shopfront.
+**Core commercial read.** Tap That Brewery's problem is not product, demand, or strategy — it is that a refill subscription business is being run with a hospitality venue's attention. The margin engine (refills) has 220 of a targeted 1,000 customers, while the last 18 months of focus went to the taproom, which loses money and was only ever meant to be the shopfront.
 
 **Immediate opportunity.** Half of current refill customers bought their hardware elsewhere — the cheapest growth available is winning refills from the installed base of keg system owners across the Gold Coast, not creating new owners from scratch.
 
@@ -81,7 +81,7 @@ Secondary: share houses, DINKs, workplaces, "cashed-up wankers" (status buyers).
 
 Local competitors (Aardvark & Arrow*, Laughing Lizard) and online distributors (Kegs Off Tap, Keg Republic) sell kegs. Nobody on the Gold Coast owns the *category* — the installed base of keg systems in garages and backyards that need filling every month.
 
-> **The white space, quotable:** *Nobody owns "beer on tap at home" on the Gold Coast — Tap That can be the brand every keg system owner refills with, whoever sold them the hardware.*
+> **The white space, quotable:** *Nobody owns "beer on tap at home" on the Gold Coast — Tap That Brewery can be the brand every keg system owner refills with, whoever sold them the hardware.*
 
 Supporting wedge: the **Benchy** portable tap (4WD / camping / boating / caravan) has **no direct competitor** — a beachhead into outdoor-lifestyle retail partnerships 6–9 months ahead of purchase intent.
 

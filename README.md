@@ -1,10 +1,10 @@
-# Tap That Brewery & Keghouse — Jewell Projects engagement
+# Tap That Brewery — Jewell Projects engagement
 
-Client repo for the Jewell Projects 3D Process engagement with **Tap That Brewery & Keghouse** (Burleigh Heads, Gold Coast) — brewery, taproom, and home keg system / keg refill business.
+Client repo for the Jewell Projects 3D Process engagement with **Tap That Brewery** (Burleigh Heads, Gold Coast) — brewery, taproom, and home keg system / keg refill business.
 
 ## The business in one paragraph
 
-Tap That sells home keg systems **at cost** ($975 for a 2-tap) and makes its margin on 20L keg refills (~$200/month per active customer). It runs a 27-tap taproom (deliberately 1/3 non-beer) that functions as the demo floor, plus a small wholesale channel. Current state: **220 active keg customers**; target: **1,000** (~$2.6M revenue). Core strategic read from discovery: the refill engine is the business — the taproom and wholesale exist to feed it.
+Tap That Brewery sells home keg systems **at cost** ($975 for a 2-tap) and makes its margin on 20L keg refills (~$200/month per active customer). It runs a 27-tap taproom (deliberately 1/3 non-beer) that functions as the demo floor, plus a small wholesale channel. Current state: **220 active keg customers**; target: **1,000** (~$2.6M revenue). Core strategic read from discovery: the refill engine is the business — the taproom and wholesale exist to feed it.
 
 ## Where things are
 

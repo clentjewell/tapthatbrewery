@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Pricing & Packaging Notes — catalogue #15 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -64,13 +64,13 @@ Afterpay + Zip accepted; lease-to-buy in development (GoTab-dependent). The bonu
 
 ## Competitive price position
 
-| Comparison | Them | Tap That |
+| Comparison | Them | Tap That Brewery |
 |---|---|---|
 | Local keg rivals (Aardvark & Arrow*, Laughing Lizard) | $85–90/keg | $120–170 (20L core–top shelf, non-member $150–170 for core/premium) |
 | Wholesale route (50L Balter via wholesaler) | ~$500 | ~$275 equivalent (no excise under threshold, no wholesaler margin) |
 | Bottle-shop / pub per serve | pub schooner economics | 20L core member keg = $120 ÷ ~44 schooners ≈ **$2.70/schooner at home** |
 
-The read (consistent with D03): Tap That is 40–90% dearer than local keg rivals and must never fight them on sticker price — the fight is quality, range, ecosystem. Against retail, pubs and the wholesale route, the per-litre maths is the weapon — and per Christy's working rule, it closes rather than leads.
+The read (consistent with D03): Tap That Brewery is 40–90% dearer than local keg rivals and must never fight them on sticker price — the fight is quality, range, ecosystem. Against retail, pubs and the wholesale route, the per-litre maths is the weapon — and per Christy's working rule, it closes rather than leads.
 
 ## What the packaging logic is actually doing
 

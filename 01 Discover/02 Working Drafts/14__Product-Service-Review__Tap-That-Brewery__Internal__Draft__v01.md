@@ -3,13 +3,13 @@
 | | |
 |---|---|
 | **Document** | Product & Service Review — catalogue #14 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
-**Purpose.** The complete inventory of what Tap That actually sells, verified against the tap wall, price boards and coolroom on the August 2026 site visit. Everything here is raw material for the offer architecture (D05) and pricing notes (#15) — the review closes on where the range is strong and where it has holes.
+**Purpose.** The complete inventory of what Tap That Brewery actually sells, verified against the tap wall, price boards and coolroom on the August 2026 site visit. Everything here is raw material for the offer architecture (D05) and pricing notes (#15) — the review closes on where the range is strong and where it has holes.
 
 ## The liquid: 27 taps, deliberately one-third non-beer
 

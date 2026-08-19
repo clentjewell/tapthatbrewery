@@ -1,4 +1,4 @@
-# Marketing Discovery — Tap That Brewery & Keghouse
+# Marketing Discovery — Tap That Brewery
 
 | | |
 |---|---|
@@ -6,7 +6,7 @@
 | **Meeting title in Circleback** | "Marketing Discovery — Keg Kings" |
 | **Date** | 19 August 2026 |
 | **Duration** | ~92 minutes |
-| **Attendees** | Clent Jewell, Christy Kilmartin (Jewell Projects); Tap That team incl. Raef (organic social/content/events, ~70% marketing / 30% bar); Ronnie Ignacio; other participants unnamed in transcript |
+| **Attendees** | Clent Jewell, Christy Kilmartin (Jewell Projects); Tap That Brewery team incl. Raef (organic social/content/events, ~70% marketing / 30% bar); Ronnie Ignacio; other participants unnamed in transcript |
 | **Purpose** | Jewell Projects discovery session — deep context on the business to build a marketing strategy |
 
 ## Overview

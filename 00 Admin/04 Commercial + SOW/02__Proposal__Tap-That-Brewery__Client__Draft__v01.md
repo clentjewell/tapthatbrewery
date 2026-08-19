@@ -1,10 +1,10 @@
 # 02 — Proposal
-## Marketing Strategy & Execution Roadmap — Tap That Brewery & Keghouse
+## Marketing Strategy & Execution Roadmap — Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | 02 — Proposal (Maxxim catalogue #2, Gate 0 — Onboarding) · **Client sign-off document** |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 00 Admin — Gate 0 (Onboarding) |
 | **Status** | Draft v01 — Client-facing |
 | **Date** | 19 August 2026 |
@@ -80,7 +80,7 @@ Everything above serves one number — **1,000 active refill customers** — thr
 
 | | |
 |---|---|
-| Accepted for Tap That Brewery & Keghouse | Name: ______________ Signature: ______________ Date: ______ |
+| Accepted for Tap That Brewery | Name: ______________ Signature: ______________ Date: ______ |
 | For Jewell Projects | Name: Clent Jewell Signature: ______________ Date: ______ |
 
 ---

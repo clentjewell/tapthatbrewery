@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Brand Copy Workbook — catalogue #35 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -14,7 +14,7 @@
 
 ---
 
-Working kit for anyone writing in the Tap That voice. Rules: cost never opens (except high-volume lane), puns for moments and names, plain talk for money and service, never binge, never dad-only.
+Working kit for anyone writing in the Tap That Brewery voice. Rules: cost never opens (except high-volume lane), puns for moments and names, plain talk for money and service, never binge, never dad-only.
 
 ## 1. Tagline / headline bank
 
@@ -77,13 +77,13 @@ Working kit for anyone writing in the Tap That voice. Rules: cost never opens (e
 ## 3. Boilerplate
 
 **Short (25 words):**
-> Tap That Brewery & Keghouse, Burleigh Heads: award-winning beer on tap at home. We brew it, keg it in 20s, and fill any system.
+> Tap That Brewery, Burleigh Heads: award-winning beer on tap at home. We brew it, keg it in 20s, and fill any system.
 
 **Medium (60 words):**
-> Tap That Brewery & Keghouse is the Gold Coast's home-tap brand. We brew award-winning beer in Burleigh (Midnight in Tokyo — Brewer's Choice at Crafted), keg it fresh in 20-litre kegs, and fill any keg system — whoever sold it to you. 27 taps in the taproom, a third of them not even beer. Good times at your place beat a night out anywhere.
+> Tap That Brewery is the Gold Coast's home-tap brand. We brew award-winning beer in Burleigh (Midnight in Tokyo — Brewer's Choice at Crafted), keg it fresh in 20-litre kegs, and fill any keg system — whoever sold it to you. 27 taps in the taproom, a third of them not even beer. Good times at your place beat a night out anywhere.
 
 **Long (100 words):**
-> Tap That Brewery & Keghouse is a Burleigh Heads brewery in the business of connection and good times — keg systems and refills are just the means. Founded by head brewer Chris Smith and operator Justin Mistry, Tap That won Brewer's Choice at Crafted (Australia's biggest beer festival) in its first year with Midnight in Tokyo, a black Japanese lager. The model is simple: keg systems at cost, fresh 20-litre refills brewed on site, and 27 taps — a third of them seltzers, cocktails and RTDs — so there's a pour for everyone. Any keg system filled, whoever sold it. Your place, everyone's local.
+> Tap That Brewery is a Burleigh Heads brewery in the business of connection and good times — keg systems and refills are just the means. Founded by head brewer Chris Smith and operator Justin Mistry, Tap That Brewery won Brewer's Choice at Crafted (Australia's biggest beer festival) in its first year with Midnight in Tokyo, a black Japanese lager. The model is simple: keg systems at cost, fresh 20-litre refills brewed on site, and 27 taps — a third of them seltzers, cocktails and RTDs — so there's a pour for everyone. Any keg system filled, whoever sold it. Your place, everyone's local.
 
 ## 4. Key phrases to own
 
@@ -92,16 +92,16 @@ Working kit for anyone writing in the Tap That voice. Rules: cost never opens (e
 - **"Good times on tap at your place"** — the roof line
 - **"Brewed in Burleigh"** — the freshness warrant
 - **"The system at cost"** — the honesty offer
-- **"Knockoffs"** — Tap That's word for happy hour / end of the working day; keep using it
+- **"Knockoffs"** — Tap That Brewery's word for happy hour / end of the working day; keep using it
 - Existing owned names to keep: **Keg Crew, Tap Tokens, Bring the Pub to You, Tap That Knockoffs**
 
 ## 5. Banned phrases and clichés
 
 Craft-washing: "crafted with passion", "artisanal", "small-batch perfection", "hoppy goodness", "for true beer lovers". Discount-shouting: "CHEAP KEGS", "LOWEST PRICES", "%-off" in openers. Binge cues: "get smashed", "endless beer", "never run dry", "drink up". Corporate beige: "premium beverage solutions", "your one-stop shop", "look no further". Anything crude beyond the wink of the name itself.
 
-## 6. Voice dos & don'ts, with rewrites (flat → Tap That)
+## 6. Voice dos & don'ts, with rewrites (flat → Tap That Brewery)
 
-| Flat | Tap That |
+| Flat | Tap That Brewery |
 |---|---|
 | "Happy hour: discounted jugs 3–5pm weekdays." | "Tap That Knockoffs. Jugs from $16, Mon–Fri 3–5. You've earnt it." |
 | "We offer a range of non-alcoholic and alternative beverage options." | "A third of our taps aren't even beer. Gin fizz, seltzers, ginger beer — her round's sorted." |

@@ -1,10 +1,10 @@
 # 44 — Partnership & Referral Plan
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | Partnership & Referral Plan — catalogue #44 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -22,12 +22,12 @@ Partnerships reach keg buyers 6–9 months before purchase intent (the outdoor-l
 
 | # | Partner / channel | The offer to the partner | The ask | Pilot metric (90 days unless noted) |
 |---|---|---|---|---|
-| 1 | **Outdoor-living JVs** — pool/deck builders, BBQ retailers; **Smoked Barbecue Co is the template** (Father's Day keg system + smoking masterclass voucher) | A margin-free value-add that lifts their sale ("every deck deserves a tap"): co-branded bundle or voucher for their customers, cross-promo to Tap That's audience, display/demo unit where floor space exists | Put the offer in their quote/handover pack; one co-branded seasonal push (Father's Day, summer) | 10 demo bookings or 3 system sales attributable per partner; repeat the Smoked BBQ collab with measured redemptions |
+| 1 | **Outdoor-living JVs** — pool/deck builders, BBQ retailers; **Smoked Barbecue Co is the template** (Father's Day keg system + smoking masterclass voucher) | A margin-free value-add that lifts their sale ("every deck deserves a tap"): co-branded bundle or voucher for their customers, cross-promo to Tap That Brewery's audience, display/demo unit where floor space exists | Put the offer in their quote/handover pack; one co-branded seasonal push (Father's Day, summer) | 10 demo bookings or 3 system sales attributable per partner; repeat the Smoked BBQ collab with measured redemptions |
 | 2 | **4WD / camping channel — Benchy** (pilot: Raef's cousin's fit-out business, client interest already confirmed) | First-mover product for their rigs with no competitor; demo unit for the showroom; referral margin or wholesale terms on units | Fit a demo Benchy in a showroom rig; co-produce install content; refer buyers through a tracked link/code | 5 Benchy units via the partner; refill attachment at 60 days; then formalise terms before adding a second fit-out shop (Campaign 4, #43) |
 | 3 | **Sports clubs — white-label** ("Surfers Paradise Demons Lager"), **non-CUB venues only**, tap infrastructure present or system bundled | The club becomes a stakeholder, not a sponsee: own-brand beer, 10% player discount, 10% kickback to the club on volume | One pilot club; committee sign-off; pour it at home games/club functions | 1 club live pouring; kegs/month run-rate; player-discount signups as a refill-customer feeder |
 | 4 | **Hop On Brewery Tours** (already routing groups through the venue) | A better stop: tour-exclusive tasting paddle moment + host story; co-promotion to their booking audience | Add the Tap Tokens/Brew Buds signup to every tour visit; giveaway entry QR for tour guests | Signup rate per tour group; tour-sourced giveaway entries; 6-month check: any tour guest → system owner |
-| 5 | **Never Quit Gym** (existing perk: 10% off for new NQ members) | Reciprocity: promote NQ to Tap That members; co-owned "balance" content angle (compliance-checked — no health claims on alcohol) | Actively promote the existing 10% perk to their members instead of letting it sit on a poster | Perk redemptions per month (currently unmeasured — instrument first) |
-| 6 | **Wedding & function venues** | White-label or house-poured kegs (fresher and cheaper per litre than wholesaler 50L: ~$275 vs ~$500 equivalent); "bring the pub to you" keg system hire for off-site events | Stock Tap That kegs for events; refer couples/planners to system hire | 2 venues ordering; kegs/month; hire bookings sourced |
+| 5 | **Never Quit Gym** (existing perk: 10% off for new NQ members) | Reciprocity: promote NQ to Tap That Brewery members; co-owned "balance" content angle (compliance-checked — no health claims on alcohol) | Actively promote the existing 10% perk to their members instead of letting it sit on a poster | Perk redemptions per month (currently unmeasured — instrument first) |
+| 6 | **Wedding & function venues** | White-label or house-poured kegs (fresher and cheaper per litre than wholesaler 50L: ~$275 vs ~$500 equivalent); "bring the pub to you" keg system hire for off-site events | Stock Tap That Brewery kegs for events; refer couples/planners to system hire | 2 venues ordering; kegs/month; hire bookings sourced |
 | 7 | **PR-agency venue hire** (untapped, from discovery) | A launch-ready venue: mezzanine (~40) to full brewery (~120–130 seated, 250 standing target), minimum-spend model (1 drink/person/hour benchmark), no hire fee | Get on 3–5 GC/Brisbane agencies' venue lists with a spec sheet | 1 agency activation per quarter at minimum spend |
 
 Sequencing: pilots 1 (Smoked BBQ repeat, Father's Day — already warm) and 2 (Benchy, gated on productisation) first; 3 and 7 need only a one-pager each to be pitch-ready; 4 and 5 are instrumentation of existing relationships; 6 rides on the functions collateral. Known blockers stay routed around, not fought: CUB-exclusive NRL venues are off the list; food friction (no kitchen/licence) is flagged to the client as the functions-growth gate.

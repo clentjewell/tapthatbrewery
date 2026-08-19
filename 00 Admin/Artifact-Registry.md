@@ -1,4 +1,4 @@
-# Artifact-Registry — Tap That Brewery & Keghouse
+# Artifact-Registry — Tap That Brewery
 
 Master inventory of every artefact in this engagement. Update on creation, promotion, or archive. Status: Draft / Review / Final / Live.
 

@@ -1,10 +1,10 @@
 # 42 — Content Strategy
-## Tap That Brewery & Keghouse
+## Tap That Brewery
 
 | | |
 |---|---|
 | **Document** | Content Strategy — catalogue #42 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -16,7 +16,7 @@
 
 ## Why a content system, not a content calendar
 
-Tap That's buying cycle is the design constraint: ~60% of buyers take up to three months to commit, 40% longer. Today that consideration window is "nurtured by memory" (D05) — the in-venue pathway (taste → demo → giveaway → 50% close) has no digital equivalent. Content is that equivalent. It must serve social (#41), the website, and email/SMS lifecycle from one production effort, because the whole machine runs on Raef at ~70% capacity plus defined Jewell support.
+Tap That Brewery's buying cycle is the design constraint: ~60% of buyers take up to three months to commit, 40% longer. Today that consideration window is "nurtured by memory" (D05) — the in-venue pathway (taste → demo → giveaway → 50% close) has no digital equivalent. Content is that equivalent. It must serve social (#41), the website, and email/SMS lifecycle from one production effort, because the whole machine runs on Raef at ~70% capacity plus defined Jewell support.
 
 Three content jobs, one seasonal overlay:
 

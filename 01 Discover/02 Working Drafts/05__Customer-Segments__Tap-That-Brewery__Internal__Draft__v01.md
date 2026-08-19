@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Document** | Customer Segments — catalogue #05 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -32,7 +32,7 @@ Pillars: **Cost · Convenience · Connection · Kudos · Taste/Freshness.** Work
 
 ### 1. Young families (~45%)
 
-On the Gold Coast this is the Burleigh–Palm Beach–Miami–Tugun belt: mortgaged 30s–40s households where the backyard, not the venue strip, is the social unit. Babysitters plus a night out in Burleigh costs more than a keg; the school-and-nippers network is the word-of-mouth channel. The purchase is a *household* decision — see the partner overlay below. Creative leads with connection ("your place becomes the default"); cost is the quiet justification in retargeting. Guardrail from D02: this segment must not turn Tap That into "the dad brand."
+On the Gold Coast this is the Burleigh–Palm Beach–Miami–Tugun belt: mortgaged 30s–40s households where the backyard, not the venue strip, is the social unit. Babysitters plus a night out in Burleigh costs more than a keg; the school-and-nippers network is the word-of-mouth channel. The purchase is a *household* decision — see the partner overlay below. Creative leads with connection ("your place becomes the default"); cost is the quiet justification in retargeting. Guardrail from D02: this segment must not turn Tap That Brewery into "the dad brand."
 
 ### 2. High-volume drinkers (~20%)
 
@@ -52,7 +52,7 @@ Workplaces (Friday knock-offs in Burleigh's industrial estate — the taproom's 
 
 ## Behavioural overlay 1 — the partner / veto-holder
 
-Not a purchase segment: the **approval audience** sitting across segments 1, 3 and 4, and the source of the #1 objection ("my wife won't let me"). Tap That has already engineered the answer into the product — roughly a third of 27 taps are non-beer (seltzers, Strawberry Gin Fizz sour, ginger beer, Ranch Water, mojitos on tap). Every campaign to the top segments needs a "here's what's on tap for her" beat, and the unmarketed gluten-reduced / lower-carb range is held ammunition for this audience. Win the veto-holder and the 3-month buying cycle shortens; ignore her and no amount of retargeting closes it.
+Not a purchase segment: the **approval audience** sitting across segments 1, 3 and 4, and the source of the #1 objection ("my wife won't let me"). Tap That Brewery has already engineered the answer into the product — roughly a third of 27 taps are non-beer (seltzers, Strawberry Gin Fizz sour, ginger beer, Ranch Water, mojitos on tap). Every campaign to the top segments needs a "here's what's on tap for her" beat, and the unmarketed gluten-reduced / lower-carb range is held ammunition for this audience. Win the veto-holder and the 3-month buying cycle shortens; ignore her and no amount of retargeting closes it.
 
 ## Behavioural overlay 2 — pre-existing keg system owners
 

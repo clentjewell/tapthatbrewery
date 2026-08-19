@@ -1,10 +1,10 @@
 # 03 — Welcome Pack
-## Tap That Brewery & Keghouse × Jewell Projects
+## Tap That Brewery × Jewell Projects
 
 | | |
 |---|---|
 | **Document** | 03 — Welcome Pack (Maxxim catalogue #3, Gate 0 — Onboarding) |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 00 Admin — Gate 0 (Onboarding) |
 | **Status** | Draft v01 — Client-facing |
 | **Date** | 19 August 2026 |

@@ -4,7 +4,7 @@
 | | |
 |---|---|
 | **Document** | PR Brief — catalogue #59 |
-| **Engagement** | Jewell Projects × Tap That Brewery & Keghouse |
+| **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 — Internal |
 | **Date** | 19 August 2026 |
@@ -20,7 +20,7 @@ Earned media that does what paid can't: credibility during the 3-month buying cy
 
 ## Story 1 — The comeback + the award (lead)
 
-**Angle:** Head brewer Chris Smith was at Burleigh Barrels when it collapsed owing staff. He rebuilt across town — and Tap That's Midnight in Tokyo (black Japanese lager) took **Brewer's Choice at Crafted in their first year entering**. Redemption arc + hometown pride + a product you can taste this weekend.
+**Angle:** Head brewer Chris Smith was at Burleigh Barrels when it collapsed owing staff. He rebuilt across town — and Tap That Brewery's Midnight in Tokyo (black Japanese lager) took **Brewer's Choice at Crafted in their first year entering**. Redemption arc + hometown pride + a product you can taste this weekend.
 **Hooks:** award anniversary; next Crafted entry; new beer releases off the "Crafting Soon" board.
 **Guardrails:** Burleigh Barrels handled factually and generously — Chris's story, not a takedown; "Australia's biggest beer festival" is the client's description of Crafted — **verify before any release uses it**.
 
