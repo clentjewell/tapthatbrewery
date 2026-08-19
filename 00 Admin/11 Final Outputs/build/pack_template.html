@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Tap That · Complete 3D Process</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --keg:#12352A; --keg-deep:#0C241C; --brass:#B8863B; --brass-lt:#D2A45A;
+  --cream:#F7F3EA; --paper:#FFFFFF; --ink:#14171A; --steel:#666E66;
+  --rule:#DDD6C6; --rule-dk:rgba(247,243,234,.16);
+  --ok:#3F7D5C; --shade:#F1EDE2;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --keg:#16241E; --keg-deep:#0A130F; --brass:#D2A45A; --brass-lt:#E0BC80;
+    --cream:#E8E4DA; --paper:#131714; --ink:#E8E4DA; --steel:#99A099;
+    --rule:rgba(232,228,218,.15); --rule-dk:rgba(232,228,218,.14);
+    --ok:#63A883; --shade:#181D19;
+  }
+}
+:root[data-theme="dark"] {
+  --keg:#16241E; --keg-deep:#0A130F; --brass:#D2A45A; --brass-lt:#E0BC80;
+  --cream:#E8E4DA; --paper:#131714; --ink:#E8E4DA; --steel:#99A099;
+  --rule:rgba(232,228,218,.15); --rule-dk:rgba(232,228,218,.14);
+  --ok:#63A883; --shade:#181D19;
+}
+
+html { scroll-behavior:smooth; }
+body {
+  font-family:'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  background:var(--cream); color:var(--ink); font-size:16px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body{ background:#0F1411; } }
+:root[data-theme="dark"] body{ background:#0F1411; }
+
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--brass);z-index:400;}
+.layout{display:flex;align-items:flex-start;max-width:1400px;margin:0 auto;}
+
+/* sidebar */
+.sidebar{position:sticky;top:18px;align-self:flex-start;flex:0 0 268px;width:268px;
+  max-height:calc(100vh - 36px);display:flex;flex-direction:column;
+  margin:18px 0 18px 18px;padding:20px 12px 8px;background:var(--paper);
+  border:1px solid var(--rule);border-radius:14px;}
+.brand{display:block;margin:2px 8px 3px;text-decoration:none;}
+.brand-mark{font-family:'Archivo',sans-serif;font-weight:700;font-size:14.5px;
+  letter-spacing:-.01em;color:var(--ink);text-transform:uppercase;}
+.brand-mark .x{color:var(--steel);font-weight:500;margin:0 5px;}
+.brand-sub{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--steel);margin:0 8px 14px;}
+.filter{width:calc(100% - 16px);margin:0 8px 10px;padding:8px 10px;border:1px solid var(--rule);
+  border-radius:7px;background:var(--shade);color:var(--ink);font-family:inherit;font-size:13px;}
+.filter::placeholder{color:var(--steel);}
+.filter:focus{outline:none;border-color:var(--brass);}
+.nav{display:flex;flex-direction:column;gap:1px;overflow-y:auto;padding-bottom:12px;}
+.nav-phase{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--brass);margin:14px 10px 5px;}
+.nav-link{display:flex;gap:9px;align-items:baseline;text-decoration:none;color:var(--steel);
+  font-size:13px;line-height:1.3;padding:6px 10px;border-radius:6px;
+  border-left:2px solid transparent;transition:color .15s,background .15s;}
+.nav-num{font-family:'IBM Plex Mono',monospace;font-size:10px;opacity:.7;min-width:17px;
+  font-variant-numeric:tabular-nums;}
+.nav-link:hover{color:var(--ink);background:rgba(184,134,59,.08);}
+.nav-link:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.nav-link.active{color:var(--ink);background:rgba(184,134,59,.12);border-left-color:var(--brass);font-weight:600;}
+.nav-link.active .nav-num{color:var(--brass);opacity:1;}
+.nav-link.edge{color:var(--ink);font-weight:600;}
+.nav-link.hide{display:none;}
+.sig{color:var(--brass);margin-left:5px;font-size:11px;}
+.nav-empty{font-size:12.5px;color:var(--steel);padding:10px;display:none;}
+.nav-empty.show{display:block;}
+
+/* content */
+.content{flex:1 1 auto;min-width:0;padding:34px clamp(22px,4.5vw,64px) 80px;max-width:940px;}
+
+/* welcome */
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--steel);margin-bottom:20px;}
+.h-hero{font-family:'Archivo',sans-serif;font-size:clamp(36px,5.6vw,66px);font-weight:700;
+  line-height:1.03;letter-spacing:-.032em;text-wrap:balance;}
+.lead{font-size:clamp(16px,1.5vw,18.5px);line-height:1.68;color:var(--steel);max-width:60ch;margin-top:24px;}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-top:38px;}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
+.stat{background:var(--paper);padding:18px 16px;}
+.stat-n{font-family:'Archivo',sans-serif;font-size:28px;font-weight:700;letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;}
+.stat-l{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--steel);margin-top:4px;}
+.callout{background:var(--keg);color:var(--cream);border-radius:14px;padding:clamp(26px,4vw,40px);margin-top:34px;}
+.callout .k{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--brass-lt);}
+.callout .q{font-family:'Archivo',sans-serif;font-size:clamp(19px,2.4vw,27px);font-weight:600;
+  line-height:1.34;letter-spacing:-.02em;margin-top:14px;max-width:26ch;text-wrap:balance;}
+.callout .b{font-size:15px;line-height:1.7;color:rgba(247,243,234,.75);margin-top:16px;max-width:62ch;}
+.callout a{color:var(--brass-lt);}
+.note{font-size:13px;line-height:1.6;color:var(--steel);margin-top:22px;}
+
+/* doc */
+.doc{border-top:1px solid var(--rule);margin-top:60px;padding-top:34px;scroll-margin-top:20px;}
+.doc-head{display:flex;align-items:center;justify-content:space-between;gap:14px;
+  flex-wrap:wrap;margin-bottom:18px;}
+.doc-head-l{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.doc-chip{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--brass);}
+.doc-count{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.06em;
+  color:var(--steel);font-variant-numeric:tabular-nums;}
+.pill{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.1em;
+  text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid;white-space:nowrap;}
+.pill.draft{color:var(--steel);border-color:var(--rule);}
+.pill.sign{color:var(--brass);border-color:rgba(184,134,59,.45);background:rgba(184,134,59,.09);}
+.doc-title{font-family:'Archivo',sans-serif;font-size:clamp(27px,3.6vw,42px);font-weight:700;
+  line-height:1.08;letter-spacing:-.028em;text-wrap:balance;}
+
+/* prose */
+.prose{margin-top:26px;font-size:16px;line-height:1.75;}
+.prose > * + *{margin-top:16px;}
+.prose h3{font-family:'Archivo',sans-serif;font-size:clamp(19px,2.1vw,25px);font-weight:700;
+  line-height:1.25;letter-spacing:-.02em;margin-top:44px;padding-top:20px;
+  border-top:1px solid var(--rule);text-wrap:balance;}
+.prose h4{font-family:'Archivo',sans-serif;font-size:17px;font-weight:700;line-height:1.35;
+  margin-top:30px;letter-spacing:-.01em;}
+.prose h5,.prose h6{font-family:'Archivo',sans-serif;font-size:15px;font-weight:600;margin-top:24px;}
+.prose p{max-width:70ch;}
+.prose strong{font-weight:700;}
+.prose em{font-style:italic;color:var(--steel);}
+.prose a{color:var(--brass);}
+.prose ul,.prose ol{padding-left:22px;max-width:70ch;}
+.prose li{margin-top:7px;}
+.prose li::marker{color:var(--brass);}
+.prose hr{border:0;height:1px;background:var(--rule);margin:34px 0;}
+.prose blockquote{border-left:3px solid var(--brass);padding:2px 0 2px 20px;color:var(--ink);
+  font-family:'Archivo',sans-serif;font-size:19px;font-weight:600;line-height:1.45;letter-spacing:-.015em;}
+.prose code{font-family:'IBM Plex Mono',monospace;font-size:.88em;background:var(--shade);
+  padding:2px 5px;border-radius:3px;}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--rule);
+  border-radius:9px;background:var(--paper);}
+.prose table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.55;}
+.prose th{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--steel);text-align:left;font-weight:500;
+  padding:11px 14px;border-bottom:1px solid var(--rule);white-space:nowrap;background:var(--shade);}
+.prose td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;}
+.prose tr:last-child td{border-bottom:0;}
+.prose td:first-child{font-weight:600;}
+.prose table strong{font-weight:700;}
+
+/* doc nav */
+.doc-nav{display:flex;justify-content:space-between;gap:14px;margin-top:44px;padding-top:22px;
+  border-top:1px solid var(--rule);}
+.dn-sp{flex:1;}
+.dn-btn{flex:0 1 46%;text-decoration:none;color:inherit;padding:13px 15px;border:1px solid var(--rule);
+  border-radius:9px;display:flex;flex-direction:column;gap:3px;transition:border-color .15s,background .15s;}
+.dn-btn:hover{border-color:var(--brass);background:rgba(184,134,59,.05);}
+.dn-btn:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.dn-btn.next{text-align:right;margin-left:auto;}
+.dn-btn span{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--steel);}
+.dn-btn strong{font-family:'Archivo',sans-serif;font-size:14.5px;font-weight:600;line-height:1.3;}
+
+/* to top */
+.totop{position:fixed;right:20px;bottom:20px;width:42px;height:42px;border-radius:50%;
+  background:var(--keg);color:var(--cream);border:0;cursor:pointer;font-size:16px;
+  display:none;place-items:center;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.18);}
+.totop.show{display:grid;}
+.totop:focus-visible{outline:2px solid var(--brass);outline-offset:3px;}
+
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
+
+/* mobile */
+.navtoggle{display:none;}
+@media (max-width:1000px){
+  .layout{display:block;}
+  .sidebar{position:static;width:auto;max-height:none;margin:12px;padding:16px;}
+  .nav,.filter{display:none;}
+  .sidebar.open .nav{display:flex;max-height:60vh;}
+  .sidebar.open .filter{display:block;}
+  .navtoggle{display:block;width:100%;text-align:left;background:none;border:0;cursor:pointer;
+    font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--brass);padding:6px 8px;}
+  .content{padding:8px 20px 60px;}
+  .dn-btn{flex:0 1 48%;}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#top">
+      <div class="brand-mark">Jewell Projects <span class="x">×</span> Tap That</div>
+    </a>
+    <div class="brand-sub">Complete 3D Process · {{TOTAL}} documents</div>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false">Contents +</button>
+    <input class="filter" id="filter" type="search" placeholder="Filter documents…" aria-label="Filter documents">
+    <nav class="nav" id="nav">
+{{NAV}}
+      <p class="nav-empty" id="navempty">No document matches that.</p>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <section id="top">
+      <div class="eyebrow">Jewell Projects · Tap That Brewery &amp; Keghouse · Prepared for Chris Smith and Justin Mistry</div>
+      <h1 class="h-hero">The complete<br>3D Process.</h1>
+      <p class="lead">Every document in the set, end to end, on one page. Onboarding, Discover, Design and Deploy — built from one discovery session, one site visit, and every price on your walls. Use the contents to jump, or just scroll.</p>
+
+      <div class="stats">
+        <div class="stat"><div class="stat-n">{{TOTAL}}</div><div class="stat-l">Documents</div></div>
+        <div class="stat"><div class="stat-n">{{N_DI}}</div><div class="stat-l">Discover</div></div>
+        <div class="stat"><div class="stat-n">{{N_DE}}</div><div class="stat-l">Design</div></div>
+        <div class="stat"><div class="stat-n">0</div><div class="stat-l">Approved</div></div>
+      </div>
+
+      <div class="callout">
+        <div class="k">The read everything is built on</div>
+        <div class="q">Tap That is a refill subscription business being run with a hospitality venue's attention.</div>
+        <p class="b">220 active keg customers against a 1,000 target. Systems go out at cost and all the margin sits in refills — but eighteen months of attention went to the taproom, which loses money and was only ever meant to be the shopfront. Half your refill customers already switched to you from another supplier with no campaign at all.</p>
+        <p class="b">Everything downstream follows from that. For the short version of this pack — what's here, what isn't, and what's blocking sign-off — see the <a href="/summary">delivery summary</a>.</p>
+      </div>
+
+      <p class="note">Status: every document is a working draft at v01, AI-assisted, and none are approved. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once — each Design document says so on its face. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
+    </section>
+
+{{DOCS}}
+
+  </main>
+</div>
+
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+
+<script>
+(function () {
+  var prog = document.getElementById('prog');
+  var totop = document.getElementById('totop');
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-link'));
+  var sections = links.map(function (l) { return document.querySelector(l.getAttribute('href')); }).filter(Boolean);
+  var navEl = document.getElementById('nav');
+
+  function onScroll() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    prog.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+    totop.classList.toggle('show', window.scrollY > 900);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  totop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  });
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        var active = null;
+        links.forEach(function (l) {
+          var on = l.getAttribute('href') === '#' + e.target.id;
+          l.classList.toggle('active', on);
+          if (on) active = l;
+        });
+        if (active && navEl.scrollHeight > navEl.clientHeight) {
+          var r = active.getBoundingClientRect(), nr = navEl.getBoundingClientRect();
+          if (r.top < nr.top || r.bottom > nr.bottom) {
+            navEl.scrollTop += r.top - nr.top - nr.height / 2 + r.height / 2;
+          }
+        }
+      });
+    }, { rootMargin: '-12% 0px -75% 0px' });
+    sections.forEach(function (s) { obs.observe(s); });
+  }
+
+  var filter = document.getElementById('filter');
+  var empty = document.getElementById('navempty');
+  if (filter) {
+    filter.addEventListener('input', function () {
+      var q = filter.value.trim().toLowerCase();
+      var shown = 0;
+      links.forEach(function (l) {
+        if (l.classList.contains('edge')) return;
+        var t = l.getAttribute('data-t') || '';
+        var num = (l.querySelector('.nav-num') || {}).textContent || '';
+        var hit = !q || t.indexOf(q) !== -1 || num.indexOf(q) !== -1;
+        l.classList.toggle('hide', !hit);
+        if (hit) shown++;
+      });
+      document.querySelectorAll('.nav-phase').forEach(function (p) {
+        var any = false, n = p.nextElementSibling;
+        while (n && !n.classList.contains('nav-phase')) {
+          if (n.classList.contains('nav-link') && !n.classList.contains('hide')) { any = true; break; }
+          n = n.nextElementSibling;
+        }
+        p.style.display = any ? '' : 'none';
+      });
+      empty.classList.toggle('show', shown === 0);
+    });
+  }
+
+  var tog = document.getElementById('navtoggle'), sb = document.getElementById('sidebar');
+  if (tog) {
+    tog.addEventListener('click', function () {
+      var open = sb.classList.toggle('open');
+      tog.setAttribute('aria-expanded', open ? 'true' : 'false');
+      tog.textContent = open ? 'Contents −' : 'Contents +';
+    });
+    navEl.addEventListener('click', function (e) {
+      if (e.target.closest('.nav-link') && window.innerWidth <= 1000) {
+        sb.classList.remove('open');
+        tog.setAttribute('aria-expanded', 'false');
+        tog.textContent = 'Contents +';
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>

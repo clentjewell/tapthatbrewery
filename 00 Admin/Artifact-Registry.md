@@ -12,7 +12,7 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Site-visit photo set (27) + index | `01 Discover/01 Inputs/site-visit-photos/` | Internal | Live | v01 |
 | Contacts + Stakeholders | `00 Admin/01 Contacts + Stakeholders/contacts.md` | Internal | Live | v01 |
 | Maxxim Output Tracker (65-doc catalogue + open items) | `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` | Internal | Live | v02 |
-| Delivery pack site — https://tapthat-3d-process.pages.dev (pw `tapthat2026`) | `00 Admin/11 Final Outputs/site/` | Client | Live | v01 |
+| Delivery site — https://tapthat-3d-process.pages.dev (pw `tapthat2026`) · `/` complete pack, `/summary` overview | `00 Admin/11 Final Outputs/` | Client | Live | v02 |
 
 ## Catalogue documents
 
