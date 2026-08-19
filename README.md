@@ -26,6 +26,8 @@ meetings/                       Circleback imports and meeting records
 
 **All 65 documents of the Maxxim 3D catalogue are drafted at v01** (~72,000 words) — Gate 0 onboarding, 19 Discover documents, 42 Design documents, and the Deploy case-study framework. Nothing is approved yet: both checkpoints (CP1 and CP2) are unsigned.
 
+**Client delivery pack:** https://tapthat-3d-process.pages.dev (password `tapthat2026`) — the founders' view of what's been produced, what hasn't, and what's blocking sign-off. Source in `00 Admin/11 Final Outputs/site/`.
+
 ## Start here
 
 1. **`00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md`** — the map: all 65 documents, where each lives, and the nine open items blocking sign-off.
