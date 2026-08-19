@@ -10,6 +10,8 @@
 | **Prepared by** | Jewell Projects |
 | **Builds on** | D02 Audience Teardown, D03 Competitor Analysis, D06 Discovery Pack Synthesis, #05 Customer Segments, #10 Category Positioning |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -59,7 +61,7 @@ The blend matters: Jester alone would undercut the $975 trust decision and the a
 
 1. **A discount keg swap.** The moment Tap That Brewery fights Aardvark & Arrow* on sticker price it forfeits the award, the range and the club — and loses anyway at $120 vs $85. Price-led lead creative is a strategy violation.
 2. **A dad-only brand.** Young families are ~45% of the market but the guardrail from D02 holds: Tap That Brewery is good times for everyone. One third of 27 taps are deliberately non-beer for the partner/veto-holder; creative that reads as "beer dads only" wastes that engineering and hardens the #1 objection.
-3. **A binge brand.** The census counters it (70% of daily users pour only 1–2 kegs/month) and the social responsibility commitments (drink-driving and DFV programs) require it: the promise is *fresher and better, never more*.
+3. **A binge brand.** The census counters it (70% of daily users pour only 1–~1.55 kegs/month (census)) and the social responsibility commitments (drink-driving and DFV programs) require it: the promise is *fresher and better, never more*.
 4. **A craft-brewery brand.** Tap That Brewery competes in the home-tap category (#10). Becoming "another Burleigh craft taproom" re-enters the most crowded fight on the Gold Coast and abandons the one nobody owns.
 
 ## Credibility assets (deploy, don't hoard)

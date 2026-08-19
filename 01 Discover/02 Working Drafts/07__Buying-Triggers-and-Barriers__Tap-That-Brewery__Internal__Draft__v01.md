@@ -9,6 +9,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## The shape of the cycle
@@ -45,7 +47,7 @@ A keg system is a considered household purchase, not an impulse buy. Client's ow
 | 1 | "A grand up front is a lot." ($975 2-tap) | Afterpay + Zip at point of sale (photo-verified); systems honestly framed as sold at cost; $40–$100 bonus credit | **Lease-to-buy** in development (GoTab-dependent, expected within a couple of months) — reframes $975 as a monthly figure below the bottle-shop spend it replaces |
 | 2 | "My wife won't let me." | ~1/3 of 27 taps non-beer by design — seltzers, Strawberry Gin Fizz, ginger beer, Ranch Water, cocktails; "her taps too" | Veto-holder-addressed creative (taste the range in the taproom together); market the gluten-reduced / lower-carb angle; gifting-moment campaigns that make her the buyer |
 | 3 | "Nowhere to put it." | 5L mini keg system ($225) as the small-footprint entry; Benchy portable; integrated systems from $1,750 | Footprint-proof content: real installs in real Gold Coast garages, benches, sheds; assembly & delivery ($300) removes the DIY fear |
-| 4 | "I'll drink too much." | Anecdotal reassurance ("put a lock on the fridge") | **Census data (n=50): 70% of daily users go through only 1–2 kegs/month** — ownership correlates with moderation, not excess. Fold into objection-handling content; aligns with the sessionable, lower-carb range |
+| 4 | "I'll drink too much." | Anecdotal reassurance ("put a lock on the fridge") | **Census data (n=50): 70% of daily users go through only 1–~1.55 kegs/month (census)** — ownership correlates with moderation, not excess. Fold into objection-handling content; aligns with the sessionable, lower-carb range |
 
 Barrier 4's counter is the most under-used asset: it is proprietary data, it is counter-intuitive, and it reassures the veto-holder (barrier 2) at the same time. One piece of content kills two objections.
 

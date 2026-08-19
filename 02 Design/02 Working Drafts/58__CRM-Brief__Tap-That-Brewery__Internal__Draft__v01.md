@@ -10,13 +10,15 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
 
 ## The job
 
-Complete the GoTab (POS) → Fishbowl (CRM) integration and stand up the lifecycle engine on top of it. This is the single highest-leverage build in the programme: every month it slips, retention stays a hand-sent monthly SMS and the warm list of 220 actives leaks refill revenue. It gates #57 Sequence 2 and the #56 scale-up (see critical path, #61).
+Complete the GoTab (POS) → Fishbowl (CRM) integration and stand up the lifecycle engine on top of it. This is the single highest-leverage build in the programme: every month it slips, retention stays a hand-sent monthly SMS and the warm list of 206 owners / 96–113 active leaks refill revenue. It gates #57 Sequence 2 and the #56 scale-up (see critical path, #61).
 
 ## Integration scope
 

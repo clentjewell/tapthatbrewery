@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -35,7 +37,7 @@ House rules across all six pages: kudos/connection open, cost closes (Christy's 
 | **Purpose** | Host the 3-month consideration; make the at-cost model make sense; get the demo booked |
 | **Segments** | Young families (~45%), tradies (~20%), boomers (~20%); partner as reader-over-the-shoulder |
 | **Message hierarchy** | 1. Your place becomes the place (connection/kudos) → 2. We sell the system at cost — the same price as buying direct — because we're a brewery, not a hardware shop → 3. From $975, Afterpay/Zip, lease-to-buy coming |
-| **Proof** | At-cost pricing shown transparently ($975/$1,250/$1,950/$2,550, bonus credits $40–100); census stat (70% of daily users: 1–2 kegs/month); install photos/UGC; 20–30% of taproom visitors buy one after seeing it |
+| **Proof** | At-cost pricing shown transparently ($975/$1,250/$1,950/$2,550, bonus credits $40–100); census stat (70% of daily users: 1–~1.55 kegs/month (census)); install photos/UGC; 20–30% of taproom visitors buy one after seeing it |
 | **CTAs** | Primary: book a demo. Secondary: enter the giveaway (for the not-yet-ready majority) |
 | **Objections** | Upfront cost (at-cost + payment options + per-litre maths); space (size/footprint guide per system); "I'll drink too much" (census stat, 20L freshness logic) |
 | **Blocks in order** | Hero (the pour, the mates) → why at cost (the honest model) → system range cards with prices → "which one's you" guide (2-tap starter → 6-tap shed build) → objections block → demo booking → giveaway fallback capture |
@@ -56,7 +58,7 @@ House rules across all six pages: kudos/connection open, cost closes (Christy's 
 
 | | |
 |---|---|
-| **Purpose** | Shopfront for the ~$200/month engine; reorder home for 220 actives; partner-approval exhibit |
+| **Purpose** | Shopfront for the ~$200/month engine; reorder home for 206 owners / 96–113 active; partner-approval exhibit |
 | **Segments** | Current customers (reorder), high-volume drinkers (the maths), the partner/veto-holder (the non-beer third) |
 | **Message hierarchy** | 1. Fresh, brewed here, always something new (taste/freshness) → 2. Something for everyone on the wall — seltzers, gin sours, mojitos, ginger beer → 3. Member maths (convenience/cost) |
 | **Proof** | The tap list itself (Midnight in Tokyo 4.6%, Czech Pilsner, Hazy Pale, sours, seltzers, RTDs, cocktails); "Kegged & Ready / Crafting Soon" pipeline as freshness proof; gluten-reduced, lower-carb by design |

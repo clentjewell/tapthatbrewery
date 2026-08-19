@@ -10,13 +10,15 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Welcome
 
 Cheers — we're glad to be aboard. This pack is the practical companion to the Proposal: who's who, how the engagement runs day to day, what happens when, and the short list of things we need from you to get moving. Keep it handy; it answers most "how does this work?" questions.
 
-One line on why we're here, in your words: *you're in the business of connection and good times — keg systems and refills are the means, not the end.* Our job is to build the marketing machine that takes you from 220 active keg customers to 1,000.
+One line on why we're here, in your words: *you're in the business of connection and good times — keg systems and refills are the means, not the end.* Our job is to build the marketing machine that takes you from 206 keg system owners (active subset 96–113 — definition unresolved) to 1,000.
 
 ## Who's who
 

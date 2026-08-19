@@ -9,6 +9,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -86,7 +88,7 @@ Direction observed and to be continued: **real venue, real customers, no stock g
 1. Don't redraw or restyle any logo mark — import and lock (36).
 2. Don't fight on sticker price in any branded material — per-litre maths only, and only in closing contexts.
 3. Don't let the brand skew "dads only" — the 27-tap, third-non-beer range is core identity; show it.
-4. Don't use binge cues — the brand line is fresher and better, never more (census: 70% of daily users pour 1–2 kegs/month).
+4. Don't use binge cues — the brand line is fresher and better, never more (census: 70% of daily users pour 1–~1.55 kegs/month (census)).
 5. Don't joke about responsibility, safety or money.
 6. Don't run conflicting collateral — the two live membership posters ($250/yr vs $300+$120 renewal) must be reconciled and one withdrawn.
 7. Don't add colours, fonts or sub-brands without a guidelines update.

@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -20,7 +22,7 @@ This is the journey as it *actually* runs, built from discovery evidence: taproo
 
 ## The journey on a page
 
-Unaware → **Aware** (taproom visit / giveaway entry) → **Consideration** (the 3-month window) → **Purchase** (50%-off close, Afterpay/Zip, lease-to-buy pending) → **Activation** (first refill) → **Habit** (~2 kegs/month, Keg Crew) → **Advocacy** (referrals, UGC) → **At-risk** (75–90 days) → **Churned / Winback** (90+ days).
+Unaware → **Aware** (taproom visit / giveaway entry) → **Consideration** (the 3-month window) → **Purchase** (50%-off close, Afterpay/Zip, lease-to-buy pending) → **Activation** (first refill) → **Habit** (~1.55 kegs/month (census), Keg Crew) → **Advocacy** (referrals, UGC) → **At-risk** (75–90 days) → **Churned / Winback** (90+ days).
 
 The structural finding, carried from D05/D06: the physical journey works — the digital journey barely exists. In venue there is a demo floor, a price board and a giveaway form; online there is memory. The 3-month consideration window, where 60% of buyers live, is currently unmanaged.
 
@@ -33,7 +35,7 @@ The structural finding, carried from D05/D06: the physical journey works — the
 | **3. Consideration — the 3-month window** | Wants it; negotiating with the partner, the budget, the garage and themselves. Four objections: upfront cost, partner veto, space, "I'll drink too much" | Memory. Return taproom visits. The next giveaway | **The biggest gap in the business.** No nurture sequence, no objection content, no retargeting; ~60% of buyers sit here up to 3 months with nothing arriving from Tap That Brewery | Unassigned — the designed pathway in #30 |
 | **4. Purchase** | Trigger arrives: 50%-off giveaway close (22–25 conversions last round), tax return, a party, partner sign-off | In-venue close; systems at cost ($975–$2,550 + bonus credit); Afterpay/Zip; assembly & delivery $300; lease-to-buy in development (GoTab-dependent) | Purchase moment doesn't systematically attach Keg Crew membership or book the first refill; lease-to-buy timing unconfirmed | Venue staff / Justin (commercial terms) |
 | **5. Activation — first refill** | System installed; the habit is not yet formed. The first refill is the true conversion to the margin engine | Ad-hoc: customer returns when the keg runs dry; corny service (drop Tue, ready Fri); $40–100 bonus credit nudges a return | No onboarding sequence, no scheduled first-refill prompt, no "what to pour for her" starter guidance; bonus credit not framed as a first-refill hook | Unassigned — lifecycle automation |
-| **6. Habit** | ~2 kegs/month, ~$200/month; member pricing ($120 vs $150 core 20L) and Tap Tokens reward the cadence | Keg Crew $250/yr ($30 off refills, 100 tokens, 5L birthday keg), Tap Token leaderboard, tasting nights, taproom visits | Membership is not attached at purchase by default; no cadence-based prompts (a 2-keg/month customer who misses a fortnight is invisible until day 75) | Raef / lifecycle automation |
+| **6. Habit** | ~1.55 kegs/month (census), ~$200/month; member pricing ($120 vs $150 core 20L) and Tap Tokens reward the cadence | Keg Crew $250/yr ($30 off refills, 100 tokens, 5L birthday keg), Tap Token leaderboard, tasting nights, taproom visits | Membership is not attached at purchase by default; no cadence-based prompts (a 2-keg/month customer who misses a fortnight is invisible until day 75) | Raef / lifecycle automation |
 | **7. Advocacy** | Shows the system off — the product is inherently demonstrable; refers mates | Referral rewards live in venue (1,000 tokens per system referral, 500 per refill referral); "5 ways to support" sign; organic UGC unprompted | Referral program under-promoted outside the venue; UGC from real customers (not the owners) identified in discovery but unexecuted | Raef |
 | **8. At-risk (75–90 days)** | No keg purchase in 75+ days; usually lapsed, not lost — "hadn't gotten around to it" or moderating | None — the customer hears nothing between active and churned | No pre-churn nudge at day 60–75, when the save is cheapest; segment only visible manually | Unassigned — GoTab/Fishbowl automation pending |
 | **9. Churned / Winback (90+ days)** | 90+ days since last keg; discovery contact says most cut back or drifted, few defected | Manual monthly SMS: $20 off within 2 weeks; Marie's Pizza (Buttercard) family-offer test this month | Manual, monthly, one-size-fits-all; no escalation ladder, no reason-for-lapse split (moderating vs drifted vs defected) | Raef (manual) → automation |

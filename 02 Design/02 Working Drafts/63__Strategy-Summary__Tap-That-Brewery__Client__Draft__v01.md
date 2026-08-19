@@ -11,13 +11,15 @@
 | **Prepared by** | Jewell Projects |
 | **Summarises** | The full Design set #23–61, built on the Discover base (D06, #22) |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
 
 ## What this document is
 
-The Discover phase ended with a diagnosis: Tap That Brewery is a refill subscription business being run with a hospitality venue's attention — 220 active keg customers against a 1,000 target (~$2.6M), a loss-making P&L, and one marketer at ~70% capacity as the binding constraint. The Design phase turned that diagnosis into strategy, brand, channel plans and nine execution briefs. This page is what the founders are approving. Sign-off here is **CP2**: it closes Design and unlocks Deploy.
+The Discover phase ended with a diagnosis: Tap That Brewery is a refill subscription business being run with a hospitality venue's attention — 206 keg system owners (active subset 96–113 — definition unresolved) against a 1,000 target (~$2.6M), a loss-making P&L, and one marketer at ~70% capacity as the binding constraint. The Design phase turned that diagnosis into strategy, brand, channel plans and nine execution briefs. This page is what the founders are approving. Sign-off here is **CP2**: it closes Design and unlocks Deploy.
 
 ## The strategic choices made — and what was deliberately rejected
 

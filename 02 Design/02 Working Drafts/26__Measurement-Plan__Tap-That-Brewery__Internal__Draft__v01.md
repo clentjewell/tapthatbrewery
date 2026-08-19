@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -39,7 +41,7 @@ One rule: if a number doesn't move active keg customers or explain why they move
 - **Fishbowl (CRM)** — segments, automated lifecycle sends, open/click/redemption. *Integration pending — until live, lifecycle metrics run off manual GoTab exports.*
 - **Buffer + @tapthatbreweryandkeghouse socials** — reach/engagement as diagnostics only; never in the headline row.
 - **Site analytics (tapthatbrewery.com.au)** — switcher landing page traffic and conversion; giveaway entries.
-- **Census + surveys** — objection tracking (n=50 baseline: 70% of daily users drink 1–2 kegs/month); repeat annually.
+- **Census + surveys** — objection tracking (n=50 baseline: 70% of daily users drink 1–~1.55 kegs/month (census)); repeat annually.
 
 ## Current measurement gaps
 

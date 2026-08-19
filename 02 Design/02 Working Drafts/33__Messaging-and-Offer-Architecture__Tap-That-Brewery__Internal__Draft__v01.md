@@ -10,6 +10,8 @@
 | **Prepared by** | Jewell Projects |
 | **Builds on** | 31 Brand Strategy, 32 Positioning, D05 Offer Worksheet, D02 Audience Teardown |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -27,7 +29,7 @@
 | | Pillar 1 — **Your place wins** (Connection/Kudos) | Pillar 2 — **Brewed here, poured fresh** (Taste/Freshness/Quality) | Pillar 3 — **Easier and smarter than you think** (Convenience/Cost) |
 |---|---|---|---|
 | Core claim | The house with the taps is the house the mates default to — and there's a tap for everyone, including the ones who don't drink beer | Award-winning beer brewed in Burleigh, in 20L kegs so it never sits around | Grab-and-go kegs, any system filled, and the maths quietly beats the bottle-o and buries the pub |
-| Proof | 27 taps, ~1/3 non-beer (seltzers, RTDs, cocktails); 20–30% of taproom visitors buy a system; Tap Token leaderboard + 2×/yr giveaways (~1,000 entries) | Midnight in Tokyo — Brewer's Choice at Crafted, first year; on-site brewhouse; corny kegs in Tuesday, ready Friday; gluten-reduced, lower-carb by design | Plastic kegs, no CO2, pick up and go; "we fill any system" (50% of refill customers switched already); ~$275 vs ~$500 per-litre equivalent; Afterpay/Zip; census: 70% of daily users pour just 1–2 kegs/month |
+| Proof | 27 taps, ~1/3 non-beer (seltzers, RTDs, cocktails); 20–30% of taproom visitors buy a system; Tap Token leaderboard + 2×/yr giveaways (~1,000 entries) | Midnight in Tokyo — Brewer's Choice at Crafted, first year; on-site brewhouse; corny kegs in Tuesday, ready Friday; gluten-reduced, lower-carb by design | Plastic kegs, no CO2, pick up and go; "we fill any system" (50% of refill customers switched already); ~$275 vs ~$500 per-litre equivalent; Afterpay/Zip; census: 70% of daily users pour just 1–~1.55 kegs/month (census) |
 | Role in funnel | Opens (awareness/creative) | Justifies (consideration) | Closes (retargeting/offer) |
 
 Cost doctrine applies (31): Pillar 3 never opens except for high-volume drinkers.
@@ -63,7 +65,7 @@ The four tiers from D05, rewritten as what the customer is told (naming suggesti
 
 ### LTV engine — **"Keg Crew"** (the revenue; keep the existing name)
 *Proposition:* membership pays for itself in months, then keeps paying.
-- Keg Crew $250/yr: $30 off every 20L refill (member core $120 vs $150), 100 Tap Tokens, 5L birthday keg, tasting nights — at 2 kegs/month it repays in ~4 months *(pricing per newer poster; reconcile against $300+renewal poster before publishing)*
+- Keg Crew $250/yr: $30 off every 20L refill (member core $120 vs $150), 100 Tap Tokens, 5L birthday keg, tasting nights — at ~1.55 kegs/month (census) it repays in ~4 months *(pricing per newer poster; reconcile against $300+renewal poster before publishing)*
 - Tap Tokens + public leaderboard; referral rewards: mate buys a system = 1,000 tokens, mate gets a refill = 500
 - Corny service promise: "in by Tuesday knock-off, ready Friday"
 

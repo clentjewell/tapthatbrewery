@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -20,7 +22,7 @@ Build the asset library that #52 (collateral), #53 (website), #56 (paid) and #59
 
 ## Shot lists per segment (customer shoots)
 
-Recruit from the 220 actives (CRM pull, #58; incentive: refill credit [TBC]). One half-day per household, 4–6 households minimum.
+Recruit from the 206 owners / 96–113 active (CRM pull, #58; incentive: refill credit [TBC]). One half-day per household, 4–6 households minimum.
 
 | Segment | Setting | Must-get shots |
 |---|---|---|

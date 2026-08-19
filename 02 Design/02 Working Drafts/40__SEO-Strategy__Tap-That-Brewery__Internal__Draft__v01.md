@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -46,7 +48,7 @@ SEO here is not traffic for its own sake — it serves the two acquisition doors
 | Cycle stage (from discovery) | Searcher state | Content | Conversion hook |
 |---|---|---|---|
 | Trigger (month 0) | "That's a keg system?" — saw one at a mate's or the taproom | Category content: beer on tap at home explained; system range guide | Giveaway entry |
-| Consideration (months 0–3, ~60% of buyers) | Researching cost, space, partner approval | **Objection content:** cost-comparison calculator (keg per-litre vs bottle-o vs pub — the ~$275 vs ~$500 maths, interactive); "how much space does a keg system need"; "what's on tap for people who don't drink beer"; "will I drink too much?" (census: 70% of daily users, 1–2 kegs/month) | Demo booking; nurture email capture |
+| Consideration (months 0–3, ~60% of buyers) | Researching cost, space, partner approval | **Objection content:** cost-comparison calculator (keg per-litre vs bottle-o vs pub — the ~$275 vs ~$500 maths, interactive); "how much space does a keg system need"; "what's on tap for people who don't drink beer"; "will I drink too much?" (census: 70% of daily users, 1–~1.55 kegs/month (census)) | Demo booking; nurture email capture |
 | Close (month 3+) | Price-checking, timing | 50%-off giveaway close landing pages; Afterpay/Zip and lease-to-buy explainers | Purchase/demo |
 | Ownership | "keg refill near me", cleaning, how-tos | Refill ordering, corny turnaround, system care content | Refill order, Keg Crew |
 | Switcher (any time) | Owns hardware, comparing suppliers | We Fill Any System page; freshness/range comparison vs warehouse kegs | First refill |

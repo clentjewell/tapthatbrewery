@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -77,7 +79,7 @@ The pathway ends where the margin begins. At purchase, the lead record hands to 
 | C4 | Switcher acquisitions | ~50% of base, organic | New refill customers/month with non-Tap-That hardware |
 | C5 | Attach rate | Not tracked | % of purchases leaving with Keg Crew + booked/prompted first refill |
 | C6 | Activation | Not tracked | % of new owners refilling within 30 days |
-| C7 | Cadence health | ~2 kegs/month claimed | Median days between refills; % of base active (<75 days) |
+| C7 | Cadence health | ~1.55 kegs/month (census) claimed | Median days between refills; % of base active (<75 days) |
 | C8 | Save rate | $20-off manual winback, results untracked | % of at-risk (75–90) recovered before day 90; winback % by ladder step |
 | C9 | Referral velocity | Leaderboard exists; volume untracked | Token-referral conversions/month |
 | C10 | CAC by entry point | Unknown | Total cost ÷ new *refill-active* customers (not system sales) per lane — the number that decides budget |

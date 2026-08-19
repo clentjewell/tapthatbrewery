@@ -9,6 +9,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## How to read this model
@@ -36,7 +38,7 @@ On the Gold Coast this is the Burleigh–Palm Beach–Miami–Tugun belt: mortga
 
 ### 2. High-volume drinkers (~20%)
 
-The one segment where the maths leads openly: a 20L keg is 44 schooners for $120–$170 (member core $120) against a $100+ bottle-shop weekend. Convenience seals it — the drive to Dan Murphy's disappears. Watch-out: the census (n=50) shows 70% of daily users drink only 1–2 kegs/month, so creative stays "fresher and cheaper, not more" — never a bulk-drinking pitch.
+The one segment where the maths leads openly: a 20L keg is 44 schooners for $120–$170 (member core $120) against a $100+ bottle-shop weekend. Convenience seals it — the drive to Dan Murphy's disappears. Watch-out: the census (n=50) shows 70% of daily users drink only 1–~1.55 kegs/month (census), so creative stays "fresher and cheaper, not more" — never a bulk-drinking pitch.
 
 ### 3. Cashed-up tradies (~20%)
 

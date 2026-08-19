@@ -11,6 +11,8 @@
 | **Prepared by** | Jewell Projects |
 | **Builds on** | D03 Competitor Analysis, #10 Category Positioning, D06 Discovery Pack Synthesis |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Purpose
@@ -23,7 +25,7 @@ The category's structural blind spot. Every competitor sells kegs; nobody owns t
 
 | | |
 |---|---|
-| **Evidence** | ~50% of Tap That Brewery's 220 refill customers bought their system elsewhere and switched — with zero targeted campaign. ~70% of corny-keg holdouts converted to the plastic bladder system once they experienced it. |
+| **Evidence** | ~56% of the 206 keg system owners in the database bought their system elsewhere and switched — with zero targeted campaign. ~70% of corny-keg holdouts converted to the plastic bladder system once they experienced it. |
 | **Size signal** | If half the current base arrived organically, the addressable installed base is plausibly several multiples of 220. It is the discovery session's stated "lowest-hanging fruit," and D06's H1 hypothesises switchers beat new-owner acquisition on CAC — no $975 objection, no 3-month buying cycle, margin from the first fill. |
 | **What claiming it takes** | A named "we fill any system" campaign lane (currently the offer exists but is unspoken); a first-fill switch incentive (Tap Tokens or member-rate first keg); corny Tue→Fri turnaround as the service proof; landing page + Meta/local targeting at homebrew and keg-owner audiences. Low capex — the constraint is Raef's ~70% marketing allocation. |
 
@@ -39,7 +41,7 @@ The category's structural blind spot. Every competitor sells kegs; nobody owns t
 
 | | |
 |---|---|
-| **Evidence** | The beers are gluten-reduced (cannot legally claim gluten-free) and the range skews lower-carb by design; discovery confirms the angle *exists but isn't yet marketed* — it appears nowhere in venue signage or socials. The census (n=50) shows the customer is a moderator, not a binger: 70% use their system daily/most days yet drink only 1–2 kegs/month. |
+| **Evidence** | The beers are gluten-reduced (cannot legally claim gluten-free) and the range skews lower-carb by design; discovery confirms the angle *exists but isn't yet marketed* — it appears nowhere in venue signage or socials. The census (n=50) shows the customer is a moderator, not a binger: 70% use their system daily/most days yet drink only 1–~1.55 kegs/month (census). |
 | **Size signal** | D06's H7 flags it as a differentiator for the female market (the veto-holder on the #1 objection, "my wife won't let me") and moderating drinkers. No local keg rival or distributor claims health credentials — a first-mover claim that costs copy, not capex. |
 | **What claiming it takes** | Compliance first: lock the permissible wording ("gluten-reduced," carb claims) before any copy ships. Then: tap decals/menu flags, a website range page, and the "fresher, better, not more" moderation frame from D02. Cheapest gap on this list to claim — and the easiest for a competitor to copy once spoken, so speed matters. |
 

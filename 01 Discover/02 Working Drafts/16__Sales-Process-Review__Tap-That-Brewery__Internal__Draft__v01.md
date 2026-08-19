@@ -11,6 +11,8 @@
 
 **Purpose.** How systems and refills actually get sold today — the real mechanics, with their conversion numbers where known — and the named gaps. The headline: Tap That Brewery converts remarkably well at the moments it controls, and loses buyers in every gap between those moments.
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ## How a keg system sells today
 
 ### Route 1 — the taproom demo (always on)
@@ -34,13 +36,13 @@ The buying cycle is long: **~10% buy within a month, ~60% take up to 3 months, 4
 | Upfront cost (~$975) | At-cost pricing story, Afterpay/Zip, lease-to-buy in development (GoTab-dependent), 50%-off giveaway close |
 | "My wife won't let me" | 1/3 non-beer taps (seltzers, RTDs, cocktails) — her drinks on tap too |
 | Nowhere to put it | Mini 5L system ($225), integrated options |
-| "I'll drink too much" | Census (n=50): 70% of daily users go through only 1–2 kegs/month; "put a lock on the fridge" |
+| "I'll drink too much" | Census (n=50): 70% of daily users go through only 1–~1.55 kegs/month (census); "put a lock on the fridge" |
 
 But the window itself is **unmanaged**: no email/SMS nurture, no objection-answering content sequence, no retargeting. A 3-month decision is currently nurtured by the buyer's memory of a good afternoon at the taproom.
 
 ## How refills sell today
 
-- **Cadence:** active customers average ~2 kegs/month (~$200/month). Plastic bladder = walk in, swap, go; corny = drop COB Tuesday, ready Friday.
+- **Cadence:** active customers average ~1.55 kegs/month (census) (~$200/month). Plastic bladder = walk in, swap, go; corny = drop COB Tuesday, ready Friday.
 - **Retention device:** Keg Crew membership ($30 off every refill — repays ~$250/yr in ~4 months at cadence) plus Tap Tokens on every dollar, leaderboard, referral rewards (1,000 tokens for a system or venue referral, 500 for a refill referral).
 - **Lifecycle:** active <75 days since last keg · at-risk 75–90 · churned 90+.
 - **Winback:** a **manual monthly SMS** to churned customers — $20 off if they buy within 2 weeks; this month testing a free family-sized Marie's Pizza (Buttercard partnership). Automation waits on the GoTab/Fishbowl integration. Churned customers contacted personally mostly say they've cut back or "hadn't gotten around to it" — lapsed, not lost.

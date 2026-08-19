@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Purpose
@@ -20,7 +22,7 @@ One page the whole engagement can be measured against. If a piece of work does n
 
 ### 1. 1,000 active keg customers (~$2.6M)
 
-The headline number, in the client's own framing: grow from **220 active keg customers to 1,000 active keg system owners or resellers**. At ~2 kegs and ~$200/month average refill spend per active customer, 1,000 actives is a **~$2.6M refill business** — subscription-grade revenue from an asset the customer keeps in their garage.
+The headline number, in the client's own framing: grow from **206 keg system owners (active subset 96–113 — definition unresolved) to 1,000 active keg system owners or resellers**. At ~2 kegs and ~$200/month average refill spend per active customer, 1,000 actives is a **~$2.6M refill business** — subscription-grade revenue from an asset the customer keeps in their garage.
 
 This is the only growth number that matters, because every other unit exists to feed it (the owner's stated model: systems → refills; taproom → ownership → refills; wholesale → refills). Keg system sales are *not* a success measure in themselves — hardware is sold at cost ($975 two-tap to $2,550 six-tap) and generates zero margin. A month in which 30 systems sell but active refill customers fall is a bad month.
 

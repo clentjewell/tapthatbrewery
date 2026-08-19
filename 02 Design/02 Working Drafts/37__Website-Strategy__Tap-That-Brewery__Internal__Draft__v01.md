@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -28,8 +30,8 @@ Ranking follows the buying cycle, not revenue proximity: because only ~10% buy w
 |---|---|---|---|
 | 1 | **Giveaway entry / lead capture** | Giveaway entry form, Brew Buds signup (free tier, 50 Tap Tokens) → Fishbowl | The giveaways already work (2×/yr, ~1,000 entries, 50%-off close → 22–25 systems). The site makes entry always-on and feeds the 90-day nurture; a captured email is worth more than a bounced visitor 90 days from buying |
 | 2 | **System enquiry / demo booking** | "Book a demo" (currently an email address on an in-venue flyer: cheers@) → structured form or booking tool | The high-intent action for the ~10% ready now and the warmed-up rest; a demo visit puts them on the 20–30% conversion floor |
-| 3 | **Refill ordering** | Tap list + order/reserve via GoTab; "we fill any system" entry | Serves the margin engine directly — 220 actives at ~$200/month, and the switcher audience skips the consideration window entirely |
-| 4 | **Membership signup** | Keg Crew $250/yr (subject to reconciliation), Mug Club, Brew Buds | Locks refill cadence ($30 off per refill repays $250 in ~4 months at 2 kegs/month); best sold at or after purchase |
+| 3 | **Refill ordering** | Tap list + order/reserve via GoTab; "we fill any system" entry | Serves the margin engine directly — 206 owners / 96–113 active at ~$200/month, and the switcher audience skips the consideration window entirely |
+| 4 | **Membership signup** | Keg Crew $250/yr (subject to reconciliation), Mug Club, Brew Buds | Locks refill cadence ($30 off per refill repays $250 in ~4 months at ~1.55 kegs/month (census)); best sold at or after purchase |
 | 5 | **Function enquiry** | Functions/venue-hire form | Real revenue, minimum-spend model — but secondary, and must not let taproom gravity dominate the site the way it dominated the last 18 months |
 
 ## Audience entry paths
@@ -56,7 +58,7 @@ The site's content is not a blog for its own sake — it is the digital version 
 | Upfront cost (~$975) | At-cost hardware explained; per-litre maths (~$275 equivalent vs ~$500 wholesale 50L); Afterpay/Zip; lease-to-buy when live |
 | "My wife won't let me" | The non-beer third of the tap wall, front and centre; "what's on tap for her" content |
 | Nowhere to put it | Footprint/space content, system size guide, integrated options |
-| "I'll drink too much" | Census stat: 70% of daily users go through only 1–2 kegs/month — moderation, freshness, not volume |
+| "I'll drink too much" | Census stat: 70% of daily users go through only 1–~1.55 kegs/month (census) — moderation, freshness, not volume |
 
 Kudos/connection lead the creative; cost closes (Christy's working rule). Detail per page in #39; search mapping in #40.
 

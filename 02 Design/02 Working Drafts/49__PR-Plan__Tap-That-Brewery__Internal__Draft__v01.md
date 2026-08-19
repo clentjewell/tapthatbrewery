@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -26,7 +28,7 @@ PR is the one channel where Tap That Brewery punches above its budget, because t
 | 2 | **First-year award win** | Midnight in Tokyo (black Japanese lager) took Brewer's Choice at Crafted — described as Australia's biggest beer festival — in their first year entering | Validated; craft-media catnip with a natural annual re-hook each Crafted season |
 | 3 | **The Benchy novelty** | A portable tap for the 4WD/camping/boating market with no direct competitor — "beer on tap at the campsite" | Product real (Kegland unit); channel warm (Raef's cousin's 4WD fit-out business); launch timing TBC |
 | 4 | **The franchise ambition** | Local brewery building a replicable "beer on tap at home" model; founder's Back in Motion franchise pedigree; 10–12 year horizon | Founder intent only — business/trade press angle; hold until CP1 confirms founders want it public |
-| 5 | **Community & social responsibility** | Supports programs for victims of drink driving and domestic/family violence; sponsors local sports clubs and community events; the census counter-narrative (keg owners drink moderately — 70% of daily users pour only 1–2 kegs/month) | Flyer-verified; the moderation stat needs raw-census verification before public use |
+| 5 | **Community & social responsibility** | Supports programs for victims of drink driving and domestic/family violence; sponsors local sports clubs and community events; the census counter-narrative (keg owners drink moderately — 70% of daily users pour only 1–~1.55 kegs/month (census)) | Flyer-verified; the moderation stat needs raw-census verification before public use |
 | 6 | **Category colour** | 22-foot shuffleboard, 27 taps with a third non-beer "engineered for partner buy-in", pun-forward range (Skittle Me This, Bone Water IPA), the Kegged & Ready pipeline | Evergreen listicle/what's-on material — low effort, keeps the name warm |
 
 ## Target outlets

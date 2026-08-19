@@ -11,6 +11,8 @@
 
 **Purpose.** The complete inventory of what Tap That Brewery actually sells, verified against the tap wall, price boards and coolroom on the August 2026 site visit. Everything here is raw material for the offer architecture (D05) and pricing notes (#15) — the review closes on where the range is strong and where it has holes.
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ## The liquid: 27 taps, deliberately one-third non-beer
 
 The tap wall is engineered for partner buy-in, not just beer nerds — the non-beer third is the direct answer to the #1 objection ("my wife won't let me").
@@ -34,7 +36,7 @@ The tap wall is engineered for partner buy-in, not just beer nerds — the non-b
 
 | Format | Detail | Role |
 |---|---|---|
-| **Plastic bladder keg (proprietary)** | Pick up and go, no CO2 handling | The convenience default — ~70% of former corny customers have switched to it |
+| **Talos kegs (proprietary)** | Pick up and go, no CO2 handling | The convenience default — ~70% of former corny customers have switched to it |
 | **Corny keg (stainless)** | Drop by COB Tuesday → ready Friday; $3/keg cleaning fee | Serves existing corny-system owners — a switcher on-ramp |
 | **Sizes** | 5L (mini/gift/birthday) · **20L (the standard)** · 50L (functions/wholesale) | 20L vs the industry's 50L = fresher beer, more variety per household |
 

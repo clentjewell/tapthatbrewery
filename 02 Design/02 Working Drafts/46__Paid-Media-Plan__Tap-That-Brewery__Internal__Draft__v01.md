@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -33,7 +35,7 @@ Working rule from discovery (Christy): cost is the customer's dirty little secre
 
 | Audience | Targeting construction | Cold creative (kudos/connection) | Retargeting creative (cost closes) |
 |---|---|---|---|
-| Young families (~45%) | GC geo, 28–45, parents; lookalike of refill customers once GoTab/Fishbowl export exists | "Your place becomes the default" — backyard hosting, her taps too (seltzers, gin fizz sour on tap) | "Cheaper than one night out with a sitter" + Afterpay/Zip; census stat (70% of daily users pour only 1–2 kegs/month) for the veto-holder |
+| Young families (~45%) | GC geo, 28–45, parents; lookalike of refill customers once GoTab/Fishbowl export exists | "Your place becomes the default" — backyard hosting, her taps too (seltzers, gin fizz sour on tap) | "Cheaper than one night out with a sitter" + Afterpay/Zip; census stat (70% of daily users pour only 1–~1.55 kegs/month (census)) for the veto-holder |
 | Cashed-up tradies (~20%) | GC geo, 25–45, trade/4WD/outdoor interests | The install and the mates' reaction — esky to envy; Benchy for the 4WD build | 4-tap $1,950 / 6-tap $2,550 at cost, Afterpay/Zip; "$40–$100 bonus credit" |
 | High-volume drinkers (~20%) | GC geo, beer interests, bottle-shop engagers | **Exception segment: maths leads openly.** 44 schooners per 20L keg from $120 (member) | Same maths, plus membership ($30 off every refill) |
 | Switchers (behavioural) | GC geo, kegerator/homebrew interest + engagers with "we fill any system" content | "We fill any system — whoever sold it to you." Freshness, 27-tap range | Member refill pricing vs current supplier; corny Tue-drop/Fri-ready service |

@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -54,7 +56,7 @@ Case studies die from evidence not captured at the time. Two of this engagement'
 
 ## Write-up skeleton (fill only with Deploy actuals)
 
-1. **Context** — the at-cost hardware model, margin in refills, 220 actives vs 1,000 target, loss-making P&L, one 70% marketer.
+1. **Context** — the at-cost hardware model, margin in refills, 206 owners / 96–113 active vs 1,000 target, loss-making P&L, one 70% marketer.
 2. **Problem** — [Story A: acquisition cost / Story B: the nurture gap]. Stated in the client's own words from discovery.
 3. **What we did** — the intervention, its cost, its build time, who did what (R/J/C split).
 4. **Results** — [EMPTY: actives added, conversion vs baseline, cost per active, save/winback rates, revenue run-rate delta]. Every number sourced to a filed export.

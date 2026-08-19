@@ -10,11 +10,13 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Where you are
 
-You told us plainly, and we heard it: the business is about connection and good times — keg systems and refills are the means, not the end. The model is proven. Systems go out the door at cost ($975 for a two-tap), and the business lives on 20L refills — around $200 a month from every active customer. You have **220 active keg customers today and a target of 1,000**, which is roughly a **$2.6M business**. Half your refill customers bought their hardware somewhere else and switched to you anyway. The taproom converts 20–30% of visitors into system owners. Midnight in Tokyo took Brewer's Choice at Crafted in your first year entering.
+You told us plainly, and we heard it: the business is about connection and good times — keg systems and refills are the means, not the end. The model is proven. Systems go out the door at cost ($975 for a two-tap), and the business lives on 20L refills — around $200 a month from every active customer. You have **206 keg system owners (active subset 96–113 — definition unresolved) today and a target of 1,000**, which is roughly a **$2.6M business**. Half your refill customers bought their hardware somewhere else and switched to you anyway. The taproom converts 20–30% of visitors into system owners. Midnight in Tokyo took Brewer's Choice at Crafted in your first year entering.
 
 And yet, in your own words, it's "always red at the bottom of the P&L." The last 18 months pulled focus toward the taproom, and the refill engine — where the margin actually lives — grew on word of mouth rather than a system.
 

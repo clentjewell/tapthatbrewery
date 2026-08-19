@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -27,7 +29,7 @@ Launch paid social (Meta-first) to feed the two funnels — switcher refills and
 | **3. System nurture / retargeting** | Conversions — demo booked | Site visitors, calculator users, giveaway entrants, video viewers; 90-day windows matched to the 3-month cycle | Keg systems page |
 | **4. Benchy** | Conversions / partner traffic | 4WD, camping, caravan, boating interests QLD/northern NSW | Benchy page |
 
-Customer-list custom audiences (220 actives + churned) are **excluded** from acquisition and served only lifecycle offers if #57/#58 gaps require paid backup.
+Customer-list custom audiences (206 owners / 96–113 active + churned) are **excluded** from acquisition and served only lifecycle offers if #57/#58 gaps require paid backup.
 
 ## Creative requirements per segment (from #27; assets from #54, kits from #52)
 

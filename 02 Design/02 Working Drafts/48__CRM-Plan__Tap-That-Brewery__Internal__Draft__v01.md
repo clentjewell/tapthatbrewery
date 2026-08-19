@@ -10,13 +10,15 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
 
 ## Why this is the highest-leverage plan in the Design set
 
-Every growth number in this engagement runs through one machine: knowing, per customer, **when they last bought a keg**. The lifecycle rules already exist (active <75 days, at-risk 75–90, churned 90+), the winback offer already exists ($20 off), and the customers already exist (220 actives plus an untracked churned pool). What doesn't exist is the system: churn management is a hand-sent monthly SMS, wholesale leads die between first DM reply and manager contact, and the GoTab/Fishbowl integration that fixes both is "pending" with no date. This plan costs approximately no media dollars and directly serves O2 (stop the refill leak) — on a loss-making P&L it is the first thing to build.
+Every growth number in this engagement runs through one machine: knowing, per customer, **when they last bought a keg**. The lifecycle rules already exist (active <75 days, at-risk 75–90, churned 90+), the winback offer already exists ($20 off), and the customers already exist (206 owners / 96–113 active plus an untracked churned pool). What doesn't exist is the system: churn management is a hand-sent monthly SMS, wholesale leads die between first DM reply and manager contact, and the GoTab/Fishbowl integration that fixes both is "pending" with no date. This plan costs approximately no media dollars and directly serves O2 (stop the refill leak) — on a loss-making P&L it is the first thing to build.
 
 ## Data model (the minimum viable customer record)
 
@@ -82,7 +84,7 @@ Target: 6 new style-matched venue accounts in 12 months (KR 3.4). Sports-club wh
 | 4. Automated 60/75/90 flows live | Integration complete; KR 2.1 says live within 90 days of that | Integration + 90 days |
 | 5. Delivery (Uber Direct) and lease-to-buy data folded in | Respective GoTab features live | When shipped |
 
-The interim manual layer matters most: at 220 actives, a weekly export and a sorted spreadsheet is a 30-minute job that captures most of the automation's value **now**, while proving the send-and-save logic the automation will inherit.
+The interim manual layer matters most: at 206 owners / 96–113 active, a weekly export and a sorted spreadsheet is a 30-minute job that captures most of the automation's value **now**, while proving the send-and-save logic the automation will inherit.
 
 ## Cost and kill criteria
 

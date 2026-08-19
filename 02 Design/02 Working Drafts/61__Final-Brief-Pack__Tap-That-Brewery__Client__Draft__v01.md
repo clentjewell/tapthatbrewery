@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -35,7 +37,7 @@ Nine execution briefs turn the Design-phase strategy (220 → 1,000 active keg c
 ## The critical path
 
 1. **Collateral fix first — this week.** Two conflicting membership posters and a two-priced tasting paddle sit at the till of a brand charging $120–170 against $85–90 rivals on a quality story. Client confirms the live prices; #52 Kit 4 ships; every other brief inherits the reconciled list. Nothing customer-facing publishes before it.
-2. **CRM + EDM before paid scale-up.** The warm assets — 220 actives, ~1,000 giveaway entrants/cycle, the churned list that's "lapsed, not lost" — leak at 75–90 days while retention is one hand-sent SMS a month. #58 and #57 (Sequences 1–2) must be live before #56 spends beyond test budgets: paid fills the funnel; CRM/EDM stop it draining.
+2. **CRM + EDM before paid scale-up.** The warm assets — 206 owners / 96–113 active, ~1,000 giveaway entrants/cycle, the churned list that's "lapsed, not lost" — leak at 75–90 days while retention is one hand-sent SMS a month. #58 and #57 (Sequences 1–2) must be live before #56 spends beyond test budgets: paid fills the funnel; CRM/EDM stop it draining.
 3. **Website + shoot make paid worth clicking.** #54 and #53 land in wave 2 so wave-3 paid traffic hits real proof, not the current site.
 4. **PR and Benchy ride the hooks.** #59 and #52 Kit 3 fire when their assets and signings are real — hook-driven, not calendar-driven.
 

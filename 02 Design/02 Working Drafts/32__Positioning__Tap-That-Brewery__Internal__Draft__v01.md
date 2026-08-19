@@ -10,6 +10,8 @@
 | **Prepared by** | Jewell Projects |
 | **Builds on** | D03 Competitor Analysis, #10 Category Positioning, D06 Discovery Pack Synthesis, 31 Brand Strategy |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 *Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
@@ -41,7 +43,7 @@ Tap That Brewery must refuse the frame it superficially fits. As a craft brewery
 
 - Keg refills readily available locally (parity with keg rivals — theirs is cheaper; ours is never argued on sticker).
 - Hardware access and payment ease (systems at cost, Afterpay/Zip; parity with online distributors on obtainability).
-- Convenience of pickup (plastic bladder kegs, no CO2, grab-and-go — parity with a bottle-shop run).
+- Convenience of pickup (Talos kegs, no CO2, grab-and-go — parity with a bottle-shop run).
 - Hospitality basics at the taproom (parity with local venues; the taproom does not need to out-pub the pubs).
 
 ## The flank: "we fill any system"

@@ -9,6 +9,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Why this document exists
@@ -40,7 +42,7 @@ Named in discovery as the recurring four; treated fully in document 07:
 1. "**A grand up front** is a lot for beer." (~$975)
 2. "**My wife won't let me.**" (the veto-holder overlay)
 3. "**Nowhere to put it.**" (space, rental, bench real estate)
-4. "**I don't trust myself — I'll drink too much.**" (countered by census: 70% of daily users go through only 1–2 kegs/month)
+4. "**I don't trust myself — I'll drink too much.**" (countered by census: 70% of daily users go through only 1–~1.55 kegs/month (census))
 
 ## Pains of the refill lifecycle (post-purchase)
 
@@ -51,7 +53,7 @@ The margin lives here, so friction here is churn. Lifecycle definitions in use: 
 | Running dry | "Mates arrived Saturday and the keg blew halfway through." | The system's whole promise fails at the social moment it exists for | No low-keg warning today; delivery (GoTab × Uber Direct, same-day capable) and cadence-based prompts post Fishbowl integration |
 | Forgetting to swap | "I keep meaning to drop in — it's been two months." | The lapsed-not-lost drift: churned customers contacted said they'd "not gotten around to it" | Manual monthly SMS ($20 off, 2-week window); automation at 60/75/90 days pending GoTab/Fishbowl |
 | The refill errand | "Burleigh's a 25-minute round trip with the empty rattling in the boot." | Convenience pillar erodes with distance from the taproom | Census says $20–30 delivery fee and 3–7 days acceptable; Uber Direct beats that |
-| Corny keg wait | "Drop it Tuesday, get it Friday — so I'm dry half the week." | Stainless owners lose days per cycle (+ $3 cleaning fee) | The plastic bladder keg: pick-up-and-go, no CO2 — ~70% of corny customers have already switched |
+| Corny keg wait | "Drop it Tuesday, get it Friday — so I'm dry half the week." | Stainless owners lose days per cycle (+ $3 cleaning fee) | The Talos kegs: pick-up-and-go, no CO2 — ~70% of corny customers have already switched |
 | Range paralysis / same-again fatigue | "I just get the lager because I don't know what's pouring." | Refill cadence slows when the range isn't visible at home | Tasting notes QR exists in venue; no owned digital "what's kegged & ready" channel yet |
 | Membership ambiguity | "Is it $250 a year or $300? What do I actually get?" | Two conflicting live posters blunt the strongest retention offer ($30 off every refill) | Reconciliation flagged as a production gate in D06 |
 

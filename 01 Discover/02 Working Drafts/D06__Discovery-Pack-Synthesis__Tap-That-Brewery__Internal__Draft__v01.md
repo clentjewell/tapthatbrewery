@@ -8,7 +8,10 @@
 | **Status** | Draft v01 — Internal (Jewell + senior client) |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects (Clent Jewell, Christy Kilmartin) |
-| **Sources** | Discovery session 19 Aug 2026 (Circleback), site visit + 27 photos, in-venue pricing/signage, Gold Coast Bulletin founding article, customer census (n=50, headline figures only — full data pending) |
+| **Corrected by** | #20A Evidence Reconciliation (19 Aug 2026) — read first |
+| **Sources** | Discovery session 19 Aug 2026 (Circleback), site visit + 27 photos, in-venue pricing/signage, Gold Coast Bulletin founding article, customer census (49 respondents of 206 owners, 24% — **received and reconciled 19 Aug**, see #20A) |
+
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ---
 
@@ -20,9 +23,9 @@ Pulls the discovery session, site visit, and in-venue evidence into one validate
 
 ## Summary on a page
 
-**Business snapshot.** Tap That Brewery, Burleigh Heads. Founded by Chris Smith (head brewer, ex Burleigh Barrels) and Justin Mistry (physio-turned-operator), opened October, first-year award winner (Midnight in Tokyo — Brewer's Choice at Crafted). Four units: keg system sales, keg refills, taproom, wholesale. 27 taps, ~1/3 deliberately non-beer. 220 active keg customers; target 1,000; ~$200/month average refill spend = ~$2.6M revenue at target. Currently loss-making.
+**Business snapshot.** Tap That Brewery, Burleigh Heads. Founded by Chris Smith (head brewer, ex Burleigh Barrels) and Justin Mistry (physio-turned-operator), opened October, first-year award winner (Midnight in Tokyo — Brewer's Choice at Crafted). Four units: keg system sales, keg refills, taproom, wholesale. 27 taps, ~1/3 deliberately non-beer. 206 keg system owners (active subset 96–113 — definition unresolved); target 1,000; ~$200/month average refill spend = ~$2.6M revenue at target. Currently loss-making.
 
-**Core commercial read.** Tap That Brewery's problem is not product, demand, or strategy — it is that a refill subscription business is being run with a hospitality venue's attention. The margin engine (refills) has 220 of a targeted 1,000 customers, while the last 18 months of focus went to the taproom, which loses money and was only ever meant to be the shopfront.
+**Core commercial read.** Tap That Brewery's problem is not product, demand, or strategy — it is that a refill subscription business is being run with a hospitality venue's attention. The margin engine (refills) has 96–113 active of a targeted 1,000 customers, while the last 18 months of focus went to the taproom, which loses money and was only ever meant to be the shopfront.
 
 **Immediate opportunity.** Half of current refill customers bought their hardware elsewhere — the cheapest growth available is winning refills from the installed base of keg system owners across the Gold Coast, not creating new owners from scratch.
 
@@ -39,19 +42,19 @@ The problem is not awareness or offer quality — it is **allocation**. Every un
 ## What we heard (validated, in the client's terms)
 
 - "We're in the business of connection and good times — keg systems and refills are the means, not the end."
-- The unit economics: systems sold **at cost** ($975 two-tap); all margin lives in refills (~$200/month per active customer, ~2 kegs).
+- The unit economics: systems sold **at cost** ($975 two-tap); all margin lives in refills (~$155–160/month per active customer (census-derived), ~2 kegs).
 - "Always red at the bottom of the P&L" — the venue trades but the business loses money overall.
 - 20L kegs vs the industry's 50L: fresher, more variety, no excise (under threshold), no wholesaler margin — a ~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler.
-- ~70% of corny keg customers have switched to the plastic bladder kegs (no CO2, pick-up-and-go).
+- ~70% of corny keg customers have switched to the Talos kegs (no CO2, pick-up-and-go).
 - The taproom converts: 20–30% of visitors go on to buy a keg system. Giveaway competitions (2×/year, ~1,000 entries) plus the 50%-off close converted 22–25 systems last round.
 - Buying cycle is long: ~60% take up to 3 months, 40% longer, ~10% within a month.
-- The census (n=50): 70% use their system daily/most days but drink only 1–2 kegs/month — moderation, not excess.
+- The census (n=50): 70% use their system daily/most days but drink only 1–~1.55 kegs/month (census) — moderation, not excess.
 
 ## Business + model
 
 | Unit | Role | Economics |
 |---|---|---|
-| Keg refills | **The margin engine** | Strong margin; active = purchase within 75 days; 220 active |
+| Keg refills | **The margin engine** | Strong margin; active = purchase within 75 days; 206 owners / 96–113 active |
 | Keg systems | Customer acquisition (hardware at cost) | $975–$2,550 (2–6 tap); mini 5L $225; integrated from $1,750 |
 | Taproom | Shopfront + proof of product | Healthy margin at volume, loses money overall; 27 taps; capacity ~120–130 seated / 250 standing target |
 | Wholesale | Secondary; feeds refill volume | Style-matched venue targeting; sports clubs blocked by CUB deals, contracts, no tap infrastructure |
@@ -136,7 +139,7 @@ The re-education pathway exists in-venue (taproom → demo → giveaway → 50% 
 ## Validated vs pending
 
 **Validated (multiple sources or seen on site):**
-- 220 active / 1,000 target / ~$200-month / ~$2.6M math; loss-making overall
+- 206 owners / 96–113 active / 1,000 target / ~$200-month / ~$2.6M math; loss-making overall
 - Systems at cost; refill margin model; 20L format; plastic vs corny; corny Tue-drop/Fri-pickup
 - Full retail pricing (photo-verified: price board, keg systems card, happy hour, referral rewards)
 - 27 taps, ~1/3 non-beer; Midnight in Tokyo award; founding story (Bulletin article)

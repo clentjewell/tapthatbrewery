@@ -28,6 +28,7 @@ CAT = {
  18:("Success Definition","Discover","success-definition"),
  19:("Objectives & Key Results","Discover","okrs"),
  20:("Discover Summary (CP1)","Discover","discover-summary"),
+ 205:("Evidence Reconciliation (20A)","Discover","evidence-reconciliation"),
  21:("Priority Problems To Solve","Discover","priority-problems"),
  22:("Recommended Next Moves","Discover","recommended-next-moves"),
  23:("Business Plan","Design","business-plan"),
@@ -77,6 +78,7 @@ CAT = {
 
 SIGNOFF = {2,20,34,36,61,62,63}
 LEGACY = {"D02":4, "D03":9, "D05":13, "D06":20}
+# 20A sorts immediately after 20 by using 205 as its sort key
 
 def find_files():
     found = {}
@@ -85,6 +87,9 @@ def find_files():
     for d in dirs:
         for p in glob.glob(os.path.join(ROOT, d, "*.md")):
             base = os.path.basename(p)
+            m = re.match(r'^20A__', base)
+            if m:
+                found[205] = p; continue
             m = re.match(r'^(\d{2})__', base)
             if m:
                 found[int(m.group(1))] = p; continue
@@ -119,10 +124,11 @@ def main():
     if missing:
         print("MISSING:", missing)
     docs = []
-    for n in sorted(CAT):
+    for n in sorted(CAT, key=lambda k: 20.5 if k == 205 else k):
         if n not in files: continue
         title, phase, slug = CAT[n]
-        docs.append(dict(n=n, title=title, phase=phase, slug=slug,
+        label = "20A" if n == 205 else f"{n:02d}"
+        docs.append(dict(n=n, label=label, title=title, phase=phase, slug=slug,
                          html=convert(files[n]), signoff=n in SIGNOFF))
     total = len(docs)
 
@@ -136,7 +142,7 @@ def main():
         star = '<span class="sig" title="Client sign-off">&bull;</span>' if d["signoff"] else ''
         nav.append(
             f'<a class="nav-link" href="#{d["slug"]}" data-t="{html.escape(d["title"].lower())}">'
-            f'<span class="nav-num">{d["n"]:02d}</span><span>{html.escape(d["title"])}{star}</span></a>')
+            f'<span class="nav-num">{d["label"]}</span><span>{html.escape(d["title"])}{star}</span></a>')
     nav_html = "\n".join(nav)
 
     # ---- documents ----
@@ -154,7 +160,7 @@ def main():
 <article class="doc" id="{d["slug"]}">
   <div class="doc-head">
     <div class="doc-head-l"><span class="doc-chip">{d["phase"]}</span>{sig}<span class="pill draft">Draft v01</span></div>
-    <span class="doc-count">Document {d["n"]:02d} of {total}</span>
+    <span class="doc-count">Document {d["label"]} of {total}</span>
   </div>
   <h2 class="doc-title">{html.escape(d["title"])}</h2>
   <div class="prose">{d["html"]}</div>

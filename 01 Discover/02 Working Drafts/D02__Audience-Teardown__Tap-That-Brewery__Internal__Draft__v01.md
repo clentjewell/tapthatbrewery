@@ -3,6 +3,8 @@
 
 Segments ranked by commercial attractiveness for the keg system → refill model. Percentages are the client's own estimates from the discovery workshop (deliberately overlapping, not summing to 100%). Message pillars: Cost, Convenience, Connection, Kudos, Taste/Freshness.
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## 1. Young families (~45%) — the lead growth pillar
@@ -19,7 +21,7 @@ Segments ranked by commercial attractiveness for the keg system → refill model
 - **Pain:** the weekly bottle-shop spend is genuinely painful at their volume; pub prices worse.
 - **Before → after:** from $100+ weekends to ~$120–170 per 20L keg (44 schooners) at home.
 - **Message emphasis:** the one segment where **cost + convenience should lead openly**. Do the maths for them.
-- **Watch-out:** the census counters the excess narrative (70% daily users drink only 1–2 kegs/month) — market moderation-friendly ("fresher, better, not more").
+- **Watch-out:** the census counters the excess narrative (70% daily users drink only 1–~1.55 kegs/month (census)) — market moderation-friendly ("fresher, better, not more").
 
 ## 3. Cashed-up tradies (~20%) — the kudos build
 

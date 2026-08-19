@@ -10,6 +10,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Purpose
@@ -20,11 +22,11 @@ Internal record of why this deal is worth doing, what shape it should take, and 
 
 Tap That Brewery, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer — ex Burleigh Barrels, the product credibility; Brewer's Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background — the business model and the 10–12-year franchise ambition). One hybrid marketer, **Raef** (~70% marketing / 30% bar cover).
 
-Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** — ~$200/month per active customer, ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
+Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** — ~$155–160/month per active customer (census-derived), ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
 
 ## The commercial problem
 
-**220 active refill customers against a 1,000 target — ~$2.6M at ~$200/month — while the business runs at a loss** ("always red at the bottom of the P&L," Justin's words). The last 18 months drifted into growing the taproom, which was only ever meant to be the shopfront for the refill subscription business.
+**206 owners / 96–113 active refill customers against a 1,000 target — ~$2.6M at ~$200/month — while the business runs at a loss** ("always red at the bottom of the P&L," Justin's words). The last 18 months drifted into growing the taproom, which was only ever meant to be the shopfront for the refill subscription business.
 
 The critical nuance from discovery: **this is not a strategy gap.** The founders' mental model is right ("everything feeds refill volume"), the five pillars are printed on in-venue collateral, the segments are mapped, the offers exist and are photo-verified. What they lack is **execution capacity** — one part-time marketer cannot run segment campaigns, wholesale outreach, lifecycle automation, UGC, and events simultaneously. The $2.6M target currently has no delivery mechanism. That is the job.
 

@@ -11,6 +11,8 @@
 
 **Purpose.** The full-funnel view of how a stranger becomes a $200/month refill customer, with every known conversion number placed, every unmeasured point marked, and the leaks ranked. The context that disciplines everything below: the target is **1,000 active keg customers from today's 220**, and the best-performing sales event in the business currently adds **22–25 owners twice a year** — at that rate alone, the gap takes 15+ years to close. The funnel must leak less and the switcher lane must open.
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ## The funnel, stage by stage
 
 | # | Stage | Mechanism today | Conversion | Status |
@@ -20,7 +22,7 @@
 | 2b | **Giveaway entry** | 2×/yr competitions | **~1,000 entries/cycle** | ✅ Measured |
 | 3 | **System purchase** | Taproom demo: **20–30% of visitors** eventually buy (client estimate). Giveaway: 50%-off close converts **22–25 systems** (~2.2–2.5% of entries) | Partially measured | ⚠ Estimate + recall |
 | 4 | **Refill activation** | Bonus credit ($40–100) forces the first refill; corny Tue→Fri service; "we fill any system" for switchers | Activation rate unknown | ⚠ Unmeasured |
-| 5 | **Refill cadence** | ~2 kegs/month ≈ $200/month; active <75 days | 220 active | ✅ Measured |
+| 5 | **Refill cadence** | ~1.55 kegs/month (census) ≈ $200/month; active <75 days | 206 owners / 96–113 active | ✅ Measured |
 | 6 | **Membership attach** | Keg Crew $250/yr ($30 off every refill — ~4-month payback at cadence) | Attach rate unknown | ⚠ Unmeasured |
 | 7 | **Retention / winback** | At-risk 75–90 days (no touch); churned 90+ → manual monthly SMS $20-off; Marie's Pizza test | Winback rate unknown | ⚠ Unmeasured |
 | 8 | **Referral** | Tap Tokens: 1,000 per system/venue referral, 500 per refill referral; public leaderboard | Referral volume unknown | ⚠ Unmeasured |

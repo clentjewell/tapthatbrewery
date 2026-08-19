@@ -111,19 +111,32 @@ These appear as flagged caveats throughout the documents. Closing them is the fa
 
 | # | Item | Owner | Blocks |
 |---|---|---|---|
-| 1 | Census data (n=50) + supporting business docs | Clent → Jules | Segment validation, delivery pricing, CP1 |
+| 1 | ~~Census data + supporting business docs~~ | — | **CLOSED 19 Aug** — received, reconciled in #20A. Corrections applied across 40 documents. |
 | 2 | Membership pricing reconciliation — two conflicting posters live in venue ($250/yr vs $300 + $120 renewal, different token bonuses) | Client | Every brief, the website Membership page, all collateral — the single most-cited blocker |
 | 3 | Competitor name verification — "Aardvark & Arrow" (handwritten) vs "Ardbach and Arrow" (transcript) | Jewell | Competitor content, comparison pages |
 | 4 | GoTab / Fishbowl integration date | Client | CRM Plan (#48), EDM automation (#47), lease-to-buy |
-| 5 | P&L detail — unit-level revenue and the taproom's actual loss | Client | Business Plan (#23), budget setting |
+| 5 | P&L detail — unit-level revenue and the taproom's actual loss. *(Partly closed: unit economics received — LTGP $2,100 residential / $21,840 venue, $70 GP/keg, $300 kegerator margin. Still missing: P&L, COGS, CAC, margin.)* | Client | Business Plan (#23), budget setting |
 | 6 | Founder confirmations — timeframe for the 1,000 target, taproom loss tolerance, franchise-story consent for PR | Client | OKRs (#19), PR Plan (#49), CP2 |
 | 7 | Brand source files — **vector** logo files and fonts. *(Partly closed: the primary badge and TT mark were retrieved from tapthatbrewery.com.au and the palette sampled from them — green #14361D, gold #CE9A49, off-white #DFDFDF, now in #34. Still needed: true vector artwork and typeface names/licences.)* | Client | Brand Guidelines (#34), Logo Brief lock (#36) |
 | 8 | Product naming discrepancy — "Bong Water" vs "Bone Water" IPA | Client | Menu/collateral copy |
 | 9 | Giveaway cadence — the calendar compresses two closes to ~3.5 months apart | Client | Campaign Calendar (#45), Activation Plan (#43) |
 | 10 | **Name vs mark** — documents say "Tap That Brewery"; the badge and venue signage say "Tap That · Brewery & Keghouse". Short-name vs re-brand decision. | Founders | #34 Brand Guidelines, #36 Logo Brief, all collateral |
 
+| 11 | **Active customer definition** — 45-day, 75-day or "2–3 months"? The client's own documents give all three. Determines whether the active base is 96 or ~113. | Founders | Every metric; #18, #19, #26, #28, #48 |
+| 12 | **Square data access** — refill cadence, days between refills, churn, keg price, margin, CAC. The census measures consumption, not refill behaviour. | Client | Any revenue-per-customer figure |
+| 13 | **Model A or Model B** — sell more systems, or convert the ~116 owners who bought elsewhere? | Founders | #22, #23, #24, #25, #43 |
+| 14 | **Which plan is live?** Scaling Up, Growth Playbook and Future of Tap That name three different core metrics and three horizons. | Founders | #18, #23, #24, #63 |
+| 15 | **Is cost on or off the table?** Scaling Up forbids price competition; the census ranks cost the #2 purchase driver. | Founders | #31, #32, #33, #35, #46 |
+| 16 | **Prior Meta ad account** — an agency ran campaigns; historical creative and performance data exist. | Client | #46, #56 |
+
+## Client source documents (received 19 Aug 2026)
+
+Five documents filed at `01 Discover/01 Inputs/client-documents/`: census raw data and findings write-up, Scaling Up plan, growth playbook, vision document. Reconciled in **#20A Evidence Reconciliation** — read it before citing any figure from a draft dated before 19 August.
+
+Two errors in the client's own material need attention regardless of anything else here: the **"$2.34 a schooner" ad claim is member-only** (non-member $2.98) and is running live, and the **Keg Crew break-even is stated as 6 kegs when it is 8.33**.
+
 ## Next steps
 
-1. Close blockers 1–3 → sign **CP1** (Discover Summary, #20).
+1. ~~Close blocker 1 (census)~~ — done. Close blockers 2, 3 **and new items 11–15** → sign **CP1** (Discover Summary, #20). Items 11–15 are questions, not research: one founders' session should clear them.
 2. Review the Design set → sign **CP2** (Strategy Summary, #63) → unlocks Deploy execution.
 3. Immediate action regardless of sign-off: fix the in-venue membership collateral conflict (#52 names it as the first thing that ships).

@@ -9,6 +9,8 @@
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+
 ---
 
 ## Frame
@@ -40,7 +42,7 @@ The four moments hire Tap That Brewery for different things. Conflating them pro
 | **System purchase** ($975–$2,550, at cost) | *Upgrade my home into the venue.* A considered household identity purchase — closer to a barbecue or spa than to beer | The build finished, the first pour in front of mates, the partner on side | The barriers win: upfront cost, veto, space, self-trust (see 07) |
 | **Refill** (~$200/month; the margin engine) | *Never let the tap run dry, without thinking about it.* A convenience/habit job — logistics, not identity | Always something good pouring; the swap is effortless (plastic pick-up-and-go; delivery pending) | The errand outweighs the habit: 25-minute round trips, corny Tue–Fri wait, "haven't gotten around to it" drift past 90 days |
 | **Taproom visit** | *Show me the life before I buy it.* For locals: a good, cheap session (Knockoffs happy hour, $18–20 paddle). For prospects: the live demo | The "that's a keg system?" moment — 20–30% of visitors become owners | It's just another brewery visit: no demo beat, no follow-up capturing the 3-month window |
-| **Membership** (Keg Crew $250/yr) | *Make my habit pay and make me a regular.* $30 off every refill (repays in ~4 months at 2 kegs/month), 100 Tap Tokens, 5L birthday keg | Belonging with maths behind it — leaderboard, tasting nights, mugs at schooner prices | The value is unclear (two conflicting posters) or unused (lapsed refill cadence makes the fee feel wasted) |
+| **Membership** (Keg Crew $250/yr) | *Make my habit pay and make me a regular.* $30 off every refill (repays in ~4 months at ~1.55 kegs/month (census)), 100 Tap Tokens, 5L birthday keg | Belonging with maths behind it — leaderboard, tasting nights, mugs at schooner prices | The value is unclear (two conflicting posters) or unused (lapsed refill cadence makes the fee feel wasted) |
 
 **The system linking them:** the taproom sells the *dream*, the system purchase buys the *identity*, refills are the *habit* the margin lives on, and membership is the *contract with the habit*. Each moment's creative should do its own job — a refill SMS never needs to resell the dream; a system campaign should never lead with a refill discount.
 
