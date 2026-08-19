@@ -1,0 +1,688 @@
+<title>Tap That · 3D Process</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Karla:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --keg:      #12352A;
+  --keg-deep: #0C241C;
+  --brass:    #B8863B;
+  --brass-lt: #D2A45A;
+  --cream:    #F7F3EA;
+  --paper:    #FFFFFF;
+  --ink:      #14171A;
+  --steel:    #666E66;
+  --rule:     #DDD6C6;
+  --rule-dk:  rgba(247,243,234,0.16);
+  --ok:       #3F7D5C;
+  --wait:     #B8863B;
+  --ease:     cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --keg:      #16241E;
+    --keg-deep: #0A130F;
+    --brass:    #D2A45A;
+    --brass-lt: #E0BC80;
+    --cream:    #E8E4DA;
+    --paper:    #131714;
+    --ink:      #E8E4DA;
+    --steel:    #99A099;
+    --rule:     rgba(232,228,218,0.15);
+    --rule-dk:  rgba(232,228,218,0.14);
+    --ok:       #63A883;
+    --wait:     #D2A45A;
+  }
+}
+:root[data-theme="dark"] {
+  --keg:      #16241E;
+  --keg-deep: #0A130F;
+  --brass:    #D2A45A;
+  --brass-lt: #E0BC80;
+  --cream:    #E8E4DA;
+  --paper:    #131714;
+  --ink:      #E8E4DA;
+  --steel:    #99A099;
+  --rule:     rgba(232,228,218,0.15);
+  --rule-dk:  rgba(232,228,218,0.14);
+  --ok:       #63A883;
+  --wait:     #D2A45A;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) body { background: #0F1411; }
+}
+:root[data-theme="dark"] body { background: #0F1411; }
+
+/* progress */
+.progress { position: fixed; top: 0; left: 0; height: 2px; width: 0; background: var(--brass); z-index: 400; transition: width .1s linear; }
+
+/* layout */
+.layout { display: flex; align-items: flex-start; max-width: 1320px; margin: 0 auto; }
+
+/* sidebar */
+.sidebar {
+  position: sticky; top: 18px; align-self: flex-start;
+  flex: 0 0 252px; width: 252px;
+  max-height: calc(100vh - 36px); overflow-y: auto;
+  margin: 18px 0 18px 18px; padding: 22px 16px;
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 14px;
+}
+.brand { display: block; margin: 2px 8px 4px; }
+.brand-mark {
+  font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px;
+  letter-spacing: -0.01em; color: var(--ink); text-transform: uppercase;
+}
+.brand-mark .x { color: var(--steel); font-weight: 500; margin: 0 5px; }
+.brand-sub {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--steel); margin: 0 8px 16px;
+}
+.nav { display: flex; flex-direction: column; gap: 1px; }
+.nav-link {
+  display: flex; gap: 10px; align-items: baseline; text-decoration: none; color: var(--steel);
+  font-size: 13.5px; line-height: 1.3; padding: 8px 10px; border-radius: 7px;
+  border-left: 2px solid transparent; transition: color .15s, background .15s;
+}
+.nav-num { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; color: var(--steel); opacity: .7; min-width: 17px; }
+.nav-link:hover { color: var(--ink); background: rgba(184,134,59,0.08); }
+.nav-link:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+.nav-link.active { color: var(--ink); background: rgba(184,134,59,0.12); border-left-color: var(--brass); font-weight: 600; }
+.nav-link.active .nav-num { color: var(--brass); opacity: 1; }
+.nav-link.edge { color: var(--ink); font-weight: 600; }
+.nav-sep { height: 1px; background: var(--rule); margin: 12px 8px; }
+
+/* content */
+.content { flex: 1 1 auto; min-width: 0; padding: 34px clamp(24px, 5vw, 70px) 80px; max-width: 1060px; }
+.page { border-top: 1px solid var(--rule); margin-top: 56px; padding-top: 50px; scroll-margin-top: 24px; }
+.welcome { scroll-margin-top: 24px; }
+.page-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 28px; }
+.chip { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--brass); }
+.count { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; color: var(--steel); font-variant-numeric: tabular-nums; }
+
+/* type */
+.eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; font-weight: 400; letter-spacing: 0.18em; text-transform: uppercase; color: var(--steel); margin-bottom: 20px; }
+.eyebrow.on-dark { color: rgba(247,243,234,0.55); }
+h1, h2, h3 { font-family: 'Archivo', sans-serif; text-wrap: balance; }
+.h-hero { font-size: clamp(38px, 6.2vw, 74px); font-weight: 700; line-height: 1.02; letter-spacing: -0.032em; }
+.h-sec { font-size: clamp(27px, 4vw, 46px); font-weight: 600; line-height: 1.08; letter-spacing: -0.025em; max-width: 19ch; }
+.h-sub { font-family: 'Archivo', sans-serif; font-size: 17px; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; }
+.on-dark { color: var(--cream); }
+.lead { font-size: clamp(16px, 1.5vw, 19px); line-height: 1.68; color: var(--steel); max-width: 62ch; }
+.body { font-size: clamp(15px, 1.2vw, 16.5px); line-height: 1.75; max-width: 68ch; }
+.body.dim { color: var(--steel); }
+.body.on-dark { color: rgba(247,243,234,0.82); }
+.note { font-size: 13px; line-height: 1.6; color: var(--steel); }
+.note.on-dark { color: rgba(247,243,234,0.5); }
+.stack > * + * { margin-top: 16px; }
+.mt20 { margin-top: 20px; } .mt28 { margin-top: 28px; } .mt40 { margin-top: 40px; } .mt56 { margin-top: 56px; }
+
+/* hero gauge — 65 drafted, 0 approved */
+.gauge { margin-top: 44px; }
+.gauge-bars { display: flex; gap: 3px; align-items: flex-end; height: 54px; }
+.gauge-bar { flex: 1 1 auto; background: var(--brass); opacity: .82; border-radius: 1px; }
+.gauge-bar.g0  { height: 34%; }
+.gauge-bar.gd  { height: 62%; }
+.gauge-bar.gs  { height: 100%; }
+.gauge-bar.gp  { height: 26%; background: var(--steel); opacity: .45; }
+.gauge-legend { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 14px; }
+.gl { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .04em; color: var(--steel); text-transform: uppercase; }
+.gl b { font-weight: 500; color: var(--ink); }
+
+/* two col */
+.cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(26px, 4vw, 54px); align-items: start; }
+.cols-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 40px); align-items: start; }
+@media (max-width: 820px) { .cols-2, .cols-3 { grid-template-columns: 1fr; } }
+.col-body { font-size: 15px; line-height: 1.7; color: var(--steel); margin-top: 10px; }
+.col-body.dim-dark { color: rgba(247,243,234,0.62); }
+
+/* rows */
+.rows { margin-top: 4px; }
+.row { display: flex; gap: clamp(18px, 4vw, 44px); padding: 22px 0; border-bottom: 1px solid var(--rule); }
+.row:first-child { border-top: 1px solid var(--rule); }
+.row-k { font-family: 'Archivo', sans-serif; font-size: 16.5px; font-weight: 600; min-width: 220px; flex-shrink: 0; line-height: 1.35; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.row-v { font-size: 15px; color: var(--steel); line-height: 1.68; }
+.row-v b { color: var(--ink); font-weight: 600; }
+@media (max-width: 700px) { .row { flex-direction: column; gap: 8px; } .row-k { min-width: 0; } }
+
+/* status pills */
+.pill {
+  font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; font-weight: 500;
+  letter-spacing: .1em; text-transform: uppercase; padding: 3px 8px; border-radius: 3px;
+  white-space: nowrap; border: 1px solid;
+}
+.pill.drafted { color: var(--ok); border-color: rgba(63,125,92,0.42); background: rgba(63,125,92,0.09); }
+.pill.pending { color: var(--wait); border-color: rgba(184,134,59,0.45); background: rgba(184,134,59,0.09); }
+.pill.none    { color: var(--steel); border-color: var(--rule); }
+
+/* numbered list */
+.items { margin-top: 4px; }
+.item { display: flex; gap: 18px; padding: 24px 0; border-bottom: 1px solid var(--rule); }
+.item:first-child { border-top: 1px solid var(--rule); }
+.item-n { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--brass); padding-top: 5px; min-width: 24px; font-variant-numeric: tabular-nums; }
+.item-t { font-family: 'Archivo', sans-serif; font-size: clamp(17px, 1.8vw, 21px); font-weight: 600; line-height: 1.35; letter-spacing: -0.012em; }
+.item-b { font-size: 14.5px; color: var(--steel); line-height: 1.68; margin-top: 7px; max-width: 66ch; }
+.item-meta { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--steel); margin-top: 9px; }
+
+/* dark bands */
+.band { background: var(--keg); color: var(--cream); border-radius: 16px; padding: clamp(34px, 5vw, 62px); margin-top: 40px; }
+.band.deep { background: var(--keg-deep); }
+.band .rule-d { height: 1px; background: var(--rule-dk); }
+
+/* gates */
+.gates { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule-dk); border: 1px solid var(--rule-dk); border-radius: 10px; overflow: hidden; margin-top: 34px; }
+@media (max-width: 820px) { .gates { grid-template-columns: 1fr; } }
+.gate { background: var(--keg); padding: 26px 22px; }
+.gate-n { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--brass-lt); }
+.gate-t { font-family: 'Archivo', sans-serif; font-size: 22px; font-weight: 700; margin-top: 12px; letter-spacing: -0.015em; }
+.gate-b { font-size: 14px; line-height: 1.62; color: rgba(247,243,234,0.68); margin-top: 9px; }
+.gate-s { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; margin-top: 14px; color: var(--brass-lt); }
+
+/* stat strip */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; margin-top: 34px; }
+@media (max-width: 760px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+.stat { background: var(--paper); padding: 20px 18px; }
+.stat-n { font-family: 'Archivo', sans-serif; font-size: 30px; font-weight: 700; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.stat-l { font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--steel); margin-top: 5px; }
+
+/* read callout */
+.read { border-left: 3px solid var(--brass); padding: 4px 0 4px 24px; margin-top: 30px; }
+.read-q { font-family: 'Archivo', sans-serif; font-size: clamp(20px, 2.4vw, 29px); font-weight: 600; line-height: 1.32; letter-spacing: -0.02em; max-width: 24ch; }
+
+/* links list */
+.links { margin-top: 30px; display: flex; flex-direction: column; gap: 1px; }
+.link {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 18px;
+  padding: 20px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit;
+}
+.link:first-child { border-top: 1px solid var(--rule); }
+.link-t { font-family: 'Archivo', sans-serif; font-size: 17px; font-weight: 600; }
+.link-b { font-size: 14px; color: var(--steel); margin-top: 5px; max-width: 60ch; }
+.link-path { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: var(--brass); word-break: break-all; }
+
+/* footer */
+.foot { margin-top: 64px; padding-top: 30px; border-top: 1px solid var(--rule); }
+.sign { font-family: 'Archivo', sans-serif; font-size: clamp(30px, 4vw, 44px); font-weight: 700; letter-spacing: -0.03em; }
+.foot-m { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: var(--steel); margin-top: 12px; letter-spacing: .04em; }
+
+/* reveal */
+.rv { opacity: 0; transform: translateY(14px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.rv.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rv { opacity: 1; transform: none; transition: none; }
+  .progress { transition: none; }
+}
+
+/* mobile nav */
+.navtoggle { display: none; }
+@media (max-width: 980px) {
+  .layout { display: block; }
+  .sidebar {
+    position: static; width: auto; margin: 12px; padding: 16px;
+    max-height: none;
+  }
+  .nav { display: none; }
+  .sidebar.open .nav { display: flex; }
+  .navtoggle {
+    display: block; width: 100%; text-align: left; background: none; border: 0; cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--brass); padding: 6px 8px;
+  }
+  .content { padding: 8px 20px 60px; }
+}
+</style>
+
+<div class="progress" id="prog"></div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">Jewell Projects <span class="x">×</span> Tap That</div>
+    </div>
+    <div class="brand-sub">3D Process · Aug 2026</div>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false">Contents +</button>
+    <nav class="nav" id="nav">
+      <a class="nav-link edge" href="#top"><span class="nav-num">·</span> Welcome</a>
+      <div class="nav-sep"></div>
+      <a class="nav-link" href="#note"><span class="nav-num">01</span> A note up front</a>
+      <a class="nav-link" href="#what"><span class="nav-num">02</span> What this is</a>
+      <a class="nav-link" href="#process"><span class="nav-num">03</span> The 3D Process</a>
+      <a class="nav-link" href="#read"><span class="nav-num">04</span> The read</a>
+      <a class="nav-link" href="#delivered"><span class="nav-num">05</span> What's in the set</a>
+      <a class="nav-link" href="#notdone"><span class="nav-num">06</span> What I have not done</a>
+      <a class="nav-link" href="#need"><span class="nav-num">07</span> What I need from you</a>
+      <a class="nav-link" href="#access"><span class="nav-num">08</span> Access</a>
+      <a class="nav-link" href="#maxxim"><span class="nav-num">09</span> Maxxim &amp; Max</a>
+      <a class="nav-link" href="#next"><span class="nav-num">10</span> Next steps</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <!-- WELCOME -->
+    <section class="welcome" id="top">
+      <div class="eyebrow rv">Jewell Projects · Tap That Brewery &amp; Keghouse · Prepared for Chris Smith and Justin Mistry</div>
+      <h1 class="h-hero rv">Your 3D Process.<br>Sixty-five documents.</h1>
+      <p class="lead mt28 rv">The complete Discover, Design and Deploy document set for Tap That Brewery &amp; Keghouse — built from one discovery session, one site visit, and every price on your walls. Working drafts, in full, ready for your review.</p>
+
+      <div class="gauge rv">
+        <div class="gauge-bars" aria-hidden="true">
+          <div class="gauge-bar g0"></div><div class="gauge-bar g0"></div><div class="gauge-bar g0"></div>
+          <div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div>
+          <div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div>
+          <div class="gauge-bar gp"></div>
+        </div>
+        <div class="gauge-legend">
+          <span class="gl"><b>3</b> Onboarding</span>
+          <span class="gl"><b>19</b> Discover</span>
+          <span class="gl"><b>42</b> Design</span>
+          <span class="gl"><b>1</b> Deploy · framework</span>
+        </div>
+      </div>
+
+      <div class="eyebrow mt56 rv">Inside this summary</div>
+      <div class="rows rv">
+        <div class="row"><div class="row-k">01 &nbsp;A note up front</div><div class="row-v">Where this came from, and what state it is in.</div></div>
+        <div class="row"><div class="row-k">02 &nbsp;What this is</div><div class="row-v">Sixty-five working documents, and why the structure matters more than any one of them.</div></div>
+        <div class="row"><div class="row-k">03 &nbsp;The 3D Process</div><div class="row-v">Three phases, three checkpoints, one direction.</div></div>
+        <div class="row"><div class="row-k">04 &nbsp;The read</div><div class="row-v">The one sentence the whole set is built on.</div></div>
+        <div class="row"><div class="row-k">05 &nbsp;What's in the set</div><div class="row-v">Phase by phase, with counts.</div></div>
+        <div class="row"><div class="row-k">06 &nbsp;What I have not done</div><div class="row-v">The deliberate boundaries of this work.</div></div>
+        <div class="row"><div class="row-k">07 &nbsp;What I need from you</div><div class="row-v">Nine open items. Three of them block sign-off.</div></div>
+        <div class="row"><div class="row-k">08 &nbsp;Access</div><div class="row-v">Where every document lives.</div></div>
+        <div class="row"><div class="row-k">09 &nbsp;Maxxim &amp; Max</div><div class="row-v">The system this was built in, if it is useful to you.</div></div>
+        <div class="row"><div class="row-k">10 &nbsp;Next steps</div><div class="row-v">Three ways to take it forward.</div></div>
+      </div>
+    </section>
+
+    <!-- 01 NOTE -->
+    <section class="page" id="note">
+      <div class="page-head"><span class="chip">A note up front</span><span class="count">01 / 10</span></div>
+      <h2 class="h-sec rv">Drafted in full. Not yet signed off.</h2>
+      <div class="stack mt28 rv">
+        <p class="body">Chris, Justin — thanks for the time on the discovery session, and for letting us walk the floor afterwards. Everything here is built from that conversation, the site visit, and the twenty-seven photos we took of your walls: the price boards, the membership posters, the tap wall, the coolroom board, the workshop notes we wrote together.</p>
+        <p class="body">A note on status, because it matters. These are <b>working drafts</b>, AI-assisted, shared for your review rather than as finished artefacts. Nothing in the set is approved, and neither checkpoint is signed. The Design phase was written ahead of Discover sign-off so you could see the whole shape at once — every Design document says so on its face, and the inputs may move once the census data lands.</p>
+        <p class="body">What that gives you is the structure and the argument, complete, in one place. What it does not give you is a signed strategy. That is the next conversation, and it is a short one if the three open items in section seven get closed.</p>
+        <p class="note">Yours, Clent.</p>
+      </div>
+    </section>
+
+    <!-- 02 WHAT -->
+    <section class="page" id="what">
+      <div class="page-head"><span class="chip">What you are looking at</span><span class="count">02 / 10</span></div>
+      <h2 class="h-sec rv">Everything from Discover to Deploy, in one place.</h2>
+      <div class="cols-2 mt40 rv">
+        <div>
+          <div class="h-sub">An operating system, not a deck.</div>
+          <p class="col-body">Sixty-five working documents that move Tap That from audience and positioning, through brand, business and marketing strategy, into a complete deployment plan — nine execution briefs included. Each one is a standalone, editable document.</p>
+        </div>
+        <div>
+          <div class="h-sub">Scaffolding, built to be updated.</div>
+          <p class="col-body">The structure is the lasting asset; the thinking is meant to move. When the census data, your P&amp;L detail or the reconciled membership pricing arrive, they drop in and the set updates around them. Nothing starts over.</p>
+        </div>
+      </div>
+      <div class="stats rv">
+        <div class="stat"><div class="stat-n">65</div><div class="stat-l">Documents</div></div>
+        <div class="stat"><div class="stat-n">~72k</div><div class="stat-l">Words</div></div>
+        <div class="stat"><div class="stat-n">27</div><div class="stat-l">Site photos</div></div>
+        <div class="stat"><div class="stat-n">0</div><div class="stat-l">Approved</div></div>
+      </div>
+      <p class="note mt20 rv">The content is a living snapshot, current to the discovery session of 19 August 2026 and the site visit that followed. Where a figure is your estimate rather than measured, the documents say so.</p>
+    </section>
+
+    <!-- 03 PROCESS -->
+    <section class="page" id="process">
+      <div class="page-head"><span class="chip">The method behind the work</span><span class="count">03 / 10</span></div>
+      <h2 class="h-sec rv">The 3D Process.</h2>
+      <p class="body mt28 rv">Three disciplined phases, each ending at a checkpoint — a deliberate moment to review, align and approve before the next phase begins, so the work compounds in one direction instead of looping. An onboarding gate sits in front of them.</p>
+      <div class="band rv">
+        <div class="eyebrow on-dark">Where Tap That sits right now</div>
+        <div class="gates">
+          <div class="gate">
+            <div class="gate-n">Checkpoint 1 · CP1</div>
+            <div class="gate-t">Discover</div>
+            <div class="gate-b">Find the opportunity. Audience, competitors, the offer itself, the funnel as it actually runs — validated against your numbers.</div>
+            <div class="gate-s">19 documents · drafted, unsigned</div>
+          </div>
+          <div class="gate">
+            <div class="gate-n">Checkpoint 2 · CP2</div>
+            <div class="gate-t">Design</div>
+            <div class="gate-b">Design the system. Brand, customer, business and marketing strategy, website, social, the channel plans and the briefs that execute them.</div>
+            <div class="gate-s">42 documents · drafted, unsigned</div>
+          </div>
+          <div class="gate">
+            <div class="gate-n">Checkpoint 3 · CP3</div>
+            <div class="gate-t">Deploy</div>
+            <div class="gate-b">Take it to market. Builds, launches and live reporting — the execution the briefs describe, plus the case study written from real results.</div>
+            <div class="gate-s">Framework only · not started</div>
+          </div>
+        </div>
+        <p class="note on-dark mt28">Then Deepen: what is deployed feeds back into discovery, an ongoing loop that compounds.</p>
+      </div>
+    </section>
+
+    <!-- 04 READ -->
+    <section class="page" id="read">
+      <div class="page-head"><span class="chip">The one thing everything is built on</span><span class="count">04 / 10</span></div>
+      <h2 class="h-sec rv">The read.</h2>
+      <p class="body mt28 rv">Sixty-five documents is the right depth to build from. It is not what gets read on a Tuesday morning. So here is the whole argument in one sentence — if you only take one thing from the set, take this.</p>
+      <div class="read rv">
+        <p class="read-q">Tap That is a refill subscription business being run with a hospitality venue's attention.</p>
+      </div>
+      <div class="cols-3 mt40 rv">
+        <div>
+          <div class="h-sub">The engine</div>
+          <p class="col-body">Systems go out at cost. All the margin is in the refills — roughly $200 a month, two kegs, per active customer. 220 actives today against a 1,000 target.</p>
+        </div>
+        <div>
+          <div class="h-sub">The drift</div>
+          <p class="col-body">Eighteen months of attention went to the taproom, which loses money and was only ever meant to be the shopfront. It converts 20–30% of visitors — it is a funnel, not a profit centre.</p>
+        </div>
+        <div>
+          <div class="h-sub">The cheapest growth</div>
+          <p class="col-body">Half your refill customers bought their hardware somewhere else and switched to you with no campaign at all. Winning the installed base is cheaper than creating new owners.</p>
+        </div>
+      </div>
+      <p class="body mt28 rv">Everything downstream follows from that: switchers before new system buyers, lifecycle automation before paid spend, the taproom scored on systems sold rather than bar take, and cost kept as the closer rather than the opening line — because the buying is done on kudos and connection, and the savings justify it afterwards.</p>
+    </section>
+
+    <!-- 05 DELIVERED -->
+    <section class="page" id="delivered">
+      <div class="page-head"><span class="chip">What's in the set</span><span class="count">05 / 10</span></div>
+      <h2 class="h-sec rv">Sixty-five documents, across four stages.</h2>
+      <div class="rows mt40 rv">
+        <div class="row">
+          <div class="row-k">Onboarding <span class="pill drafted">3 drafted</span></div>
+          <div class="row-v">Deal memo, proposal and welcome pack. Fees and timeline left open — those are your call, not an assumption I should make.</div>
+        </div>
+        <div class="row">
+          <div class="row-k">Discover <span class="pill drafted">19 drafted</span></div>
+          <div class="row-v">Audience teardown and the segment work beneath it, competitor analysis and category position, the offer worksheet with <b>every price photographed on your walls</b>, product, pricing, sales-process and funnel reviews, success definition, OKRs, the priority problems, and the CP1 Discovery Summary.</div>
+        </div>
+        <div class="row">
+          <div class="row-k">Design <span class="pill drafted">42 drafted</span></div>
+          <div class="row-v">Business plan, strategic priorities, growth roadmap and measurement plan; customer profile, journey, stage messaging and conversion pathway; brand strategy, positioning, messaging architecture, brand guidelines, copy workbook and logo brief; website strategy, sitemap, page strategy and SEO; social and content strategy; activation plan, partnerships and a twelve-month calendar; six channel plans; <b>ten execution briefs</b>; and the CP2 Strategy Summary.</div>
+        </div>
+        <div class="row">
+          <div class="row-k">Deploy <span class="pill none">framework</span></div>
+          <div class="row-v">The case study and evidence pack — a framework with your baselines frozen (220 actives, 22–25 systems per giveaway cycle, the churn clock) ready to be populated once execution produces results. There is nothing to write up yet, and I have not pretended otherwise.</div>
+        </div>
+      </div>
+      <p class="note mt20 rv">Every document carries its status, its assumptions, and what it feeds into. Where something is your estimate, a single-source figure or an open question, it is marked rather than smoothed over.</p>
+    </section>
+
+    <!-- 06 NOT DONE -->
+    <section class="page" id="notdone">
+      <div class="page-head"><span class="chip">In the interest of being straight with you</span><span class="count">06 / 10</span></div>
+      <h2 class="h-sec rv">What I have not done.</h2>
+      <div class="items mt40 rv">
+        <div class="item">
+          <div class="item-n">01</div>
+          <div>
+            <div class="item-t">Website design and development.</div>
+            <div class="item-b">The website strategy, sitemap, page strategy and build brief are written. The site itself is not designed or built — and I have not audited your current one, so anything that depends on what is live today is marked as pending that review.</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">02</div>
+          <div>
+            <div class="item-t">Brand identity artwork.</div>
+            <div class="item-b">You already have a brand, and a good one. The logo brief is scoped as import-and-lock, not redesign: inventory the marks, produce the missing variants, run the trademark check, lock it. No new identity has been designed, and none should be without you asking.</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">03</div>
+          <div>
+            <div class="item-t">Keyword research and paid media testing.</div>
+            <div class="item-b">The SEO strategy names the territories and the content to build; the search volumes behind them are not yet validated. Paid media is written as a test protocol with kill criteria, not a campaign — no budgets are set, because the P&amp;L does not support guessing at them.</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">04</div>
+          <div>
+            <div class="item-t">Anything that needed data I do not have.</div>
+            <div class="item-b">The census results, your unit-level P&amp;L, and the GoTab and Fishbowl integration dates are all still outstanding. Rather than invent them, the documents state what must be true and mark the gap. Section seven lists all of it.</div>
+          </div>
+        </div>
+      </div>
+      <p class="body mt28 rv">Everything else in the 3D Process is drafted. These four are the deliberate boundary of this work.</p>
+    </section>
+
+    <!-- 07 NEED -->
+    <section class="page" id="need">
+      <div class="page-head"><span class="chip">To get this signed off</span><span class="count">07 / 10</span></div>
+      <h2 class="h-sec rv">Nine open items. Three of them block sign-off.</h2>
+      <p class="body mt28 rv">These are the caveats that recur across the set. Closing the first three is the fastest route to CP1.</p>
+      <div class="items rv">
+        <div class="item">
+          <div class="item-n">01</div>
+          <div>
+            <div class="item-t">Your membership pricing contradicts itself.</div>
+            <div class="item-b">There are two membership posters live in the venue right now: one says Keg Crew is $250 a year, the other $300 plus a $120 renewal, and the token bonuses differ too. This is the single most-cited blocker in the whole set — it gates the website's membership page, every brief and all collateral. It is also the one thing worth fixing this week regardless of anything else here.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: CP1, website, all collateral</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">02</div>
+          <div>
+            <div class="item-t">The census data.</div>
+            <div class="item-b">Fifty respondents, and I only have the headline figures quoted in the session. The full data validates the segment splits, the delivery pricing and the moderation story that answers the "I'll drink too much" objection.</div>
+            <div class="item-meta">Owner: Clent → Jules · Blocks: CP1, segment validation</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">03</div>
+          <div>
+            <div class="item-t">The competitor across the road.</div>
+            <div class="item-b">Your handwritten note reads "Aardvark and Arrow"; the transcript heard "Ardbach and Arrow". Every document that relies on the name flags it. One line from you settles it — along with anything you know about their pricing and how they actually operate.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: competitor content, comparison pages</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">04</div>
+          <div>
+            <div class="item-t">GoTab and Fishbowl integration dates.</div>
+            <div class="item-b">The lifecycle automation is the highest-leverage work in the entire strategy — replacing the manual monthly SMS with triggers at 60, 75 and 90 days. The CRM plan includes a manual-export interim so nothing waits, but the real build needs a date.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: CRM plan, EDM automation, lease-to-buy</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">05</div>
+          <div>
+            <div class="item-t">P&amp;L detail, by unit.</div>
+            <div class="item-b">"Always red at the bottom" is the whole picture I have. Unit-level revenue and the taproom's actual loss would turn the business plan from a structure into a plan with numbers in it.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: business plan, budget setting</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">06</div>
+          <div>
+            <div class="item-t">Three founder confirmations.</div>
+            <div class="item-b">The timeframe you want the 1,000 target inside; how long the taproom's loss is acceptable while it works as a funnel; and whether the franchise ambition can be said out loud in PR.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: OKRs, PR plan, CP2</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">07</div>
+          <div>
+            <div class="item-t">Brand source files.</div>
+            <div class="item-b">Logo SVGs, the actual hex values for the green and the gold, and the fonts. The brand guidelines describe your identity accurately from photographs — the exact values are marked pending your files.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: brand guidelines, logo lock</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">08</div>
+          <div>
+            <div class="item-t">One beer name.</div>
+            <div class="item-b">The coolroom board reads "Bong Water IPA" in one place and "Bone Water" in another. Small, but it will end up in copy.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: menu and collateral copy</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">09</div>
+          <div>
+            <div class="item-t">Giveaway cadence.</div>
+            <div class="item-b">To fit both giveaway closes inside the plan year, the calendar compresses them to about three and a half months apart. Tell me if that is too tight and it moves.</div>
+            <div class="item-meta">Owner: Tap That · Blocks: campaign calendar, activation plan</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 ACCESS -->
+    <section class="page" id="access">
+      <div class="page-head"><span class="chip">Access</span><span class="count">08 / 10</span></div>
+      <h2 class="h-sec rv">Where everything lives.</h2>
+      <p class="body mt28 rv">The full set sits in one private repository, organised by phase. Every document is plain, editable text — nothing is locked in a format you cannot open or hand to someone else.</p>
+      <div class="links rv">
+        <div class="link">
+          <div>
+            <div class="link-t">Start here — the output tracker</div>
+            <div class="link-b">All sixty-five documents, where each one lives, and the nine open items in one table.</div>
+          </div>
+          <div class="link-path">00 Admin / 05 Timelines + Project Control /<br>Maxxim-Output-Tracker.md</div>
+        </div>
+        <div class="link">
+          <div>
+            <div class="link-t">The diagnosis — CP1</div>
+            <div class="link-b">The Discovery Pack Synthesis. The commercial read, the offer architecture, the bottlenecks and the hypotheses. This is the document that gets signed to close Discover.</div>
+          </div>
+          <div class="link-path">01 Discover / 02 Working Drafts /<br>D06__Discovery-Pack-Synthesis…</div>
+        </div>
+        <div class="link">
+          <div>
+            <div class="link-t">The strategy — CP2</div>
+            <div class="link-b">The Strategy Summary. Ten strategic choices made, and what was deliberately rejected alongside each one. This is the document you approve to unlock Deploy.</div>
+          </div>
+          <div class="link-path">02 Design / 02 Working Drafts /<br>63__Strategy-Summary…</div>
+        </div>
+        <div class="link">
+          <div>
+            <div class="link-t">The source material</div>
+            <div class="link-b">The discovery session record, and twenty-seven site photos indexed with every price, membership tier and tap on your walls extracted into text.</div>
+          </div>
+          <div class="link-path">meetings/ · 01 Discover / 01 Inputs /<br>site-visit-photos/</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 MAXXIM -->
+    <section class="page" id="maxxim">
+      <div class="page-head"><span class="chip">If it is useful to you</span><span class="count">09 / 10</span></div>
+      <h2 class="h-sec rv">Maxxim, and Max.</h2>
+      <div class="band deep rv">
+        <div class="eyebrow on-dark">Your agency in a box</div>
+        <p class="body on-dark mt20" style="max-width:64ch">Maxxim is the system this set was built in: a workspace holding your documents, your brand, your assets and your whole 3D Process in one place, with studios to produce the visuals and the social. Max is the intelligence at the centre of it — you ask it a question and it answers from <em>Tap That's</em> own material rather than generic advice.</p>
+        <div class="rule-d mt40"></div>
+        <div class="cols-3 mt40">
+          <div>
+            <div class="h-sub on-dark">One workspace</div>
+            <p class="col-body dim-dark">Strategy, brand, content, website and social, plus the studios and assistants to produce them.</p>
+          </div>
+          <div>
+            <div class="h-sub on-dark">It learns</div>
+            <p class="col-body dim-dark">Every document and decision feeds it. The more Raef uses it, the sharper its guidance gets.</p>
+          </div>
+          <div>
+            <div class="h-sub on-dark">Human at the controls</div>
+            <p class="col-body dim-dark">Nothing publishes without approval. It carries the volume; you keep the taste and the judgment.</p>
+          </div>
+        </div>
+        <p class="note on-dark mt28">Access on request — it is not switched on for Tap That today.</p>
+      </div>
+    </section>
+
+    <!-- 10 NEXT -->
+    <section class="page" id="next">
+      <div class="page-head"><span class="chip">Next steps</span><span class="count">10 / 10</span></div>
+      <h2 class="h-sec rv">Three ways to take this forward.</h2>
+      <div class="rows mt40 rv">
+        <div class="row">
+          <div class="row-k">Fix the posters</div>
+          <div class="row-v">Independent of everything else here: decide which membership price is the real one and get one version on the wall. It is the cheapest fix in the set and it unblocks the most.</div>
+        </div>
+        <div class="row">
+          <div class="row-k">A walkthrough</div>
+          <div class="row-v">Let me take you, Justin and Raef through the set properly. An hour is plenty to see the shape of it and decide what you disagree with — which is the useful part.</div>
+        </div>
+        <div class="row">
+          <div class="row-k">Close the three, sign CP1</div>
+          <div class="row-v">Census data, membership pricing, competitor name. With those closed, Discover signs off and the Design set stops being provisional.</div>
+        </div>
+      </div>
+      <div class="foot rv">
+        <div class="sign">Tap that.</div>
+        <div class="foot-m">Clent Jewell · clent@jewellprojects.com · Jewell Projects</div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+(function () {
+  var prog = document.getElementById('prog');
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-link'));
+  var sections = links.map(function (l) { return document.querySelector(l.getAttribute('href')); }).filter(Boolean);
+
+  function onScroll() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    prog.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  if ('IntersectionObserver' in window) {
+    var navObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id);
+        });
+      });
+    }, { rootMargin: '-15% 0px -70% 0px' });
+    sections.forEach(function (s) { navObs.observe(s); });
+
+    var revObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); revObs.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.rv').forEach(function (el) { revObs.observe(el); });
+  } else {
+    document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  var tog = document.getElementById('navtoggle'), sb = document.getElementById('sidebar');
+  if (tog) {
+    tog.addEventListener('click', function () {
+      var open = sb.classList.toggle('open');
+      tog.setAttribute('aria-expanded', open ? 'true' : 'false');
+      tog.textContent = open ? 'Contents −' : 'Contents +';
+    });
+    document.getElementById('nav').addEventListener('click', function (e) {
+      if (e.target.closest('.nav-link') && window.innerWidth <= 980) {
+        sb.classList.remove('open');
+        tog.setAttribute('aria-expanded', 'false');
+        tog.textContent = 'Contents +';
+      }
+    });
+  }
+})();
+</script>
