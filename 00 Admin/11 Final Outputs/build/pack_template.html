@@ -12,7 +12,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --keg:#12352A; --keg-deep:#0C241C; --brass:#B8863B; --brass-lt:#D2A45A;
+  --keg:#14361D; --keg-deep:#0C2314; --brass:#8A5F22; --brass-lt:#CE9A49;
   --cream:#F7F3EA; --paper:#FFFFFF; --ink:#14171A; --steel:#666E66;
   --rule:#DDD6C6; --rule-dk:rgba(247,243,234,.16);
   --ok:#3F7D5C; --shade:#F1EDE2;
@@ -20,14 +20,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --keg:#16241E; --keg-deep:#0A130F; --brass:#D2A45A; --brass-lt:#E0BC80;
+    --keg:#17301C; --keg-deep:#080F0A; --brass:#CE9A49; --brass-lt:#E0BC80;
     --cream:#E8E4DA; --paper:#131714; --ink:#E8E4DA; --steel:#99A099;
     --rule:rgba(232,228,218,.15); --rule-dk:rgba(232,228,218,.14);
     --ok:#63A883; --shade:#181D19;
   }
 }
 :root[data-theme="dark"] {
-  --keg:#16241E; --keg-deep:#0A130F; --brass:#D2A45A; --brass-lt:#E0BC80;
+  --keg:#17301C; --keg-deep:#080F0A; --brass:#CE9A49; --brass-lt:#E0BC80;
   --cream:#E8E4DA; --paper:#131714; --ink:#E8E4DA; --steel:#99A099;
   --rule:rgba(232,228,218,.15); --rule-dk:rgba(232,228,218,.14);
   --ok:#63A883; --shade:#181D19;
@@ -50,10 +50,13 @@ body {
   max-height:calc(100vh - 36px);display:flex;flex-direction:column;
   margin:18px 0 18px 18px;padding:20px 12px 8px;background:var(--paper);
   border:1px solid var(--rule);border-radius:14px;}
-.brand{display:block;margin:2px 8px 3px;text-decoration:none;}
-.brand-mark{font-family:'Archivo',sans-serif;font-weight:700;font-size:14.5px;
-  letter-spacing:-.01em;color:var(--ink);text-transform:uppercase;}
-.brand-mark .x{color:var(--steel);font-weight:500;margin:0 5px;}
+.brand { display: flex; align-items: center; gap: 9px; margin: 2px 8px 10px; text-decoration: none; }
+.brand-jp { height: 16px; width: auto; display: block; }
+.brand-tt { height: 27px; width: auto; display: block; }
+.brand .x { color: var(--steel); font-size: 13px; font-weight: 400; line-height: 1; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand-jp { filter: invert(1); } }
+:root[data-theme="dark"] .brand-jp { filter: invert(1); }
+.hero-badge { width: clamp(120px, 15vw, 172px); height: auto; display: block; margin-bottom: 26px; }
 .brand-sub{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em;
   text-transform:uppercase;color:var(--steel);margin:0 8px 14px;}
 .filter{width:calc(100% - 16px);margin:0 8px 10px;padding:8px 10px;border:1px solid var(--rule);
@@ -68,9 +71,9 @@ body {
   border-left:2px solid transparent;transition:color .15s,background .15s;}
 .nav-num{font-family:'IBM Plex Mono',monospace;font-size:10px;opacity:.7;min-width:17px;
   font-variant-numeric:tabular-nums;}
-.nav-link:hover{color:var(--ink);background:rgba(184,134,59,.08);}
+.nav-link:hover{color:var(--ink);background:rgba(138,95,34,.08);}
 .nav-link:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
-.nav-link.active{color:var(--ink);background:rgba(184,134,59,.12);border-left-color:var(--brass);font-weight:600;}
+.nav-link.active{color:var(--ink);background:rgba(138,95,34,.12);border-left-color:var(--brass);font-weight:600;}
 .nav-link.active .nav-num{color:var(--brass);opacity:1;}
 .nav-link.edge{color:var(--ink);font-weight:600;}
 .nav-link.hide{display:none;}
@@ -116,7 +119,7 @@ body {
 .pill{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.1em;
   text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid;white-space:nowrap;}
 .pill.draft{color:var(--steel);border-color:var(--rule);}
-.pill.sign{color:var(--brass);border-color:rgba(184,134,59,.45);background:rgba(184,134,59,.09);}
+.pill.sign{color:var(--brass);border-color:rgba(138,95,34,.45);background:rgba(138,95,34,.09);}
 .doc-title{font-family:'Archivo',sans-serif;font-size:clamp(27px,3.6vw,42px);font-weight:700;
   line-height:1.08;letter-spacing:-.028em;text-wrap:balance;}
 
@@ -158,7 +161,7 @@ body {
 .dn-sp{flex:1;}
 .dn-btn{flex:0 1 46%;text-decoration:none;color:inherit;padding:13px 15px;border:1px solid var(--rule);
   border-radius:9px;display:flex;flex-direction:column;gap:3px;transition:border-color .15s,background .15s;}
-.dn-btn:hover{border-color:var(--brass);background:rgba(184,134,59,.05);}
+.dn-btn:hover{border-color:var(--brass);background:rgba(138,95,34,.05);}
 .dn-btn:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
 .dn-btn.next{text-align:right;margin-left:auto;}
 .dn-btn span{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.12em;
@@ -196,7 +199,9 @@ body {
 <div class="layout">
   <aside class="sidebar" id="sidebar">
     <a class="brand" href="#top">
-      <div class="brand-mark">Jewell Projects <span class="x">×</span> Tap That Brewery</div>
+      <img class="brand-jp" src="/brand/jewell-wordmark.png" alt="Jewell Projects">
+      <span class="x">&times;</span>
+      <img class="brand-tt" src="/brand/tapthat-icon.png" alt="Tap That Brewery">
     </a>
     <div class="brand-sub">Complete 3D Process · {{TOTAL}} documents</div>
     <button class="navtoggle" id="navtoggle" aria-expanded="false">Contents +</button>
@@ -209,6 +214,7 @@ body {
 
   <main class="content">
     <section id="top">
+      <img class="hero-badge" src="/brand/tapthat-badge.png" alt="Tap That Brewery">
       <div class="eyebrow">Jewell Projects · Tap That Brewery · Prepared for Chris Smith and Justin Mistry</div>
       <h1 class="h-hero">The complete<br>3D Process.</h1>
       <p class="lead">Every document in the set, end to end, on one page. Onboarding, Discover, Design and Deploy — built from one discovery session, one site visit, and every price on your walls. Use the contents to jump, or just scroll.</p>

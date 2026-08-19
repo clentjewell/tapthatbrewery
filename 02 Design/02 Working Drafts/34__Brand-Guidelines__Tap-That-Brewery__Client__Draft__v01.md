@@ -25,6 +25,8 @@ Tap That Brewery already has an identity — it's on the tap decals, the price b
 | **TT mark** (compact monogram) | Tap decals, small-format applications | Where the full badge won't fit: taps, glassware, favicons |
 | **Wordmark / name-in-type** | Menu screens, receipts, documents | Text settings where a graphic mark is impractical |
 
+> **Open decision — the name on the mark.** These documents call the business **Tap That Brewery**, but the badge artwork reads **TAP THAT · BREWERY & KEGHOUSE**, as does the in-venue signage suite. Two ways to resolve it, and it is the founders' call: (a) treat "Tap That Brewery" as the short/spoken name and keep the full lockup as the registered mark — the usual and cheapest answer; or (b) retire "& Keghouse", which means new artwork and re-signing the venue. Nothing here assumes (b). Until it is decided, **never redraw or crop the badge to remove "& Keghouse"** — use the mark exactly as supplied.
+
 Exact geometry, clear space and minimum sizes: **[TBC — extract from client logo source files; see 36 Logo Brief for the import-and-lock process]**. Until then: never redraw, stretch, recolour or add effects to any mark — reuse existing artwork exactly.
 
 ## 2. Colour
@@ -33,11 +35,16 @@ The observed identity is **green and gold** — brewery green as the ground, gol
 
 | Role | Colour | Hex |
 |---|---|---|
-| Primary | Tap That Brewery green | **[TBC — extract from logo files]** |
-| Accent | Gold | **[TBC — extract from logo files]** |
-| Support | Off-white / cream (signage grounds), charcoal/black (menu boards, Midnight in Tokyo styling) | **[TBC]** |
+| Primary | Tap That Brewery green | **#14361D** |
+| Accent | Gold | **#CE9A49** |
+| Support | Off-white (logo lettering) | **#DFDFDF** |
+| Support | Charcoal/black (menu boards, Midnight in Tokyo styling) | **[TBC — not present in the logo artwork]** |
 
-Rules until hexes are locked: sample colour only from supplied artwork, never from photos (venue lighting shifts them); green leads, gold accents — never the reverse; no additional brand colours introduced.
+**Source of these values.** Sampled directly from the primary badge artwork (`TT-Primary-Logo-2` / `logo.svg`, 3806 × 2557px, transparent) published on tapthatbrewery.com.au — not from site photos, whose colour venue lighting shifts. Confirm against the original vector files when they arrive; the wordmark and secondary marks have not been sampled.
+
+**Accessibility note.** The brand gold **#CE9A49** reads well on the brand green (5.30:1) but fails on light grounds (2.27:1 on off-white) — too low for body or small text. For gold text on a light background use a darkened tint of the same hue, **#8A5F22** (5.07:1). This is a legibility tint, not a second brand colour, and should never appear on a dark ground where the true gold belongs.
+
+Standing rules: green leads, gold accents — never the reverse; no additional brand colours introduced.
 
 ## 3. Typography
 
@@ -88,7 +95,7 @@ Direction observed and to be continued: **real venue, real customers, no stock g
 
 | # | Needed from Tap That Brewery | Unlocks |
 |---|---|---|
-| 1 | Original logo files (AI/SVG/EPS — badge, TT mark, wordmark) | Section 1 geometry + Section 2 hex values |
+| 1 | Original **vector** logo files (AI/SVG/EPS — badge, TT mark, wordmark) | Section 1 geometry; confirms the Section 2 hexes now sampled from the published raster |
 | 2 | Font names + licence status | Section 3 |
 | 3 | Confirmation of which membership poster is current | Section 7.6 and all pricing collateral |
 | 4 | Any existing style/brand notes from the original designer | Cross-check all sections |

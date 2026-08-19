@@ -8,10 +8,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --keg:      #12352A;
-  --keg-deep: #0C241C;
-  --brass:    #B8863B;
-  --brass-lt: #D2A45A;
+  --keg:      #14361D;
+  --keg-deep: #0C2314;
+  --brass:    #8A5F22;
+  --brass-lt: #CE9A49;
   --cream:    #F7F3EA;
   --paper:    #FFFFFF;
   --ink:      #14171A;
@@ -19,15 +19,15 @@
   --rule:     #DDD6C6;
   --rule-dk:  rgba(247,243,234,0.16);
   --ok:       #3F7D5C;
-  --wait:     #B8863B;
+  --wait:     #8A5F22;
   --ease:     cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --keg:      #16241E;
-    --keg-deep: #0A130F;
-    --brass:    #D2A45A;
+    --keg:      #17301C;
+    --keg-deep: #080F0A;
+    --brass:    #CE9A49;
     --brass-lt: #E0BC80;
     --cream:    #E8E4DA;
     --paper:    #131714;
@@ -36,13 +36,13 @@
     --rule:     rgba(232,228,218,0.15);
     --rule-dk:  rgba(232,228,218,0.14);
     --ok:       #63A883;
-    --wait:     #D2A45A;
+    --wait:     #CE9A49;
   }
 }
 :root[data-theme="dark"] {
-  --keg:      #16241E;
-  --keg-deep: #0A130F;
-  --brass:    #D2A45A;
+  --keg:      #17301C;
+  --keg-deep: #080F0A;
+  --brass:    #CE9A49;
   --brass-lt: #E0BC80;
   --cream:    #E8E4DA;
   --paper:    #131714;
@@ -51,7 +51,7 @@
   --rule:     rgba(232,228,218,0.15);
   --rule-dk:  rgba(232,228,218,0.14);
   --ok:       #63A883;
-  --wait:     #D2A45A;
+  --wait:     #CE9A49;
 }
 
 html { scroll-behavior: smooth; }
@@ -82,12 +82,13 @@ body {
   margin: 18px 0 18px 18px; padding: 22px 16px;
   background: var(--paper); border: 1px solid var(--rule); border-radius: 14px;
 }
-.brand { display: block; margin: 2px 8px 4px; }
-.brand-mark {
-  font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 15px;
-  letter-spacing: -0.01em; color: var(--ink); text-transform: uppercase;
-}
-.brand-mark .x { color: var(--steel); font-weight: 500; margin: 0 5px; }
+.brand { display: flex; align-items: center; gap: 9px; margin: 2px 8px 10px; text-decoration: none; }
+.brand-jp { height: 16px; width: auto; display: block; }
+.brand-tt { height: 27px; width: auto; display: block; }
+.brand .x { color: var(--steel); font-size: 13px; font-weight: 400; line-height: 1; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand-jp { filter: invert(1); } }
+:root[data-theme="dark"] .brand-jp { filter: invert(1); }
+.hero-badge { width: clamp(120px, 15vw, 172px); height: auto; display: block; margin-bottom: 26px; }
 .brand-sub {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
@@ -100,9 +101,9 @@ body {
   border-left: 2px solid transparent; transition: color .15s, background .15s;
 }
 .nav-num { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; color: var(--steel); opacity: .7; min-width: 17px; }
-.nav-link:hover { color: var(--ink); background: rgba(184,134,59,0.08); }
+.nav-link:hover { color: var(--ink); background: rgba(138,95,34,0.08); }
 .nav-link:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
-.nav-link.active { color: var(--ink); background: rgba(184,134,59,0.12); border-left-color: var(--brass); font-weight: 600; }
+.nav-link.active { color: var(--ink); background: rgba(138,95,34,0.12); border-left-color: var(--brass); font-weight: 600; }
 .nav-link.active .nav-num { color: var(--brass); opacity: 1; }
 .nav-link.edge { color: var(--ink); font-weight: 600; }
 .nav-sep { height: 1px; background: var(--rule); margin: 12px 8px; }
@@ -167,7 +168,7 @@ h1, h2, h3 { font-family: 'Archivo', sans-serif; text-wrap: balance; }
   white-space: nowrap; border: 1px solid;
 }
 .pill.drafted { color: var(--ok); border-color: rgba(63,125,92,0.42); background: rgba(63,125,92,0.09); }
-.pill.pending { color: var(--wait); border-color: rgba(184,134,59,0.45); background: rgba(184,134,59,0.09); }
+.pill.pending { color: var(--wait); border-color: rgba(138,95,34,0.45); background: rgba(138,95,34,0.09); }
 .pill.none    { color: var(--steel); border-color: var(--rule); }
 
 /* numbered list */
@@ -252,9 +253,11 @@ h1, h2, h3 { font-family: 'Archivo', sans-serif; text-wrap: balance; }
 
 <div class="layout">
   <aside class="sidebar" id="sidebar">
-    <div class="brand">
-      <div class="brand-mark">Jewell Projects <span class="x">×</span> Tap That Brewery</div>
-    </div>
+    <a class="brand" href="#top">
+      <img class="brand-jp" src="/brand/jewell-wordmark.png" alt="Jewell Projects">
+      <span class="x">&times;</span>
+      <img class="brand-tt" src="/brand/tapthat-icon.png" alt="Tap That Brewery">
+    </a>
     <div class="brand-sub">3D Process · Aug 2026</div>
     <button class="navtoggle" id="navtoggle" aria-expanded="false">Contents +</button>
     <nav class="nav" id="nav">
@@ -277,6 +280,7 @@ h1, h2, h3 { font-family: 'Archivo', sans-serif; text-wrap: balance; }
 
     <!-- WELCOME -->
     <section class="welcome" id="top">
+      <img class="hero-badge rv" src="/brand/tapthat-badge.png" alt="Tap That Brewery">
       <div class="eyebrow rv">Jewell Projects · Tap That Brewery · Prepared for Chris Smith and Justin Mistry</div>
       <h1 class="h-hero rv">Your 3D Process.<br>Sixty-five documents.</h1>
       <p class="lead mt28 rv">The complete Discover, Design and Deploy document set for Tap That Brewery — built from one discovery session, one site visit, and every price on your walls. Working drafts, in full, ready for your review.</p>

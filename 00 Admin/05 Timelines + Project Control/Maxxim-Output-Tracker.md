@@ -117,9 +117,10 @@ These appear as flagged caveats throughout the documents. Closing them is the fa
 | 4 | GoTab / Fishbowl integration date | Client | CRM Plan (#48), EDM automation (#47), lease-to-buy |
 | 5 | P&L detail — unit-level revenue and the taproom's actual loss | Client | Business Plan (#23), budget setting |
 | 6 | Founder confirmations — timeframe for the 1,000 target, taproom loss tolerance, franchise-story consent for PR | Client | OKRs (#19), PR Plan (#49), CP2 |
-| 7 | Brand source files — logo SVGs, hex values, fonts | Client | Brand Guidelines (#34), Logo Brief lock (#36) |
+| 7 | Brand source files — **vector** logo files and fonts. *(Partly closed: the primary badge and TT mark were retrieved from tapthatbrewery.com.au and the palette sampled from them — green #14361D, gold #CE9A49, off-white #DFDFDF, now in #34. Still needed: true vector artwork and typeface names/licences.)* | Client | Brand Guidelines (#34), Logo Brief lock (#36) |
 | 8 | Product naming discrepancy — "Bong Water" vs "Bone Water" IPA | Client | Menu/collateral copy |
 | 9 | Giveaway cadence — the calendar compresses two closes to ~3.5 months apart | Client | Campaign Calendar (#45), Activation Plan (#43) |
+| 10 | **Name vs mark** — documents say "Tap That Brewery"; the badge and venue signage say "Tap That · Brewery & Keghouse". Short-name vs re-brand decision. | Founders | #34 Brand Guidelines, #36 Logo Brief, all collateral |
 
 ## Next steps
 

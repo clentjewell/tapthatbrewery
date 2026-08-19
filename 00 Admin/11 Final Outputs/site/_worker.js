@@ -68,10 +68,9 @@ function gate({ next = "/", error = false } = {}) {
   *{box-sizing:border-box}
   body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;color:#F7F3EA;
     font-family:'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-    background:radial-gradient(120% 120% at 50% 0%,#1B4634 0%,#12352A 45%,#0A1F17 100%)}
+    background:radial-gradient(120% 120% at 50% 0%,#1D4726 0%,#14361D 45%,#081C10 100%)}
   .card{width:100%;max-width:392px;text-align:center}
-  .mark{font-family:'Archivo',sans-serif;font-weight:700;font-size:13px;letter-spacing:.24em;
-    text-transform:uppercase;color:#D2A45A;margin:0 0 26px}
+  .badge{width:200px;height:auto;display:block;margin:0 auto 24px}
   h1{font-family:'Archivo',sans-serif;font-weight:700;margin:0 0 8px;font-size:30px;letter-spacing:-.02em}
   p.sub{opacity:.75;margin:0 0 24px;font-size:15px;line-height:1.6}
   p.err{background:rgba(210,164,90,.16);border:1px solid rgba(210,164,90,.55);
@@ -80,10 +79,10 @@ function gate({ next = "/", error = false } = {}) {
   input{padding:13px 14px;border-radius:5px;border:1px solid rgba(247,243,234,.28);
     background:rgba(247,243,234,.10);color:#F7F3EA;font-size:16px;font-family:inherit}
   input::placeholder{color:rgba(247,243,234,.55)}
-  input:focus{outline:none;border-color:#D2A45A;background:rgba(247,243,234,.16)}
-  button{padding:13px 14px;border-radius:4px;border:0;background:#B8863B;color:#0A1F17;
+  input:focus{outline:none;border-color:#CE9A49;background:rgba(247,243,234,.16)}
+  button{padding:13px 14px;border-radius:4px;border:0;background:#B07C2E;color:#081C10;
     font-family:'Archivo',sans-serif;font-size:16px;font-weight:700;cursor:pointer;letter-spacing:.01em}
-  button:hover{background:#D2A45A}
+  button:hover{background:#CE9A49}
   button:focus-visible{outline:2px solid #F7F3EA;outline-offset:2px}
   .foot{font-family:'IBM Plex Mono',monospace;opacity:.5;font-size:11px;margin-top:22px;
     text-transform:uppercase;letter-spacing:.14em}
@@ -91,7 +90,7 @@ function gate({ next = "/", error = false } = {}) {
 </head>
 <body>
   <main class="card">
-    <p class="mark">Tap That Brewery</p>
+    <img class="badge" src="/brand/tapthat-badge.png" alt="Tap That Brewery" width="200" height="134">
     <h1>Your 3D Process.</h1>
     <p class="sub">This pack is private. Enter the password to continue.</p>
     ${error ? '<p class="err">That password did not match. Try again.</p>' : ""}
@@ -146,7 +145,11 @@ export default {
       });
     }
 
-    if (!(await tokenValid(readCookie(request, COOKIE), password))) {
+    // Brand assets stay public: the gate page itself needs the logo, and these
+    // are the same files already served from the client's public website.
+    const isBrandAsset = url.pathname.startsWith("/brand/");
+
+    if (!isBrandAsset && !(await tokenValid(readCookie(request, COOKIE), password))) {
       return gate({ next: url.pathname + url.search });
     }
 
