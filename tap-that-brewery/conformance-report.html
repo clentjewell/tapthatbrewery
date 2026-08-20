@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Spec Conformance Report — Tap That Brewery</title>
+    <meta name="maxxim:client" content="tap-that-brewery">
+    <meta name="maxxim:phase" content="onboarding">
+    <meta name="maxxim:skill" content="conformance-report">
+    <meta name="maxxim:generated" content="2026-08-20">
+  </head>
+  <body>
+    <h1>Spec Conformance Report</h1>
+
+    <p>Measures this engagement against <em>The Maxxim 3D Process — complete specification</em> (taxonomy-v2, 2026-07-09). Written because the document set was produced before the spec was supplied, so it needed reconciling rather than assuming.</p>
+
+    <p><strong>Note on this file.</strong> <code>conformance-report</code> is not a taxonomy slug, so by the spec&rsquo;s own rule it is not a deliverable. It sits at the workspace root rather than in <code>memory/generated/</code> and should not appear in the client pipeline.</p>
+
+    <section>
+      <h2>What conforms</h2>
+      <table>
+        <thead><tr><th>Requirement</th><th>State</th></tr></thead>
+        <tbody>
+          <tr><td>All 65 document-kind items exist</td><td>Yes — 3 onboarding, 19 discover, 42 design, 1 deploy</td></tr>
+          <tr><td>Filename is the taxonomy slug</td><td>Yes — every file renamed from our <code>NN__Title__Client__Audience__Status__vNN.md</code> convention</td></tr>
+          <tr><td>Output format: semantic HTML5, tag whitelist</td><td>Yes — all 65 validated against the whitelist</td></tr>
+          <tr><td><code>maxxim:*</code> meta on every document</td><td>Yes — client, phase, skill, generated. <code>maxxim:skill</code> matches each file&rsquo;s own slug.</td></tr>
+          <tr><td>No <code>style</code>, <code>class</code>, <code>&lt;style&gt;</code>, <code>&lt;link&gt;</code>, <code>&lt;script&gt;</code>, event handlers</td><td>Yes — nil across all 65</td></tr>
+          <tr><td>Exactly one <code>&lt;h1&gt;</code> per document</td><td>Yes</td></tr>
+          <tr><td>Workspace shape</td><td><code>USER.html</code> plus <code>memory/{uploads,digests,generated}</code>. Source material in <code>uploads/</code>.</td></tr>
+          <tr><td>Group rule — separate self-contained files, no copy-paste between siblings</td><td>Yes — each was authored independently</td></tr>
+          <tr><td>Australian spelling, plain English</td><td>Yes</td></tr>
+          <tr><td>No maker skills invented for activity or output items</td><td>Yes — the 45 non-document items were never authored</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>What deviates, and why</h2>
+
+      <h3>1. Design was produced before CP1 was signed</h3>
+      <p>The spec is unambiguous: Design must not start until <code>discover-summary</code> is approved, because drafting against an unapproved Discover &ldquo;is how quality collapses.&rdquo; All 42 Design documents were drafted ahead of that gate, at the client&rsquo;s request to see the whole shape at once.</p>
+      <p>The spec was right. The census arrived after drafting and inverted the purchase-driver ranking the entire messaging architecture was built on. Every Design document carries a pre-CP1 caveat, and the affected ones need reworking once the gate clears. This is the clearest cost of the deviation and should be stated plainly at CP1.</p>
+
+      <h3>2. The Discover prerequisite never existed</h3>
+      <p>Discover requires <code>memory/generated/discovery-dataset.html</code> — a 35-question structured Q&amp;A produced by <code>/onboard-client</code>. It was never created. Discover was built instead from a Circleback transcript, a site visit and 27 photographs.</p>
+      <p>Consequence: the discovery questions were never asked systematically, so gaps went unnoticed until the client&rsquo;s own census contradicted us. Several of the required elements in section 7 of the spec — quantified sale value, LTV, lead split — are still marked as gaps for exactly this reason.</p>
+
+      <h3>3. Gate 0 evidence is absent</h3>
+      <p>No <code>memory/digests/bant.html</code> (READY qualification) and no CORE brief. <code>success-definition</code> is meant to draw the client&rsquo;s yes-criteria from BANT; ours draws on the discovery session instead. <code>proposal</code> carries <code>[TBC]</code> for investment and timeline because no qualification or scoping work preceded it.</p>
+
+      <h3>4. Our correction document is not a taxonomy slug</h3>
+      <p>We produced an Evidence Reconciliation (&ldquo;20A&rdquo;) recording what the census changed. A slug not in the taxonomy does not exist, so it is <strong>excluded from this workspace</strong> and remains a working note in the Jewell Projects repository.</p>
+      <p>Its content belongs in two conforming places instead: the corrections are applied inside the affected documents, and the unresolved questions belong in <code>discover-summary</code>&rsquo;s &ldquo;up to 5 open questions&rdquo; slot. That slot currently holds them, but the full reconciliation detail exceeds a one-page bulleted summary — flagged as an open drafting decision.</p>
+
+      <h3>5. Sign-off list corrected</h3>
+      <p>Our tracker listed seven sign-off documents. The spec lists six: <code>proposal</code>, <code>discover-summary</code>, <code>brand-guidelines</code>, <code>logo-brief</code>, <code>imc-summary</code>, <code>strategy-summary</code>. We had wrongly included <code>final-brief-pack</code>. Corrected.</p>
+
+      <h3>6. Platform operations could not run</h3>
+      <p>No <code>maxxim-*</code> skills are installed in this session, so none of the following ran: preflight (<code>verify_token</code>, access check, workspace validation), <code>maxxim-sync</code>, <code>get_signoff_status</code>, or <code>maxxim-run-phase</code>. Documents were authored directly rather than through the maker skills and specialist subagents.</p>
+      <p>Practical effect: these files are spec-shaped but have never passed the real push-time validator, and no sign-off state exists on the platform. They need a genuine <code>maxxim-sync --two-way</code> from an environment with the plugin before they can be trusted as pipeline rows.</p>
+
+      <h3>7. Specialist advisors were never run</h3>
+      <p>The spec calls for advisors before production on the brief and after on the draft. Seventeen exist; none were invoked. On this material the most conspicuous absences are <strong>legal &amp; compliance</strong> and <strong>quality assurance</strong> — a compliance advisor would very likely have caught the client&rsquo;s live &ldquo;$2.34 a schooner&rdquo; claim, which holds only for paying members.</p>
+    </section>
+
+    <section>
+      <h2>Required elements not yet present</h2>
+      <p>Checked against the per-document content requirements in sections 7 and 8 of the spec. These are content gaps, not format failures.</p>
+      <table>
+        <thead><tr><th>Document</th><th>Missing</th></tr></thead>
+        <tbody>
+          <tr><td><code>success-definition</code></td><td>Spec requires 3–5 statements <strong>each with a number and a date</strong>. Dates are absent — the target timeframe is an open founder item.</td></tr>
+          <tr><td><code>objectives-key-results</code></td><td>Baselines: several should read <code>TBD — baseline needed</code>; the client&rsquo;s active-customer baseline is genuinely unknown (96 or ~113 depending on definition).</td></tr>
+          <tr><td><code>competitor-analysis</code></td><td>Spec expects web research where browser access exists: competitor sites, taglines, pricing signals, reviews. Not done. One competitor&rsquo;s name is still unverified.</td></tr>
+          <tr><td><code>funnel-review</code>, <code>sales-process-review</code></td><td>Time-to-close and drop-off numbers. Needs Square data.</td></tr>
+          <tr><td><code>business-plan</code>, <code>measurement-plan</code></td><td>Baselines with the assumption behind each; instrumentation gaps as setup tasks. Partly present, but no P&amp;L, COGS, CAC or margin exists.</td></tr>
+          <tr><td><code>brand-guidelines</code></td><td>Spec requires <strong>three artefacts</strong> — the document, a reveal.js deck exportable to PDF, and <code>brand-tokens.json</code>. Only the document exists. Colour needs CMYK and PMS as well as hex; type scale is absent pending typeface confirmation.</td></tr>
+          <tr><td><code>logo-brief</code></td><td>2–3 pasteable studio starting prompts. Absent — scoped as import-and-lock rather than design.</td></tr>
+          <tr><td><code>seo-strategy</code></td><td>Keyword volume and difficulty; AI search and SGE considerations. Volumes unvalidated.</td></tr>
+          <tr><td><code>edm-plan</code></td><td>Deliverability section: SPF, DKIM, DMARC, warm-up, cleaning, reputation. Absent.</td></tr>
+          <tr><td><code>pr-plan</code></td><td>Crisis communication framework. Absent.</td></tr>
+          <tr><td><code>paid-media-plan</code></td><td>CPA/ROAS benchmarks and attribution model. The client&rsquo;s existing $1,500/month budget and prior agency ad account were unknown when this was drafted.</td></tr>
+          <tr><td><code>traditional-media-plan</code></td><td>Measurement using named industry sources. Absent — the plan recommends holding the channel.</td></tr>
+          <tr><td>Every document</td><td>Cross-references should now be <code>.html</code> filenames. Our drafts cross-reference by catalogue number (&ldquo;#31 Brand Strategy&rdquo;). Mechanical to fix but not yet done.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Recommended sequence from here</h2>
+      <ol>
+        <li>Close the six founder decisions. They are questions, not research.</li>
+        <li>Get Square access and the client&rsquo;s P&amp;L. Most remaining gaps are one dataset away.</li>
+        <li>Sign CP1 on a corrected <code>discover-summary</code>.</li>
+        <li>Rework the Design documents the census affects — brand strategy, positioning, messaging architecture, customer profile, messaging by stage — then the briefs that distil them.</li>
+        <li>Run the legal &amp; compliance and quality assurance advisors across the set before anything goes to the client.</li>
+        <li>Push through <code>maxxim-sync --two-way</code> from an environment with the plugin installed, and let the real validator judge these files.</li>
+      </ol>
+      <p>Independent of all of it: the client&rsquo;s live &ldquo;$2.34 a schooner&rdquo; advertising claim and the Keg Crew break-even stated to staff both need correcting now.</p>
+    </section>
+  </body>
+</html>

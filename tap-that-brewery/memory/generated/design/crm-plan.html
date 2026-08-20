@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CRM Plan — Tap That Brewery</title>
+    <meta name="maxxim:client" content="tap-that-brewery">
+    <meta name="maxxim:phase" content="design">
+    <meta name="maxxim:skill" content="crm-plan">
+    <meta name="maxxim:generated" content="2026-08-20">
+  </head>
+  <body>
+    <h1>CRM Plan</h1>
+<blockquote>
+<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
+</blockquote>
+<p><em>Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
+<hr />
+<section>
+<h2>Why this is the highest-leverage plan in the Design set</h2>
+<p>Every growth number in this engagement runs through one machine: knowing, per customer, <strong>when they last bought a keg</strong>. The lifecycle rules already exist (active &lt;75 days, at-risk 75–90, churned 90+), the winback offer already exists ($20 off), and the customers already exist (206 owners / 96–113 active plus an untracked churned pool). What doesn't exist is the system: churn management is a hand-sent monthly SMS, wholesale leads die between first DM reply and manager contact, and the GoTab/Fishbowl integration that fixes both is "pending" with no date. This plan costs approximately no media dollars and directly serves O2 (stop the refill leak) — on a loss-making P&amp;L it is the first thing to build.</p>
+</section>
+<section>
+<h2>Data model (the minimum viable customer record)</h2>
+<p>One record per customer in Fishbowl, keyed to GoTab transactions:</p>
+<table>
+<thead>
+<tr>
+<th>Field group</th>
+<th>Fields</th>
+<th>Source</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Identity</strong></td>
+<td>Name, mobile, email, suburb/postcode, marketing consent (email/SMS/ad-matching), 18+ confirmed</td>
+<td>GoTab checkout, membership signup, giveaway entry</td>
+<td>Consent per channel is the legal gate for #46/#47; postcode drives delivery-launch targeting (#51)</td>
+</tr>
+<tr>
+<td><strong>System owned</strong></td>
+<td>Owns system Y/N · bought from <strong>Tap That Brewery / elsewhere</strong> (the switcher flag) · type (2/3/4/6-tap, integrated, 5L mini, Benchy) · purchase date</td>
+<td>GoTab sale record; asked at first fill for walk-in switchers</td>
+<td>The switcher flag is the single most valuable field in the model — 50% of refill customers bought elsewhere and KR 1.1 (90 switcher acquisitions) is unmeasurable without it</td>
+</tr>
+<tr>
+<td><strong>Refill history</strong></td>
+<td>Every keg transaction: date, keg type (plastic/corny), size (5L/20L/50L), tier (core/premium/top shelf), price paid, <strong>days-since-last-keg</strong> (computed nightly)</td>
+<td>GoTab</td>
+<td>Days-since-last-keg is the field the whole lifecycle engine keys on</td>
+</tr>
+<tr>
+<td><strong>Membership</strong></td>
+<td>Tier (Keg Crew/Mug Club/Brew Buds/none), join date, renewal date, price paid</td>
+<td>GoTab/Fishbowl</td>
+<td>Renewal automation (#47 seq 6); attach-rate reporting (KR 1.4)</td>
+</tr>
+<tr>
+<td><strong>Tokens &amp; referrals</strong></td>
+<td>Tap Token balance, referral events (1,000 tokens system/venue, 500 refill)</td>
+<td>Loyalty system</td>
+<td>Referral is a tracked acquisition channel, not folklore; leaderboard already gamifies it</td>
+</tr>
+<tr>
+<td><strong>Provenance</strong></td>
+<td>First-touch source (giveaway cycle, taproom, referral, search, wholesale)</td>
+<td>Entry forms, staff prompt at first sale</td>
+<td>CAC-by-channel truth for #46 kill criteria</td>
+</tr>
+</tbody>
+</table>
+<p>Data hygiene rule (KR 2.4): <strong>100% of keg transactions attached to a customer record.</strong> A counter script for staff ("what number do we text when it's ready?") is the whole capture mechanism — it already works for corny customers.</p>
+</section>
+<section>
+<h2>Lifecycle automation: the 60/75/90 engine</h2>
+<p>Replaces the manual monthly SMS with triggers computed from days-since-last-keg:</p>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>State</th>
+<th>Automated action</th>
+<th>Replaces</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~21–25</td>
+<td>Active, cadence due</td>
+<td>"What's kegged &amp; ready" email (#47 seq 3)</td>
+<td>Nothing — new revenue protection</td>
+</tr>
+<tr>
+<td>60</td>
+<td>Active, drifting</td>
+<td>Email nudge, no discount — range/freshness angle</td>
+<td>Nothing</td>
+</tr>
+<tr>
+<td>75</td>
+<td><strong>At-risk</strong></td>
+<td>SMS + email: service/convenience angle (corny Tue→Fri, delivery when live). No discount yet — don't train discount-waiting</td>
+<td>The untargeted blast</td>
+</tr>
+<tr>
+<td>90</td>
+<td><strong>Churned</strong></td>
+<td>Winback ladder fires: $20-off/2-week window → Marie's Pizza Buttercard → next tested offer; response rate logged per offer</td>
+<td>The manual monthly SMS</td>
+</tr>
+<tr>
+<td>90 + 60</td>
+<td>Dormant</td>
+<td>Quarterly-max touch: giveaway invite, seasonal release, event invite</td>
+<td>Nothing (list currently goes dark)</td>
+</tr>
+</tbody>
+</table>
+<p>Every send and every response is written back to the record, so the at-risk save rate (KR 2.2 target ≥40%) and winback count (KR 2.3 target 30/yr) become dashboard numbers instead of anecdotes.</p>
+</section>
+<section>
+<h2>Segmentation views (saved, standing views in Fishbowl)</h2>
+<table>
+<thead>
+<tr>
+<th>View</th>
+<th>Definition</th>
+<th>Used by</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Switcher targets</strong></td>
+<td>Owns system, bought elsewhere, &lt;2 fills with us</td>
+<td>"We fill any system" campaign (#46); counter conversion scripts</td>
+</tr>
+<tr>
+<td><strong>At-risk</strong></td>
+<td>75–90 days since last keg</td>
+<td>Daily automation + weekly human review of high-value names</td>
+</tr>
+<tr>
+<td><strong>Dormant/churned</strong></td>
+<td>90+ days</td>
+<td>Winback ladder; quarterly re-permission</td>
+</tr>
+<tr>
+<td><strong>High-value</strong></td>
+<td>Top quartile by 12-month refill spend, or Keg Crew + 2+ kegs/month</td>
+<td>Tasting-night invites (#50), referral asks, first delivery-launch access — protect these relationships personally</td>
+</tr>
+<tr>
+<td><strong>Membership expiring</strong></td>
+<td>Renewal within 45 days</td>
+<td>#47 seq 6</td>
+</tr>
+<tr>
+<td><strong>Giveaway cohort (per cycle)</strong></td>
+<td>Entrants by cycle, with converted Y/N</td>
+<td>KR 1.2 measurement; #46 retargeting audiences</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Wholesale pipeline (fixing the DM follow-up leak)</h2>
+<p>Discovery's admission: social DMs get responses, venues pass on a manager's contact, and "follow-up wasn't as tight as it could have been." The fix is a pipeline, not a platform — a simple board (Fishbowl if it supports B2B records, else a shared sheet until it does):</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>SLA</th>
+<th>Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lead (DM reply / referral / venue-hire enquiry)</td>
+<td>Logged same day, every lead</td>
+<td>Raef</td>
+</tr>
+<tr>
+<td>Contact passed (manager name/number received)</td>
+<td><strong>First follow-up within 48 hours</strong> (KR 3.4)</td>
+<td>Raef → founder for closes</td>
+</tr>
+<tr>
+<td>Tasting/match made (style-matched: J-Lager → Japanese, Cerveza → Mexican, craft → craft bars)</td>
+<td>Within 2 weeks of contact</td>
+<td>Chris (product credibility)</td>
+</tr>
+<tr>
+<td>Pouring / won</td>
+<td>Handover to refill cadence tracking — wholesale accounts get lifecycle states too</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Lost/parked</td>
+<td>Reason logged (contract, CUB exclusivity, no taps) — parked ≠ dead; contract end dates are diarised</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Target: 6 new style-matched venue accounts in 12 months (KR 3.4). Sports-club white-label leads (10%/10% model) run on the same board with a tap-infrastructure qualifier.</p>
+</section>
+<section>
+<h2>Integration dependency timeline</h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Gate</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Get the real GoTab/Fishbowl integration status + date from the vendors</td>
+<td>Named D06 production gate — currently "pending", undated</td>
+<td>Week 1–2 post-CP1</td>
+</tr>
+<tr>
+<td>2. Interim manual layer: weekly GoTab transaction export → days-since-last-keg sheet → hand-triggered 75/90 sends</td>
+<td>None — do not wait for the integration</td>
+<td>Immediately</td>
+</tr>
+<tr>
+<td>3. Data model fields configured; switcher flag + provenance capture live at counter</td>
+<td>GoTab field configuration</td>
+<td>Month 1</td>
+</tr>
+<tr>
+<td>4. Automated 60/75/90 flows live</td>
+<td>Integration complete; KR 2.1 says live within 90 days of that</td>
+<td>Integration + 90 days</td>
+</tr>
+<tr>
+<td>5. Delivery (Uber Direct) and lease-to-buy data folded in</td>
+<td>Respective GoTab features live</td>
+<td>When shipped</td>
+</tr>
+</tbody>
+</table>
+<p>The interim manual layer matters most: at 206 owners / 96–113 active, a weekly export and a sorted spreadsheet is a 30-minute job that captures most of the automation's value <strong>now</strong>, while proving the send-and-save logic the automation will inherit.</p>
+</section>
+<section>
+<h2>Cost and kill criteria</h2>
+<p>Incremental spend ≈ <strong>$0 media</strong>; costs are Fishbowl/GoTab subscription (already paid), possible ESP (#47, [TBC]), and Raef's hours (~2–3 hrs/week interim). Kill criteria: if after two quarters the at-risk save rate sits below 15% and winbacks below 10, the offers are wrong — rework offers, not the system; the system's data value stands regardless. There is no scenario at current scale where this build is abandoned.</p>
+</section>
+<section>
+<h2>Assumptions &amp; open items</h2>
+<ul>
+<li>Fishbowl capability set (B2B records, flow builder, SMS) unverified — may push the wholesale board and sends to companion tools <strong>[TBC]</strong>.</li>
+<li>GoTab/Fishbowl integration date unknown — the whole automation tier is hostage to it; interim manual layer is the hedge.</li>
+<li>Churn-rate, attach-rate and at-risk baselines are TBC pending GoTab cohort data (#19).</li>
+<li>Consent state of existing phone/email records unaudited (Spam Act) — audit before any automated sending (#47).</li>
+<li>Membership pricing reconciliation required before renewal flows and LTV maths lock.</li>
+</ul>
+<hr />
+<p><em>Feeds into: #47 EDM Plan (delivery layer), #46 Paid Media Plan (audiences + attribution), #50 Events Plan (high-value invites), DS03 Marketing Plan, and the franchise playbook thesis (#18 — documented, replicable systems).</em></p>
+</section>
+  </body>
+</html>

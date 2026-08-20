@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Measurement Plan — Tap That Brewery</title>
+    <meta name="maxxim:client" content="tap-that-brewery">
+    <meta name="maxxim:phase" content="design">
+    <meta name="maxxim:skill" content="measurement-plan">
+    <meta name="maxxim:generated" content="2026-08-20">
+  </head>
+  <body>
+    <h1>Measurement Plan</h1>
+<blockquote>
+<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
+</blockquote>
+<p><em>Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
+<hr />
+<p>One rule: if a number doesn't move active keg customers or explain why they moved, it isn't reported. Sized for Raef (~70% marketing) plus two founders — a one-page weekly, a one-hour monthly, nothing more.</p>
+<section>
+<h2>North-star metric</h2>
+<p><strong>Active keg customers</strong> — customers with a keg purchase within 75 days (the business's own definition). Today 220; target 1,000; every phase gate in #25 is denominated in it. Reported with its two shadows: <strong>at-risk</strong> (75–90 days) and <strong>churned</strong> (90+).</p>
+</section>
+<section>
+<h2>Supporting metrics</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Definition</th>
+<th>Why it matters</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Refills/month</td>
+<td>20L-equivalent fills per month, and per active (baseline ~2)</td>
+<td>Validates the ~$200/month economics behind the ~$2.6M target</td>
+<td>GoTab</td>
+</tr>
+<tr>
+<td>Churn &amp; saves</td>
+<td>Actives crossing 90 days; at-risk customers recovered by 60/75/90-day touches</td>
+<td>The leak automation exists to plug (H4)</td>
+<td>GoTab + Fishbowl</td>
+</tr>
+<tr>
+<td>Switcher adds</td>
+<td>New refill customers whose system wasn't bought here</td>
+<td>P1's headline; the 50%-organic figure becomes a managed channel (H1)</td>
+<td>GoTab (flag at first fill)</td>
+</tr>
+<tr>
+<td>Giveaway → purchase</td>
+<td>Entrants (~1,000/cycle) → systems bought; today 22–25 via the 50% close</td>
+<td>Nurture (H3) must beat this or it isn't working</td>
+<td>Entry list + GoTab</td>
+</tr>
+<tr>
+<td>Taproom → system</td>
+<td>% of visitors buying a system (client estimate 20–30%)</td>
+<td>The venue's entire justification, measured</td>
+<td>Demo QR/CTA capture + GoTab</td>
+</tr>
+<tr>
+<td>CAC by channel</td>
+<td>Spend ÷ new actives: switcher ads, giveaway, taproom, referral, JV/club</td>
+<td>Decides where next dollar and Raef-hour go</td>
+<td>Meta/Buffer spend + GoTab</td>
+</tr>
+<tr>
+<td>Member share of refills</td>
+<td>% of refills on Keg Crew ($250/yr, $30 off/refill)</td>
+<td>Membership is the retention lock; also flags lapsed members early</td>
+<td>GoTab</td>
+</tr>
+<tr>
+<td>Referral redemptions</td>
+<td>Tap Token referral rewards claimed (1,000/system, 500/refill)</td>
+<td>Cheapest channel; currently wall-signage only</td>
+<td>GoTab / Tap Tokens</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Data sources and their jobs</h2>
+<ul>
+<li><strong>GoTab (POS)</strong> — transactions, refill cadence, membership, lifecycle clock. The system of record for the north star.</li>
+<li><strong>Fishbowl (CRM)</strong> — segments, automated lifecycle sends, open/click/redemption. <em>Integration pending — until live, lifecycle metrics run off manual GoTab exports.</em></li>
+<li><strong>Buffer + @tapthatbreweryandkeghouse socials</strong> — reach/engagement as diagnostics only; never in the headline row.</li>
+<li><strong>Site analytics (tapthatbrewery.com.au)</strong> — switcher landing page traffic and conversion; giveaway entries.</li>
+<li><strong>Census + surveys</strong> — objection tracking (n=50 baseline: 70% of daily users drink 1–~1.55 kegs/month (census)); repeat annually.</li>
+</ul>
+</section>
+<section>
+<h2>Current measurement gaps</h2>
+<ol>
+<li><strong>No churn-rate baseline</strong> — 75/90-day definitions exist, but no counted monthly flow between states. First job after integration.</li>
+<li><strong>Switchers aren't flagged</strong> — the 50% figure is an estimate; add a one-question flag at first fill ("where's your system from?").</li>
+<li><strong>Taproom conversion is folklore</strong> — 20–30% is a client estimate with no capture mechanism.</li>
+<li><strong>No channel attribution</strong> — spend and Raef-hours aren't tied to new actives anywhere.</li>
+<li><strong>Giveaway entrants aren't tracked post-competition</strong> — the 3-month cycle happens in the dark.</li>
+<li><strong>Census data not yet received</strong> (Clent → Jules, carried action) — pillar messaging and delivery pricing rest on headline figures only.</li>
+</ol>
+</section>
+<section>
+<h2>Reporting rhythm</h2>
+<p><strong>Weekly (15 min, Raef compiles Monday):</strong> actives / at-risk / churned counts; refills last 7 days; switcher adds; new system sales; one line on what changed. Single page, same template, posted where founders see it.</p>
+<p><strong>Monthly (1 hour, Raef + Chris + Justin):</strong> north star vs phase gate (#25); churn and saves; CAC by channel; member share; giveaway funnel when a cycle is live; one decision recorded — what gets more effort, what gets less. Kill or scale one thing every month.</p>
+<p><strong>Quarterly (within monthly, extended):</strong> milestone gate review against #25; hypothesis scorecard (H1–H7: supported / refuted / untested); census or pricing refresh check.</p>
+</section>
+<section>
+<h2>Assumptions &amp; open items</h2>
+<ul>
+<li>Assumes GoTab can export lifecycle-state counts and flag switchers/members per transaction — capability to confirm.</li>
+<li>Fishbowl integration timing unknown; until live, weekly numbers are manual exports (~30 min, acceptable short-term).</li>
+<li>CAC requires spend logging discipline from day one — a shared sheet is fine [needs P&amp;L data for fully loaded CAC].</li>
+<li>Site analytics tooling unconfirmed — verify what tapthatbrewery.com.au currently runs.</li>
+</ul>
+<hr />
+<p><em>Feeds into: #23 Business Plan (financial validation), #25 Growth Roadmap (phase gates), the Design-phase Marketing Plan, and Deploy-phase reporting.</em></p>
+</section>
+  </body>
+</html>

@@ -12,6 +12,7 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Site-visit photo set (27) + index | `01 Discover/01 Inputs/site-visit-photos/` | Internal | Live | v01 |
 | Contacts + Stakeholders | `00 Admin/01 Contacts + Stakeholders/contacts.md` | Internal | Live | v01 |
 | Maxxim Output Tracker (65-doc catalogue + open items) | `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` | Internal | Live | v02 |
+| Maxxim spec workspace — 65 documents as taxonomy-slug HTML | `tap-that-brewery/` | Platform | Draft | v01 |
 | Delivery site — https://tapthat-3d-process.pages.dev (pw `tapthat2026`) · `/` complete pack, `/summary` overview | `00 Admin/11 Final Outputs/` | Client | Live | v02 |
 
 ## Catalogue documents
@@ -28,7 +29,9 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Design — summaries | #62–64 | `02 Design/02 Working Drafts/` | Draft v01 — **CP2 unsigned** (sign-off: #62, #63) |
 | Deploy | #65 | `03 Deploy/02 Working Drafts/` | Framework — populated post-execution |
 
-## Sign-off documents (sign-off: ) awaiting client
+## Sign-off documents awaiting client
+
+Six, per the Maxxim spec. (`final-brief-pack` was wrongly listed here previously — it does not carry sign-off.)
 
 | # | Document | Gate |
 |---|---|---|
@@ -36,7 +39,6 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | 20 | Discover Summary | **CP1** |
 | 34 | Brand Guidelines | Design |
 | 36 | Logo Brief | Design |
-| 61 | Final Brief Pack | Design |
 | 62 | IMC Summary | Design |
 | 63 | Strategy Summary | **CP2** |
 

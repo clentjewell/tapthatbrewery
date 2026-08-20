@@ -12,6 +12,12 @@ The engagement's target output set: the **Maxxim 3D document catalogue** (65 doc
 | Deploy | 1 | Framework only — populated after execution |
 | **Total** | **65** | **Drafted v01** |
 
+## Two filing systems
+
+This repository holds the working set in the Jewell Projects taxonomy (numbered markdown, phase folders). `tap-that-brewery/` holds the same 65 documents converted to the **Maxxim platform contract** — taxonomy slugs as filenames, semantic HTML with `maxxim:*` meta, no styling. See `tap-that-brewery/conformance-report.html` for where we meet the spec and where we deviate.
+
+Notable deviations: Design was drafted before CP1 (the spec forbids it, and the census proved the spec right); the required `discovery-dataset.html` never existed; no `maxxim-*` skills are installed here, so preflight, sync and sign-off state have never run.
+
 ## Where everything lives
 
 | Catalogue | Location |

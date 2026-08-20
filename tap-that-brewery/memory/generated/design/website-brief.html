@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Website Brief — Tap That Brewery</title>
+    <meta name="maxxim:client" content="tap-that-brewery">
+    <meta name="maxxim:phase" content="design">
+    <meta name="maxxim:skill" content="website-brief">
+    <meta name="maxxim:generated" content="2026-08-20">
+  </head>
+  <body>
+    <h1>Website Brief</h1>
+<blockquote>
+<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
+</blockquote>
+<p><em>Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
+<hr />
+<section>
+<h2>The job</h2>
+<p>Rebuild tapthatbrewery.com.au as the digital half of the funnel the venue already runs. Discovery's finding (#12): the taproom converts 20–30% of visitors because the proof is on the walls — the web carries almost none of it, and the 3-month buying cycle happens away from the venue. The site's job is to carry the same proof to people mid-cycle. <em>(Source plan: website strategy/sitemap document not yet drafted — this brief works from the Discover base and #12's deployment map; reconcile if a sitemap document lands.)</em></p>
+</section>
+<section>
+<h2>Pages</h2>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th>Must contain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Home</strong></td>
+<td>Trust bar (Brewer's Choice at Crafted, first year entering; Gold Coast Bulletin press); the two funnels split clearly: "Get a system" / "Already own one? We fill any system"</td>
+</tr>
+<tr>
+<td><strong>Keg systems</strong></td>
+<td>2-tap $975 → 6-tap $2,550 (+ bonus credits $40–100), integrated from $1,750, 5L mini $225, assembly $300; Afterpay/Zip prominently; <strong>demo booking CTA</strong>; objection content (partner veto → 1/3 non-beer taps; "I'll drink too much" → census: 70% of daily users pour 1–~1.55 kegs/month (census))</td>
+</tr>
+<tr>
+<td><strong>We Fill Any System</strong> (switcher)</td>
+<td>Tue-drop→Fri-ready corny promise as mechanism; plastic vs corny explainer; first-fill offer [TBC]; refill referral (500 Tap Tokens)</td>
+</tr>
+<tr>
+<td><strong>Refills &amp; pricing</strong></td>
+<td>20L member/non-member three-band pricing; <strong>savings calculator</strong> (kegs/month → $ vs bottle-o and pub; ~$2.70/schooner at home); "why 20L" freshness explainer</td>
+</tr>
+<tr>
+<td><strong>Tap list</strong></td>
+<td>All 27 taps, ABVs, non-beer filter ("a third of these aren't beer") — from the live menu data</td>
+</tr>
+<tr>
+<td><strong>Membership</strong></td>
+<td>Keg Crew / Mug Club / Brew Buds — <strong>blocked until price reconciliation (#52 Kit 4)</strong>; Tap Token + leaderboard explainer</td>
+</tr>
+<tr>
+<td><strong>Benchy</strong></td>
+<td>Portable tap for 4WD/camping/boating; partner logos as they sign</td>
+</tr>
+<tr>
+<td><strong>Taproom &amp; functions</strong></td>
+<td>Hours, happy hour, events, function/keg-hire enquiry form (mezzanine ~40 / venue ~120–130 seated)</td>
+</tr>
+<tr>
+<td><strong>Giveaway</strong></td>
+<td>Standing capture page, live only during cycles</td>
+</tr>
+<tr>
+<td><strong>About</strong></td>
+<td>Founding story (Chris Smith, Justin Mistry), award, social-responsibility commitments</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Functionality</h2>
+<ol>
+<li><strong>Demo booking</strong> — form or calendar; delivers to cheers@tapthatbrewery.com.au and logs to CRM (#58). Fields: name, mobile, email, suburb, segment self-select ("backyard / shed / office / club"), own-a-system Y/N.</li>
+<li><strong>Giveaway capture</strong> — same fields; consent checkbox for marketing (SPAM Act, see #57); writes to Fishbowl list.</li>
+<li><strong>GoTab links</strong> — takeaway/refill ordering and (when live) Uber Direct delivery deep-linked, not rebuilt.</li>
+<li><strong>Afterpay/Zip messaging</strong> on every system price display.</li>
+<li>Calculator: client-side, no login, sharable result.</li>
+</ol>
+</section>
+<section>
+<h2>SEO requirements</h2>
+<p>Per #55: URL structure and on-page targets for the priority clusters ("keg refills gold coast", "beer keg system home", "we fill any system" variants); schema (LocalBusiness, Product, FAQ); GBP linkage. Site must not launch pages that #55 will restructure.</p>
+</section>
+<section>
+<h2>Analytics</h2>
+<p>GA4 + Meta Pixel (age-gated audiences per #56). Events: demo_booked, giveaway_entry, calculator_used, gotab_click, membership_click, function_enquiry. UTM discipline documented for Raef.</p>
+</section>
+<section>
+<h2>Acceptance criteria</h2>
+<ol>
+<li>Every price on the site matches the reconciled price list — zero conflicts (the two-poster failure never reaches the web).</li>
+<li>Demo booking and giveaway entries arrive in CRM with all fields intact, tested end-to-end.</li>
+<li>All six #12 differentiators visibly deployed on the mapped pages.</li>
+<li>Age gate on entry; DrinkWise/responsible-service footer; gluten-<em>reduced</em> wording only.</li>
+<li>Mobile-first passes Core Web Vitals; site editable by Raef without a developer for prices, tap list and events.</li>
+</ol>
+</section>
+<section>
+<h2>Assumptions &amp; open items</h2>
+<ul>
+<li>Current site not yet audited — scope (rebuild vs restructure) confirmed after review. Platform choice [TBC].</li>
+<li>Membership page, first-fill offer, Benchy pricing, lease-to-buy mention all gated on client confirmations.</li>
+<li>Deadline [TBC — must precede #56 paid launch; paid traffic does not land on the current site].</li>
+</ul>
+<hr />
+<p><em>Feeds into: #55 SEO Brief, #56 Paid Media Brief, #57 EDM Brief, #58 CRM Brief, #61 Final Brief Pack.</em></p>
+</section>
+  </body>
+</html>
