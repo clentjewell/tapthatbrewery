@@ -93,11 +93,11 @@ SIGNOFF = {2,20,34,36,61,62,63}
 # The three phase sheets — hand-authored A3 fragments in build/oap/, each its own page.
 OAP = [
     ("on-a-page-discover", "Discover on a page", "Discover", "discover.html",
-     "Checkpoint 1 distilled to one sheet — the belief, the READY test, the five truths, the CORE, and what blocks Gate 1."),
+     "Checkpoint 1 distilled to one sheet – the belief, the READY test, the five truths, the CORE, and what blocks Gate 1."),
     ("on-a-page-design", "Design on a page", "Design", "design.html",
-     "Checkpoint 2 distilled to one sheet — the strategy on a line, brand, customer, model, messaging, platform and the measures."),
+     "Checkpoint 2 distilled to one sheet – the strategy on a line, brand, customer, model, messaging, platform and the measures."),
     ("on-a-page-deploy", "Deploy on a page", "Deploy", "deploy.html",
-     "Checkpoint 3 distilled to one sheet — the twelve runbooks, the committed budget, the ninety-day flow and the consent gates."),
+     "Checkpoint 3 distilled to one sheet – the twelve runbooks, the committed budget, the ninety-day flow and the consent gates."),
 ]
 LEGACY = {"D02":4, "D03":9, "D05":13, "D06":20}
 # 20A sorts immediately after 20 by using 205 as its sort key
@@ -196,7 +196,7 @@ OAP_JS = """
 HERO = """    <section id="top">
       <div class="eyebrow">Jewell Projects &middot; Tap That Brewery &middot; Prepared for Chris Smith and Justin Mistry</div>
       <h1 class="h-hero">The complete<br>3D Process.</h1>
-      <p class="lead">Every document in the set, end to end. Onboarding, Discover, Design and Deploy &mdash; built from one discovery session, one site visit, and every price on your walls. Pick a document from the contents, or from the index below.</p>
+      <p class="lead">Every document in the set, end to end. Onboarding, Discover, Design and Deploy &ndash; built from one discovery session, one site visit, every price on your walls, and the census and planning documents you sent through afterwards. Pick a document from the contents, or from the index below.</p>
 
       <div class="stats">
         <div class="stat"><div class="stat-n">{TOTAL}</div><div class="stat-l">Documents</div></div>
@@ -207,12 +207,12 @@ HERO = """    <section id="top">
 
       <div class="callout">
         <div class="k">The read everything is built on</div>
-        <div class="q">Tap That Brewery is a refill subscription business being run with a hospitality venue's attention.</div>
-        <p class="b">206 keg systems in the database and somewhere between 96 and 113 active customers &mdash; your own documents give both numbers, because they define &ldquo;active&rdquo; three different ways. Systems go out at cost and all the margin sits in refills, but eighteen months of attention went to the taproom, which loses money and was only ever meant to be the shopfront. And roughly 116 of those 206 owners &mdash; <strong>56%</strong> &mdash; bought their system somewhere else and came to you for beer anyway, with no campaign at all.</p>
-        <p class="b">Everything downstream follows from that. For the short version of this pack &mdash; what's here, what isn't, and what's blocking sign-off &mdash; see the <a href="/summary">delivery summary</a>.</p>
+        <div class="q">Tap That Brewery is a refill subscription business being run with a hospitality venue&rsquo;s attention.</div>
+        <p class="b">206 keg systems in the database and somewhere between 96 and 113 active customers &ndash; your own documents give both numbers, because they define &ldquo;active&rdquo; three different ways. Systems go out at cost and all the margin sits in refills, but eighteen months of attention went to the taproom, which loses money and was only ever meant to be the shopfront. And roughly 116 of those 206 owners &ndash; <strong>56%</strong> &ndash; bought their system somewhere else and came to you for beer anyway, with no campaign at all.</p>
+        <p class="b">Everything downstream follows from that. For the short version of this pack &ndash; what&rsquo;s here, what isn&rsquo;t, and what&rsquo;s blocking sign-off &ndash; see the <a href="/summary">delivery summary</a>.</p>
       </div>
 
-      <p class="note">Status: every document is a working draft at v01, AI-assisted, and none are approved. Deploy runbooks were written ahead of both checkpoints and say so on their face &mdash; they are ready to run, not authorised to run. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
+      <p class="note">Status: every document is a working draft at v01, AI-assisted, and none are approved. Deploy runbooks were written ahead of both checkpoints and say so on their face &ndash; they are ready to run, not authorised to run. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
     </section>
 """
 
@@ -244,7 +244,7 @@ def build_index_main(docs, counts, total):
     parts = [HERO.format(TOTAL=total, N_DI=counts.get("Discover", 0),
                          N_DE=counts.get("Design", 0), N_DP=counts.get("Deploy", 0))]
     parts.append('<div class="eyebrow" style="margin-top:44px">Each phase on a single sheet</div>'
-                 '<p class="note" style="margin-top:0">Three A3 sheets that distil a whole phase &mdash; built to be printed '
+                 '<p class="note" style="margin-top:0">Three A3 sheets that distil a whole phase &ndash; built to be printed '
                  'landscape and put on a wall, or read at the top of a meeting instead of the pack.</p>'
                  '<div class="oap-strip">')
     for slug, title, phase, _f, desc in OAP:

@@ -11,13 +11,13 @@
   <body>
     <h1>CRM Plan</h1>
 <blockquote>
-<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
+<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
 </blockquote>
-<p><em>Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
+<p><em>Pre-CP1 draft – produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
 <hr />
 <section>
 <h2>Why this is the highest-leverage plan in the Design set</h2>
-<p>Every growth number in this engagement runs through one machine: knowing, per customer, <strong>when they last bought a keg</strong>. The lifecycle rules already exist (active &lt;75 days, at-risk 75–90, churned 90+), the winback offer already exists ($20 off), and the customers already exist (206 owners / 96–113 active plus an untracked churned pool). What doesn't exist is the system: churn management is a hand-sent monthly SMS, wholesale leads die between first DM reply and manager contact, and the GoTab/Fishbowl integration that fixes both is "pending" with no date. This plan costs approximately no media dollars and directly serves O2 (stop the refill leak) — on a loss-making P&amp;L it is the first thing to build.</p>
+<p>Every growth number in this engagement runs through one machine: knowing, per customer, <strong>when they last bought a keg</strong>. The lifecycle rules already exist (active &lt;75 days, at-risk 75–90, churned 90+), the winback offer already exists ($20 off), and the customers already exist (206 owners / 96–113 active plus an untracked churned pool). What doesn’t exist is the system: churn management is a hand-sent monthly SMS, wholesale leads die between first DM reply and manager contact, and the GoTab/Fishbowl integration that fixes both is "pending" with no date. This plan costs approximately no media dollars and directly serves O2 (stop the refill leak) – on a loss-making P&amp;L it is the first thing to build.</p>
 </section>
 <section>
 <h2>Data model (the minimum viable customer record)</h2>
@@ -42,7 +42,7 @@
 <td><strong>System owned</strong></td>
 <td>Owns system Y/N · bought from <strong>Tap That Brewery / elsewhere</strong> (the switcher flag) · type (2/3/4/6-tap, integrated, 5L mini, Benchy) · purchase date</td>
 <td>GoTab sale record; asked at first fill for walk-in switchers</td>
-<td>The switcher flag is the single most valuable field in the model — 116 of 206 owners (56%) bought elsewhere and KR 1.1 (90 switcher acquisitions) is unmeasurable without it</td>
+<td>The switcher flag is the single most valuable field in the model – 116 of 206 owners (56%) bought elsewhere and KR 1.1 (90 switcher acquisitions) is unmeasurable without it</td>
 </tr>
 <tr>
 <td><strong>Refill history</strong></td>
@@ -70,7 +70,7 @@
 </tr>
 </tbody>
 </table>
-<p>Data hygiene rule (KR 2.4): <strong>100% of keg transactions attached to a customer record.</strong> A counter script for staff ("what number do we text when it's ready?") is the whole capture mechanism — it already works for corny customers.</p>
+<p>Data hygiene rule (KR 2.4): <strong>100% of keg transactions attached to a customer record.</strong> A counter script for staff ("what number do we text when it’s ready?") is the whole capture mechanism – it already works for corny customers.</p>
 </section>
 <section>
 <h2>Lifecycle automation: the 60/75/90 engine</h2>
@@ -88,25 +88,25 @@
 <tr>
 <td>~21–25</td>
 <td>Active, cadence due</td>
-<td>"What's kegged &amp; ready" email (#47 seq 3)</td>
-<td>Nothing — new revenue protection</td>
+<td>"What’s kegged &amp; ready" email (#47 seq 3)</td>
+<td>Nothing – new revenue protection</td>
 </tr>
 <tr>
 <td>60</td>
 <td>Active, drifting</td>
-<td>Email nudge, no discount — range/freshness angle</td>
+<td>Email nudge, no discount – range/freshness angle</td>
 <td>Nothing</td>
 </tr>
 <tr>
 <td>75</td>
 <td><strong>At-risk</strong></td>
-<td>SMS + email: service/convenience angle (corny Tue→Fri, delivery when live). No discount yet — don't train discount-waiting</td>
+<td>SMS + email: service/convenience angle (corny Tue→Fri, delivery when live). No discount yet – don’t train discount-waiting</td>
 <td>The untargeted blast</td>
 </tr>
 <tr>
 <td>90</td>
 <td><strong>Churned</strong></td>
-<td>Winback ladder fires: $20-off/2-week window → Marie's Pizza Buttercard → next tested offer; response rate logged per offer</td>
+<td>Winback ladder fires: $20-off/2-week window → Marie’s Pizza Buttercard → next tested offer; response rate logged per offer</td>
 <td>The manual monthly SMS</td>
 </tr>
 <tr>
@@ -148,7 +148,7 @@
 <tr>
 <td><strong>High-value</strong></td>
 <td>Top quartile by 12-month refill spend, or Keg Crew + 2+ kegs/month</td>
-<td>Tasting-night invites (#50), referral asks, first delivery-launch access — protect these relationships personally</td>
+<td>Tasting-night invites (#50), referral asks, first delivery-launch access – protect these relationships personally</td>
 </tr>
 <tr>
 <td><strong>Membership expiring</strong></td>
@@ -165,7 +165,7 @@
 </section>
 <section>
 <h2>Wholesale pipeline (fixing the DM follow-up leak)</h2>
-<p>Discovery's admission: social DMs get responses, venues pass on a manager's contact, and "follow-up wasn't as tight as it could have been." The fix is a pipeline, not a platform — a simple board (Fishbowl if it supports B2B records, else a shared sheet until it does):</p>
+<p>Discovery’s admission: social DMs get responses, venues pass on a manager’s contact, and "follow-up wasn’t as tight as it could have been." The fix is a pipeline, not a platform – a simple board (Fishbowl if it supports B2B records, else a shared sheet until it does):</p>
 <table>
 <thead>
 <tr>
@@ -192,13 +192,13 @@
 </tr>
 <tr>
 <td>Pouring / won</td>
-<td>Handover to refill cadence tracking — wholesale accounts get lifecycle states too</td>
-<td>—</td>
+<td>Handover to refill cadence tracking – wholesale accounts get lifecycle states too</td>
+<td>–</td>
 </tr>
 <tr>
 <td>Lost/parked</td>
-<td>Reason logged (contract, CUB exclusivity, no taps) — parked ≠ dead; contract end dates are diarised</td>
-<td>—</td>
+<td>Reason logged (contract, CUB exclusivity, no taps) – parked ≠ dead; contract end dates are diarised</td>
+<td>–</td>
 </tr>
 </tbody>
 </table>
@@ -217,12 +217,12 @@
 <tbody>
 <tr>
 <td>1. Get the real GoTab/Fishbowl integration status + date from the vendors</td>
-<td>Named D06 production gate — currently "pending", undated</td>
+<td>Named D06 production gate – currently "pending", undated</td>
 <td>Week 1–2 post-CP1</td>
 </tr>
 <tr>
 <td>2. Interim manual layer: weekly GoTab transaction export → days-since-last-keg sheet → hand-triggered 75/90 sends</td>
-<td>None — do not wait for the integration</td>
+<td>None – do not wait for the integration</td>
 <td>Immediately</td>
 </tr>
 <tr>
@@ -242,23 +242,23 @@
 </tr>
 </tbody>
 </table>
-<p>The interim manual layer matters most: at 206 owners / 96–113 active, a weekly export and a sorted spreadsheet is a 30-minute job that captures most of the automation's value <strong>now</strong>, while proving the send-and-save logic the automation will inherit.</p>
+<p>The interim manual layer matters most: at 206 owners / 96–113 active, a weekly export and a sorted spreadsheet is a 30-minute job that captures most of the automation’s value <strong>now</strong>, while proving the send-and-save logic the automation will inherit.</p>
 </section>
 <section>
 <h2>Cost and kill criteria</h2>
-<p>Incremental spend ≈ <strong>$0 media</strong>; costs are Fishbowl/GoTab subscription (already paid), possible ESP (#47, [TBC]), and Raef's hours (~2–3 hrs/week interim). Kill criteria: if after two quarters the at-risk save rate sits below 15% and winbacks below 10, the offers are wrong — rework offers, not the system; the system's data value stands regardless. There is no scenario at current scale where this build is abandoned.</p>
+<p>Incremental spend ≈ <strong>$0 media</strong>; costs are Fishbowl/GoTab subscription (already paid), possible ESP (#47, [TBC]), and Raef’s hours (~2–3 hrs/week interim). Kill criteria: if after two quarters the at-risk save rate sits below 15% and winbacks below 10, the offers are wrong – rework offers, not the system; the system’s data value stands regardless. There is no scenario at current scale where this build is abandoned.</p>
 </section>
 <section>
 <h2>Assumptions &amp; open items</h2>
 <ul>
-<li>Fishbowl capability set (B2B records, flow builder, SMS) unverified — may push the wholesale board and sends to companion tools <strong>[TBC]</strong>.</li>
-<li>GoTab/Fishbowl integration date unknown — the whole automation tier is hostage to it; interim manual layer is the hedge.</li>
+<li>Fishbowl capability set (B2B records, flow builder, SMS) unverified – may push the wholesale board and sends to companion tools <strong>[TBC]</strong>.</li>
+<li>GoTab/Fishbowl integration date unknown – the whole automation tier is hostage to it; interim manual layer is the hedge.</li>
 <li>Churn-rate, attach-rate and at-risk baselines are TBC pending GoTab cohort data (#19).</li>
-<li>Consent state of existing phone/email records unaudited (Spam Act) — audit before any automated sending (#47).</li>
+<li>Consent state of existing phone/email records unaudited (Spam Act) – audit before any automated sending (#47).</li>
 <li>Membership pricing reconciliation required before renewal flows and LTV maths lock.</li>
 </ul>
 <hr />
-<p><em>Feeds into: #47 EDM Plan (delivery layer), #46 Paid Media Plan (audiences + attribution), #50 Events Plan (high-value invites), DS03 Marketing Plan, and the franchise playbook thesis (#18 — documented, replicable systems).</em></p>
+<p><em>Feeds into: #47 EDM Plan (delivery layer), #46 Paid Media Plan (audiences + attribution), #50 Events Plan (high-value invites), DS03 Marketing Plan, and the franchise playbook thesis (#18 – documented, replicable systems).</em></p>
 </section>
   </body>
 </html>

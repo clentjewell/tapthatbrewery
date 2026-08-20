@@ -1,16 +1,16 @@
-# 01 — Deal Memo
+# 01 – Deal Memo
 ## Tap That Brewery
 
 | | |
 |---|---|
-| **Document** | 01 — Deal Memo (Maxxim catalogue #1, Gate 0 — Onboarding) |
+| **Document** | 01 – Deal Memo (Maxxim catalogue #1, Gate 0 – Onboarding) |
 | **Engagement** | Jewell Projects × Tap That Brewery |
-| **Phase** | 00 Admin — Gate 0 (Onboarding) |
-| **Status** | Draft v01 — Internal (Jewell only, candid) |
+| **Phase** | 00 Admin – Gate 0 (Onboarding) |
+| **Status** | Draft v01 – Internal (Jewell only, candid) |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ---
 
@@ -20,22 +20,22 @@ Internal record of why this deal is worth doing, what shape it should take, and 
 
 ## Who the client is
 
-Tap That Brewery, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer — ex Burleigh Barrels, the product credibility; Brewer's Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background — the business model and the 10–12-year franchise ambition). One hybrid marketer, **Raef** (~70% marketing / 30% bar cover).
+Tap That Brewery, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer – ex Burleigh Barrels, the product credibility; Brewer’s Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background – the business model and the 10–12-year franchise ambition). One hybrid marketer, **Raef** (~70% marketing / 30% bar cover).
 
-Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** — ~$155–160/month per active customer (census-derived), ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
+Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** – ~$155–160/month per active customer (census-derived), ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
 
 ## The commercial problem
 
-**206 owners / 96–113 active refill customers against a 1,000 target — ~$2.6M at ~$200/month — while the business runs at a loss** ("always red at the bottom of the P&L," Justin's words). The last 18 months drifted into growing the taproom, which was only ever meant to be the shopfront for the refill subscription business.
+**206 owners / 96–113 active refill customers against a 1,000 target – ~$2.6M at ~$200/month – while the business runs at a loss** ("always red at the bottom of the P&L," Justin’s words). The last 18 months drifted into growing the taproom, which was only ever meant to be the shopfront for the refill subscription business.
 
-The critical nuance from discovery: **this is not a strategy gap.** The founders' mental model is right ("everything feeds refill volume"), the five pillars are printed on in-venue collateral, the segments are mapped, the offers exist and are photo-verified. What they lack is **execution capacity** — one part-time marketer cannot run segment campaigns, wholesale outreach, lifecycle automation, UGC, and events simultaneously. The $2.6M target currently has no delivery mechanism. That is the job.
+The critical nuance from discovery: **this is not a strategy gap.** The founders' mental model is right ("everything feeds refill volume"), the five pillars are printed on in-venue collateral, the segments are mapped, the offers exist and are photo-verified. What they lack is **execution capacity** – one part-time marketer cannot run segment campaigns, wholesale outreach, lifecycle automation, UGC, and events simultaneously. The $2.6M target currently has no delivery mechanism. That is the job.
 
 ## Why Jewell Projects is a fit
 
 1. **They need sequencing and production, not ideation.** The 3D Process is exactly this: turn a validated diagnosis (D06 already drafted) into a strategy the client signs, then into briefs and assets a 0.7 FTE marketer can actually run.
-2. **The unit economics reward strategy work.** Every refill customer is ~$2,400/year of high-margin recurring revenue; small conversion gains on the giveaway funnel (currently 22–25 systems per cycle) or the switcher channel (116 of 206 owners — 56% — already came from elsewhere, unprompted) move real money.
-3. **Discovery is substantially done.** Session, site visit, 27 photos, verified pricing, four Discover anchor drafts (D02, D03, D05, D06) — we enter with momentum and low cost-to-serve on Phase 1.
-4. **The franchise horizon** means the strategy work compounds: what we systemise now becomes the replicable playbook Justin needs in 10–12 years — and a strong JP case study either way.
+2. **The unit economics reward strategy work.** Every refill customer is ~$2,400/year of high-margin recurring revenue; small conversion gains on the giveaway funnel (currently 22–25 systems per cycle) or the switcher channel (116 of 206 owners – 56% – already came from elsewhere, unprompted) move real money.
+3. **Discovery is substantially done.** Session, site visit, 27 photos, verified pricing, four Discover anchor drafts (D02, D03, D05, D06) – we enter with momentum and low cost-to-serve on Phase 1.
+4. **The franchise horizon** means the strategy work compounds: what we systemise now becomes the replicable playbook Justin needs in 10–12 years – and a strong JP case study either way.
 
 ## Engagement risks (candid)
 
@@ -53,21 +53,21 @@ The critical nuance from discovery: **this is not a strategy gap.** The founders
 **Recommended: 3D Process through Design, closing at CP2, with Deploy execution scoped separately once the roadmap is approved.**
 
 - **Discover (largely complete):** finalise D02/D03/D05/D06 with census data, produce D07 readout + D08 Gate 1 deck → **CP1 sign-off** on the Discover Summary.
-- **Design:** the Maxxim catalogue #23–64 — business plan through brand strategy, marketing plan, channel plans, and the brief pack — culminating in the Strategy Summary → **CP2 sign-off** and the Approved Roadmap.
-- **Deploy (subsequent engagement):** execution against the roadmap — the honest answer to the capacity constraint. Deliberately not priced or committed until CP2, so the client buys a roadmap they have already approved.
+- **Design:** the Maxxim catalogue #23–64 – business plan through brand strategy, marketing plan, channel plans, and the brief pack – culminating in the Strategy Summary → **CP2 sign-off** and the Approved Roadmap.
+- **Deploy (subsequent engagement):** execution against the roadmap – the honest answer to the capacity constraint. Deliberately not priced or committed until CP2, so the client buys a roadmap they have already approved.
 
 ## Open commercial questions
 
-1. Fees and payment structure for Discover–Design — fixed fee per phase vs single engagement fee; the client's loss position argues for phase-gated commitment.
-2. Deploy model — retainer (fractional marketing team around Raef) vs project builds; raise at CP2, seed the expectation now.
-3. Who signs — Justin, Chris, or both? One name needed on the Proposal.
-4. IP and case-study rights — the franchise playbook angle makes Blueprint Extraction unusually valuable; secure case-study consent in the SOW.
+1. Fees and payment structure for Discover–Design – fixed fee per phase vs single engagement fee; the client’s loss position argues for phase-gated commitment.
+2. Deploy model – retainer (fractional marketing team around Raef) vs project builds; raise at CP2, seed the expectation now.
+3. Who signs – Justin, Chris, or both? One name needed on the Proposal.
+4. IP and case-study rights – the franchise playbook angle makes Blueprint Extraction unusually valuable; secure case-study consent in the SOW.
 5. Does the scope include creative production (photo/video/UGC direction implies shoots) or briefs only?
-6. Timeline pressure — next giveaway cycle and the booked September Brazilian night are natural deadlines; do we anchor Design delivery to either?
+6. Timeline pressure – next giveaway cycle and the booked September Brazilian night are natural deadlines; do we anchor Design delivery to either?
 
 ## Assumptions & open items
 
-- Segment percentages, census detail, membership pricing, paddle price, and competitor identity all carry the pending flags from D06 — nothing here relies on them resolving a particular way.
+- Segment percentages, census detail, membership pricing, paddle price, and competitor identity all carry the pending flags from D06 – nothing here relies on them resolving a particular way.
 - "Loss-making" is founder-stated; no P&L has been sighted.
 - Franchise ambition (10–12 years) is founder intent, not a plan.
 

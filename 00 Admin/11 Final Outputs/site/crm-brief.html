@@ -652,7 +652,7 @@ body {
 <tbody>
 <tr>
 <td><strong>Document</strong></td>
-<td>CRM Brief — catalogue #58</td>
+<td>CRM Brief – catalogue #58</td>
 </tr>
 <tr>
 <td><strong>Engagement</strong></td>
@@ -664,7 +664,7 @@ body {
 </tr>
 <tr>
 <td><strong>Status</strong></td>
-<td>Draft v01 — Internal</td>
+<td>Draft v01 – Internal</td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
@@ -677,9 +677,9 @@ body {
 </tbody>
 </table></div>
 <blockquote>
-<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
+<p><strong>Evidence note (19 Aug 2026).</strong> Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read <code>20A Evidence Reconciliation</code> before citing anything here.</p>
 </blockquote>
-<p><em>Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
+<p><em>Pre-CP1 draft – produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.</em></p>
 <hr />
 <h3>The job</h3>
 <p>Complete the GoTab (POS) → Fishbowl (CRM) integration and stand up the lifecycle engine on top of it. This is the single highest-leverage build in the programme: every month it slips, retention stays a hand-sent monthly SMS and the warm list of 206 owners / 96–113 active leaks refill revenue. It gates #57 Sequence 2 and the #56 scale-up (see critical path, #61).</p>
@@ -746,14 +746,14 @@ body {
 </tbody>
 </table></div>
 <h3>Required fields</h3>
-<p>customer_id · name · mobile · email · suburb/postcode · consent status/date/source · segment self-select (backyard/shed/office/club) · <strong>own_system_elsewhere (Y/N)</strong> — the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.</p>
+<p>customer_id · name · mobile · email · suburb/postcode · consent status/date/source · segment self-select (backyard/shed/office/club) · <strong>own_system_elsewhere (Y/N)</strong> – the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.</p>
 <h3>Required views (Raef + founders, no analyst)</h3>
 <ol>
-<li><strong>Active count this week</strong> — the one number (#24 P6): actives, trend, vs the 96–113 → 1,000 path.</li>
-<li><strong>At-risk board</strong> — everyone at 60–90 days, last contact, next trigger due.</li>
-<li><strong>Switcher intake</strong> — new actives flagged own_system_elsewhere, monthly (target ~7–8/month).</li>
-<li><strong>Membership attach</strong> — memberships ÷ systems sold, monthly (target 60%).</li>
-<li><strong>Giveaway cohort</strong> — entrants by cycle: nurture stage, demo booked, purchased.</li>
+<li><strong>Active count this week</strong> – the one number (#24 P6): actives, trend, vs the 96–113 → 1,000 path.</li>
+<li><strong>At-risk board</strong> – everyone at 60–90 days, last contact, next trigger due.</li>
+<li><strong>Switcher intake</strong> – new actives flagged own_system_elsewhere, monthly (target ~7–8/month).</li>
+<li><strong>Membership attach</strong> – memberships ÷ systems sold, monthly (target 60%).</li>
+<li><strong>Giveaway cohort</strong> – entrants by cycle: nurture stage, demo booked, purchased.</li>
 </ol>
 <h3>Wholesale pipeline stages</h3>
 <p>Fixes the admitted DM-lead leakage. Simple pipeline, 48-hour first-follow-up SLA (#19 KR 3.4):</p>
@@ -762,16 +762,16 @@ body {
 <h3>Test plan</h3>
 <ol>
 <li><strong>Sync integrity:</strong> 20 known transactions posted in GoTab appear correctly attached in Fishbowl within the sync window; target 100% attach rate on new transactions (#19 KR 2.4).</li>
-<li><strong>Lifecycle maths:</strong> seed test customers at day 59/61/74/76/89/91; verify state transitions and that exactly the right triggers fire — and suppress on purchase.</li>
+<li><strong>Lifecycle maths:</strong> seed test customers at day 59/61/74/76/89/91; verify state transitions and that exactly the right triggers fire – and suppress on purchase.</li>
 <li><strong>End-to-end:</strong> website demo form → record → consent stored → test sequence send → unsubscribe honoured → state visible in views.</li>
-<li><strong>Backfill audit:</strong> historic customer base imported, last_keg_date computed, current active figure — 96 under the 45-day rule, ~113 under the 75-day — reconciled against the client's own count before go-live.</li>
+<li><strong>Backfill audit:</strong> historic customer base imported, last_keg_date computed, current active figure – 96 under the 45-day rule, ~113 under the 75-day – reconciled against the client’s own count before go-live.</li>
 <li><strong>Manual cutover:</strong> run manual SMS and automation in parallel for one cycle; then manual stops.</li>
 </ol>
 <h3>Success criteria</h3>
 <p>Integration live; triggers replacing manual SMS after one parallel cycle; the five views populated and used in the weekly review; wholesale pipeline holding every open lead with an SLA date.</p>
 <h3>Assumptions &amp; open items</h3>
 <ul>
-<li>GoTab/Fishbowl integration capability and timeline unconfirmed — the named production gate from D06. If it slips past Stage 1, triggers run semi-manually off exported lists (per #24).</li>
+<li>GoTab/Fishbowl integration capability and timeline unconfirmed – the named production gate from D06. If it slips past Stage 1, triggers run semi-manually off exported lists (per #24).</li>
 <li>Data ownership/API access, historic data quality, and Tap Tokens system-of-record [TBC].</li>
 <li>Winback suppression cadence and day-75 offer economics [TBC with client].</li>
 </ul>

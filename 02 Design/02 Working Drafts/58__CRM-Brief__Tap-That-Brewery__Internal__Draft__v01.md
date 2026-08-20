@@ -1,18 +1,18 @@
-# 58 — CRM Brief
+# 58 – CRM Brief
 ## Implementation brief: GoTab × Fishbowl lifecycle engine
 
 | | |
 |---|---|
-| **Document** | CRM Brief — catalogue #58 |
+| **Document** | CRM Brief – catalogue #58 |
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
-| **Status** | Draft v01 — Internal |
+| **Status** | Draft v01 – Internal |
 | **Date** | 19 August 2026 |
 | **Prepared by** | Jewell Projects |
 
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client's census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
+> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
-*Pre-CP1 draft — produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
+*Pre-CP1 draft – produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
 ---
 
@@ -41,15 +41,15 @@ Complete the GoTab (POS) → Fishbowl (CRM) integration and stand up the lifecyc
 
 ## Required fields
 
-customer_id · name · mobile · email · suburb/postcode · consent status/date/source · segment self-select (backyard/shed/office/club) · **own_system_elsewhere (Y/N)** — the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.
+customer_id · name · mobile · email · suburb/postcode · consent status/date/source · segment self-select (backyard/shed/office/club) · **own_system_elsewhere (Y/N)** – the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.
 
 ## Required views (Raef + founders, no analyst)
 
-1. **Active count this week** — the one number (#24 P6): actives, trend, vs the 96–113 → 1,000 path.
-2. **At-risk board** — everyone at 60–90 days, last contact, next trigger due.
-3. **Switcher intake** — new actives flagged own_system_elsewhere, monthly (target ~7–8/month).
-4. **Membership attach** — memberships ÷ systems sold, monthly (target 60%).
-5. **Giveaway cohort** — entrants by cycle: nurture stage, demo booked, purchased.
+1. **Active count this week** – the one number (#24 P6): actives, trend, vs the 96–113 → 1,000 path.
+2. **At-risk board** – everyone at 60–90 days, last contact, next trigger due.
+3. **Switcher intake** – new actives flagged own_system_elsewhere, monthly (target ~7–8/month).
+4. **Membership attach** – memberships ÷ systems sold, monthly (target 60%).
+5. **Giveaway cohort** – entrants by cycle: nurture stage, demo booked, purchased.
 
 ## Wholesale pipeline stages
 
@@ -62,9 +62,9 @@ Fields: venue name, style match (Japanese lager → Japanese restaurant etc.), d
 ## Test plan
 
 1. **Sync integrity:** 20 known transactions posted in GoTab appear correctly attached in Fishbowl within the sync window; target 100% attach rate on new transactions (#19 KR 2.4).
-2. **Lifecycle maths:** seed test customers at day 59/61/74/76/89/91; verify state transitions and that exactly the right triggers fire — and suppress on purchase.
+2. **Lifecycle maths:** seed test customers at day 59/61/74/76/89/91; verify state transitions and that exactly the right triggers fire – and suppress on purchase.
 3. **End-to-end:** website demo form → record → consent stored → test sequence send → unsubscribe honoured → state visible in views.
-4. **Backfill audit:** historic customer base imported, last_keg_date computed, current active figure — 96 under the 45-day rule, ~113 under the 75-day — reconciled against the client's own count before go-live.
+4. **Backfill audit:** historic customer base imported, last_keg_date computed, current active figure – 96 under the 45-day rule, ~113 under the 75-day – reconciled against the client’s own count before go-live.
 5. **Manual cutover:** run manual SMS and automation in parallel for one cycle; then manual stops.
 
 ## Success criteria
@@ -73,7 +73,7 @@ Integration live; triggers replacing manual SMS after one parallel cycle; the fi
 
 ## Assumptions & open items
 
-- GoTab/Fishbowl integration capability and timeline unconfirmed — the named production gate from D06. If it slips past Stage 1, triggers run semi-manually off exported lists (per #24).
+- GoTab/Fishbowl integration capability and timeline unconfirmed – the named production gate from D06. If it slips past Stage 1, triggers run semi-manually off exported lists (per #24).
 - Data ownership/API access, historic data quality, and Tap Tokens system-of-record [TBC].
 - Winback suppression cadence and day-75 offer economics [TBC with client].
 

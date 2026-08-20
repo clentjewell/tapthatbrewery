@@ -652,7 +652,7 @@ body {
 <tbody>
 <tr>
 <td><strong>Document</strong></td>
-<td>EDM Deployment — catalogue #69</td>
+<td>EDM Deployment – catalogue #69</td>
 </tr>
 <tr>
 <td><strong>Engagement</strong></td>
@@ -664,7 +664,7 @@ body {
 </tr>
 <tr>
 <td><strong>Status</strong></td>
-<td>Draft v01 — Internal</td>
+<td>Draft v01 – Internal</td>
 </tr>
 <tr>
 <td><strong>Date</strong></td>
@@ -680,10 +680,10 @@ body {
 </tr>
 </tbody>
 </table></div>
-<p><em>Pre-CP1/CP2 draft — Deploy runbooks are written ahead of both gates. Nothing here should be executed until the Design plan it descends from is approved.</em></p>
+<p><em>Pre-CP1/CP2 draft – Deploy runbooks are written ahead of both gates. Nothing here should be executed until the Design plan it descends from is approved.</em></p>
 <hr />
 <h3>The rule that governs every send</h3>
-<p>The client's own lifecycle plan sets it and it overrides house tone: <strong>never reference inactivity. Every message is a brewery update, not a "we miss you".</strong> A customer who hasn't refilled in 80 days did not decide to leave — 44% leakage among non-members is drift, not defection. The send that names the drift creates it.</p>
+<p>The client’s own lifecycle plan sets it and it overrides house tone: <strong>never reference inactivity. Every message is a brewery update, not a "we miss you".</strong> A customer who hasn’t refilled in 80 days did not decide to leave – 44% leakage among non-members is drift, not defection. The send that names the drift creates it.</p>
 <h3>What already runs, and must not be broken</h3>
 <p>Three lifecycle comms are live today and this build absorbs them rather than replacing them cold:</p>
 <div class="tw"><table>
@@ -698,7 +698,7 @@ body {
 <tr>
 <td>Stock email to all system owners</td>
 <td>Fortnightly</td>
-<td>Sequence 3 (refill cadence) — same content, now triggered per customer</td>
+<td>Sequence 3 (refill cadence) – same content, now triggered per customer</td>
 </tr>
 <tr>
 <td>At-risk nudge</td>
@@ -713,7 +713,7 @@ body {
 </tbody>
 </table></div>
 <p>Rule: the manual sends continue on their existing rhythm until the automated equivalent has passed two full cycles. No gap between the old and the new.</p>
-<h3>Phase 0 — Consent and list hygiene (blocking, week 1–2)</h3>
+<h3>Phase 0 – Consent and list hygiene (blocking, week 1–2)</h3>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -732,7 +732,7 @@ body {
 </tr>
 <tr>
 <td>0.2</td>
-<td>Classify consent per contact per channel — express, inferred, or none (Spam Act 2003)</td>
+<td>Classify consent per contact per channel – express, inferred, or none (Spam Act 2003)</td>
 <td>Jewell</td>
 <td>Consent column populated; "none" is suppressed, not mailed</td>
 </tr>
@@ -756,7 +756,7 @@ body {
 </tr>
 </tbody>
 </table></div>
-<h3>Phase 1 — Deliverability foundations (week 2, before any send)</h3>
+<h3>Phase 1 – Deliverability foundations (week 2, before any send)</h3>
 <p>This was missing from #47 and is not optional.</p>
 <div class="tw"><table>
 <thead>
@@ -784,7 +784,7 @@ body {
 </tr>
 <tr>
 <td><strong>Sending domain</strong></td>
-<td>Use a subdomain (e.g. <code>mail.</code>) so a marketing reputation problem can't take down transactional or business mail</td>
+<td>Use a subdomain (e.g. <code>mail.</code>) so a marketing reputation problem can’t take down transactional or business mail</td>
 <td>Jewell</td>
 </tr>
 <tr>
@@ -805,8 +805,8 @@ body {
 </tbody>
 </table></div>
 <p>Thresholds: bounce &gt;2% or spam complaints &gt;0.1% on any send <strong>stops the programme</strong> until diagnosed.</p>
-<h3>Phase 2 — Sequence build order</h3>
-<p>Built in this order because each one's data feeds the next.</p>
+<h3>Phase 2 – Sequence build order</h3>
+<p>Built in this order because each one’s data feeds the next.</p>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -836,7 +836,7 @@ body {
 <td>3</td>
 <td><strong>Refill cadence</strong></td>
 <td>~21–25 days since last fill</td>
-<td>"What's kegged &amp; ready" — replaces the fortnightly blast with a per-customer clock</td>
+<td>"What’s kegged &amp; ready" – replaces the fortnightly blast with a per-customer clock</td>
 <td>Week 5</td>
 </tr>
 <tr>
@@ -876,12 +876,12 @@ body {
 <tr>
 <td><strong>Stock-up buyers</strong></td>
 <td>2+ kegs per fill</td>
-<td>79% delivery interest — first to receive the delivery announcement</td>
+<td>79% delivery interest – first to receive the delivery announcement</td>
 </tr>
 <tr>
 <td><strong>Top-up buyers</strong></td>
 <td>≤1 keg</td>
-<td>40% delivery interest — no delivery push; cadence and range content instead</td>
+<td>40% delivery interest – no delivery push; cadence and range content instead</td>
 </tr>
 <tr>
 <td><strong>Weekend-only users</strong></td>
@@ -891,23 +891,23 @@ body {
 <tr>
 <td><strong>Members</strong></td>
 <td>Keg Crew / Mug Club</td>
-<td>18% leakage vs 44% — protect hard; renewal and tasting-night invites</td>
+<td>18% leakage vs 44% – protect hard; renewal and tasting-night invites</td>
 </tr>
 <tr>
 <td><strong>Non-members</strong></td>
 <td>Everyone else</td>
-<td>44% leakage — membership maths is the primary message, once the pricing is reconciled</td>
+<td>44% leakage – membership maths is the primary message, once the pricing is reconciled</td>
 </tr>
 </tbody>
 </table></div>
 <h3>Content standards</h3>
-<p>One job and one button per send. Taste and freshness lead (driver #1 at 2.19); cost is stated plainly and second (driver #2 at 2.75) — not buried. SMS reserved for day-75, winback and event-day only. Every send: unsubscribe that works, physical sender address, responsible-consumption footer, 18+ list.</p>
+<p>One job and one button per send. Taste and freshness lead (driver #1 at 2.19); cost is stated plainly and second (driver #2 at 2.75) – not buried. SMS reserved for day-75, winback and event-day only. Every send: unsubscribe that works, physical sender address, responsible-consumption footer, 18+ list.</p>
 <h3>Measurement hooks</h3>
 <p>Per sequence: delivery, open, click, and the conversion the sequence exists to cause. Programme-level into #26: refills triggered by sequence 3, at-risk saves by sequence 4, winbacks by sequence 5, and giveaway entrant → purchase against the 22–25 baseline.</p>
 <h3>Stop conditions</h3>
 <p>Bounce &gt;2%, complaints &gt;0.1%, any send referencing inactivity, or any membership price stated before reconciliation.</p>
 <h3>Dependencies</h3>
-<p>ESP selection (<strong>[TBC]</strong> — evaluate Fishbowl's own marketing module before buying a second tool) · domain DNS access · GoTab export · integration date (open item #4) · membership pricing (open item #2).</p>
+<p>ESP selection (<strong>[TBC]</strong> – evaluate Fishbowl’s own marketing module before buying a second tool) · domain DNS access · GoTab export · integration date (open item #4) · membership pricing (open item #2).</p>
 <p><em>Feeds into: #70 CRM Workflow Deployment, #75 Tracking Setup, #76 Optimisation Backlog.</em></p></div>
   <nav class="doc-nav"><a class="dn-btn prev" href="/paid-media-launch"><span>Previous</span><strong>Paid Media Launch</strong></a><a class="dn-btn next" href="/crm-workflow-deployment"><span>Next</span><strong>CRM Workflow Deployment</strong></a></nav>
 </article>
