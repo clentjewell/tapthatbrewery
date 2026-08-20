@@ -88,7 +88,7 @@ Direction observed and to be continued: **real venue, real customers, no stock g
 1. Don't redraw or restyle any logo mark — import and lock (36).
 2. Don't fight on sticker price in any branded material — per-litre maths only, and only in closing contexts.
 3. Don't let the brand skew "dads only" — the 27-tap, third-non-beer range is core identity; show it.
-4. Don't use binge cues — the brand line is fresher and better, never more (census: 70% of daily users pour 1–~1.55 kegs/month (census)).
+4. Don't use binge cues — the brand line is fresher and better, never more (census: 57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** — 57% of owners buy one keg or fewer (census)).
 5. Don't joke about responsibility, safety or money.
 6. Don't run conflicting collateral — the two live membership posters ($250/yr vs $300+$120 renewal) must be reconciled and one withdrawn.
 7. Don't add colours, fonts or sub-brands without a guidelines update.

@@ -14,13 +14,15 @@
 
 ## How these were derived
 
-These OKRs are not invented targets — each one is discovery arithmetic. The 400-active milestone assumes 1,000 remains the destination (timeframe unconfirmed, see #18) and asks what a credible year-one step looks like from 220. The key results are drawn from mechanisms discovery already validated: the switcher pool (50% of current refill customers bought hardware elsewhere), the giveaway engine (2×/yr, ~1,000 entries, 22–25 conversions at the 50%-off close), the 75/90-day lifecycle rules, and the expansion offers with no competitor (Benchy) or proven interest (clubs, delivery). Baselines marked *TBC* need GoTab/census data before targets lock.
+These OKRs are not invented targets — each one is discovery arithmetic. The 400-active milestone assumes 1,000 remains the destination (timeframe unconfirmed, see #18) and asks what a credible year-one step looks like from 96–113. The key results are drawn from mechanisms discovery already validated: the switcher pool (116 of 206 owners — 56% — bought their hardware elsewhere), the giveaway engine (2×/yr, ~1,000 entries, 22–25 conversions at the 50%-off close), the 75/90-day lifecycle rules, and the expansion offers with no competitor (Benchy) or proven interest (clubs, delivery). Baselines marked *TBC* need GoTab/census data before targets lock.
 
 **Every number below is a proposal.** Founders confirm, revise, or reject at the Gate 1 readout.
 
 ---
 
-## O1 — Grow active refill customers from 220 to 400
+## O1 — Grow active refill customers from the corrected 96–113 base
+
+> **Milestone rebasing required.** The 400 figure was derived from a 220 baseline that the client's own records replaced. Held against 96–113, a comparable year-one step is roughly **200–230**. Confirm with the founders once the active-customer definition is settled (open item #11) — the number below is the old one, left visible rather than silently rescaled.
 
 *The engine objective. "Active" = keg purchase within 75 days (the #18 definition). 400 actives ≈ $960K annualised refill revenue at ~$200/month — roughly 40% of the way to the $2.6M target state.*
 

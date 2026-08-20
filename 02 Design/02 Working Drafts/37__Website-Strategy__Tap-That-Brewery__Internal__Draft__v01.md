@@ -24,7 +24,7 @@ The current tapthatbrewery.com.au has not been audited — every claim about wha
 
 ## Conversion goals, ranked
 
-Ranking follows the buying cycle, not revenue proximity: because only ~10% buy within a month, **capturing the undecided beats converting the decided** as the site's first job.
+Ranking follows the buying cycle, not revenue proximity: because 43% take three months or more and only 34% buy inside one, **capturing the undecided beats converting the decided** as the site's first job.
 
 | # | Goal | Mechanism | Why this rank |
 |---|---|---|---|
@@ -39,7 +39,7 @@ Ranking follows the buying cycle, not revenue proximity: because only ~10% buy w
 | Visitor | Arrives via | First page they should hit | Path to goal |
 |---|---|---|---|
 | Considering a system (segments 1–4) | Social, giveaway, word of mouth, brand search | Home → Keg Systems | Objection content → giveaway entry (goal 1) → demo (goal 2) |
-| **Existing keg system owner, bought elsewhere** | "keg refills Gold Coast"-type search, drive-past | **We Fill Any System** | Straight to refill ordering (goal 3) — no $975 objection, no partner veto, no 3-month cycle. 50% of current refill customers arrived this way with zero targeted effort |
+| **Existing keg system owner, bought elsewhere** | "keg refills Gold Coast"-type search, drive-past | **We Fill Any System** | Straight to refill ordering (goal 3) — no $975 objection, no partner veto, no 3-month cycle. 116 of 206 owners (56%) arrived this way with zero targeted effort |
 | Current customer | Direct, SMS/email links | Refills & Beer Range (tap list) | Reorder, membership, referrals (1,000 tokens per system referral) |
 | Partner / veto-holder | Sent the link ("look what I want to buy") | Range page — the non-beer third | Approval, not purchase: seltzers, gin sours, cocktails on tap; gluten-reduced/lower-carb angle |
 | Outdoor/4WD buyer | Benchy content, partner channels | Benchy page | Enquiry/waitlist — no competitor exists in this lane |
@@ -58,7 +58,7 @@ The site's content is not a blog for its own sake — it is the digital version 
 | Upfront cost (~$975) | At-cost hardware explained; per-litre maths (~$275 equivalent vs ~$500 wholesale 50L); Afterpay/Zip; lease-to-buy when live |
 | "My wife won't let me" | The non-beer third of the tap wall, front and centre; "what's on tap for her" content |
 | Nowhere to put it | Footprint/space content, system size guide, integrated options |
-| "I'll drink too much" | Census stat: 70% of daily users go through only 1–~1.55 kegs/month (census) — moderation, freshness, not volume |
+| "I'll drink too much" | Census stat: 57% pour daily or most days, yet average just ~1.55 kegs a month (census) — moderation, freshness, not volume |
 
 Kudos/connection lead the creative; cost closes (Christy's working rule). Detail per page in #39; search mapping in #40.
 

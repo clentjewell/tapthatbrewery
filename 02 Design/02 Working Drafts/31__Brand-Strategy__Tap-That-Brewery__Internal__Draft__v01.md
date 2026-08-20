@@ -40,11 +40,13 @@ The pillars are already printed on in-venue collateral (Cost – Convenience –
 
 High-volume drinkers are the single exception where cost opens honestly — do the 44-schooners-per-20L maths for them and stop there.
 
-## The cost doctrine: the dirty little secret
+## The cost doctrine: second, not secret
 
-Adopted from discovery (Christy's reframe, endorsed in D06): **cost is the customer's dirty little secret.** Status and connection do the buying; the savings justify it afterwards — to the partner, to themselves. Operationally:
+> **This section was rewritten after the census.** It originally read "the dirty little secret" — cost hidden, status and connection doing the buying. The client's own data inverts that: 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. Cost is not the secret; it is the runner-up, and hiding it costs sales.
 
-- **Cost never opens** creative (except the high-volume lane). Kudos and connection open; cost appears in retargeting, follow-up and the close (the 50%-off giveaway close already proves this — it converted 22–25 systems as a *closer*, not an opener).
+Operationally:
+
+- **Cost runs in the open**, alongside taste rather than behind it. It still does not *lead* — taste and freshness do, at 2.19 — but at 2.75 it is far too strong to hold back for retargeting. The 50%-off giveaway close converts 22–25 systems as a closer; that is evidence cost closes well, not evidence it cannot open.
 - **Cost is framed per litre, never per keg.** Against retail and pubs the maths is unassailable (~$275 equivalent vs ~$500 for a wholesaler's 50L of Balter; no excise, no wholesaler margin). Against the keg rivals ($85–90 across the road vs Tap That Brewery's $120–170) the sticker fight is unwinnable and is never entered.
 - **Cost copy is private-voiced**, written as the thing you tell yourself: "cheaper than a night out, and nobody needs a babysitter" — not "CHEAP KEGS."
 
@@ -61,7 +63,7 @@ The blend matters: Jester alone would undercut the $975 trust decision and the a
 
 1. **A discount keg swap.** The moment Tap That Brewery fights Aardvark & Arrow* on sticker price it forfeits the award, the range and the club — and loses anyway at $120 vs $85. Price-led lead creative is a strategy violation.
 2. **A dad-only brand.** Young families are ~45% of the market but the guardrail from D02 holds: Tap That Brewery is good times for everyone. One third of 27 taps are deliberately non-beer for the partner/veto-holder; creative that reads as "beer dads only" wastes that engineering and hardens the #1 objection.
-3. **A binge brand.** The census counters it (70% of daily users pour only 1–~1.55 kegs/month (census)) and the social responsibility commitments (drink-driving and DFV programs) require it: the promise is *fresher and better, never more*.
+3. **A binge brand.** The census counters it (57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** — 57% of owners buy one keg or fewer (census)) and the social responsibility commitments (drink-driving and DFV programs) require it: the promise is *fresher and better, never more*.
 4. **A craft-brewery brand.** Tap That Brewery competes in the home-tap category (#10). Becoming "another Burleigh craft taproom" re-enters the most crowded fight on the Gold Coast and abandons the one nobody owns.
 
 ## Credibility assets (deploy, don't hoard)

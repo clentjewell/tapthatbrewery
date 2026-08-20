@@ -32,7 +32,7 @@ Tap That Brewery must refuse the frame it superficially fits. As a craft brewery
 
 | POD | Evidence |
 |---|---|
-| **Fills any system** | ~50% of current refill customers bought hardware elsewhere and switched — with zero targeted effort |
+| **Fills any system** | 116 of 206 owners (56%) bought hardware elsewhere and switched — with zero targeted effort |
 | **Brewed-here freshness in 20L** | On-site brewhouse; 20L format vs industry 50L; corny kegs dropped COB Tuesday, ready Friday |
 | **Award-backed quality** | Midnight in Tokyo — Brewer's Choice at Crafted, first year entering |
 | **A range for the whole household** | 27 taps, ~1/3 deliberately non-beer (seltzers, RTDs, cocktails, ginger beer) — the partner-veto answer built into the product |

@@ -18,7 +18,7 @@ Discovery's core finding: the constraint is **execution capacity, not strategy**
 
 ## P1 — Refill acquisition, switchers first
 
-**Why now.** 50% of current refill customers bought their hardware elsewhere and switched with zero targeted effort — the cheapest acquisition available (no $975 hardware giveaway required, no 3-month buying cycle). Nobody on the Gold Coast owns the installed base of existing keg systems; Aardvark & Arrow* and Laughing Lizard sell kegs, not the relationship.
+**Why now.** 116 of 206 owners (56%) bought their hardware elsewhere and switched with zero targeted effort — the cheapest acquisition available (no $975 hardware giveaway required, no 3-month buying cycle). Nobody on the Gold Coast owns the installed base of existing keg systems; Aardvark & Arrow* and Laughing Lizard sell kegs, not the relationship.
 **What changes.** A standing "we fill any system" campaign lane: dedicated landing page, Meta targeting of keg-owner behaviours, referral hook (500 Tap Tokens per refill referral already exists on the wall — put it online). First-fill offer priced against the $85–90 local kegs without discounting the range (H1 test).
 **What we stop.** Treating every new active as someone who must first be sold a system.
 

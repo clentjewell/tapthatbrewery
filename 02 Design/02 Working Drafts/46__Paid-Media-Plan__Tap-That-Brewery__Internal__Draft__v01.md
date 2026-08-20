@@ -25,17 +25,17 @@ The business is loss-making and has never run structured paid media. This plan i
 | Channel | Role | Why it earns a place |
 |---|---|---|
 | **Meta (FB/IG)** | Demand creation + nurture. Amplify the two proven mechanics: giveaway entries (~1,000/round organic today) and the 90-day consideration window (60% take up to 3 months) | The segments live here; @tapthatbreweryandkeghouse creative already exists via Raef; retargeting is the only paid way to manage a 3-month cycle |
-| **Google Search** | Demand capture only. High-intent keg terms, geo-fenced Gold Coast | Someone typing "keg refill Gold Coast" or "kegerator refill near me" is a switcher — the cheapest customer in the model (50% of refill customers already arrived this way unaided) |
+| **Google Search** | Demand capture only. High-intent keg terms, geo-fenced Gold Coast | Someone typing "keg refill Gold Coast" or "kegerator refill near me" is a switcher — the cheapest customer in the model (56% of owners already arrived this way unaided) |
 
 Nothing else. No TikTok, no YouTube, no display, no Spotify — not because they can't work, but because a ~70%-allocation marketer cannot feed three channels and the first two map directly to proven mechanics.
 
 ## Meta — audience × creative matrix
 
-Working rule from discovery (Christy): cost is the customer's dirty little secret — **kudos/connection lead the creative; cost closes in retargeting.**
+Working rule, **corrected by the census**: the discovery read had cost as the customer's dirty little secret. Ranked drivers say otherwise — 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. **Taste and freshness lead the creative; cost runs in the open feed as well as the close; connection is a retention argument.**
 
 | Audience | Targeting construction | Cold creative (kudos/connection) | Retargeting creative (cost closes) |
 |---|---|---|---|
-| Young families (~45%) | GC geo, 28–45, parents; lookalike of refill customers once GoTab/Fishbowl export exists | "Your place becomes the default" — backyard hosting, her taps too (seltzers, gin fizz sour on tap) | "Cheaper than one night out with a sitter" + Afterpay/Zip; census stat (70% of daily users pour only 1–~1.55 kegs/month (census)) for the veto-holder |
+| Young families (~45%) | GC geo, 28–45, parents; lookalike of refill customers once GoTab/Fishbowl export exists | "Your place becomes the default" — backyard hosting, her taps too (seltzers, gin fizz sour on tap) | "Cheaper than one night out with a sitter" + Afterpay/Zip; census stat (57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** — 57% of owners buy one keg or fewer (census)) for the veto-holder |
 | Cashed-up tradies (~20%) | GC geo, 25–45, trade/4WD/outdoor interests | The install and the mates' reaction — esky to envy; Benchy for the 4WD build | 4-tap $1,950 / 6-tap $2,550 at cost, Afterpay/Zip; "$40–$100 bonus credit" |
 | High-volume drinkers (~20%) | GC geo, beer interests, bottle-shop engagers | **Exception segment: maths leads openly.** 44 schooners per 20L keg from $120 (member) | Same maths, plus membership ($30 off every refill) |
 | Switchers (behavioural) | GC geo, kegerator/homebrew interest + engagers with "we fill any system" content | "We fill any system — whoever sold it to you." Freshness, 27-tap range | Member refill pricing vs current supplier; corny Tue-drop/Fri-ready service |

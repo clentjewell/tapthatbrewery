@@ -131,7 +131,7 @@ These appear as flagged caveats throughout the documents. Closing them is the fa
 
 | # | Item | Owner | Blocks |
 |---|---|---|---|
-| 1 | ~~Census data + supporting business docs~~ | — | **CLOSED 19 Aug** — received, reconciled in #20A. Corrections applied across 40 documents. |
+| 1 | ~~Census data + supporting business docs~~ | — | **CLOSED 19 Aug** — received and reconciled in #20A. Corrections **applied in place across 46 documents on 20 Aug**; the 19 Aug pass added the evidence-note banner but left most figures as drafted. |
 | 2 | Membership pricing reconciliation — two conflicting posters live in venue ($250/yr vs $300 + $120 renewal, different token bonuses) | Client | Every brief, the website Membership page, all collateral — the single most-cited blocker |
 | 3 | Competitor name verification — "Aardvark & Arrow" (handwritten) vs "Ardbach and Arrow" (transcript) | Jewell | Competitor content, comparison pages |
 | 4 | GoTab / Fishbowl integration date | Client | CRM Plan (#48), EDM automation (#47), lease-to-buy |

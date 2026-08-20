@@ -21,7 +21,7 @@ Segments ranked by commercial attractiveness for the keg system → refill model
 - **Pain:** the weekly bottle-shop spend is genuinely painful at their volume; pub prices worse.
 - **Before → after:** from $100+ weekends to ~$120–170 per 20L keg (44 schooners) at home.
 - **Message emphasis:** the one segment where **cost + convenience should lead openly**. Do the maths for them.
-- **Watch-out:** the census counters the excess narrative (70% daily users drink only 1–~1.55 kegs/month (census)) — market moderation-friendly ("fresher, better, not more").
+- **Watch-out:** the census counters the excess narrative (70% daily users drink only ~1.55 kegs a month (census)) — market moderation-friendly ("fresher, better, not more").
 
 ## 3. Cashed-up tradies (~20%) — the kudos build
 
@@ -51,7 +51,7 @@ Explicitly engineered for in the tap range (1/3 non-beer: seltzers, RTDs, gin so
 
 ## The other funnel: pre-existing keg system owners
 
-Not a demographic — a **behavioural** segment, and the cheapest acquisition available: owners of any brand of system who need refills. 50% of current refill customers already came this way organically, with zero targeted effort. "We fill any system" deserves its own campaign lane.
+Not a demographic — a **behavioural** segment, and the cheapest acquisition available: owners of any brand of system who need refills. 116 of 206 owners (56%) already came this way organically, with zero targeted effort. "We fill any system" deserves its own campaign lane.
 
 ---
 

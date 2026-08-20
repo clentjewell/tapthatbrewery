@@ -18,7 +18,7 @@
 
 ## Purpose
 
-Discover named the segments (#05, D02); this document arms them. Each profile is built to be lifted straight into creative briefs: the pain the creative dramatises, the gain it promises, the proof Tap That Brewery already owns, and the single message that opens the conversation. The working rule throughout, per Christy's discovery reframe: **cost is the customer's dirty little secret — kudos/connection lead, cost closes.** Share estimates are the client's own and overlap deliberately.
+Discover named the segments (#05, D02); this document arms them. Each profile is built to be lifted straight into creative briefs: the pain the creative dramatises, the gain it promises, the proof Tap That Brewery already owns, and the single message that opens the conversation. The working rule throughout — **corrected by the census**. The discovery reframe (cost as the customer's dirty little secret, kudos/connection leading) does not survive the ranked drivers: 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. Taste leads; cost states itself second; connection holds customers rather than winning them. Share estimates are the client's own and overlap deliberately.
 
 ## 1. Young families (~45%) — the lead profile
 
@@ -28,7 +28,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 |---|---|
 | **Pains** | A night out costs a babysitter plus Burleigh prices before the first schooner; hosting means carting warm slabs, esky clutter and a fridge full of half-drunk mixers; social life is shrinking to logistics. |
 | **Gains** | Their place becomes the default — beer on tap for the mates, seltzers and Strawberry Gin Fizz for the partners, kids asleep upstairs, nobody drives home at 9:30pm to relieve the sitter. |
-| **Proof owned** | 27 taps with ~1/3 non-beer (partner buy-in engineered into the product); census (n=50): 70% of daily users pour only 1–~1.55 kegs/month (census) — a moderation story, not an excess story; $975 2-tap at cost with Afterpay/Zip; 20L kegs from $120 (member core) — cheaper than one babysat night out. |
+| **Proof owned** | 27 taps with ~1/3 non-beer (partner buy-in engineered into the product); census (n=50): 57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** — 57% of owners buy one keg or fewer (census) — a moderation story, not an excess story; $975 2-tap at cost with Afterpay/Zip; 20L kegs from $120 (member core) — cheaper than one babysat night out. |
 | **Opening message** | *"Your place just became the place."* Connection leads; the cost-per-night-out maths arrives later, in retargeting, as the quiet justification. |
 
 *Guardrail (carried from D02): this segment must not turn Tap That Brewery into "the dad brand."*
@@ -74,7 +74,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 |---|---|
 | **Pains (hers)** | A $975 toy that turns the garage into a pub; more drinking, more mess, nothing in it for her. |
 | **Gains (hers)** | A third of the taps are hers — seltzers, Strawberry Gin Fizz, Ranch Water, ginger beer, mojitos on tap; hosting gets easier, not boozier; the household saves against nights out. |
-| **Proof owned** | ~9 of 27 taps non-beer by design (photo-verified tap wall); census moderation data (70% of daily users, 1–~1.55 kegs/month (census)) directly answers "you'll drink too much"; gluten-reduced / lower-carb range is held ammunition, unclaimed by any competitor. |
+| **Proof owned** | ~9 of 27 taps non-beer by design (photo-verified tap wall); census moderation data (57% pour daily or most days, yet average just ~1.55 kegs a month (census)) directly answers "you'll drink too much"; gluten-reduced / lower-carb range is held ammunition, unclaimed by any competitor. |
 | **Message beat** | Every campaign to profiles 1, 3 and 4 carries a *"and here's what's on tap for her"* beat. She is never the target of the ad; she is always in the room when it lands. |
 
 ## How the profiles rank for spend

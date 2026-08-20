@@ -22,7 +22,7 @@ Produce four collateral kits, in this order. Kit 4 (in-venue fix) ships **immedi
 
 - Existing logo and **green/gold** identity — no rebrand, no new marks.
 - Voice: cheeky, pun-forward, effort-free Aussie warmth ("Tap That Knockoffs", "Skittle Me This", "5 ways to support us — total $0.00"). No craft-beer pretension, no stock-photo gloss (photography per #54).
-- Working creative rule: **kudos/connection lead, cost closes** — price maths appears on close-stage pieces only, except high-volume-drinker assets where cost may lead.
+- Working creative rule: **taste and freshness lead, cost states itself plainly** — the census ranks taste **2.19** and cost **2.75**, so price maths belongs on open-feed pieces, not held for the close. Connection (**3.61**) is a retention argument.
 - All prices from the reconciled price list (Kit 4 output). Claims discipline: gluten-*reduced* never gluten-free; "Australia's biggest beer festival" unverified — use "Brewer's Choice at Crafted" until confirmed.
 
 ## Kit 1 — Switcher campaign: "We Fill Any System"

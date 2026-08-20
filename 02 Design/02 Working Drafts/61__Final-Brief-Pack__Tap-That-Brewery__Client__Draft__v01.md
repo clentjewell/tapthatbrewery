@@ -18,7 +18,7 @@
 
 ## What this pack is
 
-Nine execution briefs turn the Design-phase strategy (220 → 1,000 active keg customers; the switcher lane, the lifecycle engine, the funnel the venue already proves) into makeable work. This page is the index, the order of operations, and the sign-off. Owners marked [TBC] are assigned at CP1 — the capacity reality (Raef at ~70% marketing) means most builds are Jewell-led or contracted, with Raef owning ongoing operation.
+Ten execution briefs turn the Design-phase strategy (96–113 → 1,000 active keg customers; the switcher lane, the lifecycle engine, the funnel the venue already proves) into makeable work. This page is the index, the order of operations, and the sign-off. Owners marked [TBC] are assigned at CP1 — the capacity reality (Raef at ~70% marketing) means most builds are Jewell-led or contracted, with Raef owning ongoing operation.
 
 ## The briefs
 

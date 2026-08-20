@@ -16,13 +16,13 @@
 
 ## The job social does here
 
-Social is not a brand-awareness hobby — it is the top of the refill funnel and the nurture layer for a 3-month buying cycle (~60% of buyers take up to 3 months, only ~10% buy within a month). Every post either recruits a future system owner, nurtures one who's considering, or reminds an existing owner to refill. The whole strategy is sized for one operator: Raef, at ~70% marketing allocation, who also covers bar shifts. If a tactic needs more than ~6–8 hours a week, it is not in this plan.
+Social is not a brand-awareness hobby — it is the top of the refill funnel and the nurture layer for a 3-month buying cycle (**43% take 3+ months**; 34% buy inside a month — 10% immediately plus 24% within it). Every post either recruits a future system owner, nurtures one who's considering, or reminds an existing owner to refill. The whole strategy is sized for one operator: Raef, at ~70% marketing allocation, who also covers bar shifts. If a tactic needs more than ~6–8 hours a week, it is not in this plan.
 
 ## Platforms: where, and where not
 
 | Platform | Role | Rationale |
 |---|---|---|
-| **Instagram** (@tapthatbreweryandkeghouse) | Primary — reach + UGC engine | Where young families (~45%), tradies (~20%) and DINKs live; Reels carry the build/pour/venue content; already Buffer-ready |
+| **Instagram** (@tapthatbreweryandkeghouse) | Primary — reach + UGC engine | Reach skews younger than the base, so it carries the build/pour/venue content — note the census shows only **22% of owners are under 40** and no occupational data exists, so the old "young families / tradies" split is unsupported; already Buffer-ready |
 | **Facebook** (same handle) | Primary — community + conversion | Boomers (~20%) and local community groups; event listings (Brazilian nights, functions); giveaway entry sharing; Marketplace-adjacent local intent |
 | **Google Business Profile** | Maintain (local SEO, covered in #43) | Reviews and "keg refill near me" — posting is a monthly copy-paste, not a channel |
 | **TikTok** | **Skip for now** | Time-hungry, younger skew raises ABAC audience-age risk, and no paid alcohol support in AU. Revisit only if a UGC clip organically demands it |
@@ -31,7 +31,7 @@ Social is not a brand-awareness hobby — it is the top of the refill funnel and
 
 ## Content pillars (mapped to brand pillars)
 
-Five pillars, matching the brand architecture. Working ratio across a month: roughly 2 : 1 : 1 : 1 : 1 — connection leads, cost closes (Christy's rule: cost is the customer's "dirty little secret").
+Five pillars, matching the brand architecture. Working ratio across a month: roughly 2 : 1 : 1 : 1 : 1. Taste and freshness lead the argument (census driver #1 at **2.19**); cost runs in the open rather than waiting for retargeting (**2.75**, second); connection carries retention rather than the sale (**3.61**).
 
 | Content pillar | Brand pillar | What it looks like |
 |---|---|---|
@@ -46,7 +46,7 @@ Five pillars, matching the brand architecture. Working ratio across a month: rou
 1. **Pun-forward, never smug.** The house voice is already on the walls: "Tap That Knockoffs", "Skittle Me This", "Slice Spice Baby". Write like the venue signs, not like an ad agency.
 2. **Cost never opens.** Kudos and connection do the buying; per-litre maths appears in comments, captions' second half, and retargeting — not headlines.
 3. **Aussie warmth, zero gatekeeping.** The "5 ways to support us — total $0.00" energy: generous, self-aware, community-first.
-4. **Moderation is on-brand, not a disclaimer.** "Fresher, better — not more." The census line (70% of daily users pour only 1–2 kegs a month) is a brag, not a caveat.
+4. **Moderation is on-brand, not a disclaimer.** "Fresher, better — not more." The census line (57% of owners who pour daily or most days pour only 1–2 kegs a month) is a brag, not a caveat.
 5. **Specifics over adjectives.** "44 schooners in a 20L keg" beats "great value". Real tap names, real prices, real customers.
 
 ## The UGC engine (real customers, not owners)
@@ -62,7 +62,7 @@ Discovery named it directly: UGC from real customers is identified but under-exe
 
 ## Giveaway amplification (2×/yr, the proven engine)
 
-The giveaway is the biggest organic moment the brand has (~1,000 entries/cycle, 50%-off close converting 22–25 systems). Social's job per cycle: launch post + weekly countdown stories + share-to-enter mechanics on Facebook + entrant UGC prompts + a filmed winner install (which seeds pillar 4 for the next quarter) + the close-offer push to non-winners. Full campaign design in #43.
+The giveaway is the brand's biggest organic *moment* — though only the fifth acquisition channel at 10%, behind taproom 22%, Google 20%, referral 18% and social 16% (~1,000 entries/cycle, 50%-off close converting 22–25 systems). Social's job per cycle: launch post + weekly countdown stories + share-to-enter mechanics on Facebook + entrant UGC prompts + a filmed winner install (which seeds pillar 4 for the next quarter) + the close-offer push to non-winners. Full campaign design in #43.
 
 ## Cadence — sized for Raef
 

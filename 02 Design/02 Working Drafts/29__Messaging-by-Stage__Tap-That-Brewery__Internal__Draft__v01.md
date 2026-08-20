@@ -1,5 +1,5 @@
 # 29 — Messaging by Stage
-## What Tap That Brewery says at each journey stage — kudos/connection lead, cost closes
+## What Tap That Brewery says at each journey stage — taste leads, cost states itself
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@
 
 ## Purpose
 
-The words for each stage of #28's journey, governed by one rule from discovery (Christy, adopted in D06): **cost is the customer's dirty little secret — kudos and connection do the buying, savings justify it afterwards.** Cost closes; it never opens — except for high-volume drinkers, the one profile where the maths leads openly. Voice throughout is the one already on Tap That Brewery's walls: cheeky, pun-forward, warm ("Tap That Knockoffs", "Skittle Me This", "5 ways to support us — total $0.00"). Sample lines are drafts in that voice, for testing, not final copy.
+The words for each stage of #28's journey. The rule this document was originally built on came from the discovery session (Christy, adopted in D06): *cost is the customer's dirty little secret — kudos and connection do the buying.* **The census inverted it.** Ranked drivers: 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. So: **taste and freshness lead, cost states itself plainly and second, and connection and kudos hold customers rather than win them.** The stage copy below still follows the superseded order in places and is flagged for rework at CP1 — the ranking changed after it was drafted. Voice throughout is the one already on Tap That Brewery's walls: cheeky, pun-forward, warm ("Tap That Knockoffs", "Skittle Me This", "5 ways to support us — total $0.00"). Sample lines are drafts in that voice, for testing, not final copy.
 
 ## Awareness — hooks (kudos/connection only; no prices)
 

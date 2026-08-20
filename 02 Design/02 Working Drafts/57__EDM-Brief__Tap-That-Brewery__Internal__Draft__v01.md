@@ -29,7 +29,7 @@ The proven engine, currently unnurtured: ~1,000 entries/cycle, 50%-off close con
 | 1 | Entry +0 | Confirmation + "while you wait" venue invite (tasting paddle) | Get them into the room where 20–30% convert |
 | 2 | +7d | Which-system chooser (2-tap $975 → 6-tap) + at-cost explanation | Educate |
 | 3 | +14d | Objection 1: partner veto → the 1/3 non-beer tap wall, her-drinks beat | Disarm |
-| 4 | +21d | Objection 2: "I'll drink too much" → census (70% of daily users, 1–~1.55 kegs/month (census)) + cost maths as quiet close | Disarm + justify |
+| 4 | +21d | Objection 2: "I'll drink too much" → census (57% pour daily or most days, yet average just ~1.55 kegs a month (census)) + cost maths as quiet close | Disarm + justify |
 | 5 | +28d | Real-customer story (UGC from #54) + demo booking CTA | Social proof |
 | 6 | Competition close | Winner announced + **50%-off offer, deadline explicit** | The close |
 | 7–8 | Close +7d/+14d | Offer reminders; final: Afterpay/Zip + lease-to-buy [if live] | Sweep |

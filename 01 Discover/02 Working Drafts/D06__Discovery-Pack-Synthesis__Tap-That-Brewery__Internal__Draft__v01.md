@@ -27,7 +27,7 @@ Pulls the discovery session, site visit, and in-venue evidence into one validate
 
 **Core commercial read.** Tap That Brewery's problem is not product, demand, or strategy — it is that a refill subscription business is being run with a hospitality venue's attention. The margin engine (refills) has 96–113 active of a targeted 1,000 customers, while the last 18 months of focus went to the taproom, which loses money and was only ever meant to be the shopfront.
 
-**Immediate opportunity.** Half of current refill customers bought their hardware elsewhere — the cheapest growth available is winning refills from the installed base of keg system owners across the Gold Coast, not creating new owners from scratch.
+**Immediate opportunity.** 116 of 206 owners (56%) bought their hardware elsewhere — the cheapest growth available is winning refills from the installed base of keg system owners across the Gold Coast, not creating new owners from scratch.
 
 **Key discrepancies caught on site.** Two membership posters with conflicting pricing ($300+renewal vs $250/yr) and token bonuses; tasting paddle signed $18 in print, $20 on screen; competitor name transcribed "Ardbach and Arrow" vs handwritten "Aardvark and Arrow." All flagged in *Validated vs pending*.
 
@@ -48,7 +48,7 @@ The problem is not awareness or offer quality — it is **allocation**. Every un
 - ~70% of corny keg customers have switched to the Talos kegs (no CO2, pick-up-and-go).
 - The taproom converts: 20–30% of visitors go on to buy a keg system. Giveaway competitions (2×/year, ~1,000 entries) plus the 50%-off close converted 22–25 systems last round.
 - Buying cycle is long: ~60% take up to 3 months, 40% longer, ~10% within a month.
-- The census (n=50): 70% use their system daily/most days but drink only 1–~1.55 kegs/month (census) — moderation, not excess.
+- The census (n=50): 57% use their system daily or most days, yet drink just ~1.55 kegs a month on average (census) — moderation, not excess.
 
 ## Business + model
 
@@ -72,7 +72,7 @@ Primary growth segments (client's own estimates, deliberately overlapping):
 
 Secondary: share houses, DINKs, workplaces, "cashed-up wankers" (status buyers). The **female market** is explicitly served through the tap range (1/3 non-beer: seltzers, RTDs, cocktails) — this is partner buy-in engineering, not an afterthought, and it directly answers the #1 stated objection ("my wife won't let me").
 
-**Christy's reframe (adopted as a working rule):** cost is the customer's *dirty little secret*. Status and connection do the buying; the savings justify it afterwards. Lead with kudos/connection in creative; let cost close in the follow-up.
+**Christy's reframe (adopted at the session, since superseded):** cost is the customer's *dirty little secret* — status and connection do the buying. **The census inverted this.** Ranked drivers: 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. Retained here as the record of what the session concluded; the operative rule is taste-leads. Original wording follows: lead with kudos/connection in creative; let cost close in the follow-up.
 
 ## Brand direction (confirmed signals, not yet a strategy)
 
@@ -112,7 +112,7 @@ The re-education pathway exists in-venue (taproom → demo → giveaway → 50% 
 
 ## Strategic hypotheses (to test in Design — proposed, not decided)
 
-- **H1 — Switcher campaign beats new-owner campaign on CAC.** 50% of refill customers already switched from elsewhere; a "we fill any system" offer aimed at existing owners should acquire refill customers materially cheaper than creating new system owners.
+- **H1 — Switcher campaign beats new-owner campaign on CAC.** 56% of owners (116 of 206) already switched from elsewhere; a "we fill any system" offer aimed at existing owners should acquire refill customers materially cheaper than creating new system owners.
 - **H2 — Kudos/connection-led creative outconverts cost-led creative**, with cost as the retargeting/close message (Christy's dirty-little-secret thesis).
 - **H3 — A structured 90-day nurture matched to the 3-month buying cycle** (demo → objection content → giveaway → 50% close) lifts giveaway-to-purchase conversion beyond the current 22–25 per cycle.
 - **H4 — Automated lifecycle messaging at 60/75/90 days** (pre-churn nudge before the window closes) recovers more revenue than the current post-churn $20 discount.

@@ -16,7 +16,7 @@
 
 With one marketer at ~70% capacity (#21, P1), the order of moves *is* the strategy. Two principles set the sequence:
 
-1. **Cheapest acquisition first.** Half of current refill customers already bought their hardware elsewhere and switched — proof that the Gold Coast's installed base of keg systems converts without a $975 hardware sale, a giveaway cycle, or a 3-month buying cycle. Nothing else in the plan acquires an active refill customer this cheaply.
+1. **Cheapest acquisition first.** 116 of your 206 owners (56%) already bought their hardware elsewhere and switched — proof that the Gold Coast's installed base of keg systems converts without a $975 hardware sale, a giveaway cycle, or a 3-month buying cycle. Nothing else in the plan acquires an active refill customer this cheaply.
 2. **Owned-list revenue second.** The at-risk and churned lists are customers the business already paid to acquire, lapsed rather than lost. Automating their recovery is the highest-margin revenue per hour of effort — but it waits on the GoTab/Fishbowl integration, so it slots second while the switcher campaign (which needs no new infrastructure) starts immediately.
 
 Everything harder — segment creative, new channels, club deals — comes after these two, because both compound while the harder work is built.
@@ -37,7 +37,7 @@ No Design-phase asset should be built on unreconciled inputs. Three gates, all a
 
 ### Move 1 — Switcher campaign first (Design month 1; live in month 2)
 
-**What:** the "we fill any system" offer to existing Gold Coast keg system owners — whoever sold them the hardware. Creative leads with kudos/connection per the working rule (cost is the customer's dirty little secret); the cost proof (~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler; no excise, no wholesaler margin) closes in follow-up. First-fill hook + Keg Crew attach at first refill.
+**What:** the "we fill any system" offer to existing Gold Coast keg system owners — whoever sold them the hardware. Creative leads with taste and freshness — the census's top driver at **2.19** — with the cost proof (~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler; no excise, no wholesaler margin) stated plainly alongside it rather than held back, because cost ranks **2.75**, second. First-fill hook + Keg Crew attach at first refill.
 
 **Why first:** validated demand (50% of the current book *are* switchers), no dependency on any pending integration, no hardware margin sacrifice, and it feeds OKR 1.1 from week one. Tests H1 and H2 simultaneously.
 

@@ -16,14 +16,14 @@
 
 ---
 
-Four phases, each gated by an active-customer milestone on the path 220 → 1,000. Sequencing follows #24: warm and cheap before cold and expensive; systems before spend. Capacity constraint throughout: Raef at ~70% marketing until revenue funds more.
+Four phases, each gated by an active-customer milestone on the path 96–113 → 1,000. Sequencing follows #24: warm and cheap before cold and expensive; systems before spend. Capacity constraint throughout: Raef at ~70% marketing until revenue funds more.
 
-## Phase 1 — Quick wins (months 0–3) · 220 → ~270 actives
+## Phase 1 — Quick wins (months 0–3) · from 96–113 · [rebase — derived from the superseded 220 baseline; see #20A and open item #11]
 
 | Move | Detail | Engine link |
 |---|---|---|
 | **Switcher offer live** | "We fill any system" — landing page, Meta ads, in-venue sign; first-fill hook priced to make crossing the road worth it against $85–90 rivals | Direct refill actives, no hardware giveaway |
-| **Giveaway nurture** | Next competition's ~1,000 entrants get a structured email/SMS sequence across the 3-month buying cycle (demo invite → objection content: census "1–~1.55 kegs/month (census)" stat, her-drinks-on-tap, Afterpay/Zip → 50%-off close) instead of one closing offer | Beat 22–25 systems/cycle |
+| **Giveaway nurture** | Next competition's ~1,000 entrants get a structured email/SMS sequence across the 3-month buying cycle (demo invite → objection content: census "~1.55 kegs a month" stat, her-drinks-on-tap, Afterpay/Zip → 50%-off close) instead of one closing offer | Beat 22–25 systems/cycle |
 | **Pricing hygiene** | Reconcile membership posters and paddle price; publish one price list | Unblocks all funnel copy |
 | **Semi-manual lifecycle** | Until integration lands: weekly export of 60/75/90-day lists; scheduled (not remembered) winback SMS incl. Marie's Pizza test | Stops the leak now |
 | **Referral surfacing** | Tap Tokens referral rewards (1,000/system, 500/refill) promoted digitally, not just on the wall | Cheapest word-of-mouth lever |

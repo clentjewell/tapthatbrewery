@@ -38,7 +38,7 @@ These are the six bottlenecks D06 named, now ranked by commercial consequence, e
 
 **The problem.** 18 months of drift pulled founder and marketer attention into the loss-making venue because it is visible, social, and always urgent. The unit that was meant to be the shopfront became the main character.
 
-**Commercial consequence.** Attention is the scarcest resource in the business (see P1); the taproom consumes it at hospitality returns while the refill engine — the actual margin — sits at 220 of 1,000 customers. Unchecked, the venue will keep winning attention by default.
+**Commercial consequence.** Attention is the scarcest resource in the business (see P1); the taproom consumes it at hospitality returns while the refill engine — the actual margin — sits at 96–113 of a 1,000 target. Unchecked, the venue will keep winning attention by default.
 
 **Solved looks like.** The taproom formally re-scoped as a funnel (#18): measured on visitor→owner conversion (currently 20–30%), operating within an agreed loss tolerance, with events/functions run to feed giveaway entries and demos. Test: the monthly review discusses taproom *conversion* before taproom *takings*.
 

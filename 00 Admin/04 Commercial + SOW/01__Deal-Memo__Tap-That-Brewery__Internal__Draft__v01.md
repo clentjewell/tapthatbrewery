@@ -33,7 +33,7 @@ The critical nuance from discovery: **this is not a strategy gap.** The founders
 ## Why Jewell Projects is a fit
 
 1. **They need sequencing and production, not ideation.** The 3D Process is exactly this: turn a validated diagnosis (D06 already drafted) into a strategy the client signs, then into briefs and assets a 0.7 FTE marketer can actually run.
-2. **The unit economics reward strategy work.** Every refill customer is ~$2,400/year of high-margin recurring revenue; small conversion gains on the giveaway funnel (currently 22–25 systems per cycle) or the switcher channel (50% of refill customers already came from elsewhere, unprompted) move real money.
+2. **The unit economics reward strategy work.** Every refill customer is ~$2,400/year of high-margin recurring revenue; small conversion gains on the giveaway funnel (currently 22–25 systems per cycle) or the switcher channel (116 of 206 owners — 56% — already came from elsewhere, unprompted) move real money.
 3. **Discovery is substantially done.** Session, site visit, 27 photos, verified pricing, four Discover anchor drafts (D02, D03, D05, D06) — we enter with momentum and low cost-to-serve on Phase 1.
 4. **The franchise horizon** means the strategy work compounds: what we systemise now becomes the replicable playbook Justin needs in 10–12 years — and a strong JP case study either way.
 

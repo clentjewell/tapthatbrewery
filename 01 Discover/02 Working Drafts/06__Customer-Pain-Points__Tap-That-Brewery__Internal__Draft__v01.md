@@ -42,7 +42,7 @@ Named in discovery as the recurring four; treated fully in document 07:
 1. "**A grand up front** is a lot for beer." (~$975)
 2. "**My wife won't let me.**" (the veto-holder overlay)
 3. "**Nowhere to put it.**" (space, rental, bench real estate)
-4. "**I don't trust myself — I'll drink too much.**" (countered by census: 70% of daily users go through only 1–~1.55 kegs/month (census))
+4. "**I don't trust myself — I'll drink too much.**" (countered by census: 57% pour daily or most days, yet average just ~1.55 kegs a month (census))
 
 ## Pains of the refill lifecycle (post-purchase)
 

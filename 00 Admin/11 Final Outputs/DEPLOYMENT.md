@@ -93,7 +93,9 @@ Not configured. To put this on a Jewell Projects domain, add it under the Pages 
 
 Cloudflare Pages resolves an extensionless path to its `.html` file, so `/paid-media-launch`
 serves `site/paid-media-launch.html`. The sidebar links use the extensionless form. Slugs are
-the Maxxim taxonomy slugs, so a document's URL matches its filename in `tap-that-brewery/memory/generated/`.
+the Maxxim taxonomy slugs, so a document's URL matches its filename in `tap-that-brewery/memory/generated/`. Three had drifted (`okrs`, `brand-copy-workbook`, `activation-plan`) and were realigned on 20 Aug — the taxonomy slug is canonical.
+
+An unknown path falls through to the landing page rather than a 404. Harmless for a gated client pack, but it means a typo'd URL looks like it worked.
 
 The pack was a single continuously-scrolling page until 20 August 2026. It is now one page per
 document: the largest page is ~45 KB against the old 712 KB, and a document's URL can be sent

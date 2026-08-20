@@ -58,8 +58,8 @@ Justin's stated ambition: **franchise the model on a 10–12 year horizon**, dra
 
 | Horizon | Measure | Today | Success |
 |---|---|---|---|
-| Engagement (12 mo) | Active keg customers (75-day rule) | 220 | Growth trajectory credibly toward 1,000 (interim target proposed in #19 OKRs: 400) |
-| Business (target state) | Active keg customers / refill revenue | 220 / ~$530K run-rate equivalent | 1,000 / ~$2.6M |
+| Engagement (12 mo) | Active keg customers (75-day rule) | ~113 | Growth trajectory credibly toward 1,000; the #19 interim milestone is being rebased from the corrected baseline |
+| Business (target state) | Active keg customers / refill revenue | ~113 / run-rate [rebase — derived from the superseded 220 baseline; see #20A and open item #11] | 1,000 / [rebase — derived from the superseded 220 baseline; see #20A and open item #11] |
 | Business | P&L | Loss-making | Profitable |
 | Business | Taproom | Judged on venue P&L | Judged on owner-conversion, within agreed loss tolerance |
 | Founder (10–12 yr) | Franchisability | Founder-dependent | Documented, replicable systems |

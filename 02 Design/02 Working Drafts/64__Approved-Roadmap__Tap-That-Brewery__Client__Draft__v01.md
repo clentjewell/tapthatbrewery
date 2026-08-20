@@ -16,7 +16,7 @@
 
 This is the execution view of the approved strategy (#63): quarter by quarter, workstream by workstream, with owners and dependencies. It activates on CP2 sign-off — until then every status reads Pending. Owner key: **R** = Raef · **J** = Jewell · **C** = Client-founders (Justin/Chris). Milestones are staging proposals from #23/#25, not commitments.
 
-## Q1 — Sep–Nov 2026 · Foundations + first campaigns · 220 → ~270 actives
+## Q1 — Sep–Nov 2026 · Foundations + first campaigns · from 96–113 · [rebase — derived from the superseded 220 baseline; see #20A and open item #11]
 
 | Workstream | What ships | Owner | Depends on | Status |
 |---|---|---|---|---|
@@ -63,7 +63,7 @@ This is the execution view of the approved strategy (#63): quarter by quarter, w
 
 | Checkpoint | Actives | Refill run-rate | Gate — do not proceed without |
 |---|---|---|---|
-| Today (Sep 2026) | 220 | ~$44k/mo | Baseline |
+| Today (Sep 2026) | **96–113** | [rebase — derived from the superseded 220 baseline; see #20A and open item #11] | Baseline |
 | End Q1 (Nov 2026) | ~270 | ~$54k/mo | Switcher lane converting; prices reconciled |
 | End Q2 (Feb 2027) | ~330 | ~$66k/mo | Automation live; churn ≤ baseline |
 | End Q4 (Aug 2027) | ~450 | ~$90k/mo | ≥2 expansion channels producing actives; playbook documented |

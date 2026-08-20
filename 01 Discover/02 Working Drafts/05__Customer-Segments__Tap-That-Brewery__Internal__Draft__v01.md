@@ -17,7 +17,7 @@
 
 Share estimates are the client's own, given in the discovery workshop, and are **deliberately overlapping — they do not sum to 100%**. A cashed-up tradie with young kids is counted twice, and that is the point: segments here are *message lenses*, not exclusive boxes. Every segment converges on the same commercial spine — system at cost ($975–$2,550) → ~$200/month in 20L refills — so ranking is by which lens produces refill customers fastest and cheapest, not by demographic size alone.
 
-Pillars: **Cost · Convenience · Connection · Kudos · Taste/Freshness.** Working rule from discovery (Christy): cost is the customer's *dirty little secret* — kudos/connection lead the creative, cost closes.
+Pillars: **Cost · Convenience · Connection · Kudos · Taste/Freshness.** Working rule **superseded by the census**: the discovery-session read (cost as the customer's *dirty little secret*, kudos/connection leading) is inverted by the ranked drivers — 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. Taste leads the creative; cost is stated plainly, second.
 
 ## Ranked demographic segments
 
@@ -38,7 +38,7 @@ On the Gold Coast this is the Burleigh–Palm Beach–Miami–Tugun belt: mortga
 
 ### 2. High-volume drinkers (~20%)
 
-The one segment where the maths leads openly: a 20L keg is 44 schooners for $120–$170 (member core $120) against a $100+ bottle-shop weekend. Convenience seals it — the drive to Dan Murphy's disappears. Watch-out: the census (n=50) shows 70% of daily users drink only 1–~1.55 kegs/month (census), so creative stays "fresher and cheaper, not more" — never a bulk-drinking pitch.
+The one segment where the maths leads openly: a 20L keg is 44 schooners for $120–$170 (member core $120) against a $100+ bottle-shop weekend. Convenience seals it — the drive to Dan Murphy's disappears. Watch-out: the census (n=50) shows 57% pour daily or most days, yet average just ~1.55 kegs a month (census), so creative stays "fresher and cheaper, not more" — never a bulk-drinking pitch.
 
 ### 3. Cashed-up tradies (~20%)
 
@@ -58,7 +58,7 @@ Not a purchase segment: the **approval audience** sitting across segments 1, 3 a
 
 ## Behavioural overlay 2 — pre-existing keg system owners
 
-The cheapest acquisition available and a segment defined by behaviour, not demography: anyone on the Gold Coast who already owns a keg system — whoever sold it to them — and needs it filled monthly. ~50% of current refill customers arrived this way *with zero targeted effort*, skipping the $975 objection, the partner veto and the 3-month cycle entirely and going straight to the ~$200/month margin engine. No competitor is building this relationship (D03: the category gap). "We fill any system" deserves its own always-on campaign lane, ranked in practice **above** every demographic segment on cost-per-refill-customer.
+The cheapest acquisition available and a segment defined by behaviour, not demography: anyone on the Gold Coast who already owns a keg system — whoever sold it to them — and needs it filled monthly. 116 of 206 owners (56%) arrived this way *with zero targeted effort*, skipping the $975 objection, the partner veto and the 3-month cycle entirely and going straight to the ~$200/month margin engine. No competitor is building this relationship (D03: the category gap). "We fill any system" deserves its own always-on campaign lane, ranked in practice **above** every demographic segment on cost-per-refill-customer.
 
 ## Assumptions & open items
 

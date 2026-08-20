@@ -48,7 +48,7 @@ Built for retargeting and the nurture sequence, matched to the four purchase-blo
 | "A grand up front" | **The cost calculator**: interactive per-litre maths — 20L keg = 44 schooners; ~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler; no excise, no wholesaler margin. Plus Afterpay/Zip and (when GoTab enables it) lease-to-buy. Cost content closes — it never opens (Christy's rule) |
 | "My wife won't let me" | **The partner-pleaser range**: 27 taps, ~1/3 non-beer — seltzers, Strawberry Gin Fizz, ginger beer, cocktails on tap. Her drinks are on tap too. Health angle (gluten-reduced, lower-carb) held until compliance wording is locked |
 | "Nowhere to put it" | **Space & fit guide**: footprint photos by format, bench/integrated/mini options, rental-friendly setups, real installs from the build showcases |
-| "I'll drink too much" | **The census story**: 70% of daily users pour only 1–2 kegs a month. "Fresher, better — not more." Responsible-consumption framing throughout (#41 rules) |
+| "I'll drink too much" | **The census story**: 57% of owners who pour daily or most days pour only 1–2 kegs a month. "Fresher, better — not more." Responsible-consumption framing throughout (#41 rules) |
 
 ## Seasonal moments (the overlay)
 

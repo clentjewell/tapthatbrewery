@@ -20,13 +20,13 @@ One rule: if a number doesn't move active keg customers or explain why they move
 
 ## North-star metric
 
-**Active keg customers** — customers with a keg purchase within 75 days (the business's own definition). Today 220; target 1,000; every phase gate in #25 is denominated in it. Reported with its two shadows: **at-risk** (75–90 days) and **churned** (90+).
+**Active keg customers** — customers with a keg purchase within 75 days (the business's own definition). Today 96–113 — the definition is unresolved and decides which (open item #11); target 1,000; every phase gate in #25 is denominated in it. Reported with its two shadows: **at-risk** (75–90 days) and **churned** (90+).
 
 ## Supporting metrics
 
 | Metric | Definition | Why it matters | Source |
 |---|---|---|---|
-| Refills/month | 20L-equivalent fills per month, and per active (baseline ~2) | Validates the ~$200/month economics behind the ~$2.6M target | GoTab |
+| Refills/month | 20L-equivalent fills per month, and per active (baseline **~1.55**, census weighted mean — not the ~2 this model was built on) | Validates the per-active economics; the ~$2.6M target is rebased with it | GoTab |
 | Churn & saves | Actives crossing 90 days; at-risk customers recovered by 60/75/90-day touches | The leak automation exists to plug (H4) | GoTab + Fishbowl |
 | Switcher adds | New refill customers whose system wasn't bought here | P1's headline; the 50%-organic figure becomes a managed channel (H1) | GoTab (flag at first fill) |
 | Giveaway → purchase | Entrants (~1,000/cycle) → systems bought; today 22–25 via the 50% close | Nurture (H3) must beat this or it isn't working | Entry list + GoTab |
@@ -41,7 +41,7 @@ One rule: if a number doesn't move active keg customers or explain why they move
 - **Fishbowl (CRM)** — segments, automated lifecycle sends, open/click/redemption. *Integration pending — until live, lifecycle metrics run off manual GoTab exports.*
 - **Buffer + @tapthatbreweryandkeghouse socials** — reach/engagement as diagnostics only; never in the headline row.
 - **Site analytics (tapthatbrewery.com.au)** — switcher landing page traffic and conversion; giveaway entries.
-- **Census + surveys** — objection tracking (n=50 baseline: 70% of daily users drink 1–~1.55 kegs/month (census)); repeat annually.
+- **Census + surveys** — objection tracking (n=50 baseline: 57% pour daily or most days, yet average just ~1.55 kegs a month (census)); repeat annually.
 
 ## Current measurement gaps
 

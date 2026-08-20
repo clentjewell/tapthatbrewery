@@ -17,7 +17,7 @@
 
 ## One system, one number
 
-Every channel in this programme exists to move a single number: **active keg customers** (a keg bought within 75 days) — 220 today, toward 300 at six months and 450 at twelve, on the path to 1,000 (~$2.6M). Channels are not judged on their own metrics; they are judged on what they feed the refill engine. The structure is one always-on layer, four campaign pulses on top of it, and a lifecycle automation spine underneath everything.
+Every channel in this programme exists to move a single number: **active keg customers** (a keg bought within 75 days) — 96–113 today, the definition unresolved, on the path to 1,000. The six- and twelve-month milestones were derived from a superseded 220 baseline and are being rebased. Channels are not judged on their own metrics; they are judged on what they feed the refill engine. The structure is one always-on layer, four campaign pulses on top of it, and a lifecycle automation spine underneath everything.
 
 ## The always-on layer (never stops)
 
@@ -64,7 +64,7 @@ Every channel in this programme exists to move a single number: **active keg cus
 
 ## One message architecture, every channel
 
-Roof line: **"Good times on tap at your place."** The working rule from discovery applies everywhere: **kudos and connection open; cost closes** — cost is the customer's dirty little secret, framed per litre, private-voiced, never a sticker fight against $85–90 rivals. High-volume drinkers are the single exception where the 44-schooners maths leads.
+Roof line: **"Good times on tap at your place."** The rule, corrected by the census: **taste and freshness open; cost states itself plainly second** (1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**). Cost is framed per litre and never a sticker fight against $85–90 rivals — but it is no longer held back to the close, because your customers rank it second, not last. High-volume drinkers are the single exception where the 44-schooners maths leads.
 
 | Channel | Opens with (Pillar 1–2: connection/kudos, freshness/award) | Closes with (Pillar 3: cost/convenience) |
 |---|---|---|

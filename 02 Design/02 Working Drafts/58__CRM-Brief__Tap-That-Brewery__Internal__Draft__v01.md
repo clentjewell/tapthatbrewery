@@ -45,7 +45,7 @@ customer_id · name · mobile · email · suburb/postcode · consent status/date
 
 ## Required views (Raef + founders, no analyst)
 
-1. **Active count this week** — the one number (#24 P6): actives, trend, vs the 220 → 1,000 path.
+1. **Active count this week** — the one number (#24 P6): actives, trend, vs the 96–113 → 1,000 path.
 2. **At-risk board** — everyone at 60–90 days, last contact, next trigger due.
 3. **Switcher intake** — new actives flagged own_system_elsewhere, monthly (target ~7–8/month).
 4. **Membership attach** — memberships ÷ systems sold, monthly (target 60%).
@@ -64,7 +64,7 @@ Fields: venue name, style match (Japanese lager → Japanese restaurant etc.), d
 1. **Sync integrity:** 20 known transactions posted in GoTab appear correctly attached in Fishbowl within the sync window; target 100% attach rate on new transactions (#19 KR 2.4).
 2. **Lifecycle maths:** seed test customers at day 59/61/74/76/89/91; verify state transitions and that exactly the right triggers fire — and suppress on purchase.
 3. **End-to-end:** website demo form → record → consent stored → test sequence send → unsubscribe honoured → state visible in views.
-4. **Backfill audit:** historic customer base imported, last_keg_date computed, current 220-active figure reconciled against the client's own count before go-live.
+4. **Backfill audit:** historic customer base imported, last_keg_date computed, current active figure — 96 under the 45-day rule, ~113 under the 75-day — reconciled against the client's own count before go-live.
 5. **Manual cutover:** run manual SMS and automation in parallel for one cycle; then manual stops.
 
 ## Success criteria

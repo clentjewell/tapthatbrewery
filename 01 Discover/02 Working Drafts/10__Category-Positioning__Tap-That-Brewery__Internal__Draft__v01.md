@@ -47,7 +47,7 @@ Tap That Brewery's kegs are $120–170 against $85–90 across the road — 40�
 
 - **Against retail and pubs**, cost leads on Tap That Brewery's terms: price *per litre*, no excise, no wholesaler, ~$275 vs ~$500. That maths is unassailable and doesn't mention the shop across the road.
 - **Against keg rivals**, cost is never mentioned; freshness, range and ecosystem carry the argument.
-- Per Christy's working rule (adopted in D06): cost is the customer's dirty little secret — kudos and connection do the buying, savings justify it afterwards. Cost closes; it never opens.
+- **Superseded by the census.** The discovery-session rule — cost as the customer's dirty little secret, kudos and connection doing the buying — is inverted by the client's own data: 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. Taste leads the argument; cost states itself plainly and second; connection and kudos are retention arguments, not acquisition ones.
 
 ## One-sentence position (carried from D03, confirmed against the map)
 

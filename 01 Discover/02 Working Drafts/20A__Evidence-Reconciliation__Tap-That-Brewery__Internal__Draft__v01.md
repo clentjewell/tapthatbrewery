@@ -39,6 +39,8 @@ Not all five documents carry equal weight, and two of them are AI-assisted trans
 
 **Standing rule:** where the census write-up and the raw tabulations disagree, the raw data wins.
 
+> **Applied 20 August 2026.** Logging a correction is not making one. On 20 August the corrections below were traced through the whole set and applied in place across **46 documents** — the active-customer baseline, the switcher share, the purchase-driver ranking, the refill cadence, the buying-cycle split, the acquisition-channel mix, the segment claims and the Talos naming. Before that pass, 39 documents carried a banner pointing here while their figures still read as originally drafted; 35 of them contained at least one superseded claim. Where a corrected figure depends on an unresolved founder decision — principally the active-customer definition — the old number is marked as requiring rebasing rather than silently rescaled.
+
 ---
 
 ## What was wrong, and what is true

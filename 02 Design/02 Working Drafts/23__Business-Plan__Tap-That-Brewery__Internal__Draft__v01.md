@@ -31,19 +31,21 @@ The business currently runs at a loss ("always red at the bottom of the P&L"). T
 | **Taproom** | Shopfront and proof, not a profit centre | 27 taps (~1/3 non-beer); converts 20–30% of visitors to system buyers; loses money overall |
 | **Wholesale** | Opportunistic white-label only | Sports clubs (10% player discount / 10% club kickback), weddings/functions; blocked channels (CUB-exclusive NRL venues) routed around, not fought |
 
-## The path: 220 → 1,000 actives
+## The path: 96–113 → 1,000 actives
+
+> **The correction roughly halves the starting point.** Reaching 1,000 from 96–113 is a ~9× climb, not the ~4.5× this plan was built on. Every staged milestone below was derived from the superseded 220 figure and needs rebasing with the founders; they are marked rather than silently rescaled, because the honest number changes what the plan should attempt.
 
 At ~$200/month per active, refill revenue alone runs ~$2.4M/yr at 1,000 actives; the client's working figure of **~$2.6M** includes system sales and wholesale on top [needs P&L data to split precisely]. Staged milestones:
 
 | Stage | Actives | Refill run-rate | What must be true |
 |---|---|---|---|
-| Today | 220 | ~$44k/mo (~$530k/yr) | Baseline; manual churn SMS; no digital nurture |
+| Today | **96–113** | [rebase — derived from the superseded 220 baseline; see #20A and open item #11] | Baseline; manual churn SMS; no digital nurture |
 | Stage 1 (0–6 mo) | 300 | ~$60k/mo | Switcher campaign live ("we fill any system"); GoTab/Fishbowl lifecycle automation running; churn ≤ today's rate |
 | Stage 2 (6–12 mo) | 450 | ~$90k/mo | Giveaway cycles nurtured digitally across the 3-month buying cycle (beat 22–25 conversions/cycle); delivery live via GoTab × Uber Direct |
 | Stage 3 (12–24 mo) | 700 | ~$140k/mo | Benchy channel + outdoor-living JVs producing owners; club white-label producing refill volume; second marketer or agency capacity [needs budget confirmation] |
 | Target | 1,000 | ~$200k/mo (~$2.4M/yr refills; ~$2.6M all-in) | Repeatable acquisition playbook — the franchise prospectus in practice |
 
-Growth arithmetic sanity check: 220 → 1,000 in 24 months requires ~33 net new actives/month. Known engines: giveaways (2×/yr, ~1,000 entries, 22–25 systems per cycle today), taproom conversion (20–30% of visitors), and — cheapest of all — **switchers**: 50% of current refill customers bought hardware elsewhere and came across with zero targeted effort. The switcher pool (existing Gold Coast keg system owners) is the only channel that adds actives without giving away a system first.
+Growth arithmetic sanity check: 96–113 → 1,000 in 24 months requires ~37–38 net new actives/month, not the ~33 this plan assumed. Known engines: giveaways (2×/yr, ~1,000 entries, 22–25 systems per cycle today), taproom conversion (20–30% of visitors), and — cheapest of all — **switchers**: 116 of 206 owners (56%) bought their hardware elsewhere and came across with zero targeted effort. The switcher pool (existing Gold Coast keg system owners) is the only channel that adds actives without giving away a system first.
 
 ## Cost realities
 

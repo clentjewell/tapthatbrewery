@@ -25,7 +25,7 @@ Case studies die from evidence not captured at the time. Two of this engagement'
 | | Story A — The switcher campaign | Story B — The giveaway-nurture cycle |
 |---|---|---|
 | Working title | "We fill any system: acquiring refill customers without selling hardware" | "From 22 to [n]: what a 90-day nurture does to a proven giveaway" |
-| The setup | 50% of refill customers bought hardware elsewhere and switched unprompted; nobody owned the installed base | 2×/yr giveaways pull ~1,000 entries; the 50%-off close converts 22–25 systems; the other ~975 entrants got silence |
+| The setup | 116 of 206 owners (56%) bought hardware elsewhere and switched unprompted; nobody owned the installed base | 2×/yr giveaways pull ~1,000 entries; the 50%-off close converts 22–25 systems; the other ~975 entrants got silence |
 | The intervention | A named lane: landing page, Meta behavioural targeting, first-fill offer, counter conversion (C1, Sep–Oct 2026) | A designed 90-day sequence matched to the 3-month buying cycle: objection ladder → close window (C2 Oct–Dec 2026, C3 Jan–Feb 2027) |
 | Hypothesis proven (if it works) | H1 (switchers beat new-owner CAC) + H2 (kudos opens, cost closes) | H3 (structured nurture lifts conversion past 22–25; target 35+) |
 | The headline number, when real | Cost per new active vs the hardware-giveaway route; +[n] actives with $0 hardware margin sacrificed | Systems per cycle vs the 22–25 baseline, across two cycles (repeatability is the story) |
@@ -34,10 +34,10 @@ Case studies die from evidence not captured at the time. Two of this engagement'
 
 | Baseline | Value at 19 Aug 2026 | Source to file |
 |---|---|---|
-| Active keg customers (75-day rule) | **220** | GoTab export, dated |
+| Active keg customers | **96 (45-day) or ~113 (75-day)** — record both, and the rule used | GoTab export, dated |
 | Giveaway conversion | **22–25 systems** per ~1,000-entry cycle, 50%-off close | Last-cycle records + entry list |
 | Churn timing + method | Active <75 days / at-risk 75–90 / churned 90+; winback = one hand-sent monthly SMS, $20-off/2-week window | Screenshot of the manual SMS; lifecycle definitions doc |
-| Switcher share | 50% of refill customers bought hardware elsewhere (client figure — verify via switcher flag once captured) | CRM field, first full count |
+| Switcher share | **116 of 206 (56%)** from business records — the census's 31% is response-biased and is not used (see #20A) (verify via switcher flag once captured) | CRM field, first full count |
 | Refill economics | ~$200/month per active, ~2 kegs; member 20L $120 vs $150 | Photo-verified price board (already filed) |
 | Taproom conversion | 20–30% of visitors buy a system (client estimate — instrument in Q2 and re-baseline) | GoTab + provenance field |
 | Buying cycle | ~60% up to 3 months, ~10% within a month | Discovery record |
