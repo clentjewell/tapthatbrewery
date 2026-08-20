@@ -240,12 +240,15 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
 .sign { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: clamp(30px, 4vw, 44px); font-weight: 700; letter-spacing: -0.03em; }
 .foot-m { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; color: var(--steel); margin-top: 12px; letter-spacing: .04em; }
 
-/* reveal */
-.rv { opacity: 0; transform: translateY(14px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
-.rv.in { opacity: 1; transform: none; }
+/* reveal — decoration only. Content is visible by default and only hides once
+   the script has confirmed it can actually drive the reveal (html.js-rv), so a
+   JS failure degrades to a plain visible page instead of a blank one. */
+.rv { opacity: 1; transform: none; }
+html.js-rv .rv { opacity: 0; transform: translateY(14px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+html.js-rv .rv.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .rv { opacity: 1; transform: none; transition: none; }
+  .rv, html.js-rv .rv { opacity: 1; transform: none; transition: none; }
   .progress { transition: none; }
 }
 
@@ -782,9 +785,31 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
 
 <script>
 (function () {
+  // Reveal-on-scroll, set up first and in isolation: only hide the content once
+  // the observer is genuinely wired, and unhide it again if that fails.
+  try {
+    if ('IntersectionObserver' in window) {
+      var rvEls = document.querySelectorAll('.rv');
+      document.documentElement.classList.add('js-rv');
+      var revObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); revObs.unobserve(e.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      rvEls.forEach(function (el) { revObs.observe(el); });
+    }
+  } catch (err) {
+    document.documentElement.classList.remove('js-rv');
+  }
+
   var prog = document.getElementById('prog');
   var links = Array.prototype.slice.call(document.querySelectorAll('.nav-link'));
-  var sections = links.map(function (l) { return document.querySelector(l.getAttribute('href')); }).filter(Boolean);
+  // Only in-page anchors map to a section. The sidebar also links out to other
+  // pages, and handing one of those to querySelector throws a SyntaxError.
+  var sections = links
+    .filter(function (l) { return (l.getAttribute('href') || '').charAt(0) === '#'; })
+    .map(function (l) { return document.querySelector(l.getAttribute('href')); })
+    .filter(Boolean);
 
   function onScroll() {
     var h = document.documentElement.scrollHeight - window.innerHeight;
@@ -804,14 +829,6 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
     }, { rootMargin: '-15% 0px -70% 0px' });
     sections.forEach(function (s) { navObs.observe(s); });
 
-    var revObs = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) { e.target.classList.add('in'); revObs.unobserve(e.target); }
-      });
-    }, { rootMargin: '0px 0px -8% 0px' });
-    document.querySelectorAll('.rv').forEach(function (el) { revObs.observe(el); });
-  } else {
-    document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); });
   }
 
   var tog = document.getElementById('navtoggle'), sb = document.getElementById('sidebar');
