@@ -113,3 +113,10 @@ document — the grid placement carries as much meaning as the words.
   the type past ~6pt or it won't survive print.
 - Every figure on the sheets is traceable to the client's own census, business records or
   planning documents. Open items are marked open rather than resolved with an estimate.
+
+## Getting back to the summary
+
+Every pack page carries a **Delivery summary** button at the top of the sidebar, above the
+filter and outside `.nav` so it stays visible when the contents collapse on mobile. The brand
+mark beside it links to `/` (it used to be a `#top` anchor, which did nothing on 81 of the 82
+pages). The summary links the other way from its Access section.

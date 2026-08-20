@@ -198,11 +198,6 @@ HERO = """    <section id="top">
       <h1 class="h-hero">The complete<br>3D Process.</h1>
       <p class="lead">Every document in the set, end to end. Onboarding, Discover, Design and Deploy &mdash; built from one discovery session, one site visit, and every price on your walls. Pick a document from the contents, or from the index below.</p>
 
-      <div class="btnrow">
-        <a class="btn btn-primary" href="/summary"><span class="ic">&larr;</span>Back to the delivery summary</a>
-        <span class="btn-note">The short version &mdash; what's here, what isn't, and what's blocking sign-off.</span>
-      </div>
-
       <div class="stats">
         <div class="stat"><div class="stat-n">{TOTAL}</div><div class="stat-l">Documents</div></div>
         <div class="stat"><div class="stat-n">{N_DI}</div><div class="stat-l">Discover</div></div>
