@@ -2,15 +2,15 @@
 
 The engagement's target output set: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." "Sign-off" = client sign-off required. CP1/CP2 = phase checkpoints.
 
-**Status as at 19 August 2026: all 65 documents drafted (v01).** Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design set was produced ahead of CP1, so the open items below may revise inputs.
+**Status as at 20 August 2026: 77 catalogue documents drafted (v01), plus #20A Evidence Reconciliation.** Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design and Deploy sets were produced ahead of CP1/CP2, so the open items below may revise inputs.
 
 | Phase | Documents | Status |
 |---|---|---|
 | Gate 0 — Onboarding | 3 | Drafted |
-| Discover | 19 | Drafted (CP1 not signed) |
+| Discover | 19 (+ #20A) | Drafted (CP1 not signed) |
 | Design | 42 | Drafted (CP2 not signed) |
-| Deploy | 1 | Framework only — populated after execution |
-| **Total** | **65** | **Drafted v01** |
+| Deploy | 13 | Drafted — 12 runbooks + the case-study framework. Execution not started |
+| **Total** | **77** | **Drafted v01** |
 
 ## Two filing systems
 
@@ -25,7 +25,7 @@ Notable deviations: Design was drafted before CP1 (the spec forbids it, and the 
 | #1–3 (Gate 0) | `00 Admin/04 Commercial + SOW/` |
 | #4–22 (Discover) | `01 Discover/02 Working Drafts/` |
 | #23–64 (Design) | `02 Design/02 Working Drafts/` |
-| #65 (Deploy) | `03 Deploy/02 Working Drafts/` |
+| #65–77 (Deploy) | `03 Deploy/02 Working Drafts/` |
 
 Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`. The four Discover anchors were drafted first under JP codes and keep those filenames — mapping below.
 
@@ -103,13 +103,27 @@ Files are named `NN__Document-Name__Tap-That-Brewery__[Audience]__Draft__v01.md`
 | 63 | **Strategy Summary (CP2)** (sign-off) | maxxim-strategy-summary |
 | 64 | Approved Roadmap | maxxim-strategy-summary |
 
-## Deploy (1)
+## Deploy (13)
 
-| # | Document | Skill | Status |
+| # | Document | Slug | Status |
 |---|---|---|---|
-| 65 | Case Study / Evidence Pack | maxxim-case-study | Framework only — baselines defined, populated after Deploy execution |
+| 65 | Case Study / Evidence Pack | `case-study` | Framework — baselines frozen, populated after execution |
+| 66 | Campaign Launch Runbook | `campaign-launch` | Drafted |
+| 67 | Social Content Rollout | `social-content-rollout` | Drafted |
+| 68 | Paid Media Launch | `paid-media-launch` | Drafted |
+| 69 | EDM Deployment | `edm-deployment` | Drafted |
+| 70 | CRM Workflow Deployment | `crm-workflow-deployment` | Drafted |
+| 71 | PR Outreach | `pr-outreach` | Drafted |
+| 72 | Events Activation | `events-activation` | Drafted |
+| 73 | Partnership Outreach | `partnership-outreach` | Drafted |
+| 74 | Traditional Media Rollout | `traditional-media-rollout` | Drafted |
+| 75 | Tracking Setup | `tracking-setup` | Drafted |
+| 76 | Optimisation Backlog (v1 seed) | `optimisation-backlog` | Drafted — seeded, not yet populated from live results |
+| 77 | Next Sprint Priorities | `next-sprint-priorities` | Drafted |
 
-*The rest of Deploy is execution (builds, launches, reporting from live data); Deepen is the post-launch loop — neither has document-maker skills.*
+**Spec note.** The Maxxim taxonomy classifies these twelve as `activity` items, not `document` items, and instructs that no maker skills be invented for them. No skills were invented — the activities were documented as runbooks so the client has something executable at CP2. Recorded as a deviation in `tap-that-brewery/conformance-report.html`.
+
+*Deepen is the post-launch loop and has no document-maker skills.*
 
 ## Open items carried across the set
 

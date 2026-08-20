@@ -2,7 +2,7 @@
 
 Master inventory of every artefact in this engagement. Update on creation, promotion, or archive. Status: Draft / Review / Final / Live.
 
-**As at 19 August 2026: all 65 Maxxim 3D catalogue documents drafted at v01.** None are approved. Per-document detail lives in `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` — this registry records the artefact groups and the live reference documents.
+**As at 20 August 2026: 77 Maxxim 3D catalogue documents drafted at v01** (the 65-document catalogue plus 12 Deploy runbooks), and #20A Evidence Reconciliation. None are approved. Per-document detail lives in `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` — this registry records the artefact groups and the live reference documents.
 
 ## Reference + source artefacts
 
@@ -11,9 +11,9 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Discovery meeting notes (Circleback, 19 Aug 2026) | `meetings/2026-08-19__Marketing-Discovery__Tap-That-Brewery__Circleback.md` | Internal | Live | v01 |
 | Site-visit photo set (27) + index | `01 Discover/01 Inputs/site-visit-photos/` | Internal | Live | v01 |
 | Contacts + Stakeholders | `00 Admin/01 Contacts + Stakeholders/contacts.md` | Internal | Live | v01 |
-| Maxxim Output Tracker (65-doc catalogue + open items) | `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` | Internal | Live | v02 |
-| Maxxim spec workspace — 65 documents as taxonomy-slug HTML | `tap-that-brewery/` | Platform | Draft | v01 |
-| Delivery site — https://tapthat-3d-process.pages.dev (pw `tapthat2026`) · `/` complete pack, `/summary` overview | `00 Admin/11 Final Outputs/` | Client | Live | v02 |
+| Maxxim Output Tracker (77-doc catalogue + open items) | `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` | Internal | Live | v03 |
+| Maxxim spec workspace — 77 documents as taxonomy-slug HTML | `tap-that-brewery/` | Platform | Draft | v02 |
+| Delivery site — https://tapthat-3d-process.pages.dev (pw `tapthat2026`) · `/` complete pack (78 documents), `/summary` overview | `00 Admin/11 Final Outputs/` | Client | Live | v03 |
 
 ## Catalogue documents
 
@@ -27,7 +27,8 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Design — plans | #43–51 | `02 Design/02 Working Drafts/` | Draft v01 |
 | Design — briefs | #52–61 | `02 Design/02 Working Drafts/` | Draft v01 (sign-off: #61) |
 | Design — summaries | #62–64 | `02 Design/02 Working Drafts/` | Draft v01 — **CP2 unsigned** (sign-off: #62, #63) |
-| Deploy | #65 | `03 Deploy/02 Working Drafts/` | Framework — populated post-execution |
+| Deploy — case study | #65 | `03 Deploy/02 Working Drafts/` | Framework — populated post-execution |
+| Deploy — runbooks | #66–77 (12 docs) | `03 Deploy/02 Working Drafts/` | Draft v01 — **pre-CP1/CP2**, not authorised to run |
 
 ## Sign-off documents awaiting client
 

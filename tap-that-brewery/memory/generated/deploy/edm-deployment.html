@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EDM Deployment — Tap That Brewery</title>
+    <meta name="maxxim:client" content="tap-that-brewery">
+    <meta name="maxxim:phase" content="deploy">
+    <meta name="maxxim:skill" content="edm-deployment">
+    <meta name="maxxim:generated" content="2026-08-20">
+  </head>
+  <body>
+    <h1>EDM Deployment</h1>
+<p><em>Pre-CP1/CP2 draft — Deploy runbooks are written ahead of both gates. Nothing here should be executed until the Design plan it descends from is approved.</em></p>
+<hr />
+<section>
+<h2>The rule that governs every send</h2>
+<p>The client's own lifecycle plan sets it and it overrides house tone: <strong>never reference inactivity. Every message is a brewery update, not a "we miss you".</strong> A customer who hasn't refilled in 80 days did not decide to leave — 44% leakage among non-members is drift, not defection. The send that names the drift creates it.</p>
+</section>
+<section>
+<h2>What already runs, and must not be broken</h2>
+<p>Three lifecycle comms are live today and this build absorbs them rather than replacing them cold:</p>
+<table>
+<thead>
+<tr>
+<th>Live today</th>
+<th>Cadence</th>
+<th>Absorbed into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock email to all system owners</td>
+<td>Fortnightly</td>
+<td>Sequence 3 (refill cadence) — same content, now triggered per customer</td>
+</tr>
+<tr>
+<td>At-risk nudge</td>
+<td>Monthly</td>
+<td>Sequence 4 (60/75/90)</td>
+</tr>
+<tr>
+<td>Lapsed SMS + $20-off, 7-day window</td>
+<td>Manual</td>
+<td>Sequence 5 (winback ladder)</td>
+</tr>
+</tbody>
+</table>
+<p>Rule: the manual sends continue on their existing rhythm until the automated equivalent has passed two full cycles. No gap between the old and the new.</p>
+</section>
+<section>
+<h2>Phase 0 — Consent and list hygiene (blocking, week 1–2)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Step</th>
+<th>Owner</th>
+<th>Done</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1</td>
+<td>Export all lists: Brew Buds, Keg Crew, Mug Club, giveaway entrants, GoTab customer records</td>
+<td>Raef/Harry</td>
+<td>One CSV each, dated</td>
+</tr>
+<tr>
+<td>0.2</td>
+<td>Classify consent per contact per channel — express, inferred, or none (Spam Act 2003)</td>
+<td>Jewell</td>
+<td>Consent column populated; "none" is suppressed, not mailed</td>
+</tr>
+<tr>
+<td>0.3</td>
+<td>Confirm giveaway entry forms captured <strong>ongoing</strong> marketing opt-in, not promotion-only</td>
+<td>Jewell</td>
+<td>If not: those entrants get one permission-request send, then suppression</td>
+</tr>
+<tr>
+<td>0.4</td>
+<td>De-duplicate across lists on mobile then email</td>
+<td>Jewell</td>
+<td>Single record per person</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>Remove role addresses, hard bounces, and anyone under 18</td>
+<td>Jewell</td>
+<td>Clean count reported</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Phase 1 — Deliverability foundations (week 2, before any send)</h2>
+<p>This was missing from #47 and is not optional.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Action</th>
+<th>Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SPF</strong></td>
+<td>Publish a single SPF record authorising the chosen ESP; verify no more than 10 DNS lookups</td>
+<td>Jewell + domain host</td>
+</tr>
+<tr>
+<td><strong>DKIM</strong></td>
+<td>Enable ESP signing, publish the selector, verify pass on a test send</td>
+<td>Jewell</td>
+</tr>
+<tr>
+<td><strong>DMARC</strong></td>
+<td>Start at <code>p=none</code> with <code>rua</code> reporting to a monitored inbox; move to <code>p=quarantine</code> after 30 days of clean reports</td>
+<td>Jewell</td>
+</tr>
+<tr>
+<td><strong>Sending domain</strong></td>
+<td>Use a subdomain (e.g. <code>mail.</code>) so a marketing reputation problem can't take down transactional or business mail</td>
+<td>Jewell</td>
+</tr>
+<tr>
+<td><strong>Warm-up</strong></td>
+<td>Week 1: 500/day to the most engaged 20%. Week 2: 1,500/day. Week 3: full list. Never full-blast a cold domain</td>
+<td>Jewell</td>
+</tr>
+<tr>
+<td><strong>List cleaning</strong></td>
+<td>Suppress 180-day non-openers from broadcast; keep them in trigger-based flows only</td>
+<td>Jewell</td>
+</tr>
+<tr>
+<td><strong>Reputation monitoring</strong></td>
+<td>Google Postmaster Tools connected; check weekly for the first quarter</td>
+<td>Jewell</td>
+</tr>
+</tbody>
+</table>
+<p>Thresholds: bounce &gt;2% or spam complaints &gt;0.1% on any send <strong>stops the programme</strong> until diagnosed.</p>
+</section>
+<section>
+<h2>Phase 2 — Sequence build order</h2>
+<p>Built in this order because each one's data feeds the next.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Sequence</th>
+<th>Trigger</th>
+<th>Build</th>
+<th>Live by</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Giveaway nurture (90 days)</strong></td>
+<td>Entry</td>
+<td>5 emails + 2 SMS across days 0–90, closing in the 61–90 window where <strong>43% of the market actually decides</strong></td>
+<td>Before C2 opens</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>New-owner onboarding</strong></td>
+<td>System purchase</td>
+<td>Day 0 setup · day 3 check-in · day 7 membership · day 21 first-refill reminder · day 30 referral ask</td>
+<td>Week 4</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Refill cadence</strong></td>
+<td>~21–25 days since last fill</td>
+<td>"What's kegged &amp; ready" — replaces the fortnightly blast with a per-customer clock</td>
+<td>Week 5</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>At-risk (60/75/90)</strong></td>
+<td>Days since last keg</td>
+<td>Day 60 range nudge, no discount · day 75 SMS + email on service/convenience · day 90 hands to sequence 5</td>
+<td>On CRM integration (#70)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Winback ladder</strong></td>
+<td>Crossing 90 days</td>
+<td>$20-off / 7-day window as today, then tested alternatives; response logged per offer</td>
+<td>On CRM integration</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Member renewal</strong></td>
+<td>45 / 14 / 0 days pre-expiry</td>
+<td>Value restated in dollars actually saved</td>
+<td><strong>Blocked</strong> on membership pricing reconciliation (open item #2)</td>
+</tr>
+</tbody>
+</table>
+<p>Sequences 1–3 run on manual CSV triggers from day one. Sequences 4–5 need the transaction feed; until GoTab × Fishbowl lands (<strong>date outstanding</strong>), Raef/Harry runs a fortnightly manual pull: export days-since-last-keg, filter to the 60/75/90 bands, upload as three segments, fire the sends. Fifteen minutes a fortnight is the interim price of an unknown integration date.</p>
+</section>
+<section>
+<h2>Segmentation that the census earned</h2>
+<table>
+<thead>
+<tr>
+<th>Segment</th>
+<th>Definition</th>
+<th>Treatment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Stock-up buyers</strong></td>
+<td>2+ kegs per fill</td>
+<td>79% delivery interest — first to receive the delivery announcement</td>
+</tr>
+<tr>
+<td><strong>Top-up buyers</strong></td>
+<td>≤1 keg</td>
+<td>40% delivery interest — no delivery push; cadence and range content instead</td>
+</tr>
+<tr>
+<td><strong>Weekend-only users</strong></td>
+<td>35% of base, all ≤1 keg/month</td>
+<td>Friday-morning send timing; never a volume message</td>
+</tr>
+<tr>
+<td><strong>Members</strong></td>
+<td>Keg Crew / Mug Club</td>
+<td>18% leakage vs 44% — protect hard; renewal and tasting-night invites</td>
+</tr>
+<tr>
+<td><strong>Non-members</strong></td>
+<td>Everyone else</td>
+<td>44% leakage — membership maths is the primary message, once the pricing is reconciled</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Content standards</h2>
+<p>One job and one button per send. Taste and freshness lead (driver #1 at 2.19); cost is stated plainly and second (driver #2 at 2.75) — not buried. SMS reserved for day-75, winback and event-day only. Every send: unsubscribe that works, physical sender address, responsible-consumption footer, 18+ list.</p>
+</section>
+<section>
+<h2>Measurement hooks</h2>
+<p>Per sequence: delivery, open, click, and the conversion the sequence exists to cause. Programme-level into #26: refills triggered by sequence 3, at-risk saves by sequence 4, winbacks by sequence 5, and giveaway entrant → purchase against the 22–25 baseline.</p>
+</section>
+<section>
+<h2>Stop conditions</h2>
+<p>Bounce &gt;2%, complaints &gt;0.1%, any send referencing inactivity, or any membership price stated before reconciliation.</p>
+</section>
+<section>
+<h2>Dependencies</h2>
+<p>ESP selection (<strong>[TBC]</strong> — evaluate Fishbowl's own marketing module before buying a second tool) · domain DNS access · GoTab export · integration date (open item #4) · membership pricing (open item #2).</p>
+<p><em>Feeds into: #70 CRM Workflow Deployment, #75 Tracking Setup, #76 Optimisation Backlog.</em></p>
+</section>
+  </body>
+</html>

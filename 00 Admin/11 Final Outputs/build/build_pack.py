@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Tap That complete 3D Process pack — all 65 documents on one page."""
+"""Build the Tap That complete 3D Process pack — the full document set on one page."""
 import os, re, glob, html
 import markdown
 
@@ -74,6 +74,18 @@ CAT = {
  63:("Strategy Summary (CP2)","Design","strategy-summary"),
  64:("Approved Roadmap","Design","approved-roadmap"),
  65:("Case Study / Evidence Pack","Deploy","case-study"),
+ 66:("Campaign Launch Runbook","Deploy","campaign-launch"),
+ 67:("Social Content Rollout","Deploy","social-content-rollout"),
+ 68:("Paid Media Launch","Deploy","paid-media-launch"),
+ 69:("EDM Deployment","Deploy","edm-deployment"),
+ 70:("CRM Workflow Deployment","Deploy","crm-workflow-deployment"),
+ 71:("PR Outreach","Deploy","pr-outreach"),
+ 72:("Events Activation","Deploy","events-activation"),
+ 73:("Partnership Outreach","Deploy","partnership-outreach"),
+ 74:("Traditional Media Rollout","Deploy","traditional-media-rollout"),
+ 75:("Tracking Setup","Deploy","tracking-setup"),
+ 76:("Optimisation Backlog","Deploy","optimisation-backlog"),
+ 77:("Next Sprint Priorities","Deploy","next-sprint-priorities"),
 }
 
 SIGNOFF = {2,20,34,36,61,62,63}

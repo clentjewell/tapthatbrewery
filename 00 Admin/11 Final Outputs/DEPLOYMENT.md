@@ -13,7 +13,7 @@ The client-facing 3D Process site, deployed to Cloudflare Pages.
 
 | Path | Page |
 |---|---|
-| `/` | **The complete pack** — all 65 documents rendered on one page, with a phase-grouped contents sidebar and a filter box |
+| `/` | **The complete pack** — the full document set (78 documents) rendered on one page, with a phase-grouped contents sidebar and a filter box |
 | `/summary` | **The delivery summary** — the ten-section overview: what's in the set, what wasn't done, what's blocking sign-off |
 | `/__signout` | Clears the session cookie |
 
@@ -23,7 +23,7 @@ The two pages cross-link, so the client can enter at either.
 
 | File | Purpose |
 |---|---|
-| `site/index.html` | The complete pack. **Generated — do not hand-edit.** Built from the 65 markdown documents by `build/build_pack.py` |
+| `site/index.html` | The complete pack. **Generated — do not hand-edit.** Built from the markdown document set by `build/build_pack.py` |
 | `site/summary.html` | The delivery summary. Generated from `delivery-summary.html` (same page, minus the doctype wrapper so it can also publish as an artifact) |
 | `site/_worker.js` | Password gate + asset serving (Pages advanced mode: a root `_worker.js` takes over all routing) |
 | `build/build_pack.py` | Converts every catalogue document to HTML and assembles the pack |

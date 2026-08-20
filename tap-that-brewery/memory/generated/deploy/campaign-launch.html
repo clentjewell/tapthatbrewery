@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Campaign Launch Runbook — Tap That Brewery</title>
+    <meta name="maxxim:client" content="tap-that-brewery">
+    <meta name="maxxim:phase" content="deploy">
+    <meta name="maxxim:skill" content="campaign-launch">
+    <meta name="maxxim:generated" content="2026-08-20">
+  </head>
+  <body>
+    <h1>Campaign Launch Runbook</h1>
+<p><em>Pre-CP1/CP2 draft — Deploy runbooks are written ahead of both gates. Nothing here should be executed until the Design plan it descends from is approved.</em></p>
+<hr />
+<section>
+<h2>What this runbook is</h2>
+<p>One repeatable sequence for taking any of the four campaign windows in #45 from approved plan to live in market. It is deliberately channel-agnostic: the channel runbooks (#67–#74) are the sub-procedures this one calls. Run it once per window — C1 Switcher (Sep 26), C2 Giveaway cycle 1 (Oct–Dec 26), C3 Giveaway cycle 2 (Jan–Feb 27), C4 Benchy (Mar–May 27).</p>
+<p>The whole sequence is sized for one marketer at ~70% capacity plus Jewell build support. If a step has no named owner on the day, the window moves — it does not stack.</p>
+</section>
+<section>
+<h2>T-minus schedule</h2>
+<table>
+<thead>
+<tr>
+<th>When</th>
+<th>Step</th>
+<th>Owner</th>
+<th>Done looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T-21d</td>
+<td><strong>Window brief locked</strong> — objective, audience, offer, budget, one primary metric</td>
+<td>Jewell</td>
+<td>One page, signed by Justin. No creative starts before it</td>
+</tr>
+<tr>
+<td>T-21d</td>
+<td>Confirm the Design plan this window executes is CP2-approved</td>
+<td>Jewell</td>
+<td>Written confirmation, or the window does not open</td>
+</tr>
+<tr>
+<td>T-18d</td>
+<td><strong>Claim audit</strong> on every price/saving statement in the brief</td>
+<td>Jewell</td>
+<td>See "Claim audit" below — blocking</td>
+</tr>
+<tr>
+<td>T-14d</td>
+<td>Landing page or entry page built and QA'd on mobile</td>
+<td>Jewell</td>
+<td>Loads &lt;3s on 4G, form submits to a real inbox, consent tick present</td>
+</tr>
+<tr>
+<td>T-14d</td>
+<td>Tracking live before any creative (#75)</td>
+<td>Jewell</td>
+<td>Test event fires end-to-end and lands in the report</td>
+</tr>
+<tr>
+<td>T-10d</td>
+<td>Creative produced — 3 concepts minimum per audience</td>
+<td>Jewell + Raef/Harry</td>
+<td>Files named <code>C{n}-{audience}-{concept}-{ratio}</code></td>
+</tr>
+<tr>
+<td>T-10d</td>
+<td>Alcohol-advertising review (ABAC) on every asset</td>
+<td>Jewell</td>
+<td>Checklist below signed</td>
+</tr>
+<tr>
+<td>T-7d</td>
+<td>Ad accounts built, audiences saved, budgets set but <strong>paused</strong> (#68)</td>
+<td>Jewell</td>
+<td>Screenshot filed</td>
+</tr>
+<tr>
+<td>T-7d</td>
+<td>Organic content scheduled in Buffer (#67)</td>
+<td>Raef/Harry</td>
+<td>2 weeks queued</td>
+</tr>
+<tr>
+<td>T-5d</td>
+<td>Lifecycle sends built and test-sent (#69)</td>
+<td>Jewell</td>
+<td>Test to three internal addresses, links clicked</td>
+</tr>
+<tr>
+<td>T-3d</td>
+<td><strong>Counter script briefed to bar staff</strong></td>
+<td>Raef/Harry</td>
+<td>Staff can say the offer without reading it</td>
+</tr>
+<tr>
+<td>T-2d</td>
+<td>Stock, prize or product availability confirmed</td>
+<td>Chris</td>
+<td>Written confirmation from production</td>
+</tr>
+<tr>
+<td>T-1d</td>
+<td>Go/no-go call, 15 minutes</td>
+<td>Justin, Raef/Harry, Jewell</td>
+<td>Every pre-flight line green or explicitly waived</td>
+</tr>
+<tr>
+<td>T-0</td>
+<td><strong>Unpause paid, publish organic, send email 1</strong> in that order</td>
+<td>Jewell then Raef/Harry</td>
+<td>First conversions visible in the report inside 24h</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Pre-flight checklist (the go/no-go call reads this aloud)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Check</th>
+<th>Blocking?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Every price claim is true for a <strong>non-member</strong> or is explicitly labelled member-only</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tracking fires and the destination report shows the test event</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Consent capture on every form: email, SMS and ad-matching ticked separately, 18+ confirmed</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Responsible-consumption line on every public asset; no audience under 18 in targeting</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Landing page price list matches what the till charges today</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Membership pricing shown matches the reconciled figure (open item #2 — if unresolved, membership is <strong>omitted</strong>, not guessed)</td>
+<td><strong>Yes</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Staff can answer the top three questions the campaign will generate</td>
+<td>No — but brief within 48h</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Rollback path known: which ads to pause, which page to unpublish</td>
+<td><strong>Yes</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section>
+<h2>Claim audit — mandatory, every window</h2>
+<p>Two known errors must not enter any new creative:</p>
+<table>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Status</th>
+<th>Correct form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"$2.34 a schooner"</td>
+<td><strong>Wrong as run.</strong> 47 schooners from a $140 keg is $2.98. $2.34 holds only after the $30 Keg Crew discount</td>
+<td>"From $2.98 a schooner — $2.34 for Keg Crew members"</td>
+</tr>
+<tr>
+<td>Keg Crew break-even "6 kegs"</td>
+<td><strong>Wrong as briefed to staff.</strong> $250 ÷ $30 = 8.33</td>
+<td>"Pays for itself at nine refills a year"</td>
+</tr>
+</tbody>
+</table>
+<p>Rule: any comparative claim ("vs $14 at the pub") is written with its assumptions on the same asset, in legible type. If the assumption doesn't fit, the claim doesn't run.</p>
+</section>
+<section>
+<h2>What "live" means, and what it doesn't</h2>
+<p>A window is live when paid is delivering, organic is publishing on cadence, the lifecycle sequence is firing, and the counter script is being spoken. It is <strong>not</strong> live because the ads are approved. The day-1 job is confirming all four, not celebrating the launch.</p>
+</section>
+<section>
+<h2>Stop conditions</h2>
+<p>Pause the window — all channels, same hour — if any of these occur:</p>
+<ul>
+<li>A price or saving claim is found to be wrong in market.</li>
+<li>A complaint is received on responsible-service or audience-age grounds.</li>
+<li>The landing page or entry form is failing to capture (zero submissions in 24h with traffic arriving).</li>
+<li>Stock, prize or install capacity cannot meet the offer being made.</li>
+</ul>
+<p>Restart requires a corrected asset and a second go/no-go call. Nobody restarts a paused window alone.</p>
+</section>
+<section>
+<h2>Measurement hooks</h2>
+<p>Every window reports the same five lines in the monthly one-pager (#26): new actives attributed, cost per new active, primary-metric result vs target, spend vs budget, and one sentence on what to change. Baselines are frozen in #65 before T-0 — the campaign cannot be its own baseline.</p>
+</section>
+<section>
+<h2>Dependencies</h2>
+<p>CP2 sign-off · tracking build (#75) · reconciled membership pricing (open item #2) · GoTab postcode export for geo-targeting · prize budget sign-off for giveaway windows (Justin).</p>
+<p><em>Feeds into: #75 Tracking Setup, #76 Optimisation Backlog, #65 Case Study Evidence Pack.</em></p>
+</section>
+  </body>
+</html>
