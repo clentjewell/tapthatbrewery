@@ -211,6 +211,316 @@ body {
   .content{padding:8px 20px 60px;}
   .dn-btn{flex:0 1 48%;}
 }
+/* ============================================================
+   On-a-Page — A3 landscape sheets (Discover / Design / Deploy).
+   Scoped to .oap so nothing here touches the document pages.
+   Print: A3 landscape, one sheet per page, at true size.
+   ============================================================ */
+.oap-bar{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 14px;}
+.oap-bar .k{font-family:'Poppins',sans-serif;font-weight:600;font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--brass);}
+.oap-bar h1{font-family:'Poppins',sans-serif;font-weight:700;font-size:clamp(24px,3vw,34px);
+  letter-spacing:-.028em;line-height:1.05;}
+.oap-bar .sub{font-size:13.5px;color:var(--steel);}
+.oap-tools{display:flex;gap:8px;align-items:center;margin:0 0 14px;flex-wrap:wrap;}
+.oap-tools button{font-family:'Poppins',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;background:var(--paper);color:var(--ink);border:1px solid var(--rule);
+  border-radius:7px;padding:7px 13px;cursor:pointer;}
+.oap-tools button:hover{border-color:var(--brass);color:var(--brass);}
+.oap-tools button:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.oap-tools .hint{font-size:11.5px;color:var(--steel);margin-left:4px;}
+
+.oap-stage{transform-origin:top left;}
+/* the scaled sheet keeps its full 420mm layout box, so the clip lives on the wrapper */
+.oap.is-fit{overflow:hidden;}
+.oap.is-full{overflow:auto;-webkit-overflow-scrolling:touch;max-height:78vh;
+  border:1px solid var(--rule);border-radius:10px;background:var(--shade);padding:14px;}
+.content:has(.oap){max-width:none;}
+.content.oap-wide{max-width:none;}
+
+/* ---- the sheet itself ---- */
+.oap{ --ink:#0E171F; --accent:#0066FF; --paper:#FFFFFF; --tint:#F5F7FA;
+      --line:#E3E7EC; --muted:#4A5565;
+      --font-head:'Poppins',system-ui,sans-serif;
+      --font-body:'Poppins',system-ui,sans-serif;
+      --font-label:'Poppins',system-ui,sans-serif;
+      --gap:3mm; --radius:1.6mm; color:var(--ink); }
+.oap *{box-sizing:border-box;margin:0;padding:0;}
+.oap .sheet{width:420mm;height:297mm;background:var(--paper);padding:7mm 9mm 6mm;
+  display:flex;flex-direction:column;position:relative;overflow:hidden;
+  box-shadow:0 10px 34px rgba(14,23,31,.18);border:1px solid var(--line);
+  font-family:var(--font-body);
+  print-color-adjust:exact;-webkit-print-color-adjust:exact;}
+
+.oap .sheet-head{display:flex;align-items:flex-end;justify-content:space-between;gap:8mm;
+  padding-bottom:3mm;margin-bottom:var(--gap);border-bottom:.7mm solid var(--ink);}
+.oap .sheet-head .ident{display:flex;align-items:center;gap:4mm;}
+.oap .sheet-head .logo img{height:10mm;width:auto;display:block;}
+.oap .sheet-head h1{font-family:var(--font-head);font-weight:700;font-size:21pt;
+  letter-spacing:-.02em;line-height:1;color:var(--ink);}
+.oap .sheet-head h1 .thin{font-weight:500;color:var(--muted);}
+.oap .sheet-head .meta{display:flex;align-items:center;gap:2.5mm;}
+.oap .chip{font-family:var(--font-label);font-weight:600;font-size:6.5pt;letter-spacing:.12em;
+  text-transform:uppercase;border:.35mm solid var(--line);border-radius:999px;
+  padding:1.4mm 3.2mm;color:var(--muted);white-space:nowrap;}
+.oap .chip.gate{border-color:var(--accent);color:var(--accent);}
+.oap .chip.solid{background:var(--ink);border-color:var(--ink);color:var(--paper);}
+
+.oap .canvas{flex:1;min-height:0;display:grid;grid-template-columns:repeat(12,1fr);
+  gap:var(--gap);grid-auto-rows:minmax(0,auto);}
+.oap .box{border:.35mm solid var(--line);border-radius:var(--radius);background:var(--paper);
+  padding:2.8mm 3.2mm;overflow:hidden;min-height:0;display:flex;flex-direction:column;gap:1.6mm;}
+.oap .box.tint{background:var(--tint);}
+.oap .box.rule-top{border-top:1mm solid var(--accent);}
+.oap .box-label{font-family:var(--font-label);font-weight:600;font-size:6.8pt;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--accent);flex:none;}
+.oap .box-label .sub{color:var(--muted);font-weight:500;letter-spacing:.04em;text-transform:none;}
+.oap .box h3{font-family:var(--font-head);font-weight:700;font-size:11pt;letter-spacing:-.01em;line-height:1.15;}
+.oap .box h4{font-family:var(--font-head);font-weight:600;font-size:8.2pt;line-height:1.2;color:var(--ink);}
+.oap .box p{font-size:7.6pt;line-height:1.44;color:var(--muted);}
+.oap .box p.lead{font-size:9.2pt;line-height:1.38;color:var(--ink);font-weight:500;}
+.oap .box .statement{font-family:var(--font-head);font-weight:600;font-size:13pt;line-height:1.24;
+  letter-spacing:-.012em;color:var(--ink);}
+.oap .box ul{list-style:none;}
+.oap .box li{font-size:7.6pt;line-height:1.42;color:var(--muted);padding-left:3mm;position:relative;margin-bottom:1mm;}
+.oap .box li::before{content:'';position:absolute;left:0;top:1.4mm;width:1.4mm;height:1.4mm;
+  background:var(--accent);border-radius:.2mm;}
+.oap .box li strong,.oap .box p strong{color:var(--ink);font-weight:600;}
+.oap .note-line{font-size:6.6pt;line-height:1.35;color:var(--muted);font-style:italic;
+  margin-top:auto;padding-top:1.6mm;border-top:.3mm solid var(--line);}
+
+.oap .kpis{display:grid;gap:2mm;}
+.oap .kpi{border:.35mm solid var(--line);border-radius:var(--radius);padding:2.4mm 3mm;
+  background:var(--tint);overflow:hidden;}
+.oap .kpi .num{font-family:var(--font-head);font-weight:700;font-size:16pt;letter-spacing:-.03em;
+  line-height:1;color:var(--ink);display:block;}
+.oap .kpi .num em{font-style:normal;color:var(--accent);}
+.oap .kpi .lbl{display:block;margin-top:1.2mm;font-family:var(--font-label);font-weight:600;
+  font-size:5.8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:1.3;}
+
+.oap table.mini{width:100%;border-collapse:collapse;}
+.oap table.mini th{font-family:var(--font-label);font-weight:600;font-size:6.2pt;letter-spacing:.1em;
+  text-transform:uppercase;text-align:left;color:var(--paper);background:var(--ink);padding:1.4mm 2mm;}
+.oap table.mini td{font-size:7.1pt;line-height:1.36;color:var(--muted);padding:1.4mm 2mm;
+  border-bottom:.25mm solid var(--line);vertical-align:top;}
+.oap table.mini td strong{color:var(--ink);}
+.oap table.mini tr:nth-child(even) td{background:var(--tint);}
+
+.oap .pills{display:flex;flex-wrap:wrap;gap:1.4mm;}
+.oap .pill{font-family:var(--font-label);font-weight:600;font-size:6.6pt;letter-spacing:.04em;
+  border:.35mm solid var(--line);border-radius:999px;padding:1.1mm 2.8mm;color:var(--ink);
+  background:var(--paper);white-space:nowrap;}
+.oap .pill.hot{background:var(--accent);border-color:var(--accent);color:var(--paper);}
+
+.oap .journey{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:1.6mm;}
+.oap .journey .stage-cell{min-width:0;}
+.oap .journey .stage-name{font-family:var(--font-label);font-weight:600;font-size:6.4pt;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--paper);background:var(--ink);
+  border-radius:1mm;padding:1.3mm 2mm;text-align:center;margin-bottom:1.6mm;}
+.oap .journey .stage-cell:nth-child(even) .stage-name{background:color-mix(in srgb,var(--ink) 78%,var(--paper));}
+.oap .journey ul{list-style:none;}
+.oap .journey li{font-size:6.8pt;line-height:1.36;color:var(--muted);padding-left:2.6mm;
+  position:relative;margin-bottom:.9mm;}
+.oap .journey li::before{content:'';position:absolute;left:0;top:1.25mm;width:1.2mm;height:1.2mm;
+  background:var(--accent);border-radius:.2mm;}
+
+.oap .persona{border:.35mm solid var(--line);border-radius:var(--radius);padding:2.2mm 2.6mm;
+  background:var(--paper);overflow:hidden;}
+.oap .persona .p-tag{font-family:var(--font-label);font-weight:600;font-size:6pt;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent);display:block;margin-bottom:1mm;}
+.oap .persona .p-name{font-family:var(--font-head);font-weight:700;font-size:8.6pt;color:var(--ink);}
+.oap .persona .pgp{display:grid;gap:.8mm;margin-top:1.2mm;}
+.oap .persona .pgp .row{font-size:6.9pt;line-height:1.34;color:var(--muted);}
+.oap .persona .pgp .k{font-family:var(--font-label);font-weight:600;font-size:5.8pt;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink);margin-right:1mm;}
+
+.oap .checklist{display:grid;gap:1.2mm;}
+.oap .check{display:flex;gap:2mm;align-items:baseline;}
+.oap .check .tick{flex:none;width:3.4mm;height:3.4mm;border-radius:.8mm;background:var(--accent);
+  color:var(--paper);font-size:6.5pt;font-weight:700;line-height:3.4mm;text-align:center;
+  transform:translateY(.6mm);}
+.oap .check.open .tick{background:var(--paper);border:.4mm solid var(--accent);color:var(--accent);}
+.oap .check .t{font-size:7.4pt;line-height:1.36;color:var(--muted);}
+.oap .check .t strong{color:var(--ink);}
+
+.oap .gate-box{background:var(--ink);border-color:var(--ink);color:var(--paper);}
+.oap .gate-box .box-label{color:#7FB0FF;}
+.oap .gate-box .verdict{font-family:var(--font-head);font-weight:700;font-size:12pt;line-height:1.15;color:var(--paper);}
+.oap .gate-box p,.oap .gate-box li{color:rgba(255,255,255,.84);}
+.oap .gate-box li::before{background:#7FB0FF;}
+.oap .gate-box p strong,.oap .gate-box li strong{color:#7FB0FF;}
+.oap .gate-box .note-line{border-top-color:rgba(255,255,255,.22);color:rgba(255,255,255,.7);}
+
+.oap .swatches{display:flex;gap:1.6mm;}
+.oap .swatch{flex:1;border-radius:1mm;border:.25mm solid var(--line);overflow:hidden;}
+.oap .swatch .col{height:7mm;}
+.oap .swatch .code{font-family:var(--font-label);font-size:5.6pt;letter-spacing:.03em;color:var(--muted);
+  padding:.8mm 1.4mm;display:block;}
+
+.oap .sheet-foot{margin-top:var(--gap);padding-top:2.2mm;border-top:.35mm solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:6mm;flex:none;}
+.oap .sheet-foot .signoff{display:flex;gap:6mm;}
+.oap .sheet-foot .sig{display:flex;align-items:baseline;gap:2mm;}
+.oap .sheet-foot .sig .k{font-family:var(--font-label);font-weight:600;font-size:5.8pt;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+.oap .sheet-foot .sig .line{display:inline-block;width:26mm;border-bottom:.3mm solid var(--muted);height:3.5mm;}
+.oap .sheet-foot .src{font-size:6pt;line-height:1.4;color:var(--muted);max-width:170mm;}
+.oap .sheet-foot .brandline{font-family:var(--font-label);font-weight:600;font-size:6.2pt;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);white-space:nowrap;}
+.oap .sheet-foot .brandline strong{color:var(--ink);}
+
+/* ---- sidebar chips for the three sheets ---- */
+.nav-link.oap-nav{background:rgba(0,102,255,.07);border:1px solid rgba(0,102,255,.22);
+  border-radius:8px;color:var(--ink);font-weight:600;margin:3px 0;padding:7px 10px;
+  border-left:3px solid var(--brass);}
+.nav-link.oap-nav .nav-num{color:var(--brass);opacity:1;}
+.nav-link.oap-nav:hover{background:rgba(0,102,255,.13);}
+.nav-link.oap-nav.active{background:var(--brass);border-color:var(--brass);color:#fff;}
+.nav-link.oap-nav.active .nav-num{color:#fff;}
+
+/* ---- landing cards for the three sheets ---- */
+.oap-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px;}
+@media(max-width:820px){.oap-strip{grid-template-columns:1fr;}}
+.oap-card{display:flex;flex-direction:column;gap:5px;background:rgba(0,102,255,.06);
+  border:1px solid rgba(0,102,255,.2);border-radius:12px;padding:15px 16px;text-decoration:none;
+  color:inherit;transition:background .15s,border-color .15s;}
+.oap-card:hover{background:rgba(0,102,255,.12);border-color:var(--brass);}
+.oap-card .t{font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;display:flex;
+  align-items:center;gap:7px;}
+.oap-card .t .arrow{margin-left:auto;color:var(--brass);font-weight:400;}
+.oap-card .d{font-size:12.8px;line-height:1.45;color:var(--steel);}
+
+/* ---- print: true-size A3 landscape ---- */
+@media print{
+  .sidebar,.oap-bar,.oap-tools,.totop,.progress,.doc-nav{display:none !important;}
+  .content{padding:0 !important;max-width:none !important;}
+  .oap-stage{transform:none !important;height:auto !important;}
+  .oap{overflow:visible !important;max-height:none !important;border:0 !important;
+    background:none !important;padding:0 !important;}
+  .oap .sheet{box-shadow:none;border:0;}
+  @page{size:A3 landscape;margin:0;}
+}
+
+/* ---- per-sheet grids ---- */
+/* Discover */
+.oap[data-sheet="discover"] .canvas{grid-template-rows:minmax(0,1.02fr) minmax(0,1.46fr) minmax(0,.88fr);}
+.oap[data-sheet="discover"] .b-belief{grid-column:1/5;grid-row:1;}
+.oap[data-sheet="discover"] .b-ready{grid-column:5/9;grid-row:1;}
+.oap[data-sheet="discover"] .b-killer{grid-column:9/13;grid-row:1;}
+.oap[data-sheet="discover"] .core-cluster{grid-column:1/13;grid-row:2;display:flex;flex-direction:column;
+  gap:1.4mm;min-height:0;}
+.oap[data-sheet="discover"] .b-position{grid-column:1/5;grid-row:3;}
+.oap[data-sheet="discover"] .b-evidence{grid-column:5/9;grid-row:3;}
+.oap[data-sheet="discover"] .b-gate{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="discover"] .b-belief .statement{font-size:13.4pt;}
+.oap[data-sheet="discover"] .b-ready .checklist{flex:1;align-content:space-evenly;}
+.oap[data-sheet="discover"] .b-killer ol{list-style:none;counter-reset:kq;display:flex;flex-direction:column;
+  gap:1.5mm;flex:1;justify-content:space-evenly;}
+.oap[data-sheet="discover"] .b-killer li{counter-increment:kq;padding-left:5mm;position:relative;
+  font-size:7.4pt;line-height:1.4;color:var(--muted);}
+.oap[data-sheet="discover"] .b-killer li strong{color:var(--ink);font-weight:600;}
+.oap[data-sheet="discover"] .b-killer li::before{content:counter(kq);position:absolute;left:0;top:0;
+  width:3.6mm;height:3.6mm;border-radius:50%;background:var(--ink);color:var(--paper);
+  font-family:var(--font-label);font-weight:700;font-size:6pt;text-align:center;line-height:3.6mm;}
+.oap[data-sheet="discover"] .b-position p.lead{font-size:10.2pt;line-height:1.45;}
+.core-label{font-family:var(--font-label);font-weight:700;font-size:8pt;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink);flex:none;display:flex;align-items:baseline;gap:2mm;}
+.core-label .sub{font-weight:500;letter-spacing:.02em;text-transform:none;color:var(--muted);font-size:7.4pt;}
+.core-grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);}
+.core-box{border-top:1mm solid var(--accent);}
+.core-letter{font-family:var(--font-head);font-weight:800;font-size:15pt;color:var(--accent);margin-right:.8mm;}
+.core-box .core-body{flex:1;min-height:0;display:flex;flex-direction:column;gap:2.4mm;}
+.core-box .persona-stack{display:flex;flex-direction:column;gap:1.6mm;flex:1;min-height:0;}
+.core-box table.mini td,.core-box table.mini th{padding:1.5mm 1.8mm;font-size:6.8pt;}
+.core-box table.mini th{font-size:5.8pt;}
+
+/* Design */
+.oap[data-sheet="design"] .canvas{grid-template-rows:.58fr 1.56fr 1.34fr .82fr;}
+.oap[data-sheet="design"] .b-strategy{grid-column:1/13;grid-row:1;gap:2mm;}
+.oap[data-sheet="design"] .b-strategy .kicker{font-family:var(--font-label);font-weight:600;font-size:6.6pt;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.oap[data-sheet="design"] .b-strategy .proofline{font-size:8pt;color:var(--muted);}
+.oap[data-sheet="design"] .b-strategy .proofline strong{color:var(--ink);}
+.oap[data-sheet="design"] .b-brand{grid-column:1/5;grid-row:2;}
+.oap[data-sheet="design"] .b-customer{grid-column:5/9;grid-row:2;gap:1.8mm;}
+.oap[data-sheet="design"] .b-business{grid-column:9/13;grid-row:2;}
+.oap[data-sheet="design"] .b-messaging{grid-column:1/5;grid-row:3;}
+.oap[data-sheet="design"] .b-platform{grid-column:5/9;grid-row:3;}
+.oap[data-sheet="design"] .b-success{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="design"] .b-gate{grid-column:1/13;grid-row:4;gap:2.4mm;padding:3.4mm 5mm;}
+.oap[data-sheet="design"] .b-customer .persona{flex:1;padding:1.8mm 2.2mm;}
+.oap[data-sheet="design"] .b-business ul,.oap[data-sheet="design"] .b-platform ul{flex:1;display:flex;
+  flex-direction:column;justify-content:space-evenly;gap:2mm;}
+.oap[data-sheet="design"] .b-business li,.oap[data-sheet="design"] .b-platform li{margin-bottom:0;line-height:1.55;}
+.oap[data-sheet="design"] .b-success .kpis{grid-template-columns:repeat(3,1fr);flex:1;}
+.oap[data-sheet="design"] .b-success .kpi{display:flex;flex-direction:column;justify-content:center;}
+.oap[data-sheet="design"] .b-success .kpi .num{font-size:14pt;}
+.oap[data-sheet="design"] .b-gate .verdict{font-size:13pt;}
+.oap[data-sheet="design"] .gate-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:7mm;flex:1;
+  min-height:0;align-content:start;}
+.oap[data-sheet="design"] .gate-cols h4{font-family:var(--font-label);font-weight:600;font-size:6.8pt;
+  letter-spacing:.12em;text-transform:uppercase;color:#7FB0FF;margin-bottom:1.4mm;}
+.oap[data-sheet="design"] .gate-cols ul{display:flex;flex-direction:column;gap:1.3mm;}
+.oap[data-sheet="design"] .gate-cols li{margin-bottom:0;font-size:7.7pt;line-height:1.42;}
+
+/* Deploy */
+.oap[data-sheet="deploy"] .canvas{grid-template-rows:.96fr .74fr .54fr 1.18fr;}
+.oap[data-sheet="deploy"] .b-glance{grid-column:1/4;grid-row:1;}
+.oap[data-sheet="deploy"] .b-channels{grid-column:4/10;grid-row:1/3;}
+.oap[data-sheet="deploy"] .b-measure{grid-column:10/13;grid-row:1/3;}
+.oap[data-sheet="deploy"] .b-cadence{grid-column:1/4;grid-row:2;}
+.oap[data-sheet="deploy"] .b-flow{grid-column:1/13;grid-row:3;}
+.oap[data-sheet="deploy"] .b-budget{grid-column:1/4;grid-row:4;}
+.oap[data-sheet="deploy"] .b-risks{grid-column:4/7;grid-row:4;}
+.oap[data-sheet="deploy"] .b-gov{grid-column:7/10;grid-row:4;}
+.oap[data-sheet="deploy"] .b-gate{grid-column:10/13;grid-row:4;}
+.oap[data-sheet="deploy"] .channel-grid{flex:1;min-height:0;display:grid;
+  grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:1.8mm;}
+.oap[data-sheet="deploy"] .channel-cell{border:.3mm solid var(--line);border-top:.8mm solid var(--accent);
+  border-radius:1.2mm;background:var(--tint);padding:2mm 2.4mm 2.2mm;display:flex;flex-direction:column;
+  gap:1.2mm;overflow:hidden;min-height:0;}
+.oap[data-sheet="deploy"] .channel-cell .ch-name{font-family:var(--font-label);font-weight:600;font-size:7pt;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
+.oap[data-sheet="deploy"] .channel-cell .ch-play{font-size:7.1pt;line-height:1.4;color:var(--muted);}
+.oap[data-sheet="deploy"] .channel-cell .ch-kpi{font-size:6.9pt;line-height:1.34;color:var(--ink);
+  font-weight:600;margin-top:auto;padding-top:1.3mm;border-top:.25mm solid var(--line);}
+.oap[data-sheet="deploy"] .b-measure .kpis{grid-template-columns:repeat(2,1fr);flex:1;min-height:0;}
+.oap[data-sheet="deploy"] .b-measure .kpi{padding:1.8mm 2.2mm;}
+.oap[data-sheet="deploy"] .b-measure .kpi .num{font-size:12.5pt;}
+.oap[data-sheet="deploy"] .b-measure .kpi .lbl{font-size:5.3pt;line-height:1.24;margin-top:.8mm;}
+.oap[data-sheet="deploy"] .b-flow .journey{flex:1;min-height:0;}
+.oap[data-sheet="deploy"] .b-flow .journey li{font-size:6.5pt;}
+.oap[data-sheet="deploy"] .budget-rows{display:flex;flex-direction:column;gap:2.4mm;flex:1;min-height:0;
+  justify-content:space-evenly;}
+.oap[data-sheet="deploy"] .budget-row{display:flex;flex-direction:column;gap:.9mm;}
+.oap[data-sheet="deploy"] .b-top{display:flex;justify-content:space-between;align-items:baseline;gap:2mm;}
+.oap[data-sheet="deploy"] .b-name{font-size:7.2pt;font-weight:600;color:var(--ink);line-height:1.2;}
+.oap[data-sheet="deploy"] .b-pct{font-family:var(--font-head);font-weight:700;font-size:8.6pt;
+  color:var(--accent);white-space:nowrap;}
+.oap[data-sheet="deploy"] .b-bar{height:2.2mm;border-radius:1mm;background:var(--line);overflow:hidden;}
+.oap[data-sheet="deploy"] .b-fill{height:100%;background:var(--accent);border-radius:1mm;}
+.oap[data-sheet="deploy"] .b-what{font-size:5.9pt;line-height:1.26;color:var(--muted);}
+.oap[data-sheet="deploy"] .b-risks li{font-size:7.1pt;line-height:1.38;margin-bottom:1.2mm;}
+.oap[data-sheet="deploy"] .b-gov table.mini th,.oap[data-sheet="deploy"] .b-gov table.mini td{
+  padding:1.9mm 2mm;font-size:7pt;}
+.oap[data-sheet="deploy"] .b-gate .verdict{font-size:10.5pt;}
+.oap[data-sheet="deploy"] .b-gate li{font-size:6.6pt;line-height:1.34;margin-bottom:1.3mm;}
+
+.oap[data-sheet="discover"] .b-customers .persona{padding:1.7mm 2.1mm;}
+.oap[data-sheet="discover"] .b-customers .persona .p-name{font-size:7.9pt;}
+.oap[data-sheet="discover"] .b-customers .persona .p-tag{font-size:5.6pt;margin-bottom:.7mm;}
+.oap[data-sheet="discover"] .b-customers .persona .pgp{gap:.6mm;margin-top:.9mm;}
+.oap[data-sheet="discover"] .b-customers .persona .pgp .row{font-size:6.4pt;line-height:1.3;}
+.oap[data-sheet="discover"] .b-customers .persona .pgp .k{font-size:5.4pt;}
+.oap[data-sheet="discover"] .b-customers .note-line{font-size:6.2pt;padding-top:1.3mm;}
+
+/* Design: the gate row was reserving more height than its content needs */
+.oap[data-sheet="design"] .b-gate .gate-cols{align-content:center;}
+
+/* Deploy: keep the KPI tiles their natural size so the prose sits under them */
+.oap[data-sheet="deploy"] .b-measure .kpis{flex:none;}
+.oap[data-sheet="deploy"] .b-measure p{font-size:7.2pt;line-height:1.4;}
+
 </style>
 </head>
 <body>
@@ -228,6 +538,10 @@ body {
     <input class="filter" id="filter" type="search" placeholder="Filter documents…" aria-label="Filter documents">
     <nav class="nav" id="nav">
 <a class="nav-link edge" href="/"><span class="nav-num">&middot;</span><span>Welcome</span></a>
+<p class="nav-phase">On a page</p>
+<a class="nav-link oap-nav" href="/on-a-page-discover" data-t="discover on a page"><span class="nav-num">&#9656;</span><span>Discover on a page</span></a>
+<a class="nav-link oap-nav" href="/on-a-page-design" data-t="design on a page"><span class="nav-num">&#9656;</span><span>Design on a page</span></a>
+<a class="nav-link oap-nav" href="/on-a-page-deploy" data-t="deploy on a page"><span class="nav-num">&#9656;</span><span>Deploy on a page</span></a>
 <p class="nav-phase">Onboarding</p>
 <a class="nav-link" href="/deal-memo" data-t="deal memo"><span class="nav-num">01</span><span>Deal Memo</span></a>
 <a class="nav-link" href="/proposal" data-t="proposal"><span class="nav-num">02</span><span>Proposal<span class="sig" title="Client sign-off">&bull;</span></span></a>
@@ -589,5 +903,54 @@ body {
   }
 })();
 </script>
+
+<script>
+(function () {
+  var oap = document.querySelector('.oap');
+  if (!oap) return;
+  var content = document.querySelector('.content');
+  if (content) content.classList.add('oap-wide');
+  var stage = oap.querySelector('.oap-stage');
+  var sheet = stage.querySelector('.sheet');
+  var mode = 'fit';
+
+  function apply() {
+    if (mode === 'full') {
+      oap.classList.remove('is-fit');
+      oap.classList.add('is-full');
+      stage.style.transform = 'none';
+      stage.style.height = '';
+      return;
+    }
+    oap.classList.remove('is-full');
+    oap.classList.add('is-fit');
+    stage.style.transform = 'none';
+    stage.style.height = '';
+    var avail = oap.clientWidth;
+    var w = sheet.offsetWidth;
+    if (!avail || !w) return;
+    var f = Math.min(1, avail / w);
+    stage.style.transform = 'scale(' + f + ')';
+    stage.style.height = (sheet.offsetHeight * f) + 'px';
+  }
+
+  document.querySelectorAll('[data-oap]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var a = b.getAttribute('data-oap');
+      if (a === 'print') { window.print(); return; }
+      mode = a;
+      apply();
+    });
+  });
+
+  var t;
+  addEventListener('resize', function () { clearTimeout(t); t = setTimeout(apply, 120); });
+  // fonts change the sheet's measured height, so re-fit once they land
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(apply);
+  addEventListener('load', apply);
+  apply();
+})();
+</script>
+
 </body>
 </html>

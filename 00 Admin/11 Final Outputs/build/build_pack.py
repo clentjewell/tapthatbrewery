@@ -89,6 +89,16 @@ CAT = {
 }
 
 SIGNOFF = {2,20,34,36,61,62,63}
+
+# The three phase sheets — hand-authored A3 fragments in build/oap/, each its own page.
+OAP = [
+    ("on-a-page-discover", "Discover on a page", "Discover", "discover.html",
+     "Checkpoint 1 distilled to one sheet — the belief, the READY test, the five truths, the CORE, and what blocks Gate 1."),
+    ("on-a-page-design", "Design on a page", "Design", "design.html",
+     "Checkpoint 2 distilled to one sheet — the strategy on a line, brand, customer, model, messaging, platform and the measures."),
+    ("on-a-page-deploy", "Deploy on a page", "Deploy", "deploy.html",
+     "Checkpoint 3 distilled to one sheet — the twelve runbooks, the committed budget, the ninety-day flow and the consent gates."),
+]
 LEGACY = {"D02":4, "D03":9, "D05":13, "D06":20}
 # 20A sorts immediately after 20 by using 205 as its sort key
 
@@ -133,6 +143,56 @@ def convert(path):
     h = h.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
     return h
 
+OAP_JS = """
+<script>
+(function () {
+  var oap = document.querySelector('.oap');
+  if (!oap) return;
+  var content = document.querySelector('.content');
+  if (content) content.classList.add('oap-wide');
+  var stage = oap.querySelector('.oap-stage');
+  var sheet = stage.querySelector('.sheet');
+  var mode = 'fit';
+
+  function apply() {
+    if (mode === 'full') {
+      oap.classList.remove('is-fit');
+      oap.classList.add('is-full');
+      stage.style.transform = 'none';
+      stage.style.height = '';
+      return;
+    }
+    oap.classList.remove('is-full');
+    oap.classList.add('is-fit');
+    stage.style.transform = 'none';
+    stage.style.height = '';
+    var avail = oap.clientWidth;
+    var w = sheet.offsetWidth;
+    if (!avail || !w) return;
+    var f = Math.min(1, avail / w);
+    stage.style.transform = 'scale(' + f + ')';
+    stage.style.height = (sheet.offsetHeight * f) + 'px';
+  }
+
+  document.querySelectorAll('[data-oap]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var a = b.getAttribute('data-oap');
+      if (a === 'print') { window.print(); return; }
+      mode = a;
+      apply();
+    });
+  });
+
+  var t;
+  addEventListener('resize', function () { clearTimeout(t); t = setTimeout(apply, 120); });
+  // fonts change the sheet's measured height, so re-fit once they land
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(apply);
+  addEventListener('load', apply);
+  apply();
+})();
+</script>
+"""
+
 HERO = """    <section id="top">
       <div class="eyebrow">Jewell Projects &middot; Tap That Brewery &middot; Prepared for Chris Smith and Justin Mistry</div>
       <h1 class="h-hero">The complete<br>3D Process.</h1>
@@ -161,6 +221,11 @@ def build_nav(docs, active_slug):
     """Sidebar contents. active_slug is '' for the landing page."""
     out = ['<a class="nav-link edge%s" href="/"><span class="nav-num">&middot;</span><span>Welcome</span></a>'
            % ('' if active_slug else ' active')]
+    out.append('<p class="nav-phase">On a page</p>')
+    for slug, title, phase, _f, _d in OAP:
+        on = ' active' if slug == active_slug else ''
+        out.append(f'<a class="nav-link oap-nav{on}" href="/{slug}" data-t="{html.escape(title.lower())}">'
+                   f'<span class="nav-num">&#9656;</span><span>{html.escape(phase)} on a page</span></a>')
     last_phase = None
     for d in docs:
         if d["phase"] != last_phase:
@@ -178,6 +243,14 @@ def build_index_main(docs, counts, total):
     """Landing page: hero plus a phase-grouped card index."""
     parts = [HERO.format(TOTAL=total, N_DI=counts.get("Discover", 0),
                          N_DE=counts.get("Design", 0), N_DP=counts.get("Deploy", 0))]
+    parts.append('<div class="eyebrow" style="margin-top:44px">Each phase on a single sheet</div>'
+                 '<p class="note" style="margin-top:0">Three A3 sheets that distil a whole phase &mdash; built to be printed '
+                 'landscape and put on a wall, or read at the top of a meeting instead of the pack.</p>'
+                 '<div class="oap-strip">')
+    for slug, title, phase, _f, desc in OAP:
+        parts.append(f'<a class="oap-card" href="/{slug}"><span class="t">{html.escape(title)}'
+                     f'<span class="arrow">&rarr;</span></span><span class="d">{desc}</span></a>')
+    parts.append('</div>')
     last_phase = None
     for d in docs:
         if d["phase"] != last_phase:
@@ -262,10 +335,31 @@ def main():
         written += 1
         biggest = max(biggest, len(page))
 
-    print(f"wrote {written} pages to {SITE} ({total} documents, largest page {biggest:,} chars)")
+    # the three phase sheets
+    for slug, title, phase, fname, desc in OAP:
+        frag = open(os.path.join(_HERE, "oap", fname), encoding="utf-8").read()
+        main_html = (f'<div class="oap-bar"><span class="k">On a page</span>'
+                     f'<h1>{html.escape(title)}</h1>'
+                     f'<span class="sub">{desc}</span></div>'
+                     f'<div class="oap-tools">'
+                     f'<button type="button" data-oap="fit">Fit to width</button>'
+                     f'<button type="button" data-oap="full">Full size</button>'
+                     f'<button type="button" data-oap="print">Print A3</button>'
+                     f'<span class="hint">Best printed A3 landscape.</span></div>'
+                     f'{frag}')
+        page = render(f'{html.escape(title)} &middot; Tap That Brewery',
+                      build_nav(docs, slug), main_html, total)
+        open(os.path.join(SITE, slug + ".html"), "w", encoding="utf-8").write(page)
+        written += 1
+
+    print(f"wrote {written} pages to {SITE} ({total} documents + {len(OAP)} sheets, "
+          f"largest document page {biggest:,} chars)")
 
 
-TEMPLATE = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "pack_template.html"), encoding="utf-8").read()
+_HERE = os.path.dirname(os.path.abspath(__file__))
+TEMPLATE = open(os.path.join(_HERE, "pack_template.html"), encoding="utf-8").read()
+TEMPLATE = TEMPLATE.replace("</style>", open(os.path.join(_HERE, "oap.css"), encoding="utf-8").read() + "\n</style>", 1)
+TEMPLATE = TEMPLATE.replace("</body>", OAP_JS + "\n</body>", 1)
 
 if __name__ == "__main__":
     main()

@@ -15,6 +15,7 @@ The client-facing 3D Process site, deployed to Cloudflare Pages.
 |---|---|
 | `/` | **The pack landing page** — hero, the numbers, and a phase-grouped card index of all 78 documents |
 | `/<slug>` | **One page per document** — e.g. `/paid-media-launch`, `/discover-summary`. Same sidebar, prev/next at the foot |
+| `/on-a-page-discover`<br>`/on-a-page-design`<br>`/on-a-page-deploy` | **The three phase sheets** — each phase distilled to one A3 landscape sheet. Fit / full-size / print controls |
 | `/summary` | **The delivery summary** — the ten-section overview: what's in the set, what wasn't done, what's blocking sign-off |
 | `/__signout` | Clears the session cookie |
 
@@ -30,6 +31,8 @@ The two pages cross-link, so the client can enter at either.
 | `site/_worker.js` | Password gate + asset serving (Pages advanced mode: a root `_worker.js` takes over all routing) |
 | `build/build_pack.py` | Converts every catalogue document to HTML and assembles the pack |
 | `build/pack_template.html` | The shared page shell — design system, sidebar, scripts. Placeholders: `{{TITLE}}`, `{{NAV}}`, `{{MAIN}}`, `{{TOTAL}}` |
+| `build/oap.css` | The A3 sheet framework, scoped to `.oap`. Appended into the shell's `<style>` at build time |
+| `build/oap/{discover,design,deploy}.html` | The three sheets, **hand-authored** — not generated from markdown. Edit these directly |
 
 ## Rebuild the pack after editing documents
 
@@ -95,3 +98,18 @@ the Maxxim taxonomy slugs, so a document's URL matches its filename in `tap-that
 The pack was a single continuously-scrolling page until 20 August 2026. It is now one page per
 document: the largest page is ~45 KB against the old 712 KB, and a document's URL can be sent
 to someone on its own.
+
+## The on-a-page sheets
+
+Three A3-landscape sheets, one per phase, at `/on-a-page-<phase>`. Unlike every other page
+these are hand-written HTML fragments in `build/oap/`, because a sheet is a layout, not a
+document — the grid placement carries as much meaning as the words.
+
+- Sheet size is a true **420mm × 297mm**, so `@page { size: A3 landscape }` prints at 1:1.
+- On screen the sheet is scaled to the content column by a small script; **Full size** switches
+  to a scrolling 100% view, **Print A3** calls `window.print()`.
+- Layout is a 12-column grid on `.canvas`, with per-sheet row heights and box placement at the
+  foot of `oap.css`. If a box clips, adjust that sheet's `grid-template-rows` — don't shrink
+  the type past ~6pt or it won't survive print.
+- Every figure on the sheets is traceable to the client's own census, business records or
+  planning documents. Open items are marked open rather than resolved with an estimate.
