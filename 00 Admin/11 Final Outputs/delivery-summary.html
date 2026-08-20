@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Tap That Brewery · 3D Process</title>
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -140,7 +141,7 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
 .gauge-bar.g0  { height: 34%; }
 .gauge-bar.gd  { height: 62%; }
 .gauge-bar.gs  { height: 100%; }
-.gauge-bar.gp  { height: 26%; background: var(--steel); opacity: .45; }
+.gauge-bar.gp  { height: 62%; opacity: .45; }
 .gauge-legend { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 14px; }
 .gl { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; letter-spacing: .04em; color: var(--steel); text-transform: uppercase; }
 .gl b { font-weight: 500; color: var(--ink); }
@@ -206,6 +207,24 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
 .read-q { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: clamp(20px, 2.4vw, 29px); font-weight: 600; line-height: 1.32; letter-spacing: -0.02em; max-width: 24ch; }
 
 /* links list */
+/* on-a-page card strip */
+.sheets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 26px; }
+@media (max-width: 820px) { .sheets { grid-template-columns: 1fr; } }
+.sheet-card {
+  display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: inherit;
+  background: rgba(0,102,255,.06); border: 1px solid rgba(0,102,255,.2);
+  border-radius: 12px; padding: 16px 17px; transition: background .15s, border-color .15s;
+}
+.sheet-card:hover { background: rgba(0,102,255,.12); border-color: var(--brass); }
+.sheet-card .sc-t { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15.5px; font-weight: 700; display: flex; align-items: center; gap: 7px; }
+.sheet-card .sc-t .arrow { margin-left: auto; color: var(--brass); font-weight: 400; }
+.sheet-card .sc-b { font-size: 13px; line-height: 1.5; color: var(--steel); }
+.nav-link.sheet-nav { background: rgba(0,102,255,.07); border: 1px solid rgba(0,102,255,.22);
+  border-left: 3px solid var(--brass); border-radius: 8px; color: var(--ink); font-weight: 600;
+  margin: 3px 0; padding: 7px 10px; }
+.nav-link.sheet-nav .nav-num { color: var(--brass); }
+.nav-link.sheet-nav:hover { background: rgba(0,102,255,.13); }
+
 .links { margin-top: 30px; display: flex; flex-direction: column; gap: 1px; }
 .link {
   display: flex; align-items: baseline; justify-content: space-between; gap: 18px;
@@ -263,6 +282,10 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
     <nav class="nav" id="nav">
       <a class="nav-link edge" href="#top"><span class="nav-num">·</span> Welcome</a>
       <div class="nav-sep"></div>
+      <a class="nav-link sheet-nav" href="/on-a-page-discover"><span class="nav-num">&#9656;</span> Discover on a page</a>
+      <a class="nav-link sheet-nav" href="/on-a-page-design"><span class="nav-num">&#9656;</span> Design on a page</a>
+      <a class="nav-link sheet-nav" href="/on-a-page-deploy"><span class="nav-num">&#9656;</span> Deploy on a page</a>
+      <div class="nav-sep"></div>
       <a class="nav-link" href="#note"><span class="nav-num">01</span> A note up front</a>
       <a class="nav-link" href="#what"><span class="nav-num">02</span> What this is</a>
       <a class="nav-link" href="#process"><span class="nav-num">03</span> The 3D Process</a>
@@ -281,33 +304,50 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
     <!-- WELCOME -->
     <section class="welcome" id="top">
       <div class="eyebrow rv">Jewell Projects · Tap That Brewery · Prepared for Chris Smith and Justin Mistry</div>
-      <h1 class="h-hero rv">Your 3D Process.<br>Sixty-five documents.</h1>
-      <p class="lead mt28 rv">The complete Discover, Design and Deploy document set for Tap That Brewery — built from one discovery session, one site visit, and every price on your walls. Seventy-eight working drafts, in full, ready for your review.</p>
+      <h1 class="h-hero rv">Your 3D Process.<br>Seventy-eight documents.</h1>
+      <p class="lead mt28 rv">The complete Discover, Design and Deploy document set for Tap That Brewery — built from one discovery session, one site visit, every price on your walls, and the census and planning documents you sent through afterwards. Working drafts, in full, ready for your review.</p>
 
       <div class="gauge rv">
         <div class="gauge-bars" aria-hidden="true">
           <div class="gauge-bar g0"></div><div class="gauge-bar g0"></div><div class="gauge-bar g0"></div>
-          <div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div>
+          <div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div><div class="gauge-bar gd"></div>
           <div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div><div class="gauge-bar gs"></div>
           <div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div><div class="gauge-bar gp"></div>
         </div>
         <div class="gauge-legend">
           <span class="gl"><b>3</b> Onboarding</span>
-          <span class="gl"><b>19</b> Discover</span>
+          <span class="gl"><b>20</b> Discover</span>
           <span class="gl"><b>42</b> Design</span>
-          <span class="gl"><b>14</b> Deploy · runbooks + evidence pack</span>
+          <span class="gl"><b>13</b> Deploy · runbooks + evidence pack</span>
         </div>
+      </div>
+
+      <div class="eyebrow mt56 rv">If you read nothing else</div>
+      <p class="body rv" style="margin-top:6px">Each phase distilled to a single A3 sheet. Built to be printed landscape and put on a wall, or read at the top of a meeting instead of the pack.</p>
+      <div class="sheets rv">
+        <a class="sheet-card" href="/on-a-page-discover">
+          <span class="sc-t">Discover on a page<span class="arrow">&rarr;</span></span>
+          <span class="sc-b">The belief, the READY test, the five truths, the CORE, and the six questions blocking Gate 1.</span>
+        </a>
+        <a class="sheet-card" href="/on-a-page-design">
+          <span class="sc-t">Design on a page<span class="arrow">&rarr;</span></span>
+          <span class="sc-b">The strategy on one line, then brand, customer, model, messaging, platform and the measures.</span>
+        </a>
+        <a class="sheet-card" href="/on-a-page-deploy">
+          <span class="sc-t">Deploy on a page<span class="arrow">&rarr;</span></span>
+          <span class="sc-b">The twelve runbooks, the committed budget, the ninety-day flow and the consent gates.</span>
+        </a>
       </div>
 
       <div class="eyebrow mt56 rv">Inside this summary</div>
       <div class="rows rv">
         <div class="row"><div class="row-k">01 &nbsp;A note up front</div><div class="row-v">Where this came from, and what state it is in.</div></div>
-        <div class="row"><div class="row-k">02 &nbsp;What this is</div><div class="row-v">Sixty-six working documents, and why the structure matters more than any one of them.</div></div>
+        <div class="row"><div class="row-k">02 &nbsp;What this is</div><div class="row-v">Seventy-eight working documents, and why the structure matters more than any one of them.</div></div>
         <div class="row"><div class="row-k">03 &nbsp;The 3D Process</div><div class="row-v">Three phases, three checkpoints, one direction.</div></div>
         <div class="row"><div class="row-k">04 &nbsp;The read</div><div class="row-v">The one sentence the whole set is built on.</div></div>
         <div class="row"><div class="row-k">05 &nbsp;What's in the set</div><div class="row-v">Phase by phase, with counts.</div></div>
         <div class="row"><div class="row-k">06 &nbsp;What I have not done</div><div class="row-v">The deliberate boundaries of this work.</div></div>
-        <div class="row"><div class="row-k">07 &nbsp;What I need from you</div><div class="row-v">Nine open items. Three of them block sign-off.</div></div>
+        <div class="row"><div class="row-k">07 &nbsp;What I need from you</div><div class="row-v">Fifteen open items. Six are decisions only you can make.</div></div>
         <div class="row"><div class="row-k">08 &nbsp;Access</div><div class="row-v">Where every document lives.</div></div>
         <div class="row"><div class="row-k">09 &nbsp;Maxxim &amp; Max</div><div class="row-v">The system this was built in, if it is useful to you.</div></div>
         <div class="row"><div class="row-k">10 &nbsp;Next steps</div><div class="row-v">Three ways to take it forward.</div></div>
@@ -320,8 +360,9 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
       <h2 class="h-sec rv">Drafted in full. Not yet signed off.</h2>
       <div class="stack mt28 rv">
         <p class="body">Chris, Justin — thanks for the time on the discovery session, and for letting us walk the floor afterwards. Everything here is built from that conversation, the site visit, and the twenty-seven photos we took of your walls: the price boards, the membership posters, the tap wall, the coolroom board, the workshop notes we wrote together.</p>
-        <p class="body">A note on status, because it matters. These are <b>working drafts</b>, AI-assisted, shared for your review rather than as finished artefacts. Nothing in the set is approved, and neither checkpoint is signed. The Design phase was written ahead of Discover sign-off so you could see the whole shape at once — every Design document says so on its face, and the inputs may move once the census data lands.</p>
-        <p class="body">What that gives you is the structure and the argument, complete, in one place. What it does not give you is a signed strategy. That is the next conversation, and it is a short one if the three open items in section seven get closed.</p>
+        <p class="body">A note on status, because it matters. These are <b>working drafts</b>, AI-assisted, shared for your review rather than as finished artefacts. Nothing in the set is approved, and neither checkpoint is signed. The Design and Deploy phases were written ahead of sign-off so you could see the whole shape at once — every one of those documents says so on its face.</p>
+        <p class="body">Since we last spoke you sent through the customer census and four planning documents. They corrected real things, and I have not smoothed that over: the purchase drivers came back in a different order than we had them, and a figure we had at &ldquo;about half&rdquo; turned out to be <b>116 of your 206 owners</b>. Document 20A records every correction and which source outranked which. Read it before you cite a number from anything dated before 19 August.</p>
+        <p class="body">What that gives you is the structure and the argument, complete, in one place. What it does not give you is a signed strategy. That is the next conversation, and it is a short one — six of the fifteen open items are decisions rather than research, and one session between the two of you clears them.</p>
         <p class="note">Yours, Clent.</p>
       </div>
     </section>
@@ -333,20 +374,20 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
       <div class="cols-2 mt40 rv">
         <div>
           <div class="h-sub">An operating system, not a deck.</div>
-          <p class="col-body">Sixty-six working documents that move Tap That Brewery from audience and positioning, through brand, business and marketing strategy, into a complete deployment plan — nine execution briefs included. Each one is a standalone, editable document.</p>
+          <p class="col-body">Seventy-eight working documents that move Tap That Brewery from audience and positioning, through brand, business and marketing strategy, into a complete deployment plan — ten execution briefs and twelve activation runbooks included. Each one is a standalone, editable document with its own page.</p>
         </div>
         <div>
           <div class="h-sub">Scaffolding, built to be updated.</div>
-          <p class="col-body">The structure is the lasting asset; the thinking is meant to move. When the census data, your P&amp;L detail or the reconciled membership pricing arrive, they drop in and the set updates around them. Nothing starts over.</p>
+          <p class="col-body">The structure is the lasting asset; the thinking is meant to move. The census proved it — it landed, forty documents were corrected around it, and nothing started over. Your P&amp;L detail and the reconciled membership pricing drop in the same way.</p>
         </div>
       </div>
       <div class="stats rv">
-        <div class="stat"><div class="stat-n">66</div><div class="stat-l">Documents</div></div>
-        <div class="stat"><div class="stat-n">~72k</div><div class="stat-l">Words</div></div>
-        <div class="stat"><div class="stat-n">27</div><div class="stat-l">Site photos</div></div>
+        <div class="stat"><div class="stat-n">78</div><div class="stat-l">Documents</div></div>
+        <div class="stat"><div class="stat-n">~83k</div><div class="stat-l">Words</div></div>
+        <div class="stat"><div class="stat-n">3</div><div class="stat-l">On-a-page sheets</div></div>
         <div class="stat"><div class="stat-n">0</div><div class="stat-l">Approved</div></div>
       </div>
-      <p class="note mt20 rv">The content is a living snapshot, current to the discovery session of 19 August 2026 and the site visit that followed. Where a figure is your estimate rather than measured, the documents say so.</p>
+      <p class="note mt20 rv">Current to the discovery session of 19 August 2026, the site visit that followed, and your census and planning documents received the same day. Where a figure is your estimate rather than measured, the documents say so.</p>
     </section>
 
     <!-- 03 PROCESS -->
@@ -361,7 +402,7 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
             <div class="gate-n">Checkpoint 1 · CP1</div>
             <div class="gate-t">Discover</div>
             <div class="gate-b">Find the opportunity. Audience, competitors, the offer itself, the funnel as it actually runs — validated against your numbers.</div>
-            <div class="gate-s">19 documents · drafted, unsigned</div>
+            <div class="gate-s">20 documents · drafted, unsigned</div>
           </div>
           <div class="gate">
             <div class="gate-n">Checkpoint 2 · CP2</div>
@@ -373,7 +414,7 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
             <div class="gate-n">Checkpoint 3 · CP3</div>
             <div class="gate-t">Deploy</div>
             <div class="gate-b">Take it to market. Builds, launches and live reporting — the execution the briefs describe, plus the case study written from real results.</div>
-            <div class="gate-s">14 documents · runbooks drafted, execution not started</div>
+            <div class="gate-s">13 documents · runbooks drafted, execution not started</div>
           </div>
         </div>
         <p class="note on-dark mt28">Then Deepen: what is deployed feeds back into discovery, an ongoing loop that compounds.</p>
@@ -384,7 +425,7 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
     <section class="page" id="read">
       <div class="page-head"><span class="chip">The one thing everything is built on</span><span class="count">04 / 10</span></div>
       <h2 class="h-sec rv">The read.</h2>
-      <p class="body mt28 rv">Sixty-five documents is the right depth to build from. It is not what gets read on a Tuesday morning. So here is the whole argument in one sentence — if you only take one thing from the set, take this.</p>
+      <p class="body mt28 rv">Seventy-eight documents is the right depth to build from. It is not what gets read on a Tuesday morning — that is what the three on-a-page sheets are for. Here is the whole argument in one sentence.</p>
       <div class="read rv">
         <p class="read-q">Tap That Brewery is a refill subscription business being run with a hospitality venue's attention.</p>
       </div>
@@ -399,31 +440,32 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
         </div>
         <div>
           <div class="h-sub">The cheapest growth</div>
-          <p class="col-body">Half your refill customers bought their hardware somewhere else and switched to you with no campaign at all. Winning the installed base is cheaper than creating new owners.</p>
+          <p class="col-body">Roughly <b>116 of your 206 owners — 56%</b> — bought their hardware somewhere else and switched to you with no campaign at all. Winning the installed base is cheaper than creating new owners, and nothing in your systems currently flags who they are.</p>
         </div>
       </div>
-      <p class="body mt28 rv">Everything downstream follows from that: switchers before new system buyers, lifecycle automation before paid spend, the taproom scored on systems sold rather than bar take, and cost kept as the closer rather than the opening line — because the buying is done on kudos and connection, and the savings justify it afterwards.</p>
+      <p class="body mt28 rv">Everything downstream follows from that: switchers before new system buyers, lifecycle automation before paid spend, and the taproom scored on systems sold rather than bar take.</p>
+      <p class="body mt20 rv">One thing the census changed outright. We had written cost as the closer — the thing you justify with once kudos and connection have done the selling. Your customers rank it <b>second, at 2.75, just behind taste and freshness at 2.19</b>, and well ahead of connection at 3.61. So taste leads and cost states itself plainly, rather than waiting in the retargeting. The documents that were built the other way are marked for rework once Discover signs off.</p>
     </section>
 
     <!-- 05 DELIVERED -->
     <section class="page" id="delivered">
       <div class="page-head"><span class="chip">What's in the set</span><span class="count">05 / 10</span></div>
-      <h2 class="h-sec rv">Sixty-five documents, across four stages.</h2>
+      <h2 class="h-sec rv">Seventy-eight documents, across four stages.</h2>
       <div class="rows mt40 rv">
         <div class="row">
           <div class="row-k">Onboarding <span class="pill drafted">3 drafted</span></div>
           <div class="row-v">Deal memo, proposal and welcome pack. Fees and timeline left open — those are your call, not an assumption I should make.</div>
         </div>
         <div class="row">
-          <div class="row-k">Discover <span class="pill drafted">19 drafted</span></div>
-          <div class="row-v">Audience teardown and the segment work beneath it, competitor analysis and category position, the offer worksheet with <b>every price photographed on your walls</b>, product, pricing, sales-process and funnel reviews, success definition, OKRs, the priority problems, and the CP1 Discovery Summary.</div>
+          <div class="row-k">Discover <span class="pill drafted">20 drafted</span></div>
+          <div class="row-v">Audience teardown and the segment work beneath it, competitor analysis and category position, the offer worksheet with <b>every price photographed on your walls</b>, product, pricing, sales-process and funnel reviews, success definition, OKRs, the priority problems, the CP1 Discovery Summary &mdash; and <b>20A, the evidence reconciliation</b> written when your census arrived.</div>
         </div>
         <div class="row">
           <div class="row-k">Design <span class="pill drafted">42 drafted</span></div>
           <div class="row-v">Business plan, strategic priorities, growth roadmap and measurement plan; customer profile, journey, stage messaging and conversion pathway; brand strategy, positioning, messaging architecture, brand guidelines, copy workbook and logo brief; website strategy, sitemap, page strategy and SEO; social and content strategy; activation plan, partnerships and a twelve-month calendar; six channel plans; <b>ten execution briefs</b>; and the CP2 Strategy Summary.</div>
         </div>
         <div class="row">
-          <div class="row-k">Deploy <span class="pill drafted">14 drafted</span></div>
+          <div class="row-k">Deploy <span class="pill drafted">13 drafted</span></div>
           <div class="row-v">Twelve runbooks plus the case-study framework: how a campaign window goes live, the social cadence, standing up your existing $1,500-a-month Meta budget, the email and SMS build with deliverability, the CRM lifecycle engine (with a manual track so nothing waits on the GoTab integration), PR with a crisis framework, events, partnerships, traditional media, tracking, an optimisation backlog and the first ninety days. Baselines are frozen — 206 systems, 96–113 actives, 22–25 per giveaway cycle — and the results fields stay empty until execution fills them.</div>
         </div>
       </div>
@@ -452,99 +494,164 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
         <div class="item">
           <div class="item-n">03</div>
           <div>
-            <div class="item-t">Keyword research and paid media testing.</div>
-            <div class="item-b">The SEO strategy names the territories and the content to build; the search volumes behind them are not yet validated. Paid media is written as a test protocol with kill criteria, not a campaign — no budgets are set, because the P&amp;L does not support guessing at them.</div>
+            <div class="item-t">Keyword research, and anything that needs your ad account.</div>
+            <div class="item-b">The SEO strategy names the territories and the content to build; the search volumes behind them are not yet validated. On paid media the plan and the launch runbook are written against the <b>$1,500 a month you have already committed</b> — but I have not seen inside the ad account your previous agency ran, so what worked and what didn't is still unrecovered. That is step one of the paid runbook, not an assumption I can make from here.</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">04</div>
           <div>
-            <div class="item-t">Anything that needed data I do not have.</div>
-            <div class="item-b">The census results, your unit-level P&amp;L, and the GoTab and Fishbowl integration dates are all still outstanding. Rather than invent them, the documents state what must be true and mark the gap. Section seven lists all of it.</div>
+            <div class="item-t">Anything that needed data I still do not have.</div>
+            <div class="item-b">The census has landed and is reconciled. Your unit-level P&amp;L, the Square refill history, and the GoTab and Fishbowl integration dates are all still outstanding — which is why there is no CAC, no margin and no refill-cadence figure anywhere in the set. Rather than invent them, the documents state what must be true and mark the gap. Section seven lists all of it.</div>
           </div>
         </div>
       </div>
       <p class="body mt28 rv">Everything else in the 3D Process is drafted. These four are the deliberate boundary of this work.</p>
+      <p class="note mt20 rv">One more, for completeness: the twelve Deploy runbooks are classified as <em>activities</em> in the Maxxim taxonomy rather than documents — the method does not ask for them to be written. I wrote them anyway, so you would have something executable at CP2 rather than a list of things that ought to happen. It is recorded as a deliberate deviation in the conformance report, not quietly done.</p>
     </section>
 
     <!-- 07 NEED -->
     <section class="page" id="need">
       <div class="page-head"><span class="chip">To get this signed off</span><span class="count">07 / 10</span></div>
-      <h2 class="h-sec rv">Nine open items. Three of them block sign-off.</h2>
-      <p class="body mt28 rv">These are the caveats that recur across the set. Closing the first three is the fastest route to CP1.</p>
+      <h2 class="h-sec rv">Fifteen open items. Six of them are decisions, not research.</h2>
+      <p class="body mt28 rv">The census closed the biggest one. What is left splits cleanly: six questions that only the two of you can answer, and nine things that arrive when someone sends a file or a date. The six are the fastest route to CP1 — none of them need work, they need a decision. One session between you clears the lot.</p>
+
+      <div class="band rv">
+        <div class="eyebrow on-dark">Closed &mdash; 19 August 2026</div>
+        <p class="body on-dark mt20" style="max-width:66ch">The customer census and four planning documents arrived and were reconciled across the set. They corrected the kegs-per-month figure the revenue model rests on, reordered the purchase drivers, replaced our acquisition-channel guesses with your numbers, and confirmed the switcher figure at <b>116 of 206</b> rather than &ldquo;about half&rdquo;. Forty documents were updated. Document 20A records every correction and which source outranked which &mdash; including one case where I did <em>not</em> take the census at face value, and why.</p>
+      </div>
+
+      <div class="eyebrow mt56 rv">Six decisions &middot; these block CP1</div>
       <div class="items rv">
         <div class="item">
           <div class="item-n">01</div>
           <div>
-            <div class="item-t">Your membership pricing contradicts itself.</div>
-            <div class="item-b">There are two membership posters live in the venue right now: one says Keg Crew is $250 a year, the other $300 plus a $120 renewal, and the token bonuses differ too. This is the single most-cited blocker in the whole set — it gates the website's membership page, every brief and all collateral. It is also the one thing worth fixing this week regardless of anything else here.</div>
-            <div class="item-meta">Owner: Tap That Brewery · Blocks: CP1, website, all collateral</div>
+            <div class="item-t">Which membership price is the real one.</div>
+            <div class="item-b">Two posters are live in the venue right now: one says Keg Crew is $250 a year, the other $300 plus a $120 renewal, and the token bonuses differ too. This is the single most-cited blocker in the set &mdash; it gates the website's membership page, every brief and all collateral. It is also worth fixing this week regardless of anything else here. While we are at it: break-even on the $250 version is <b>8.33 refills, not the six being quoted to staff</b>.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: CP1, website, all collateral</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">02</div>
           <div>
-            <div class="item-t">The census data — <strong>received, and it changed things.</strong></div>
-            <div class="item-b">Closed. 49 responses from 206 owners. It corrected our customer numbers, the kegs-per-month figure the revenue model rests on, the acquisition-channel ranking, and — most importantly — showed customers buy on taste, cost and convenience, not on kudos and connection. Full detail in document 20A.</div>
-            <div class="item-meta">Closed 19 Aug · 40 documents corrected</div>
+            <div class="item-t">What counts as an &ldquo;active&rdquo; customer.</div>
+            <div class="item-b">Your own documents give three answers &mdash; 45 days in the Customer Success System, 75 days in the One-Page Plan, and &ldquo;2&ndash;3 months&rdquo; elsewhere. That is the difference between an active base of <b>96 and 113</b>, and every target, trigger day and report line keys off it. My recommendation is 75 days, because your existing lifecycle comms already run on it and changing the clock while building the engine makes failure unattributable.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: every metric, the CRM build, OKRs</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">03</div>
           <div>
-            <div class="item-t">The competitor across the road.</div>
-            <div class="item-b">Your handwritten note reads "Aardvark and Arrow"; the transcript heard "Ardbach and Arrow". Every document that relies on the name flags it. One line from you settles it — along with anything you know about their pricing and how they actually operate.</div>
-            <div class="item-meta">Owner: Tap That Brewery · Blocks: competitor content, comparison pages</div>
+            <div class="item-t">Sell more systems, or convert the 116 who bought elsewhere.</div>
+            <div class="item-b">Both are defensible. They are not the same plan, and they send the budget to different places. The evidence leans toward the switchers &mdash; they already own the hardware, they found you unaided, and they cost nothing to acquire &mdash; but the call is yours and everything from the growth roadmap to the paid media split waits on it.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: business plan, roadmap, activation plan</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">04</div>
           <div>
-            <div class="item-t">GoTab and Fishbowl integration dates.</div>
-            <div class="item-b">The lifecycle automation is the highest-leverage work in the entire strategy — replacing the manual monthly SMS with triggers at 60, 75 and 90 days. The CRM plan includes a manual-export interim so nothing waits, but the real build needs a date.</div>
-            <div class="item-meta">Owner: Tap That Brewery · Blocks: CRM plan, EDM automation, lease-to-buy</div>
+            <div class="item-t">Which of your three plans is the live one.</div>
+            <div class="item-b">Scaling Up names 250 active customers as the Critical Number. The growth playbook names 15 kegerators a month. The vision document names installed kegerators. Three documents, three core metrics, three horizons &mdash; and they cannot all be the one the business is run against.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: success definition, OKRs, CP2</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">05</div>
           <div>
-            <div class="item-t">P&amp;L detail, by unit.</div>
-            <div class="item-b">"Always red at the bottom" is the whole picture I have. Unit-level revenue and the taproom's actual loss would turn the business plan from a structure into a plan with numbers in it.</div>
-            <div class="item-meta">Owner: Tap That Brewery · Blocks: business plan, budget setting</div>
+            <div class="item-t">Is cost on the table or off it.</div>
+            <div class="item-b">Scaling Up says never compete on price. Your census ranks cost the <b>second-strongest purchase driver at 2.75</b>, a hair behind taste at 2.19. Those two positions cannot both hold. This decides whether the maths runs in the open feed or stays in the retargeting, and it reaches the brand strategy, the messaging architecture and every ad.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: brand strategy, positioning, messaging, paid media</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">06</div>
           <div>
-            <div class="item-t">Three founder confirmations.</div>
-            <div class="item-b">The timeframe you want the 1,000 target inside; how long the taproom's loss is acceptable while it works as a funnel; and whether the franchise ambition can be said out loud in PR.</div>
-            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: OKRs, PR plan, CP2</div>
+            <div class="item-t">The competitor's actual trading name.</div>
+            <div class="item-b">Your handwritten note reads &ldquo;Aardvark and Arrow&rdquo;; the transcript heard &ldquo;Ardbach and Arrow&rdquo;. Every document that relies on the name flags it, and nothing comparative gets published against a name we have not confirmed. One line from you settles it &mdash; along with anything you know about their pricing and how they actually operate.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: competitor content, comparison pages</div>
           </div>
         </div>
+      </div>
+
+      <div class="eyebrow mt56 rv">Nine that arrive with a file or a date</div>
+      <div class="items rv">
         <div class="item">
           <div class="item-n">07</div>
           <div>
-            <div class="item-t">Brand source files.</div>
-            <div class="item-b">Logo SVGs, the actual hex values for the green and the gold, and the fonts. The brand guidelines describe your identity accurately from photographs — the exact values are marked pending your files.</div>
-            <div class="item-meta">Owner: Tap That Brewery · Blocks: brand guidelines, logo lock</div>
+            <div class="item-t">Access to the ad account your last agency ran.</div>
+            <div class="item-b">I only learned it existed from your growth playbook. There is history in there &mdash; creative that worked, creative that didn't, real cost-per-result numbers &mdash; and it is the one asset in this engagement that comes free. Recovering it is the first step of the paid media runbook, before a dollar of the $1,500 moves.</div>
+            <div class="item-meta">Owner: Tap That Brewery · Blocks: paid media launch</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">08</div>
           <div>
-            <div class="item-t">One beer name.</div>
-            <div class="item-b">The coolroom board reads "Bong Water IPA" in one place and "Bone Water" in another. Small, but it will end up in copy.</div>
-            <div class="item-meta">Owner: Tap That Brewery · Blocks: menu and collateral copy</div>
+            <div class="item-t">GoTab and Fishbowl integration dates.</div>
+            <div class="item-b">The lifecycle automation is the highest-leverage work in the strategy &mdash; replacing the manual monthly SMS with triggers at 60, 75 and 90 days. Every automation runbook now ships with a manual interim path so nothing waits on this, but the real build needs a date.</div>
+            <div class="item-meta">Owner: Tap That Brewery · Blocks: CRM automation, EDM sequences 4&ndash;6</div>
           </div>
         </div>
         <div class="item">
           <div class="item-n">09</div>
           <div>
+            <div class="item-t">Square access &mdash; the refill history.</div>
+            <div class="item-b">The census measures how much people <em>drink</em>. It cannot tell me how often they <em>refill</em>, how long the gap runs before they lapse, or what a customer is actually worth. That is all sitting in Square, and until I have it every revenue-per-customer figure in the set is a construction rather than a measurement.</div>
+            <div class="item-meta">Owner: Tap That Brewery · Blocks: any revenue-per-customer figure, CAC</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">10</div>
+          <div>
+            <div class="item-t">P&amp;L detail, by unit.</div>
+            <div class="item-b">Partly closed &mdash; the unit economics came through with your documents: about $70 gross per keg, $300 margin on a kegerator, lifetime gross profit around $2,100 residential and $21,840 for a venue account. Still missing: the P&amp;L itself, COGS, CAC and margin. Those would turn the business plan from a structure into a plan with numbers in it.</div>
+            <div class="item-meta">Owner: Tap That Brewery · Blocks: business plan, budget setting</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">11</div>
+          <div>
+            <div class="item-t">Three founder confirmations.</div>
+            <div class="item-b">The timeframe you want the 1,000 target inside &mdash; without a date, no plan can be paced against it. How long the taproom's loss stays acceptable while it works as a funnel. And whether the franchise ambition can be said out loud in PR.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: OKRs, PR plan, CP2</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">12</div>
+          <div>
+            <div class="item-t">Brand source files.</div>
+            <div class="item-b">Partly closed &mdash; I pulled the badge and the TT mark off your website and sampled the palette from them: green #14361D, gold #CE9A49, off-white #DFDFDF, all now in the guidelines. Still needed: true vector artwork, and the typeface names and licences. The guidelines cannot lock without them.</div>
+            <div class="item-meta">Owner: Tap That Brewery · Blocks: brand guidelines, logo lock</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">13</div>
+          <div>
+            <div class="item-t">Name, or mark.</div>
+            <div class="item-b">Every document in this set says &ldquo;Tap That Brewery&rdquo;. Your badge and your venue signage say &ldquo;Tap That &middot; Brewery &amp; Keghouse&rdquo;. That is a short-name decision or a re-brand decision, and it changes collateral either way.</div>
+            <div class="item-meta">Owner: Chris &amp; Justin · Blocks: brand guidelines, logo brief, collateral</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">14</div>
+          <div>
+            <div class="item-t">One beer name.</div>
+            <div class="item-b">The coolroom board reads &ldquo;Bong Water IPA&rdquo; in one place and &ldquo;Bone Water&rdquo; in another. Small, but it will end up in copy.</div>
+            <div class="item-meta">Owner: Tap That Brewery · Blocks: menu and collateral copy</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-n">15</div>
+          <div>
             <div class="item-t">Giveaway cadence.</div>
-            <div class="item-b">To fit both giveaway closes inside the plan year, the calendar compresses them to about three and a half months apart. Tell me if that is too tight and it moves.</div>
+            <div class="item-b">To fit both giveaway closes inside the plan year, the calendar compresses them to about three and a half months apart &mdash; tighter than your historical rhythm. Tell me if that is too tight and it moves.</div>
             <div class="item-meta">Owner: Tap That Brewery · Blocks: campaign calendar, activation plan</div>
           </div>
         </div>
+      </div>
+
+      <div class="band deep rv">
+        <div class="eyebrow on-dark">Two things worth fixing this week, whatever else happens</div>
+        <p class="body on-dark mt20" style="max-width:66ch">Neither waits on a gate. The <b>&ldquo;$2.34 a schooner&rdquo;</b> claim currently running against a &ldquo;$14 at the pub&rdquo; comparison only holds for Keg Crew members &mdash; a non-member pays $2.98 on a $140 keg. And staff are being told Keg Crew breaks even at six refills when the arithmetic says <b>8.33</b>. The first is advertising-standards exposure on a live ad; the second is a promise your team is making in good faith that the numbers don't keep.</p>
       </div>
     </section>
 
@@ -552,21 +659,49 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
     <section class="page" id="access">
       <div class="page-head"><span class="chip">Access</span><span class="count">08 / 10</span></div>
       <h2 class="h-sec rv">Where everything lives.</h2>
-      <p class="body mt28 rv">Every document is readable in one place, and the source sits in a private repository organised by phase — plain, editable text, nothing locked in a format you cannot open or hand to someone else.</p>
+      <p class="body mt28 rv">Every document has its own page, and the source sits in a private repository organised by phase — plain, editable text, nothing locked in a format you cannot open or hand to someone else. Every link below is behind the same password as this page.</p>
       <div class="links rv">
+        <a class="link" href="/on-a-page-discover">
+          <div>
+            <div class="link-t">Discover on a page →</div>
+            <div class="link-b">Checkpoint 1 on one A3 sheet: the belief, the READY test, the five truths, the CORE, the position, the evidence base and the six questions blocking Gate 1. Print it landscape.</div>
+          </div>
+          <div class="link-path">/on-a-page-discover</div>
+        </a>
+        <a class="link" href="/on-a-page-design">
+          <div>
+            <div class="link-t">Design on a page →</div>
+            <div class="link-b">Checkpoint 2 on one sheet: the strategy on a line, then brand, customer, business model, messaging, platform and the measures, closing on what is settled, what is blocked and what your signature unlocks.</div>
+          </div>
+          <div class="link-path">/on-a-page-design</div>
+        </a>
+        <a class="link" href="/on-a-page-deploy">
+          <div>
+            <div class="link-t">Deploy on a page →</div>
+            <div class="link-b">Checkpoint 3 on one sheet: the twelve runbooks, tracking, sprint cadence, the ninety-day flow, your committed $1,500-a-month split, the consent gates and who decides what.</div>
+          </div>
+          <div class="link-path">/on-a-page-deploy</div>
+        </a>
         <a class="link" href="/">
           <div>
-            <div class="link-t">The complete pack — all 66 documents →</div>
-            <div class="link-b">Every document, end to end, on one page with a contents sidebar. Start here if you want to read rather than skim.</div>
+            <div class="link-t">The complete pack — all 78 documents →</div>
+            <div class="link-b">A landing page with the full index, and one page per document. Read straight through with the prev/next buttons, or jump from the contents sidebar. Individual documents can be linked on their own.</div>
           </div>
           <div class="link-path">tapthat-3d-process.pages.dev</div>
         </a>
         <div class="link">
           <div>
-            <div class="link-t">Start here — the output tracker</div>
-            <div class="link-b">All sixty-five documents, where each one lives, and the nine open items in one table.</div>
+            <div class="link-t">The output tracker</div>
+            <div class="link-b">All seventy-seven catalogue documents, where each one lives, and the fifteen open items in one table.</div>
           </div>
           <div class="link-path">00 Admin / 05 Timelines + Project Control /<br>Maxxim-Output-Tracker.md</div>
+        </div>
+        <div class="link">
+          <div>
+            <div class="link-t">What the census changed — document 20A</div>
+            <div class="link-b">The evidence reconciliation. Every correction your data forced, which source outranked which and why, where your own documents contradict each other, and the one figure I deliberately did not &ldquo;correct&rdquo;.</div>
+          </div>
+          <div class="link-path">01 Discover / 02 Working Drafts /<br>20A__Evidence-Reconciliation…</div>
         </div>
         <div class="link">
           <div>
@@ -624,16 +759,16 @@ h1, h2, h3 { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe U
       <h2 class="h-sec rv">Three ways to take this forward.</h2>
       <div class="rows mt40 rv">
         <div class="row">
-          <div class="row-k">Fix the posters</div>
-          <div class="row-v">Independent of everything else here: decide which membership price is the real one and get one version on the wall. It is the cheapest fix in the set and it unblocks the most.</div>
+          <div class="row-k">Fix the posters and the schooner claim</div>
+          <div class="row-v">Independent of everything else here: decide which membership price is real and get one version on the wall, correct the &ldquo;$2.34 a schooner&rdquo; ad to $2.98 for non-members, and re-brief the team that Keg Crew breaks even at 8.33 refills. Cheapest fixes in the set, and they unblock the most.</div>
         </div>
         <div class="row">
           <div class="row-k">A walkthrough</div>
-          <div class="row-v">Let me take you, Justin and Raef through the set properly. An hour is plenty to see the shape of it and decide what you disagree with — which is the useful part.</div>
+          <div class="row-v">Let me take you, Justin and Raef through the set properly. Start with the three on-a-page sheets &mdash; an hour is plenty to see the shape of it and decide what you disagree with, which is the useful part.</div>
         </div>
         <div class="row">
           <div class="row-k">Close the three, sign CP1</div>
-          <div class="row-v">Census data, membership pricing, competitor name. With those closed, Discover signs off and the Design set stops being provisional.</div>
+          <div class="row-v">The census is closed. Six questions are left and none of them need research &mdash; membership price, what &ldquo;active&rdquo; means, Model A or B, which plan is live, whether cost is on the table, and the competitor's name. With those closed, Discover signs off and the Design set stops being provisional.</div>
         </div>
       </div>
       <div class="foot rv">
