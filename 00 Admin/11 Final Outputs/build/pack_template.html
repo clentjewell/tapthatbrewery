@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Tap That Brewery · Complete 3D Process</title>
+<title>{{TITLE}}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -108,7 +108,7 @@ body {
 .note{font-size:13px;line-height:1.6;color:var(--steel);margin-top:22px;}
 
 /* doc */
-.doc{border-top:1px solid var(--rule);margin-top:60px;padding-top:34px;scroll-margin-top:20px;}
+.doc{padding-top:2px;}
 .doc-head{display:flex;align-items:center;justify-content:space-between;gap:14px;
   flex-wrap:wrap;margin-bottom:18px;}
 .doc-head-l{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
@@ -154,6 +154,26 @@ body {
 .prose tr:last-child td{border-bottom:0;}
 .prose td:first-child{font-weight:600;}
 .prose table strong{font-weight:700;}
+
+
+/* landing contents */
+.ph{margin-top:52px;}
+.ph-h{display:flex;align-items:baseline;gap:12px;padding-bottom:10px;border-bottom:1px solid var(--rule);}
+.ph-n{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--brass);font-weight:600;}
+.ph-c{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.06em;color:var(--steel);
+  margin-left:auto;font-variant-numeric:tabular-nums;}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-top:0;border-radius:0 0 10px 10px;overflow:hidden;}
+.card{background:var(--paper);padding:14px 15px;text-decoration:none;color:inherit;display:flex;
+  flex-direction:column;gap:5px;transition:background .15s;min-height:78px;}
+.card:hover{background:rgba(0,102,255,.06);}
+.card:focus-visible{outline:2px solid var(--brass);outline-offset:-2px;}
+.card-n{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.06em;color:var(--steel);
+  font-variant-numeric:tabular-nums;}
+.card-t{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;font-weight:600;line-height:1.28;
+  letter-spacing:-.012em;}
+.card-s{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);margin-top:auto;}
 
 /* doc nav */
 .doc-nav{display:flex;justify-content:space-between;gap:14px;margin-top:44px;padding-top:22px;
@@ -213,30 +233,7 @@ body {
   </aside>
 
   <main class="content">
-    <section id="top">
-      <div class="eyebrow">Jewell Projects · Tap That Brewery · Prepared for Chris Smith and Justin Mistry</div>
-      <h1 class="h-hero">The complete<br>3D Process.</h1>
-      <p class="lead">Every document in the set, end to end, on one page. Onboarding, Discover, Design and Deploy — built from one discovery session, one site visit, and every price on your walls. Use the contents to jump, or just scroll.</p>
-
-      <div class="stats">
-        <div class="stat"><div class="stat-n">{{TOTAL}}</div><div class="stat-l">Documents</div></div>
-        <div class="stat"><div class="stat-n">{{N_DI}}</div><div class="stat-l">Discover</div></div>
-        <div class="stat"><div class="stat-n">{{N_DE}}</div><div class="stat-l">Design</div></div>
-        <div class="stat"><div class="stat-n">{{N_DP}}</div><div class="stat-l">Deploy</div></div>
-      </div>
-
-      <div class="callout">
-        <div class="k">The read everything is built on</div>
-        <div class="q">Tap That Brewery is a refill subscription business being run with a hospitality venue's attention.</div>
-        <p class="b">206 keg systems in the database and somewhere between 96 and 113 active customers — your own documents give both numbers, because they define “active” three different ways. Systems go out at cost and all the margin sits in refills, but eighteen months of attention went to the taproom, which loses money and was only ever meant to be the shopfront. And roughly 116 of those 206 owners — <strong>56%</strong> — bought their system somewhere else and came to you for beer anyway, with no campaign at all.</p>
-        <p class="b">Everything downstream follows from that. For the short version of this pack — what's here, what isn't, and what's blocking sign-off — see the <a href="/summary">delivery summary</a>.</p>
-      </div>
-
-      <p class="note">Status: every document is a working draft at v01, AI-assisted, and none are approved. Deploy runbooks were written ahead of both checkpoints and say so on their face — they are ready to run, not authorised to run. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once — each Design document says so on its face. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
-    </section>
-
-{{DOCS}}
-
+{{MAIN}}
   </main>
 </div>
 
@@ -247,8 +244,13 @@ body {
   var prog = document.getElementById('prog');
   var totop = document.getElementById('totop');
   var links = Array.prototype.slice.call(document.querySelectorAll('.nav-link'));
-  var sections = links.map(function (l) { return document.querySelector(l.getAttribute('href')); }).filter(Boolean);
   var navEl = document.getElementById('nav');
+
+  // Bring the current page's nav entry into view — the list is 78 long.
+  var cur = navEl.querySelector('.nav-link.active');
+  if (cur && navEl.scrollHeight > navEl.clientHeight) {
+    navEl.scrollTop = cur.offsetTop - navEl.clientHeight / 2 + cur.offsetHeight / 2;
+  }
 
   function onScroll() {
     var h = document.documentElement.scrollHeight - window.innerHeight;
@@ -261,27 +263,6 @@ body {
   totop.addEventListener('click', function () {
     window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   });
-
-  if ('IntersectionObserver' in window) {
-    var obs = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (!e.isIntersecting) return;
-        var active = null;
-        links.forEach(function (l) {
-          var on = l.getAttribute('href') === '#' + e.target.id;
-          l.classList.toggle('active', on);
-          if (on) active = l;
-        });
-        if (active && navEl.scrollHeight > navEl.clientHeight) {
-          var r = active.getBoundingClientRect(), nr = navEl.getBoundingClientRect();
-          if (r.top < nr.top || r.bottom > nr.bottom) {
-            navEl.scrollTop += r.top - nr.top - nr.height / 2 + r.height / 2;
-          }
-        }
-      });
-    }, { rootMargin: '-12% 0px -75% 0px' });
-    sections.forEach(function (s) { obs.observe(s); });
-  }
 
   var filter = document.getElementById('filter');
   var empty = document.getElementById('navempty');

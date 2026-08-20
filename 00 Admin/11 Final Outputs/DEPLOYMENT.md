@@ -13,7 +13,8 @@ The client-facing 3D Process site, deployed to Cloudflare Pages.
 
 | Path | Page |
 |---|---|
-| `/` | **The complete pack** — the full document set (78 documents) rendered on one page, with a phase-grouped contents sidebar and a filter box |
+| `/` | **The pack landing page** — hero, the numbers, and a phase-grouped card index of all 78 documents |
+| `/<slug>` | **One page per document** — e.g. `/paid-media-launch`, `/discover-summary`. Same sidebar, prev/next at the foot |
 | `/summary` | **The delivery summary** — the ten-section overview: what's in the set, what wasn't done, what's blocking sign-off |
 | `/__signout` | Clears the session cookie |
 
@@ -23,11 +24,12 @@ The two pages cross-link, so the client can enter at either.
 
 | File | Purpose |
 |---|---|
-| `site/index.html` | The complete pack. **Generated — do not hand-edit.** Built from the markdown document set by `build/build_pack.py` |
+| `site/index.html` | The landing page. **Generated — do not hand-edit.** |
+| `site/<slug>.html` | One per document, 78 of them. **Generated — do not hand-edit.** Built from the markdown document set by `build/build_pack.py` |
 | `site/summary.html` | The delivery summary. Generated from `delivery-summary.html` (same page, minus the doctype wrapper so it can also publish as an artifact) |
 | `site/_worker.js` | Password gate + asset serving (Pages advanced mode: a root `_worker.js` takes over all routing) |
 | `build/build_pack.py` | Converts every catalogue document to HTML and assembles the pack |
-| `build/pack_template.html` | The pack's shell — design system, sidebar, scripts |
+| `build/pack_template.html` | The shared page shell — design system, sidebar, scripts. Placeholders: `{{TITLE}}`, `{{NAV}}`, `{{MAIN}}`, `{{TOTAL}}` |
 
 ## Rebuild the pack after editing documents
 
@@ -83,3 +85,13 @@ To change the password without editing code, set a `PACK_PASSWORD` environment v
 ## Custom domain
 
 Not configured. To put this on a Jewell Projects domain, add it under the Pages project's Custom domains tab — DNS is already in Cloudflare.
+
+## Routing note
+
+Cloudflare Pages resolves an extensionless path to its `.html` file, so `/paid-media-launch`
+serves `site/paid-media-launch.html`. The sidebar links use the extensionless form. Slugs are
+the Maxxim taxonomy slugs, so a document's URL matches its filename in `tap-that-brewery/memory/generated/`.
+
+The pack was a single continuously-scrolling page until 20 August 2026. It is now one page per
+document: the largest page is ~45 KB against the old 712 KB, and a document's URL can be sent
+to someone on its own.

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Build the Tap That complete 3D Process pack — the full document set on one page."""
+"""Build the Tap That 3D Process pack — a landing page plus one page per document."""
 import os, re, glob, html
 import markdown
 
 ROOT = "/home/user/tapthatbrewery"
-OUT = os.path.join(ROOT, "00 Admin/11 Final Outputs/site/index.html")
+SITE = os.path.join(ROOT, "00 Admin/11 Final Outputs/site")
 
 # catalogue number -> (title, phase, slug)
 CAT = {
@@ -126,9 +126,102 @@ def convert(path):
     # demote headings one level so the doc title stays h2
     for a, b in [(5,6),(4,5),(3,4),(2,3)]:
         h = h.replace(f"<h{a}>", f"<h{b}>").replace(f"</h{a}>", f"</h{b}>")
+    # the front-matter tables have an empty header row — drop it rather than
+    # render an empty grey band at the top of every document
+    h = re.sub(r'<thead>\s*<tr>(?:\s*<th[^>]*>\s*</th>)+\s*</tr>\s*</thead>', '', h)
     # wrap tables for horizontal scroll
     h = h.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
     return h
+
+HERO = """    <section id="top">
+      <div class="eyebrow">Jewell Projects &middot; Tap That Brewery &middot; Prepared for Chris Smith and Justin Mistry</div>
+      <h1 class="h-hero">The complete<br>3D Process.</h1>
+      <p class="lead">Every document in the set, end to end. Onboarding, Discover, Design and Deploy &mdash; built from one discovery session, one site visit, and every price on your walls. Pick a document from the contents, or from the index below.</p>
+
+      <div class="stats">
+        <div class="stat"><div class="stat-n">{TOTAL}</div><div class="stat-l">Documents</div></div>
+        <div class="stat"><div class="stat-n">{N_DI}</div><div class="stat-l">Discover</div></div>
+        <div class="stat"><div class="stat-n">{N_DE}</div><div class="stat-l">Design</div></div>
+        <div class="stat"><div class="stat-n">{N_DP}</div><div class="stat-l">Deploy</div></div>
+      </div>
+
+      <div class="callout">
+        <div class="k">The read everything is built on</div>
+        <div class="q">Tap That Brewery is a refill subscription business being run with a hospitality venue's attention.</div>
+        <p class="b">206 keg systems in the database and somewhere between 96 and 113 active customers &mdash; your own documents give both numbers, because they define &ldquo;active&rdquo; three different ways. Systems go out at cost and all the margin sits in refills, but eighteen months of attention went to the taproom, which loses money and was only ever meant to be the shopfront. And roughly 116 of those 206 owners &mdash; <strong>56%</strong> &mdash; bought their system somewhere else and came to you for beer anyway, with no campaign at all.</p>
+        <p class="b">Everything downstream follows from that. For the short version of this pack &mdash; what's here, what isn't, and what's blocking sign-off &mdash; see the <a href="/summary">delivery summary</a>.</p>
+      </div>
+
+      <p class="note">Status: every document is a working draft at v01, AI-assisted, and none are approved. Deploy runbooks were written ahead of both checkpoints and say so on their face &mdash; they are ready to run, not authorised to run. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
+    </section>
+"""
+
+
+def build_nav(docs, active_slug):
+    """Sidebar contents. active_slug is '' for the landing page."""
+    out = ['<a class="nav-link edge%s" href="/"><span class="nav-num">&middot;</span><span>Welcome</span></a>'
+           % ('' if active_slug else ' active')]
+    last_phase = None
+    for d in docs:
+        if d["phase"] != last_phase:
+            out.append(f'<p class="nav-phase">{d["phase"]}</p>')
+            last_phase = d["phase"]
+        star = '<span class="sig" title="Client sign-off">&bull;</span>' if d["signoff"] else ''
+        on = ' active' if d["slug"] == active_slug else ''
+        out.append(
+            f'<a class="nav-link{on}" href="/{d["slug"]}" data-t="{html.escape(d["title"].lower())}">'
+            f'<span class="nav-num">{d["label"]}</span><span>{html.escape(d["title"])}{star}</span></a>')
+    return "\n".join(out)
+
+
+def build_index_main(docs, counts, total):
+    """Landing page: hero plus a phase-grouped card index."""
+    parts = [HERO.format(TOTAL=total, N_DI=counts.get("Discover", 0),
+                         N_DE=counts.get("Design", 0), N_DP=counts.get("Deploy", 0))]
+    last_phase = None
+    for d in docs:
+        if d["phase"] != last_phase:
+            if last_phase is not None:
+                parts.append("</div></section>")
+            parts.append(f'<section class="ph"><div class="ph-h"><span class="ph-n">{d["phase"]}</span>'
+                         f'<span class="ph-c">{counts.get(d["phase"], 0)} documents</span></div>'
+                         f'<div class="cards">')
+            last_phase = d["phase"]
+        sig = '<span class="card-s">Sign-off</span>' if d["signoff"] else ''
+        parts.append(f'<a class="card" href="/{d["slug"]}"><span class="card-n">{d["label"]}</span>'
+                     f'<span class="card-t">{html.escape(d["title"])}</span>{sig}</a>')
+    if last_phase is not None:
+        parts.append("</div></section>")
+    return "\n".join(parts)
+
+
+def build_doc_main(d, i, docs, total):
+    prev_d = docs[i - 1] if i > 0 else None
+    next_d = docs[i + 1] if i < total - 1 else None
+    pn = (f'<a class="dn-btn prev" href="/{prev_d["slug"]}"><span>Previous</span>'
+          f'<strong>{html.escape(prev_d["title"])}</strong></a>') if prev_d else \
+         '<a class="dn-btn prev" href="/"><span>Back to</span><strong>Welcome</strong></a>'
+    nx = (f'<a class="dn-btn next" href="/{next_d["slug"]}"><span>Next</span>'
+          f'<strong>{html.escape(next_d["title"])}</strong></a>') if next_d else \
+         '<a class="dn-btn next" href="/"><span>Back to</span><strong>Welcome</strong></a>'
+    sig = '<span class="pill sign">Sign-off</span>' if d["signoff"] else ''
+    return f'''<article class="doc" id="{d["slug"]}">
+  <div class="doc-head">
+    <div class="doc-head-l"><span class="doc-chip">{d["phase"]}</span>{sig}<span class="pill draft">Draft v01</span></div>
+    <span class="doc-count">Document {d["label"]} of {total}</span>
+  </div>
+  <h2 class="doc-title">{html.escape(d["title"])}</h2>
+  <div class="prose">{d["html"]}</div>
+  <nav class="doc-nav">{pn}{nx}</nav>
+</article>'''
+
+
+def render(title, nav, main, total):
+    return (TEMPLATE.replace("{{TITLE}}", title)
+                    .replace("{{NAV}}", nav)
+                    .replace("{{MAIN}}", main)
+                    .replace("{{TOTAL}}", str(total)))
+
 
 def main():
     files = find_files()
@@ -137,61 +230,40 @@ def main():
         print("MISSING:", missing)
     docs = []
     for n in sorted(CAT, key=lambda k: 20.5 if k == 205 else k):
-        if n not in files: continue
+        if n not in files:
+            continue
         title, phase, slug = CAT[n]
         label = "20A" if n == 205 else f"{n:02d}"
         docs.append(dict(n=n, label=label, title=title, phase=phase, slug=slug,
                          html=convert(files[n]), signoff=n in SIGNOFF))
     total = len(docs)
 
-    # ---- sidebar nav ----
-    nav, last_phase = [], None
-    nav.append('<a class="nav-link edge" href="#top"><span class="nav-num">·</span><span>Welcome</span></a>')
-    for d in docs:
-        if d["phase"] != last_phase:
-            nav.append(f'<p class="nav-phase">{d["phase"]}</p>')
-            last_phase = d["phase"]
-        star = '<span class="sig" title="Client sign-off">&bull;</span>' if d["signoff"] else ''
-        nav.append(
-            f'<a class="nav-link" href="#{d["slug"]}" data-t="{html.escape(d["title"].lower())}">'
-            f'<span class="nav-num">{d["label"]}</span><span>{html.escape(d["title"])}{star}</span></a>')
-    nav_html = "\n".join(nav)
-
-    # ---- documents ----
-    arts = []
-    for i, d in enumerate(docs):
-        prev_d = docs[i-1] if i > 0 else None
-        next_d = docs[i+1] if i < total-1 else None
-        pn = (f'<a class="dn-btn prev" href="#{prev_d["slug"]}"><span>Previous</span>'
-              f'<strong>{html.escape(prev_d["title"])}</strong></a>') if prev_d else '<span class="dn-sp"></span>'
-        nx = (f'<a class="dn-btn next" href="#{next_d["slug"]}"><span>Next</span>'
-              f'<strong>{html.escape(next_d["title"])}</strong></a>') if next_d else \
-             '<a class="dn-btn next" href="#top"><span>Back to</span><strong>Welcome</strong></a>'
-        sig = '<span class="pill sign">Sign-off</span>' if d["signoff"] else ''
-        arts.append(f'''
-<article class="doc" id="{d["slug"]}">
-  <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">{d["phase"]}</span>{sig}<span class="pill draft">Draft v01</span></div>
-    <span class="doc-count">Document {d["label"]} of {total}</span>
-  </div>
-  <h2 class="doc-title">{html.escape(d["title"])}</h2>
-  <div class="prose">{d["html"]}</div>
-  <nav class="doc-nav">{pn}{nx}</nav>
-</article>''')
-    arts_html = "\n".join(arts)
-
     counts = {}
-    for d in docs: counts[d["phase"]] = counts.get(d["phase"], 0) + 1
+    for d in docs:
+        counts[d["phase"]] = counts.get(d["phase"], 0) + 1
 
-    page = TEMPLATE.replace("{{NAV}}", nav_html).replace("{{DOCS}}", arts_html) \
-                   .replace("{{TOTAL}}", str(total)) \
-                   .replace("{{N_ON}}", str(counts.get("Onboarding",0))) \
-                   .replace("{{N_DI}}", str(counts.get("Discover",0))) \
-                   .replace("{{N_DE}}", str(counts.get("Design",0))) \
-                   .replace("{{N_DP}}", str(counts.get("Deploy",0)))
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    open(OUT, "w", encoding="utf-8").write(page)
-    print(f"wrote {OUT}  ({len(page):,} chars, {total} documents)")
+    os.makedirs(SITE, exist_ok=True)
+
+    # landing
+    page = render("Tap That Brewery &middot; Complete 3D Process",
+                  build_nav(docs, ""), build_index_main(docs, counts, total), total)
+    open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(page)
+    written, biggest = 1, 0
+
+    # one page per document
+    slugs = set()
+    for i, d in enumerate(docs):
+        if d["slug"] in slugs:
+            raise SystemExit(f"duplicate slug: {d['slug']}")
+        slugs.add(d["slug"])
+        page = render(f'{html.escape(d["title"])} &middot; Tap That Brewery',
+                      build_nav(docs, d["slug"]), build_doc_main(d, i, docs, total), total)
+        open(os.path.join(SITE, d["slug"] + ".html"), "w", encoding="utf-8").write(page)
+        written += 1
+        biggest = max(biggest, len(page))
+
+    print(f"wrote {written} pages to {SITE} ({total} documents, largest page {biggest:,} chars)")
+
 
 TEMPLATE = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "pack_template.html"), encoding="utf-8").read()
 
