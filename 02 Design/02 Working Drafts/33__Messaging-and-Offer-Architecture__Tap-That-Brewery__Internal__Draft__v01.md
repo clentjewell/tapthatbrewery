@@ -73,6 +73,16 @@ The four tiers from D05, rewritten as what the customer is told (naming suggesti
 - **Keg Drop** – delivery via GoTab × Uber Direct (census-validated: $20–30 fee, 3–7 days acceptable; same-day possible)
 - **Your Club, Your Beer** – white-label for sports clubs ("Surfers Paradise Demons Lager": 10% player discount, 10% club kickback), weddings and function venues
 
+## The unresolved question underneath this architecture
+
+*Added after the 27 August advisory review.* The message house above is built on the census driver order — taste leading, cost stating itself plainly second. Two things now qualify that, and both are open.
+
+**Whether cost belongs in open channels at all is undecided** (open item #15). Scaling Up forbids competing on price; the census ranks cost the second-strongest driver. Those positions cannot both hold, and the answer decides whether the maths runs in the open feed or stays in retargeting. The architecture below assumes the former.
+
+**The ranking itself is a ranking of what people will say.** Fifty self-selected respondents will not write down that they want to be seen as more successful than their mates. Ego and status are doing work that no self-report will surface, which means the kudos and connection pillars are probably carrying more of the purchase than their position suggests. That does not change the pillars; it changes their weighting, and it is why the awareness hooks lead on them.
+
+Treat the house as provisional pending CP1 rather than settled (#29).
+
 ## The nurture spine (messaging over the 3-month cycle)
 
 ~60% of buyers take up to 3 months; the sequence matches: Pillar 1 opens → Pillar 2 objection content (partner range, moderation census, award) → giveaway entry → Pillar 3 close (50%-off window, Afterpay, lease-to-buy) → Keg Crew attach at purchase. Currently this exists only physically in the venue – the digital equivalent is the priority build (H3).

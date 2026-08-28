@@ -34,6 +34,18 @@ These are not sprint items. They are live errors and they are not gated on CP1, 
 | W3 | Remove one of the two conflicting membership posters; decide the price | Founders | One price in the room |
 | W4 | Correct the "Bong Water / Bone Water" name across menu, web and collateral | Harry/Harry | Consistent everywhere |
 
+## The three moves that outrank this sprint plan
+
+*Added after the 27 August advisory review.* The sprints below are sound as a marketing sequence. The review ranked three things above all of them, and none is a marketing task:
+
+1. **Buy the system-owner databases** — Harvey Norman, Keg Land / Kegmaster, BenchTop, Benchy. Every name has already overcome the $975 objection. At about $70 gross per keg the data pays for itself quickly.
+2. **Do a direct Harvey Norman deal** — point-of-sale QR, a per-keg referral rebate, or a free keg with purchase where liquor rules allow. Monk holds point contacts. A conversation, not a campaign.
+3. **Go at the tour operators, commercial and wholesale properly** — with structure, goals, KPIs and a named owner rather than as opportunism.
+
+**Ranked explicitly below them: pulling people into the taproom through social media**, which is closer to the centre of the sprints below than it should be.
+
+None of the three needs a gate, a build or a content calendar. They belong in Week 0 alongside the compliance fixes, and the sprints run behind them rather than in front.
+
 ## Sprint 1 (weeks 1–4) – Instrument and fix
 
 | # | Item | Owner | Success measure | Source |

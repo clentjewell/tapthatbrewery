@@ -30,6 +30,14 @@ The tap wall is engineered for partner buy-in, not just beer nerds – the non-b
 
 **Unmarketed product truth:** the range is gluten-reduced (cannot legally claim gluten-free) and skews lower-carb and sessionable by design (core ABVs 3.5–5.8%). Nobody is telling this story yet – it is live ammunition for the female market and moderating drinkers (D06 hypothesis H7).
 
+## Three product findings from the 27 August review
+
+**Twenty-seven taps may be too many, and it is a cost decision as much as a range one.** Twenty-seven choices at a board is decision anxiety for the customer and an unreadable menu; behind it sits ingredients, kegs, storage and refrigeration on stock that may never move. The review's proposal is to cut to **about six core beers plus seasonals**. As the review put it, at 27 it feels like the manufacturer is running the business rather than the customer. This is open item #21 and it needs the cost data (#17) to settle properly.
+
+**A low-alcohol or healthier line is a product recommendation, not a trend note.** The roughly 40% of customers who have stretched their refill gap have *cut back*, not defected — the system is still in the backyard. They have reduced beer, not thirst. Putting something they will drink into their taps reactivates them without asking anyone to drink more, and the health and lifestyle trend plus an ageing customer base both run the same way. This is the single clearest product-led growth move in the set (#28, #47).
+
+**The RTD range is an afterthought and it should not be.** A third of the taps are non-beer, but the range reads as a collection of items rather than a proposition — no romance, and an internal perception that it does not matter. The review's read is that women are covered rather than catered for, and that the rest follows them. Build the RTD range properly and a barrier the funnel currently argues with stops needing to be argued (#07).
+
 ## The vessels: keg formats
 
 | Format | Detail | Role |

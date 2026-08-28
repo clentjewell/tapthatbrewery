@@ -18,6 +18,16 @@
 
 The business is loss-making and has never run structured paid media. This plan is therefore not a media schedule – it is a **test protocol**. Every dollar must be traceable to one of three events GoTab can record: a giveaway entry, a demo booking (via cheers@ / booking link), or a first refill from a switcher. Total budget **[TBC – set against P&L data at CP1]**; the structural rule is that paid media never exceeds what one converted refill customer year-one value (~$2,400 at ~$200/month) justifies per acquisition, and starts an order of magnitude below agency-normal spend.
 
+## What the 27 August review changes about spending at all
+
+**The order of moves changed, and paid media is not in the top three.** Ranked above it: buying the system-owner databases, a direct Harvey Norman arrangement, and going properly at tour operators, commercial and wholesale. None of those is media spend. On a loss-making P&L with no known cost base (open item #17), that ranking is the plan — this document describes what runs *after* those are moving, not instead of them.
+
+**Ranked explicitly below the three: pulling people into the taproom through social media.** Any Meta objective aimed at taproom footfall should be read against that, and against the fact that taproom traffic is acquired through the loss-making half of the business (#23).
+
+**There is a paid-media asset nobody has recovered.** A previous agency ran campaigns and the account still exists — historical creative, what worked, what did not, and real cost-per-result numbers (open item #16). It is the only free input this plan has. Recovering it is step one, before a dollar moves, because it is the difference between a first campaign and a second one.
+
+**And the bought lists change the targeting model.** Matched-audience uploads from purchased system-owner data beat interest-based prospecting on every axis that matters here: the demand signal is real, the objection is already overcome, and the audience is finite and knowable.
+
 ## Channel roles (only two channels)
 
 | Channel | Role | Why it earns a place |

@@ -14,7 +14,18 @@
 
 ---
 
-House rules across all six pages: kudos/connection open, cost closes (Christy’s rule); every price sits next to an Afterpay/Zip mark; every capture lands in Fishbowl (or an exportable list until integration ships); voice is the venue’s own – cheeky, pun-forward, zero corporate. Copy drafts are downstream; this fixes what each page must argue and in what order.
+House rules across all six pages: kudos and connection open, cost closes — subject to open item #15, which asks whether cost belongs in the open feed at all; every price sits next to an Afterpay/Zip mark; every capture lands in Fishbowl (or an exportable list until integration ships); voice is the venue’s own – cheeky, pun-forward, zero corporate. Copy drafts are downstream; this fixes what each page must argue and in what order.
+
+## What the 27 August site audit changes here
+
+Christy's review of the live site (#37) lands hardest on this document, because most of what she found is a page-level problem.
+
+- **Four business units given equal treatment.** The Home spec below originally opened with a four-door router. That *is* the finding — a site that offers four equal doors has told the visitor nothing about what this business is. Home now leads and then routes, rather than routing instead of leading.
+- **The Crafted award and "fits any system" belong above the fold**, not in a strip further down. They are the strongest proof and the cheapest acquisition respectively.
+- **Reviews must scroll.** They are currently behind click-dots that do not, which makes the social proof unreachable.
+- **The hero film is cut too fast** to read the message underneath, and the logo is a low-resolution static image. Both are production notes for #54, carried here because they sit above the fold.
+- **One membership, spanning taproom and refills** (#37), which changes the Memberships page from a scheme description to a single proposition.
+- **Wholesale needs its WIIFM** — margin, white label, cuisine matching — and currently has none anywhere.
 
 ## 1. Home
 
@@ -22,11 +33,11 @@ House rules across all six pages: kudos/connection open, cost closes (Christy’
 |---|---|
 | **Purpose** | Route four visitor types in one scroll; open the "beer on tap at home" category claim |
 | **Segments** | All – triage page |
-| **Message hierarchy** | 1. Good times at your place (connection/kudos) → 2. Award-winning beer brewed in Burleigh, 27 taps, a third not even beer → 3. System at cost, refills that beat the bottle-o per litre (cost, quietly) |
+| **Message hierarchy** | 1. The category claim, stated once and clearly — beer on tap at home, and **we fill any system** → 2. **Crafted Brewer's Choice**, brewed in Burleigh, 27 taps with a third not even beer → 3. Good times at your place (connection/kudos) → 4. System at cost, refills that beat the bottle-o per litre. Whether cost runs in the open or stays in retargeting is open item #15 |
 | **Proof** | Crafted Brewer’s Choice (first year), tap-wall imagery, Tap Token leaderboard/community signals, real-customer UGC when available |
 | **CTAs** | Primary: enter the giveaway / join Brew Buds. Secondary: explore keg systems |
 | **Objections handled** | None head-on – Home routes; objection pages answer |
-| **Blocks in order** | Hero (backyard pour, category line) → 4-door router (own a system / get refills–we fill any system / visit the taproom / book a function) → award + brewed-in-Burleigh strip → range teaser incl. non-beer third → giveaway capture → membership/community teaser → footer |
+| **Blocks in order** | Hero: category line, **the Crafted award, and "we fill any system"** — all above the fold, on a still or a slow cut rather than fast-edit film → range teaser incl. the non-beer third → **reviews, scrolling, not behind click-dots** → then the router (own a system / get refills / visit the taproom / book a function), *after* the site has said what it is rather than instead of saying it → giveaway capture → one-membership teaser → footer |
 
 ## 2. Keg Systems
 

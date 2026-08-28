@@ -16,9 +16,37 @@
 
 ## The site’s job, in one sentence
 
-The taproom converts 20–30% [unverified – see #20B] of visitors into keg system owners because people *see the thing working*. The website’s job is to be that demo floor for everyone who isn’t standing in Burleigh – and, critically, to **manage the 3-month consideration window** that the venue currently leaves to memory. ~60% of buyers take up to three months to commit and 40% take longer; today nothing owned and digital nurtures them between "that’s a keg system?" and the $975 decision. The site is where that gap closes.
+The taproom is claimed to convert 20–30% of visitors into keg system owners because people *see the thing working*. That rate has never been measured (open item #18) and the taproom is also the half of the business that loses money (#23), so the website matters more, not less: it is the demo floor that costs nothing per visitor. The website's job is to be that floor for everyone who isn't standing in Burleigh – and, critically, to **manage the 3-month consideration window** that the venue currently leaves to memory. ~60% of buyers take up to three months to commit and 40% take longer; today nothing owned and digital nurtures them between "that’s a keg system?" and the $975 decision. The site is where that gap closes.
 
-The current tapthatbrewery.com.au has not been audited – every claim about what exists today is [pending site audit]. This document specifies what the site must *do*; #38–#40 specify structure, pages and search.
+This document specifies what the site must *do*; #38–#40 specify structure, pages and search.
+
+## What the 27 August review found on the current site
+
+The site has now been audited. This is Christy Kilmartin's read of tapthatbrewery.com.au, and it is the most specific external critique in the engagement. It supersedes the earlier note that no audit existed.
+
+**Above the fold does not work.**
+- Nothing arresting. The background film is cut too fast to read the message underneath it.
+- Too much copy competing for the same attention.
+- The logo is a low-resolution static image.
+- **Hierarchy, visuals and tone do not live up to the core promise.** Four business units are given equal treatment, so the site says everything and therefore nothing.
+
+**Two things that should be on the landing page and are not.**
+- **The Crafted award.** Midnight in Tokyo won Brewer's Choice. It is the single strongest third-party proof the business owns and it is not the first thing a visitor sees.
+- **"Fits any system."** This is the cheapest acquisition in the business (#17, #24 P1) and the site does not say it clearly on arrival.
+
+**Reviews are buried** behind click-dots that do not scroll. Social proof that a visitor cannot get to is not social proof.
+
+**Wholesale is missing its WIIFM entirely.** No margin argument, no white-label story, no cuisine matching. A venue buyer arriving on this site is given nothing to say yes to — and on the review's arithmetic that visitor is worth roughly ten household visitors (#23, #24 P4).
+
+**Membership is split when it should be one.** One membership should span the taproom and refills if the taproom is to work as a feeder: the member changes a keg, gets a free schooner while they wait, and comes back for both reasons. Two schemes make the taproom a separate business rather than a door into the refill one.
+
+**"Commercial brewer" needs romance.** Saying it plainly puts Tap That in the same sentence as the big commercial brewers it is trying to be different from.
+
+**Reference standard: Drink Hopper.** That is the bar for how this category can present itself online.
+
+### What that changes here
+
+The conversion goals below still hold — capturing the undecided still beats converting the decided. What changes is that the site's first problem is not structure, it is **hierarchy**. Four co-equal business units and a buried award is a positioning failure expressed as a layout, and no amount of funnel work fixes it. #39 Page Strategy carries the above-the-fold consequences.
 
 ## Conversion goals, ranked
 

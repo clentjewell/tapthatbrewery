@@ -38,6 +38,20 @@ The structural finding, carried from D05/D06: the physical journey works – the
 | **8. At-risk (75–90 days)** | No keg purchase in 75+ days; usually lapsed, not lost – "hadn’t gotten around to it" or moderating | None – the customer hears nothing between active and churned | No pre-churn nudge at day 60–75, when the save is cheapest; segment only visible manually | Unassigned – GoTab/Fishbowl automation pending |
 | **9. Churned / Winback (90+ days)** | 90+ days since last keg; discovery contact says most cut back or drifted, few defected | Manual monthly SMS: $20 off within 2 weeks; Marie’s Pizza (Buttercard) family-offer test this month | Manual, monthly, one-size-fits-all; no escalation ladder, no reason-for-lapse split (moderating vs drifted vs defected) | Harry (manual) → automation |
 
+## The stage this journey was missing: how often they come back
+
+*Added after the 27 August advisory review.* The journey above ends at advocacy and treats refill as a single repeating stage. It is not one behaviour, it is three, and the difference decides what we send and when.
+
+| Band | Share | What is happening | The journey implication |
+|---|---|---|---|
+| Monthly | ~10% | At ceiling. They cannot drink much more | Protect, do not push. Membership, priority, first access to seasonals |
+| Quarterly | ~60% | The core. Habit set but loose | Reach them *before* the reorder, on their own interval (#48) |
+| Longer | ~40% | **Cut back, not defected.** The system is still in the backyard | The largest and most winnable band — and it needs a different product, not a louder message |
+
+**The 40% is the finding.** They have moderated rather than left, and where they are also members they are paying for something they have stopped using. The answer is a low-alcohol or healthier line framed as hydration rather than beer (#14), which reactivates a customer who already owns the hardware without asking anyone to drink more. The health and lifestyle trend runs the same way and the customer base is ageing, so the pitch to this band is quality of connection over quantity consumed.
+
+**The blanket clock is the failure mode.** A 90-day message is a month late for the monthly buyer and premature for the one who runs longest. Journey timing is per-customer from here (#48).
+
 ## Three journey-level findings
 
 1. **The journey has a front door and a back door but no hallway.** Stages 2 and 4 work (taproom converts, giveaway closes); stage 3 – where 60% of buyers spend up to 3 months – is empty. Every improvement in #29/#30 concentrates there first.

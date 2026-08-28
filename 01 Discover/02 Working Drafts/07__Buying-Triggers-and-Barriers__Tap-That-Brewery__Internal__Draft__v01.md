@@ -49,6 +49,18 @@ A keg system is a considered household purchase, not an impulse buy. Client’s 
 
 Barrier 4's counter is the most under-used asset: it is proprietary data, it is counter-intuitive, and it reassures the veto-holder (barrier 2) at the same time. One piece of content kills two objections.
 
+## The partner: a barrier we described the wrong way round
+
+*Revised after the 27 August advisory review.* The barrier list above treats the partner as an approval gate — the source of "my wife won't let me", to be answered with reassurance that there is something on tap for her. The review's read is that the framing is itself the problem:
+
+> "This is a bloke's beer place and the chicks can come if they want. But the blokes will follow the girls."
+
+Being *covered* is not being *catered for*. Roughly a third of the 27 taps are non-beer — seltzers, a Strawberry Gin Fizz sour, ginger beer, Ranch Water, mojitos on tap — and the RTD range currently reads as a collection of items rather than a proposition, with no romance in it and an internal perception that it does not matter. On this finding that is backwards: build the RTD range properly and the barrier stops needing to be handled.
+
+**The product answer beats the message answer.** A collaboration with a barbecue brand — an all-in-one outdoor unit, barbecue plus four taps — sells into the household *as a barbecue* rather than as a beer rig. That reframes the purchase for the person most likely to block it, which no counter-argument in a funnel can do.
+
+**And the upfront barrier has a pricing answer.** This is the reverse of the razor-and-blades model: an expensive handle and cheap blades. Rental or lease-to-buy, framed as a gym membership at $50–100 a month, removes the $975 wall rather than arguing with it (#15).
+
 ## Implication: the 90-day nurture (proposed, not decided)
 
 Match the machine to the cycle instead of hoping memory holds:

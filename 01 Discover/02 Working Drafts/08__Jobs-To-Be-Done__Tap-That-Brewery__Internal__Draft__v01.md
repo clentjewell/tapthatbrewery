@@ -31,6 +31,19 @@ Nobody hires a keg system for the hardware – the client said it themselves: *"
 
 **The pattern:** every primary segment’s social job is a variant of *make my place the default venue*. That is the campaign-level job – the pillars (kudos, connection) are just its two faces, and cost is the justification that follows (Christy’s dirty-little-secret rule).
 
+## The job the lapsed customer is hiring for now
+
+*Added after the 27 August advisory review.* The jobs above are all jobs of acquisition and hosting. There is a job this list is missing, and it belongs to the largest group in the base.
+
+Roughly **40% of customers have stretched their refill gap well beyond three months**. They have not defected — the system is still in the backyard. They have **cut back on beer, not on thirst**, and the health and lifestyle trend plus an ageing customer base both push the same way.
+
+| The job | What they would hire | Why the current range fails it |
+|---|---|---|
+| *"Help me keep the ritual without the volume"* | A low-alcohol, lower-carb or protein-enhanced line on tap | The taps are full of full-strength beer, so the ritual and the moderation are in conflict and the ritual loses |
+| *"Give me something to pour when I am not drinking"* | Seltzers, ginger beer, Ranch Water — already a third of the taps, but not sold as an answer to this | The non-beer third exists as variety, not as a reason to keep the system running |
+
+This is the clearest product-led job in the set, because the customer already owns the hardware and has already paid to have it. It also reframes what the taps are for: sell **quality of connection over quantity consumed** (#14, #28).
+
 ## Jobs by purchase moment
 
 The four moments hire Tap That Brewery for different things. Conflating them produces creative that sells everything and closes nothing.

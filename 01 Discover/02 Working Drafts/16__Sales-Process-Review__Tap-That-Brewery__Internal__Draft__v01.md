@@ -58,6 +58,14 @@ But the window itself is **unmanaged**: no email/SMS nurture, no objection-answe
 
 Sports clubs hit three objections – no packaged cans, existing supplier contracts, no tap infrastructure – plus NRL-affiliated venues locked by CUB exclusivity. The white-label play (club-branded lager, 10% player discount / 10% club kickback) is the designed answer, not yet systematised.
 
+## Two sales mechanics the review added
+
+**The puppy-dog close.** Put a working system in a booth in the taproom so customers use one rather than look at one — pour their own, sit with it for an hour. The objection this business fights is a $975 capital decision made on imagination; the counter is possession, not persuasion. Letting a member keep their own keg on tap, the way a pub holds a regular's whiskey bottle, is the same idea extended past the sale. Both are cheap and neither exists today.
+
+**And the sales channel with no salesperson.** The system-owner databases — Harvey Norman (six kegerator models plus a 25L tap unit), Keg Land / Kegmaster, BenchTop, Benchy — hold buyer lists where the $975 objection is already overcome. Buying that data is a sales move, not a marketing one, and at about $70 gross per keg it pays for itself quickly. A direct Harvey Norman arrangement sits alongside it: point-of-sale QR, a per-keg referral rebate, or a free keg with purchase where liquor rules allow. Monk holds point contacts (#22, #24 P1).
+
+Both belong above everything in the gap list below, because they change what the process has to sell rather than how well it sells it.
+
 ## The process gaps, named
 
 1. **No taproom lead capture** – the highest-converting moment (a claimed 20–30%, unmeasured – see #20B) has no mechanism to hold the 70–80% who don’t buy that day.

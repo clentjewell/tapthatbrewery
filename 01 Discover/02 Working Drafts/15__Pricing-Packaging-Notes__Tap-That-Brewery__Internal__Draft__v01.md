@@ -62,6 +62,16 @@ Afterpay + Zip accepted; lease-to-buy in development (GoTab-dependent). The bonu
 
 **Reconciliation required before Gate 1** – pricing, token schedule and inclusions all differ, and the keg systems card independently lists Keg Crew at $250/yr (supporting the newer poster). Until the client confirms which is live, all strategy work assumes the newer poster.
 
+## The model is razor-and-blades in reverse, and the pricing should admit it
+
+*Added after the 27 August advisory review.* Gillette sells a cheap handle and expensive blades. This business sells an expensive handle — $975 to $2,550 — and then cheap blades, at a per-schooner price low enough to be the whole argument. That is the wrong way round, and every barrier in #07 traces back to the handle.
+
+**Remove the upfront wall rather than argue with it.** Rental or lease-to-buy, framed and priced like a **gym membership at $50–100 a month**, converts a capital decision into a subscription one. It also suits a business that wants recurring revenue rather than one-off hardware sales it makes no margin on anyway.
+
+**Price delivery as a member benefit, and share the cost.** Free delivery for members within an area, or **$150 non-member and $130 member delivered**. The margin comes back in dollars rather than percentage, and it puts Justin in front of customers on their own driveway instead of behind the bar — which is worth more than the freight line. Birthday tasters as a surprise on delivery cost almost nothing and are remembered.
+
+**Simplify loyalty before automating it.** A points system carries administration, reconciliation and explanation costs of its own. **Every tenth keg free** is legible, needs almost no administration and rewards exactly the behaviour the business needs. Referral likewise: a free keg for both parties when a mate buys a system beats a token balance, because it pays out at the moment of goodwill (#48).
+
 ## Competitive price position
 
 | Comparison | Them | Tap That Brewery |

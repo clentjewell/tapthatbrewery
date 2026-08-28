@@ -59,6 +59,18 @@ This is the execution view of the approved strategy (#63): quarter by quarter, w
 | Playbook codification | Giveaway cycle, switcher lane, lifecycle flows, club model written as SOPs – the franchise-asset marker | J · C (endorsement) | Two giveaway cycles + C1/C4 actuals | Pending CP2 sign-off |
 | Year close-out (Aug) | Annual review vs the 450 gate; Father’s Day 2027 + giveaway cycle 3 staged from the cloned playbook; year-2 budget | J (review) · R (runs the playbook) · C (budget) | Full-year data | Pending CP2 sign-off |
 
+## What the 27 August review moves in this roadmap
+
+*Added after the review; the quarters below have not yet been resequenced and should be read against this.*
+
+**Three moves now rank above most of Q1.** Buying the system-owner databases, a direct Harvey Norman arrangement, and structured commercial, wholesale and tour-operator outreach. None needs a campaign calendar, a build or a gate — they need a data purchase, a conversation and an owner. They can start in Week 0.
+
+**One thing in here ranks below them:** taproom traffic through social media, which is closer to the centre of Q1 than it should be.
+
+**Two milestones are not schedule items but decisions.** The taproom's role (open item #20) and the range (open item #21) sit underneath the quarterly targets, and neither is ours to make. A roadmap that schedules around an unmade decision is a plan with a hole in it, so both are named here rather than assumed.
+
+**And the whole ladder is unrebased.** Every quarterly active count below derives from the superseded 220 baseline. They are marked rather than silently rescaled, because from 96–113 the climb to 1,000 is roughly nine-fold, not the 4.5× this roadmap assumed (#20A, open item #11).
+
 ## Customer-count milestones toward 1,000
 
 | Checkpoint | Actives | Refill run-rate | Gate – do not proceed without |

@@ -123,56 +123,92 @@ def rule_stale_census_tense(path, ls):
 # Whether a document has absorbed the 27 August review, measured by content
 # rather than by whether it happens to cite #20B -- a one-line flag cites it
 # too. Each marker is a finding the review actually made.
+# Each marker must match the review's FINDING, not merely the noun it concerns.
+# Lease-to-buy was already in the plan; the finding was to reframe it as a
+# monthly that removes the upfront barrier. Hop On was already a known traffic
+# source; the finding was that the operator picks the venues, so the write-up
+# converts. Matching the noun counted documents as reworked when they were not.
 REVIEW_MARKERS = {
-    "loss-making":       r"loss[- ]making|los(e|es|ing) money",
-    "buy-the-databases": r"buy the database|Harvey Norman|BenchTop|Keg ?Land",
-    "cadence":           r"10/60/40|cut back, not defected|reorder pattern|before the reorder",
-    "commercial-x10":    r"ten households|worth roughly ten",
-    "taproom-zero-sum":  r"zero[- ]sum|built on people \*?not\*? coming|work against each other",
-    "census-demoted":    r"self[- ]report|will never surface|too small and too self|"
+    "loss-making":       r"\bloss[- ]making\b|\blos(e|es|ing) money\b",
+    "buy-the-databases": r"buy the database|buyer list|database of (buyers|system owners)|"
+                         r"bought lists|buy the lists",
+    "cadence":           r"\b10/60/40\b|cut back, not defected|own (reorder )?interval|"
+                         r"before the reorder|their interval",
+    "commercial-x10":    r"\bten households\b|worth roughly ten",
+    "taproom-zero-sum":  r"\bzero[- ]sum\b|built on people \*?not\*? coming|work against each other",
+    "census-demoted":    r"\bself[- ]report|will never surface|too small and too self|"
                          r"say out loud|what people will say",
     "catered-vs-covered": r"covered rather than catered|catered to rather than|blokes will follow",
-    "tour-operators":    r"Urban Legends|Pineapple Tours|Hop On",
-    "low-alcohol":       r"low[- ]alcohol|hydration not beer|healthier line|healthy or low",
-    "range-decision":    r"six core beers|cut to (about )?six|decision anxiety",
-    "premium-beats-middle": r"Second Earth|middle ground|neither cheap nor",
+    "tour-operators":    r"operator picks|customer (choose|pick)s? which brewer|write-up decides|"
+                         r"\bUrban Legends\b|\bPineapple Tours\b",
+    "low-alcohol":       r"\blow[- ]alcohol\b|hydration not beer|healthier line|healthy or low",
+    "range-decision":    r"\bsix core beers\b|cut to (about )?six\b|decision anxiety",
+    "premium-beats-middle": r"\bSecond Earth\b|\bmiddle ground\b|neither cheap nor",
+    "website-teardown":  r"\babove the fold\b|\bDrink Hopper\b|\bclick-dots\b|"
+                         r"four business units|low-resolution logo|background film",
+    "competitor-weaker": r"domain is suspended|\bBurleigh Homebrew\b",
+    "wholesale-wiifm":   r"\bWIIFM\b|\bwhite label\b|cuisine matching",
+    "one-membership":    r"\bone membership\b|membership should span|spanning the taproom",
+    "puppy-dog":         r"\bpuppy[- ]dog\b|system in a booth",
+    "loyalty-simplified": r"every tenth keg|tenth keg free",
+    "events-drive-a-week": r"week of taproom trade|week of trade\b",
+    "lease-to-buy-reframed": r"\bgym membership\b|razor[- ]and[- ]blades|"
+                             r"remove the upfront barrier|upfront barrier",
+    "unsaid-drivers":    r"\bego\b|seen as (more )?successful|not (be )?said out loud|"
+                         r"out of the house|unsaid driver",
+    "three-ranked-moves": r"three (ranked )?moves|ranked (first|above|explicitly below)|"
+                          r"rank above|outrank this sprint",
+    "franchise-consent":  r"franchise.{0,60}consent|said publicly|open item #6\b",
+    "conversion-unmeasured": r"never been (measured|observed)|has never been measured|"
+                             r"pay people to walk in",
+    "driver-order-open":  r"provisional pending CP1|order people will say|"
+                          r"what people will say|stated order",
+    "award-unused":       r"not on the (website|landing)|does not appear on the (website|landing)|"
+                          r"award is not being used|absent from the brewery write-ups",
 }
+
+
 
 # Documents where a specific review finding clearly applies. Each entry names
 # the finding, so the list is auditable rather than a matter of opinion. A
 # document leaves this list by absorbing the finding, not by being removed.
+# Documents where a specific review finding applies, and the marker that shows
+# the finding actually landed. Checking one named finding per document beats a
+# generic "any two markers" threshold: a document can absorb exactly what the
+# review said about it and still not mention the other findings.
 REVIEW_BEARS_ON = {
-    "06": "the unsaid drivers -- ego, status, wanting to be out of the house",
-    "07": "the partner reframed from veto to be managed into audience to cater for",
-    "08": "the hydration and health job for lapsed owners",
-    "10": "the competitor is weaker than assumed; premium beats the middle ground",
-    "12": "one commercial account is worth about ten households",
-    "14": "the range decision, the RTD range, the low-alcohol line",
-    "15": "reverse razor-and-blades, lease-to-buy, delivery priced as a benefit",
-    "16": "the puppy-dog close, and buying the system-owner databases",
-    "17": "the taproom and refill model are zero-sum",
-    "21": "the cost drivers are the largest gap",
-    "23": "the business is loss-making and its costs are unknown",
-    "24": "the three ranked moves reorder the priorities",
-    "27": "the unsaid drivers a self-report will not surface",
-    "28": "cadence: 10 percent monthly, 60 quarterly, 40 longer",
-    "29": "the stage copy still follows the superseded driver order",
-    "30": "the 20-30 percent conversion is unmeasured",
-    "31": "the census is one input, not the anchor",
-    "32": "Second Earth as the counter-example -- premium beats the middle",
-    "33": "whether cost is on the table at all",
-    "37": "the full website teardown, and Drink Hopper as the reference",
-    "39": "the above-the-fold findings from the teardown",
-    "40": "the competitor domain is suspended; check what resolves",
-    "43": "pulling people into the taproom by social is ranked below the three moves",
-    "46": "the prior Meta ad account, and the reordered priorities",
-    "47": "the 90-day blanket SMS is tone-deaf against real reorder patterns",
-    "48": "personalised reorder timing, and every tenth keg free over points",
-    "50": "one event drives a week of taproom trade",
-    "64": "the roadmap order changes with the three moves",
-    "71": "franchise-story consent, and the awards that are not being used",
-    "77": "the sprint order follows the three ranked moves",
+    "06": ("the unsaid drivers -- ego, status, wanting to be out of the house", "unsaid-drivers"),
+    "07": ("the partner reframed from veto to audience to cater for", "catered-vs-covered"),
+    "08": ("the hydration and health job for lapsed owners", "low-alcohol"),
+    "10": ("the competitor is weaker; premium beats the middle ground", "premium-beats-middle"),
+    "12": ("one commercial account is worth about ten households", "commercial-x10"),
+    "14": ("the range decision, the RTD range, the low-alcohol line", "range-decision"),
+    "15": ("reverse razor-and-blades, lease-to-buy, delivery as a benefit", "lease-to-buy-reframed"),
+    "16": ("the puppy-dog close, and buying the system-owner databases", "puppy-dog"),
+    "17": ("the taproom and refill model are zero-sum", "taproom-zero-sum"),
+    "21": ("the cost drivers are the largest gap", "loss-making"),
+    "23": ("the business is loss-making and its costs are unknown", "loss-making"),
+    "24": ("the three ranked moves reorder the priorities", "three-ranked-moves"),
+    "27": ("the unsaid drivers a self-report will not surface", "unsaid-drivers"),
+    "28": ("cadence: 10 percent monthly, 60 quarterly, 40 longer", "cadence"),
+    "29": ("the stage copy follows the superseded driver order", "driver-order-open"),
+    "30": ("the 20-30 percent conversion is unmeasured", "conversion-unmeasured"),
+    "31": ("the census is one input, not the anchor", "census-demoted"),
+    "32": ("Second Earth as the counter-example -- premium beats the middle", "premium-beats-middle"),
+    "33": ("whether cost is on the table at all", "driver-order-open"),
+    "37": ("the full website teardown, and Drink Hopper as the reference", "website-teardown"),
+    "39": ("the above-the-fold findings from the teardown", "website-teardown"),
+    "40": ("the competitor domain is suspended; check what resolves", "competitor-weaker"),
+    "43": ("taproom traffic by social is ranked below the three moves", "three-ranked-moves"),
+    "46": ("the prior Meta ad account, and the reordered priorities", "three-ranked-moves"),
+    "47": ("the blanket clock is tone-deaf against real reorder patterns", "cadence"),
+    "48": ("personalised reorder timing, and every tenth keg free", "loyalty-simplified"),
+    "50": ("one event drives a week of taproom trade", "events-drive-a-week"),
+    "64": ("the roadmap order changes with the three moves", "three-ranked-moves"),
+    "71": ("franchise-story consent, and the awards that are not being used", "franchise-consent"),
+    "77": ("the sprint order follows the three ranked moves", "three-ranked-moves"),
 }
+
 
 def review_markers(text):
     return [k for k, pat in REVIEW_MARKERS.items() if re.search(pat, text, re.I)]
@@ -184,9 +220,10 @@ def rule_review_absorbed(path, ls):
     num = os.path.basename(path).split("__")[0]
     if num not in REVIEW_BEARS_ON:
         return
-    if len(review_markers("\n".join(ls))) < 2:
+    finding, marker = REVIEW_BEARS_ON[num]
+    if not re.search(REVIEW_MARKERS[marker], "\n".join(ls), re.I):
         flag("pre-review-interpretation", path,
-             f"#{num} predates the review -- missing: {REVIEW_BEARS_ON[num]}")
+             f"#{num} predates the review -- missing: {finding}")
 
 def rule_competitor_closed(path, ls):
     """Open item #3 closed 27 Aug: the competitor is Aardvark and Arrow."""

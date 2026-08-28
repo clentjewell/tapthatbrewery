@@ -18,6 +18,16 @@
 
 The taproom loses money and already swallowed 18 months of attention. Events are how it earns its keep – but only if every event is judged as a **system-sales funnel stage**, not as bar revenue. Discovery’s own number sets the bar: 20–30% [unverified – see #20B] of taproom visitors go on to buy a keg system. An event that packs the room with people who will never own a system is a good night and a bad allocation. So: every event in this plan carries a refill-funnel scorecard (below), and the plan’s total cost is essentially operational – no event here requires a marketing budget beyond organic social and EDM invitations **[external spend TBC only if a specific event warrants boosting via #46]**.
 
+## What an event is actually worth
+
+*Added after the 27 August advisory review.* The rule above governs which events run. This is the figure that should govern how hard they are pursued.
+
+**One event drives a week of taproom trade.** And one commercial account is worth roughly ten households — venue lifetime gross profit around **$21,840** against **$2,100** residential. Events are the entry point to that account type, which makes this plan a commercial acquisition channel as much as a venue-utilisation one.
+
+Two consequences. **Functions and corporate bookings outrank open-door nights** on that arithmetic, even where the open night fills the room more visibly. And **the taproom's own tension applies here too**: the refill business is built on people not coming in, so an event that fills the room without producing a system sale or a commercial contact has been paid for by the half of the business that loses money (#23, open item #20). The scorecard below should be read with that cost in view.
+
+Worth naming separately: the venue's **X factor** problem. Shuffleboard is not a destination. Axe throwing, a smash room, a motorbike wheelie machine, pour-your-own tables or a spectacular serving vessel are the kind of thing that makes an event venue chosen rather than available. *Microbrew needs to be the destination, not the journey.*
+
 ## Event formats (the portfolio)
 
 ### 1. Ticketed music nights – the proven cash engine

@@ -59,6 +59,16 @@ A differentiator without proof is a slogan. Every entry below survives D03's tes
 - **Contrast line:** *Unlike the pub, your garage doesn’t have a closing time – or a babysitter surcharge. And the beer costs half as much a litre.*
 - **Where it shows up:** Web – a savings calculator on the refills page (kegs/month → dollars vs bottle-o and pub). In-venue – visible, not hidden: cost ranks **2.75**, second only to taste at **2.19**, so the old instinct to keep it off the wall is not supported. Campaigns – cost runs in the open feed alongside taste, rather than waiting for retargeting.
 
+## The differentiator this list under-weights: commercial
+
+*Added after the 27 August advisory review.* The six differentiators above are argued at the household. The review's arithmetic says the same proofs are worth roughly ten times more per account when they are argued at a venue.
+
+**One commercial account is worth roughly ten households.** Venue lifetime gross profit runs about **$21,840** against **$2,100** residential, and one event drives a week of taproom trade. Both figures were already in our documents and neither was a headline. They should be.
+
+What that changes here is not the differentiators but where they are pointed. Range, freshness, the award and "we fill any system" all argue at least as well to a venue buyer — and to a venue buyer the argument is currently missing its **WIIFM entirely**: margin, white label, cuisine matching. None of those appears anywhere in the set or on the site (#37).
+
+Sports clubs are a distinct case with a mechanic of their own: customise the system and the brew, place it free against a minimum guarantee of X kegs a month across the season, then move it from footy to cricket so it is not idle for half the year (#24 P4).
+
 ## Deployment summary
 
 | Differentiator | Web | In-venue | Campaigns | Sequencing note |

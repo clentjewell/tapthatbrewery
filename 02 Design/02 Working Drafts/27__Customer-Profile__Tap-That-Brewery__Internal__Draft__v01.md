@@ -61,10 +61,18 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 |---|---|
 | **Pains** | Entertaining generously is effortful; packaged beer is stale and ungenerous; they care about quality and being the family hub. |
 | **Gains** | Fresh 20L variety on tap without fuss; their place stays the gathering place; the service relationship (corny drop Tuesday, ready Friday) suits their habits. |
-| **Proof owned** | Award-winning brewing (Midnight in Tokyo – Brewer’s Choice at Crafted); Keg Crew membership $250/yr [one of two live prices – open item #2] with $30 off every refill and a 5L birthday keg – a genuine hosting perk; sessionable, gluten-reduced, lower-carb range (unmarketed, but real) for the quality-and-health-conscious. |
+| **Proof owned** | Award-winning brewing (Midnight in Tokyo – Brewer's Choice at Crafted, and it is not on the website's landing page – #37); Keg Crew membership $250/yr [one of two live prices – open item #2] with $30 off every refill and a 5L birthday keg – a genuine hosting perk; sessionable, gluten-reduced, lower-carb range (unmarketed, but real) for the quality-and-health-conscious. |
 | **Opening message** | *"Pour them something you’re proud of."* Connection and taste/freshness lead; the membership does the retention work. |
 
-## Overlay – the partner / veto-holder
+## What these profiles cannot show you
+
+*Added after the 27 August advisory review.* Every PAIN/GAIN above is drawn from what customers told us, and the census that ranked the drivers is fifty self-selected people. The review's caution applies directly to profile work: people do not necessarily know why they buy, and where they do know, some reasons are not sayable.
+
+Taste ranks first at 2.19 partly because taste is the respectable answer. **Ego, status and wanting a reason to be at home without being in the house** rank nowhere, because nobody writes them on a form. They should be read across all four profiles below as a second layer — not written into copy in their own words, but present in the choice of setting, who is in frame, and what the first pour looks like.
+
+Christy's proposed framing for the client conversation is the right one: *your census said this, our gut says this, what do you think?*
+
+## Overlay – the partner, catered to rather than managed
 
 **Who.** Not a purchase segment: the approval audience sitting across profiles 1, 3 and 4, and the source of the #1 objection – "my wife won’t let me." Win her and the 3-month buying cycle shortens; ignore her and no amount of retargeting closes it.
 

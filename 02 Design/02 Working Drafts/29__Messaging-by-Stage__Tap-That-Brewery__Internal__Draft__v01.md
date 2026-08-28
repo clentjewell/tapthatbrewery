@@ -18,6 +18,17 @@
 
 The words for each stage of #28's journey. The rule this document was originally built on came from the discovery session (Christy, adopted in D06): *cost is the customer’s dirty little secret – kudos and connection do the buying.* **The census inverted it.** Ranked drivers: 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. So: **taste and freshness lead, cost states itself plainly and second, and connection and kudos hold customers rather than win them.** The stage copy below still follows the superseded order in places and is flagged for rework at CP1 – the ranking changed after it was drafted. Voice throughout is the one already on Tap That Brewery’s walls: cheeky, pun-forward, warm ("Tap That Knockoffs", "Skittle Me This", "5 ways to support us – total $0.00"). Sample lines are drafts in that voice, for testing, not final copy.
 
+## Before the stages: the driver order this document was built on
+
+**This is the open rework in the set.** The stage copy below follows the census ranking — taste first, cost second, kudos and connection last — and inverts the discovery-session read on that basis. The 27 August review put the inversion back in question: a survey of fifty self-selected people captures what they will admit to, and status is not something anyone writes down.
+
+Two consequences the copy below has not yet absorbed:
+
+- **Kudos and connection are probably doing more work than the ranking suggests.** The awareness hooks already lead with them, which is right, but they are framed as a warm-up to the "real" argument rather than as the argument.
+- **Whether cost appears at all in open channels is undecided** (open item #15). Scaling Up forbids competing on price; the census ranks cost second. The stage copy currently assumes cost states itself plainly at consideration. That may be wrong.
+
+The per-stage copy is therefore **provisional pending CP1**, and the at-risk and winback stages below additionally need retiming: they run on a fixed day 60–75–90 clock, where the design is now each customer's own interval (#48).
+
 ## Awareness – hooks (kudos/connection only; no prices)
 
 | Audience | Hook line (draft) | Why it works |
