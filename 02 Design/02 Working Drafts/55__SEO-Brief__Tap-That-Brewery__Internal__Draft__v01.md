@@ -42,7 +42,7 @@ Each piece: one target cluster, FAQ schema, internal links to its money page, a 
 
 ## GBP & local actions
 
-- Claim/clean the Google Business Profile: categories (Brewery + Beer store), services list including "keg refills" and "keg system sales", full price attributes, weekly photo cadence (Raef, from #54 library), events posted (#60), Q&A seeded with the four objections.
+- Claim/clean the Google Business Profile: categories (Brewery + Beer store), services list including "keg refills" and "keg system sales", full price attributes, weekly photo cadence (Harry, from #54 library), events posted (#60), Q&A seeded with the four objections.
 - Review engine: post-refill review ask (via #57/#58 flows); respond to all reviews in brand voice.
 - Local citations: consistent NAP across GC directories; Hop On Brewery Tours + partner backlinks (Smoked Barbecue Co, Never Quit Gym, Ammazza).
 

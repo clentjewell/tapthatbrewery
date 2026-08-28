@@ -16,7 +16,7 @@
 
 ## Where you are
 
-You told us plainly, and we heard it: the business is about connection and good times – keg systems and refills are the means, not the end. The model is proven. Systems go out the door at cost ($975 for a two-tap), and the business lives on 20L refills – around $200 a month from every active customer. You have **206 keg system owners (active subset 96–113 – definition unresolved) today and a target of 1,000**, which is roughly a **$2.6M business**. Half your refill customers bought their hardware somewhere else and switched to you anyway. The taproom converts 20–30% of visitors into system owners. Midnight in Tokyo took Brewer’s Choice at Crafted in your first year entering.
+You told us plainly, and we heard it: the business is about connection and good times – keg systems and refills are the means, not the end. The model is proven. Systems go out the door at cost ($975 for a two-tap), and the business lives on 20L refills – around $200 a month from every active customer. You have **206 keg system owners (active subset 96–113 – definition unresolved) today and a target of 1,000**, which is roughly a **$2.6M business**. Half your refill customers bought their hardware somewhere else and switched to you anyway. The taproom converts 20–30% [unverified – see #20B] of visitors into system owners. Midnight in Tokyo took Brewer’s Choice at Crafted in your first year entering.
 
 And yet, in your own words, it’s "always red at the bottom of the P&L." The last 18 months pulled focus toward the taproom, and the refill engine – where the margin actually lives – grew on word of mouth rather than a system.
 
@@ -40,7 +40,7 @@ Nothing advances past a checkpoint without your sign-off, and nothing in Deploy 
 
 **Design.** The full strategy layer, built only on what you signed at CP1: business plan and growth roadmap; customer profiles and a journey mapped to your real 3-month buying cycle; brand strategy, positioning and messaging built on your five pillars (cost, convenience, connection, kudos, taste/freshness) and your existing voice and identity – we document and sharpen what’s working, we don’t reinvent it; website, SEO, social and content strategy; the in-market activation plan covering the switcher opportunity, giveaways, the Benchy, sports clubs and partnerships; channel plans (paid, email, CRM, PR, events); and a complete brief pack so every asset can be produced without re-explaining the business. It closes with the Strategy Summary and Approved Roadmap at **CP2**.
 
-**Deploy.** Execution of the approved roadmap. Because the honest constraint in this business is hands, not ideas, Deploy is where Jewell Projects becomes the delivery capacity around Raef – builds, launches, lifecycle automation once GoTab/Fishbowl connect, content production and reporting. We scope and price Deploy at CP2, when you can see exactly what you’re buying.
+**Deploy.** Execution of the approved roadmap. Because the honest constraint in this business is hands, not ideas, Deploy is where Jewell Projects becomes the delivery capacity around Harry – builds, launches, lifecycle automation once GoTab/Fishbowl connect, content production and reporting. We scope and price Deploy at CP2, when you can see exactly what you’re buying.
 
 ## The outcomes this is built for
 
@@ -55,7 +55,7 @@ Everything above serves one number – **1,000 active refill customers** – thr
 
 - **Checkpoints:** CP1 closes Discover, CP2 closes Design. Each is a working session plus a sign-off document – your formal approval that the phase is right and the next may begin.
 - **Sign-off:** a named decision-maker on your side approves each checkpoint document in writing. Signed means locked; changes after sign-off are handled as revisions, not relitigation.
-- **Cadence:** a short weekly check-in during active phases, with Raef in the loop as the operator; founders needed mainly at checkpoints and for the inputs below.
+- **Cadence:** a short weekly check-in during active phases, with Harry in the loop as the operator; founders needed mainly at checkpoints and for the inputs below.
 - **One source of truth:** every document lives in a shared, structured engagement folder – no version confusion.
 
 ## What we need from you

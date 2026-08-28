@@ -51,7 +51,7 @@ The membership maths does the retention work: at 2 refills/month, Keg Crew’s $
 
 ## The re-education pathway (moving buyers up the tiers)
 
-Taproom visit → tasting paddle → "that’s a keg system?" moment (20–30% of visitors convert to owners) → giveaway entry → nurture across the 3-month buying cycle → 50%-off close or lease-to-buy → Keg Crew membership at purchase → refill cadence + tokens + referrals.
+Taproom visit → tasting paddle → "that’s a keg system?" moment (20–30% [unverified – see #20B] of visitors convert to owners) → giveaway entry → nurture across the 3-month buying cycle → 50%-off close or lease-to-buy → Keg Crew membership at purchase → refill cadence + tokens + referrals.
 
 **Gap:** this pathway exists physically in the venue but has no owned digital equivalent – the 3-month consideration window is currently unmanaged.
 

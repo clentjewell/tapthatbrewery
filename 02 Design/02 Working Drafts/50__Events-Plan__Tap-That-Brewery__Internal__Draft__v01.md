@@ -16,7 +16,7 @@
 
 ## The rule that governs this plan
 
-The taproom loses money and already swallowed 18 months of attention. Events are how it earns its keep – but only if every event is judged as a **system-sales funnel stage**, not as bar revenue. Discovery’s own number sets the bar: 20–30% of taproom visitors go on to buy a keg system. An event that packs the room with people who will never own a system is a good night and a bad allocation. So: every event in this plan carries a refill-funnel scorecard (below), and the plan’s total cost is essentially operational – no event here requires a marketing budget beyond organic social and EDM invitations **[external spend TBC only if a specific event warrants boosting via #46]**.
+The taproom loses money and already swallowed 18 months of attention. Events are how it earns its keep – but only if every event is judged as a **system-sales funnel stage**, not as bar revenue. Discovery’s own number sets the bar: 20–30% [unverified – see #20B] of taproom visitors go on to buy a keg system. An event that packs the room with people who will never own a system is a good night and a bad allocation. So: every event in this plan carries a refill-funnel scorecard (below), and the plan’s total cost is essentially operational – no event here requires a marketing budget beyond organic social and EDM invitations **[external spend TBC only if a specific event warrants boosting via #46]**.
 
 ## Event formats (the portfolio)
 
@@ -68,7 +68,7 @@ Quarterly review: rank events by **contacts captured and systems attributed per 
 - Ammazza arrangement terms and caterer-roster candidates unconfirmed; food-licence pathway is a founder decision beyond this plan.
 - Tasting-night mechanics assume the newer membership poster’s benefits are the live ones – blocked on pricing reconciliation.
 - Event-tagged QR capture requires the #48 provenance field and consent-capturing forms (#47) to exist first.
-- Demo-day cadence assumes Raef’s ~70% allocation can absorb one Saturday/month **[capacity check with client]**.
+- Demo-day cadence assumes Harry’s ~70% allocation can absorb one Saturday/month **[capacity check with client]**.
 
 ---
 

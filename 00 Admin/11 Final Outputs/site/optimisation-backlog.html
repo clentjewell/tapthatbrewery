@@ -414,7 +414,7 @@ body {
 
 /* ---- per-sheet grids ---- */
 /* Discover */
-.oap[data-sheet="discover"] .canvas{grid-template-rows:minmax(0,0.94fr) minmax(0,1.44fr) minmax(0,0.98fr)}
+.oap[data-sheet="discover"] .canvas{grid-template-rows:minmax(0,0.80fr) minmax(0,1.44fr) minmax(0,1.12fr)}
 .oap[data-sheet="discover"] .b-belief{grid-column:1/5;grid-row:1;}
 .oap[data-sheet="discover"] .b-ready{grid-column:5/9;grid-row:1;}
 .oap[data-sheet="discover"] .b-killer{grid-column:9/13;grid-row:1;}
@@ -446,7 +446,7 @@ body {
 .core-box table.mini th{font-size:5.8pt;}
 
 /* Design */
-.oap[data-sheet="design"] .canvas{grid-template-rows:.58fr 1.56fr 1.34fr .82fr;}
+.oap[data-sheet="design"] .canvas{grid-template-rows:0.76fr 1.4fr 1.36fr 0.78fr}
 .oap[data-sheet="design"] .b-strategy{grid-column:1/13;grid-row:1;gap:2mm;}
 .oap[data-sheet="design"] .b-strategy .kicker{font-family:var(--font-label);font-weight:600;font-size:6.6pt;
   letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
@@ -475,7 +475,7 @@ body {
 .oap[data-sheet="design"] .gate-cols li{margin-bottom:0;font-size:7.7pt;line-height:1.42;}
 
 /* Deploy */
-.oap[data-sheet="deploy"] .canvas{grid-template-rows:.96fr .74fr .54fr 1.18fr;}
+.oap[data-sheet="deploy"] .canvas{grid-template-rows:1.16fr 0.66fr 0.52fr 1.1fr}
 .oap[data-sheet="deploy"] .b-glance{grid-column:1/4;grid-row:1;}
 .oap[data-sheet="deploy"] .b-channels{grid-column:4/10;grid-row:1/3;}
 .oap[data-sheet="deploy"] .b-measure{grid-column:10/13;grid-row:1/3;}
@@ -544,7 +544,7 @@ body {
       <span class="x">&times;</span>
       <img class="brand-tt" src="/brand/tapthat-icon.png" alt="Tap That Brewery">
     </a>
-    <div class="brand-sub">Complete 3D Process · 78 documents</div>
+    <div class="brand-sub">Complete 3D Process · 79 documents</div>
     <a class="btn-side" href="/summary"><span class="ic">&larr;</span>Delivery summary</a>
     <button class="navtoggle" id="navtoggle" aria-expanded="false">Contents +</button>
     <input class="filter" id="filter" type="search" placeholder="Filter documents…" aria-label="Filter documents">
@@ -577,6 +577,7 @@ body {
 <a class="nav-link" href="/objectives-key-results" data-t="objectives &amp; key results"><span class="nav-num">19</span><span>Objectives &amp; Key Results</span></a>
 <a class="nav-link" href="/discover-summary" data-t="discover summary (cp1)"><span class="nav-num">20</span><span>Discover Summary (CP1)<span class="sig" title="Client sign-off">&bull;</span></span></a>
 <a class="nav-link" href="/evidence-reconciliation" data-t="evidence reconciliation (20a)"><span class="nav-num">20A</span><span>Evidence Reconciliation (20A)</span></a>
+<a class="nav-link" href="/advisory-review-reconciliation" data-t="advisory review reconciliation (20b)"><span class="nav-num">20B</span><span>Advisory Review Reconciliation (20B)</span></a>
 <a class="nav-link" href="/priority-problems" data-t="priority problems to solve"><span class="nav-num">21</span><span>Priority Problems To Solve</span></a>
 <a class="nav-link" href="/recommended-next-moves" data-t="recommended next moves"><span class="nav-num">22</span><span>Recommended Next Moves</span></a>
 <p class="nav-phase">Design</p>
@@ -644,7 +645,7 @@ body {
 <article class="doc" id="optimisation-backlog">
   <div class="doc-head">
     <div class="doc-head-l"><span class="doc-chip">Deploy</span><span class="pill draft">Draft v01</span></div>
-    <span class="doc-count">Document 76 of 78</span>
+    <span class="doc-count">Document 76 of 79</span>
   </div>
   <h2 class="doc-title">Optimisation Backlog</h2>
   <div class="prose"><div class="tw"><table>
@@ -684,7 +685,7 @@ body {
 <hr />
 <h3>What this is</h3>
 <p>A standing queue of tests, ranked by expected value against effort. It is seeded here from what the census and the client’s own documents already show is broken or unproven – so that the first optimisation cycle starts with a list rather than a blank page. Items are added as Deploy generates evidence and removed when they are resolved either way.</p>
-<p>Scoring: <strong>Impact</strong> (1–5, on active customers) × <strong>Confidence</strong> (1–5, in the evidence) ÷ <strong>Effort</strong> (1–5, in Raef/Harry-days). Anything scoring above 3.0 is a candidate for the next sprint (#77).</p>
+<p>Scoring: <strong>Impact</strong> (1–5, on active customers) × <strong>Confidence</strong> (1–5, in the evidence) ÷ <strong>Effort</strong> (1–5, in Harry/Harry-days). Anything scoring above 3.0 is a candidate for the next sprint (#77).</p>
 <h3>Fix first – these are errors, not tests</h3>
 <div class="tw"><table>
 <thead>
@@ -722,12 +723,93 @@ body {
 <td>F4</td>
 <td>Product name inconsistency – "Bong Water" vs "Bone Water" IPA</td>
 <td>Menu, collateral and web disagree</td>
-<td>Raef/Harry</td>
+<td>Harry/Harry</td>
 <td>Not scored – immediate</td>
 </tr>
 </tbody>
 </table></div>
 <p>None of these wait for a sprint.</p>
+<h3>Added by the advisory review (28 Aug 2026)</h3>
+<p><em>These entered from #20B and outrank most of what follows. They are not scored on the same scale because two of them are business decisions rather than marketing tests.</em></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Item</th>
+<th>Why it ranks</th>
+<th>Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1</td>
+<td><strong>Buy the system-owner databases</strong> — Harvey Norman, Keg Land / Kegmaster, BenchTop</td>
+<td>Every name already owns a system, so the $975 objection is pre-cleared. At ~$70 GP per keg the data pays for itself</td>
+<td>Justin + Jewell</td>
+</tr>
+<tr>
+<td>A2</td>
+<td><strong>Direct deal with Harvey Norman</strong> — POS QR, referral rebate per keg, or free keg with purchase if liquor rules allow</td>
+<td>A conversation, not a campaign. Monk holds point contacts</td>
+<td>Justin</td>
+</tr>
+<tr>
+<td>A3</td>
+<td><strong>Tour operators</strong> — refresh the write-ups for Hop On, Urban Legends and Pineapple Tours; build Urban Legends a booking widget that always includes Tap That</td>
+<td>The operator picks the breweries, so the write-up is the whole game. Ours omits the award</td>
+<td>Harry</td>
+</tr>
+<tr>
+<td>A4</td>
+<td><strong>Wholesale with structure</strong> — goals, KPIs and a dedicated person or agent</td>
+<td>One commercial account is worth ten households</td>
+<td>Justin</td>
+</tr>
+<tr>
+<td>A5</td>
+<td><strong>Taproom hours and format</strong> — restrict to a tasting and event window rather than a drop-in</td>
+<td>The zero-sum call at the centre of the business</td>
+<td>Founders</td>
+</tr>
+<tr>
+<td>A6</td>
+<td><strong>Cut the range to ~6 core beers plus seasonals</strong></td>
+<td>27 taps is decision anxiety for the customer and a live cost driver for the business</td>
+<td>Founders + Chris</td>
+</tr>
+<tr>
+<td>A7</td>
+<td><strong>Lease-to-buy or rental</strong>, framed as a gym membership at $50–100/month</td>
+<td>Removes the upfront barrier on a reverse razor-and-blades model</td>
+<td>Justin</td>
+</tr>
+<tr>
+<td>A8</td>
+<td><strong>A low-alcohol or healthy line</strong></td>
+<td>Lapsed members still own the system and still need to drink something. Reactivates them without asking anyone to drink more</td>
+<td>Chris</td>
+</tr>
+<tr>
+<td>A9</td>
+<td><strong>Personalised reorder prompts</strong> replacing the 90-day blanket SMS</td>
+<td>The 40% who buy less often than quarterly are where the growth is, and a blanket message is tone-deaf to all of them</td>
+<td>Jewell</td>
+</tr>
+<tr>
+<td>A10</td>
+<td><strong>Simplify loyalty</strong> — every tenth keg free instead of a points system</td>
+<td>The points administration is itself a cost driver</td>
+<td>Justin</td>
+</tr>
+<tr>
+<td>A11</td>
+<td><strong>Profile Chris.</strong> The head brewer is well regarded and invisible</td>
+<td>Regulars have never had the tasting notes explained to them</td>
+<td>Harry</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Demoted by the same review:</strong> pulling people into the taproom through social media, which the queue below still treats as core.</p>
 <h3>The queue</h3>
 <div class="tw"><table>
 <thead>

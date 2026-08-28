@@ -29,14 +29,14 @@ A keg system is a considered household purchase, not an impulse buy. Client’s 
 
 | Trigger | Mechanism | Evidence / scale |
 |---|---|---|
-| Taproom visit + demo | "That’s a keg system?" – seeing it poured in venue collapses abstraction into want | 20–30% of taproom visitors go on to buy a system – the venue’s real job |
+| Taproom visit + demo | "That’s a keg system?" – seeing it poured in venue collapses abstraction into want | 20–30% [unverified – see #20B] of taproom visitors go on to buy a system – the venue’s real job |
 | Giveaway entry | 2×/year keg-system giveaways; entering is a hand-raise that self-identifies in-window buyers | ~1,000 entries per round – the largest intent list the business builds |
 | The 50%-off close | Post-giveaway offer to entrants who didn’t win | Converted 22–25 systems last round – the proven closing mechanic |
 | A mate’s system | Seeing it at a barbecue is the demo without the taproom; referral rewards formalise it | 1,000 Tap Tokens per system referral (photo-verified sign); UGC flagged as underexecuted |
 | New outdoor build | Deck, pool, outdoor kitchen, man-cave completion – the system is the finishing piece | Smoked Barbecue Co Father’s Day collab as proof; outdoor-living JVs reach buyers 6–9 months early |
 | Father’s Day / gifting moments | Household permission moment – the veto-holder becomes the buyer | Existing Father’s Day keg system + smoking masterclass bundle |
 | Life-stage shift to home hosting | First baby, new house: the night out dies and the backyard takes over | The ~45% young-families segment logic |
-| Benchy / 4WD-camping trigger | Fit-out culture purchase alongside fridges and awnings | No direct competitor; warm channel via Raef’s cousin’s 4WD fit-out business |
+| Benchy / 4WD-camping trigger | Fit-out culture purchase alongside fridges and awnings | No direct competitor; warm channel via Harry’s cousin’s 4WD fit-out business |
 
 **Sequencing note:** triggers stack. The realistic path is *mate’s place or taproom → giveaway entry → nurture → 50% close or finance* – each campaign should aim to advance a buyer one step, not to sell cold.
 

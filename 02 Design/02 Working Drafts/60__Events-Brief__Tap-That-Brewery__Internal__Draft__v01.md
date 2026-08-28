@@ -16,7 +16,7 @@
 
 ## The job
 
-Events already work commercially (one recent ticketed night did a week’s trade in five hours) – but under #24 P3 the taproom’s job is **conversion, not revenue**. Every event on this slate must run the capture mechanics below; an event that fills the room without capturing a single system lead is a party, not marketing. Owner: Raef, inside his taproom quota.
+Events already work commercially (one recent ticketed night did a week’s trade in five hours) – but under #24 P3 the taproom’s job is **conversion, not revenue**. Every event on this slate must run the capture mechanics below; an event that fills the room without capturing a single system lead is a party, not marketing. Owner: Harry, inside his taproom quota.
 
 ## Next-quarter slate (Sept–Nov 2026)
 
@@ -36,7 +36,7 @@ Private functions (minimum-spend model, 1 drink/person/hour benchmark) continue 
 Every event gets a one-page run sheet, filed in advance:
 
 1. Purpose in one line (which funnel it feeds) + target numbers (attendance, entries, demos, member signups).
-2. Roster + who owns the demo corner (venue-manager cover rule applies – Raef is not behind the bar during peak capture windows).
+2. Roster + who owns the demo corner (venue-manager cover rule applies – Harry is not behind the bar during peak capture windows).
 3. Capacity plan (mezzanine ~40 / downstairs ~70 / ~120–130 seated / standing target) + RSA compliance notes.
 4. Food answer (Ammazza/snacks or truck confirmed – the known friction point; never left to the night).
 5. Promo checklist: event listed on GBP + socials + #57 newsletter; photo capture list for #54/#55 (with signage/consent notice at entry).
@@ -46,7 +46,7 @@ Every event gets a one-page run sheet, filed in advance:
 
 | Mechanic | How it runs |
 |---|---|
-| **Demo corner** | A working 2-tap system ($975, at-cost story, Afterpay/Zip card) staffed at peak; staff line: the venue converts 20–30% of visitors who see it – the demo corner exists to force the "that’s a keg system?" moment at events too. Demo bookings taken on the spot (QR → #53 form) |
+| **Demo corner** | A working 2-tap system ($975, at-cost story, Afterpay/Zip card) staffed at peak; staff line: the venue converts 20–30% [unverified – see #20B] of visitors who see it – the demo corner exists to force the "that’s a keg system?" moment at events too. Demo bookings taken on the spot (QR → #53 form) |
 | **Giveaway entries** | QR entry at every table + door; entry form captures own-a-system Y/N (switcher flag → #58); entry pitch scripted into MC/host moments at ticketed nights |
 | **Member signups** | Keg Crew pitched at POS and demo corner **once pricing is reconciled (#52 Kit 4)** – until then, Brew Buds (free mailing-list tier) is the default ask so no event captures nothing |
 | **Switcher intercept** | One question in every demo-corner chat: "got a system at home already?" → We Fill Any System card + first-fill offer [TBC] |

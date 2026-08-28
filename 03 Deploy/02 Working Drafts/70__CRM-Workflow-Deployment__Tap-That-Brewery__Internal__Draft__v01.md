@@ -34,12 +34,12 @@ The client’s own documents give three active-customer definitions: 45 days (Cu
 
 | # | Step | Owner | Output |
 |---|---|---|---|
-| 1.1 | Export the full customer list from GoTab with last-keg date | Raef/Harry | 206-owner base file |
+| 1.1 | Export the full customer list from GoTab with last-keg date | Harry/Harry | 206-owner base file |
 | 1.2 | Build the minimum viable record in a shared sheet: identity, consent per channel, system owned, **bought-here flag**, last keg date, days-since, membership, tokens, first-touch source | Jewell | One row per customer |
-| 1.3 | Backfill the switcher flag from known history; leave unknown blank rather than guessing | Raef/Harry | ~116 of 206 expected to be "elsewhere" |
+| 1.3 | Backfill the switcher flag from known history; leave unknown blank rather than guessing | Harry/Harry | ~116 of 206 expected to be "elsewhere" |
 | 1.4 | Compute the three bands: active, at-risk, churned | Jewell | Three tabs, refreshed fortnightly |
-| 1.5 | Counter-capture script live: "what number do we text when it’s ready?" plus "did you buy the system here?" | Raef/Harry, bar staff | Every fill attaches to a record |
-| 1.6 | Fortnightly cycle: refresh, segment, hand to #69 | Raef/Harry | 15 minutes, diarised |
+| 1.5 | Counter-capture script live: "what number do we text when it’s ready?" plus "did you buy the system here?" | Harry/Harry, bar staff | Every fill attaches to a record |
+| 1.6 | Fortnightly cycle: refresh, segment, hand to #69 | Harry/Harry | 15 minutes, diarised |
 
 The switcher flag is the single most valuable field in the model. **~116 of 206 owners (56%) bought their system elsewhere** – the census’s 31% is response-biased and is not used here. Without the flag, the largest addressable pool in the business is invisible.
 
@@ -52,7 +52,7 @@ The switcher flag is the single most valuable field in the model. **~116 of 206 
 | 2.3 | Nightly job computing days-since-last-keg | Jewell | Runs for 7 days in shadow before any send fires |
 | 2.4 | Build the 60/75/90 triggers | Jewell | Shadow-run: log who *would* have been messaged, compare to the manual list |
 | 2.5 | Cut over sequences 4–5 from manual to automated | Jewell | Two consecutive shadow weeks matching manual within 5% |
-| 2.6 | Retire the manual fortnightly pull | Raef/Harry | Only after two clean automated cycles |
+| 2.6 | Retire the manual fortnightly pull | Harry/Harry | Only after two clean automated cycles |
 
 Cut-over rule: no sequence goes live off new data until it has shadowed the manual process for two cycles. An automation that mails the wrong 40 people once costs more than three months of spreadsheets.
 

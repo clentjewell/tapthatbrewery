@@ -73,7 +73,7 @@ The blend matters: Jester alone would undercut the $975 trust decision and the a
 | **Crafted Brewer’s Choice – Midnight in Tokyo, first year entering** | Award at "Australia’s biggest beer festival" | The quality warrant behind the price premium; on every system-sale touchpoint |
 | **Founding story** | Chris Smith (ex Burleigh Barrels, Gold Coast Bulletin feature) + Justin Mistry (physio/franchise operator) | The Regular Guy origin: brewer who rebuilt after a collapse + operator who backed him. Humanises the $975 ask |
 | **Gluten-reduced, lower-carb range** | Brewed-in by design, currently unmarketed | Held ammunition for the partner/female market and moderating drinkers (H7) – first mover before rivals claim it |
-| **The working brewhouse taproom** | 20–30% of visitors convert to system owners | The demo floor is the brand experience: "come taste why" |
+| **The working brewhouse taproom** | 20–30% [unverified – see #20B] of visitors convert to system owners | The demo floor is the brand experience: "come taste why" |
 
 ## Assumptions & open items
 

@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Advisory Review Reconciliation (20B) &middot; Tap That Brewery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --keg:#0E171F; --keg-deep:#080E14; --brass:#0066FF; --brass-lt:#5B8CFF;
+  --cream:#FAF8F4; --paper:#FFFFFF; --ink:#111111; --steel:#666666;
+  --rule:#D4D2D0; --rule-dk:rgba(250,248,244,.16);
+  --ok:#1F8A5B; --shade:#EDEBEA;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --keg:#141C24; --keg-deep:#080E14; --brass:#5B8CFF; --brass-lt:#8FB4FF;
+    --cream:#E9E7E3; --paper:#14181C; --ink:#E9E7E3; --steel:#9AA0A6;
+    --rule:rgba(233,231,227,.15); --rule-dk:rgba(233,231,227,.14);
+    --ok:#4FBF8B; --shade:#191E23;
+  }
+}
+:root[data-theme="dark"] {
+  --keg:#141C24; --keg-deep:#080E14; --brass:#5B8CFF; --brass-lt:#8FB4FF;
+  --cream:#E9E7E3; --paper:#14181C; --ink:#E9E7E3; --steel:#9AA0A6;
+  --rule:rgba(233,231,227,.15); --rule-dk:rgba(233,231,227,.14);
+  --ok:#4FBF8B; --shade:#191E23;
+}
+
+html { scroll-behavior:smooth; }
+body {
+  font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background:var(--cream); color:var(--ink); font-size:16px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body{ background:#0B0F13; } }
+:root[data-theme="dark"] body{ background:#0B0F13; }
+
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--brass);z-index:400;}
+.layout{display:flex;align-items:flex-start;max-width:1400px;margin:0 auto;}
+
+/* sidebar */
+.sidebar{position:sticky;top:18px;align-self:flex-start;flex:0 0 268px;width:268px;
+  max-height:calc(100vh - 36px);display:flex;flex-direction:column;
+  margin:18px 0 18px 18px;padding:20px 12px 8px;background:var(--paper);
+  border:1px solid var(--rule);border-radius:14px;}
+.brand { display: flex; align-items: center; gap: 9px; margin: 2px 8px 10px; text-decoration: none; }
+.brand-jp { height: 16px; width: auto; display: block; }
+.brand-tt { height: 27px; width: auto; display: block; }
+.brand .x { color: var(--steel); font-size: 13px; font-weight: 400; line-height: 1; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand-jp { filter: invert(1); } }
+:root[data-theme="dark"] .brand-jp { filter: invert(1); }
+.hero-badge { width: clamp(120px, 15vw, 172px); height: auto; display: block; margin-bottom: 26px; }
+.brand-sub{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--steel);margin:0 8px 14px;}
+.filter{width:calc(100% - 16px);margin:0 8px 10px;padding:8px 10px;border:1px solid var(--rule);
+  border-radius:7px;background:var(--shade);color:var(--ink);font-family:inherit;font-size:13px;}
+.filter::placeholder{color:var(--steel);}
+.filter:focus{outline:none;border-color:var(--brass);}
+.nav{display:flex;flex-direction:column;gap:1px;overflow-y:auto;padding-bottom:12px;}
+.nav-phase{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--brass);margin:14px 10px 5px;}
+.nav-link{display:flex;gap:9px;align-items:baseline;text-decoration:none;color:var(--steel);
+  font-size:13px;line-height:1.3;padding:6px 10px;border-radius:6px;
+  border-left:2px solid transparent;transition:color .15s,background .15s;}
+.nav-num{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;opacity:.7;min-width:17px;
+  font-variant-numeric:tabular-nums;}
+.nav-link:hover{color:var(--ink);background:rgba(0,102,255,.08);}
+.nav-link:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.nav-link.active{color:var(--ink);background:rgba(0,102,255,.12);border-left-color:var(--brass);font-weight:600;}
+.nav-link.active .nav-num{color:var(--brass);opacity:1;}
+.nav-link.edge{color:var(--ink);font-weight:600;}
+.nav-link.hide{display:none;}
+.sig{color:var(--brass);margin-left:5px;font-size:11px;}
+.nav-empty{font-size:12.5px;color:var(--steel);padding:10px;display:none;}
+.nav-empty.show{display:block;}
+
+/* content */
+.content{flex:1 1 auto;min-width:0;padding:34px clamp(22px,4.5vw,64px) 80px;max-width:940px;}
+
+/* welcome */
+.eyebrow{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--steel);margin-bottom:20px;}
+.h-hero{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(36px,5.6vw,66px);font-weight:700;
+  line-height:1.03;letter-spacing:-.032em;text-wrap:balance;}
+.lead{font-size:clamp(16px,1.5vw,18.5px);line-height:1.68;color:var(--steel);max-width:60ch;margin-top:24px;}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-top:38px;}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
+.stat{background:var(--paper);padding:18px 16px;}
+.stat-n{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:28px;font-weight:700;letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;}
+.stat-l{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--steel);margin-top:4px;}
+.callout{background:var(--keg);color:var(--cream);border-radius:14px;padding:clamp(26px,4vw,40px);margin-top:34px;}
+.callout .k{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--brass-lt);}
+.callout .q{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(19px,2.4vw,27px);font-weight:600;
+  line-height:1.34;letter-spacing:-.02em;margin-top:14px;max-width:26ch;text-wrap:balance;}
+.callout .b{font-size:15px;line-height:1.7;color:rgba(250,248,244,.75);margin-top:16px;max-width:62ch;}
+.callout a{color:var(--brass-lt);}
+.note{font-size:13px;line-height:1.6;color:var(--steel);margin-top:22px;}
+
+/* doc */
+.doc{padding-top:2px;}
+.doc-head{display:flex;align-items:center;justify-content:space-between;gap:14px;
+  flex-wrap:wrap;margin-bottom:18px;}
+.doc-head-l{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.doc-chip{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;font-weight:500;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--brass);}
+.doc-count{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.06em;
+  color:var(--steel);font-variant-numeric:tabular-nums;}
+.pill{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9px;font-weight:500;letter-spacing:.1em;
+  text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid;white-space:nowrap;}
+.pill.draft{color:var(--steel);border-color:var(--rule);}
+.pill.sign{color:var(--brass);border-color:rgba(0,102,255,.45);background:rgba(0,102,255,.09);}
+.doc-title{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(27px,3.6vw,42px);font-weight:700;
+  line-height:1.08;letter-spacing:-.028em;text-wrap:balance;}
+
+/* prose */
+.prose{margin-top:26px;font-size:16px;line-height:1.75;}
+.prose > * + *{margin-top:16px;}
+.prose h3{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:clamp(19px,2.1vw,25px);font-weight:700;
+  line-height:1.25;letter-spacing:-.02em;margin-top:44px;padding-top:20px;
+  border-top:1px solid var(--rule);text-wrap:balance;}
+.prose h4{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:17px;font-weight:700;line-height:1.35;
+  margin-top:30px;letter-spacing:-.01em;}
+.prose h5,.prose h6{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:15px;font-weight:600;margin-top:24px;}
+.prose p{max-width:70ch;}
+.prose strong{font-weight:700;}
+.prose em{font-style:italic;color:var(--steel);}
+.prose a{color:var(--brass);}
+.prose ul,.prose ol{padding-left:22px;max-width:70ch;}
+.prose li{margin-top:7px;}
+.prose li::marker{color:var(--brass);}
+.prose hr{border:0;height:1px;background:var(--rule);margin:34px 0;}
+.prose blockquote{border-left:3px solid var(--brass);padding:2px 0 2px 20px;color:var(--ink);
+  font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:19px;font-weight:600;line-height:1.45;letter-spacing:-.015em;}
+.prose code{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:.88em;background:var(--shade);
+  padding:2px 5px;border-radius:3px;}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--rule);
+  border-radius:9px;background:var(--paper);}
+.prose table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.55;}
+.prose th{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--steel);text-align:left;font-weight:500;
+  padding:11px 14px;border-bottom:1px solid var(--rule);white-space:nowrap;background:var(--shade);}
+.prose td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;}
+.prose tr:last-child td{border-bottom:0;}
+.prose td:first-child{font-weight:600;}
+.prose table strong{font-weight:700;}
+
+
+/* sidebar button — sits outside .nav so it stays visible when the
+   contents are collapsed on mobile */
+.btn-side{display:flex;align-items:center;gap:8px;width:calc(100% - 16px);margin:0 8px 12px;
+  padding:10px 11px;border-radius:8px;text-decoration:none;background:var(--keg);
+  color:var(--cream);
+  font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size:12.5px;font-weight:600;transition:background .15s,color .15s;}
+.btn-side:hover{background:var(--brass);color:#fff;}
+.btn-side:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.btn-side .ic{font-size:13px;line-height:1;flex:none;}
+
+/* landing contents */
+.ph{margin-top:52px;}
+.ph-h{display:flex;align-items:baseline;gap:12px;padding-bottom:10px;border-bottom:1px solid var(--rule);}
+.ph-n{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--brass);font-weight:600;}
+.ph-c{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.06em;color:var(--steel);
+  margin-left:auto;font-variant-numeric:tabular-nums;}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-top:0;border-radius:0 0 10px 10px;overflow:hidden;}
+.card{background:var(--paper);padding:14px 15px;text-decoration:none;color:inherit;display:flex;
+  flex-direction:column;gap:5px;transition:background .15s;min-height:78px;}
+.card:hover{background:rgba(0,102,255,.06);}
+.card:focus-visible{outline:2px solid var(--brass);outline-offset:-2px;}
+.card-n{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10px;letter-spacing:.06em;color:var(--steel);
+  font-variant-numeric:tabular-nums;}
+.card-t{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;font-weight:600;line-height:1.28;
+  letter-spacing:-.012em;}
+.card-s{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);margin-top:auto;}
+
+/* doc nav */
+.doc-nav{display:flex;justify-content:space-between;gap:14px;margin-top:44px;padding-top:22px;
+  border-top:1px solid var(--rule);}
+.dn-sp{flex:1;}
+.dn-btn{flex:0 1 46%;text-decoration:none;color:inherit;padding:13px 15px;border:1px solid var(--rule);
+  border-radius:9px;display:flex;flex-direction:column;gap:3px;transition:border-color .15s,background .15s;}
+.dn-btn:hover{border-color:var(--brass);background:rgba(0,102,255,.05);}
+.dn-btn:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.dn-btn.next{text-align:right;margin-left:auto;}
+.dn-btn span{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--steel);}
+.dn-btn strong{font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;font-weight:600;line-height:1.3;}
+
+/* to top */
+.totop{position:fixed;right:20px;bottom:20px;width:42px;height:42px;border-radius:50%;
+  background:var(--keg);color:var(--cream);border:0;cursor:pointer;font-size:16px;
+  display:none;place-items:center;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,.18);}
+.totop.show{display:grid;}
+.totop:focus-visible{outline:2px solid var(--brass);outline-offset:3px;}
+
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
+
+/* mobile */
+.navtoggle{display:none;}
+@media (max-width:1000px){
+  .layout{display:block;}
+  .sidebar{position:static;width:auto;max-height:none;margin:12px;padding:16px;}
+  .nav,.filter{display:none;}
+  .sidebar.open .nav{display:flex;max-height:60vh;}
+  .sidebar.open .filter{display:block;}
+  .navtoggle{display:block;width:100%;text-align:left;background:none;border:0;cursor:pointer;
+    font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--brass);padding:6px 8px;}
+  .content{padding:8px 20px 60px;}
+  .dn-btn{flex:0 1 48%;}
+}
+/* ============================================================
+   On-a-Page — A3 landscape sheets (Discover / Design / Deploy).
+   Scoped to .oap so nothing here touches the document pages.
+   Print: A3 landscape, one sheet per page, at true size.
+   ============================================================ */
+.oap-bar{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 14px;}
+.oap-bar .k{font-family:'Poppins',sans-serif;font-weight:600;font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--brass);}
+.oap-bar h1{font-family:'Poppins',sans-serif;font-weight:700;font-size:clamp(24px,3vw,34px);
+  letter-spacing:-.028em;line-height:1.05;}
+.oap-bar .sub{font-size:13.5px;color:var(--steel);}
+.oap-tools{display:flex;gap:8px;align-items:center;margin:0 0 14px;flex-wrap:wrap;}
+.oap-tools button{font-family:'Poppins',sans-serif;font-weight:600;font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;background:var(--paper);color:var(--ink);border:1px solid var(--rule);
+  border-radius:7px;padding:7px 13px;cursor:pointer;}
+.oap-tools button:hover{border-color:var(--brass);color:var(--brass);}
+.oap-tools button:focus-visible{outline:2px solid var(--brass);outline-offset:2px;}
+.oap-tools .hint{font-size:11.5px;color:var(--steel);margin-left:4px;}
+
+.oap-stage{transform-origin:top left;}
+/* the scaled sheet keeps its full 420mm layout box, so the clip lives on the wrapper */
+.oap.is-fit{overflow:hidden;}
+.oap.is-full{overflow:auto;-webkit-overflow-scrolling:touch;max-height:78vh;
+  border:1px solid var(--rule);border-radius:10px;background:var(--shade);padding:14px;}
+.content:has(.oap){max-width:none;}
+.content.oap-wide{max-width:none;}
+
+/* ---- the sheet itself ---- */
+.oap{ --ink:#0E171F; --accent:#0066FF; --paper:#FFFFFF; --tint:#F5F7FA;
+      --line:#E3E7EC; --muted:#4A5565;
+      --font-head:'Poppins',system-ui,sans-serif;
+      --font-body:'Poppins',system-ui,sans-serif;
+      --font-label:'Poppins',system-ui,sans-serif;
+      --gap:3mm; --radius:1.6mm; color:var(--ink); }
+.oap *{box-sizing:border-box;margin:0;padding:0;}
+.oap .sheet{width:420mm;height:297mm;background:var(--paper);padding:7mm 9mm 6mm;
+  display:flex;flex-direction:column;position:relative;overflow:hidden;
+  box-shadow:0 10px 34px rgba(14,23,31,.18);border:1px solid var(--line);
+  font-family:var(--font-body);
+  print-color-adjust:exact;-webkit-print-color-adjust:exact;}
+
+.oap .sheet-head{display:flex;align-items:flex-end;justify-content:space-between;gap:8mm;
+  padding-bottom:3mm;margin-bottom:var(--gap);border-bottom:.7mm solid var(--ink);}
+.oap .sheet-head .ident{display:flex;align-items:center;gap:4mm;}
+.oap .sheet-head .logo img{height:10mm;width:auto;display:block;}
+.oap .sheet-head h1{font-family:var(--font-head);font-weight:700;font-size:21pt;
+  letter-spacing:-.02em;line-height:1;color:var(--ink);}
+.oap .sheet-head h1 .thin{font-weight:500;color:var(--muted);}
+.oap .sheet-head .meta{display:flex;align-items:center;gap:2.5mm;}
+.oap .chip{font-family:var(--font-label);font-weight:600;font-size:6.5pt;letter-spacing:.12em;
+  text-transform:uppercase;border:.35mm solid var(--line);border-radius:999px;
+  padding:1.4mm 3.2mm;color:var(--muted);white-space:nowrap;}
+.oap .chip.gate{border-color:var(--accent);color:var(--accent);}
+.oap .chip.solid{background:var(--ink);border-color:var(--ink);color:var(--paper);}
+
+.oap .canvas{flex:1;min-height:0;display:grid;grid-template-columns:repeat(12,1fr);
+  gap:var(--gap);grid-auto-rows:minmax(0,auto);}
+.oap .box{border:.35mm solid var(--line);border-radius:var(--radius);background:var(--paper);
+  padding:2.8mm 3.2mm;overflow:hidden;min-height:0;display:flex;flex-direction:column;gap:1.6mm;}
+.oap .box.tint{background:var(--tint);}
+.oap .box.rule-top{border-top:1mm solid var(--accent);}
+.oap .box-label{font-family:var(--font-label);font-weight:600;font-size:6.8pt;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--accent);flex:none;}
+.oap .box-label .sub{color:var(--muted);font-weight:500;letter-spacing:.04em;text-transform:none;}
+.oap .box h3{font-family:var(--font-head);font-weight:700;font-size:11pt;letter-spacing:-.01em;line-height:1.15;}
+.oap .box h4{font-family:var(--font-head);font-weight:600;font-size:8.2pt;line-height:1.2;color:var(--ink);}
+.oap .box p{font-size:7.6pt;line-height:1.44;color:var(--muted);}
+.oap .box p.lead{font-size:9.2pt;line-height:1.38;color:var(--ink);font-weight:500;}
+.oap .box .statement{font-family:var(--font-head);font-weight:600;font-size:13pt;line-height:1.24;
+  letter-spacing:-.012em;color:var(--ink);}
+.oap .box ul{list-style:none;}
+.oap .box li{font-size:7.6pt;line-height:1.42;color:var(--muted);padding-left:3mm;position:relative;margin-bottom:1mm;}
+.oap .box li::before{content:'';position:absolute;left:0;top:1.4mm;width:1.4mm;height:1.4mm;
+  background:var(--accent);border-radius:.2mm;}
+.oap .box li strong,.oap .box p strong{color:var(--ink);font-weight:600;}
+.oap .note-line{font-size:6.6pt;line-height:1.35;color:var(--muted);font-style:italic;
+  margin-top:auto;padding-top:1.6mm;border-top:.3mm solid var(--line);}
+
+.oap .kpis{display:grid;gap:2mm;}
+.oap .kpi{border:.35mm solid var(--line);border-radius:var(--radius);padding:2.4mm 3mm;
+  background:var(--tint);overflow:hidden;}
+.oap .kpi .num{font-family:var(--font-head);font-weight:700;font-size:16pt;letter-spacing:-.03em;
+  line-height:1;color:var(--ink);display:block;}
+.oap .kpi .num em{font-style:normal;color:var(--accent);}
+.oap .kpi .lbl{display:block;margin-top:1.2mm;font-family:var(--font-label);font-weight:600;
+  font-size:5.8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:1.3;}
+
+.oap table.mini{width:100%;border-collapse:collapse;}
+.oap table.mini th{font-family:var(--font-label);font-weight:600;font-size:6.2pt;letter-spacing:.1em;
+  text-transform:uppercase;text-align:left;color:var(--paper);background:var(--ink);padding:1.4mm 2mm;}
+.oap table.mini td{font-size:7.1pt;line-height:1.36;color:var(--muted);padding:1.4mm 2mm;
+  border-bottom:.25mm solid var(--line);vertical-align:top;}
+.oap table.mini td strong{color:var(--ink);}
+.oap table.mini tr:nth-child(even) td{background:var(--tint);}
+
+.oap .pills{display:flex;flex-wrap:wrap;gap:1.4mm;}
+.oap .pill{font-family:var(--font-label);font-weight:600;font-size:6.6pt;letter-spacing:.04em;
+  border:.35mm solid var(--line);border-radius:999px;padding:1.1mm 2.8mm;color:var(--ink);
+  background:var(--paper);white-space:nowrap;}
+.oap .pill.hot{background:var(--accent);border-color:var(--accent);color:var(--paper);}
+
+.oap .journey{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:1.6mm;}
+.oap .journey .stage-cell{min-width:0;}
+.oap .journey .stage-name{font-family:var(--font-label);font-weight:600;font-size:6.4pt;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--paper);background:var(--ink);
+  border-radius:1mm;padding:1.3mm 2mm;text-align:center;margin-bottom:1.6mm;}
+.oap .journey .stage-cell:nth-child(even) .stage-name{background:color-mix(in srgb,var(--ink) 78%,var(--paper));}
+.oap .journey ul{list-style:none;}
+.oap .journey li{font-size:6.8pt;line-height:1.36;color:var(--muted);padding-left:2.6mm;
+  position:relative;margin-bottom:.9mm;}
+.oap .journey li::before{content:'';position:absolute;left:0;top:1.25mm;width:1.2mm;height:1.2mm;
+  background:var(--accent);border-radius:.2mm;}
+
+.oap .persona{border:.35mm solid var(--line);border-radius:var(--radius);padding:2.2mm 2.6mm;
+  background:var(--paper);overflow:hidden;}
+.oap .persona .p-tag{font-family:var(--font-label);font-weight:600;font-size:6pt;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent);display:block;margin-bottom:1mm;}
+.oap .persona .p-name{font-family:var(--font-head);font-weight:700;font-size:8.6pt;color:var(--ink);}
+.oap .persona .pgp{display:grid;gap:.8mm;margin-top:1.2mm;}
+.oap .persona .pgp .row{font-size:6.9pt;line-height:1.34;color:var(--muted);}
+.oap .persona .pgp .k{font-family:var(--font-label);font-weight:600;font-size:5.8pt;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink);margin-right:1mm;}
+
+.oap .checklist{display:grid;gap:1.2mm;}
+.oap .check{display:flex;gap:2mm;align-items:baseline;}
+.oap .check .tick{flex:none;width:3.4mm;height:3.4mm;border-radius:.8mm;background:var(--accent);
+  color:var(--paper);font-size:6.5pt;font-weight:700;line-height:3.4mm;text-align:center;
+  transform:translateY(.6mm);}
+.oap .check.open .tick{background:var(--paper);border:.4mm solid var(--accent);color:var(--accent);}
+.oap .check .t{font-size:7.4pt;line-height:1.36;color:var(--muted);}
+.oap .check .t strong{color:var(--ink);}
+
+.oap .gate-box{background:var(--ink);border-color:var(--ink);color:var(--paper);}
+.oap .gate-box .box-label{color:#7FB0FF;}
+.oap .gate-box .verdict{font-family:var(--font-head);font-weight:700;font-size:12pt;line-height:1.15;color:var(--paper);}
+.oap .gate-box p,.oap .gate-box li{color:rgba(255,255,255,.84);}
+.oap .gate-box li::before{background:#7FB0FF;}
+.oap .gate-box p strong,.oap .gate-box li strong{color:#7FB0FF;}
+.oap .gate-box .note-line{border-top-color:rgba(255,255,255,.22);color:rgba(255,255,255,.7);}
+
+.oap .swatches{display:flex;gap:1.6mm;}
+.oap .swatch{flex:1;border-radius:1mm;border:.25mm solid var(--line);overflow:hidden;}
+.oap .swatch .col{height:7mm;}
+.oap .swatch .code{font-family:var(--font-label);font-size:5.6pt;letter-spacing:.03em;color:var(--muted);
+  padding:.8mm 1.4mm;display:block;}
+
+.oap .sheet-foot{margin-top:var(--gap);padding-top:2.2mm;border-top:.35mm solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;gap:6mm;flex:none;}
+.oap .sheet-foot .signoff{display:flex;gap:6mm;}
+.oap .sheet-foot .sig{display:flex;align-items:baseline;gap:2mm;}
+.oap .sheet-foot .sig .k{font-family:var(--font-label);font-weight:600;font-size:5.8pt;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+.oap .sheet-foot .sig .line{display:inline-block;width:26mm;border-bottom:.3mm solid var(--muted);height:3.5mm;}
+.oap .sheet-foot .src{font-size:6pt;line-height:1.4;color:var(--muted);max-width:170mm;}
+.oap .sheet-foot .brandline{font-family:var(--font-label);font-weight:600;font-size:6.2pt;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);white-space:nowrap;}
+.oap .sheet-foot .brandline strong{color:var(--ink);}
+
+/* ---- sidebar chips for the three sheets ---- */
+.nav-link.oap-nav{background:rgba(0,102,255,.07);border:1px solid rgba(0,102,255,.22);
+  border-radius:8px;color:var(--ink);font-weight:600;margin:3px 0;padding:7px 10px;
+  border-left:3px solid var(--brass);}
+.nav-link.oap-nav .nav-num{color:var(--brass);opacity:1;}
+.nav-link.oap-nav:hover{background:rgba(0,102,255,.13);}
+.nav-link.oap-nav.active{background:var(--brass);border-color:var(--brass);color:#fff;}
+.nav-link.oap-nav.active .nav-num{color:#fff;}
+
+/* ---- landing cards for the three sheets ---- */
+.oap-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px;}
+@media(max-width:820px){.oap-strip{grid-template-columns:1fr;}}
+.oap-card{display:flex;flex-direction:column;gap:5px;background:rgba(0,102,255,.06);
+  border:1px solid rgba(0,102,255,.2);border-radius:12px;padding:15px 16px;text-decoration:none;
+  color:inherit;transition:background .15s,border-color .15s;}
+.oap-card:hover{background:rgba(0,102,255,.12);border-color:var(--brass);}
+.oap-card .t{font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;display:flex;
+  align-items:center;gap:7px;}
+.oap-card .t .arrow{margin-left:auto;color:var(--brass);font-weight:400;}
+.oap-card .d{font-size:12.8px;line-height:1.45;color:var(--steel);}
+
+/* ---- print: true-size A3 landscape ---- */
+@media print{
+  .sidebar,.oap-bar,.oap-tools,.totop,.progress,.doc-nav{display:none !important;}
+  .content{padding:0 !important;max-width:none !important;}
+  .oap-stage{transform:none !important;height:auto !important;}
+  .oap{overflow:visible !important;max-height:none !important;border:0 !important;
+    background:none !important;padding:0 !important;}
+  .oap .sheet{box-shadow:none;border:0;}
+  @page{size:A3 landscape;margin:0;}
+}
+
+/* ---- per-sheet grids ---- */
+/* Discover */
+.oap[data-sheet="discover"] .canvas{grid-template-rows:minmax(0,0.80fr) minmax(0,1.44fr) minmax(0,1.12fr)}
+.oap[data-sheet="discover"] .b-belief{grid-column:1/5;grid-row:1;}
+.oap[data-sheet="discover"] .b-ready{grid-column:5/9;grid-row:1;}
+.oap[data-sheet="discover"] .b-killer{grid-column:9/13;grid-row:1;}
+.oap[data-sheet="discover"] .core-cluster{grid-column:1/13;grid-row:2;display:flex;flex-direction:column;
+  gap:1.4mm;min-height:0;}
+.oap[data-sheet="discover"] .b-position{grid-column:1/5;grid-row:3;}
+.oap[data-sheet="discover"] .b-evidence{grid-column:5/9;grid-row:3;}
+.oap[data-sheet="discover"] .b-gate{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="discover"] .b-belief .statement{font-size:13.4pt;}
+.oap[data-sheet="discover"] .b-ready .checklist{flex:1;align-content:space-evenly;}
+.oap[data-sheet="discover"] .b-killer ol{list-style:none;counter-reset:kq;display:flex;flex-direction:column;
+  gap:1.5mm;flex:1;justify-content:space-evenly;}
+.oap[data-sheet="discover"] .b-killer li{counter-increment:kq;padding-left:5mm;position:relative;
+  font-size:7.4pt;line-height:1.4;color:var(--muted);}
+.oap[data-sheet="discover"] .b-killer li strong{color:var(--ink);font-weight:600;}
+.oap[data-sheet="discover"] .b-killer li::before{content:counter(kq);position:absolute;left:0;top:0;
+  width:3.6mm;height:3.6mm;border-radius:50%;background:var(--ink);color:var(--paper);
+  font-family:var(--font-label);font-weight:700;font-size:6pt;text-align:center;line-height:3.6mm;}
+.oap[data-sheet="discover"] .b-position p.lead{font-size:10.2pt;line-height:1.45;}
+.core-label{font-family:var(--font-label);font-weight:700;font-size:8pt;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink);flex:none;display:flex;align-items:baseline;gap:2mm;}
+.core-label .sub{font-weight:500;letter-spacing:.02em;text-transform:none;color:var(--muted);font-size:7.4pt;}
+.core-grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);}
+.core-box{border-top:1mm solid var(--accent);}
+.core-letter{font-family:var(--font-head);font-weight:800;font-size:15pt;color:var(--accent);margin-right:.8mm;}
+.core-box .core-body{flex:1;min-height:0;display:flex;flex-direction:column;gap:2.4mm;}
+.core-box .persona-stack{display:flex;flex-direction:column;gap:1.6mm;flex:1;min-height:0;}
+.core-box table.mini td,.core-box table.mini th{padding:1.5mm 1.8mm;font-size:6.8pt;}
+.core-box table.mini th{font-size:5.8pt;}
+
+/* Design */
+.oap[data-sheet="design"] .canvas{grid-template-rows:0.76fr 1.4fr 1.36fr 0.78fr}
+.oap[data-sheet="design"] .b-strategy{grid-column:1/13;grid-row:1;gap:2mm;}
+.oap[data-sheet="design"] .b-strategy .kicker{font-family:var(--font-label);font-weight:600;font-size:6.6pt;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
+.oap[data-sheet="design"] .b-strategy .proofline{font-size:8pt;color:var(--muted);}
+.oap[data-sheet="design"] .b-strategy .proofline strong{color:var(--ink);}
+.oap[data-sheet="design"] .b-brand{grid-column:1/5;grid-row:2;}
+.oap[data-sheet="design"] .b-customer{grid-column:5/9;grid-row:2;gap:1.8mm;}
+.oap[data-sheet="design"] .b-business{grid-column:9/13;grid-row:2;}
+.oap[data-sheet="design"] .b-messaging{grid-column:1/5;grid-row:3;}
+.oap[data-sheet="design"] .b-platform{grid-column:5/9;grid-row:3;}
+.oap[data-sheet="design"] .b-success{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="design"] .b-gate{grid-column:1/13;grid-row:4;gap:2.4mm;padding:3.4mm 5mm;}
+.oap[data-sheet="design"] .b-customer .persona{flex:1;padding:1.8mm 2.2mm;}
+.oap[data-sheet="design"] .b-business ul,.oap[data-sheet="design"] .b-platform ul{flex:1;display:flex;
+  flex-direction:column;justify-content:space-evenly;gap:2mm;}
+.oap[data-sheet="design"] .b-business li,.oap[data-sheet="design"] .b-platform li{margin-bottom:0;line-height:1.55;}
+.oap[data-sheet="design"] .b-success .kpis{grid-template-columns:repeat(3,1fr);flex:1;}
+.oap[data-sheet="design"] .b-success .kpi{display:flex;flex-direction:column;justify-content:center;}
+.oap[data-sheet="design"] .b-success .kpi .num{font-size:14pt;}
+.oap[data-sheet="design"] .b-gate .verdict{font-size:13pt;}
+.oap[data-sheet="design"] .gate-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:7mm;flex:1;
+  min-height:0;align-content:start;}
+.oap[data-sheet="design"] .gate-cols h4{font-family:var(--font-label);font-weight:600;font-size:6.8pt;
+  letter-spacing:.12em;text-transform:uppercase;color:#7FB0FF;margin-bottom:1.4mm;}
+.oap[data-sheet="design"] .gate-cols ul{display:flex;flex-direction:column;gap:1.3mm;}
+.oap[data-sheet="design"] .gate-cols li{margin-bottom:0;font-size:7.7pt;line-height:1.42;}
+
+/* Deploy */
+.oap[data-sheet="deploy"] .canvas{grid-template-rows:1.16fr 0.66fr 0.52fr 1.1fr}
+.oap[data-sheet="deploy"] .b-glance{grid-column:1/4;grid-row:1;}
+.oap[data-sheet="deploy"] .b-channels{grid-column:4/10;grid-row:1/3;}
+.oap[data-sheet="deploy"] .b-measure{grid-column:10/13;grid-row:1/3;}
+.oap[data-sheet="deploy"] .b-cadence{grid-column:1/4;grid-row:2;}
+.oap[data-sheet="deploy"] .b-flow{grid-column:1/13;grid-row:3;}
+.oap[data-sheet="deploy"] .b-budget{grid-column:1/4;grid-row:4;}
+.oap[data-sheet="deploy"] .b-risks{grid-column:4/7;grid-row:4;}
+.oap[data-sheet="deploy"] .b-gov{grid-column:7/10;grid-row:4;}
+.oap[data-sheet="deploy"] .b-gate{grid-column:10/13;grid-row:4;}
+.oap[data-sheet="deploy"] .channel-grid{flex:1;min-height:0;display:grid;
+  grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:1.8mm;}
+.oap[data-sheet="deploy"] .channel-cell{border:.3mm solid var(--line);border-top:.8mm solid var(--accent);
+  border-radius:1.2mm;background:var(--tint);padding:2mm 2.4mm 2.2mm;display:flex;flex-direction:column;
+  gap:1.2mm;overflow:hidden;min-height:0;}
+.oap[data-sheet="deploy"] .channel-cell .ch-name{font-family:var(--font-label);font-weight:600;font-size:7pt;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
+.oap[data-sheet="deploy"] .channel-cell .ch-play{font-size:7.1pt;line-height:1.4;color:var(--muted);}
+.oap[data-sheet="deploy"] .channel-cell .ch-kpi{font-size:6.9pt;line-height:1.34;color:var(--ink);
+  font-weight:600;margin-top:auto;padding-top:1.3mm;border-top:.25mm solid var(--line);}
+.oap[data-sheet="deploy"] .b-measure .kpis{grid-template-columns:repeat(2,1fr);flex:1;min-height:0;}
+.oap[data-sheet="deploy"] .b-measure .kpi{padding:1.8mm 2.2mm;}
+.oap[data-sheet="deploy"] .b-measure .kpi .num{font-size:12.5pt;}
+.oap[data-sheet="deploy"] .b-measure .kpi .lbl{font-size:5.3pt;line-height:1.24;margin-top:.8mm;}
+.oap[data-sheet="deploy"] .b-flow .journey{flex:1;min-height:0;}
+.oap[data-sheet="deploy"] .b-flow .journey li{font-size:6.5pt;}
+.oap[data-sheet="deploy"] .budget-rows{display:flex;flex-direction:column;gap:2.4mm;flex:1;min-height:0;
+  justify-content:space-evenly;}
+.oap[data-sheet="deploy"] .budget-row{display:flex;flex-direction:column;gap:.9mm;}
+.oap[data-sheet="deploy"] .b-top{display:flex;justify-content:space-between;align-items:baseline;gap:2mm;}
+.oap[data-sheet="deploy"] .b-name{font-size:7.2pt;font-weight:600;color:var(--ink);line-height:1.2;}
+.oap[data-sheet="deploy"] .b-pct{font-family:var(--font-head);font-weight:700;font-size:8.6pt;
+  color:var(--accent);white-space:nowrap;}
+.oap[data-sheet="deploy"] .b-bar{height:2.2mm;border-radius:1mm;background:var(--line);overflow:hidden;}
+.oap[data-sheet="deploy"] .b-fill{height:100%;background:var(--accent);border-radius:1mm;}
+.oap[data-sheet="deploy"] .b-what{font-size:5.9pt;line-height:1.26;color:var(--muted);}
+.oap[data-sheet="deploy"] .b-risks li{font-size:7.1pt;line-height:1.38;margin-bottom:1.2mm;}
+.oap[data-sheet="deploy"] .b-gov table.mini th,.oap[data-sheet="deploy"] .b-gov table.mini td{
+  padding:1.9mm 2mm;font-size:7pt;}
+.oap[data-sheet="deploy"] .b-gate .verdict{font-size:10.5pt;}
+.oap[data-sheet="deploy"] .b-gate li{font-size:6.6pt;line-height:1.34;margin-bottom:1.3mm;}
+
+.oap[data-sheet="discover"] .b-customers .persona{padding:1.7mm 2.1mm;}
+.oap[data-sheet="discover"] .b-customers .persona .p-name{font-size:7.9pt;}
+.oap[data-sheet="discover"] .b-customers .persona .p-tag{font-size:5.6pt;margin-bottom:.7mm;}
+.oap[data-sheet="discover"] .b-customers .persona .pgp{gap:.6mm;margin-top:.9mm;}
+.oap[data-sheet="discover"] .b-customers .persona .pgp .row{font-size:6.4pt;line-height:1.3;}
+.oap[data-sheet="discover"] .b-customers .persona .pgp .k{font-size:5.4pt;}
+.oap[data-sheet="discover"] .b-customers .note-line{font-size:6.2pt;padding-top:1.3mm;}
+
+/* Design: the gate row was reserving more height than its content needs */
+.oap[data-sheet="design"] .b-gate .gate-cols{align-content:center;}
+
+/* Deploy: keep the KPI tiles their natural size so the prose sits under them */
+.oap[data-sheet="deploy"] .b-measure .kpis{flex:none;}
+.oap[data-sheet="deploy"] .b-measure p{font-size:7.2pt;line-height:1.4;}
+
+</style>
+</head>
+<body>
+<div class="progress" id="prog"></div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="/">
+      <img class="brand-jp" src="/brand/jewell-wordmark.png" alt="Jewell Projects">
+      <span class="x">&times;</span>
+      <img class="brand-tt" src="/brand/tapthat-icon.png" alt="Tap That Brewery">
+    </a>
+    <div class="brand-sub">Complete 3D Process · 79 documents</div>
+    <a class="btn-side" href="/summary"><span class="ic">&larr;</span>Delivery summary</a>
+    <button class="navtoggle" id="navtoggle" aria-expanded="false">Contents +</button>
+    <input class="filter" id="filter" type="search" placeholder="Filter documents…" aria-label="Filter documents">
+    <nav class="nav" id="nav">
+<a class="nav-link edge" href="/"><span class="nav-num">&middot;</span><span>Welcome</span></a>
+<p class="nav-phase">On a page</p>
+<a class="nav-link oap-nav" href="/on-a-page-discover" data-t="discover on a page"><span class="nav-num">&#9656;</span><span>Discover on a page</span></a>
+<a class="nav-link oap-nav" href="/on-a-page-design" data-t="design on a page"><span class="nav-num">&#9656;</span><span>Design on a page</span></a>
+<a class="nav-link oap-nav" href="/on-a-page-deploy" data-t="deploy on a page"><span class="nav-num">&#9656;</span><span>Deploy on a page</span></a>
+<p class="nav-phase">Onboarding</p>
+<a class="nav-link" href="/deal-memo" data-t="deal memo"><span class="nav-num">01</span><span>Deal Memo</span></a>
+<a class="nav-link" href="/proposal" data-t="proposal"><span class="nav-num">02</span><span>Proposal<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/welcome-pack" data-t="welcome pack"><span class="nav-num">03</span><span>Welcome Pack</span></a>
+<p class="nav-phase">Discover</p>
+<a class="nav-link" href="/audience-teardown" data-t="audience teardown"><span class="nav-num">04</span><span>Audience Teardown</span></a>
+<a class="nav-link" href="/customer-segments" data-t="customer segments"><span class="nav-num">05</span><span>Customer Segments</span></a>
+<a class="nav-link" href="/customer-pain-points" data-t="customer pain points"><span class="nav-num">06</span><span>Customer Pain Points</span></a>
+<a class="nav-link" href="/buying-triggers-barriers" data-t="buying triggers &amp; barriers"><span class="nav-num">07</span><span>Buying Triggers &amp; Barriers</span></a>
+<a class="nav-link" href="/jobs-to-be-done" data-t="jobs to be done"><span class="nav-num">08</span><span>Jobs To Be Done</span></a>
+<a class="nav-link" href="/competitor-analysis" data-t="competitor analysis"><span class="nav-num">09</span><span>Competitor Analysis</span></a>
+<a class="nav-link" href="/category-positioning" data-t="category positioning"><span class="nav-num">10</span><span>Category Positioning</span></a>
+<a class="nav-link" href="/market-gaps" data-t="market gaps"><span class="nav-num">11</span><span>Market Gaps</span></a>
+<a class="nav-link" href="/differentiation-opportunities" data-t="differentiation opportunities"><span class="nav-num">12</span><span>Differentiation Opportunities</span></a>
+<a class="nav-link" href="/offer-worksheet" data-t="offer worksheet"><span class="nav-num">13</span><span>Offer Worksheet</span></a>
+<a class="nav-link" href="/product-service-review" data-t="product / service review"><span class="nav-num">14</span><span>Product / Service Review</span></a>
+<a class="nav-link" href="/pricing-packaging-notes" data-t="pricing / packaging notes"><span class="nav-num">15</span><span>Pricing / Packaging Notes</span></a>
+<a class="nav-link" href="/sales-process-review" data-t="sales process review"><span class="nav-num">16</span><span>Sales Process Review</span></a>
+<a class="nav-link" href="/funnel-review" data-t="funnel review"><span class="nav-num">17</span><span>Funnel Review</span></a>
+<a class="nav-link" href="/success-definition" data-t="success definition"><span class="nav-num">18</span><span>Success Definition</span></a>
+<a class="nav-link" href="/objectives-key-results" data-t="objectives &amp; key results"><span class="nav-num">19</span><span>Objectives &amp; Key Results</span></a>
+<a class="nav-link" href="/discover-summary" data-t="discover summary (cp1)"><span class="nav-num">20</span><span>Discover Summary (CP1)<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/evidence-reconciliation" data-t="evidence reconciliation (20a)"><span class="nav-num">20A</span><span>Evidence Reconciliation (20A)</span></a>
+<a class="nav-link active" href="/advisory-review-reconciliation" data-t="advisory review reconciliation (20b)"><span class="nav-num">20B</span><span>Advisory Review Reconciliation (20B)</span></a>
+<a class="nav-link" href="/priority-problems" data-t="priority problems to solve"><span class="nav-num">21</span><span>Priority Problems To Solve</span></a>
+<a class="nav-link" href="/recommended-next-moves" data-t="recommended next moves"><span class="nav-num">22</span><span>Recommended Next Moves</span></a>
+<p class="nav-phase">Design</p>
+<a class="nav-link" href="/business-plan" data-t="business plan"><span class="nav-num">23</span><span>Business Plan</span></a>
+<a class="nav-link" href="/strategic-priorities" data-t="strategic priorities"><span class="nav-num">24</span><span>Strategic Priorities</span></a>
+<a class="nav-link" href="/growth-roadmap" data-t="growth roadmap"><span class="nav-num">25</span><span>Growth Roadmap</span></a>
+<a class="nav-link" href="/measurement-plan" data-t="measurement plan"><span class="nav-num">26</span><span>Measurement Plan</span></a>
+<a class="nav-link" href="/customer-profile" data-t="customer profile"><span class="nav-num">27</span><span>Customer Profile</span></a>
+<a class="nav-link" href="/customer-journey" data-t="customer journey"><span class="nav-num">28</span><span>Customer Journey</span></a>
+<a class="nav-link" href="/messaging-by-stage" data-t="messaging by stage"><span class="nav-num">29</span><span>Messaging by Stage</span></a>
+<a class="nav-link" href="/conversion-pathway" data-t="conversion pathway"><span class="nav-num">30</span><span>Conversion Pathway</span></a>
+<a class="nav-link" href="/brand-strategy" data-t="brand strategy"><span class="nav-num">31</span><span>Brand Strategy</span></a>
+<a class="nav-link" href="/positioning" data-t="positioning"><span class="nav-num">32</span><span>Positioning</span></a>
+<a class="nav-link" href="/messaging-offer-architecture" data-t="messaging &amp; offer architecture"><span class="nav-num">33</span><span>Messaging &amp; Offer Architecture</span></a>
+<a class="nav-link" href="/brand-guidelines" data-t="brand guidelines"><span class="nav-num">34</span><span>Brand Guidelines<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/copy-deck" data-t="brand copy workbook"><span class="nav-num">35</span><span>Brand Copy Workbook</span></a>
+<a class="nav-link" href="/logo-brief" data-t="logo brief"><span class="nav-num">36</span><span>Logo Brief<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/website-strategy" data-t="website strategy"><span class="nav-num">37</span><span>Website Strategy</span></a>
+<a class="nav-link" href="/sitemap" data-t="sitemap"><span class="nav-num">38</span><span>Sitemap</span></a>
+<a class="nav-link" href="/page-strategy" data-t="page strategy"><span class="nav-num">39</span><span>Page Strategy</span></a>
+<a class="nav-link" href="/seo-strategy" data-t="seo strategy"><span class="nav-num">40</span><span>SEO Strategy</span></a>
+<a class="nav-link" href="/social-strategy" data-t="social strategy"><span class="nav-num">41</span><span>Social Strategy</span></a>
+<a class="nav-link" href="/content-strategy" data-t="content strategy"><span class="nav-num">42</span><span>Content Strategy</span></a>
+<a class="nav-link" href="/marketing-plan" data-t="in-market activation plan"><span class="nav-num">43</span><span>In-Market Activation Plan</span></a>
+<a class="nav-link" href="/partnership-referral-plan" data-t="partnership / referral plan"><span class="nav-num">44</span><span>Partnership / Referral Plan</span></a>
+<a class="nav-link" href="/campaign-calendar" data-t="campaign calendar"><span class="nav-num">45</span><span>Campaign Calendar</span></a>
+<a class="nav-link" href="/paid-media-plan" data-t="paid media plan"><span class="nav-num">46</span><span>Paid Media Plan</span></a>
+<a class="nav-link" href="/edm-plan" data-t="edm plan"><span class="nav-num">47</span><span>EDM Plan</span></a>
+<a class="nav-link" href="/crm-plan" data-t="crm plan"><span class="nav-num">48</span><span>CRM Plan</span></a>
+<a class="nav-link" href="/pr-plan" data-t="pr plan"><span class="nav-num">49</span><span>PR Plan</span></a>
+<a class="nav-link" href="/events-plan" data-t="events plan"><span class="nav-num">50</span><span>Events Plan</span></a>
+<a class="nav-link" href="/traditional-media-plan" data-t="traditional media plan"><span class="nav-num">51</span><span>Traditional Media Plan</span></a>
+<a class="nav-link" href="/design-brief" data-t="design brief"><span class="nav-num">52</span><span>Design Brief</span></a>
+<a class="nav-link" href="/website-brief" data-t="website brief"><span class="nav-num">53</span><span>Website Brief</span></a>
+<a class="nav-link" href="/photo-video-brief" data-t="photo &amp; video brief"><span class="nav-num">54</span><span>Photo &amp; Video Brief</span></a>
+<a class="nav-link" href="/seo-brief" data-t="seo brief"><span class="nav-num">55</span><span>SEO Brief</span></a>
+<a class="nav-link" href="/paid-media-brief" data-t="paid media brief"><span class="nav-num">56</span><span>Paid Media Brief</span></a>
+<a class="nav-link" href="/edm-brief" data-t="edm brief"><span class="nav-num">57</span><span>EDM Brief</span></a>
+<a class="nav-link" href="/crm-brief" data-t="crm brief"><span class="nav-num">58</span><span>CRM Brief</span></a>
+<a class="nav-link" href="/pr-brief" data-t="pr brief"><span class="nav-num">59</span><span>PR Brief</span></a>
+<a class="nav-link" href="/events-brief" data-t="events brief"><span class="nav-num">60</span><span>Events Brief</span></a>
+<a class="nav-link" href="/final-brief-pack" data-t="final brief pack"><span class="nav-num">61</span><span>Final Brief Pack<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/imc-summary" data-t="imc summary"><span class="nav-num">62</span><span>IMC Summary<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/strategy-summary" data-t="strategy summary (cp2)"><span class="nav-num">63</span><span>Strategy Summary (CP2)<span class="sig" title="Client sign-off">&bull;</span></span></a>
+<a class="nav-link" href="/approved-roadmap" data-t="approved roadmap"><span class="nav-num">64</span><span>Approved Roadmap</span></a>
+<p class="nav-phase">Deploy</p>
+<a class="nav-link" href="/case-study" data-t="case study / evidence pack"><span class="nav-num">65</span><span>Case Study / Evidence Pack</span></a>
+<a class="nav-link" href="/campaign-launch" data-t="campaign launch runbook"><span class="nav-num">66</span><span>Campaign Launch Runbook</span></a>
+<a class="nav-link" href="/social-content-rollout" data-t="social content rollout"><span class="nav-num">67</span><span>Social Content Rollout</span></a>
+<a class="nav-link" href="/paid-media-launch" data-t="paid media launch"><span class="nav-num">68</span><span>Paid Media Launch</span></a>
+<a class="nav-link" href="/edm-deployment" data-t="edm deployment"><span class="nav-num">69</span><span>EDM Deployment</span></a>
+<a class="nav-link" href="/crm-workflow-deployment" data-t="crm workflow deployment"><span class="nav-num">70</span><span>CRM Workflow Deployment</span></a>
+<a class="nav-link" href="/pr-outreach" data-t="pr outreach"><span class="nav-num">71</span><span>PR Outreach</span></a>
+<a class="nav-link" href="/events-activation" data-t="events activation"><span class="nav-num">72</span><span>Events Activation</span></a>
+<a class="nav-link" href="/partnership-outreach" data-t="partnership outreach"><span class="nav-num">73</span><span>Partnership Outreach</span></a>
+<a class="nav-link" href="/traditional-media-rollout" data-t="traditional media rollout"><span class="nav-num">74</span><span>Traditional Media Rollout</span></a>
+<a class="nav-link" href="/tracking-setup" data-t="tracking setup"><span class="nav-num">75</span><span>Tracking Setup</span></a>
+<a class="nav-link" href="/optimisation-backlog" data-t="optimisation backlog"><span class="nav-num">76</span><span>Optimisation Backlog</span></a>
+<a class="nav-link" href="/next-sprint-priorities" data-t="next sprint priorities"><span class="nav-num">77</span><span>Next Sprint Priorities</span></a>
+      <p class="nav-empty" id="navempty">No document matches that.</p>
+    </nav>
+  </aside>
+
+  <main class="content">
+<article class="doc" id="advisory-review-reconciliation">
+  <div class="doc-head">
+    <div class="doc-head-l"><span class="doc-chip">Discover</span><span class="pill draft">Draft v01</span></div>
+    <span class="doc-count">Document 20B of 79</span>
+  </div>
+  <h2 class="doc-title">Advisory Review Reconciliation (20B)</h2>
+  <div class="prose"><div class="tw"><table>
+
+<tbody>
+<tr>
+<td><strong>Document</strong></td>
+<td>Advisory Review Reconciliation — catalogue #20B</td>
+</tr>
+<tr>
+<td><strong>Engagement</strong></td>
+<td>Jewell Projects × Tap That Brewery</td>
+</tr>
+<tr>
+<td><strong>Phase</strong></td>
+<td>01 Discover</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Draft v01 — Internal</td>
+</tr>
+<tr>
+<td><strong>Date</strong></td>
+<td>28 August 2026</td>
+</tr>
+<tr>
+<td><strong>Prepared by</strong></td>
+<td>Jewell Projects</td>
+</tr>
+<tr>
+<td><strong>Sources</strong></td>
+<td>Christy Kilmartin's typed notes (25 and 27 Aug 2026, primary); CK × CJ advisory session, 27 Aug, Tap That segment 60:31–141:16</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Companion to #20A. Where #20A recorded what the client's own data corrected, this records what a senior advisory read corrected. Where the two disagree, the note below says which wins and why.</em></p>
+<hr />
+<h3>Why this document exists</h3>
+<p>On 27 August the set went to Christy Kilmartin for review before anything reached the client. The verdict was not that the work is wrong. It is that the work is <strong>not hard enough for a business that is losing money</strong>.</p>
+<blockquote>
+<p>"It felt like it's almost a bit light in a way. It's not hard hitting... he's desperate. He needs a sermon rather than 'hey, it's nice'."</p>
+</blockquote>
+<p>That is a fair hit and it is recorded here rather than absorbed quietly. Three things follow: some of what we wrote is now unsupported, some of what we omitted is the most important material in the engagement, and the sequencing of the whole engagement changes.</p>
+<p><strong>Source precedence.</strong> Christy's typed notes are the primary record; the transcript is secondary. Where the notes and the session differ in emphasis, the notes win.</p>
+<h3>1. Four things Discover does not say, and must</h3>
+<p>None of these appear anywhere in the 78 documents. They are not nuances. They are the business.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>What is missing</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>The business is loss-making.</strong> The phrase appears nowhere in the set.</td>
+<td>Everything downstream is a marketing plan for a business that cannot currently fund one. Naming it changes what we are allowed to recommend.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>The taproom and the refill model are a zero-sum game.</strong> The refill business is built on people <em>not</em> coming in. Driving traffic to the taproom drives people into the loss-making half of the business.</td>
+<td>Our activation plan sends spend and attention at the taproom. On this read, that is not a growth move — it is an expensive one.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>The cost drivers are absent.</strong> Twenty-seven taps means ingredients, kegs, storage and refrigeration on stock that may never move.</td>
+<td>We cannot design the next phase of a business without naming what it costs to run this one. #23 has no COGS because we never asked.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>The commercial opportunity is buried.</strong> One commercial account is worth roughly ten households. One event drives a week of taproom trade.</td>
+<td>Both facts are in our documents. Neither is a headline. They should be the headline.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>2. Three claims we can no longer lean on</h3>
+<p>Each of these is used in the set as a proof point. Each is now flagged rather than relied on.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Where we used it</th>
+<th>The problem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Taproom converts 20–30% of visitors to refill customers</strong></td>
+<td>Recurs through Discover; #43 and #62 treat the taproom as a proven funnel</td>
+<td><em>"If that's true, just pay people to come to the tap room. That's a huge conversion rate and I can't believe it."</em> The figure is the client's estimate, never measured. It cannot carry a strategy.</td>
+</tr>
+<tr>
+<td><strong>The census</strong></td>
+<td>Reordered the purchase drivers in #20A; now cited across 40+ documents</td>
+<td>Fifty self-selected respondents who do not necessarily know, or admit, why they buy. <em>"You're not going to say 'I want to be seen as more successful than my mates' out loud. You're going to go, it's all about the taste."</em></td>
+</tr>
+<tr>
+<td><strong>1,000 giveaway entries prove demand</strong></td>
+<td>#43, #45, #65 treat the giveaway as the proven acquisition mechanic</td>
+<td>Everybody enters a free competition. Nothing tests how many want a system permanently in the backyard versus free for one occasion.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>On the census specifically — this qualifies #20A rather than reversing it.</strong> #20A was right that the client's own data outranks our assumptions, and right to keep the 56% switcher figure over the census's 31%. What changes is weight: the census is a secondary input, not the anchor. Christy's proposed framing to the client is the right one — <em>"your census said this, our gut says this, what do you think?"</em> Ego and status are real drivers that a self-report will never surface.</p>
+<h3>3. What the review closed</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Open item</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>#3 Competitor name</strong> — "Aardvark &amp; Arrow" vs "Ardbach and Arrow"</td>
+<td><strong>Closed. Aardvark and Arrow.</strong> Their domain is suspended and they have joined up with Burleigh Homebrew. Comparison content is now unblocked — and the competitive picture is weaker than we assumed.</td>
+</tr>
+<tr>
+<td><strong>Naming error</strong></td>
+<td>Our documents called the marketing person <strong>"Raef"</strong> throughout. He is <strong>Harry</strong>. Justin is the owner. Raef is a Jewell Projects resource, and the two were conflated across 48 documents. Corrected in 160 places.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>4. What the review adds</h3>
+<p>Ranked as Christy ranked them. The first three are the recommendation; everything else sits below.</p>
+<h4>The three that matter</h4>
+<ol>
+<li><strong>Buy the databases.</strong> Harvey Norman sells six kegerator models plus a 25L tap unit. Keg Land / Kegmaster and BenchTop hold buyer lists too. Every name on them owns a system and has already overcome the objection we spend most of our budget fighting. At ~$70 gross per keg, buying the data pays for itself quickly.</li>
+<li><strong>Do a deal with Harvey Norman directly.</strong> Point-of-sale QR, a referral rebate per keg, or a free keg with purchase if liquor rules allow. Monk has point contacts there.</li>
+<li><strong>Go proactively at the tour operators, and go hard at commercial and wholesale.</strong> Hop On, Urban Legends and Pineapple Tours all let the customer pick the breweries, so the write-up decides whether Tap That gets chosen — and ours is perfunctory, with no mention of the award-winning Midnight in Tokyo. Wholesale needs structure, goals, KPIs and a dedicated person. <em>"Employ people there rather than employ social media managers."</em></li>
+</ol>
+<p><strong>Explicitly ranked below those: pulling people into the taproom through social media.</strong> That is close to the centre of our current Deploy plan.</p>
+<h4>Product and pricing</h4>
+<ul>
+<li><strong>Cut to about six core beers plus seasonals.</strong> Twenty-seven creates decision anxiety and an unreadable board. <em>"It feels like the manufacturer is running the business."</em></li>
+<li><strong>Sell the unit economics, not the keg price.</strong> A schooner at home against $10–18 at the pub. The enemy is the pub and the bottle shop, not the operator across the road.</li>
+<li><strong>This is the reverse razor-and-blades model</strong> — expensive handle, cheap blades. Fix it with rental or lease-to-buy framed as a gym membership, $50–100/month, to remove the upfront barrier.</li>
+<li><strong>Free delivery as a member benefit</strong>, or $150 non-member / $130 member delivered — share the cost, make the margin back in dollars rather than percentage. It also gets Justin in front of customers instead of behind the bar.</li>
+<li><strong>A healthy or low-alcohol line is a product recommendation, not a trend note.</strong> Lapsed members still own the system; they have cut back on beer, not on thirst. Put something they will drink into their taps and you reactivate them without asking anyone to drink more.</li>
+<li><strong>The RTD range is an afterthought and women are covered rather than catered for.</strong> <em>"This is a bloke's beer place and the chicks can come if they want. But the blokes will follow the girls."</em></li>
+<li><strong>Positioning counter-example — Second Earth Brewery.</strong> They sat in the middle ground, neither cheap nor premium, until an investor told them so. They put a dark beer into 500ml cans at ~$50 for four and now cannot keep up. Premium beats middle.</li>
+</ul>
+<h4>CRM and loyalty</h4>
+<ul>
+<li><strong>The 90-day blanket SMS is tone-deaf.</strong> Model actual purchase patterns and reach out ahead of the reorder: <em>"Hey Kevin, it's about time. How's your keg looking?"</em></li>
+<li><strong>10% buy monthly, 60% every three months, 40% longer.</strong> The 40% is where the growth is — not the monthly buyers, who cannot drink much more. Especially important where they are members.</li>
+<li><strong>Simplify loyalty.</strong> Every tenth keg free beats a points system whose administration is itself a cost driver.</li>
+<li><strong>Affiliate:</strong> a free keg for both parties when a mate buys a system. Pay-with-a-tweet and discounts for tagging.</li>
+</ul>
+<h4>The taproom</h4>
+<blockquote>
+<p>"Microbrew needs to be the destination, not the journey."</p>
+</blockquote>
+<ul>
+<li><strong>Stop running it as a drop-in.</strong> Restrict hours; run it as a tasting room and event venue — Saturday 5–8 rather than sitting open waiting.</li>
+<li><strong>It needs an X factor.</strong> Shuffleboard is not it. Axe throwing, a smash room, a motorbike wheelie machine, pour-your-own tables, or a spectacular serving vessel.</li>
+<li><strong>The puppy-dog close:</strong> put a system in a booth so customers use one before they buy. Let members keep their own keg the way a pub holds your whiskey bottle.</li>
+<li><strong>Chris is invisible.</strong> The head brewer is well regarded and has never once explained the tasting notes to a Friday-night regular. Profile him.</li>
+<li><strong>The location cannot be fixed.</strong> An industrial park will not win organic foot traffic. <em>"You've got to decide whether you're beer nerds, which is a business, or hospitality people."</em></li>
+</ul>
+<h4>Website and brand</h4>
+<p>Nothing above the fold works: background film cut too fast to read, too much copy, a low-resolution static logo, four business units given equal weight. The Crafted award and "fits any system" both belong on the landing page. Reviews are buried behind click-dots. Wholesale is missing its WIIFM entirely — margin, white label, cuisine matching. One membership should span taproom and refill. Reference standard: <strong>Drink Hopper</strong>.</p>
+<h3>5. What this does to the engagement</h3>
+<p>This is the part that matters more than any single recommendation.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>Before</th>
+<th>After this review</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discover</td>
+<td>The output, awaiting sign-off at CP1</td>
+<td><strong>An input to the next step, not the output.</strong> The front-end questions were marketing questions; the business questions were never asked</td>
+</tr>
+<tr>
+<td>Design</td>
+<td>42 documents drafted, awaiting CP2</td>
+<td>Provisional on a Discover that is being re-anchored. Christy has deliberately not worked through Design yet</td>
+</tr>
+<tr>
+<td>The next deliverable</td>
+<td>A signed CP1</td>
+<td><strong>A 10–12 slide deck presented to Justin and Harry</strong>, with the detail sitting behind it</td>
+</tr>
+<tr>
+<td>The 3D Process</td>
+<td>The method</td>
+<td>Suits a greenfield client with an idea. This is a rescue of an existing business — <em>"pulling apart someone's mess"</em> — and the front end needs different questions</td>
+</tr>
+</tbody>
+</table></div>
+<p>Clent's own framing: <em>"We're not just sales and marketing. There's a business order in here and we need to go back and get the actual correct questions at the front end."</em></p>
+<h3>6. Where Justin actually is</h3>
+<p>Recorded because it should govern the tone of everything that goes to him.</p>
+<blockquote>
+<p>"As I was walking out he said, Clent, am I missing something here? Am I off the mark in doing keg refills?... I looked him in the eye and I thought, I don't know what the answer is. I actually don't know whether this is commercially viable or not."</p>
+</blockquote>
+<p>The conversation to have, in Christy's framing: <em>"You're in it now. Either you try something different or you walk away. But you can't keep going with what you're doing."</em></p>
+<p>One question nobody has asked him and should: <strong>what does he count as the success factors in his last business?</strong> The expected answer is simplicity — which is exactly what this business lacks.</p>
+<h3>7. What is still missing</h3>
+<ul>
+<li><strong>Cost data.</strong> COGS, the true cost of 27 taps, the taproom's actual monthly loss. Without it, no business recommendation is more than an opinion.</li>
+<li><strong>A measured taproom conversion rate.</strong> The 20–30% figure needs replacing with something observed.</li>
+<li><strong>The Tuesday site-visit session</strong> with Justin and Harry is not in the reviewed material.</li>
+<li><strong>The unit-economics claim needs reconciling.</strong> Christy quotes $2.70 a schooner; our documents say $2.98 non-member and $2.34 member. On the verified price list — $120 member, $150 non-member for a core 20L — 47 schooners gives <strong>$2.55 member and $3.19 non-member</strong>. Three different figures are in circulation for the single most quotable number in the business. Settle it before it goes in an ad.</li>
+</ul>
+<p><em>Feeds into: #20 Discover Summary, #21 Priority Problems, #22 Recommended Next Moves, #76 Optimisation Backlog, #77 Next Sprint Priorities — and the client deck that replaces CP1 as the next deliverable.</em></p></div>
+  <nav class="doc-nav"><a class="dn-btn prev" href="/evidence-reconciliation"><span>Previous</span><strong>Evidence Reconciliation (20A)</strong></a><a class="dn-btn next" href="/priority-problems"><span>Next</span><strong>Priority Problems To Solve</strong></a></nav>
+</article>
+  </main>
+</div>
+
+<button class="totop" id="totop" aria-label="Back to top">Top</button>
+
+<script>
+(function () {
+  var prog = document.getElementById('prog');
+  var totop = document.getElementById('totop');
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-link'));
+  var navEl = document.getElementById('nav');
+
+  // Bring the current page's nav entry into view — the list is 78 long.
+  var cur = navEl.querySelector('.nav-link.active');
+  if (cur && navEl.scrollHeight > navEl.clientHeight) {
+    navEl.scrollTop = cur.offsetTop - navEl.clientHeight / 2 + cur.offsetHeight / 2;
+  }
+
+  function onScroll() {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    prog.style.width = (h > 0 ? (window.scrollY / h) * 100 : 0) + '%';
+    totop.classList.toggle('show', window.scrollY > 900);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  totop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  });
+
+  var filter = document.getElementById('filter');
+  var empty = document.getElementById('navempty');
+  if (filter) {
+    filter.addEventListener('input', function () {
+      var q = filter.value.trim().toLowerCase();
+      var shown = 0;
+      links.forEach(function (l) {
+        if (l.classList.contains('edge')) return;
+        var t = l.getAttribute('data-t') || '';
+        var num = (l.querySelector('.nav-num') || {}).textContent || '';
+        var hit = !q || t.indexOf(q) !== -1 || num.indexOf(q) !== -1;
+        l.classList.toggle('hide', !hit);
+        if (hit) shown++;
+      });
+      document.querySelectorAll('.nav-phase').forEach(function (p) {
+        var any = false, n = p.nextElementSibling;
+        while (n && !n.classList.contains('nav-phase')) {
+          if (n.classList.contains('nav-link') && !n.classList.contains('hide')) { any = true; break; }
+          n = n.nextElementSibling;
+        }
+        p.style.display = any ? '' : 'none';
+      });
+      empty.classList.toggle('show', shown === 0);
+    });
+  }
+
+  var tog = document.getElementById('navtoggle'), sb = document.getElementById('sidebar');
+  if (tog) {
+    tog.addEventListener('click', function () {
+      var open = sb.classList.toggle('open');
+      tog.setAttribute('aria-expanded', open ? 'true' : 'false');
+      tog.textContent = open ? 'Contents −' : 'Contents +';
+    });
+    navEl.addEventListener('click', function (e) {
+      if (e.target.closest('.nav-link') && window.innerWidth <= 1000) {
+        sb.classList.remove('open');
+        tog.setAttribute('aria-expanded', 'false');
+        tog.textContent = 'Contents +';
+      }
+    });
+  }
+})();
+</script>
+
+<script>
+(function () {
+  var oap = document.querySelector('.oap');
+  if (!oap) return;
+  var content = document.querySelector('.content');
+  if (content) content.classList.add('oap-wide');
+  var stage = oap.querySelector('.oap-stage');
+  var sheet = stage.querySelector('.sheet');
+  var mode = 'fit';
+
+  function apply() {
+    if (mode === 'full') {
+      oap.classList.remove('is-fit');
+      oap.classList.add('is-full');
+      stage.style.transform = 'none';
+      stage.style.height = '';
+      return;
+    }
+    oap.classList.remove('is-full');
+    oap.classList.add('is-fit');
+    stage.style.transform = 'none';
+    stage.style.height = '';
+    var avail = oap.clientWidth;
+    var w = sheet.offsetWidth;
+    if (!avail || !w) return;
+    var f = Math.min(1, avail / w);
+    stage.style.transform = 'scale(' + f + ')';
+    stage.style.height = (sheet.offsetHeight * f) + 'px';
+  }
+
+  document.querySelectorAll('[data-oap]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var a = b.getAttribute('data-oap');
+      if (a === 'print') { window.print(); return; }
+      mode = a;
+      apply();
+    });
+  });
+
+  var t;
+  addEventListener('resize', function () { clearTimeout(t); t = setTimeout(apply, 120); });
+  // fonts change the sheet's measured height, so re-fit once they land
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(apply);
+  addEventListener('load', apply);
+  apply();
+})();
+</script>
+
+</body>
+</html>

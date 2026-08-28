@@ -43,7 +43,7 @@ Complete the GoTab (POS) → Fishbowl (CRM) integration and stand up the lifecyc
 
 customer_id · name · mobile · email · suburb/postcode · consent status/date/source · segment self-select (backyard/shed/office/club) · **own_system_elsewhere (Y/N)** – the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.
 
-## Required views (Raef + founders, no analyst)
+## Required views (Harry + founders, no analyst)
 
 1. **Active count this week** – the one number (#24 P6): actives, trend, vs the 96–113 → 1,000 path.
 2. **At-risk board** – everyone at 60–90 days, last contact, next trigger due.

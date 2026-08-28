@@ -14,7 +14,7 @@
 
 ---
 
-This is the execution view of the approved strategy (#63): quarter by quarter, workstream by workstream, with owners and dependencies. It activates on CP2 sign-off – until then every status reads Pending. Owner key: **R** = Raef · **J** = Jewell · **C** = Client-founders (Justin/Chris). Milestones are staging proposals from #23/#25, not commitments.
+This is the execution view of the approved strategy (#63): quarter by quarter, workstream by workstream, with owners and dependencies. It activates on CP2 sign-off – until then every status reads Pending. Owner key: **R** = Harry · **J** = Jewell · **C** = Client-founders (Justin/Chris). Milestones are staging proposals from #23/#25, not commitments.
 
 ## Q1 – Sep–Nov 2026 · Foundations + first campaigns · from 96–113 · [rebase – derived from the superseded 220 baseline; see #20A and open item #11]
 

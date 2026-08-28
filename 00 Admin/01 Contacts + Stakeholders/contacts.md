@@ -17,7 +17,7 @@
 |---|---|---|
 | Chris Smith | Co-founder, head brewer | Ex head brewer at Burleigh Barrels (closed abruptly); decommissioned Grafton Brewing Co, helped build Six Tricks Distillery, worked 4 Pines venues. The product credibility. |
 | Justin Mistry | Co-founder, operator | Physio since 2008 (Back in Motion franchise background → the franchising ambition). Dreamt of "Tap That Brewery" for years; drives the business model. |
-| Raef | Marketing (organic social, content, events) | ~70% marketing / 30% bar cover; hybrid role. Cousin runs a 4WD fit-out business (Benchy channel contact). |
+| Harry | Marketing (organic social, content, events) | ~70% marketing / 30% bar cover; hybrid role. Cousin runs a 4WD fit-out business (Benchy channel contact). **Name corrected 27 Aug** – our discovery notes recorded him as “Raef” throughout. Harry is the marketing person; Justin is the owner. (Raef is a Jewell Projects resource and does not work for Tap That – the two were conflated across 48 documents.) |
 
 *(Founder roles per Gold Coast Bulletin article photographed in venue; discovery transcript anonymised most client-side speakers — confirm full team list and titles with Clent.)*
 

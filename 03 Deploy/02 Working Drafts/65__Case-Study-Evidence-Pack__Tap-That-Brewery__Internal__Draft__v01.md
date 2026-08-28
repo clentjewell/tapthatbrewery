@@ -39,7 +39,7 @@ Case studies die from evidence not captured at the time. Two of this engagement�
 | Churn timing + method | Active <75 days / at-risk 75–90 / churned 90+; winback = one hand-sent monthly SMS, $20-off/2-week window | Screenshot of the manual SMS; lifecycle definitions doc |
 | Switcher share | **116 of 206 (56%)** from business records – the census’s 31% is response-biased and is not used (see #20A) (verify via switcher flag once captured) | CRM field, first full count |
 | Refill economics | ~$200/month per active, ~2 kegs; member 20L $120 vs $150 | Photo-verified price board (already filed) |
-| Taproom conversion | 20–30% of visitors buy a system (client estimate – instrument in Q2 and re-baseline) | GoTab + provenance field |
+| Taproom conversion | 20–30% [unverified – see #20B] of visitors buy a system (client estimate – instrument in Q2 and re-baseline) | GoTab + provenance field |
 | Buying cycle | ~60% up to 3 months, ~10% within a month | Discovery record |
 | At-risk save / winback rates | **Unknown – no measurement exists.** First quarter of the interim manual layer IS the baseline | Weekly export sheet |
 
@@ -52,7 +52,7 @@ Case studies die from evidence not captured at the time. Two of this engagement�
 | Fishbowl/ESP reports | Sequence sends, opens, clicks, and the truth metric (transactions in window) per #47 | Per cycle |
 | Customer quotes **with signed releases** | Switchers ("why’d you cross the road?"), giveaway buyers, winback returns; capture rides the #54 shoot releases and the content-permission tick on entry forms – no quote is usable without one | Ongoing; log quote + release together |
 | Photo/video | Winner installs, backyard sessions, Benchy rigs – the #54 library doubles as case-study art | Per shoot |
-| Cost records | Paid spend per campaign, prize/discount cost per cycle, Jewell + Raef hours – CAC claims need the denominator | Monthly |
+| Cost records | Paid spend per campaign, prize/discount cost per cycle, Jewell + Harry hours – CAC claims need the denominator | Monthly |
 
 ## Write-up skeleton (fill only with Deploy actuals)
 

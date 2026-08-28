@@ -16,7 +16,7 @@
 
 ## The job social does here
 
-Social is not a brand-awareness hobby – it is the top of the refill funnel and the nurture layer for a 3-month buying cycle (**43% take 3+ months**; 34% buy inside a month – 10% immediately plus 24% within it). Every post either recruits a future system owner, nurtures one who’s considering, or reminds an existing owner to refill. The whole strategy is sized for one operator: Raef, at ~70% marketing allocation, who also covers bar shifts. If a tactic needs more than ~6–8 hours a week, it is not in this plan.
+Social is not a brand-awareness hobby – it is the top of the refill funnel and the nurture layer for a 3-month buying cycle (**43% take 3+ months**; 34% buy inside a month – 10% immediately plus 24% within it). Every post either recruits a future system owner, nurtures one who’s considering, or reminds an existing owner to refill. The whole strategy is sized for one operator: Harry, at ~70% marketing allocation, who also covers bar shifts. If a tactic needs more than ~6–8 hours a week, it is not in this plan.
 
 ## Platforms: where, and where not
 
@@ -64,7 +64,7 @@ Discovery named it directly: UGC from real customers is identified but under-exe
 
 The giveaway is the brand’s biggest organic *moment* – though only the fifth acquisition channel at 10%, behind taproom 22%, Google 20%, referral 18% and social 16% (~1,000 entries/cycle, 50%-off close converting 22–25 systems). Social’s job per cycle: launch post + weekly countdown stories + share-to-enter mechanics on Facebook + entrant UGC prompts + a filmed winner install (which seeds pillar 4 for the next quarter) + the close-offer push to non-winners. Full campaign design in #43.
 
-## Cadence – sized for Raef
+## Cadence – sized for Harry
 
 | Activity | Frequency | Time |
 |---|---|---|
@@ -90,7 +90,7 @@ Not in the cadence: daily posting, trend-chasing, platform experiments. Giveaway
 - UGC token values (250/500) are a Jewell proposal – ratify against the referral schedule and token economy before launch.
 - Segment platform-fit is inferred from segment demographics; no audience analytics pulled from the accounts yet – baseline audit needed.
 - ABAC guidance summarised operationally here; final creative-approval checklist to be issued as part of brand guidelines (#38/#39 family) before paid activity.
-- Buffer plan level and current posting baseline unconfirmed with Raef.
+- Buffer plan level and current posting baseline unconfirmed with Harry.
 
 ---
 

@@ -15,6 +15,8 @@
 
 ---
 
+> **Reprioritised 28 August 2026 after advisory review (#20B).** The sprints below were built before the review and lead with instrumentation and paid social. The review ranks three things above all of that — buy the system-owner databases (Harvey Norman, Keg Land / Kegmaster, BenchTop), do a direct deal with Harvey Norman, and go at the tour operators and wholesale properly — and ranks *pulling people into the taproom through social media* explicitly below them. Sprint 2 should be rebuilt around the three; the Week 0 corrections and the Sprint 1 instrumentation still stand, because you cannot buy a database and then fail to measure what it produced. Treat what follows as the delivery mechanics, not the priority order.
+
 ## The shape of the next 90 days
 
 Three sprints of four weeks, three items each. That cap is not conservatism – it is the arithmetic of one marketer at ~70% capacity who also works the bar, plus Jewell build support and founder time measured in hours, not days.
@@ -30,7 +32,7 @@ These are not sprint items. They are live errors and they are not gated on CP1, 
 | W1 | Pull or correct the live "$2.34 a schooner" creative – non-member price is $2.98 | Justin + Jewell | Nothing in market states $2.34 unqualified |
 | W2 | Re-brief staff: Keg Crew break-even is **8.33 refills**, not 6 | Justin | Bar team can state it |
 | W3 | Remove one of the two conflicting membership posters; decide the price | Founders | One price in the room |
-| W4 | Correct the "Bong Water / Bone Water" name across menu, web and collateral | Raef/Harry | Consistent everywhere |
+| W4 | Correct the "Bong Water / Bone Water" name across menu, web and collateral | Harry/Harry | Consistent everywhere |
 
 ## Sprint 1 (weeks 1–4) – Instrument and fix
 
@@ -38,7 +40,7 @@ These are not sprint items. They are live errors and they are not gated on CP1, 
 |---|---|---|---|---|
 | 1.1 | **Tracking setup** – GA4, GTM, pixel + CAPI, nine events, UTM convention, baselines frozen | Jewell | A test event travels ad → site → report | #75 |
 | 1.2 | **Recover the prior Meta ad account** – admin access, 24-month export, pixel audit, audience inventory | Justin → Jewell | One-page read-out of what already worked | #68 Phase 0 |
-| 1.3 | **Manual CRM track** – the 206-owner base file with the switcher flag, three lifecycle bands, counter capture script live | Jewell + Raef/Harry | Fortnightly refresh running; every fill attaches to a record | #70 Phase 1 |
+| 1.3 | **Manual CRM track** – the 206-owner base file with the switcher flag, three lifecycle bands, counter capture script live | Jewell + Harry/Harry | Fortnightly refresh running; every fill attaches to a record | #70 Phase 1 |
 
 Founder decisions needed inside sprint 1, or 1.3 stalls: the **active-customer definition** (45 or 75 days – recommendation is 75) and the **membership price**.
 
@@ -48,9 +50,9 @@ Every item here is high-confidence, low-effort, and drawn from evidence the clie
 
 | # | Item | Owner | Success measure | Backlog score |
 |---|---|---|---|---|
-| 2.1 | **Referral awareness campaign** – pinned posts, card in every keg box, counter script, day-30 onboarding beat | Raef/Harry + Jewell | Referral card in 100% of keg boxes; awareness re-measured at next census against 43.8% | 12.5 |
+| 2.1 | **Referral awareness campaign** – pinned posts, card in every keg box, counter script, day-30 onboarding beat | Harry/Harry + Jewell | Referral card in 100% of keg boxes; awareness re-measured at next census against 43.8% | 12.5 |
 | 2.2 | **Retargeting windows to 90 days** and postcode-weighted geo (4213, 4209, 4211, 4218, 4227) | Jewell | Windows and geo live; cost per result baselined | 20.0 / 12.0 |
-| 2.3 | **Members' tastings moved to Saturday afternoon**, dated a year ahead, with reminders | Raef/Harry | First session booked and invited; attendance measured against the 27% baseline | 15.0 |
+| 2.3 | **Members' tastings moved to Saturday afternoon**, dated a year ahead, with reminders | Harry/Harry | First session booked and invited; attendance measured against the 27% baseline | 15.0 |
 
 Sprint 2 is deliberately the cheapest three items in the backlog. If capacity is lost to venue demands – and it will be, at least once – these are the ones that survive a bad month.
 
@@ -60,7 +62,7 @@ Sprint 2 is deliberately the cheapest three items in the backlog. If capacity is
 |---|---|---|---|---|
 | 3.1 | **Meta programme live** on the committed split ($500 / $400 / $300 / $300), staged not simultaneous, $20/day start | Jewell | All five campaigns delivering; 30-day leading-indicator read filed | #68 |
 | 3.2 | **EDM sequences 1–3 live** (giveaway nurture, onboarding, refill cadence) with SPF/DKIM/DMARC and warm-up complete | Jewell | Deliverability clean: bounce <2%, complaints <0.1% | #69 |
-| 3.3 | **Membership push to non-members** – the 44% vs 18% leakage story, told as maths, once the price is settled | Raef/Harry | Membership attach rate on new systems measured | Backlog #2 |
+| 3.3 | **Membership push to non-members** – the 44% vs 18% leakage story, told as maths, once the price is settled | Harry/Harry | Membership attach rate on new systems measured | Backlog #2 |
 
 ## What is explicitly **not** in the first 90 days
 
@@ -78,7 +80,7 @@ Naming these matters as much as naming the priorities, because each one has an a
 
 ## The capacity picture, honestly
 
-| Sprint | Raef/Harry days | Jewell days | Founder hours |
+| Sprint | Harry/Harry days | Jewell days | Founder hours |
 |---|---|---|---|
 | 1 | 3 | 8 | 4 (decisions + access) |
 | 2 | 6 | 4 | 2 |

@@ -29,11 +29,11 @@ The venue’s own diagnosis is an industrial precinct with limited foot traffic,
 
 | # | Step | Owner | Timing |
 |---|---|---|---|
-| 1.1 | Photograph the approach from each main-road direction; identify decision points | Raef/Harry | Week 1 |
+| 1.1 | Photograph the approach from each main-road direction; identify decision points | Harry/Harry | Week 1 |
 | 1.2 | Landlord and council permissions for directional signage **[TBC]** | Justin | Weeks 1–4 |
 | 1.3 | Design: directional signs, street-visible Knockoffs (Mon–Fri 3–5pm) board, keg-refill callout | Jewell | Week 3 |
 | 1.4 | Produce and install | Justin, supplier | Week 6 |
-| 1.5 | Measure: counter question "how did you find us?" logged for 8 weeks before and after | Raef/Harry | Weeks 1–14 |
+| 1.5 | Measure: counter question "how did you find us?" logged for 8 weeks before and after | Harry/Harry | Weeks 1–14 |
 
 Design rule: the sign must say **"keg refills – any system"**, not only the brewery name. Google is 20% of acquisition and the search behaviour is refill-led; the physical sign should answer the same query.
 

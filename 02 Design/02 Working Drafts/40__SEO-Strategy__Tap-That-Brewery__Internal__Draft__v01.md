@@ -38,7 +38,7 @@ SEO here is not traffic for its own sake – it serves the two acquisition doors
 
 | Move | Detail |
 |---|---|
-| **Google Business Profile** | Current GBP state [pending site audit]. Target categories: brewery + brewpub; services: keg refills, keg systems, venue hire. Weekly photo/post cadence fits Raef’s existing content workload; populate product entries with photo-verified pricing once reconciled |
+| **Google Business Profile** | Current GBP state [pending site audit]. Target categories: brewery + brewpub; services: keg refills, keg systems, venue hire. Weekly photo/post cadence fits Harry’s existing content workload; populate product entries with photo-verified pricing once reconciled |
 | **Reviews engine** | The in-venue "5 ways to support us" sign already asks for reviews at $0.00 – add the digital rail: review link in post-refill SMS/receipts (GoTab) and in the winback flow. Review velocity is the cheapest local-pack lever available |
 | **Geo pages** | Burleigh Heads is home turf; build service-area presence for the southern-GC belt (Palm Beach, Miami, Tugun – the young-family belt from #05) via localised refill/delivery content once delivery ships. Avoid thin doorway pages – one strong "keg refills Gold Coast" page beats ten suburb clones |
 | **Citations/consistency** | NAP consistency across GBP, socials, directories, Hop On Brewery Tours listing and any partner links (Never Quit Gym, Smoked Barbecue Co, Ammazza) – partner sites are the natural first backlinks |

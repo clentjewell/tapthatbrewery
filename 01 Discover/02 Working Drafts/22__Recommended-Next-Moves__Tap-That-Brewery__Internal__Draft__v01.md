@@ -12,6 +12,20 @@
 
 ---
 
+## The three moves, ranked
+
+*Added 28 August 2026 after advisory review (#20B). Christy Kilmartin was asked which three of everything raised we would actually recommend. These are they, and the ranking is deliberate — what sits below them matters less than it looks.*
+
+**1. Buy the databases.** Harvey Norman lists six kegerator models plus a 25L tap unit. Keg Land / Kegmaster and BenchTop hold buyer lists of their own. Every name on those lists already owns a system, which means the $975 objection — the single most expensive thing we fight — is already overcome. At roughly $70 gross per keg, the data pays for itself fast. This is the cheapest acquisition available to the business and nothing in the original plan pursued it.
+
+**2. Do a deal with Harvey Norman directly.** A point-of-sale QR code, a referral rebate on each keg, or a free keg with purchase if liquor rules allow. Monk is one of Harvey Norman's closest allies and holds point contacts. This is a conversation, not a campaign.
+
+**3. Go proactively at the tour operators, and go hard at commercial and wholesale.** Hop On, Urban Legends and Pineapple Tours all let the customer choose which breweries to visit, so the write-up decides whether Tap That gets picked — and ours is perfunctory, with no mention of the award-winning Midnight in Tokyo while Balter gets the imagery. Harry should be sending fresh copy, photos, reviews and awards to each operator. Urban Legends makes customers book every tasting themselves; building them a booking widget that always includes Tap That is genuinely chargeable work. On wholesale: structure, goals, KPIs and a dedicated person. *"Employ people there rather than employ social media managers."*
+
+**Explicitly ranked below these three: pulling people into the taproom through social media.** That is close to the centre of the activation plan as originally written, and it should not be.
+
+**And the one that is a decision, not a move:** the taproom is a zero-sum drag on the refill business as currently run. Restricting hours and running it as a tasting and event venue is the recommendation. Keeping it open as a drop-in is a choice to keep paying for it.
+
 ## The sequencing logic (read this before the list)
 
 With one marketer at ~70% capacity (#21, P1), the order of moves *is* the strategy. Two principles set the sequence:
@@ -41,17 +55,17 @@ No Design-phase asset should be built on unreconciled inputs. Three gates, all a
 
 **Why first:** validated demand (50% of the current book *are* switchers), no dependency on any pending integration, no hardware margin sacrifice, and it feeds OKR 1.1 from week one. Tests H1 and H2 simultaneously.
 
-**Owner:** Jewell (offer + assets) with Raef (channels: organic, DMs, in-venue). **Timing:** designed in Design month 1, in market month 2.
+**Owner:** Jewell (offer + assets) with Harry (channels: organic, DMs, in-venue). **Timing:** designed in Design month 1, in market month 2.
 
 ### Move 2 – Lifecycle automation second (design now; live within 90 days of integration)
 
 **What:** the 60/75/90-day triggered flows (pre-churn nudge → at-risk save → churned winback ladder, with the $20-off and Marie’s Pizza offers as tested variants), built on GoTab transaction data via Fishbowl.
 
-**Why second:** highest margin per effort-hour (owned list, already-acquired customers, lapsed-not-lost), and it *permanently* removes a recurring manual task from Raef’s 70% – capacity that funds Moves 3 and 4. Second only because it is hostage to the integration date from Move 0; the flows, copy and offer ladder are designed in parallel so go-live is limited by the integration alone. Tests H4.
+**Why second:** highest margin per effort-hour (owned list, already-acquired customers, lapsed-not-lost), and it *permanently* removes a recurring manual task from Harry’s 70% – capacity that funds Moves 3 and 4. Second only because it is hostage to the integration date from Move 0; the flows, copy and offer ladder are designed in parallel so go-live is limited by the integration alone. Tests H4.
 
-**Owner:** Jewell (flows + copy), Justin (integration), Raef (offer operations). **Timing:** designed Design months 1–2; live within 90 days of integration completing.
+**Owner:** Jewell (flows + copy), Justin (integration), Harry (offer operations). **Timing:** designed Design months 1–2; live within 90 days of integration completing.
 
-*Quick fix pulled forward, not waiting its turn: the wholesale lead log + 48-hour follow-up SLA (#21, P4) costs half a day to set up and stops warm DM leads dying now.* **Owner:** Raef. **Timing:** immediately.
+*Quick fix pulled forward, not waiting its turn: the wholesale lead log + 48-hour follow-up SLA (#21, P4) costs half a day to set up and stops warm DM leads dying now.* **Owner:** Harry. **Timing:** immediately.
 
 ### Move 3 – Segment campaigns third (Design months 2–3; rolling from month 3)
 
@@ -59,33 +73,33 @@ No Design-phase asset should be built on unreconciled inputs. Three gates, all a
 
 **Why third:** highest creative build cost and a 3-month cycle before payback – it needs Moves 1–2 compounding underneath it, and its nurture machinery reuses the lifecycle infrastructure Move 2 creates.
 
-**Owner:** Jewell (strategy + creative), Raef (execution + UGC pipeline). **Timing:** designed Design months 2–3, first campaign live month 3, sequenced ahead of the next giveaway.
+**Owner:** Jewell (strategy + creative), Harry (execution + UGC pipeline). **Timing:** designed Design months 2–3, first campaign live month 3, sequenced ahead of the next giveaway.
 
 ### Move 4 – Benchy and club plays fourth (Design month 3+; deals from month 4)
 
-**What:** the new-pool expansion – Benchy into 4WD/camping/outdoor channels (first partner: Raef’s cousin’s 4WD fit-out business; Smoked Barbecue Co proves the JV pattern), the white-label club model (10% player discount / 10% club kickback, targeted only at clubs with tap infrastructure outside CUB exclusivity), and delivery via GoTab × Uber Direct.
+**What:** the new-pool expansion – Benchy into 4WD/camping/outdoor channels (first partner: Harry’s cousin’s 4WD fit-out business; Smoked Barbecue Co proves the JV pattern), the white-label club model (10% player discount / 10% club kickback, targeted only at clubs with tap infrastructure outside CUB exclusivity), and delivery via GoTab × Uber Direct.
 
 **Why fourth, not never:** genuinely new demand with no competitor (Benchy) – but partnership cycles are slow, club deals need collateral and legal shape, and none of it should consume capacity while the cheapest acquisition (Move 1) and owned-list revenue (Move 2) are still being stood up. Tests H5 and H6.
 
-**Owner:** Jewell (partner kit + club offer), Raef (Benchy channel), Justin (club negotiations). **Timing:** designed from Design month 3, first partner conversations month 4.
+**Owner:** Jewell (partner kit + club offer), Harry (Benchy channel), Justin (club negotiations). **Timing:** designed from Design month 3, first partner conversations month 4.
 
 ## The sequence on a page
 
 | # | Move | Owner(s) | Timing | Feeds |
 |---|---|---|---|---|
 | 0 | Close 3 data blockers | Clent, Founders, Justin | Fortnight, pre-Gate 1 | Everything |
-| – | Wholesale lead log + 48h SLA | Raef | Immediately | OKR 3.4 |
-| 1 | Switcher campaign | Jewell + Raef | Live month 2 | OKR 1.1 · H1, H2 |
-| 2 | Lifecycle automation | Jewell + Justin + Raef | Live ≤90 days post-integration | OKR 2.1–2.3 · H4 |
-| 3 | Segment campaigns | Jewell + Raef | Rolling from month 3 | OKR 1.2 · H3, H7 |
-| 4 | Benchy / clubs / delivery | Jewell + Raef + Justin | Conversations month 4 | OKR 3.1–3.3 · H5, H6 |
+| – | Wholesale lead log + 48h SLA | Harry | Immediately | OKR 3.4 |
+| 1 | Switcher campaign | Jewell + Harry | Live month 2 | OKR 1.1 · H1, H2 |
+| 2 | Lifecycle automation | Jewell + Justin + Harry | Live ≤90 days post-integration | OKR 2.1–2.3 · H4 |
+| 3 | Segment campaigns | Jewell + Harry | Rolling from month 3 | OKR 1.2 · H3, H7 |
+| 4 | Benchy / clubs / delivery | Jewell + Harry + Justin | Conversations month 4 | OKR 3.1–3.3 · H5, H6 |
 
 ## Assumptions & open items
 
 - The whole sequence is a **recommendation pending Gate 1** – founders may re-order, though we will argue hard for Move 1's position.
 - Move 2's go-live date is undefined until the integration timeline lands (Move 0, blocker 3).
 - Month numbering assumes Design starts immediately after Gate 1 sign-off.
-- Owner assignments assume Raef remains at ~70% marketing allocation; any change re-opens the sequence.
+- Owner assignments assume Harry remains at ~70% marketing allocation; any change re-opens the sequence.
 
 ---
 

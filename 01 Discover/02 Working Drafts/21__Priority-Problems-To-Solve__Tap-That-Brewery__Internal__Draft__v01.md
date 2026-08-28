@@ -20,11 +20,11 @@ These are the six bottlenecks D06 named, now ranked by commercial consequence, e
 
 ### P1 – Execution capacity (the master problem)
 
-**The problem.** One hybrid marketer (Raef, ~70% marketing / 30% bar cover) is the entire delivery mechanism for segment campaigns, wholesale outreach, re-engagement, UGC, giveaways and events. The segment framework exists on a workshop wall; the campaigns don’t exist at all.
+**The problem.** One hybrid marketer (Harry, ~70% marketing / 30% bar cover) is the entire delivery mechanism for segment campaigns, wholesale outreach, re-engagement, UGC, giveaways and events. The segment framework exists on a workshop wall; the campaigns don’t exist at all.
 
 **Commercial consequence.** The $2.6M target has no delivery mechanism. Every other problem on this list persists *because* of this one – at current capacity, fixing P2–P6 means choosing which of them to leave broken.
 
-**Solved looks like.** A brutally sequenced plan (see #22) where Raef’s 70% is spent only on the highest-leverage motions in order; automation absorbing the repeatable work (P2); and an explicit decision at Gate 1 on what will *not* be attempted this year. Test: Raef can say what he is not doing this month, and why, without guilt.
+**Solved looks like.** A brutally sequenced plan (see #22) where Harry’s 70% is spent only on the highest-leverage motions in order; automation absorbing the repeatable work (P2); and an explicit decision at Gate 1 on what will *not* be attempted this year. Test: Harry can say what he is not doing this month, and why, without guilt.
 
 ### P2 – Manual re-engagement
 
@@ -40,7 +40,7 @@ These are the six bottlenecks D06 named, now ranked by commercial consequence, e
 
 **Commercial consequence.** Attention is the scarcest resource in the business (see P1); the taproom consumes it at hospitality returns while the refill engine – the actual margin – sits at 96–113 of a 1,000 target. Unchecked, the venue will keep winning attention by default.
 
-**Solved looks like.** The taproom formally re-scoped as a funnel (#18): measured on visitor→owner conversion (currently 20–30%), operating within an agreed loss tolerance, with events/functions run to feed giveaway entries and demos. Test: the monthly review discusses taproom *conversion* before taproom *takings*.
+**Solved looks like.** The taproom formally re-scoped as a funnel (#18): measured on visitor→owner conversion (currently 20–30% [unverified – see #20B]), operating within an agreed loss tolerance, with events/functions run to feed giveaway entries and demos. Test: the monthly review discusses taproom *conversion* before taproom *takings*.
 
 ### P4 – Wholesale lead leakage
 

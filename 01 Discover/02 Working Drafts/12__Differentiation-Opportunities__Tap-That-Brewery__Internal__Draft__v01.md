@@ -70,7 +70,7 @@ A differentiator without proof is a slogan. Every entry below survives D03's tes
 | Corny Tue→Fri | "Fill any system" page | Signed already | Switcher proof | Ready now |
 | Price-per-litre | Calculator | Deliberately quiet | Close-stage only | Ready now |
 
-Note the asymmetry: in-venue already carries most of this story (which is why the taproom converts 20–30% of visitors); the web carries almost none of it. The differentiation gap is not message – it is *channel*: the 3-month buying cycle happens away from the venue, where none of these proofs are currently visible.
+Note the asymmetry: in-venue already carries most of this story (which is why the taproom converts 20–30% [unverified – see #20B] of visitors); the web carries almost none of it. The differentiation gap is not message – it is *channel*: the 3-month buying cycle happens away from the venue, where none of these proofs are currently visible.
 
 ## Assumptions & open items
 

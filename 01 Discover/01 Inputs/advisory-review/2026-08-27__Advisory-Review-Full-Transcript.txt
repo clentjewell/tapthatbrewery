@@ -1,0 +1,879 @@
+CK x CJ, 27 August 2026. Full Circleback transcript, 875 turns, 00:04 to 141:16.
+Tap That Brewery discussion runs from 60:31 (turn 405) to the end.
+Speaker labels are as Circleback produced them and are known to be unreliable.
+
+1. [0:00:04] Ronnie Ignacio: Hey Christy
+2. [0:00:05] Christy Kilmartin: Kilmartin.
+3. [0:00:09] Ronnie Ignacio: A little bit rust ha asking my um voice, but all good.
+4. [0:00:16] Ronnie Ignacio: Good mate. What's the weather in Twilight? What's the weather in Philippines, Ronnie?
+5. [0:00:21] Ronnie Ignacio: Yeah, it's sunny now, but it's suddenly rain, so it's a combination of two.
+6. [0:00:28] Ronnie Ignacio: Very good. What's everyone working from home? What's that about?
+7. [0:00:33] Participant 2: Uh we've had uh heavy rain here today. Um overnight. So what they do is they they have a look at it in the morning and if the kids can't get to school safely, they just cancel school for the day. Work from home.
+8. [0:00:47] Ronnie Ignacio: Cool.
+9. [0:00:47] Participant 2: Yeah,
+10. [0:00:48] Ronnie Ignacio: perhaps. Do they have good programs so you can keep working or not?
+11. [0:00:53] Participant 2: They've learned they've built that muscle over COVID. So it keeps going, right? It's not obviously not as good, but it all keeps going. It keeps chucking it, chugging along.
+12. [0:01:06] Ronnie Ignacio: Okay, that's good.
+13. [0:01:07] Participant 2: Yeah. Yeah. That's all right. It's all right. Yeah. Yeah. How about you, mate? How's everything?
+14. [0:01:14] Ronnie Ignacio: Yeah, good. Um, you know, home front. Uh oh. Yeah, no, there's a bit going on. Just selling selling and cleaning out the house crust.
+15. [0:01:28] Participant 2: Yeah.
+16. [0:01:29] Ronnie Ignacio: Mostly.
+17. [0:01:29] Participant 2: Yeah. Mostly.
+18. [0:01:31] Ronnie Ignacio: Yeah.
+19. [0:01:32] Participant 2: Yeah. Sounds like you're keeping keeping the workbench though. From the way you're giggling away.
+20. [0:01:39] Ronnie Ignacio: Yeah, guilt. Guilty as charge. I met someone, very, very lovely young lady, and that's keeping us busy. Going away this weekend, actually, for the snowy mountains. We'll do the we'll do the snow drive. Yeah. Yeah.
+21. [0:01:52] Participant 2: Nice. Yeah. She can't ride a bike then.
+22. [0:01:55] Ronnie Ignacio: No. It's a bit cold. It's still snow. Although mostly
+23. [0:02:00] Participant 2: it's not much snow.
+24. [0:02:01] Ronnie Ignacio: Not much, nah. 50 mil of rain, my mate said yesterday. Yeah. So no, it's good, mate. Just um just uh it's been yeah, usual craziness. I bought a Ute for the but then I gave it back because uh it's it's it's too hard to drive manual.
+25. [0:02:17] Participant 2: Oh so what you got the beam back?
+26. [0:02:20] Ronnie Ignacio: Yeah. Yeah,
+27. [0:02:22] Participant 2: right.
+28. [0:02:22] Ronnie Ignacio: Much better.
+29. [0:02:23] Participant 2: No, not not doing that, not changing gears anymore, mate. That's
+30. [0:02:27] Ronnie Ignacio: your
+31. [0:02:27] Participant 2: young blokes.
+32. [0:02:28] Ronnie Ignacio: I pulled I pulled in to show Adam his marketplace that Ronnie built, and uh I said, what's the goal with that Ute? He's 2012, 120,000 clicks only. I said, Really? It's like new. He goes, Yeah, yeah, yeah. So I said, Can I have it? He goes, Oh, you don't need you need maximum flexibility. I said, Oh no, I need a ute this weekend too to tow a trailer and do some stuff.
+33. [0:02:49] Christy Kilmartin: Oh
+34. [0:02:50] Ronnie Ignacio: gave that back to him. I've never been honked and hooted so. so much trying to find a gear going through roundabouts.
+35. [0:02:57] Christy Kilmartin: Oh you dickhead.
+36. [0:02:58] Ronnie Ignacio: You
+37. [0:02:59] Participant 2: can't drive a manual.
+38. [0:03:00] Ronnie Ignacio: Well yeah but the Rev Rangers, Christ.
+39. [0:03:05] Participant 2: Uh well, yeah. Uh huh. I know my scramble of the Rev Rangers are not great. I'm first gear, second gear, third gear, fourth gear. Right. Okay. Now now we're right.
+40. [0:03:15] Ronnie Ignacio: Yeah, I try to go first to third or fourth every time, just skip a couple. Takes too long.
+41. [0:03:20] Participant 2: Yeah. Yeah. Anyway.
+42. [0:03:24] Ronnie Ignacio: Um on track. So yeah, uh moved out on the on exactly twenty eight days time. So I think I think we've got rich Ronnie Ignacio most of it. with Liz's help. And then um yeah, we just had to look through the finances. They're still mighty thin. So we rob the bank. Rob the rob the investment company to tie this over and sell a house and and we breathe again and then uh we we take a week off in Thailand and
+43. [0:03:53] Christy Kilmartin: yeah
+44. [0:03:53] Ronnie Ignacio: preset. Yeah.
+45. [0:03:55] Christy Kilmartin: Good man. Good.
+46. [0:03:57] Ronnie Ignacio: Yeah.
+47. [0:03:58] Christy Kilmartin: Power off and power back up again.
+48. [0:04:00] Ronnie Ignacio: Correct. Yeah, correct in the moment. Now speaking of which, um, you know, my updates uh Ronnie and I would if you don't mind, we'll just jump and say, um Ronnie's built that car marketplace, bloody good, really good. Yeah, now we've got a marketplace that you can clone and sell whatever you want. Front end. back end, admin, AI inputs, very clever. You could sell Earth Mover tires, we could sell Redditrue tie. Very clever.
+49. [0:04:29] Christy Kilmartin: Okay.
+50. [0:04:30] Ronnie Ignacio: And we're just plugging stripe. And I really do think, oh boy, that is a very clever way to go. Let's sell peptides for pets. Let's sell fucking paintings. I don't care. It's the same concept. And it's really, really Ronnie, do you want to quickly show uh Pruss the inspection tool, please, mate? Well, just a couple of updates, right? Because they're they're honestly very clever. This this lab. Sorry to interrupt you, Ronnie. Ronaldinho is doing very clever things in the background concurrently. You can tell because you're constantly having that time for this shit. Um you can see you just click straight over the inspection tool, whereas the old boy was running around filling in by pen and paper last time. Have a look at what he does on the right hand side there. Upload means that you take the photo of the tire and boom, it populates it. Or you can just talk to it and it populates it.
+51. [0:05:31] Participant 2: Fantastic.
+52. [0:05:33] Ronnie Ignacio: And imagine, mate, we could then imagine this is not tired. Imagine you're running around in a pharmacy and you gotta do it stocktake. Chemist warehouse stocktake tool. Photo photo.
+53. [0:05:46] Participant 2: Yeah, exactly.
+54. [0:05:47] Ronnie Ignacio: Pops it in. You know.
+55. [0:05:49] Participant 2: Exactly. Can you take it from the if you're on an iPad or something? You can take it directly from the camera.
+56. [0:05:55] Ronnie Ignacio: Yep. Perfect. It's actually optimized to be mobile responsive. Optimized to be mobile.
+57. [0:06:02] Participant 2: Oh right. Yep. So your upload is actually just take a photo. Right.
+58. [0:06:06] Ronnie Ignacio: Yeah. Yep.
+59. [0:06:07] Participant 2: Yeah. Not not like, I mean, you can physically upload a photo from your file, but predominantly it's basically through the camera.
+60. [0:06:15] Ronnie Ignacio: Yep. Yeah, these are good instructions in there exactly how to do it.
+61. [0:06:21] Participant 2: Nice.
+62. [0:06:22] Ronnie Ignacio: Yep. So that we're out in the field and did that uh for a couple of days last week. Oh once last week, once a week before.
+63. [0:06:29] Participant 2: Yeah.
+64. [0:06:30] Ronnie Ignacio: And look, he's even built a product inventory management system in the back end. So we can clone all of this, old boy. I guess it's the point of showing you. But
+65. [0:06:41] Christy Kilmartin: not
+66. [0:06:41] Ronnie Ignacio: with this.
+67. [0:06:43] Christy Kilmartin: This is this is Dave's a part of Dave's brain and a part of Dave's little pieces of paper that are sort of gathered around everywhere. He's little book. Yep.
+68. [0:06:54] Ronnie Ignacio: Yeah. So cleverly, Ronnie's got it so that it goes straight in a receiver based database.
+69. [0:07:00] Clent Jewell: Which is
+70. [0:07:01] Ronnie Ignacio: probably the most sophisticated, biggest you can get at the moment. It's fuck a while. The fact that Ronnie's sitting there, you know, he's a data engineer now. running these superbase databases is wild um populates to the website automatically or or Ronnie can you show him front end again and show him how the you can report the stuff really quickly and easily as well sorry cross I'm jumping around I'm excited not only for the OTR option between jewel and otr tires.com.au which as you know could be anything OTR Australia and global but it once you put it in up the top Ronnie just show him how you can internal so your entry on the left there and you can hit report it oh sorry bud I'd fucked it up on you ammo. We've got no information. Wait for it. You won't. Probably helps if I explain what I'm doing, wouldn't it, Ronnie? Lovely. Now we can report it. Look at that. Beautifully formatted report with or tire pictures ready to
+71. [0:08:13] Christy Kilmartin: go.
+72. [0:08:15] Ronnie Ignacio: Used to take the bastard hours every night. And then up the top, our view, or you can get a bit of a customer view. So take the cost price out.
+73. [0:08:23] Christy Kilmartin: Yeah, right.
+74. [0:08:24] Ronnie Ignacio: Then you can print the bastard or share the link straight off. Email it into a spreadsheet, whatever you want to do. Tick five from the top.
+75. [0:08:35] Participant 2: Great. Excellent.
+76. [0:08:36] Ronnie Ignacio: So what are you doing early next? next year? Why don't we do a road trip, Crosto, from Brisbane to Darwin or go to every bloody mine site and give them a stubby holder and and take some pictures. And then we'll go to the
+77. [0:08:51] Christy Kilmartin: let's do it. Let's do it.
+78. [0:08:56] Ronnie Ignacio: That's
+79. [0:08:56] Christy Kilmartin: what the investment investment can pay for.
+80. [0:08:59] Ronnie Ignacio: Yeah, it's it's bloody it's it's a work trip. Inventory build. Yeah.
+81. [0:09:07] Christy Kilmartin: Relationship build.
+82. [0:09:08] Ronnie Ignacio: Dad and I went out for two days. Can you show him your picture, please, Ronnie? Your ju Google photos just to show Christ what we're gonna be doing for that few weeks.
+83. [0:09:18] Christy Kilmartin: Uh yeah, you showed me a few
+84. [0:09:21] Ronnie Ignacio: I've already shown you what it looks like in the field. Yeah,
+85. [0:09:23] Christy Kilmartin: you and yeah, yeah, yeah.
+86. [0:09:25] Ronnie Ignacio: Yeah.
+87. [0:09:26] Christy Kilmartin: Some of them.
+88. [0:09:27] Ronnie Ignacio: Whoops.
+89. [0:09:29] Christy Kilmartin: Oh.
+90. [0:09:30] Ronnie Ignacio: Hang on. Yeah, that's a bit riving. Um, anyway, so Ronnie can take a picture of that, drop it in, bang, it populates. We got 400 tires. 400 average of ten. There's there's four million dollars worth of tires in the inventory out in two days. Bang.
+91. [0:09:48] Participant 2: Theoretically, over time it should recognize what it is, right? From the photo. Already knows. Oh
+92. [0:09:58] Ronnie Ignacio: Ronnie, showing. Cause he's gonna invest time of his life in this bastard of a project. So better
+93. [0:10:04] Participant 2: shazam for tires
+94. [0:10:06] Ronnie Ignacio: yeah shazam for tires
+95. [0:10:08] Participant 2: wow
+96. [0:10:08] Ronnie Ignacio: wow yeah you got it sorry I've
+97. [0:10:12] Participant 2: that's a good line too
+98. [0:10:15] Ronnie Ignacio: tires that's why you're on you're the campaign guy picks up the sidewall but then you hone in on the serial number and all that shit and it drops it straight in him all of it and then there's actually another step Ronnie I want to I want to reference the tech data book and make sure it's got all the information for that particular tile.
+99. [0:10:36] Participant 2: Yeah yeah yeah yeah yeah as it comes out of a factory not for an yeah yeah okay
+100. [0:10:43] Ronnie Ignacio: got it right and imagine not just for ATR tires which you and I both know is a million dollar opportunity, $100 million. I reckon there's another product here, man. You just build a website, throw up this product, this inventory management tool, and just GEO it and see who wants to buy that who for their little shop. You know, rather than walking on language EA and fucking blah blah blah. The kid who can't even pronounce the the word for the pharmaceutical product only has to take a photo of it and less chance of fucking it up.
+101. [0:11:15] Christy Kilmartin: Yeah.
+102. [0:11:16] Ronnie Ignacio: So many opportunities right now. Anyway. Opportunity number two. Yeah.
+103. [0:11:23] Christy Kilmartin: Yeah, that's the problem.
+104. [0:11:24] Ronnie Ignacio: You gotta you gotta focus me. Right. Um, Ronnie, uh, you've got to share in your car marketplace. because this is where Crust Crust had this idea as his first when he was 20 something.
+105. [0:11:36] Participant 2: Twenty twenty like twenty twenty-one twenty or two.
+106. [0:11:41] Ronnie Ignacio: Well Ronnie's just any of these things I'm you can get involved in any way you want. Look what he's done. It's good. Front end. Look at the movement that he's got happening. He's just scrolling all that
+107. [0:11:58] Christy Kilmartin: up.
+108. [0:12:01] Clent Jewell: Clever. Show him the marketplace. So yeah, you took me through this a little bit, but it was just it was placeholder imagery.
+109. [0:12:19] Christy Kilmartin: Okay.
+110. [0:12:19] Clent Jewell: And about
+111. [0:12:20] Christy Kilmartin: Ronald Green?
+112. [0:12:25] Ronnie Ignacio: Oh, sorry, mate. I shouldn't let you click in. But point is it's we can set this up the point and shoot as well. So Adam drops the regaro and a couple of photos, and it'll populate the words in Adam's vernacular, not standard AI slot or average slot.
+113. [0:12:47] Christy Kilmartin: So Julia, while while we're having while we're having a look, you said you went you took that to Adam this week.
+114. [0:12:53] Ronnie Ignacio: Yeah.
+115. [0:12:55] Christy Kilmartin: How do you go?
+116. [0:12:57] Ronnie Ignacio: Um, I think I think it was it it was colored by the fact that I was returning his youth that I didn't want. I cleaned the fucker. Right, eh. Just had a few more. Um, so notwithstanding that it he gets this, it's pretty cool. Um, does he value it the way it should be? Nah. Right. Just hand it over and you can he can, you know. The problem is, mate, he's um he's that busy, he's he's you know, he's on the verge of a breakdown at any point in time. So I'm just very careful about not overdoing it with him. I can do is give him a platform and then put what he really needs next is lead warmer so that when the phone rings it says, Hey, this is Adam's personal assistant. He's out at the moment. Tell us what you got. We'll get back to you with the best information as soon as we can. And Sue, who was just here, is is a happy to be the human who answers the phone for M2 as a buffer.
+117. [0:14:01] Christy Kilmartin: Right. Okay.
+118. [0:14:03] Ronnie Ignacio: I think that would take out, you know, pick a number, the majority of his anxiety data day. Happen to be
+119. [0:14:11] Christy Kilmartin: right
+120. [0:14:12] Ronnie Ignacio: on the whole time. Anyway, Ronnie, just want to quickly, just just in 30 seconds, because I'm taking up 10 more airways already. Dash. Dashboard. So he's got a bloody AI assistant in here crust that references the database, superbase database, which you can ask it anything. Write me a Facebook post for it. A buyer says my price is too high. How do I reply to that one? Give me a listing description for that one. Whatever you need it to do, it does it in his random style. I really think that AI assistant toolmate is the nexus of everything. assistant that references your knowledge base.
+121. [0:15:08] Christy Kilmartin: Yeah.
+122. [0:15:09] Ronnie Ignacio: That can't be can't be presumped. As it only gets better as AI improves and it's still sticky with us.
+123. [0:15:17] Christy Kilmartin: Correct.
+124. [0:15:21] Ronnie Ignacio: You know what I mean? No matter how good Port or GBT or Quinn gets,
+125. [0:15:27] Christy Kilmartin: it
+126. [0:15:27] Ronnie Ignacio: doesn't have Adam's tone and voice, which we do have.
+127. [0:15:30] Christy Kilmartin: Yeah, yeah.
+128. [0:15:35] Ronnie Ignacio: What do we got there? Site copy. Uh Ronnie's got it so that you can. It's a cut it's a CMS. You can just click on it and change any cut any words you want.
+129. [0:15:46] Clent Jewell: Right.
+130. [0:15:48] Ronnie Ignacio: Cool, huh? So you can just change anything. He can change it. We don't have to fuck around wasting our time. Back to the first time. There you mate, there's a link you want to change, done. And what else you got running? Analytics.
+131. [0:16:07] Participant 2: Site analytics.
+132. [0:16:08] Ronnie Ignacio: Yeah.
+133. [0:16:10] Participant 2: Yeah.
+134. [0:16:11] Ronnie Ignacio: Put any analytics, you don't even put how much money you made this week. And he's even put a guide in there too to how the whole website works. So in theory, you wouldn't even have to talk to the bastards. You do discovery, you know, you knock together the the tap that style eight three D's, a brand book, a website, and you send the link. and you're done. Don't have to talk to motherfuckers. This is how we do trade's, I feel. Yeah.
+135. [0:16:38] Christy Kilmartin: Yeah.
+136. [0:16:40] Ronnie Ignacio: Cool. Out of cars there. Um, yeah, that'll do, won't it, Ronnie? There's a new listing. Or you can do it in photos. Fuck, I didn't know you'd done that bit Ronnie Ignacio, don't they?
+137. [0:16:55] Ronnie Ignacio: Um just instant photos, then it would automatically fill the details.
+138. [0:17:01] Ronnie Ignacio: Cool, huh? And come up with some but it's not it's not um it's not uh AI average slop, which is what every other car dealer does. It's sound it's sounds AI it's Adams
+139. [0:17:15] Christy Kilmartin: yeah he's
+140. [0:17:16] Ronnie Ignacio: got some yeah
+141. [0:17:17] Christy Kilmartin: yeah yeah
+142. [0:17:18] Ronnie Ignacio: how he goes about it which the half his thing is that the fuck with that he's employed can't spell like he spells your wrong and stuff like that
+143. [0:17:27] Christy Kilmartin: yeah yeah he
+144. [0:17:28] Ronnie Ignacio: tries
+145. [0:17:28] Christy Kilmartin: for
+146. [0:17:28] Ronnie Ignacio: training and he gets defensive so he's driving out of mad anyway there's that one I think we've delivered an enormous amount of value I'm quite sure we haven't charged properly for it at five grand or something but um we've read on his website into Cloudflare SEO and GEO optimized it and I and I were what we're only ever planning to put the car marketplace inside his existing site and then we went hang on hang on and do we do this so we get Adam out of the fucking thing? Okay, he can keep Adam Hall buy my car forever and we can sell his marketplace for however many gazinium once we get to scale. Sustainable scalable stuff. Resourcing into this.
+147. [0:18:12] Christy Kilmartin: So it's different.
+148. [0:18:15] Ronnie Ignacio: So it's a different
+149. [0:18:16] Christy Kilmartin: is it it's a different um platform to buy my car.
+150. [0:18:20] Ronnie Ignacio: Yeah, just want to show you in the front end again, old boy. We managed to secure carmarketplace.com.au.
+151. [0:18:28] Christy Kilmartin: Oh yeah.
+152. [0:18:30] Ronnie Ignacio: And the reason he wants um Adam Hall buy my car, he buys it. And and like that's we put we go to say Adam. uh value and buy my car, Adam. Typically they say come and value it and then you go, ah, look, just take it off hands. So there's uh buy my car. Yeah. He doesn't want marketplace list associated with it here. Why? Because if someone sees their car that they've he's given them four grand less for on the marketplace, he might they might get a bad taste in the mouth. So separate. But we've given him car marketplace by Adam Hall. You got that one handy, Ronnie? Sorry, I know um give me five minutes, bud, and I'll be finished with my I'll be sick of my own voice already. already. So this is car marketplace by Adam Hall. Um yeah. That's a cool little animation, right? Um
+153. [0:19:40] Ronnie Ignacio: this one's the updated one.
+154. [0:19:44] Ronnie Ignacio: Holy shit, look at that. So we've running but based that on um car sales. You come in and you just straight into Vida C few clicks less friction, but
+155. [0:20:00] Christy Kilmartin: yeah. Um but this is just Adam
+156. [0:20:05] Participant 2: Is it
+157. [0:20:05] Christy Kilmartin: this? site? Or it's or it's uninsta.
+158. [0:20:11] Clent Jewell: Crush that's breaking up again. Sorry, dude.
+159. [0:20:14] Participant 2: Sorry mate. Hang on two seconds.
+160. [0:20:16] Clent Jewell: You're right. Ah, you're on mute just there, mate. That's cool, Ronnie. Cool way to search, man. It's wild actually. That looks unreal. Yeah. And uh trust us just where you reset. Ronnie, this is unbelievably good, man. Are you happy with it? Yeah.
+161. [0:21:02] Ronnie Ignacio: I just think that it's the font is not aligned because this one's based on the Adam Hull by my coin.
+162. [0:21:12] Clent Jewell: Okay.
+163. [0:21:15] Ronnie Ignacio: But no sweat.
+164. [0:21:16] Christy Kilmartin: Do we we do do we do a brand book for
+165. [0:21:18] Clent Jewell: it?
+166. [0:21:19] Ronnie Ignacio: Yeah, it's already aligned to the brand, bro.
+167. [0:21:21] Clent Jewell: Yeah, right. The original brand book that King did? Okay. I just think you should be really proud of this one. It's fucking ripple. Front and back. backhand. All right. You there, ghost? You see him, you can't see. Like Spider Man. You can't hear you, Crustar. You're you're talking. Also,
+168. [0:21:52] Ronnie Ignacio: yeah. Johnny, that's unbelievable. Is this so this is redrafted? Can you just ping him a note? Say, hey Adam, we've updated. Or have we done that already?
+169. [0:22:03] Ronnie Ignacio: That's already on the email. That's right.
+170. [0:22:08] Ronnie Ignacio: We'll just give him a follow-up tomorrow, will you? If we haven't heard from the fucker, to sign all the shit off and we'll push it.
+171. [0:22:15] Ronnie Ignacio: Okay.
+172. [0:22:18] Ronnie Ignacio: He needs to update this shit, doesn't he?
+173. [0:22:22] Ronnie Ignacio: Uh the cars.
+174. [0:22:24] Ronnie Ignacio: Yeah.
+175. [0:22:25] Ronnie Ignacio: Once I got the cars I can test the the feel up using the photos.
+176. [0:22:30] Ronnie Ignacio: Yeah. And then the next opportunity for Adam is an operating an operating system like um to wealth. Give him an actual process workflow.
+177. [0:22:44] Clent Jewell: Yep. There is on mute. There is On mute. Off mute. There. Unmute.
+178. [0:23:08] Ronnie Ignacio: Seriously, Ronnie. It's like dealing with me. That's what happens when you deal with old people, Ronnie. You gotta put up with this shit. Where's the link? Oh I can't remember. I can't see his face. No, he's there now. Well um on WhatsApp you do.
+179. [0:23:32] Ronnie Ignacio: He looks like a character from a video game that we haven't unlocked yet.
+180. [0:23:37] Ronnie Ignacio: That's right.
+181. [0:23:39] Ronnie Ignacio: From the arcade.
+182. [0:23:43] Ronnie Ignacio: In fairness, it's probably not his fault. He's probably got just the um
+183. [0:23:49] Ronnie Ignacio: realize Hong Kong's internet is more shit than the Philippines.
+184. [0:23:54] Clent Jewell: Hello.
+185. [0:23:56] Ronnie Ignacio: Say it again, Ronnie. You're bre you're brave when he's not here.
+186. [0:24:01] Ronnie Ignacio: I didn't say anything.
+187. [0:24:05] Ronnie Ignacio: Hong Kong's internet is more shit than the Philippines.
+188. [0:24:09] Christy Kilmartin: Yeah, I think he might be right.
+189. [0:24:12] Participant 2: Oh my god. Uh
+190. [0:24:15] Ronnie Ignacio: relax, mate.
+191. [0:24:17] Participant 2: Let's do it like this.
+192. [0:24:18] Ronnie Ignacio: Can we go back to share screens? Is that just on mute?
+193. [0:24:21] Participant 2: Oh hang on, that's a good idea. Hang on. Let me join the meeting again.
+194. [0:24:27] Ronnie Ignacio: Promise not to swear too much. Um, there's there's um car marketplace. I just want to get Russell's thoughts because you've got the best bloody marketing brain in the business. While you're loading up, Chris, what we're thinking, we just get we just get this um platform in place for old mate. It's pretty cool, I reckon. And then um then we'll we'll just quickly show you what we've got out for Walter next, and that's the operating system, a workflow that supports what he does.
+195. [0:25:07] Christy Kilmartin: Perfect.
+196. [0:25:08] Ronnie Ignacio: Um
+197. [0:25:11] Christy Kilmartin: excuse me,
+198. [0:25:14] Ronnie Ignacio: uh let's have a quick look at Walter, Ronnie. And then once we get a workflow in place for him, mate, where we've actually got a first line of defense on his mobile phone, because his whole thing is he thought he says say too much. He says uh you know, to the doctor, he says, Imagine if every patient had access to your home number and they called you any time and you had to remember everything. Be on. And the doctor goes, Oh yeah, I sort of get that. He goes, Well, I've got everyone on the Gold Coast because I'm the radio show, you know, ringing me like they know me, and I need to be remember everything instantly. It's a lot. And it rings. It rings constantly. If you said if you could throw his phone away, you're going to be all right. So just trying to work through that.
+199. [0:26:02] Christy Kilmartin: Okay.
+200. [0:26:04] Ronnie Ignacio: Now part w with this sales and marketing, right? I reckon part of what we did now do too is this. Ronnie's built a an operating system. So an old mate's got 55 clients to on board in the next eight weeks. And so um I always find it good to start on what the 10 steps are Ronnie. Like I get that dashboard but I think it's easiest to explain it people if you show what what challenge you uh he's got. Um yeah, you got the 10 steps in order, you know, page three of the overview. I guess that does the same thing. Okay. Um I'll work with what you're trying to set up with. Um, you know, typical CRM process from prospect, onboarding, discovery, doing the work, and then ongoing. Five steps if you'd split it up, and within each of the steps, you've got you've got as a prospect, you've got to give them a profile, talk to them about the advice journey they're on. And there's some 12 documents, plus he also needs to keep file notes of things, um and then and then keep financial services. guide are the first three things. And it pretty much flows in that order of terms of engagement and a welcome pack. And then into an order of their details and their risk profile. From there, you've got to give them their statement of advice and authority, get the authority to proceed. And as I mentioned, have a record of all of that shit. Um, so Ronnie's built a platform to do all of that in his spare time, just between other games.
+201. [0:27:43] Christy Kilmartin: Fantastic.
+202. [0:27:44] Ronnie Ignacio: Have a quick look at this one, Ronnie. What do we do next? So all of that shit just explains what I've just said here effectively. That's
+203. [0:27:52] Christy Kilmartin: he's
+204. [0:27:52] Ronnie Ignacio: built a website that explains all of
+205. [0:27:54] Christy Kilmartin: that.
+206. [0:27:56] Ronnie Ignacio: Into the actual studio, we Ronnie's called it. called this operating platform a studio where the dashboard up front look start here today here's what's going on here's what you need to do today and all of this is referencing a superbase database again and um yeah and and and he's also built in an AI functionality so anything in the database or any reference in the database but leveraging Claude Claude running or something else?
+207. [0:28:26] Ronnie Ignacio: Uh Claude and Gemini
+208. [0:28:29] Ronnie Ignacio: and Gemini you can ask it anything and and hey where's Christy's um well I got a meeting with Christy where are we at? Or hey what were the key things out of the financial service out of the statement of advice for Christy. Hey I uh it's a fucking assistant man. It's a full blown $100,000 sharp as shit assistant. $100,000 per annum. Yeah, so Nick asked for a dashboard and then into the clients section, I think. Um, Ronnie. He also asked for this so that we know he knows where he's up to with each of the 55 clients. Cause you can imagine, you know, God loving to death, but it's just a mere mere mortal bloke. I said cr I said, um Nick, you got 55 clients in eight weeks times 13 documents, right? You're gonna be a fucking how are you going to keep up? It's it'll be
+209. [0:29:23] Participant 2: Yeah, that's right.
+210. [0:29:25] Ronnie Ignacio: this does it. Look, points up to number five of the thirteen. Oh
+211. [0:29:31] Participant 2: enjoy.
+212. [0:29:33] Ronnie Ignacio: Yeah, yeah, yeah. Yeah. Make sense.
+213. [0:29:39] Christy Kilmartin: Perfect sense.
+214. [0:29:40] Clent Jewell: And then you know, finish the investment proposal. One click and it actually go on, Ronnie. Shall we? It knocks it out in his branding, personalized and customized.
+215. [0:29:51] Christy Kilmartin: Yeah.
+216. [0:29:53] Clent Jewell: How good's that?
+217. [0:30:00] Christy Kilmartin: And the bits that he has to fill in.
+218. [0:30:02] Clent Jewell: Oh yeah, and the bits he has to fill in. And
+219. [0:30:04] Ronnie Ignacio: if he wants to change it, Ronnie.
+220. [0:30:08] Ronnie Ignacio: I can just click this button, then randomly type it.
+221. [0:30:12] Christy Kilmartin: Uh yeah, yeah, yeah, yeah.
+222. [0:30:14] Ronnie Ignacio: Change anything you want. No more going back to Ford and giving it prompt and it changes three other things.
+223. [0:30:20] Christy Kilmartin: Yeah.
+224. [0:30:22] Ronnie Ignacio: You can also uh edit it on this action.
+225. [0:30:26] Ronnie Ignacio: And then I actually said, Miko, why don't you just get uh uh VA out of the Philippines to help you? Because he's very hands-on, but I said, Come on. You can actually you can actually do you know, get this right for your fifty-five. So there's three million dollars worth of business business lifetime value of those guys, which pays back in two years, and then you can go and do another one and another one. Oh, you've got a system here that can actually grow scalably and sustainably now.
+226. [0:30:54] Participant 2: Yeah. He
+227. [0:30:55] Ronnie Ignacio: goes, oh no, I've probably got enough after 55. I don't know what to do. I'm just trying to help. But imagine if we put this.
+228. [0:31:03] Participant 2: Yeah, exactly. Yeah.
+229. [0:31:05] Ronnie Ignacio: So yeah, sorry.
+230. [0:31:05] Participant 2: It still needs to be the man on the man on the end of the phone and yeah, at the other s on the other side of the desk, doesn't he?
+231. [0:31:11] Ronnie Ignacio: Yeah. Just put two more people on.
+232. [0:31:13] Participant 2: Yeah. Yeah. That's right. Yeah. Take the take the non non-high-touch stuff away from you.
+233. [0:31:23] Ronnie Ignacio: Exactly. Okay, running back to the overview, um, just to show Crusto how we now can do sales marketing and operations. Dashboard. Ask what it needs to do. Clients. Yeah. Pipeline. What's going on with that? Hey, there's a bloody CRM looking thing. And World Worth AI. What's in the document library, Ronnie?
+234. [0:31:49] Ronnie Ignacio: Yeah, it's just the documents that we file for each client.
+235. [0:31:53] Ronnie Ignacio: So for
+236. [0:31:54] Ronnie Ignacio: all in one, please.
+237. [0:31:56] Ronnie Ignacio: So for regulatory, you've got to be able to um you know keep it for governance, have everything filed properly. Creates a Google Google Drive, saves all the folders, files into the right folders for every client. And replicates back to superbase right running. And is there a third in triplicate?
+238. [0:32:17] Ronnie Ignacio: Drive. Super base. And I think OneDrive once we have the access.
+239. [0:32:23] Ronnie Ignacio: Yep. So I think it works out of OneDrive, so there'll just be a webhook or a zap into OneDrive for him to replicate what's in Google Drive.
+240. [0:32:37] Christy Kilmartin: So he I mean all the documents are his, right? And it's it's you. Yeah. Okay.
+241. [0:32:47] Ronnie Ignacio: It's a good question. Okay. Um you're right. Confidentiality and um security is paramount. Ronnie Ignacio's supposed to have a statement for that too. Um so within Superbase, Ronnie's got a guard rail between clients. So it doesn't nothing is shared between clients and yet it's a helicopter across all clients for Walt to Well. One. Two. Ronnie, does it sit in Australia, this data? Fuck yeah. Um. Yep.
+242. [0:33:22] Christy Kilmartin: I think by law it has to.
+243. [0:33:23] Ronnie Ignacio: Yeah. Ronnie, can we just triple check that? No data lives Australia. It's it's otherwise we're got him in breach of cool check. Um yeah, let's just let's just uh um Asino note, please mate. Uh it's a big one. Security and and uh confidentiality statement for Walter Wealth. And it might be, mate, that we need to set him up with his own super base. Yeah.
+244. [0:34:01] Clent Jewell: Rather than ours. Thanks, bud. All right, good question, Cresto. Anything else on that one?
+245. [0:34:15] Ronnie Ignacio: From the question is more from the point of view of just gives you a sense of the ops, like a workflow. We can put workflows in now for businesses. If they're operational.
+246. [0:34:26] Christy Kilmartin: Yeah, absolutely. Who doesn't need this?
+247. [0:34:30] Ronnie Ignacio: Yeah. All right. We need this for ourselves.
+248. [0:34:36] Christy Kilmartin: That's still for everybody else.
+249. [0:34:40] Ronnie Ignacio: Next. Yeah. All right, cool. Um, anything else? Well, uh back to can you just do me a favor, quickly jump into Asana overview, or just quickly refresh my memory what we're actually working on. Uh tap that. That's the main one I want to talk to, but not yet. Uh down, down, down. So that raw payments cross, that's for Ronnie's peptides. So it's like a stripe, but it lets you sell the nefarious things. If that makes sense.
+250. [0:35:13] Christy Kilmartin: Okay.
+251. [0:35:14] Ronnie Ignacio: Stripe won't let you. BTC, I haven't heard back, although we really must catch up with that joker before I boost. Um Jew AI, uh well, haven't progressed anything there. Um Jew Finance. What's what's that again, Ronnie?
+252. [0:35:34] Ronnie Ignacio: That's just a bridge shit.
+253. [0:35:35] Ronnie Ignacio: Oh, that's my cash flow. Site rebuild. Christy's also got this other just click on that one for me, dual site rebuild. Just Chris, I'm thinking we should we should rebrand this and just have a have a marketing agency, you and I.
+254. [0:35:54] Christy Kilmartin: Yep.
+255. [0:35:55] Ronnie Ignacio: Like this is just a traditional agency. You know, we could rebrand it to whatever we want.
+256. [0:36:06] Clent Jewell: Traditional agency. And an agency that a full service agency is what the words I'm trying to get out of my mouth. Can everyone hear okay? You you go okay, Chris?
+257. [0:36:32] Christy Kilmartin: Oh yeah, yeah, yeah. Yep.
+258. [0:36:46] Clent Jewell: Can't go out of the snow tomorrow, Chris. Oh, there's no snow.
+259. [0:36:51] Christy Kilmartin: Yeah, I know. I saw the tree bows. Um got very little snow. They're closing early, I think.
+260. [0:36:57] Ronnie Ignacio: Oh wow. Don't worry about it, mate. Cross, all I'm gonna show you is a is a full service agency looking website. Um, ju well Ronnie's um mucking around and getting frustrated for dual health. Um, that's just the app. app that
+261. [0:37:19] Christy Kilmartin: is
+262. [0:37:19] Ronnie Ignacio: a good app. It's like as good as anything out there, I reckon, with all your protocols plus body, mind, and spirit. Ask you how you go on psychologically and spiritually as well. So it coaches you using the same knowledge base and AI interface, coaches you. Yeah. Um, and then I thought smack some other stuff around that as well, so that people can go home from Thailand with a coach in their pocket. Drive sustainably every day.
+263. [0:37:51] Clent Jewell: Yeah.
+264. [0:37:51] Ronnie Ignacio: And then I thought, oh, can we quickly show you? Oh, I've feel trust gonna judge me. We started something else. Crash. Ronnie, can we show him? Um
+265. [0:38:06] Ronnie Ignacio: no way.
+266. [0:38:09] Ronnie Ignacio: What's the what's the legal one called again? Um
+267. [0:38:14] Ronnie Ignacio: there's a thing.
+268. [0:38:16] Ronnie Ignacio: Yeah. Cousin
+269. [0:38:20] Christy Kilmartin: fast. I'm listening I'm listening, sorry, I'm just gonna turn the aircraft
+270. [0:38:23] Ronnie Ignacio: off. You're right.
+271. [0:38:25] Christy Kilmartin: We're still here.
+272. [0:38:26] Ronnie Ignacio: Yeah you're right. Stead um so Steadfast is um two two guys contacted me this week and they're on the fucking verge of suicide. I didn't have anything to give them um so I wanted to when they separate I wanted to give them the the the AI coach supported through. So that you know everything I learned from every mistake I made, they don't make.
+273. [0:38:51] Participant 2: Hang on. Oh, okay. I can't thankfully I can't offer too much here.
+274. [0:38:58] Ronnie Ignacio: Yeah. Um, you know, two blokes on the just completely overwhelmed, just going, what do I do? I'm going, oh man, I don't want to be that person. So here, have a link, it builds your database, it separates your information, it audits where you're at right now, and it tells you the next best thing to do. It keeps it all, logs it all, that becomes your journal. And when you turn up to a family law firm eventually, it's all there. And um it actually just gives you confidential independent advice. advice separate from the law from it. It's everything you need to get through your separation as well as you can for yourself and your your kids, if there are kids, um so that your your property and um personal matter are handled as well as it can be. All all all all governed, you know, all optimised or with the Family War Court of Australia rules taken into account without being a lawyer.
+275. [0:40:05] Clent Jewell: Wow.
+276. [0:40:06] Ronnie Ignacio: Yeah. Yeah. And then the the concept would be, I don't even want to charge people for it, mate. I want to, you know, blokes in particular just need it. Um I want it done in a really non-lawyer, non-condescending, you know, domestic violence person way. Yeah. I want it done where blokes will resonate with blokes, and it just I know I was in a brain fog for 12 months. I did not know what Brent, frankly, and every other good ass dragged me through by the scruff at some times. Um, this is it. This will actually not the not the 20, this the 20 things, just give me the next three things I gotta do.
+277. [0:40:49] Participant 2: Looks amazing, Joel.
+278. [0:40:50] Ronnie Ignacio: Who could pay for it? Um, there are people like like just fund out there. They um they they lend you money until you sold your house and then you pay it back. They this is this is their pipeline in or that or lawyers, but I don't really want to then it's not independent. Um I don't know. This one's huge.
+279. [0:41:15] Participant 2: Maybe put a donation tab on there.
+280. [0:41:17] Ronnie Ignacio: Yep.
+281. [0:41:18] Participant 2: Right?
+282. [0:41:18] Ronnie Ignacio: Yep. Yeah,
+283. [0:41:19] Participant 2: cost us to keep this thing running, right? Don't want to charge you, charge what you think it's worth. You pay what you think it might be worth to you.
+284. [0:41:25] Ronnie Ignacio: Yep.
+285. [0:41:26] Participant 2: Right? No pressure, no obligation.
+286. [0:41:28] Ronnie Ignacio: Yep.
+287. [0:41:29] Participant 2: Buy us a coffee or whatever.
+288. [0:41:30] Ronnie Ignacio: Yep. I like that. Yep.
+289. [0:41:32] Participant 2: Yeah.
+290. [0:41:33] Ronnie Ignacio: I reckon Anton, um, as someone who's been through it, I can case study without breaching section 121, which is updated to some other section now, um, as of last year. But section you can't confidentiality, you can still do it in a way where I can say I've learned this is what I you know without breaching. And two, Anton, who's a former founding partner of Richardson Murray, now retired, you know, sees that the process is broken and he's in this up to his ass and happy to help as well. In fact, I'd be surprised if he didn't want to tip in as a founding angel investor.
+291. [0:42:08] Christy Kilmartin: Wow.
+292. [0:42:09] Ronnie Ignacio: Yeah.
+293. [0:42:09] Christy Kilmartin: Okay.
+294. [0:42:10] Ronnie Ignacio: So next up, an information memorandum like we did for Jewel Tyres and BTC. Just to spell all this out. quite you know the better way. But it's easy as you know, just to show rather than to tell.
+295. [0:42:25] Participant 2: Yeah, exactly. Yeah, I mean shit, everything you've been through, right, to get that out into a into a sort of you know a step through for others, right? Because it's not the sort of thing you're gonna do often, right? If you're in this situation, right, who do you turn to, where do you go? Right? So it's yeah. It's uh it's it's pretty interesting. It's better than a book.
+296. [0:42:49] Ronnie Ignacio: Exactly. And and it's correct, and it's um dynamic, right? So you uh the bitches just said this, and then you put your retort in there and you and it says, Hey, slow down a bit. Remember. what you're doing here, and it coaches you through.
+297. [0:43:04] Christy Kilmartin: Yeah. Keep
+298. [0:43:05] Ronnie Ignacio: it space, keep it short. Yes. I guess it might just save you from doing the wrong thing. And keep it best headspace. Anyway, you got that. I'll shut up. Um yeah, and I again I just came from wanting to help a couple of couple of lads who are struggling. Um yesterday, this fellow sent through his um business card the old boy saying he needed help, so Ronnie just punched it out uh yesterday and today. Again, it's just getting good at knocking out brochure websites.
+299. [0:43:47] Clent Jewell: Not bad for a little brush website, Ronnie. Is that a was that a scrolly thing, Ronnie? Did I just say it's oh no, it was just uh mapping. Cool. Yeah. And Ronnie, did we do a 3D process or you just brunch it straight in?
+300. [0:44:08] Christy Kilmartin: Yes, I just brunch it.
+301. [0:44:09] Clent Jewell: Yeah. I think, yeah. How much we charge this this one crust though?
+302. [0:44:21] Christy Kilmartin: That one?
+303. [0:44:22] Clent Jewell: Yeah. There is. Hold on, hold on. Ronnie.
+304. [0:44:35] Ronnie Ignacio: What would you pay for that? How are we gonna price it? I didn't want to talk to him. I couldn't be bothered. So I just it'd be easy just a shame. Send him a link and say, hey, here's a hundred bucks a month or fifteen hundred bucks if you want to buy it out. And if you want to do an SEO G A pack, we'll you know make another 1500 bucks.
+305. [0:44:54] Christy Kilmartin: Yeah,
+306. [0:44:55] Ronnie Ignacio: which is the the the one click and say run the skill on it.
+307. [0:45:01] Christy Kilmartin: I mean if it's coming, it's it's a mates race
+308. [0:45:03] Participant 2: project, right? But if you go to um uh big tool. tall German does the website designer. Who's your mate?
+309. [0:45:17] Ronnie Ignacio: Flo.
+310. [0:45:18] Participant 2: Flo, of course it is. Florian, of course.
+311. [0:45:22] Ronnie Ignacio: Five grand.
+312. [0:45:24] Christy Kilmartin: It's 25 for that, right?
+313. [0:45:26] Ronnie Ignacio: Oh yeah, he starts at five. Yep.
+314. [0:45:29] Christy Kilmartin: Yeah, yeah, yeah. Okay.
+315. [0:45:33] Ronnie Ignacio: It starts at four.
+316. [0:45:34] Christy Kilmartin: Uh I mean. Yeah.
+317. [0:45:41] Ronnie Ignacio: Ronnie, it looks good, man. Looks on real.
+318. [0:45:44] Christy Kilmartin: Yeah, it looks great. They're all his images, are they?
+319. [0:45:51] Ronnie Ignacio: Mixture of stock and off his Facebook.
+320. [0:45:54] Christy Kilmartin: This one's AI
+321. [0:45:55] Clent Jewell: generated.
+322. [0:45:56] Ronnie Ignacio: IR generator.
+323. [0:45:57] Clent Jewell: Wow. Better.
+324. [0:46:02] Christy Kilmartin: Yeah, like like this one.
+325. [0:46:07] Clent Jewell: Cool. How long do you recognize took running? End to end? Everything?
+326. [0:46:14] Ronnie Ignacio: Yeah, at the moment it's just five bars total.
+327. [0:46:22] Christy Kilmartin: Who's in the copy, Ronnie?
+328. [0:46:25] Ronnie Ignacio: Uh Cloud Code did it. I did a core um session with Cloud Code, then it just produced a copy itself. Based on the publicly available information for them.
+329. [0:46:41] Christy Kilmartin: Yeah, right, right.
+330. [0:46:45] Ronnie Ignacio: So he can change.
+331. [0:46:46] Ronnie Ignacio: I not yet. I haven't set it up.
+332. [0:46:48] Ronnie Ignacio: I think we might. Oh, should we do that yet, Christ? Or how long would that take? I guess is the question, Ronnie. Because I'm thinking if you it let's not do it. If you want it, we'll send it through with a CMS so I can change any aspect of that you mean to copy.
+333. [0:47:08] Ronnie Ignacio: I think it's gonna take an hour again.
+334. [0:47:10] Ronnie Ignacio: Yeah, and does it take um what's the question? Um has it got a GitHub repo? Or
+335. [0:47:17] Clent Jewell: yeah, it has.
+336. [0:47:19] Ronnie Ignacio: Okay. Meaning we could throw in an AI in there as well and ask it to do shit, right?
+337. [0:47:25] Clent Jewell: Yes.
+338. [0:47:29] Ronnie Ignacio: Russ, I'm just sharing capability again now. We got car marketplaces, we've got operating systems and simple brochure websites with CMS and AI capabilities in the back end.
+339. [0:47:39] Participant 2: Yeah.
+340. [0:47:40] Ronnie Ignacio: SER and GEO optimized fast. Six hours.
+341. [0:47:45] Participant 2: Amazing.
+342. [0:47:47] Ronnie Ignacio: Um when I get to Hong Kong or before in the next inside the next six weeks, we're gonna work out how to monetize the shit out of this. So we can green means go when we all get a bloody drink from the fountain. fountain. Ronnie's Ronnie's there's nothing Ronnie's doing here that he can't systemize either, right? So we're going to get a team of people to get him off the tools because Ronnie's far more valuable. You know, doing show him what you're doing, what you're showing me, Ronnie, about terminal and because you're doing stuff right now, I can tell. Term you're probably setting up terminal and you're doing that other clever dick thing, uh animation thing.
+343. [0:48:33] Clent Jewell: Yeah.
+344. [0:48:35] Ronnie Ignacio: Just sort of sh sharing what I'm trying to do here, Ronnie Ignacio with Christy how you're working and all of this production stuff, Christ, we can outsource now, yeah. yeah um thanks Ron sorry look right
+345. [0:48:54] Ronnie Ignacio: at the moment I'm running the disc coding session with the terminal so it's processing to make changes on the local host of the steadfast
+346. [0:49:12] Ronnie Ignacio: point is brush uh Ronnie's always um you know empowered to find a better way and if you're right to do shit off his off his local computer rather than in the cloud it's better what was that other animation insight you're showing me
+347. [0:49:29] Ronnie Ignacio: the 24.dev it's uh software consisting of um pre-built prompt for the ai to copy so we can copy this kind of animation to click it
+348. [0:49:46] Ronnie Ignacio: so instead of describe instead of describing shit you give it that and you say make it look like that so what is just displaying there is a chat gbt voice um chat feature rather than type it you can talk to it
+349. [0:50:03] Participant 2: and you send it's animation right so that the animated still image or something is that is that right
+350. [0:50:10] Ronnie Ignacio: almost for the
+351. [0:50:11] Christy Kilmartin: kind of thing
+352. [0:50:12] Ronnie Ignacio: But it does so much more. It basically says whatever you're thinking, rather than type it and try to describe it to Claude, just show it. So say Claude, copy that. And what he's trying to show at the moment is Claude, copy the chat the speak function so I can talk to the website rather than type. You know what I'm trying to say? It's just an example. You do it, Ronnie.
+353. [0:50:38] Ronnie Ignacio: Yep. So just to make it like a properly layout, I copied uh this kind of animation. Oh shit.
+354. [0:50:49] Clent Jewell: Sorry about that. Trying to work.
+355. [0:50:52] Christy Kilmartin: Oh yeah. Okay.
+356. [0:50:55] Ronnie Ignacio: So it's just a list of information forms of animation. Yep.
+357. [0:51:01] Clent Jewell: Yeah.
+358. [0:51:02] Ronnie Ignacio: For example, in the chatbot we have now this. An interactive. Yeah, it's just a way to elevate the UI and UX of the soft software that we're building.
+359. [0:51:18] Clent Jewell: So it's just a quicker way of prompting.
+360. [0:51:22] Christy Kilmartin: Yeah, right. Hey
+361. [0:51:23] Clent Jewell: Clord, make it look like this. Hey Clord, make it work like that.
+362. [0:51:27] Christy Kilmartin: Yeah.
+363. [0:51:29] Clent Jewell: What's that build your dreams one? That looks cool. Bottom left. Okay, so it's
+364. [0:51:43] Ronnie Ignacio: just a build thing. The reason I haven't gone live with Jew AI is because it's too not good enough. It's too wordy. It's too it doesn't look good enough. It's the the words are all about commercialization. It should be like, hey, let's let's let's make your dreams come true. Let's use your business to be the lifestyle you want. I actually want to rethink the whole fucking thing. Cool.
+365. [0:52:14] Clent Jewell: All right, Ronnie. I'm I'm sick of talking. Um tap that, Russ. Probably our last one. Pretty good when you get a wow out of a fella that used to run Nike, right? Fucking naughty to impress this
+366. [0:52:30] Ronnie Ignacio: bastard. I'm relying on you to get us out of this builder's trap though. Cause we can keep building, we fucking love it. We've sort of gotta sell something.
+367. [0:52:44] Participant 2: Yeah, exactly. Yeah, yeah, yeah. Yeah. I think so, right? I think that's why I'm keen to take a step on Jewell Tires or OTR, whatever. Right? You know, to actually get some rubber on the road.
+368. [0:53:01] Ronnie Ignacio: Um On that crust, so the old boy's happy to get going on tool tires and the inspection tool done. Sign like you he'd run it now. But no, man, I want you to read the get the copyright and just get the tire marketplace right with what are the tires that you're selling right now. And just dealing with the old boys, oh man, he's you're supposed to send it last week and hasn't. And then I went, Ronnie, skip that. We'll just do our own thing. Go and build a thing like I just saw on car sales where they can search by their machine or the tire that they want or the industry mining or public wire.
+369. [0:53:38] Christy Kilmartin: Yeah.
+370. [0:53:39] Ronnie Ignacio: And we'll just we'll go and find the top 50 tires in each of those applications and they can search for it and it's still just going to make it going and say, go and talk to dad anyway. So it doesn't matter. matter.
+371. [0:53:47] Christy Kilmartin: Yeah.
+372. [0:53:48] Ronnie Ignacio: Um that's that one. In terms of the OTR earth movement tires.com. Mate, what I want to share with you is that the old boy uh he gets it, but uh it's a stretch for him, like he doesn't get it enough to push the button on it. Um so at the moment uh earthmouth.com.au buy jewel tyres. We could actually take that out, man. And he's happy. He said, you bugs just come and do it, do it, do whatever you want to do. I said, Yeah, but Dad, the credibility comes from 50 years of your experience. Yeah, that's
+373. [0:54:25] Christy Kilmartin: right. Yeah,
+374. [0:54:26] Ronnie Ignacio: um, that's the credible piece, otherwise, we're just a newbie on the block. block. He said, we'll go and sell it to someone else. I said, I want to sell it to someone else. I'm doing something in the industry without it being by you. And then he said, um, he said, he can see three different people right now being interested in in this. And that's just off the cuff. Um Lennon's OTR, the big guys, the OTR who you did the um case study on, they're the biggest in WA. I remember who they are now. They've got a presence on the East Coast as well. But between those two and one other, they could supply most of the tyres, east and west coast. coast. So it's probably just a bit of thinking I wouldn't mind doing with you to work out how we um go to market with this thing. And and
+375. [0:55:22] Participant 2: okay.
+376. [0:55:23] Ronnie Ignacio: And the last piece before we would go to market is to geo the shit out of it so that we appear for every machine, tyre, and geography. Possible, easy to do. And lastly, I really want that lead warmer type thing so that when someone you know calls or clicks it it handles it as as automatically as we can. And the final piece of the puzzle is logistics man. And I've probably got 10 of the big logistic houses freight freight companies. Um, but I haven't solved the riddle on how to do it. Most of the big guys have like just draw a circle on a map and tier base and charge and can estimate a freight based on that, excuse me. But I haven't I haven't done any more work on it other than sit with how to understand who the big ten are that he uses. And we'd probably just need to do a bit of diligence to work through each of them one by one, see how they can help. But certainly at the moment, freight's the killer. If you're trying to move a tire from you know too far from the warehouse, the the closest warehouse, it bec freight becomes a prohibitive factor.
+377. [0:56:38] Christy Kilmartin: Yeah, of course. Give
+378. [0:56:39] Ronnie Ignacio: me a heads up and all that. Still all doable, man. It's all it's all doable. We can nothing's changed. We can smash this wide open. There aren't too many industries like this still wide open for digital disruption. Um
+379. [0:56:53] Christy Kilmartin: I
+380. [0:56:53] Ronnie Ignacio: just need to solve a few more riddles, focus a little bit and get going before somebody else does. And when we get going, get going properly so that we first move revanage and someone doesn't copy it.
+381. [0:57:03] Participant 2: Correct. Correct. Christian, though. If you're in that business slot of spot tires for someone who's desperate, right? You know, because the machine stops working. How prohibitors trait in that in that in that zone, in that slot can be it must be a no brainer, right? I don't care what it costs, get me that tire today.
+382. [0:57:26] Christy Kilmartin: Yep.
+383. [0:57:26] Participant 2: Right.
+384. [0:57:26] Christy Kilmartin: True.
+385. [0:57:27] Participant 2: So I think that's that's the that's the workaround there is the yeah, there's probably a two two model, you know, yes, local proximity for inventory type tires, but if the machines could put right, you're gonna pay whatever you need to pay.
+386. [0:57:45] Ronnie Ignacio: Yeah, true.
+387. [0:57:45] Participant 2: So
+388. [0:57:46] Ronnie Ignacio: yeah, we can almost qualify that on the way through how urgent is it? So urgent yesterday urgent. And and I can keep I can keep banging on for two hours, mate, about everything I I validated by sitting with the old boy for two days in the past two weeks.
+389. [0:58:00] Christy Kilmartin: Yeah.
+390. [0:58:01] Ronnie Ignacio: Things like um Atlas tires, they do Aolis. Um, he's put uh gated, just get get set them up with an email and password, and you can see what their uh tire stocks are and two clicks and they can buy. He said, That's going nuts. That's exactly what people want to do. I'm going interesting that who would have thought they don't want to fucking talk to someone, they just want to you know buy online.
+391. [0:58:26] Participant 2: Correct. Correct. I yeah, yeah, I I mean like we've always talked about, right? You know, remove the friction and actually pick up the phone, right? I know the tire I need, I just want to press a button. Someone else handles the logistics, I don't want to know about it, but I just pay what it costs and I get it here tomorrow. You know, yeah,
+392. [0:58:47] Ronnie Ignacio: yeah. I mean, it doesn't change, does it? We've just got to get this done. Launch it and suck it and see and improve quickly.
+393. [0:58:57] Participant 2: Yeah, I mean, I I mean, I don't know what you think, right? Is there a pilot where you just do the second hand slot first, right? And the you do the emergency business, right? And I don't know. I don't know what the demand for it is like. And you just say that's our niche right now, and then you add the you know, you add the new or OEM stuff later, right? Um as a as an evolution, right?
+394. [0:59:26] Clent Jewell: Um I don't know what the answer is, mate.
+395. [0:59:30] Ronnie Ignacio: Um I'm inclined just to fucking send it. Yeah. Every machine, every time. And the old that's what happens at the moment. Phone rings he answers he finds a type.
+396. [0:59:43] Christy Kilmartin: Yeah, that's right. Yeah. All right.
+397. [0:59:52] Ronnie Ignacio: Okay.
+398. [0:59:52] Christy Kilmartin: All right.
+399. [0:59:53] Ronnie Ignacio: Pause on that one. Let's let let's um let's get to a tires.com that we just get that running Ronnie Ignacio's okay this weekend when I'm with him and Crusto and I I don't know Crust but by by the time I sent in with you in that um golf club or whatever it's called Country Club club.
+400. [1:00:14] Clent Jewell: Yeah.
+401. [1:00:15] Ronnie Ignacio: I want to be talking about how pushing a button green wings go and hanging on tight. You know what I mean?
+402. [1:00:23] Christy Kilmartin: Yes, exactly. Exactly. Uh yeah.
+403. [1:00:28] Ronnie Ignacio: Cool.
+404. [1:00:30] Christy Kilmartin: All right.
+405. [1:00:31] Ronnie Ignacio: Now you've got some comments on this one. And we probably need to go back to Juzzy. The only thing I'd say about and I'll shut up. What do we see in last Tuesday? I think it was. It's now Thursday. Yeah. And I reckon um what do I think? I think it's always most critical of myself, because critics critical, whatever they're saying. It's too slow and my own workflows aren't good enough. Or like that thing you just saw for Nick is what we need here. So that we come in in the morning and it goes it goes um it goes this is what you need to do and we get back to these guys in a timely way.
+406. [1:01:13] Participant 2: Yeah. I I mean I I think if you're yeah, if he's if you're doing it as a mate sort of thing, okay, you can take a bit of time, right? You know, I've got to fit it in around other stuff, you know, but I'll get you something. I think if we go back to him now with Discovery and say this is what we heard, this is what we would do, this is what we'd sort of recommend this would look like, then the pace is on, right? Because he's he's burning cash, you know. you then you go, okay, let's move. Right. And and really, you know, and you've got you got other stuff happening in your life as well. So I totally get it, right? But but yeah, I'm the same as you. I'm I'm sort of feeling like okay if the if the USP of this thing is we can turn this around this afternoon, then we've got to show, right? Yeah, we can't go back with something that's kind of like you know a week and a half old and go, we heard you, you know. So yeah, I I get what you're saying.
+407. [1:02:12] Ronnie Ignacio: Yeah, thanks man. And I'm just sort of flagging with it honestly is that this is where I've fallen down in the past. Just doing too much. Microfocus. Fail to deliver in a timely way it's that simple yeah
+408. [1:02:27] Christy Kilmartin: yeah right
+409. [1:02:28] Ronnie Ignacio: which is why I've sort of I was fishing floating around with Maxim team here to go hey you guys do the fucking customer facing bit because I I I that's where I follow I fucking unless it's 11 o'clock at night I'm not reading all of this shit to change it to get it to spec to get it back to them quickly enough I'm happy to
+410. [1:02:47] Clent Jewell: yeah
+411. [1:02:47] Ronnie Ignacio: happy to hey hey go and talk to Justin at tap that it's 15 minutes up the road you you charging five grand and I'll I'll we can cross you an old 1500 at the back end you know
+412. [1:03:02] Christy Kilmartin: yeah exactly um Anyway, I mean process aside, let's I mean
+413. [1:03:09] Participant 2: we've got what we've got what we got now and we just sort of get on with it. Um how do you I mean how do you want to do it? Do you want to just talk about the notes that I took and just because I went through section by section and read it all, right? Um and then I went through discovery on a page, right? I haven't really done much in design yet because I'm kind of thinking, all right, we're just gonna go back to them with discovery.
+414. [1:03:36] Clent Jewell: Yeah.
+415. [1:03:37] Participant 2: Right. Um and so I I guess um what I would say is I think it I think over overall
+416. [1:03:49] Christy Kilmartin: it reflects the conversation we had with him, right? Um and it's it it plays that back to him, right?
+417. [1:04:03] Participant 2: Here's what we heard. Um but what I what I would say is that um probably what we're going back to him with. I'm just let me let me get my notes out.
+418. [1:04:16] Christy Kilmartin: Yeah.
+419. [1:04:17] Participant 2: Um is a little because he's now worried about the business overall, right? Not just the marketing, right? Marketing is one aspect of it.
+420. [1:04:30] Clent Jewell: That's right.
+421. [1:04:31] Participant 2: But you know, and I think when I looked at the Discover on a page, it felt like it's a almost a bit light in a way. Do you know what I mean? It's not hard hitting, right? Because I tell you what I what I wrote down from the conversation that I didn't think Discover captured.
+422. [1:04:52] Christy Kilmartin: Yep.
+423. [1:04:53] Participant 2: Right. The fact that it's business is loss making, right? The fact that the time tap room is dominating time and energy. It has low foot traffic. It's this there's also for me this sort of stuff that there's some observations that we should we should be flagging to him in Discovery and say, hey, listen, you want to use the tap tap room as a driver for the refill, right? The refill business. The refill business is all about not coming to the tap room anymore. Right? Yeah. That's so you so you kind of got this, you kind of got this zero sum game where the more the more refills you get, the less frequent your fans are going to come to tap room. So you need to drive more traffic to tap room, which is driving people into a loss making exercise. Right? So that fundamentally doesn't work, right? Because you're in a low traffic environment. If you're in a natural organic traffic environment, environment, right? If you're sitting on the on the beach in Burley or something like that, okay, I get it, right? People are going to drop in for a beer and that sort of stuff. But you're not, right? So there's things like that that that didn't really capture. And then the other thing it doesn't really capture is the cost drivers of the business, right? So they offer all flavors for kegs, right? Should they be doing that? Right? Or are we getting into a situation where some of these kegs just don't move and you're paying for storage and you're paying for refrigeration and you're paying for this and that and blah blah blah blah. It's just a cop's cost driver, right? Because if the the majority of people just want to drink a lider, right, why do we offer 27 flavors on keg? Right? Things like that. That's driving cost into his business because he's paying for the ingredients, paying for the storage, is paying for the kegs that they sit in, right? All these things that drive the cost of his business. So we haven't really captured the cost drivers to be able to say, here's how we're going to design the next phase business.
+424. [1:07:10] Christy Kilmartin: Yeah.
+425. [1:07:10] Participant 2: Right. So and by the same token, it also doesn't capture it captures some of the opportunities, but not all of them, right? So in Discovery, I feel like one of the big big points that it's it's it's kind of there, but it's not a big point.
+426. [1:07:28] Christy Kilmartin: Yeah,
+427. [1:07:29] Participant 2: is what one commercial account is worth 10 whole household accounts.
+428. [1:07:34] Christy Kilmartin: Yeah.
+429. [1:07:34] Participant 2: Right?
+430. [1:07:35] Christy Kilmartin: Yeah.
+431. [1:07:36] Participant 2: One of one event drives a week's worth of business at the tap room, right? So there's some of those things that I feel like need to come through, right? Um but not you know, we're not as a as a sort of strategic partner to him.
+432. [1:07:54] Christy Kilmartin: Yep,
+433. [1:07:54] Participant 2: none of that's I think those things need to be in that initial discovery and sort of say, listen, we're not making recommendations now, but you know, here's the here's the deal, right? This this is even the thing like you know, the zero sum game, this is this is the challenge that you're gonna have on your business, right? Because it you know he's smart enough to get all those things, right? It's not like you know we're much smarter than him, but I think someone, you know, the I the opportunity is to put it down on paper for him.
+434. [1:08:22] Ronnie Ignacio: Totally, mate. Couldn't agree more with everything you've just said. Couldn't uh and grateful. 100% right.
+435. [1:08:29] Christy Kilmartin: Um yeah, so that that was the first thing about sort of the presentation of our stuff, right? Um I went through the website, through his website as well.
+436. [1:08:44] Clent Jewell: Yep.
+437. [1:08:45] Christy Kilmartin: Um that's I don't know what I don't know the right word to use, but um
+438. [1:08:55] Participant 2: basically I don't I think if we said it's all about refills, then the website should feel like it's all about what refills. Right? Um at the moment the website feels like it's you know it it's kind of everything's equal, right? We got this and we got that and we got this. You know, so I was sort of saying above the fold, when you first click on it, there's nothing very exciting there, right? You know, the the the the film that they use in the background to the to the to the to the uh masthead is quick in editing. It doesn't show people having a good time. It does show a little bit, but you can't read it. Right? You know, it's it's going too quick to to really understand that it's about good times in your backyard, basically, if if we want to say that. Right. And then there's just way too much copy pollution on the front on the opening page, too many words, right? Low res logo, that's static. Uh, you know, there's just lots of stuff. Um,
+439. [1:10:03] Ronnie Ignacio: I couldn't agree.
+440. [1:10:04] Participant 2: What else? You know, you you need if you've won the crafted award,
+441. [1:10:08] Ronnie Ignacio: yeah,
+442. [1:10:09] Participant 2: you need that on the front page, right? Crafted award winner, blah blah 2025. You need the fact. quickly and easily that your my cakes fit any system, right? Any fridge. Uh you know, then there's all these great reviews of the tap room that sit right at the bottom of the scroll versus you know giving that to people up front. Oh, this was a great party, the beers are beautiful, right? You know, revolving a scrolling reviews page above the fold, right? You know, is is doing much more for its business than burying it right down and and just sort of you know giving you this very functional sort of website idea.
+443. [1:10:53] Christy Kilmartin: Yeah.
+444. [1:10:54] Participant 2: Um, so you know, that's worth looking at in terms of discovery. discovery as well. Right? Then I think there's there's a bit of confusion. Obviously, I mean Max called this out as well, right? There's this there's two layers. There's a sort of you know a keg refill membership, and then there's a mug root mug membership for if you're a you know a member on site, right? Kind of feel like if you're if you're using the tap room as a node to drive to refills, that should be one membership, right? And the membership should encourage people to come back in, whether that's to refill kegs and pick up the refill, or whether it's to have a drink in the bar, yeah. I feel like like there should be one membership program and not not two different membership programs.
+445. [1:11:46] Clent Jewell: Yeah.
+446. [1:11:47] Participant 2: Um so uh I don't I think the next point really is that given that wholesale right is worth 10 home I think the that's that's not strong enough on the on the website as well. I don't think they're gonna do much wholesale business through the website. I think that's much more you know but I you know the I mean he has some great points when he talked about it, you know, there's great margin opportunity. It's it's in there but sort of you know it's sort of it says increase profitability, right? Instead of saying you make great margin, right? It says, you know, something like something about our booze, right? You know, label our booze or something like that, right? Put white labeling for your restaurant or something like that. Or the cuisine matching.
+447. [1:12:41] Clent Jewell: Yeah, yeah.
+448. [1:12:41] Participant 2: Right? Japanese beer for Japanese meal, Mexican for Mexican, things like that. They're missing, right? So there's some simple stuff like that, I think, as well.
+449. [1:12:51] Clent Jewell: Yeah.
+450. [1:12:53] Participant 2: Um then you go into ideation, right? And some basic stuff. Harvey Norman sells kegarators. kegerators, right? So they've got six on their websites right now, plus some sort of what ESCI type 25 liter thing, right? That is probably one of his biggest traffic opportunities for the refill business, right? That he could do some sort of a deal with Harvey Norman. Whether he buys the database, right? Whether there's a point of sale piece, a QR code, you know, that drives you to tap that refill keg refill, right? To get them started there as they're buying their kegerator from Harvey Norman, is you know, at 70 point 70 bucks worth of margin for each for each keg. keg.
+451. [1:13:51] Christy Kilmartin: Yeah.
+452. [1:13:51] Participant 2: Right. That's worth the investment, right? Um I don't know if they'll be able to give away free beer, give away a keg or something and if with purchase with Harvey Norman. I guess there's probably rules that say you can't give away free beer or something like that. But find out what's possible with Harvey Norman, right? They would die if you could, you know, give away a free keg with a or they would die if you said, hey, you know, if you supply me with the buyer's name and number and stuff like that, then buy from me, I will give you X amount of money as a as a recurring revenue stream or something like that.
+453. [1:14:24] Christy Kilmartin: Oh wow.
+454. [1:14:25] Participant 2: Right. You know, they or or you just buy the Southeast Queensland database from Harvey Norman, you rent it, you basically say, Yeah, whatever it costs, I'll get it. Um and I'll be shipping, you know, I'll I'll I'll do a promotion to them. Right. So that seemed like a really basic one. Um sorry, I'm I'm assuming that um circle back's taking notes, right? And we're gonna get all this sort of stuff. Um am I right?
+455. [1:14:55] Ronnie Ignacio: Yes, sir.
+456. [1:14:57] Participant 2: Cause I'm just prattling through shit now.
+457. [1:14:59] Ronnie Ignacio: That's good, mate. Right. Yep. The the only thing with circle back is that sometimes it's um yeah, we I I I I was rambling for an hour before we started this. It's so much better if it if I can keep it clean. So typically I'd stop and start a new session, but we can go back and describe a transcript of of everything that's been said right now. Yeah.
+458. [1:15:19] Participant 2: All right. I'll and I've got this, I've got some I've typed this into notes as well, so I can shoot it so that maybe circle back and match up the ideas.
+459. [1:15:29] Ronnie Ignacio: Easy, Ken.
+460. [1:15:31] Participant 2: Um next one.
+461. [1:15:34] Ronnie Ignacio: I think this is a monk. By the way, um Monk is one of uh Harvey Norman's you know closest body allies. He does the um you know the installations. So he's got he's got put point contacts in here.
+462. [1:15:49] Participant 2: That's fantastic. Right. Um there's a lot of talk in discovery documents about C RM, right? And getting C RM right. What's the last tough? customer, what's you know, this sort of stuff. Um but the reality is that you know people are creatures of habit, right? You know, they're gonna go through the kegs at about the same rate each time. So just hanging out a 90 day SMS to them is a bit tone deaf. You know, we should really know their purchase patterns roughly and have some sort of outreach, right? You know, like this guy we see he goes through you know 1.5 kegs per month, right? So we shouldn't be waiting for him to come back to us and say, oh I need a new keg. Right? That should be, you know, hey Kevin, you know, it's about time, right? How's your keg looking? Can I send you something new? new? Right. You know, be Johnny on the spot, right? Make that make that contact first rather than waiting for them to come to you. Right? Because it sounds like they just wait, right? They send out the keg and just wait for, you know. Um, you know, it could be wrong there, but you know. Um now, the other one I'm it's in the discovery documents, but I'm struggling to believe is in the discovery documents it says that they have a conversion rate of people who come into tap that the tap room of 20 to 30 percent of those people refill. right two things there if that's true just pay people to come to the tap room right you know it's that's a huge conversion rate and I can't believe it you know um I think that's you know that would imply that if there's a hundred active customers they've they've only had 500 customers in the tap room uh I doubt it
+463. [1:17:56] Clent Jewell: yeah
+464. [1:17:56] Participant 2: right they get they get hundreds for events so so 20 to 30 maybe that's counted differently 20 to 30 of regular guests or something end up being you know but it's it's a it's a stat that a lot of stuff is it keeps recurring in the discovery documents.
+465. [1:18:12] Christy Kilmartin: Yeah.
+466. [1:18:12] Participant 2: So I'm I could you know because now the design design stage is using that stat as a proof point of hey the strategy looks like that because it's 20 to 30 percent conversion.
+467. [1:18:26] Clent Jewell: Yep.
+468. [1:18:26] Participant 2: Right. That's uh that's that's that's just not true. Um all right, brewery tours on the on the uh on the coast. There are about three or four, right, that do uh microbrewery tours. But a lot of them ask you to pick which breweries you want to go to.
+469. [1:18:50] Clent Jewell: Yeah.
+470. [1:18:52] Participant 2: Right. They're and they have on the sites, right? Um like Brewer's Choice.
+471. [1:19:02] Clent Jewell: Yeah.
+472. [1:19:03] Participant 2: Their write-up on Brewer's Choice or whatever it's whatever it's called. Their write-up of the brewery is just not as good. Right. You know, there's no mention of the award winning, you know, Midnight in Tokyo Laga. There's no, you know, there's nothing like that. It's just a very perfunctory write up of this this uh this this thing.
+473. [1:19:25] Christy Kilmartin: Yeah.
+474. [1:19:25] Participant 2: So we need to be able to make that sexier right um you know I think there's there's others, you know, that you know really focus in on um Balter, right? You know, they use images of Balter, they don't use images of Taproom, you know. So I think there's a there's a there's a push for Harry, right, to go proactively to the brewery tours and go, right, can I send you some new copy for our website for your site?
+475. [1:20:01] Christy Kilmartin: Yeah.
+476. [1:20:02] Participant 2: Right? Can I send you some reviews? Can I send you this? Can I send, you know, and work with them to to make tap that more sexy brewery tours.
+477. [1:20:09] Clent Jewell: 100%.
+478. [1:20:10] Participant 2: Um yeah, and the other thing in the Discovery documents is it keeps calling Harry Rafe.
+479. [1:20:18] Clent Jewell: Yes.
+480. [1:20:19] Participant 2: So we need to fix that. Now, Urban Legends Tour Company, right? They're also another tour company on the coast. But you know what their process is? You go and book all the tastings by yourself, right? And then tell us where you're gonna go and what time, and we'll build, we'll come and pick you up and drive you around.
+481. [1:20:46] Clent Jewell: Right.
+482. [1:20:49] Participant 2: That's shit. Right. So I don't know how busy they are doing that that model. But what I'm thinking of with the skills of Ronnie, right? Why not? not say to Urban Legends, listen, we're gonna build you an online booking tour that sits a widget that sits on your site. Right. And of course, it always includes Tap Bat. Right. Or most often include it prioritizes Tap to automate the booking process, right? To make it easier for their customer, but also self-serving for us as well.
+483. [1:21:23] Clent Jewell: Yep.
+484. [1:21:24] Participant 2: Right. So um, you know, that's the sort of stuff that we might get away with. Um and then there's another another one called Pineapple Tours, which we just need to do outreach and just sort of say, look, you know, again it's PR. It's sort of Harry going, Hey, you know, we won the brewer's brewer's choice. blah blah blah blah.
+485. [1:21:45] Clent Jewell: Yep.
+486. [1:21:46] Participant 2: Uh
+487. [1:21:50] Christy Kilmartin: all right, really interesting thing that I saw on um uh it's um really uh where is where was I? Um one of these things,
+488. [1:22:09] Participant 2: it's got axe throwing. I've seen another thing on Facebook the other day. There's a motorbike wheeling machine, right? With the guys up the road. You know, you can pop a wheel, learn to pop a wheelie on a machine on a motorbike, stuff like that. I just think that they need an X factor. And the shuffle board probably isn't it.
+489. [1:22:30] Christy Kilmartin: No.
+490. [1:22:31] Participant 2: Um because I think what you know, and you've heard me say this before, my recommendation actually would be don't run it as a drop in, right? Run it as an an event center, right? That you know, for people who micro brews are a destination.
+491. [1:22:52] Clent Jewell: Yeah.
+492. [1:22:52] Participant 2: Right? Because because you're trying to talk to the regular pub guy, come in on Friday night, you know, I've got nice beers on tap and that sort of stuff, and he doesn't give a shit.
+493. [1:23:02] Clent Jewell: No.
+494. [1:23:03] Participant 2: Right. He's happy down at the pub in Cooley or whatever, just drinking some rapes.
+495. [1:23:07] Clent Jewell: Yeah.
+496. [1:23:08] Participant 2: Right. And you know, so microbrew needs to be the destination, not the journey.
+497. [1:23:16] Christy Kilmartin: Yeah.
+498. [1:23:17] Participant 2: Right. And um uh so that's what I was thinking there, right? The way you, you know, if you if you become a great a great destination for for tours or for dropping, you know, for you know, hey, tasting rooms open Saturday from, you know, five till eight or something like that, you know, and restrict your hours,
+499. [1:23:35] Christy Kilmartin: yeah,
+500. [1:23:36] Participant 2: rather than just waiting waiting around there waiting for people to come in. Um, you know, but you have something fantastic in there like an axe throwing or like a d like a fucking bulldozer, you know, that blokes can jump, you know, blokes can jump on or whatever and or even just a destruction room right there you know there I've seen some of them in LA and stuff like that right you can you know basically they just get old tellies off the off the the hard rubbish collection and you go in there with a sledgehammer and smash up a telly or you know whatever you know I just think it needs a an X Factor in there as well.
+501. [1:24:12] Clent Jewell: Yep yep yep yep
+502. [1:24:14] Participant 2: um look
+503. [1:24:15] Ronnie Ignacio: what's next door mate what
+504. [1:24:17] Participant 2: say again
+505. [1:24:19] Ronnie Ignacio: let's tap that what we walked into I sort of gave it a tour on the way in look look what's next door this struct box right
+506. [1:24:28] Christy Kilmartin: oh hang on I'm sorry I'm I'm looking at my notes are you showing me something on screen
+507. [1:24:32] Ronnie Ignacio: yeah sorry I'll just quick on
+508. [1:24:34] Christy Kilmartin: uh hang on
+509. [1:24:36] Ronnie Ignacio: Sorry.
+510. [1:24:37] Christy Kilmartin: Let me just tab across. Oh yeah, go on. Yeah.
+511. [1:24:42] Ronnie Ignacio: Tap that right next door. It's a motorbike shop.
+512. [1:24:45] Christy Kilmartin: Yeah, exactly.
+513. [1:24:46] Ronnie Ignacio: Look what's in there. Uh it's not even relevant, I suppose, but you said didn't do wheelies. Yeah,
+514. [1:24:54] Participant 2: that's what I mean. That's why why the wheelie machine came to my mind, because I was like, ooh.
+515. [1:24:58] Ronnie Ignacio: Yeah.
+516. [1:24:58] Participant 2: Okay. That could be, you know, it could be part of the experience.
+517. [1:25:02] Ronnie Ignacio: Smash room Brisbane. Sydney. Wow. So just a little pop-up smash room.
+518. [1:25:13] Participant 2: Yeah.
+519. [1:25:14] Ronnie Ignacio: Axe throwing? Partner?
+520. [1:25:17] Christy Kilmartin: Yeah.
+521. [1:25:17] Ronnie Ignacio: Joel Choice, There's a Urban legends is there, your your pineapple tours and your Balter. Doing a good job, Balter, well done. And hop on. I've done this one. I've been to
+522. [1:25:31] Christy Kilmartin: Yeah, hop on, yeah, yeah, yeah, yeah.
+523. [1:25:33] Ronnie Ignacio: I've done
+524. [1:25:34] Christy Kilmartin: so if you look at their
+525. [1:25:35] Participant 2: if
+526. [1:25:35] Christy Kilmartin: you look at their, you know, they've got a tour of the Goldie. Um and tap that's on there, right? There's Coldie on the Goldie and there's a shorter one.
+527. [1:25:49] Clent Jewell: Okay.
+528. [1:25:50] Christy Kilmartin: Yeah. Yeah, go to Coldie on the Goldie on the left. Right. So look at you scroll down to Tap room. Uh to uh yeah tap that, I mean.
+529. [1:26:08] Participant 2: Uh it's just uh not not not very sexy, right? You can read a couple of the others and so Harry needs to sort that out and make that desirable, right? Because they're gonna pick three of those bro those breweries.
+530. [1:26:22] Clent Jewell: Yep.
+531. [1:26:24] Participant 2: Right, that's the thing, you know, pick pick the ones you want to go to. You're not gonna go to tap that based
+532. [1:26:28] Christy Kilmartin: on that rider.
+533. [1:26:32] Clent Jewell: Um Shelby did the did the marketing police guys, Maddie.
+534. [1:26:39] Christy Kilmartin: Oh right.
+535. [1:26:41] Clent Jewell: Those Belgian guys, yeah.
+536. [1:26:43] Participant 2: Yeah, yeah, yeah, yeah. yeah.
+537. [1:26:45] Clent Jewell: Cool. Well,
+538. [1:26:46] Participant 2: he's done a better job than the TAP. So what else have I got, mate?
+539. [1:26:51] Clent Jewell: That all makes sense, mate. Everything, of course.
+540. [1:26:54] Participant 2: I've got a I've got a few more bits. Let me just grab because I've uh sorry, you got time?
+541. [1:27:00] Clent Jewell: Yeah.
+542. [1:27:01] Ronnie Ignacio: Yep.
+543. [1:27:01] Participant 2: All right. Hopefully if we get him in the if we get him in the whole discovery, then maybe um we can rethink the discovery to go back to them with.
+544. [1:27:11] Ronnie Ignacio: Taylor.
+545. [1:27:12] Participant 2: And
+546. [1:27:12] Ronnie Ignacio: even the way we present discovery back to them, mate, it's um it's not not um sharp enough yet.
+547. [1:27:20] Participant 2: Yeah, exactly. Other thoughts, you know, a thousand entries, right, for a system gave giveaway shows. a really strong demand signal right but how many of them you know because um the question for me was how many of them actually want it in their backyard and how many just want it for an occasion that they pull out right and roll it out of the garage or something just as an occasion business um so I you know it's just a question right it's not really there's nothing in there but you know obviously everybody wants everything for free but you know is there really demand in that in that demand signal I'm not sure um
+548. [1:27:59] Ronnie Ignacio: can I can I pick pick up that in case I forget
+549. [1:28:02] Participant 2: yeah
+550. [1:28:02] Ronnie Ignacio: so so the the your point there being you may not want her on all day every day of the year right Is that what you're saying?
+551. [1:28:12] Christy Kilmartin: Correct.
+552. [1:28:12] Ronnie Ignacio: Yeah.
+553. [1:28:13] Christy Kilmartin: Correct.
+554. [1:28:14] Ronnie Ignacio: And there's something a little more fundamental, I just want to dig into there. And that's sorry, Ronnie Ignacio's power went out or something. Um mate Curto, right? Love Curto.
+555. [1:28:27] Christy Kilmartin: Yeah.
+556. [1:28:28] Ronnie Ignacio: He's fucking drinking too much, man. He's become an alcoholic. There's nothing there's nothing good about drinking alcohol, apart from social reaction. From from a health perspective, it's bad. Correct. I go to spend all the fucking time. And he goes, You've been drinking with Kurdo again, haven't you? I said, all fucking weekend. And he said, um, I can tell because your back injury has you know, you're gonna take three weeks, not three days. Your fucking hips are tight. You've you got nothing but inflammation. He said, Um, you know, I I get it, I love having a beer too, but just have fucking three, not 30.
+557. [1:29:04] Christy Kilmartin: Yeah, yeah. That's
+558. [1:29:06] Ronnie Ignacio: what he's up against here, mate. He's it's flying in the face of every fundamental mega trend.
+559. [1:29:14] Participant 2: Yeah, which is, I mean, I I totally agree with your points around, you know, you've got to get with the trends, right? You know, carb-free, protein enhanced, blah, blah, you know, take the guilt factor away because, you know, yeah, I drink soda water instead of beer because it gives me that same FF. effervescence, you know, but um I'd much rather have a beer, but uh you can't I can't do it. Right? And it's and his demographic is aging.
+560. [1:29:46] Ronnie Ignacio: When we're squarely
+561. [1:29:47] Participant 2: in the market
+562. [1:29:48] Ronnie Ignacio: you and I are squarely in the target. And you and I are both sitting here with attention, knowing that a key refill business based on volume is not right.
+563. [1:29:59] Participant 2: That's right. That's right. Yeah. Yeah. So I think he's right. You know, that's why I pick up more on the connection and and sort of showing off thing, right? Because then you can sell quality rather than quantity.
+564. [1:30:19] Christy Kilmartin: Correct.
+565. [1:30:20] Participant 2: Right. You know, quality of engagement, quality of friendships, quality of beer that goes along with it, right? You know, um
+566. [1:30:29] Ronnie Ignacio: versus
+567. [1:30:29] Participant 2: the volume. Yeah.
+568. [1:30:35] Ronnie Ignacio: So we we you know, if it's a higher system for the cake or key cake system, whether you use it or not, or get into venues.
+569. [1:30:46] Participant 2: Yeah, that's right. Yeah. I think that's that well, yeah. I mean the the the commercial side is much more valuable, but probably much more competitive as well.
+570. [1:30:56] Christy Kilmartin: Yeah.
+571. [1:30:56] Participant 2: Um there is a cake rental, right? You know, you can hire it for parties. and stuff. Like the system and the kegs.
+572. [1:31:05] Ronnie Ignacio: Yep.
+573. [1:31:05] Participant 2: Um that's
+574. [1:31:06] Ronnie Ignacio: sort of one off and drop it back. I'm saying it's like gym membership. Just rent rent, don't worry about thousand bucks up front, overcome that barrier and just rent it for a hundred bucks, fifty bucks a month, to hundred bucks a month or something.
+575. [1:31:17] Participant 2: Yeah. Yeah.
+576. [1:31:18] Ronnie Ignacio: Um that way it's not about selling selling a keg and making seventy bucks out of the keg. You're getting fifty bucks a month regardless. I don't know. I I I I mean I'm just throwing that in. Sorry, I've derailed you, but
+577. [1:31:33] Participant 2: yeah. You know, uh a few things that struck me is that this is this is the exact opposite to the election. billet model, right? You know, when you buy a shaver, the handle's basically free, but the blades are really expensive. You know, this is the exact opposite. The system is expensive, but the kegs are cheap. Right? So, you know, even to be honest, does it like you know, a $2.70 schooner is fantastic, right? Compared to $10 or what does it say, $10 up to $18 at the pub, right? Even if you, like you said, rent it and it becomes a $4 schooner averaged out over a year or whatever, right? You're still gonna go for that. You know what I mean?
+578. [1:32:30] Ronnie Ignacio: So fucking cheap. Even if you double it.
+579. [1:32:33] Participant 2: So the magnitude is, yeah, is you know, 10 bucks for a schooner versus four bucks, I'll take that. But 10 bucks versus three bucks, I mean it's even better, but it's not really going to shift anything further.
+580. [1:32:47] Christy Kilmartin: No.
+581. [1:32:47] Participant 2: So I do think, I do reckon that there is a like you said, a you know, a rental model or a lease to buy, which they're doing anyway. And then basically, but you know, probably need to promote the unit economics of it, right? And and sort of go, look, you know, if you if this thing lasts you three years, right, and you drink X amount and and uh you scooter prices like this instead.
+582. [1:33:15] Ronnie Ignacio: Yeah. And
+583. [1:33:15] Participant 2: sell it, sell it like that.
+584. [1:33:17] Ronnie Ignacio: Yeah. Advance this too.
+585. [1:33:21] Participant 2: Yeah.
+586. [1:33:21] Ronnie Ignacio: Uh his pushback will be Yeah, but yeah, those fellas up the road are selling for I don't even know what numbers are. But how much of the cake? I should probably I should know.
+587. [1:33:34] Participant 2: Actually, across the road, and this is another one for Discovery, right? It's Discovery keeps saying, Oh, I don't know the name of this thing. It's it's just uh and arrow.
+588. [1:33:45] Christy Kilmartin: Yep.
+589. [1:33:46] Participant 2: Um they've they've merged with someone else. Their website is down at the moment. They've merged with someone else, which is probably in and they've been there. there for many, many years. So this is indicative of the situation that Justin's got himself in. Um some other mob up there as well. Um and their kegs are 85, 85 to 95 litres.
+590. [1:34:11] Ronnie Ignacio: Right.
+591. [1:34:11] Participant 2: Right. So they're up against it, right? You know, which is why I'm saying to them, hey, listen, you know.
+592. [1:34:18] Ronnie Ignacio: How much are we?
+593. [1:34:19] Participant 2: You don't 120 as as a member, or 150 if you're not a member. As a basic, you know, it goes 120, 150, and then 300 or something for the top end or might readers or um so we're substantially more expensive than the than the guy. who's just had to merge now has he had to merge because he's too cheap right and he's not making any money I don't know but um uh you know I think if you're talking unit economics not the price of the keg but if you say if you can say schooners at $2.70 right that's enough right because you because the enemy is the pub.
+594. [1:35:00] Clent Jewell: Yeah
+595. [1:35:01] Participant 2: the enemy's not the guy across the road.
+596. [1:35:03] Clent Jewell: No.
+597. [1:35:04] Participant 2: Right? So um oh the bottle yeah make the pub and the bottle shop your enemy not hardvacan arrow.
+598. [1:35:11] Clent Jewell: Yeah
+599. [1:35:11] Participant 2: right um
+600. [1:35:13] Clent Jewell: yeah
+601. [1:35:16] Participant 2: yeah yeah
+602. [1:35:17] Clent Jewell: here you mate
+603. [1:35:18] Participant 2: all right um all right, couple couple of other ones.
+604. [1:35:23] Clent Jewell: Yeah.
+605. [1:35:25] Participant 2: Um again for the tap room, right? You know you go into some pubs and you can have your own whiskey bottle.
+606. [1:35:33] Clent Jewell: Well fuck yeah.
+607. [1:35:34] Participant 2: Right? Can you have your own keg at the tap room? Right? You drink you bring your mates in, you drink from your own keg or whatever. Right?
+608. [1:35:44] Christy Kilmartin: Yep.
+609. [1:35:45] Participant 2: Um if you're still putting wanting to put bums on seats and make it a better place, then probably do that and find other ways to uh you know, because they're gonna yeah, they're gonna drink their keg at their cake price, right? So they're not gonna make any money from that bum on seat unless they sell them something else. So I don't know what the business model looks like. like that, but at the moment they're losing money, so you've got to try a few other things. The other thing is too, you know, I don't know if you've you you've been to these restaurants, I'm sure, where you pull your own beer off a off a keg, right? You're off a tap. Thinking that you know, some of the some of the um some of the booths or tables or something like that should have that functionality. So you so it's a so it's a behavior you go, oh, yeah, I can pull a that's fun pulling a beer off a keg. I'd like to do that in my own house or whatever. Right. So again, it's just a it's just a small thing where you maybe you have a a couple of tables where you pull your own beers and stuff. Yeah,
+610. [1:36:50] Ronnie Ignacio: yeah, yeah. That whole experiential thing. Cause you see them those big fucking fuck off things. They go fast.
+611. [1:36:56] Participant 2: Yeah. That's right. That's exactly right. Um yeah, and you could make it, you know, because you have those um yeah San Miguel things that you bring onto the table or something like that, minimal balls from that. Yeah, you could make it. It's not just coming out of a you know 20 liter Talos keg. It's coming out of something quite spectacular. Um yeah I think it that that sort of stuff is great for UGC like they're doing, right? Yeah. You know um you could have man versus keg or whatever. Yeah it's it's it's fun. Yeah. Beard versus beard versus versus food. Yeah, you have man versus cake. Have
+612. [1:37:34] Ronnie Ignacio: your own have your own bin, mate. Did you say that one?
+613. [1:37:38] Participant 2: Have your own bin? Oh yeah, yeah, yeah, exactly. Yeah. That's the next one. That's next. Okay, yeah. Pay with a tweet, that's always a good one, right? For UGC. You know, tagging, tagging tap that in in UGC and getting discounts for it. Um their points program. I I I also to the cost drivers of the business, right? Is keeping track of those points really worth the squeeze? squeeze. Is the juice of that worth the squeeze? I don't really know. We need to look into it stuff. But I always think, you know, keep the loyalty programs as simple as possible, right? 10th cake free, whatever, right? Rather than points and earning points for this one and that one and that sort of stuff. Just if it's a repill business, every 10th cake free, you know, or something like that.
+614. [1:38:36] Ronnie Ignacio: Totally.
+615. [1:38:36] Participant 2: Um
+616. [1:38:38] Ronnie Ignacio: yeah, I love it.
+617. [1:38:41] Participant 2: Collaborations with barbecue brands, right? So you buy, instead of just buying a barbecue and a thing, you buy an all-in-one unit. Right? It's a beautiful piece of kit, you know, it's uh it's the Rolls Royce backyard. Backyard Systems, or Bernabie, you know, four tap um beer system.
+618. [1:39:02] Ronnie Ignacio: Yep.
+619. [1:39:02] Participant 2: Who doesn't want that?
+620. [1:39:03] Ronnie Ignacio: Yeah.
+621. [1:39:03] Participant 2: You know, it's one thing, you know, the wife, you know, you it's an easier one to sell to the wife because she's saying you need a barbecue in the backyard, you know, and you're going, fucking hell, look at this. I can have Barbies and you can have margaritas. Okay, great, let's do it. You know, it's twice twice the price, but we'll do it anyway.
+622. [1:39:20] Ronnie Ignacio: Yep.
+623. [1:39:21] Participant 2: Um, benchy database as well. People that have bought the benchy, we need that database to get inside that and send them refill ideas. Um, right, they kind of run. romance the beers a bit. And then it's like we've got we've got beautiful beers, and then there's the rest. It's they just sort of talk about we've got RTDs as well, right? You know, instead of you know, like a flavor of the week RTD, right? You know, mixing up, you know, it's kind of like we've had to think about the women, but we haven't made a beautiful, you know, uh a beautiful drink for them that they really want to come in and try. We just we just offer RTDs as well. Rum and Coke or you know, Madurian lemonade or blah blah.
+624. [1:40:13] Christy Kilmartin: Yep.
+625. [1:40:14] Participant 2: Um the perception of that is the way it's written, the way it's treated and stuff like that is not just not important. Right. This is a bloke's beer. beer place and the chicks can come if they want. Right. But I think, you know, the blokes will follow the girls.
+626. [1:40:27] Ronnie Ignacio: I couldn't agree more, mate. That's a that's a that's something to be I think that's a big one. I I think there's a bit of um uh a blind spot around around that from Justin's point of view. Because you know, from from his point, I heard him say a couple of times we're gonna got this for the girls, and it feels like it's covered. It's not from Elle's from Elle's point of view, uh you know, Circl goes there and loves it. Elle goes there begrudgingly, Curs Curto loves it, not because there's some fucking cocktail that rocks her socks.
+627. [1:41:01] Participant 2: Correct. Like if you if you put the energy in. energy in, you're asking women just on a Friday or Saturday night to stand inside a fucking industrial site, right, and pretend it's nice, right? Pretend it's fancy and that sort of stuff. Right? So if it's just basic drinks on top of that, right? If you I mean if you make these amazing drinks, then maybe you'll pull a crowd of girls. But you know, that that's just not going to want to go there, right? So I think you're I think it's a really it's a it is a blind spot, right? If and that's I mean, that's to say, if we said, you know, because I think when we do discovery, we're gonna have to say, listen, you know, tap rooms on the ropes, boys, right? You know, you took you told us in the Shag Mary push off a cliff game. It's it's costing it's it's drifting sideways, it's costing you money to put it on, it's costing you family time. This is not why you got into this, right? If you insist on doing it, here's your blind spots that you need to fix.
+628. [1:42:09] Ronnie Ignacio: Yeah.
+629. [1:42:09] Participant 2: Right. I think that's that's where my head will be. Yeah,
+630. [1:42:12] Ronnie Ignacio: where the position is.
+631. [1:42:13] Participant 2: That's
+632. [1:42:13] Ronnie Ignacio: good. Can I show you? Can you say it's green again, bud? Can I interrupt you?
+633. [1:42:16] Participant 2: Oh, yeah, hang on, I'll I'll come over.
+634. [1:42:17] Ronnie Ignacio: You're right, just quickly.
+635. [1:42:18] Participant 2: Oh shit. Did I just cut you down?
+636. [1:42:23] Ronnie Ignacio: No, I'm in it.
+637. [1:42:24] Participant 2: Are you still there? Yeah,
+638. [1:42:25] Ronnie Ignacio: I'm here.
+639. [1:42:27] Participant 2: Okay,
+640. [1:42:28] Christy Kilmartin: just press. You're still there. I just I just hit the little extra exit arrow.
+641. [1:42:38] Ronnie Ignacio: I don't know.
+642. [1:42:42] Christy Kilmartin: Oh yeah, yeah, yeah.
+643. [1:42:46] Participant 2: No
+644. [1:42:46] Christy Kilmartin: wonder you're fucking
+645. [1:42:47] Participant 2: laughing at me before. Uh
+646. [1:42:50] Christy Kilmartin: hello.
+647. [1:42:56] Participant 2: Oh now I need to get out of this email and go back into the fucking calendar and log in again. Hang on, hang on, hang on. I'm like a I'm like a computer with too many windows open. I just
+648. [1:43:17] Ronnie Ignacio: I
+649. [1:43:17] Participant 2: just closed you down. How are you still there?
+650. [1:43:21] Ronnie Ignacio: You're corrupting the fucking notes. Shut up, old person. Just fucking open it again. You can't stand it.
+651. [1:43:30] Christy Kilmartin: Yeah, exactly. Exactly.
+652. [1:43:32] Ronnie Ignacio: Yeah, yeah, the power's gone out.
+653. [1:43:35] Christy Kilmartin: Okay, hang on.
+654. [1:43:37] Ronnie Ignacio: I can tell you it's gonna be worth your while. So I'm sh I'm sharing, right?
+655. [1:43:44] Christy Kilmartin: Yeah.
+656. [1:43:49] Ronnie Ignacio: What was that place we used to go to back at uni? Down on Book Road or something like that. Yeah, something like the palace. Yeah,
+657. [1:44:01] Christy Kilmartin: yeah.
+658. [1:44:02] Ronnie Ignacio: Remember? I came back just now. Ronnie's back. Remember um remember how smoking hot and fun it was? Like that's the only we well, I can't remember which one. Look, all I'm trying to do is in terms of getting a venue humming, this is this is 10 minutes away, mate. These guys have worked it out. It's fucking wild. Can you see the screen, anyone?
+659. [1:44:34] Christy Kilmartin: Yeah, I can. Yeah, yeah.
+660. [1:44:36] Ronnie Ignacio: Like with Ronnie, you want to see what Curdo? and I go? That's this is where we go. It's fucking wild, man. Unreal. The guy who owns it, that's the guy that owns it. I'll just give you a sense of it. They got karaoke in the corner, they got cowboys in free pool upstairs, they got big games are on. But more than that, it's just a vibe that you can't like he's a world, he owns it. He's he's a punchy uppie fella. What do you call it? Ultimate fighter fella. That's um
+661. [1:45:06] Participant 2: right.
+662. [1:45:07] Ronnie Ignacio: That's um the the fella at the bar there, he's the energy, the two girls that get around, they're just it they just create they create an atmosphere and a vibe that is people you just want to be there.
+663. [1:45:18] Participant 2: Yeah. See, and that's that's I mean, taper and fighting that, right? And they're not gonna win that. because it's you have to drive there right and I've I mean I in the original notes that I sent for the discovery I said you guys have got to decide whether you're uh we're beer nerds right that's a business right we get it that's a business or we're hospitality people
+664. [1:45:40] Ronnie Ignacio: that's right
+665. [1:45:41] Participant 2: right and and some people get it right but they're not hospitality people right hospitality people come from hospitality
+666. [1:45:49] Ronnie Ignacio: yeah
+667. [1:45:49] Participant 2: right and they and they do these things and they location is the most important thing not in a not in an industrial park
+668. [1:45:56] Ronnie Ignacio: yeah
+669. [1:45:57] Participant 2: you know and try to drag people there.
+670. [1:45:58] Ronnie Ignacio: Yeah
+671. [1:45:59] Participant 2: right
+672. [1:45:59] Ronnie Ignacio: I can tell you the the hospital the the the that burger is to die for like these guys just get it. It's a shitty venue. But I'm telling you, it doesn't need to be flash bang. I mean get the girls and the rest will follow.
+673. [1:46:16] Participant 2: Yeah, correct.
+674. [1:46:18] Ronnie Ignacio: Correct. They're just making fine art of doing this.
+675. [1:46:22] Participant 2: Yeah, yeah, yeah.
+676. [1:46:24] Ronnie Ignacio: Right. They're just
+677. [1:46:25] Participant 2: but but you uh look at their social profile compared to tap that though.
+678. [1:46:30] Ronnie Ignacio: Yeah.
+679. [1:46:30] Participant 2: Right? You know, tap that's not Justin on camera, sort of explaining things and you know, whereas this is just hey, you know what you're gonna get, right? I'm gonna go there, we're gonna get drunk, we're gonna have a good time, there's gonna be, you know, good looking people there.
+680. [1:46:46] Ronnie Ignacio: The oldies love it too, man. I mean they're profile and I took I I took um mum and dad, Uncle Ross and uh Auntie uh R Ross and his partner, their friends and uh Auntie Mary and whatever his name is, I forget. They fucking had a ball. They had to had to go by 7 p.m. 'cause I was overwhelmed, but
+681. [1:47:09] Participant 2: yeah, that's a that's a very different business, right? You know, and that's that's what I mean. Is it the journey or the destination? Yeah. Right? You tap that can still be a good destination for people who want to drink micro boo. Right? But they're not a good destination for people who just want to party it up and have a few beers and not think about it.
+682. [1:47:27] Ronnie Ignacio: Yeah. I think you can be a destination for those people though. At the moment it's just dead. and to your point another blind spot there's hospital people and there's justin's not hospitable and make you make you feel like a million bucks you know
+683. [1:47:43] Christy Kilmartin: yeah and
+684. [1:47:44] Ronnie Ignacio: you walk in the door good fella sharp as attack just not not
+685. [1:47:50] Christy Kilmartin: yeah
+686. [1:47:51] Ronnie Ignacio: not you know when Curto's when Curto you know he's hospit this makes everyone feel a like a million bucks so I'm trying to
+687. [1:48:01] Christy Kilmartin: yeah
+688. [1:48:02] Ronnie Ignacio: anyway that's I kill on that point but you've already made
+689. [1:48:06] Christy Kilmartin: it all right um don't know. That's right. I need to go back to my email. What else have I got to earn? Just a couple of other ones, yeah. Talking about RO. Um now the other one is delivery mode.
+690. [1:48:41] Participant 2: Right. So I mean, we're all used, we're all but in condition now on free delivery, right? Yeah, and what that does that is such a big thing, right? Even if you're just thinking, right, if you're a member. part of your membership should be free delivery.
+691. [1:49:01] Christy Kilmartin: Yep.
+692. [1:49:01] Participant 2: Right. Area dependent, of course, all that sort of stuff. Yeah, just and and make up the cost elsewhere. Right. Maybe it's not a $30 discount for you know for the keg, it's a $20 discount and you share the delivery cost basically, whatever.
+693. [1:49:17] Christy Kilmartin: Yeah.
+694. [1:49:18] Participant 2: Right. I think you would make up the gross margin percentage in gross margin dollars, right? I think if you said because they're talking about yeah, I I mean I put down here that, you know, say you said, listen, it's you know, it's ten dollars delivery for one, or it could be free delivery if you buy two. two, right? People are gonna go two, all right. I'll take two and get free delivery. And then Justin's out, you know, like Adam Hall, Justin's out talking about the beer to the person who wants to know about the beer, who's buying the beer, right? And his time spent driving around delivering beer to people and talking about beer versus being standing at the bar waiting for people to come to him.
+695. [1:50:03] Christy Kilmartin: Yeah.
+696. [1:50:03] Participant 2: Right. Then, you know, of course, you give them a free um two-liter growler, right? You know, for a taster, or you know, if they buy two, you bring a free growler of a seasonal tasting or something like that. Just surprise and delight people, but make it on their terms. If it's all about not going out of the house, then go to them. Take it to them. Right. Um so I I I really think there's something in free delivery because that's something there, you know. Um
+697. [1:50:35] Ronnie Ignacio: yep.
+698. [1:50:36] Participant 2: Yeah. Um
+699. [1:50:39] Ronnie Ignacio: can I pick up on a couple of things, mate? Oh forget him.
+700. [1:50:41] Participant 2: Yeah, please.
+701. [1:50:42] Ronnie Ignacio: The points would be one, where's Chris? He's the beer nerd. Where the where the fuck is he?
+702. [1:50:48] Participant 2: Yeah. I don't
+703. [1:50:48] Ronnie Ignacio: know. Hopefully
+704. [1:50:49] Participant 2: he's throwing beer.
+705. [1:50:50] Ronnie Ignacio: One been there and I've never seen him. I've been there quite a lot on a Friday talk to him. Well he's never once told me about the fucking tasting notes of the beer. If that's all about tasting never no where's his profile? Like apparently it's pretty good. That's what the beer brewery tells us fucking legend. Well profile him, get him going. Get in front and center, get him fucking talking about beer.
+706. [1:51:12] Christy Kilmartin: Yeah, exactly.
+707. [1:51:13] Ronnie Ignacio: All right. Then that's not to do it. There's that point. Um, second earth brewery. Um, got some plush bang fella in to invest, and he said, You need your arsenal or your elbow. He said, You're you're you're you're in the middle ground, you're not cheap, you're not expensive. So he said, Um, so he he put these um dark beer cans on tap, 500 mil cans, and charged 50 bucks for four, something like that. Can't keep up.
+708. [1:51:41] Christy Kilmartin: Yeah,
+709. [1:51:43] Ronnie Ignacio: can't keep up. Like
+710. [1:51:47] Christy Kilmartin: really,
+711. [1:51:47] Ronnie Ignacio: yeah. Yeah.
+712. [1:51:52] Christy Kilmartin: Interesting.
+713. [1:51:52] Ronnie Ignacio: You know, where you can you buy a little canner for not much. Um, you know, uh a growler if it's a taster. I I don't know. I I I don't know, beer man. I'd I'd sure I should agree with you though. Your first point, you come in, you look at 27 beers and you go, Oh, what's going on here? I've never seen anyone do that. And there's probably reasons for not least cost to serve all of that. And it's not even from a consumer point of view, easy. Okay, I don't I uh I'm overwhelmed. I don't know which one to try. Yeah.
+714. [1:52:24] Participant 2: In
+715. [1:52:25] Ronnie Ignacio: the end, I just start bored and sort of have to make it up. Just actually not an informed decision at all because I can't, the board's not even so I can read. read what's going on.
+716. [1:52:34] Participant 2: That's right. Yeah, you can't read the board. There's no prioritization, no, no sort of navigation of 27 beers. Um what I always feel like when I come up on a on a craft beer that I don't know, right? Or people are trying to feed me craft beers in a pub. I'm like, I don't want to I don't want to waste anything, right? I don't want to feel silly ordering something that people laugh at me for. Right. So, you know, I I just don't bother with it most of the time, you know, because it's it's it's so trendy of what's what's good and what's not, and you know, so I just think there's a there's a level of consumer anxiety in making a choice, right? That you need they need to help them with.
+717. [1:53:17] Ronnie Ignacio: Yep. Yep. And I just want to yeah, add, I just want milk that tastes like real milk. I just want a beer that tastes like my beer.
+718. [1:53:25] Participant 2: Yeah, that's right. Yeah. Yeah. All right. The next point um talks about actually talks exactly, but it it puts some facts around what you were talking about, right? So they they say um 10% uh 10% buy every month, 60% buy every three months, and then 40% are even longer. Right. And when they looked into the census, it said they've they'll they've either cut back, right? They've cut back on beer. or just didn't get around to it. Right. That's why they you know they're why they were longer than three months. Right. So again, they've got a they've got a system sitting in their backyard that they've cut back. So to the point before, that's the whole to get in with, okay, they still need to hydrate their bodies, right? But they don't want to touch beer. So let's put a healthy alternative in there. Right. So I think that's that's where there's a business model around just healthy beer as well, right? Is to is to go back to those people who are lapsed, right? Um, especially if they're the drivers of connection, right? They're still having people bound, but they've cut back themselves, or something else in their taps, right? They'll still drink it. Um and then for the ones that didn't get around to it, right? Again, let's look for a CRM solution, right? You know, there. Um, because this is 40% of their members who are three months or longer in between buying, right? So the frequency of buying for 40% is very light. Um, so that's that's where the majority of the business growth would come from is getting that 40% to to um you know, you won't get you won't get to the the 10% who change every month, you can't get them to drink much more. But the 40% that have sort of lapsed or cut back or that sort of stuff, that's where the business growth would come from.
+719. [1:55:23] Clent Jewell: Yep,
+720. [1:55:23] Participant 2: Colin. Um wholesale, like we talked about. One wholesale customer's 10 households. That needs outreach with structure, goals, KPIs. Just hire a full-time employee there, or an agent who carries the c carries the key, has the you know tools that we produce for them or whatever about why this is a great thing. Um, and just go get, you know, 10, 15, whatever, 100 wholesale you know, pubs or restaurants, all that sort of stuff.
+721. [1:55:56] Ronnie Ignacio: Yep.
+722. [1:55:57] Participant 2: Uh yeah, yeah, sports cards we talked about. Right. Um the other thing that I wanted to say, just in terms of discovery, right? Everyone's leaning. leaning pretty hard on this census that they're talking about. It's a survey of 50 people, right? Um, so it's a tiny survey, right? And surveys, as we all know, they're renowned for being answered by people who don't really know why they do these things,
+723. [1:56:26] Christy Kilmartin: yeah,
+724. [1:56:27] Participant 2: or they don't really want to say why they do it actually.
+725. [1:56:30] Christy Kilmartin: Yeah,
+726. [1:56:30] Participant 2: right. So I I'm saying, you know, be careful how much emphasis we place on the census to create a strategy, right? Because you're not gonna say, right, oh, you know, um you're not gonna say, look, I want to be seen as more successful than my mates out loud. Right. You're not going to put that on the census. You're going to go, oh, it's all about the taste, isn't it? Right? You're not going to say, well, I don't want anyone to know that I'm an alcoholic.
+727. [1:57:05] Clent Jewell: Yeah.
+728. [1:57:05] Participant 2: Right. Right. Yeah, you're going to go, it's all about taste and cost. You know, it's so they're compensating for something else a lot of the time. And so I just think we need to really go with our gut and go, you know what, 50 people census said this, so this is why we do things. And that's where that's where I think, you know, Max and stuff, you know, will go religiously on the census rather than a gut feel. Right. So I think when we go back with um uh with Discovery, yeah. We need a real gut feel sort of approach to this thing is and sort of say, hey, your sensor said this, gut tells us this, what do you think?
+729. [1:57:45] Clent Jewell: Yeah,
+730. [1:57:45] Participant 2: right.
+731. [1:57:47] Christy Kilmartin: Yeah.
+732. [1:57:47] Clent Jewell: Yeah. Good one, mate. Love it.
+733. [1:57:51] Christy Kilmartin: Um that's that's kind of all I took notes on, mate. Sorry, I know that was really long, but I wanted to get that into the system so that it's recorded.
+734. [1:58:04] Ronnie Ignacio: Yeah, love it. Love it. Check out the link I just sent too. That's how you do a that's how you do a website.
+735. [1:58:14] Participant 2: Link
+736. [1:58:15] Ronnie Ignacio: for drinks.
+737. [1:58:15] Participant 2: That will be um
+738. [1:58:17] Ronnie Ignacio: what's that?
+739. [1:58:19] Participant 2: Oh, what's that? Jesus, dude. Good old body toys, Joel. I'm looking for it on my email and changing around tabs.
+740. [1:58:41] Ronnie Ignacio: I'll just say I'll just don't worry about it. I'm just showing you h drink hopper.
+741. [1:58:44] Christy Kilmartin: Drink
+742. [1:58:45] Participant 2: hopper.
+743. [1:58:45] Ronnie Ignacio: H-A-P-R-C. That's how you do a website for these guys.
+744. [1:58:51] Participant 2: That's right. Yeah, really clean. Uh you know, I prefer to see people in the shot having fun or whatever, but you know. But it is
+745. [1:59:01] Clent Jewell: click that mystery discount
+746. [1:59:02] Participant 2: it's more
+747. [1:59:03] Clent Jewell: yeah
+748. [1:59:04] Participant 2: click click which
+749. [1:59:05] Clent Jewell: mystery discount if you haven't already.
+750. [1:59:08] Participant 2: Mystery discount.
+751. [1:59:10] Clent Jewell: It'll come up in a minute.
+752. [1:59:15] Ronnie Ignacio: Just came up with a little scratchy thing. You scratch it off, it goes claim your prize, give me your email.
+753. [1:59:19] Participant 2: Oh yeah.
+754. [1:59:20] Ronnie Ignacio: Very clever.
+755. [1:59:21] Participant 2: Things like that, right? People people love that stuff. Um
+756. [1:59:25] Ronnie Ignacio: button on save, it says subscribe, just put it on autopilot. That's what we should be doing here too. Free delivery,
+757. [1:59:32] Participant 2: yeah.
+758. [1:59:33] Ronnie Ignacio: Heaps of ideas on this site just to incorporate.
+759. [1:59:40] Participant 2: I've got a mystery discount. Oh, I need to put my email in. address in.
+760. [1:59:43] Ronnie Ignacio: Ooh, I did.
+761. [1:59:46] Participant 2: I bet you did.
+762. [1:59:48] Ronnie Ignacio: Um,
+763. [1:59:49] Participant 2: yeah, that that that looks nice, that's like
+764. [1:59:53] Ronnie Ignacio: um
+765. [1:59:57] Participant 2: I think also look, um, you know, go sorry, sorry, jumping around, but the fact that Harry and Justin are sitting around trying to think up, you know, um ideas for content on the socials, right? That feels like fiddling while Rome burns.
+766. [2:00:17] Clent Jewell: True.
+767. [2:00:17] Participant 2: Right. I feel, you know, wholesale outreach, right? Go back into refills, you know, this you know, there's very tan. tangible behaviors that they need to Justin needs to lead and tell Harry what to do, right? Because he just sort of seems like he's kicking around the brewery a bit. Um but I think you know he seems like a good kid, right? You know, I think he can probably do some stuff, but but they need very he he needs some stronger and much more focused KPIs and goals.
+768. [2:00:49] Ronnie Ignacio: That's exactly what I was gonna say. So Shag, Mary, push up Cliff, which of the three are you gonna recommend to our mate? That's right. What are the three things we're gonna do?
+769. [2:01:01] Participant 2: Yeah, so getting chasing databases, right, from anyone who's bought a system, right, with a Harvey Norm. Norman, blah blah blah blah blah or straight from the Kigmaster or whatever they're called, Kig Land, right? Hey guys, we need your database. We need to speak directly to them, blah blah, you know, how much are you going to charge us for the database? You know, um doing a deal with Harvey Norman, right? Going to the tour companies, that that, you know, proactively, you know, and then a commercial thing feels like it's you know it's it's more important than, you know, m trying to get people to come to the tap room through social media.
+770. [2:01:41] Ronnie Ignacio: Correct. Yeah, the big leverage items, aren't they? High leverage items, as we call.
+771. [2:01:46] Participant 2: Yeah, exactly.
+772. [2:01:48] Ronnie Ignacio: Last one. How do we charge for this cross day? People who have gone broke? broke?
+773. [2:01:54] Participant 2: Uh good question. I don't know, man. Um
+774. [2:01:58] Ronnie Ignacio: we've just done sort of we've done a lot. Like it's we've probably tipped a day into this if you actually add it all up each.
+775. [2:02:06] Participant 2: Oh, yeah, yeah, yeah, yeah, yeah.
+776. [2:02:07] Ronnie Ignacio: You know, there's two days. I don't like charge them for our time, but you know, there's five grand there of value plus you know, it's yeah, it's not presented right at the moment, the 3D process outputs, but you know, it's all there uh once we add these notes back in. I mean, we've provided a fair bit of value already for you know, uh risk free for them. So I'm sitting there going, there should actually be be a premium for what we do next, because we took all the risk.
+777. [2:02:39] Christy Kilmartin: Yeah.
+778. [2:02:40] Ronnie Ignacio: Don't have to answer that right now, but that's the $64,000 question I'm struggling with at the moment for these sorts of jobs.
+779. [2:02:48] Christy Kilmartin: So Yeah, we could be saying, listen, you know, must do tomorrow stuff, right?
+780. [2:03:00] Clent Jewell: Yeah, I think so.
+781. [2:03:01] Christy Kilmartin: PR PR outreach. Right. We we could probably do that. Right. We could sort of say, look, you know. Excuse me. I mean,
+782. [2:03:12] Participant 2: yeah, if Harry can do it, we can do it, right? Yeah. Um you know you've got obviously if you've got um uh monk, you know, through um Harvey Norman, right? You know, if we can if we can get stuff like that done for them. Um that's something that we could take away and you know we could charge them for it because it's it's very tangible.
+783. [2:03:39] Ronnie Ignacio: True. Sorry, mate, one more thing. Um for the notes, it's out of sync, but uh events. So weddings, um, the wedding um uh trail, all that sort of shit. We I've got a and events people, I've got two or three of those to link him up with as well.
+784. [2:03:57] Christy Kilmartin: Yeah, so um I think in this situation we just want to be paid. Like we don't it's not a sweat sweat equity type of thing. I think um
+785. [2:04:16] Participant 2: I've just read. I've been reading the paper a lot and just I just see breweries that they're tough. Right. There's a lot of them consolidating or the the dream of g selling out to C U B or Lion Nathan sort of went away about ten years ago. Yeah um before everybody else jumped in. That's not happening anymore, I don't think.
+786. [2:04:37] Ronnie Ignacio: Nah, um the C B line Nathan they can't. Um they they they buy 'em and they fuck 'em and they're uh they've they've they're not doing that anymore.
+787. [2:04:47] Participant 2: Yeah. Yeah. So I I think the you know, yeah, getting paid is probably it's probably an execution step next, right? Is he here's here's the ten things we're recommending. Of these ten, get Harry going that way. We'll do these ones for you, right? There's a cost to it. Um Yeah. And and try and do it that way, I guess.
+788. [2:05:14] Ronnie Ignacio: Yep. Sounds good, mate. Um
+789. [2:05:17] Participant 2: I don't know, mate. I just I'm not good at this stuff.
+790. [2:05:20] Ronnie Ignacio: No, I I I must admit I'm traditionally not good at it either, but giving me the sits really the all these um I guess deliberately haven't taken on too much of uh you know between big clients uh just with a few moving parts personally my end but it's um within the next you know six eight weeks or so it's time to knuckle down enough of this shit. Um
+791. [2:05:48] Christy Kilmartin: yeah
+792. [2:05:49] Ronnie Ignacio: we need we need to get we need to get good at this mate and just say hey here's what it is we will I I don't mind doing a an initial conversation but it's it's it's it's like 20 minutes not fucking two hours and then we punch out yeah something we can send back that is of value to them you know um but this is what we heard and here's here's some preliminary thoughts because we can automate most of that. It doesn't and we'll we'll spend an hour of our time, not you know, a day each. It's just it's it's uh we're just you know, I'm grateful for your time, mate, and I love it. We talk all day about fucking beer, but I think we've just got to get better, you know, be better.
+793. [2:06:28] Christy Kilmartin: Yeah, I I yeah, I agree. I agree.
+794. [2:06:31] Ronnie Ignacio: Yeah um So we'll take this as learning and that's okay, 'cause we needed to do it and you know, it's valuable and uh uh the 3D process you can see that takes trust and judgment still needs a readover and rewash it. Um Correct. And then we'll it'll need another readover before you hit pr you know, gain just to do the right thing before you hit we hit send. But but there's you know it's a reasonable impost um which is why I was hoping you know I'd just bring him in and then hive them off with the process with the process um refined via Max but um oh update on that on max too would be that um race just been flat out man he hasn't had time this year really um otherwise and uh global health and and and supercoach or what it was called power coach whatever the fuck it's called um global health finishes up for a couple of months at the end of this week um they're just consolidating back too so he's got a couple of months of time save for two weeks in Japan from the end of this week as well and he just wants us to get um uh a strip max back to something that's you know core and push that out too you know but tradies or or or yeah um at the GEO service um yeah just flag in that as well
+795. [2:07:54] Christy Kilmartin: okay um that's pretty
+796. [2:07:58] Participant 2: interesting actually um because I think if we talked about ideas like you know going to um that hop on or not hop on the other brewery tour I can't remember what it's called yeah the one who make you book everything yourself right and developing a a a wizard idea
+797. [2:08:18] Clent Jewell: yeah
+798. [2:08:19] Participant 2: Right. That's the sort of that's the sort of stuff that we could get paid pretty good for. Right. That Racer could do in the next couple of months that it would help tap that out if if we could put it on the site.
+799. [2:08:29] Ronnie Ignacio: Oh. Yeah.
+800. [2:08:31] Christy Kilmartin: I
+801. [2:08:31] Ronnie Ignacio: bet I bet I bet with a bit of thought. I'm not sure which platform they're using, but I bet you Ronnie could do within bloody twenty four hours if we briefed it in.
+802. [2:08:39] Participant 2: Exactly. Yeah, exactly. I couldn't. So you know, but
+803. [2:08:44] Ronnie Ignacio: I couldn't either
+804. [2:08:45] Participant 2: I can have the idea for
+805. [2:08:46] Ronnie Ignacio: it. Well that's the point, man. We need we need the the that mix of of um design and development and execution. Cause I can tell you Raf's Rafe's no good at execution. He'll fucking build all day but he's not good at getting shit done to
+806. [2:09:00] Christy Kilmartin: right
+807. [2:09:01] Ronnie Ignacio: finish and ex and push it um getting paid for yeah so it's a mutually beneficial thing if you know what i mean
+808. [2:09:08] Christy Kilmartin: yeah yeah
+809. [2:09:09] Ronnie Ignacio: um running skills have uh fucking have gone from you know novice or to middling to fucking fast approaching off the charts good you can see what he's knocking yeah
+810. [2:09:21] Christy Kilmartin: exactly
+811. [2:09:21] Ronnie Ignacio: efficiently and he's he's speeding up as well so it's good um yeah all right mate um next step on tap that would be consolidate the notes um wash it back through discovery and how would you prefer if you were presenting it mate if i was hey crush so this is your project is your client
+812. [2:09:42] Participant 2: yeah
+813. [2:09:42] Ronnie Ignacio: what could I do to support you to get those points across and here are the 10 things um is it a 10 slide deck with all that other shit in the background
+814. [2:09:51] Participant 2: if you have
+815. [2:09:52] Ronnie Ignacio: to read it something like that
+816. [2:09:54] Participant 2: i think i think it absolutely is yeah
+817. [2:09:56] Ronnie Ignacio: cool
+818. [2:09:56] Participant 2: right i think it's a one on one deck because as much as you know we're in it now so you might as well set up the sort of reciprocity of hey they came out a couple of times they sat me down they talked to me about my business so listen they did all these things i owe them something
+819. [2:10:11] Clent Jewell: yes
+820. [2:10:12] Participant 2: right you know um so they're saying that they could build this thing I like the thing they're asking they're talking about let me go back to my partner or my investor and
+821. [2:10:22] Clent Jewell: yeah
+822. [2:10:22] Participant 2: you know get some more money or prioritize this because the thing is if they don't if they don't do some of this sort of stuff. It's it's curtains anyway. It's
+823. [2:10:32] Ronnie Ignacio: curtains, mate. I I was there last Friday night and I just flashed past him. I say just give a sense of it. The guys are working on the background on this, you know. Well I didn't show him. He got it showed him the 3D process on my phone and he said, Oh, geez. I said, Yeah. Uh and he said, um, and then you know, three other things happened and he got busy. He's pouring bits at the on a Friday night. And as I was walking out, he said, Um, no, it's okay, I'll walk with you. And he came out and he just said, Clint, am I am I missing something here? Like, am I am I off the mark in doing keg refills? Because I I feel like I'm still in the right space. I was the same as the day I started. Yeah, you know, he he was you know, he's relying on us here. He is to to to help him because he's in a spike.
+824. [2:11:25] Clent Jewell: Yeah.
+825. [2:11:26] Ronnie Ignacio: Um and I looked at him in the eye and I thought, fuck, I don't know what the answer is. I actually don't know whether this is commercially viable or not. I just say one way or the other. So I ended up just a little bit trite and I feel bad. I said, I mean, all I know is we're going through three steps: discovery and design and deploy, and that's the same process I use for everyone else. And we've got had nothing but tremendous success. So all it can do is the same for you, and I'm I'll you know, come back to you when we've had an opportunity to regroup basically. based on what we heard so far at Discovery.
+826. [2:11:57] Participant 2: Yeah. I mean, I would say to him the same sort of thing. You're in it now, right? You you got a choice. Either you either you you try something different or you walk away, right? But you can't keep going what you're doing. I would say that, you know, I I mean, one of the things I didn't ask him, right, was what does he put down to being the success factors in his last business?
+827. [2:12:26] Ronnie Ignacio: Yeah, nice.
+828. [2:12:27] Participant 2: Right. Um, because he'll say, Oh, we had a really simple, you know, booking system or something like that. Ah, perfect. Okay, simplicity, right? Because what I think he's built is is quite complex. It's quite cost-driven. Right. And it's in an in in an industry he d he doesn't know. And he's I mean, hospitality is the one area that you can basically go into. It's got no barriers to entry. Right. You know, you want to go and set up a new pub, just throw some money at it, you know, pretty girls. And it's really fickle and really difficult. And you wouldn't be the first person to go broke in hospitality thinking you can come in. It looks easy from the outside, it looks like fun, but on the inside it's it's hell, it's murder, and it's really really operationally dependent. And the operations are wrong.
+829. [2:13:24] Christy Kilmartin: That's right.
+830. [2:13:25] Participant 2: The location for a traffic driver, you know, for the business is in the wrong spot. And it's fundamentally forward. So I think it's that's why I keep saying, you know, shut it as a drop-in, make it an event center, make it make beer the destination, right? Not not the journey. Um you know, uh you know, ramp up on the on the you know, find any way you can that you know to refill other people's fridge systems through home, you know, through sneaking through. through databases and you know, doing all these things. Um, you know, go hard on the commercial thing, right? Whether sports clubs or restaurants, you know, employ people there rather than to employ social media managers. Um, you know, and uh you know, whatever else. Free deliver, remove the friction from the process. Free delivery, right? Personalize the communications, be the face of the business, right? Go out there, be Adam Hall, right? Get in people's faces, you know, who are buying stuff from you, right? You know, think about promotions multiples and you know, as you remove the friction so you can sell more to the same people. Um it just it's it's it's simple stuff like that. I that's where I think the discover thing talks too much about marketing and the consumer and it's a bit for him he's desperate, right? He needs he needs a a a sermon rather than hey, it's nice, you know, we can spell out C R E or Yeah,
+831. [2:15:03] Ronnie Ignacio: yeah,
+832. [2:15:03] Participant 2: you know, things like that, right? I think I think that will that's a bit tone deaf and we'll just miss the mark.
+833. [2:15:08] Ronnie Ignacio: I agree, mate. Totally agree. Uh and and it's kinda this is why we're doing it, mate, is this is a learning thing. Um
+834. [2:15:14] Participant 2: yeah.
+835. [2:15:15] Ronnie Ignacio: We're not just sales and marketing, it's there's a business order in here and we need to go back and get the actual correct act questions is what we're actually missing at the front at the at the front end, I think, is the truth of it. For us to do this, you know, sustain. um at a level of quality that we're shooting for. So 'cause we've
+836. [2:15:34] Christy Kilmartin: Yeah.
+837. [2:15:34] Ronnie Ignacio: You know, well th and then the reason I did this one too is it's it's important to Justin, but you know, for us it's we can we can miss, you know. Um I don't want to go and do this for a two hundred and fifty thousand dollar job next.
+838. [2:15:49] Participant 2: No, that's right. That's right.
+839. [2:15:51] Ronnie Ignacio: Yeah.
+840. [2:15:52] Participant 2: Yeah. And that's why I don't know if it's a chargeable job or not, right? Or some of the execution, right? Of course if we incur costs and we, you know, we put a margin on top of that to to actually do the PR outreach for these guys. You know, um or to build a widget for this thing or to, you know, whatever it might be. Um yeah it's it's it's not about making a heap of money out of this one no because this is yeah because what you you know the 3D process is is much better suited to someone who's got an idea and he needs to get off the ground right and you go okay this is a consumer this is who you're talking to this is how you're going to talk to them and look we've just smashed out this amazing website and we've got a CMS and a back end inventory management system right you're all set to go off you go right um that's
+841. [2:16:46] Christy Kilmartin: right
+842. [2:16:46] Participant 2: here this is a this is coming in and pulling apart someone's mess
+843. [2:16:51] Christy Kilmartin: yeah
+844. [2:16:52] Participant 2: right so actually the 3D system 3D process can help, right? But it's uh I would say it's an input to the to the um it's a it's a smart input to the to the next step, not the output.
+845. [2:17:11] Ronnie Ignacio: Yeah. Um the way I think about it is a more i it's just a structure to to to how we approach it. Discovery sitting down and having a chat. Design, to your point, is it's not it's not a you know, design's we didn't ask the right questions to at design to redo his business plan and operationally, where we think he's he's missing. It's only because we've got a bit of you know been around the block. Um and on that is a point that hopefully the notes pick up. As I'm sitting here, it feels like so it feels like man the manufacturer is bit is is running the business. Like, oh yeah, I just want to build 27 different fucking beers because I like building beer as opposed to what is commercially sensible and consumer oriented, you know, as I think about it.
+846. [2:18:08] Participant 2: Yeah, I mean we've all watched enough Gordon Ramsay to know that, you know, that would be the first thing a Gordon Ramsay would go and do say how am I a fucking beer of a fucking you need you need six right? Maximum six or whatever the right number is, right? You're just confusing people now. It's too hard to make a decision. And when they do make a decision, they won't be happy with their decision, right? Because they'll think, oh, I should have picked that other one. I don't know.
+847. [2:18:37] Ronnie Ignacio: Yep, with some seasonal fucking special failure. Yeah. Yep.
+848. [2:18:42] Participant 2: Yeah.
+849. [2:18:43] Ronnie Ignacio: Yep. All right, mate.
+850. [2:18:44] Participant 2: Exactly.
+851. [2:18:45] Ronnie Ignacio: Good. So from our point of view, we've got some um improvements to the process from his point of view. Uh I think Ronnie, can I ask for your help here, mate? Are you still with us?
+852. [2:18:55] Ronnie Ignacio: Yeah. Just in here.
+853. [2:18:58] Ronnie Ignacio: Oh yeah. Um a favor, Ronnie, just to help group this up. crushes of what I'll do here. Um tomorrow, Ronnie, or whenever you can, because it's knock off time. Um can you pull out the transcript from the circlebat nodes? Way back, it was about 3 30 that we started talking about tap that. Just grab those notes independently and wash them through tap that to do two things, please, mate. One, update the 3D process documents and two, produce a um you know, no more than 12 page summary with the with the key items that. the t the key items that we need to take Justin through following the discovery process.
+854. [2:19:54] Clent Jewell: Okay, got it.
+855. [2:19:56] Ronnie Ignacio: Okay,
+856. [2:19:57] Christy Kilmartin: Ronnie.
+857. [2:19:58] Clent Jewell: Yep.
+858. [2:20:00] Participant 2: Um I'm gonna send you my the emails where I took my notes as well, just to tuck that in as well. Sort of the things that I talked about so that you know different misses we've got a record of it.
+859. [2:20:16] Ronnie Ignacio: Got it. Just send it through to my email so I can get it.
+860. [2:20:19] Participant 2: Yeah.
+861. [2:20:21] Ronnie Ignacio: And just prioritize in the prompt, prioritize Christy's notes over the fucking um. endless verbatum out of the transcript, if that makes sense.
+862. [2:20:32] Ronnie Ignacio: Yep, makes sense.
+863. [2:20:34] Ronnie Ignacio: Thanks, brother. And we'll uh flush that back to Christy um for his review because I reckon Rough's the best leading this one, and then we'll um Christ, I'm out until next Tuesday, so I'll just go back to Justin. I think I'll go back now and just say, hey mate, we've just spent you know a fair bit of time putting in gray matter having to think about how we help help as best we can. We just need a little bit more time, eh?
+864. [2:21:01] Christy Kilmartin: Yeah.
+865. [2:21:03] Ronnie Ignacio: Cool.
+866. [2:21:03] Christy Kilmartin: Yeah.
+867. [2:21:04] Ronnie Ignacio: Cool.
+868. [2:21:05] Christy Kilmartin: Exactly.
+869. [2:21:06] Ronnie Ignacio: All right. Cool. Thanks, boys. Really appreciate everyone's time and talent.
+870. [2:21:12] Christy Kilmartin: All right, nice.
+871. [2:21:13] Ronnie Ignacio: Good stuff.
+872. [2:21:13] Christy Kilmartin: Good one.
+873. [2:21:14] Ronnie Ignacio: All right.
+874. [2:21:14] Christy Kilmartin: Nice one, Joel.
+875. [2:21:16] Ronnie Ignacio: Ronnie, do you need me at all? Or are we what are we doing? Chris, I'll let you please if you want. Oh Ronnie Ignacio Back notes and uh Christ, I'll call you I'll call

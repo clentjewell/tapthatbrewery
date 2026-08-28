@@ -44,7 +44,7 @@ Trivia, bingo, open mic and comedy are **not scheduled**. If someone proposes on
 |---|---|---|---|
 | 1 | Define the host offer: a keg on the house or equivalent token value, hard-capped **[value TBC – Justin]** | Jewell + Justin | Week 1 |
 | 2 | Build the host kit: pour guide, tasting notes card, referral cards with the host’s name pre-filled, a QR to the calculator | Jewell | Week 2 |
-| 3 | Recruit the first 10 hosts from members (18% leakage – the most engaged cohort) | Raef/Harry | Week 3 |
+| 3 | Recruit the first 10 hosts from members (18% leakage – the most engaged cohort) | Harry/Harry | Week 3 |
 | 4 | Book and run: host invites their own guests, venue supplies beer and materials, no staff attendance required | Host | Weeks 4–8 |
 | 5 | Follow up every guest within 48h with the calculator link and a first-fill offer | Jewell, automated via #69 | Ongoing |
 | 6 | Review after 10 demos before scaling | Jewell | Week 12 |
@@ -66,12 +66,12 @@ Target: attendance from 27% to ≥45% within two cycles.
 
 | # | Mechanic | Owner |
 |---|---|---|
-| 1 | Giveaway-entry QR at the door and on every table – the hand-raise that starts the 90-day nurture | Raef/Harry |
-| 2 | Tap wall does the demo work: a system pouring, visible, with a price card showing non-member first | Raef/Harry |
+| 1 | Giveaway-entry QR at the door and on every table – the hand-raise that starts the 90-day nurture | Harry/Harry |
+| 2 | Tap wall does the demo work: a system pouring, visible, with a price card showing non-member first | Harry/Harry |
 | 3 | Referral mechanic spoken at the bar, not just signed | Bar staff |
 | 4 | 18+ ID discipline and RSA in force; responsible-service signage visible | Justin |
-| 5 | Content captured – one clip and five stills per event, minimum | Raef/Harry |
-| 6 | Entries and contacts uploaded to the CRM within 48h with consent recorded | Raef/Harry |
+| 5 | Content captured – one clip and five stills per event, minimum | Harry/Harry |
+| 6 | Entries and contacts uploaded to the CRM within 48h with consent recorded | Harry/Harry |
 
 An event without mechanic 1 and mechanic 6 is bar trade, not marketing, and is not reported here.
 
@@ -83,7 +83,7 @@ Named groups already buying: **Tesla, Fire Ant, Kombie Life, Springbok Foods, Bu
 |---|---|---|
 | 1 | One-page workplace offer: knock-off systems, EOFY invoice-friendly, delivery where available | Jewell |
 | 2 | Direct approach to each named group’s organiser – the person who already orders | Justin |
-| 3 | Offer each a hosted Friday knock-off at the venue as the entry point | Raef/Harry |
+| 3 | Offer each a hosted Friday knock-off at the venue as the entry point | Harry/Harry |
 | 4 | Track which convert to a workplace system | Jewell |
 
 ## Measurement hooks

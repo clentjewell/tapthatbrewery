@@ -35,7 +35,7 @@ Rule: the manual sends continue on their existing rhythm until the automated equ
 
 | # | Step | Owner | Done |
 |---|---|---|---|
-| 0.1 | Export all lists: Brew Buds, Keg Crew, Mug Club, giveaway entrants, GoTab customer records | Raef/Harry | One CSV each, dated |
+| 0.1 | Export all lists: Brew Buds, Keg Crew, Mug Club, giveaway entrants, GoTab customer records | Harry/Harry | One CSV each, dated |
 | 0.2 | Classify consent per contact per channel – express, inferred, or none (Spam Act 2003) | Jewell | Consent column populated; "none" is suppressed, not mailed |
 | 0.3 | Confirm giveaway entry forms captured **ongoing** marketing opt-in, not promotion-only | Jewell | If not: those entrants get one permission-request send, then suppression |
 | 0.4 | De-duplicate across lists on mobile then email | Jewell | Single record per person |
@@ -70,7 +70,7 @@ Built in this order because each one’s data feeds the next.
 | 5 | **Winback ladder** | Crossing 90 days | $20-off / 7-day window as today, then tested alternatives; response logged per offer | On CRM integration |
 | 6 | **Member renewal** | 45 / 14 / 0 days pre-expiry | Value restated in dollars actually saved | **Blocked** on membership pricing reconciliation (open item #2) |
 
-Sequences 1–3 run on manual CSV triggers from day one. Sequences 4–5 need the transaction feed; until GoTab × Fishbowl lands (**date outstanding**), Raef/Harry runs a fortnightly manual pull: export days-since-last-keg, filter to the 60/75/90 bands, upload as three segments, fire the sends. Fifteen minutes a fortnight is the interim price of an unknown integration date.
+Sequences 1–3 run on manual CSV triggers from day one. Sequences 4–5 need the transaction feed; until GoTab × Fishbowl lands (**date outstanding**), Harry/Harry runs a fortnightly manual pull: export days-since-last-keg, filter to the 60/75/90 bands, upload as three segments, fire the sends. Fifteen minutes a fortnight is the interim price of an unknown integration date.
 
 ## Segmentation that the census earned
 

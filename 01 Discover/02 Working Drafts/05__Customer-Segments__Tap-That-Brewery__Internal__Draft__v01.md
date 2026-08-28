@@ -42,7 +42,7 @@ The one segment where the maths leads openly: a 20L keg is 44 schooners for $120
 
 ### 3. Cashed-up tradies (~20%)
 
-Gold Coast trade money with a shed, a ute and an unfinished outdoor build. The keg system is the crown of the man-cave – this is where 4-tap ($1,950) and 6-tap ($2,550) sales live, and where Afterpay/Zip matter most. Reachable through 4WD/outdoor culture (the Benchy portable tap, Raef’s cousin’s 4WD fit-out network) and install UGC. Kudos leads; the mates' reaction is the ad.
+Gold Coast trade money with a shed, a ute and an unfinished outdoor build. The keg system is the crown of the man-cave – this is where 4-tap ($1,950) and 6-tap ($2,550) sales live, and where Afterpay/Zip matter most. Reachable through 4WD/outdoor culture (the Benchy portable tap, Harry’s cousin’s 4WD fit-out network) and install UGC. Kudos leads; the mates' reaction is the ad.
 
 ### 4. Baby boomers (~20%)
 

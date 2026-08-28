@@ -27,13 +27,13 @@ The category’s structural blind spot. Every competitor sells kegs; nobody owns
 |---|---|
 | **Evidence** | ~56% of the 206 keg system owners in the database bought their system elsewhere and switched – with zero targeted campaign. ~70% of corny-keg holdouts converted to the Talos plastic keg once they experienced it. |
 | **Size signal** | If 56% of the current base arrived organically – 116 of your 206 owners bought their system elsewhere – the addressable installed base is plausibly several multiples of 206. It is the discovery session’s stated "lowest-hanging fruit," and D06's H1 hypothesises switchers beat new-owner acquisition on CAC – no $975 objection, no 3-month buying cycle, margin from the first fill. |
-| **What claiming it takes** | A named "we fill any system" campaign lane (currently the offer exists but is unspoken); a first-fill switch incentive (Tap Tokens or member-rate first keg); corny Tue→Fri turnaround as the service proof; landing page + Meta/local targeting at homebrew and keg-owner audiences. Low capex – the constraint is Raef’s ~70% marketing allocation. |
+| **What claiming it takes** | A named "we fill any system" campaign lane (currently the offer exists but is unspoken); a first-fill switch incentive (Tap Tokens or member-rate first keg); corny Tue→Fri turnaround as the service proof; landing page + Meta/local targeting at homebrew and keg-owner audiences. Low capex – the constraint is Harry’s ~70% marketing allocation. |
 
 ## Gap 2 – The portable/outdoor tap category (Benchy – zero competitors)
 
 | | |
 |---|---|
-| **Evidence** | The Benchy portable unit (Kegland hardware) targets 4WD, camping, boating and caravan use – discovery’s flat statement: *no direct competitors currently.* Raef’s cousin runs a 4WD fit-out business and has confirmed client interest. The Smoked Barbecue Co Father’s Day collab already proves the adjacent outdoor-living partnership model. |
+| **Evidence** | The Benchy portable unit (Kegland hardware) targets 4WD, camping, boating and caravan use – discovery’s flat statement: *no direct competitors currently.* Harry’s cousin runs a 4WD fit-out business and has confirmed client interest. The Smoked Barbecue Co Father’s Day collab already proves the adjacent outdoor-living partnership model. |
 | **Size signal** | Qualitative only (one channel contact, no sales data) – but category creation, not share-stealing: 4WD/outdoor retail reaches buyers with money for lifestyle rigs, 6–9 months ahead of purchase intent, in channels no keg rival occupies. Every Benchy is a new refill account in a segment competitors can’t see. |
 | **What claiming it takes** | Productise it (pricing, bundle, name it on the price card – currently absent); one flagship fit-out partnership via the existing 4WD contact; content built for the segment (rig installs, campsite pours – UGC-native); a decision on refill logistics for customers who roam (5L format and delivery both help). Modest effort, but it needs an owner or it stays an anecdote. |
 

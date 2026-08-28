@@ -24,7 +24,7 @@ The business is loss-making and has never run structured paid media. This plan i
 
 | Channel | Role | Why it earns a place |
 |---|---|---|
-| **Meta (FB/IG)** | Demand creation + nurture. Amplify the two proven mechanics: giveaway entries (~1,000/round organic today) and the 90-day consideration window (60% take up to 3 months) | The segments live here; @tapthatbreweryandkeghouse creative already exists via Raef; retargeting is the only paid way to manage a 3-month cycle |
+| **Meta (FB/IG)** | Demand creation + nurture. Amplify the two proven mechanics: giveaway entries (~1,000/round organic today) and the 90-day consideration window (60% take up to 3 months) | The segments live here; @tapthatbreweryandkeghouse creative already exists via Harry; retargeting is the only paid way to manage a 3-month cycle |
 | **Google Search** | Demand capture only. High-intent keg terms, geo-fenced Gold Coast | Someone typing "keg refill Gold Coast" or "kegerator refill near me" is a switcher – the cheapest customer in the model (56% of owners already arrived this way unaided) |
 
 Nothing else. No TikTok, no YouTube, no display, no Spotify – not because they can’t work, but because a ~70%-allocation marketer cannot feed three channels and the first two map directly to proven mechanics.

@@ -26,11 +26,11 @@ Each pilot needs three things before first contact: a named owner, a one-page of
 | Order | Pilot | Why now | Owner | Gate |
 |---|---|---|---|---|
 | 1 | **Workplace groups** (Tesla, Fire Ant, Kombie Life, Springbok Foods, Burleigh Pools, Mr Consistent) | Already buying. Warmest possible pipeline, zero acquisition cost | Justin | None – start week 1 |
-| 2 | **Smoked Barbecue Co repeat** (Father’s Day bundle) | Template proven; the relationship exists | Raef/Harry | Prize/bundle costing |
-| 3 | Benchy 4WD fit-out | Zero-competitor lane | Raef/Harry | Benchy productisation + pricing (~Jan 27) |
+| 2 | **Smoked Barbecue Co repeat** (Father’s Day bundle) | Template proven; the relationship exists | Harry/Harry | Prize/bundle costing |
+| 3 | Benchy 4WD fit-out | Zero-competitor lane | Harry/Harry | Benchy productisation + pricing (~Jan 27) |
 | 4 | Sports club white-label | One-pager makes it pitch-ready | Justin | Non-CUB club identified |
 | 5 | PR-agency venue hire | One-pager makes it pitch-ready | Justin | Venue spec sheet |
-| 6 | Hop On Brewery Tours / Never Quit Gym | Instrumentation of live relationships, not new BD | Raef/Harry | Measurement only |
+| 6 | Hop On Brewery Tours / Never Quit Gym | Instrumentation of live relationships, not new BD | Harry/Harry | Measurement only |
 | 7 | Wedding & function venues | Rides on functions collateral | Justin | Catering roster settled |
 
 Items 6 and 7 are not pilots and don’t count against the two-at-once cap – 6 is measurement of something already happening, 7 is a collateral drop.
@@ -41,8 +41,8 @@ Items 6 and 7 are not pilots and don’t count against the two-at-once cap – 6
 |---|---|---|---|
 | 1 | Research: what they sell, who their customer is, what the offer does for **their** margin | Day 0 | Jewell |
 | 2 | One-page offer written from the partner’s side of the table | Day 1 | Jewell |
-| 3 | First contact – founder to owner where possible; DM is acceptable to open, never to negotiate | Day 3 | Justin or Raef/Harry |
-| 4 | **Reply logged the same day in the partner tracker.** This is the step that currently fails | Day 3+ | Raef/Harry |
+| 3 | First contact – founder to owner where possible; DM is acceptable to open, never to negotiate | Day 3 | Justin or Harry/Harry |
+| 4 | **Reply logged the same day in the partner tracker.** This is the step that currently fails | Day 3+ | Harry/Harry |
 | 5 | Meeting at the venue – the tap wall does half the selling | Day 7–14 | Justin |
 | 6 | Written pilot terms: what each side supplies, the metric, the review date | Day 14 | Jewell |
 | 7 | Launch, with a diarised 30/60/90 check | Day 21 | Owner |
@@ -67,10 +67,10 @@ Referral already delivers **18% of acquisition** while fewer than half the base 
 | # | Action | Owner | Timing |
 |---|---|---|---|
 | 1 | Referral card in or on **every keg that leaves** – three rewards, QR, referrer name field | Jewell designs, venue executes | Week 2 |
-| 2 | Counter script at every fill, same discipline as the review ask | Raef/Harry + bar staff | Week 1 |
+| 2 | Counter script at every fill, same discipline as the review ask | Harry/Harry + bar staff | Week 1 |
 | 3 | Referral beat at day 30 of onboarding and in the SMS footer (#69) | Jewell | Week 4 |
-| 4 | Pinned social post + monthly leaderboard slot (#67) | Raef/Harry | Week 1 |
-| 5 | Venue-referral push aimed specifically at customers who work in hospitality – 4.2% awareness is the widest gap | Raef/Harry | Month 2 |
+| 4 | Pinned social post + monthly leaderboard slot (#67) | Harry/Harry | Week 1 |
+| 5 | Venue-referral push aimed specifically at customers who work in hospitality – 4.2% awareness is the widest gap | Harry/Harry | Month 2 |
 | 6 | Re-measure at the next census | Jewell | Next survey |
 
 ## The one-pagers to write (week 1–3)

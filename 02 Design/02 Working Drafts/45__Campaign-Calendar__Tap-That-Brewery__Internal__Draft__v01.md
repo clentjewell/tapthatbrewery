@@ -16,7 +16,7 @@
 
 ## How to read this
 
-The always-on layer (#43) runs every month underneath: Raef’s social cadence (3 posts + 3–4 stories/week, #41), lifecycle messaging (manual SMS winback until GoTab × Fishbowl automation lands), local SEO upkeep, and continuous referral promotion (#44). The table shows what changes month to month. **Capacity key: R = Raef runs it inside his ~70% allocation · J = needs Jewell build/production support · C = client decision or founder time.** A month with more than one J-heavy line is deliberately rare – one marketer is the constraint the whole calendar is designed around.
+The always-on layer (#43) runs every month underneath: Harry’s social cadence (3 posts + 3–4 stories/week, #41), lifecycle messaging (manual SMS winback until GoTab × Fishbowl automation lands), local SEO upkeep, and continuous referral promotion (#44). The table shows what changes month to month. **Capacity key: R = Harry runs it inside his ~70% allocation · J = needs Jewell build/production support · C = client decision or founder time.** A month with more than one J-heavy line is deliberately rare – one marketer is the constraint the whole calendar is designed around.
 
 ## Month-by-month
 
@@ -37,13 +37,13 @@ The always-on layer (#43) runs every month underneath: Raef’s social cadence (
 
 ## Standing rhythms (every month, not repeated above)
 
-- **Raef:** monthly batch shoot (week 1), Buffer scheduling, monthly email, Google Business post, referral counter scripts, wholesale DM log (#42 rhythm).
+- **Harry:** monthly batch shoot (week 1), Buffer scheduling, monthly email, Google Business post, referral counter scripts, wholesale DM log (#42 rhythm).
 - **Jewell:** monthly one-page report – actives (75-day rule) vs 300/450 staging, new actives by source, campaign metrics per #43.
-- **Events:** ticketed music nights (reggae/Brazilian/duffs) continue as venue revenue + content moments – booked by the venue, amplified by Raef; not a Jewell workstream.
+- **Events:** ticketed music nights (reggae/Brazilian/duffs) continue as venue revenue + content moments – booked by the venue, amplified by Harry; not a Jewell workstream.
 
 ## Capacity honesty – the load picture
 
-Raef’s heavy months are Oct, Jan and Mar (campaign launches – all in his existing strength: giveaway and event content). Jewell’s heavy months are Sep (switcher build + giveaway prep), Nov (close + reporting), Feb (automation go-live) and Mar (Benchy productisation). Dec, Apr and Jun–Jul are deliberately light: a solo-marketer calendar needs recovery months or it fails by March. If any Jewell build slips, the rule from #43 applies – the always-on layer and manual SMS degrade gracefully; campaign windows move rather than stack.
+Harry’s heavy months are Oct, Jan and Mar (campaign launches – all in his existing strength: giveaway and event content). Jewell’s heavy months are Sep (switcher build + giveaway prep), Nov (close + reporting), Feb (automation go-live) and Mar (Benchy productisation). Dec, Apr and Jun–Jul are deliberately light: a solo-marketer calendar needs recovery months or it fails by March. If any Jewell build slips, the rule from #43 applies – the always-on layer and manual SMS degrade gracefully; campaign windows move rather than stack.
 
 ## Assumptions & open items
 

@@ -17,10 +17,10 @@
 
 | # | Stage | Mechanism today | Conversion | Status |
 |---|---|---|---|---|
-| 1 | **Awareness** | Raef’s organic social (@tapthatbreweryandkeghouse), giveaway promotion, ticketed events, Hop On tour groups, Gold Coast Bulletin press, industrial-area drive-by | Reach/traffic unknown | ⚠ Unmeasured |
+| 1 | **Awareness** | Harry’s organic social (@tapthatbreweryandkeghouse), giveaway promotion, ticketed events, Hop On tour groups, Gold Coast Bulletin press, industrial-area drive-by | Reach/traffic unknown | ⚠ Unmeasured |
 | 2a | **Taproom visit** | 27-tap venue, paddles ($18/20), Knockoffs happy hour, shuffleboard, functions | Visitor volume unknown | ⚠ Unmeasured |
 | 2b | **Giveaway entry** | 2×/yr competitions | **~1,000 entries/cycle** | ✅ Measured |
-| 3 | **System purchase** | Taproom demo: **20–30% of visitors** eventually buy (client estimate). Giveaway: 50%-off close converts **22–25 systems** (~2.2–2.5% of entries) | Partially measured | ⚠ Estimate + recall |
+| 3 | **System purchase** | Taproom demo: **20–30% [unverified – see #20B] of visitors** eventually buy (client estimate). Giveaway: 50%-off close converts **22–25 systems** (~2.2–2.5% of entries) | Partially measured | ⚠ Estimate + recall |
 | 4 | **Refill activation** | Bonus credit ($40–100) forces the first refill; corny Tue→Fri service; "we fill any system" for switchers | Activation rate unknown | ⚠ Unmeasured |
 | 5 | **Refill cadence** | ~1.55 kegs/month (census) ≈ $200/month; active <75 days | 206 owners / 96–113 active | ✅ Measured |
 | 6 | **Membership attach** | Keg Crew $250/yr ($30 off every refill – ~4-month payback at cadence) | Attach rate unknown | ⚠ Unmeasured |

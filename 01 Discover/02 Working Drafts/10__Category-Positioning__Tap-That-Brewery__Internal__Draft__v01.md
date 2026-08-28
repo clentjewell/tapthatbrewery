@@ -37,7 +37,7 @@ The structural point: **only the first row sells what Tap That Brewery sells.** 
 
 **Axis 1 – Freshness & range.** 20L kegs brewed on site versus the industry’s commodity 50L format; 27 taps with roughly a third deliberately non-beer (seltzers, RTDs, cocktails, ginger beer); a first-year Brewer’s Choice award at Crafted (Midnight in Tokyo) as third-party proof. No local rival can claim the range breadth, and no online distributor can claim the freshness – this axis beats both at once.
 
-**Axis 2 – Ecosystem & belonging.** Keg Crew membership, Tap Tokens with a public leaderboard (top holder 7,569 points as of 1/8/26), referral rewards (1,000 tokens per system referral), 2×/year giveaways drawing ~1,000 entries, brewery tours, functions, and a taproom that converts 20–30% of visitors into system owners. Competitors run keg swaps; Tap That Brewery runs a club. "We’re in the business of connection and good times" is the owner’s own sentence – this axis is that sentence operationalised.
+**Axis 2 – Ecosystem & belonging.** Keg Crew membership, Tap Tokens with a public leaderboard (top holder 7,569 points as of 1/8/26), referral rewards (1,000 tokens per system referral), 2×/year giveaways drawing ~1,000 entries, brewery tours, functions, and a taproom that converts 20–30% [unverified – see #20B] of visitors into system owners. Competitors run keg swaps; Tap That Brewery runs a club. "We’re in the business of connection and good times" is the owner’s own sentence – this axis is that sentence operationalised.
 
 Everything else (service turnaround, delivery, Benchy) hangs off these two. If a piece of creative can’t be traced to freshness/range or ecosystem/belonging, it is off-position.
 

@@ -16,7 +16,7 @@
 
 ---
 
-One rule: if a number doesn’t move active keg customers or explain why they moved, it isn’t reported. Sized for Raef (~70% marketing) plus two founders – a one-page weekly, a one-hour monthly, nothing more.
+One rule: if a number doesn’t move active keg customers or explain why they moved, it isn’t reported. Sized for Harry (~70% marketing) plus two founders – a one-page weekly, a one-hour monthly, nothing more.
 
 ## North-star metric
 
@@ -30,8 +30,8 @@ One rule: if a number doesn’t move active keg customers or explain why they mo
 | Churn & saves | Actives crossing 90 days; at-risk customers recovered by 60/75/90-day touches | The leak automation exists to plug (H4) | GoTab + Fishbowl |
 | Switcher adds | New refill customers whose system wasn’t bought here | P1's headline; the 50%-organic figure becomes a managed channel (H1) | GoTab (flag at first fill) |
 | Giveaway → purchase | Entrants (~1,000/cycle) → systems bought; today 22–25 via the 50% close | Nurture (H3) must beat this or it isn’t working | Entry list + GoTab |
-| Taproom → system | % of visitors buying a system (client estimate 20–30%) | The venue’s entire justification, measured | Demo QR/CTA capture + GoTab |
-| CAC by channel | Spend ÷ new actives: switcher ads, giveaway, taproom, referral, JV/club | Decides where next dollar and Raef-hour go | Meta/Buffer spend + GoTab |
+| Taproom → system | % of visitors buying a system (client estimate 20–30% [unverified – see #20B]) | The venue’s entire justification, measured | Demo QR/CTA capture + GoTab |
+| CAC by channel | Spend ÷ new actives: switcher ads, giveaway, taproom, referral, JV/club | Decides where next dollar and Harry-hour go | Meta/Buffer spend + GoTab |
 | Member share of refills | % of refills on Keg Crew ($250/yr, $30 off/refill) | Membership is the retention lock; also flags lapsed members early | GoTab |
 | Referral redemptions | Tap Token referral rewards claimed (1,000/system, 500/refill) | Cheapest channel; currently wall-signage only | GoTab / Tap Tokens |
 
@@ -48,15 +48,15 @@ One rule: if a number doesn’t move active keg customers or explain why they mo
 1. **No churn-rate baseline** – 75/90-day definitions exist, but no counted monthly flow between states. First job after integration.
 2. **Switchers aren’t flagged** – the 50% figure is an estimate; add a one-question flag at first fill ("where’s your system from?").
 3. **Taproom conversion is folklore** – 20–30% is a client estimate with no capture mechanism.
-4. **No channel attribution** – spend and Raef-hours aren’t tied to new actives anywhere.
+4. **No channel attribution** – spend and Harry-hours aren’t tied to new actives anywhere.
 5. **Giveaway entrants aren’t tracked post-competition** – the 3-month cycle happens in the dark.
 6. **Census data not yet received** (Clent → Jules, carried action) – pillar messaging and delivery pricing rest on headline figures only.
 
 ## Reporting rhythm
 
-**Weekly (15 min, Raef compiles Monday):** actives / at-risk / churned counts; refills last 7 days; switcher adds; new system sales; one line on what changed. Single page, same template, posted where founders see it.
+**Weekly (15 min, Harry compiles Monday):** actives / at-risk / churned counts; refills last 7 days; switcher adds; new system sales; one line on what changed. Single page, same template, posted where founders see it.
 
-**Monthly (1 hour, Raef + Chris + Justin):** north star vs phase gate (#25); churn and saves; CAC by channel; member share; giveaway funnel when a cycle is live; one decision recorded – what gets more effort, what gets less. Kill or scale one thing every month.
+**Monthly (1 hour, Harry + Chris + Justin):** north star vs phase gate (#25); churn and saves; CAC by channel; member share; giveaway funnel when a cycle is live; one decision recorded – what gets more effort, what gets less. Kill or scale one thing every month.
 
 **Quarterly (within monthly, extended):** milestone gate review against #25; hypothesis scorecard (H1–H7: supported / refuted / untested); census or pricing refresh check.
 

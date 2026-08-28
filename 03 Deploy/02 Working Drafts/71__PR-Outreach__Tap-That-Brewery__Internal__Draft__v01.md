@@ -24,7 +24,7 @@ Earned only. No retainer, no wire, no spend beyond hours. One pitch cycle per qu
 | Asset | Contents | Owner |
 |---|---|---|
 | **Media kit** | 200-word boilerplate, founder bios (Chris Smith, Justin Mistry), venue specs, award record, high-res imagery, logo files | Jewell |
-| **Image bank** | Brewery floor, tap wall, a customer install, founders, product shots – 10 usable stills, cleared for editorial use | Raef/Harry |
+| **Image bank** | Brewery floor, tap wall, a customer install, founders, product shots – 10 usable stills, cleared for editorial use | Harry/Harry |
 | **Fact sheet** | Verified numbers only, dated. See "What may be said publicly" below | Jewell |
 | **Spokesperson notes** | Three questions each founder should expect, and the answer to "how many customers do you have?" | Jewell + Justin |
 

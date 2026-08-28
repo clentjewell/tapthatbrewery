@@ -26,7 +26,7 @@ The proven engine, currently unnurtured: ~1,000 entries/cycle, 50%-off close con
 
 | # | Timing | Content | Job |
 |---|---|---|---|
-| 1 | Entry +0 | Confirmation + "while you wait" venue invite (tasting paddle) | Get them into the room where 20–30% convert |
+| 1 | Entry +0 | Confirmation + "while you wait" venue invite (tasting paddle) | Get them into the room where 20–30% [unverified – see #20B] convert |
 | 2 | +7d | Which-system chooser (2-tap $975 → 6-tap) + at-cost explanation | Educate |
 | 3 | +14d | Objection 1: partner veto → the 1/3 non-beer tap wall, her-drinks beat | Disarm |
 | 4 | +21d | Objection 2: "I’ll drink too much" → census (57% pour daily or most days, yet average just ~1.55 kegs a month (census)) + cost maths as quiet close | Disarm + justify |

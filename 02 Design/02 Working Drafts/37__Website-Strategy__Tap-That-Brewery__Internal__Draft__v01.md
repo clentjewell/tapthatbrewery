@@ -18,7 +18,7 @@
 
 ## The site’s job, in one sentence
 
-The taproom converts 20–30% of visitors into keg system owners because people *see the thing working*. The website’s job is to be that demo floor for everyone who isn’t standing in Burleigh – and, critically, to **manage the 3-month consideration window** that the venue currently leaves to memory. ~60% of buyers take up to three months to commit and 40% take longer; today nothing owned and digital nurtures them between "that’s a keg system?" and the $975 decision. The site is where that gap closes.
+The taproom converts 20–30% [unverified – see #20B] of visitors into keg system owners because people *see the thing working*. The website’s job is to be that demo floor for everyone who isn’t standing in Burleigh – and, critically, to **manage the 3-month consideration window** that the venue currently leaves to memory. ~60% of buyers take up to three months to commit and 40% take longer; today nothing owned and digital nurtures them between "that’s a keg system?" and the $975 decision. The site is where that gap closes.
 
 The current tapthatbrewery.com.au has not been audited – every claim about what exists today is [pending site audit]. This document specifies what the site must *do*; #38–#40 specify structure, pages and search.
 

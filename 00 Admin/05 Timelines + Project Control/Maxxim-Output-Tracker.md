@@ -2,7 +2,9 @@
 
 The engagement's target output set: the **Maxxim 3D document catalogue** (65 documents, production order), from "Maxxim 3D — Documents & the Skill Behind Each." "Sign-off" = client sign-off required. CP1/CP2 = phase checkpoints.
 
-**Status as at 20 August 2026: 77 catalogue documents drafted (v01), plus #20A Evidence Reconciliation.** Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design and Deploy sets were produced ahead of CP1/CP2, so the open items below may revise inputs.
+**Status as at 28 August 2026: 77 catalogue documents drafted (v01), plus #20A and #20B reconciliations.**
+
+> **Advisory review, 27 August.** The set went to Christy Kilmartin before it reached the client. The verdict: accurate, but not hard enough for a business that is losing money. Four facts Discover never states, three proof points we can no longer lean on, and a re-sequencing of the whole engagement — Discover is now an input to the next step rather than the output, and the next deliverable is a 10–12 slide deck to Justin and Harry, not a signed CP1. Recorded in **#20B**. Read it before working any document in this set. Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design and Deploy sets were produced ahead of CP1/CP2, so the open items below may revise inputs.
 
 | Phase | Documents | Status |
 |---|---|---|
@@ -133,7 +135,7 @@ These appear as flagged caveats throughout the documents. Closing them is the fa
 |---|---|---|---|
 | 1 | ~~Census data + supporting business docs~~ | — | **CLOSED 19 Aug** — received and reconciled in #20A. Corrections **applied in place across 46 documents on 20 Aug**; the 19 Aug pass added the evidence-note banner but left most figures as drafted. |
 | 2 | Membership pricing reconciliation — two conflicting posters live in venue ($250/yr vs $300 + $120 renewal, different token bonuses) | Client | Every brief, the website Membership page, all collateral — the single most-cited blocker |
-| 3 | Competitor name verification — "Aardvark & Arrow" (handwritten) vs "Ardbach and Arrow" (transcript) | Jewell | Competitor content, comparison pages |
+| 3 | ~~Competitor name verification~~ | — | **CLOSED 27 Aug — Aardvark and Arrow.** Their domain is suspended and they have joined up with Burleigh Homebrew. Comparison content unblocked; the competitive picture is weaker than we assumed. |
 | 4 | GoTab / Fishbowl integration date | Client | CRM Plan (#48), EDM automation (#47), lease-to-buy |
 | 5 | P&L detail — unit-level revenue and the taproom's actual loss. *(Partly closed: unit economics received — LTGP $2,100 residential / $21,840 venue, $70 GP/keg, $300 kegerator margin. Still missing: P&L, COGS, CAC, margin.)* | Client | Business Plan (#23), budget setting |
 | 6 | Founder confirmations — timeframe for the 1,000 target, taproom loss tolerance, franchise-story consent for PR | Client | OKRs (#19), PR Plan (#49), CP2 |
@@ -148,6 +150,11 @@ These appear as flagged caveats throughout the documents. Closing them is the fa
 | 14 | **Which plan is live?** Scaling Up, Growth Playbook and Future of Tap That name three different core metrics and three horizons. | Founders | #18, #23, #24, #63 |
 | 15 | **Is cost on or off the table?** Scaling Up forbids price competition; the census ranks cost the #2 purchase driver. | Founders | #31, #32, #33, #35, #46 |
 | 16 | **Prior Meta ad account** — an agency ran campaigns; historical creative and performance data exist. | Client | #46, #56 |
+| 17 | **Cost drivers** — COGS, the true cost of carrying 27 taps, and the taproom's actual monthly loss. Without these no business recommendation is more than an opinion. | Client | #23, and every recommendation that assumes the business can fund it |
+| 18 | **A measured taproom conversion rate** — the 20–30% figure is the client's estimate and is not credible at that level. Replace it with something observed. | Client | #17, #43, #62, #65 |
+| 19 | **Unit economics of a schooner** — three figures are in circulation: $2.70 (Christy), $2.98/$2.34 (our documents), $2.55/$3.19 (verified price list at 47 schooners). Settle it before it goes in an ad. | Jewell + Client | All creative, #46, #56, #66 |
+| 20 | **Taproom decision** — restrict hours and run it as a tasting/event venue, or keep it open as a drop-in. It is the zero-sum question at the centre of the business. | Founders | #43, #45, #50, #62, #72 |
+| 21 | **Range simplification** — cut to ~6 core beers plus seasonals, or keep 27 taps. Decision anxiety versus choice, and a live cost driver either way. | Founders | #14, #15, #23, #42 |
 
 ## Client source documents (received 19 Aug 2026)
 

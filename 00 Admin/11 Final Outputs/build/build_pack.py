@@ -29,6 +29,7 @@ CAT = {
  19:("Objectives & Key Results","Discover","objectives-key-results"),
  20:("Discover Summary (CP1)","Discover","discover-summary"),
  205:("Evidence Reconciliation (20A)","Discover","evidence-reconciliation"),
+ 206:("Advisory Review Reconciliation (20B)","Discover","advisory-review-reconciliation"),
  21:("Priority Problems To Solve","Discover","priority-problems"),
  22:("Recommended Next Moves","Discover","recommended-next-moves"),
  23:("Business Plan","Design","business-plan"),
@@ -112,6 +113,9 @@ def find_files():
             m = re.match(r'^20A__', base)
             if m:
                 found[205] = p; continue
+            m = re.match(r'^20B__', base)
+            if m:
+                found[206] = p; continue
             m = re.match(r'^(\d{2})__', base)
             if m:
                 found[int(m.group(1))] = p; continue
@@ -302,11 +306,11 @@ def main():
     if missing:
         print("MISSING:", missing)
     docs = []
-    for n in sorted(CAT, key=lambda k: 20.5 if k == 205 else k):
+    for n in sorted(CAT, key=lambda k: {205: 20.5, 206: 20.6}.get(k, k)):
         if n not in files:
             continue
         title, phase, slug = CAT[n]
-        label = "20A" if n == 205 else f"{n:02d}"
+        label = {205: "20A", 206: "20B"}.get(n) or f"{n:02d}"
         docs.append(dict(n=n, label=label, title=title, phase=phase, slug=slug,
                          html=convert(files[n]), signoff=n in SIGNOFF))
     total = len(docs)

@@ -18,7 +18,7 @@
 
 ## The job
 
-Rebuild tapthatbrewery.com.au as the digital half of the funnel the venue already runs. Discovery’s finding (#12): the taproom converts 20–30% of visitors because the proof is on the walls – the web carries almost none of it, and the 3-month buying cycle happens away from the venue. The site’s job is to carry the same proof to people mid-cycle. *(Source plan: website strategy/sitemap document not yet drafted – this brief works from the Discover base and #12's deployment map; reconcile if a sitemap document lands.)*
+Rebuild tapthatbrewery.com.au as the digital half of the funnel the venue already runs. Discovery’s finding (#12): the taproom converts 20–30% [unverified – see #20B] of visitors because the proof is on the walls – the web carries almost none of it, and the 3-month buying cycle happens away from the venue. The site’s job is to carry the same proof to people mid-cycle. *(Source plan: website strategy/sitemap document not yet drafted – this brief works from the Discover base and #12's deployment map; reconcile if a sitemap document lands.)*
 
 ## Pages
 
@@ -49,7 +49,7 @@ Per #55: URL structure and on-page targets for the priority clusters ("keg refil
 
 ## Analytics
 
-GA4 + Meta Pixel (age-gated audiences per #56). Events: demo_booked, giveaway_entry, calculator_used, gotab_click, membership_click, function_enquiry. UTM discipline documented for Raef.
+GA4 + Meta Pixel (age-gated audiences per #56). Events: demo_booked, giveaway_entry, calculator_used, gotab_click, membership_click, function_enquiry. UTM discipline documented for Harry.
 
 ## Acceptance criteria
 
@@ -57,7 +57,7 @@ GA4 + Meta Pixel (age-gated audiences per #56). Events: demo_booked, giveaway_en
 2. Demo booking and giveaway entries arrive in CRM with all fields intact, tested end-to-end.
 3. All six #12 differentiators visibly deployed on the mapped pages.
 4. Age gate on entry; DrinkWise/responsible-service footer; gluten-*reduced* wording only.
-5. Mobile-first passes Core Web Vitals; site editable by Raef without a developer for prices, tap list and events.
+5. Mobile-first passes Core Web Vitals; site editable by Harry without a developer for prices, tap list and events.
 
 ## Assumptions & open items
 

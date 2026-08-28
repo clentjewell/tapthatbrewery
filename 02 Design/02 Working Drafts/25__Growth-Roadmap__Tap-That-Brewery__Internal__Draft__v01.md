@@ -16,7 +16,7 @@
 
 ---
 
-Four phases, each gated by an active-customer milestone on the path 96–113 → 1,000. Sequencing follows #24: warm and cheap before cold and expensive; systems before spend. Capacity constraint throughout: Raef at ~70% marketing until revenue funds more.
+Four phases, each gated by an active-customer milestone on the path 96–113 → 1,000. Sequencing follows #24: warm and cheap before cold and expensive; systems before spend. Capacity constraint throughout: Harry at ~70% marketing until revenue funds more.
 
 ## Phase 1 – Quick wins (months 0–3) · from 96–113 · [rebase – derived from the superseded 220 baseline; see #20A and open item #11]
 
@@ -35,14 +35,14 @@ Four phases, each gated by an active-customer milestone on the path 96–113 →
 | **GoTab × Fishbowl automation** | Behaviour-triggered lifecycle: 60-day nudge, 75-day at-risk save, 90-day winback; membership renewal prompts | Churn floor drops permanently |
 | **Delivery live** | GoTab × Uber Direct same-day; census-validated pricing ($20–30 fee acceptable) | Removes the pickup friction on refill cadence |
 | **Lease-to-buy launch** | Pending GoTab capability; kills the $975 objection alongside Afterpay/Zip | Widens the system funnel |
-| **Taproom→system capture** | Demo CTA + QR at the bar; track visitor→owner conversion (today’s 20–30% becomes a measured number) | Funnel instrumented |
+| **Taproom→system capture** | Demo CTA + QR at the bar; track visitor→owner conversion (today’s 20–30% [unverified – see #20B] becomes a measured number) | Funnel instrumented |
 | **UGC pipeline** | Real customers (not the founders) – install shots, backyard sessions; Buffer-scheduled | Feeds kudos/connection creative per Christy’s rule |
 
 ## Phase 3 – Expansion (months 6–12) · ~330 → ~450 actives
 
 | Move | Detail | Engine link |
 |---|---|---|
-| **Benchy launch** | Portable tap for 4WD/camping/boating/caravan – no direct competitor; start via Raef’s cousin’s 4WD fit-out business, then outdoor retail | New owner pool → refills |
+| **Benchy launch** | Portable tap for 4WD/camping/boating/caravan – no direct competitor; start via Harry’s cousin’s 4WD fit-out business, then outdoor retail | New owner pool → refills |
 | **Sports club white-label** | "Surfers Paradise Demons Lager" model: system supplied, 10% player discount, 10% club kickback; non-CUB clubs only, short named list | Club members become home refillers |
 | **Outdoor-living JVs** | Pool/deck builders, BBQ retailers, display homes (Smoked Barbecue Co collab as template) – reach buyers 6–9 months pre-purchase | Fills the long buying cycle from the top |
 | **Health angle test** | Gluten-reduced, lower-carb, sessionable – unmarketed; test for female market and moderators (H7) | Partner-veto softener |

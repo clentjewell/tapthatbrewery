@@ -20,9 +20,9 @@ Internal record of why this deal is worth doing, what shape it should take, and 
 
 ## Who the client is
 
-Tap That Brewery, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer – ex Burleigh Barrels, the product credibility; Brewer’s Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background – the business model and the 10–12-year franchise ambition). One hybrid marketer, **Raef** (~70% marketing / 30% bar cover).
+Tap That Brewery, Burleigh Heads (industrial area, Gold Coast). Founders: **Chris Smith** (head brewer – ex Burleigh Barrels, the product credibility; Brewer’s Choice at Crafted for Midnight in Tokyo in their first year entering) and **Justin Mistry** (physio since 2008, Back in Motion franchise background – the business model and the 10–12-year franchise ambition). One hybrid marketer, **Harry** (~70% marketing / 30% bar cover).
 
-Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** – ~$155–160/month per active customer (census-derived), ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
+Four business units: keg system sales (hardware sold **at cost**, $975 two-tap to $2,550 six-tap), 20L keg refills (**the margin engine** – ~$155–160/month per active customer (census-derived), ~2 kegs), a 27-tap taproom (~1/3 non-beer by design; loss-making but converts 20–30% [unverified – see #20B] of visitors into system buyers), and secondary wholesale. Stack: GoTab POS, Fishbowl CRM (integration pending), Buffer-ready socials, Afterpay/Zip.
 
 ## The commercial problem
 
@@ -41,7 +41,7 @@ The critical nuance from discovery: **this is not a strategy gap.** The founders
 
 | Risk | Read | Mitigation |
 |---|---|---|
-| **Execution bottleneck is structural** | Raef at ~70% is the whole delivery capacity; a brilliant strategy can die in his inbox | Scope Design outputs to what 0.7 FTE can run; make the Deploy execution retainer the honest answer, and say so in the proposal |
+| **Execution bottleneck is structural** | Harry at ~70% is the whole delivery capacity; a brilliant strategy can die in his inbox | Scope Design outputs to what 0.7 FTE can run; make the Deploy execution retainer the honest answer, and say so in the proposal |
 | **Taproom gravity** | 18 months of drift shows the venue keeps winning founder attention because it is visible and social; it may pull our engagement the same way | Hold the line in every gate: refills first, systems second, taproom as funnel, wholesale as opportunism |
 | **Data gaps at the base** | Census is headline-only (n=50), P&L detail is "red at the bottom," two live membership posters disagree on price ($250/yr vs $300+$120 renewal), paddle signed $18 vs $20 on screen, competitor name unverified ("Aardvark & Arrow"?) | Gate 1 sign-off blocked until census lands and pricing is reconciled; do not build funnel copy on contaminated numbers |
 | **Loss-making client** | Fee tolerance is untested; a client bleeding cash may baulk mid-engagement | Price Discover–Design as a fixed scope with CP1/CP2 exits; tie Deploy fees to the refill growth narrative |
@@ -59,7 +59,7 @@ The critical nuance from discovery: **this is not a strategy gap.** The founders
 ## Open commercial questions
 
 1. Fees and payment structure for Discover–Design – fixed fee per phase vs single engagement fee; the client’s loss position argues for phase-gated commitment.
-2. Deploy model – retainer (fractional marketing team around Raef) vs project builds; raise at CP2, seed the expectation now.
+2. Deploy model – retainer (fractional marketing team around Harry) vs project builds; raise at CP2, seed the expectation now.
 3. Who signs – Justin, Chris, or both? One name needed on the Proposal.
 4. IP and case-study rights – the franchise playbook angle makes Blueprint Extraction unusually valuable; secure case-study consent in the SOW.
 5. Does the scope include creative production (photo/video/UGC direction implies shoots) or briefs only?

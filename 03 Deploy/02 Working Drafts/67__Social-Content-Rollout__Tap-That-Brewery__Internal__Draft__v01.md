@@ -25,11 +25,11 @@ Everything below runs at ~6–8 hours a week. If it takes more, the plan is wron
 
 | Week | Activity | Owner | Output |
 |---|---|---|---|
-| **Week 1** | **Batch shoot day** – one build showcase at a customer’s place, brewery-floor footage with Chris, tap-wall range content, one venue moment | Raef/Harry, Chris for floor | ≥40 stills, ≥8 clips, filed by pillar |
-| Week 1 | Cut and caption; queue four weeks in Buffer | Raef/Harry | Queue full to week 4 |
-| **Week 2** | Publish + community management; collect UGC from the week’s installs and events | Raef/Harry | 3 posts, 3–4 stories |
-| **Week 3** | Publish; Google Business post (monthly copy-paste); review-ask push at the refill counter | Raef/Harry | Posts live; ≥5 new reviews |
-| **Week 4** | Publish; pull the month’s numbers into the one-pager; plan next shoot list | Raef/Harry + Jewell | Report line filed |
+| **Week 1** | **Batch shoot day** – one build showcase at a customer’s place, brewery-floor footage with Chris, tap-wall range content, one venue moment | Harry/Harry, Chris for floor | ≥40 stills, ≥8 clips, filed by pillar |
+| Week 1 | Cut and caption; queue four weeks in Buffer | Harry/Harry | Queue full to week 4 |
+| **Week 2** | Publish + community management; collect UGC from the week’s installs and events | Harry/Harry | 3 posts, 3–4 stories |
+| **Week 3** | Publish; Google Business post (monthly copy-paste); review-ask push at the refill counter | Harry/Harry | Posts live; ≥5 new reviews |
+| **Week 4** | Publish; pull the month’s numbers into the one-pager; plan next shoot list | Harry/Harry + Jewell | Report line filed |
 
 Rule: the queue is never emptier than two weeks. A queue below two weeks is the early-warning signal that capacity has gone, and the fix is to drop a pillar for a month – not to post reactively.
 
@@ -51,9 +51,9 @@ Tap Tokens awareness is 91.7%. Awareness of what the tokens are *for* collapses:
 
 | Step | Action | Owner | Timing |
 |---|---|---|---|
-| 1 | One pinned post per platform stating the three rewards plainly (1,000 system · 1,000 venue · 500 refill) | Raef/Harry | Week 1 of rollout |
-| 2 | Monthly "deals that close" slot – leaderboard shout-out, one member story | Raef/Harry | Ongoing |
-| 3 | Story series: "what your tokens are actually worth" | Raef/Harry | Month 2 |
+| 1 | One pinned post per platform stating the three rewards plainly (1,000 system · 1,000 venue · 500 refill) | Harry/Harry | Week 1 of rollout |
+| 2 | Monthly "deals that close" slot – leaderboard shout-out, one member story | Harry/Harry | Ongoing |
+| 3 | Story series: "what your tokens are actually worth" | Harry/Harry | Month 2 |
 | 4 | Re-measure awareness at the next census | Jewell | Next survey |
 
 Target: system-referral awareness from 43.8% to ≥70% within two quarters.
@@ -67,7 +67,7 @@ Target: system-referral awareness from 43.8% to ≥70% within two quarters.
 
 ## Event and campaign overlays
 
-Campaign windows (#66) add content on top of this cadence, they don’t replace it. During a giveaway window Raef/Harry runs launch film, countdowns and the winner install – his proven lane – while the five pillars keep turning underneath at reduced volume (drop to 2 posts/week if needed, never to zero).
+Campaign windows (#66) add content on top of this cadence, they don’t replace it. During a giveaway window Harry/Harry runs launch film, countdowns and the winner install – his proven lane – while the five pillars keep turning underneath at reduced volume (drop to 2 posts/week if needed, never to zero).
 
 ## Measurement hooks
 

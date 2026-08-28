@@ -18,7 +18,7 @@
 
 ## What this pack is
 
-Ten execution briefs turn the Design-phase strategy (96–113 → 1,000 active keg customers; the switcher lane, the lifecycle engine, the funnel the venue already proves) into makeable work. This page is the index, the order of operations, and the sign-off. Owners marked [TBC] are assigned at CP1 – the capacity reality (Raef at ~70% marketing) means most builds are Jewell-led or contracted, with Raef owning ongoing operation.
+Ten execution briefs turn the Design-phase strategy (96–113 → 1,000 active keg customers; the switcher lane, the lifecycle engine, the funnel the venue already proves) into makeable work. This page is the index, the order of operations, and the sign-off. Owners marked [TBC] are assigned at CP1 – the capacity reality (Harry at ~70% marketing) means most builds are Jewell-led or contracted, with Harry owning ongoing operation.
 
 ## The briefs
 
@@ -26,13 +26,13 @@ Ten execution briefs turn the Design-phase strategy (96–113 → 1,000 active k
 |---|---|---|---|---|---|
 | 52 | Design (collateral: switcher kit, giveaway kit, Benchy kit, **in-venue price/membership fix**) | Jewell [designer TBC] | Client price confirmation (Kit 4); #54 imagery (Kits 1–3) | **Kit 4 immediate**; kits 1–3 wave 2 | Draft v01 |
 | 53 | Website build | Jewell [dev TBC] | #52 Kit 4 (prices), #55 (structure), #54 (imagery), #58 (form endpoints) | Wave 2 – before paid launch | Draft v01 |
-| 54 | Photo & video shoot | Jewell [photographer TBC] + Raef (recruitment) | Customer recruitment; releases | Wave 1–2 | Draft v01 |
+| 54 | Photo & video shoot | Jewell [photographer TBC] + Harry (recruitment) | Customer recruitment; releases | Wave 1–2 | Draft v01 |
 | 55 | SEO execution | Jewell | #53 platform; #52 Kit 4 (calculator prices) | Wave 2, content rolling | Draft v01 |
 | 56 | Paid media launch | Jewell | #52 kits, #53 live, #58 tracking loop; **scale gated on #57 + #58** | Launch wave 3; scale wave 4 | Draft v01 |
-| 57 | EDM sequences | Jewell + Raef | Brand Copy Workbook [pending]; #58 triggers (Seq 2) | Seq 1 wave 2; Seq 2 on #58; Seq 3 wave 3 | Draft v01 |
+| 57 | EDM sequences | Jewell + Harry | Brand Copy Workbook [pending]; #58 triggers (Seq 2) | Seq 1 wave 2; Seq 2 on #58; Seq 3 wave 3 | Draft v01 |
 | 58 | CRM / GoTab–Fishbowl | Client + Jewell [integrator TBC] | GoTab/Fishbowl integration capability (production gate from Discover) | **Wave 1 – start now** | Draft v01 |
 | 59 | PR outreach | Jewell [TBC] | #54 portraits/imagery; fact-check (Crafted claim) | Wave 3, hook-driven | Draft v01 |
-| 60 | Events (Sept–Nov slate + capture mechanics) | Raef | #52 Kit 4 (member pitch), #53 (QR forms) | Wave 1 – Brazilian night pilots capture | Draft v01 |
+| 60 | Events (Sept–Nov slate + capture mechanics) | Harry | #52 Kit 4 (member pitch), #53 (QR forms) | Wave 1 – Brazilian night pilots capture | Draft v01 |
 
 ## The critical path
 
@@ -59,7 +59,7 @@ Approval of this pack approves the briefs as scoped, the sequence above, and the
 |---|---|---|---|
 | Tap That Brewery – Co-founder | Justin Mistry | | |
 | Tap That Brewery – Co-founder | Chris Smith | | |
-| Tap That Brewery – Marketing | Raef | | |
+| Tap That Brewery – Marketing | Harry | | |
 | Jewell Projects – Engagement lead | Clent Jewell | | |
 | Jewell Projects – Strategy | Christy Kilmartin | | |
 

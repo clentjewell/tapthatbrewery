@@ -17,7 +17,7 @@
 
 ### Route 1 – the taproom demo (always on)
 
-Visitor drinks in the venue → sees the working brewhouse and tap wall → "that’s a keg system?" moment → **20–30% of taproom visitors go on to buy a system** (client estimate). Supporting props: the "Did you say beer on tap at home?" flyer (pillars printed: Cost–Convenience–Connection–Kudos; home/workplace/sports club/restaurant framing), demo bookings via cheers@tapthatbrewery.com.au.
+Visitor drinks in the venue → sees the working brewhouse and tap wall → "that’s a keg system?" moment → **20–30% [unverified – see #20B] of taproom visitors go on to buy a system** (client estimate). Supporting props: the "Did you say beer on tap at home?" flyer (pillars printed: Cost–Convenience–Connection–Kudos; home/workplace/sports club/restaurant framing), demo bookings via cheers@tapthatbrewery.com.au.
 
 What’s missing: **no capture.** A visitor who doesn’t buy on the day leaves anonymous – no name, no follow-up trigger, nothing that acknowledges the buying cycle below.
 

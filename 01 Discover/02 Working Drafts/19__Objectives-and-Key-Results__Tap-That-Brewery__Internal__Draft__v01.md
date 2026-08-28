@@ -50,7 +50,7 @@ These OKRs are not invented targets – each one is discovery arithmetic. The 40
 
 | KR | Key result | Baseline | Target | Measured by |
 |---|---|---|---|---|
-| 3.1 | **Benchy launched** into the 4WD/camping/outdoor channel with **2 retail/fit-out partnerships** (first: Raef’s cousin’s 4WD fit-out business) and **first 25 units sold** | 0 | 2 partners, 25 units | Signed partner arrangements; Benchy sales in GoTab |
+| 3.1 | **Benchy launched** into the 4WD/camping/outdoor channel with **2 retail/fit-out partnerships** (first: Harry’s cousin’s 4WD fit-out business) and **first 25 units sold** | 0 | 2 partners, 25 units | Signed partner arrangements; Benchy sales in GoTab |
 | 3.2 | **2 sports-club white-label deals signed** (e.g. the "Surfers Paradise Demons Lager" model), at clubs with tap infrastructure and outside CUB exclusivity | 0 | 2 signed, pouring | Executed agreements; monthly club keg volume |
 | 3.3 | **Delivery live** via GoTab × Uber Direct, reaching **10% of refill orders** by month 12 | Not live | Live + 10% of orders | Delivery orders ÷ total refill orders |
 | 3.4 | **Wholesale follow-up pipeline formalised**: every DM/venue lead logged, first follow-up within 48 hours, **6 new style-matched venue accounts** | Loose follow-up, untracked | 48-hr SLA, 6 accounts | Lead log; new wholesale accounts pouring |
@@ -61,7 +61,7 @@ These OKRs are not invented targets – each one is discovery arithmetic. The 40
 
 - **Taproom revenue growth.** The taproom is the funnel (#18); its numbers live inside KR 1.2's conversion machinery, not as an objective of its own. Making it one is how the last 18 months happened.
 - **Keg system sales volume.** At-cost hardware is an input to O1, not a goal.
-- **Follower/reach targets.** Raef’s organic work is a channel serving KRs 1.1–1.2, not a scoreboard.
+- **Follower/reach targets.** Harry’s organic work is a channel serving KRs 1.1–1.2, not a scoreboard.
 
 ## Assumptions & open items
 
@@ -71,7 +71,7 @@ These OKRs are not invented targets – each one is discovery arithmetic. The 40
 | 2 | Baselines marked TBC (churn rate, membership attach rate, at-risk save rate) require GoTab data and the full census (Clent → Jules, in transit). Targets lock once baselines land. |
 | 3 | KR 2.1 timing is hostage to the GoTab/Fishbowl integration; the timeline is a named production gate in D06. |
 | 4 | KR 1.4 assumes membership pricing is reconciled first (two conflicting live posters: $250/yr vs $300 + $120/yr renewal). |
-| 5 | One owner per objective to be assigned at sign-off; capacity reality (Raef at ~70%) is addressed in #21 and #22. |
+| 5 | One owner per objective to be assigned at sign-off; capacity reality (Harry at ~70%) is addressed in #21 and #22. |
 
 ---
 

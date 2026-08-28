@@ -37,7 +37,7 @@ Every household: a 30–60s phone-style testimonial ("what do you actually pay a
 
 - Bar rail with working brewhouse behind (fermenters in frame – the freshness proof).
 - Tap wall left + right (27 taps, non-beer third visible); coolroom "Kegged & Ready" board; Tap Token leaderboard; shuffleboard and mezzanine atmosphere on a busy night (event night ideal – pair with #60).
-- The demo moment: staff walking a punter through a system – the 20–30% conversion, on camera.
+- The demo moment: staff walking a punter through a system – the 20–30% [unverified – see #20B] conversion, on camera.
 
 ## Product
 

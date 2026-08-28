@@ -23,10 +23,10 @@ Every channel in this programme exists to move a single number: **active keg cus
 
 | Stream | What runs | Owner |
 |---|---|---|
-| Organic social | 3 posts + 3–4 stories/week across the five pillars; UGC engine; community management | Raef |
-| Lifecycle messaging | Manual monthly winback SMS until GoTab × Fishbowl lands; then automated 60/75/90-day triggers, onboarding, cadence reminders, renewals | Jewell builds; Raef sends until automated |
+| Organic social | 3 posts + 3–4 stories/week across the five pillars; UGC engine; community management | Harry |
+| Lifecycle messaging | Manual monthly winback SMS until GoTab × Fishbowl lands; then automated 60/75/90-day triggers, onboarding, cadence reminders, renewals | Jewell builds; Harry sends until automated |
 | Local SEO | Google Business Profile, "keg refills Gold Coast" / "we fill any system" pages, calculator, FAQ schema | Jewell |
-| Referral (Tap Tokens) | 1,000 tokens/system · 1,000/venue · 500/refill – counter script, keg-box card, SMS footer, monthly leaderboard content | Raef, with #44 collateral |
+| Referral (Tap Tokens) | 1,000 tokens/system · 1,000/venue · 500/refill – counter script, keg-box card, SMS footer, monthly leaderboard content | Harry, with #44 collateral |
 
 ## The four campaign windows (Sep 2026 – Aug 2027)
 
@@ -82,7 +82,7 @@ Roof line: **"Good times on tap at your place."** The rule, corrected by the cen
 | Weekly | Active count (75-day rule), new actives by source, at-risk count – from GoTab | Jewell pulls, all see |
 | Monthly | One-page report: actives vs 300/450 staging, campaign metrics, nurture conversion, referral redemptions, taproom→system conversion | Jewell |
 | Per campaign | Kill/scale criteria per #46/#43 tables – decided on the numbers, not extended on hope | Jewell + founders |
-| Quarterly | Event scorecard ranking (contacts + systems per staff-hour); automation trigger tuning | Jewell + Raef |
+| Quarterly | Event scorecard ranking (contacts + systems per staff-hour); automation trigger tuning | Jewell + Harry |
 
 Vanity metrics – followers, entry volume without conversion, bar take as a lead metric – are explicitly excluded.
 
@@ -94,7 +94,7 @@ Approval of this summary approves the channel system, the sequence rules in bold
 |---|---|---|---|
 | Co-founder | Justin Mistry | | |
 | Co-founder | Chris Smith | | |
-| Marketing | Raef | | |
+| Marketing | Harry | | |
 | Jewell Projects – Engagement lead | Clent Jewell | | |
 
 ## Assumptions & open items

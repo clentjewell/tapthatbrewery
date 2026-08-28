@@ -16,16 +16,16 @@
 
 ## Structure: one always-on layer, four campaign windows
 
-Twelve months (Sep 2026 – Aug 2027), built to move the only number that matters – active keg customers (75-day rule), ~113 today toward the Stage 1–2 milestones in the business plan (#23) – both being rebased from the corrected baseline. The always-on layer never stops; the four campaigns are pulses on top of it. Everything is sized to Raef’s ~70% allocation with Jewell carrying builds, paid, and production overflow – capacity split is marked per campaign and month-by-month in #45.
+Twelve months (Sep 2026 – Aug 2027), built to move the only number that matters – active keg customers (75-day rule), ~113 today toward the Stage 1–2 milestones in the business plan (#23) – both being rebased from the corrected baseline. The always-on layer never stops; the four campaigns are pulses on top of it. Everything is sized to Harry’s ~70% allocation with Jewell carrying builds, paid, and production overflow – capacity split is marked per campaign and month-by-month in #45.
 
 ## The always-on layer
 
 | Stream | What runs | Owner |
 |---|---|---|
-| **Organic social** | The #41 cadence: 3 posts + 3–4 stories/week across five pillars, UGC engine, community management | Raef |
-| **Lifecycle messaging** | Until GoTab × Fishbowl lands: the manual monthly winback SMS ($20 off, 2-week window; Marie’s Pizza/Buttercard test) continues. Post-integration: automated 60-day nudge ("what’s pouring"), 75-day at-risk offer, 90-day winback – replacing post-churn discounting with pre-churn prompting (H4). Plus post-purchase onboarding (setup guide, first-refill reminder, Keg Crew pitch) and membership renewal | Jewell builds; Raef sends until automated |
+| **Organic social** | The #41 cadence: 3 posts + 3–4 stories/week across five pillars, UGC engine, community management | Harry |
+| **Lifecycle messaging** | Until GoTab × Fishbowl lands: the manual monthly winback SMS ($20 off, 2-week window; Marie’s Pizza/Buttercard test) continues. Post-integration: automated 60-day nudge ("what’s pouring"), 75-day at-risk offer, 90-day winback – replacing post-churn discounting with pre-churn prompting (H4). Plus post-purchase onboarding (setup guide, first-refill reminder, Keg Crew pitch) and membership renewal | Jewell builds; Harry sends until automated |
 | **Local SEO** | Google Business Profile kept current (reviews asked at refill counter – the "5 ways to support" sign made a script), website pages for "keg refills Gold Coast / Burleigh", "we fill any system", range + calculator pages (#42); FAQ schema | Jewell |
-| **Referral program** | Tap Tokens referral schedule (1,000 system / 1,000 venue / 500 refill) promoted continuously – counter script, keg-box card, SMS footer, monthly social slot, leaderboard content. Detail in #44 | Raef, with #44 collateral |
+| **Referral program** | Tap Tokens referral schedule (1,000 system / 1,000 venue / 500 refill) promoted continuously – counter script, keg-box card, SMS footer, monthly social slot, leaderboard content. Detail in #44 | Harry, with #44 collateral |
 
 ## Campaign 1 – Switcher launch: "We Fill Any System" (Sep–Oct 2026)
 
@@ -37,7 +37,7 @@ Twelve months (Sep 2026 – Aug 2027), built to move the only number that matter
 | **Channels** | Landing page; Meta ads to homebrew/keg interest audiences (age-gated); organic pillar posts; Google Business + SEO page; counter conversion of walk-in refillers |
 | **Assets** | "We fill any system" landing page, 3 ad creatives, counter card, corny-turnaround explainer | 
 | **Measurement** | New refill customers with no system purchase; first-fill → second-fill rate; cost per new active |
-| **Capacity** | Jewell: page, ads, creative. Raef: organic posts + counter behaviour. After the window it folds into always-on |
+| **Capacity** | Jewell: page, ads, creative. Harry: organic posts + counter behaviour. After the window it folds into always-on |
 
 ## Campaign 2 – Giveaway cycle 1, with built nurture (Oct–Dec 2026)
 
@@ -49,7 +49,7 @@ Twelve months (Sep 2026 – Aug 2027), built to move the only number that matter
 | **Channels** | Entry landing page with email/SMS capture and content-permission tick; organic (launch film, countdowns, winner install); Meta boosts; nurture email/SMS sequence mapped to the objections (#42): calculator → partner range → space/fit → census story → close |
 | **Assets** | Entry page + T&Cs (responsible-promotion compliant), launch film, countdown frames, 5-email nurture, close creative, winner-install shoot |
 | **Measurement** | Entries; entry→purchase conversion vs 22–25 baseline; nurture open/click; systems sold in close window; % of buyers taking Keg Crew at purchase |
-| **Capacity** | Jewell: page, sequence, T&Cs, paid. Raef: launch/countdown/winner content – his existing giveaway role, now with an engine behind it |
+| **Capacity** | Jewell: page, sequence, T&Cs, paid. Harry: launch/countdown/winner content – his existing giveaway role, now with an engine behind it |
 
 ## Campaign 3 – Giveaway cycle 2 / summer (Jan–Feb 2027)
 
@@ -69,11 +69,11 @@ Twelve months (Sep 2026 – Aug 2027), built to move the only number that matter
 |---|---|
 | **Objective** | Productise and launch the zero-competitor portable category (Gap 2): pilot target 15–20 Benchy units sold, each a new refill account |
 | **Audience** | 4WD / camping / boating / caravan owners, autumn trip + Easter school-holiday season; reached through the fit-out channel, not cold |
-| **Offer** | Benchy bundle (unit + first 20L fill + 5L option for roaming); pilot via Raef’s cousin’s 4WD fit-out business (#44) |
+| **Offer** | Benchy bundle (unit + first 20L fill + 5L option for roaming); pilot via Harry’s cousin’s 4WD fit-out business (#44) |
 | **Channels** | Partner showroom demo unit; partner’s audience + co-branded content; organic rig-install showcases; Meta to 4WD/camping interests; launch event at the taproom (rigs in the car park) |
 | **Assets** | Benchy product page + pricing (currently absent from the price card), rig-install shoot, partner one-pager, ABAC-safe creative rules (camp set up, vehicle parked – #41) |
 | **Measurement** | Units sold; refill attachment rate at 60 days; partner-sourced vs direct sales; content saves/shares as category-demand signal |
-| **Capacity** | Jewell: productisation, page, partner collateral. Raef: content + the cousin relationship. Client: pricing decision (gate) |
+| **Capacity** | Jewell: productisation, page, partner collateral. Harry: content + the cousin relationship. Client: pricing decision (gate) |
 
 ## Winter consolidation (Jun–Aug 2027)
 

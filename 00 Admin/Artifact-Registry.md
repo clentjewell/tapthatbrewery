@@ -2,7 +2,7 @@
 
 Master inventory of every artefact in this engagement. Update on creation, promotion, or archive. Status: Draft / Review / Final / Live.
 
-**As at 20 August 2026: 77 Maxxim 3D catalogue documents drafted at v01** (the 65-document catalogue plus 12 Deploy runbooks), and #20A Evidence Reconciliation. None are approved. Per-document detail lives in `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` — this registry records the artefact groups and the live reference documents.
+**As at 28 August 2026: 77 Maxxim 3D catalogue documents drafted at v01** (the 65-document catalogue plus 12 Deploy runbooks), plus #20A Evidence Reconciliation and #20B Advisory Review Reconciliation. The 27 August advisory review re-sequenced the engagement: Discover is now an input to the next step rather than the output, and the next deliverable is a short deck to Justin and Harry rather than a signed CP1. None are approved. Per-document detail lives in `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` — this registry records the artefact groups and the live reference documents.
 
 ## Reference + source artefacts
 
@@ -20,7 +20,7 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Group | Catalogue | Location | Status |
 |---|---|---|---|
 | Gate 0 — Onboarding | #1–3 | `00 Admin/04 Commercial + SOW/` | Draft v01 |
-| Discover | #4–22 (19 docs) | `01 Discover/02 Working Drafts/` | Draft v01 — **CP1 unsigned** |
+| Discover | #4–22 (19 docs) + #20A, #20B | `01 Discover/02 Working Drafts/` | Draft v01 — **CP1 superseded by a client deck** |
 | Design — strategy | #23–33 | `02 Design/02 Working Drafts/` | Draft v01 |
 | Design — brand | #34–36 | `02 Design/02 Working Drafts/` | Draft v01 (sign-off: #34, #36) |
 | Design — web/SEO/social/content | #37–42 | `02 Design/02 Working Drafts/` | Draft v01 |

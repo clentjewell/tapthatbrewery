@@ -42,7 +42,7 @@ P1 Refill acquisition, switchers first · P2 Lifecycle automation before new-aud
 
 ## The 12-month plan shape (#43, #45)
 
-One always-on layer (organic social, lifecycle messaging, local SEO, referral) with four campaign pulses: **C1 Switcher launch** (Sep–Oct 2026), **C2 Giveaway cycle 1 with built nurture** (Oct–Dec, 50%-off close mid-Nov), **C3 Giveaway cycle 2** (Jan–Feb 2027), **C4 Benchy outdoor launch** (Mar–May 2027), then a deliberate winter consolidation (Jun–Aug). Milestones: [rebase – derived from the superseded 220 baseline; see #20A and open item #11] – the quarterly ladder was built from 220 and restarts from 96–113. Old ladder, left visible: ~270 actives at three months → ~330 at six → ~450 at twelve, tracking to 700+ at 24 months and 1,000 at target. The whole calendar is sized to Raef’s ~70% allocation, with Jewell carrying builds, paid and production overflow, and recovery months built in by design.
+One always-on layer (organic social, lifecycle messaging, local SEO, referral) with four campaign pulses: **C1 Switcher launch** (Sep–Oct 2026), **C2 Giveaway cycle 1 with built nurture** (Oct–Dec, 50%-off close mid-Nov), **C3 Giveaway cycle 2** (Jan–Feb 2027), **C4 Benchy outdoor launch** (Mar–May 2027), then a deliberate winter consolidation (Jun–Aug). Milestones: [rebase – derived from the superseded 220 baseline; see #20A and open item #11] – the quarterly ladder was built from 220 and restarts from 96–113. Old ladder, left visible: ~270 actives at three months → ~330 at six → ~450 at twelve, tracking to 700+ at 24 months and 1,000 at target. The whole calendar is sized to Harry’s ~70% allocation, with Jewell carrying builds, paid and production overflow, and recovery months built in by design.
 
 ## What CP2 sign-off unlocks
 
@@ -71,7 +71,7 @@ Approval of this summary approves: the ten choices and rejections above as the o
 |---|---|---|---|
 | Tap That Brewery – Co-founder | Justin Mistry | | |
 | Tap That Brewery – Co-founder | Chris Smith | | |
-| Tap That Brewery – Marketing | Raef | | |
+| Tap That Brewery – Marketing | Harry | | |
 | Jewell Projects – Engagement lead | Clent Jewell | | |
 | Jewell Projects – Strategy | Christy Kilmartin | | |
 

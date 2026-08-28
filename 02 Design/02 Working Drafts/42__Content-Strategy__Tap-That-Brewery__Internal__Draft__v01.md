@@ -16,7 +16,7 @@
 
 ## Why a content system, not a content calendar
 
-Tap That Brewery’s buying cycle is the design constraint: ~60% of buyers take up to three months to commit, 40% longer. Today that consideration window is "nurtured by memory" (D05) – the in-venue pathway (taste → demo → giveaway → 50% close) has no digital equivalent. Content is that equivalent. It must serve social (#41), the website, and email/SMS lifecycle from one production effort, because the whole machine runs on Raef at ~70% capacity plus defined Jewell support.
+Tap That Brewery’s buying cycle is the design constraint: ~60% of buyers take up to three months to commit, 40% longer. Today that consideration window is "nurtured by memory" (D05) – the in-venue pathway (taste → demo → giveaway → 50% close) has no digital equivalent. Content is that equivalent. It must serve social (#41), the website, and email/SMS lifecycle from one production effort, because the whole machine runs on Harry at ~70% capacity plus defined Jewell support.
 
 Three content jobs, one seasonal overlay:
 
@@ -30,7 +30,7 @@ Three content jobs, one seasonal overlay:
 
 ## 2. Help content – the stuff people search
 
-Owned on the website (SEO + nurture links), cut down for social, linked from lifecycle messages. Jewell drafts, client verifies technically, Raef fronts where a face is needed.
+Owned on the website (SEO + nurture links), cut down for social, linked from lifecycle messages. Jewell drafts, client verifies technically, Harry fronts where a face is needed.
 
 | Asset | Answers | Notes |
 |---|---|---|
@@ -73,14 +73,14 @@ The monthly batch shoot (~2–3 hrs, venue + one customer location) is the entir
 
 ## The monthly production rhythm (capacity-honest)
 
-| Week | Raef (~6–8 hrs/wk within the 70%) | Jewell |
+| Week | Harry (~6–8 hrs/wk within the 70%) | Jewell |
 |---|---|---|
 | 1 | Batch shoot (2–3 hrs); write + Buffer-schedule the month’s 12–13 posts | Shot list + caption skeletons supplied in advance |
 | 2 | Stories live; community management; refill-counter UGC asks | Draft the month’s help article + email |
 | 3 | Publish help content; monthly email send; Google Business post | Landing page / calculator / automation build per #43 roadmap |
 | 4 | Review: what ran, what converted (giveaway entries, demo bookings, refill mentions); log wholesale DM leads | Reporting pull + next month’s shot list |
 
-Giveaway months add the cycle assets on top – Jewell absorbs production overflow so Raef’s ceiling holds. Anything demanding a second operator full-time is Stage 3 of the business plan (#23), not this rhythm.
+Giveaway months add the cycle assets on top – Jewell absorbs production overflow so Harry’s ceiling holds. Anything demanding a second operator full-time is Stage 3 of the business plan (#23), not this rhythm.
 
 ## Assumptions & open items
 

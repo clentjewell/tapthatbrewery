@@ -60,8 +60,8 @@ Web analytics cannot see a refill. GoTab can’t see an ad. The join is the whol
 |---|---|---|---|
 | Ad → site | UTM on every destination URL | Jewell | – |
 | Site → enquiry | Hidden UTM fields on every form | Jewell | – |
-| Enquiry → customer | Mobile number as the key, captured at the counter ("what number do we text when it’s ready?") | Raef/Harry | Already works for corny customers |
-| Customer → refill | GoTab transaction attached to the record | Raef/Harry | **Manual fortnightly export** until GoTab × Fishbowl lands (date outstanding, open item #4) |
+| Enquiry → customer | Mobile number as the key, captured at the counter ("what number do we text when it’s ready?") | Harry/Harry | Already works for corny customers |
+| Customer → refill | GoTab transaction attached to the record | Harry/Harry | **Manual fortnightly export** until GoTab × Fishbowl lands (date outstanding, open item #4) |
 | First-touch source | Asked once at first sale, stored on the record | Bar staff | Counter script |
 
 The counter question is the load-bearing element. Without it, paid media has no denominator and every cost-per-acquisition figure in #68 is an estimate.
@@ -88,7 +88,7 @@ Recorded once, dated, filed in #65. These are the numbers the engagement will be
 
 | Frequency | Contents | Owner | Audience |
 |---|---|---|---|
-| Weekly, 10 minutes | Spend, cost per result, entries, unattached transactions | Jewell | Raef/Harry |
+| Weekly, 10 minutes | Spend, cost per result, entries, unattached transactions | Jewell | Harry/Harry |
 | Monthly, one page | Actives vs target, new actives by source, cost per new active, at-risk saves, winbacks, membership attach | Jewell | Justin, founders |
 | Quarterly | 90-day cohort read – the only honest conversion view when 43% of buyers take 3+ months | Jewell | Founders |
 

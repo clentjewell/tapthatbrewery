@@ -15,6 +15,32 @@
 
 ---
 
+## The four things this pack did not say
+
+*Added 28 August 2026 after advisory review. The pack was accurate and not hard enough. Full record in #20B.*
+
+**1. The business is loss-making.** That sentence appeared nowhere in the original 78 documents. Everything downstream is a marketing plan for a business that cannot presently fund one, and saying so changes what we are entitled to recommend.
+
+**2. The taproom and the refill model are a zero-sum game.** The refill business is built on people *not* coming in. Every campaign that drives traffic to the taproom drives people into the loss-making half of the business. This pack treated the taproom as a funnel; on this read it is at least as much a cost.
+
+**3. The cost drivers are absent.** Twenty-seven taps means ingredients, kegs, storage and refrigeration on stock that may never move. We cannot design the next phase of a business without naming what it costs to run the current one — and #23 carries no COGS because the question was never asked.
+
+**4. The commercial opportunity is buried.** One commercial account is worth roughly ten households. One event drives a week of taproom trade. Both facts are already in this pack. Neither is a headline, and both should be.
+
+> The front-end questions were marketing questions. The business questions were not asked. That is why Design cannot fix a business plan, and why this pack is now **an input to the next step rather than the output**.
+
+## What this pack can no longer prove
+
+| Claim | Status |
+|---|---|
+| The taproom converts 20–30% of visitors to refill customers | **Client estimate, never measured.** At that rate the answer would be to pay people to walk in. Flagged wherever it appears; needs replacing with an observed figure |
+| The customer census | **A secondary input, not the anchor.** Fifty self-selected respondents who do not necessarily know, or admit, why they buy. Status and ego will never surface in a self-report |
+| 1,000 giveaway entries prove demand | **Untested.** Everyone enters a free competition. Nothing distinguishes wanting a system permanently from wanting one free for an occasion |
+
+*This qualifies #20A rather than reversing it. The client's business records still outrank the census — the 56% switcher figure stands. What changes is how much weight a 50-person self-report can carry on its own.*
+
+---
+
 ## Purpose of this pack
 
 Pulls the discovery session, site visit, and in-venue evidence into one validated read. This is **not** the final strategy – it is the diagnosis and the raw material the Design phase builds on. Confirmed facts and pending assumptions are kept separate throughout.
@@ -29,7 +55,7 @@ Pulls the discovery session, site visit, and in-venue evidence into one validate
 
 **Immediate opportunity.** 116 of 206 owners (56%) bought their hardware elsewhere – the cheapest growth available is winning refills from the installed base of keg system owners across the Gold Coast, not creating new owners from scratch.
 
-**Key discrepancies caught on site.** Two membership posters with conflicting pricing ($300+renewal vs $250/yr) and token bonuses; tasting paddle signed $18 in print, $20 on screen; competitor name transcribed "Ardbach and Arrow" vs handwritten "Aardvark and Arrow." All flagged in *Validated vs pending*.
+**Key discrepancies caught on site.** Two membership posters with conflicting pricing ($300+renewal vs $250/yr) and token bonuses; tasting paddle signed $18 in print, $20 on screen; competitor name now verified as **Aardvark and Arrow** — domain suspended, merged with Burleigh Homebrew (closed 27 Aug); transcribed "Ardbach and Arrow" vs handwritten "Aardvark and Arrow." All flagged in *Validated vs pending*.
 
 ---
 
@@ -46,7 +72,7 @@ The problem is not awareness or offer quality – it is **allocation**. Every un
 - "Always red at the bottom of the P&L" – the venue trades but the business loses money overall.
 - 20L kegs vs the industry’s 50L: fresher, more variety, no excise (under threshold), no wholesaler margin – a ~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler.
 - ~70% of corny keg customers have switched to the Talos kegs (no CO2, pick-up-and-go).
-- The taproom converts: 20–30% of visitors go on to buy a keg system. Giveaway competitions (2×/year, ~1,000 entries) plus the 50%-off close converted 22–25 systems last round.
+- The taproom converts: 20–30% [unverified – see #20B] of visitors go on to buy a keg system. Giveaway competitions (2×/year, ~1,000 entries) plus the 50%-off close converted 22–25 systems last round.
 - Buying cycle is long: ~60% take up to 3 months, 40% longer, ~10% within a month.
 - The census (n=50): 57% use their system daily or most days, yet drink just ~1.55 kegs a month on average (census) – moderation, not excess.
 

@@ -16,14 +16,14 @@
 
 ## Why partnerships, and the one rule
 
-Partnerships reach keg buyers 6–9 months before purchase intent (the outdoor-living insight from discovery) and create standing refill accounts (wholesale exists to feed refill volume). They are also the channel most likely to die of neglect: discovery admitted wholesale DM leads already leak between first reply and manager contact. So the rule for this whole portfolio: **no partnership launches without a named owner, a one-page offer, and a pilot metric** – and no more than two pilots run at once, because the follow-up capacity is Raef plus founder time, not a BD team.
+Partnerships reach keg buyers 6–9 months before purchase intent (the outdoor-living insight from discovery) and create standing refill accounts (wholesale exists to feed refill volume). They are also the channel most likely to die of neglect: discovery admitted wholesale DM leads already leak between first reply and manager contact. So the rule for this whole portfolio: **no partnership launches without a named owner, a one-page offer, and a pilot metric** – and no more than two pilots run at once, because the follow-up capacity is Harry plus founder time, not a BD team.
 
 ## The portfolio
 
 | # | Partner / channel | The offer to the partner | The ask | Pilot metric (90 days unless noted) |
 |---|---|---|---|---|
 | 1 | **Outdoor-living JVs** – pool/deck builders, BBQ retailers; **Smoked Barbecue Co is the template** (Father’s Day keg system + smoking masterclass voucher) | A margin-free value-add that lifts their sale ("every deck deserves a tap"): co-branded bundle or voucher for their customers, cross-promo to Tap That Brewery’s audience, display/demo unit where floor space exists | Put the offer in their quote/handover pack; one co-branded seasonal push (Father’s Day, summer) | 10 demo bookings or 3 system sales attributable per partner; repeat the Smoked BBQ collab with measured redemptions |
-| 2 | **4WD / camping channel – Benchy** (pilot: Raef’s cousin’s fit-out business, client interest already confirmed) | First-mover product for their rigs with no competitor; demo unit for the showroom; referral margin or wholesale terms on units | Fit a demo Benchy in a showroom rig; co-produce install content; refer buyers through a tracked link/code | 5 Benchy units via the partner; refill attachment at 60 days; then formalise terms before adding a second fit-out shop (Campaign 4, #43) |
+| 2 | **4WD / camping channel – Benchy** (pilot: Harry’s cousin’s fit-out business, client interest already confirmed) | First-mover product for their rigs with no competitor; demo unit for the showroom; referral margin or wholesale terms on units | Fit a demo Benchy in a showroom rig; co-produce install content; refer buyers through a tracked link/code | 5 Benchy units via the partner; refill attachment at 60 days; then formalise terms before adding a second fit-out shop (Campaign 4, #43) |
 | 3 | **Sports clubs – white-label** ("Surfers Paradise Demons Lager"), **non-CUB venues only**, tap infrastructure present or system bundled | The club becomes a stakeholder, not a sponsee: own-brand beer, 10% player discount, 10% kickback to the club on volume | One pilot club; committee sign-off; pour it at home games/club functions | 1 club live pouring; kegs/month run-rate; player-discount signups as a refill-customer feeder |
 | 4 | **Hop On Brewery Tours** (already routing groups through the venue) | A better stop: tour-exclusive tasting paddle moment + host story; co-promotion to their booking audience | Add the Tap Tokens/Brew Buds signup to every tour visit; giveaway entry QR for tour guests | Signup rate per tour group; tour-sourced giveaway entries; 6-month check: any tour guest → system owner |
 | 5 | **Never Quit Gym** (existing perk: 10% off for new NQ members) | Reciprocity: promote NQ to Tap That Brewery members; co-owned "balance" content angle (compliance-checked – no health claims on alcohol) | Actively promote the existing 10% perk to their members instead of letting it sit on a poster | Perk redemptions per month (currently unmeasured – instrument first) |
@@ -38,12 +38,12 @@ The mechanics exist and are photo-verified on one in-venue sign: **friend buys a
 
 | Touchpoint | Mechanic | Owner |
 |---|---|---|
-| Refill counter | Scripted line at every fill: "know anyone with a system? 500 tokens if they fill here" – same discipline as the review ask | Raef + bar staff |
+| Refill counter | Scripted line at every fill: "know anyone with a system? 500 tokens if they fill here" – same discipline as the review ask | Harry + bar staff |
 | Every keg that leaves | Referral card in/on the box or keg collar: the three rewards, a QR, the referrer’s name field | Jewell designs; venue executes |
 | Post-purchase lifecycle | Referral beat in the onboarding sequence (~day 30, after the first refill – advocacy peaks once the system is proven) and in the SMS footer | Jewell builds |
-| Social | Monthly "Deals that close" slot (#41): leaderboard shout-outs (top holder 7,569 points), referral-reward reminders, member stories | Raef |
+| Social | Monthly "Deals that close" slot (#41): leaderboard shout-outs (top holder 7,569 points), referral-reward reminders, member stories | Harry |
 | Giveaway cycles | Non-winners' close email includes "or earn it: refer two mates' refills" framing | Jewell |
-| Wholesale/venue referrals | The 1,000-token venue referral aimed squarely at existing customers who know a café/club/restaurant owner – a named ask in the monthly email | Raef |
+| Wholesale/venue referrals | The 1,000-token venue referral aimed squarely at existing customers who know a café/club/restaurant owner – a named ask in the monthly email | Harry |
 
 **Measurement:** referred-in customers/month by reward type (GoTab attribution – instrument before promoting); token redemption rate; referral share of new actives. Target to beat: today’s baseline, which is effectively zero attributed referrals.
 

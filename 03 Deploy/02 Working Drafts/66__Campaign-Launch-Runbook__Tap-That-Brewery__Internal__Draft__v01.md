@@ -30,15 +30,15 @@ The whole sequence is sized for one marketer at ~70% capacity plus Jewell build 
 | T-18d | **Claim audit** on every price/saving statement in the brief | Jewell | See "Claim audit" below – blocking |
 | T-14d | Landing page or entry page built and QA’d on mobile | Jewell | Loads <3s on 4G, form submits to a real inbox, consent tick present |
 | T-14d | Tracking live before any creative (#75) | Jewell | Test event fires end-to-end and lands in the report |
-| T-10d | Creative produced – 3 concepts minimum per audience | Jewell + Raef/Harry | Files named `C{n}-{audience}-{concept}-{ratio}` |
+| T-10d | Creative produced – 3 concepts minimum per audience | Jewell + Harry/Harry | Files named `C{n}-{audience}-{concept}-{ratio}` |
 | T-10d | Alcohol-advertising review (ABAC) on every asset | Jewell | Checklist below signed |
 | T-7d | Ad accounts built, audiences saved, budgets set but **paused** (#68) | Jewell | Screenshot filed |
-| T-7d | Organic content scheduled in Buffer (#67) | Raef/Harry | 2 weeks queued |
+| T-7d | Organic content scheduled in Buffer (#67) | Harry/Harry | 2 weeks queued |
 | T-5d | Lifecycle sends built and test-sent (#69) | Jewell | Test to three internal addresses, links clicked |
-| T-3d | **Counter script briefed to bar staff** | Raef/Harry | Staff can say the offer without reading it |
+| T-3d | **Counter script briefed to bar staff** | Harry/Harry | Staff can say the offer without reading it |
 | T-2d | Stock, prize or product availability confirmed | Chris | Written confirmation from production |
-| T-1d | Go/no-go call, 15 minutes | Justin, Raef/Harry, Jewell | Every pre-flight line green or explicitly waived |
-| T-0 | **Unpause paid, publish organic, send email 1** in that order | Jewell then Raef/Harry | First conversions visible in the report inside 24h |
+| T-1d | Go/no-go call, 15 minutes | Justin, Harry/Harry, Jewell | Every pre-flight line green or explicitly waived |
+| T-0 | **Unpause paid, publish organic, send email 1** in that order | Jewell then Harry/Harry | First conversions visible in the report inside 24h |
 
 ## Pre-flight checklist (the go/no-go call reads this aloud)
 

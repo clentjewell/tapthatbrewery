@@ -47,7 +47,7 @@ The proven engine: ~1,000 entries/cycle, 50%-off close converts 22–25 systems 
 
 Portable tap for 4WD/camping/boating/caravan – **no direct competitor**. Kudos-led, outdoors, ute-tray and campsite contexts.
 
-- Product one-pager (A5, for 4WD fit-out counter – first partner: Raef’s cousin’s business), social launch set, partner co-brand template, simple spec/price card [Benchy pricing TBC – currently unpriced].
+- Product one-pager (A5, for 4WD fit-out counter – first partner: Harry’s cousin’s business), social launch set, partner co-brand template, simple spec/price card [Benchy pricing TBC – currently unpriced].
 
 ## Kit 4 – In-venue pricing & membership refresh (IMMEDIATE)
 
@@ -61,7 +61,7 @@ The two live membership posters conflict ($300 + $120/yr renewal vs **$250/yr**;
 ## Success criteria
 
 1. Kit 4 installed and photographed with zero price conflicts remaining in venue.
-2. Kits 1–3 delivered as layered source files + export packs sized for Meta, print and web; every asset passes the voice check (would Raef post it?) and the claims discipline above.
+2. Kits 1–3 delivered as layered source files + export packs sized for Meta, print and web; every asset passes the voice check (would Harry post it?) and the claims discipline above.
 3. No asset leads with sticker-price comparison against local keg rivals (Tap That Brewery is 40–90% dearer and never fights there).
 
 ## Deadlines

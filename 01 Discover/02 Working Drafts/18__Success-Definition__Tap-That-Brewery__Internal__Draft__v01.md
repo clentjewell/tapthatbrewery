@@ -42,7 +42,7 @@ The business is "always red at the bottom of the P&L" (client’s words). Succes
 
 ### 3. The taproom judged as a funnel, not a profit centre
 
-The taproom loses money and absorbed the last 18 months of focus. Discovery confirmed its real job: **20–30% of visitors go on to buy a keg system.** Success means the taproom is measured on *conversion* – visitors → demos → giveaway entries → system owners → active refill customers – not on venue P&L alone. A taproom month is good when it manufactures owners, within an agreed loss tolerance (not yet set – see open items). This reframing is itself a success condition: it is what stops taproom gravity from reclaiming founder and marketer attention.
+The taproom loses money and absorbed the last 18 months of focus. Discovery confirmed its real job: **20–30% [unverified – see #20B] of visitors go on to buy a keg system.** Success means the taproom is measured on *conversion* – visitors → demos → giveaway entries → system owners → active refill customers – not on venue P&L alone. A taproom month is good when it manufactures owners, within an agreed loss tolerance (not yet set – see open items). This reframing is itself a success condition: it is what stops taproom gravity from reclaiming founder and marketer attention.
 
 ### 4. The franchise horizon as north star
 

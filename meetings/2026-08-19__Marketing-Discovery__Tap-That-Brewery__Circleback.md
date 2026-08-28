@@ -6,7 +6,7 @@
 | **Meeting title in Circleback** | "Marketing Discovery — Keg Kings" |
 | **Date** | 19 August 2026 |
 | **Duration** | ~92 minutes |
-| **Attendees** | Clent Jewell, Christy Kilmartin (Jewell Projects); Tap That Brewery team incl. Raef (organic social/content/events, ~70% marketing / 30% bar); Ronnie Ignacio; other participants unnamed in transcript |
+| **Attendees** | Clent Jewell, Christy Kilmartin (Jewell Projects); Tap That Brewery team incl. Harry (organic social/content/events, ~70% marketing / 30% bar); Ronnie Ignacio; other participants unnamed in transcript |
 | **Purpose** | Jewell Projects discovery session — deep context on the business to build a marketing strategy |
 
 ## Overview
@@ -20,7 +20,7 @@
 
 ## Team setup and roles
 
-- Raef handles all organic social media, content ideas, and events/giveaway promotion, and also covers bar shifts (~70% marketing, 30% bar coverage).
+- Harry handles all organic social media, content ideas, and events/giveaway promotion, and also covers bar shifts (~70% marketing, 30% bar coverage).
 - The hybrid role means bar coverage only kicks in when needed — if the venue is full, a venue manager comes in instead.
 
 ## Business vision and goals
@@ -96,7 +96,7 @@ Rough segment breakdown (estimates, don't add to 100%):
 ## Growth opportunities
 
 - **Pre-existing keg system owners** are the lowest-hanging fruit for refill growth — many have had systems for years and haven't switched suppliers.
-- **"Benchy" portable tap unit** (from Kegland) targets 4WD, camping, boating, caravan markets — no direct competitors currently; Raef's cousin runs a 4WD fit-out business and confirmed client interest.
+- **"Benchy" portable tap unit** (from Kegland) targets 4WD, camping, boating, caravan markets — no direct competitors currently; Harry's cousin runs a 4WD fit-out business and confirmed client interest.
 - **Outdoor living partnerships** (pool builders, deck builders, architects, display homes, BBQ retailers) reach buyers 6–9 months before purchase-ready — existing collab with Smoked Barbecue Co (Father's Day keg system + smoking masterclass voucher) as proof of concept.
 - **Sports club model**: supply the system, white-label the beer (e.g. "Surfers Paradise Demons Lager"), 10% discount to players + 10% kickback to the club.
 - **UGC from real customers** (not the owners on camera) and a better-promoted referral program — both identified but underexecuted.

@@ -28,7 +28,7 @@ The business currently runs at a loss ("always red at the bottom of the P&L"). T
 |---|---|---|
 | **Keg refills** | The engine. All growth effort is judged by its effect here | 20L refills $120–$170 member / $150–$375 non-member; ~$200/month per active; strong margin; no excise (under threshold), no wholesaler cut |
 | **Keg systems** | Acquisition offer, deliberately margin-free | $975 (2-tap) to $2,550 (6-tap), sold at cost; Afterpay/Zip; lease-to-buy pending GoTab |
-| **Taproom** | Shopfront and proof, not a profit centre | 27 taps (~1/3 non-beer); converts 20–30% of visitors to system buyers; loses money overall |
+| **Taproom** | Shopfront and proof, not a profit centre | 27 taps (~1/3 non-beer); converts 20–30% [unverified – see #20B] of visitors to system buyers; loses money overall |
 | **Wholesale** | Opportunistic white-label only | Sports clubs (10% player discount / 10% club kickback), weddings/functions; blocked channels (CUB-exclusive NRL venues) routed around, not fought |
 
 ## The path: 96–113 → 1,000 actives
@@ -50,7 +50,7 @@ Growth arithmetic sanity check: 96–113 → 1,000 in 24 months requires ~37–3
 ## Cost realities
 
 - **The venue loses money.** It stays because it converts – but its budget and attention allocation must be capped and measured as CAC, not grown as hospitality [needs P&L data: monthly venue loss figure].
-- **One marketer.** Raef is ~70% marketing / 30% bar. The plan must fit inside that capacity until revenue funds more; anything requiring a second full-time operator is Stage 3.
+- **One marketer.** Harry is ~70% marketing / 30% bar. The plan must fit inside that capacity until revenue funds more; anything requiring a second full-time operator is Stage 3.
 - **Refill margin carries everything.** Hardware contributes $0 margin by design; taproom is negative; wholesale is small. Break-even therefore has a single lever: active count × refill margin [needs P&L data: per-keg margin, fixed overheads, break-even active count].
 - **Churn is a revenue leak with a known clock**: active <75 days, at-risk 75–90, churned 90+. Every month the GoTab/Fishbowl automation slips, winback stays a hand-sent monthly SMS.
 

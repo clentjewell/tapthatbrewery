@@ -66,8 +66,8 @@ Discovery’s admission: social DMs get responses, venues pass on a manager’s 
 
 | Stage | SLA | Owner |
 |---|---|---|
-| Lead (DM reply / referral / venue-hire enquiry) | Logged same day, every lead | Raef |
-| Contact passed (manager name/number received) | **First follow-up within 48 hours** (KR 3.4) | Raef → founder for closes |
+| Lead (DM reply / referral / venue-hire enquiry) | Logged same day, every lead | Harry |
+| Contact passed (manager name/number received) | **First follow-up within 48 hours** (KR 3.4) | Harry → founder for closes |
 | Tasting/match made (style-matched: J-Lager → Japanese, Cerveza → Mexican, craft → craft bars) | Within 2 weeks of contact | Chris (product credibility) |
 | Pouring / won | Handover to refill cadence tracking – wholesale accounts get lifecycle states too | – |
 | Lost/parked | Reason logged (contract, CUB exclusivity, no taps) – parked ≠ dead; contract end dates are diarised | – |
@@ -88,7 +88,7 @@ The interim manual layer matters most: at 206 owners / 96–113 active, a weekly
 
 ## Cost and kill criteria
 
-Incremental spend ≈ **$0 media**; costs are Fishbowl/GoTab subscription (already paid), possible ESP (#47, [TBC]), and Raef’s hours (~2–3 hrs/week interim). Kill criteria: if after two quarters the at-risk save rate sits below 15% and winbacks below 10, the offers are wrong – rework offers, not the system; the system’s data value stands regardless. There is no scenario at current scale where this build is abandoned.
+Incremental spend ≈ **$0 media**; costs are Fishbowl/GoTab subscription (already paid), possible ESP (#47, [TBC]), and Harry’s hours (~2–3 hrs/week interim). Kill criteria: if after two quarters the at-risk save rate sits below 15% and winbacks below 10, the offers are wrong – rework offers, not the system; the system’s data value stands regardless. There is no scenario at current scale where this build is abandoned.
 
 ## Assumptions & open items
 

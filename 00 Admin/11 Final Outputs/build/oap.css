@@ -190,7 +190,7 @@
 
 /* ---- per-sheet grids ---- */
 /* Discover */
-.oap[data-sheet="discover"] .canvas{grid-template-rows:minmax(0,0.94fr) minmax(0,1.44fr) minmax(0,0.98fr)}
+.oap[data-sheet="discover"] .canvas{grid-template-rows:minmax(0,0.80fr) minmax(0,1.44fr) minmax(0,1.12fr)}
 .oap[data-sheet="discover"] .b-belief{grid-column:1/5;grid-row:1;}
 .oap[data-sheet="discover"] .b-ready{grid-column:5/9;grid-row:1;}
 .oap[data-sheet="discover"] .b-killer{grid-column:9/13;grid-row:1;}
@@ -222,7 +222,7 @@
 .core-box table.mini th{font-size:5.8pt;}
 
 /* Design */
-.oap[data-sheet="design"] .canvas{grid-template-rows:.58fr 1.56fr 1.34fr .82fr;}
+.oap[data-sheet="design"] .canvas{grid-template-rows:0.76fr 1.4fr 1.36fr 0.78fr}
 .oap[data-sheet="design"] .b-strategy{grid-column:1/13;grid-row:1;gap:2mm;}
 .oap[data-sheet="design"] .b-strategy .kicker{font-family:var(--font-label);font-weight:600;font-size:6.6pt;
   letter-spacing:.1em;text-transform:uppercase;color:var(--muted);}
@@ -251,7 +251,7 @@
 .oap[data-sheet="design"] .gate-cols li{margin-bottom:0;font-size:7.7pt;line-height:1.42;}
 
 /* Deploy */
-.oap[data-sheet="deploy"] .canvas{grid-template-rows:.96fr .74fr .54fr 1.18fr;}
+.oap[data-sheet="deploy"] .canvas{grid-template-rows:1.16fr 0.66fr 0.52fr 1.1fr}
 .oap[data-sheet="deploy"] .b-glance{grid-column:1/4;grid-row:1;}
 .oap[data-sheet="deploy"] .b-channels{grid-column:4/10;grid-row:1/3;}
 .oap[data-sheet="deploy"] .b-measure{grid-column:10/13;grid-row:1/3;}

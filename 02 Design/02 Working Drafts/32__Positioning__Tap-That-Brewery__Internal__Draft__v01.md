@@ -26,7 +26,7 @@ Compressed (for decks and briefs): *The Gold Coast’s home-tap brand – brewed
 
 ## Frame of reference: the home-tap category, not the craft-brewery category
 
-Tap That Brewery must refuse the frame it superficially fits. As a craft brewery it is one of dozens on the Gold Coast, across the road from a cheaper one. As **the home-tap brand** it is alone: nobody – not Aardvark & Arrow*, not Laughing Lizard, not the online distributors – is building the relationship with the installed base of keg systems sitting in Gold Coast garages that need filling every month. The category claim is "beer on tap at home" (already the headline of Tap That Brewery’s own in-venue flyer: *"Did you say beer on tap at home?"*). The taproom, in this frame, is not the product – it is the demo floor, converting 20–30% of visitors into category entrants.
+Tap That Brewery must refuse the frame it superficially fits. As a craft brewery it is one of dozens on the Gold Coast, across the road from a cheaper one. As **the home-tap brand** it is alone: nobody – not Aardvark & Arrow*, not Laughing Lizard, not the online distributors – is building the relationship with the installed base of keg systems sitting in Gold Coast garages that need filling every month. The category claim is "beer on tap at home" (already the headline of Tap That Brewery’s own in-venue flyer: *"Did you say beer on tap at home?"*). The taproom, in this frame, is not the product – it is the demo floor, converting 20–30% [unverified – see #20B] of visitors into category entrants.
 
 ## Points of difference (defensible, evidenced)
 

@@ -28,7 +28,7 @@ One line on why we’re here, in your words: *you’re in the business of connec
 |---|---|---|
 | **Justin Mistry** | Co-founder, operator | Business model, commercial decisions, franchise vision; checkpoint sessions |
 | **Chris Smith** | Co-founder, head brewer | Product, range and brewing credibility; input on brand and product marketing |
-| **Raef** | Marketing – organic social, content, events (~70% marketing / 30% bar) | Our day-to-day operator contact; everything we design must be runnable by this seat |
+| **Harry** | Marketing – organic social, content, events (~70% marketing / 30% bar) | Our day-to-day operator contact; everything we design must be runnable by this seat |
 
 *We’ll confirm the full team list and titles at kick-off, including who holds sign-off (see below).*
 
@@ -54,14 +54,14 @@ What happens next, in order:
 
 1. **Now:** you send the checklist items below; we finish the Discover documents.
 2. **CP1 (Discovery readout):** ~90-minute session with both founders. We present the full picture of the business as we’ve validated it; you correct anything wrong and sign.
-3. **Design phase:** weekly check-ins with Raef; founders pulled in for a small number of working inputs.
+3. **Design phase:** weekly check-ins with Harry; founders pulled in for a small number of working inputs.
 4. **CP2 (Strategy presentation):** the strategy, the roadmap, and the Deploy scope and pricing. You sign, and we start building.
 
 ## Communication cadence
 
 | Rhythm | What | Who |
 |---|---|---|
-| Weekly (active phases) | 20–30 minute check-in: progress, blockers, what we need | Clent + Raef (founders optional) |
+| Weekly (active phases) | 20–30 minute check-in: progress, blockers, what we need | Clent + Harry (founders optional) |
 | At each checkpoint | Working session + sign-off document | Founders + Jewell team |
 | Ad hoc | Email to clent@jewellprojects.com; we reply within one business day | Anyone |
 | Documents | Everything lives in the shared engagement folder – nothing important travels only by email or text | Both sides |

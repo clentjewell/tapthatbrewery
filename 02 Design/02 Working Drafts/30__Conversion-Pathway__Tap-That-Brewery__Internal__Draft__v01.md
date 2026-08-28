@@ -18,7 +18,7 @@
 
 ## Purpose
 
-Tap That Brewery already converts – 20–30% of taproom visitors become owners, giveaways close 22–25 systems a round, and half the refill base switched in from elsewhere with no campaign at all. But this is an *accidental* pathway: it works when the customer happens to walk in, and goes silent for the 3-month window where 60% of buyers decide. This document designs the deliberate version – entry points ranked by cost, a nurture machine for the window, explicit conversion triggers, and the handoff into lifecycle automation – with the checkpoints that make it measurable.
+Tap That Brewery already converts – 20–30% [unverified – see #20B] of taproom visitors become owners, giveaways close 22–25 systems a round, and half the refill base switched in from elsewhere with no campaign at all. But this is an *accidental* pathway: it works when the customer happens to walk in, and goes silent for the 3-month window where 60% of buyers decide. This document designs the deliberate version – entry points ranked by cost, a nurture machine for the window, explicit conversion triggers, and the handoff into lifecycle automation – with the checkpoints that make it measurable.
 
 ## Current vs designed, on a page
 
@@ -40,7 +40,7 @@ Ranking logic: how much of the funnel each entry point *skips*. The cheapest cus
 | 2 | **Referral (Tap Tokens)** | Paid in tokens, not dollars; arrives pre-sold by a mate pouring the proof | 1,000 tokens per system referral / 500 per refill referral – promote outside the venue, prompt at high-satisfaction moments (post-first-refill, post-party) |
 | 3 | **Taproom** | Venue cost is sunk (it trades anyway); 20–30% visitor→owner conversion is the best rate in the business | Capture every visitor to a named list (QR → tasting notes / Tap Tokens signup already in venue); demo-booking path via cheers@ |
 | 4 | **Giveaway** | ~1,000 entries per round for prize + promo cost, but most entrants need the full 3-month nurture | Keep 2×/yr cadence; the redesign is what happens to the ~975 non-winners (below) |
-| 5 | **Benchy / outdoor-living partnerships** | Highest effort, longest lag (reaches buyers 6–9 months out via pool/deck builders, BBQ retail, 4WD fit-outs – Smoked Barbecue Co proves the model), but no competitor and compounding shelf presence | Partner packs, display units, co-branded offers; Raef’s cousin’s 4WD network as the Benchy beachhead |
+| 5 | **Benchy / outdoor-living partnerships** | Highest effort, longest lag (reaches buyers 6–9 months out via pool/deck builders, BBQ retail, 4WD fit-outs – Smoked Barbecue Co proves the model), but no competitor and compounding shelf presence | Partner packs, display units, co-branded offers; Harry’s cousin’s 4WD network as the Benchy beachhead |
 
 *Priority consequence: lane 1 is ranked above every demographic campaign (carried from #05). It funds itself first.*
 
