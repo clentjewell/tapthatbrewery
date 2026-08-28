@@ -50,7 +50,7 @@ The switcher flag is the single most valuable field in the model. **~116 of 206 
 | 2.1 | Confirm the integration writes transaction-level data, not daily totals | Jewell | Vendor confirmation in writing |
 | 2.2 | Map GoTab fields to Fishbowl record fields; agree the unique key (mobile) | Jewell | Field map signed off |
 | 2.3 | Nightly job computing days-since-last-keg | Jewell | Runs for 7 days in shadow before any send fires |
-| 2.4 | Build the 60/75/90 triggers | Jewell | Shadow-run: log who *would* have been messaged, compare to the manual list |
+| 2.4 | Build the interval-based triggers, with 60/75/90 as the thin-history fallback | Jewell | Shadow-run: log who *would* have been messaged, compare to the manual list |
 | 2.5 | Cut over sequences 4–5 from manual to automated | Jewell | Two consecutive shadow weeks matching manual within 5% |
 | 2.6 | Retire the manual fortnightly pull | Harry/Harry | Only after two clean automated cycles |
 

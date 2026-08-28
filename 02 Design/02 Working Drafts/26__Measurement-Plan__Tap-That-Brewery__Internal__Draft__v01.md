@@ -25,7 +25,7 @@ One rule: if a number doesn’t move active keg customers or explain why they mo
 | Metric | Definition | Why it matters | Source |
 |---|---|---|---|
 | Refills/month | 20L-equivalent fills per month, and per active (baseline **~1.55**, census weighted mean – not the ~2 this model was built on) | Validates the per-active economics; the ~$2.6M target is rebased with it | GoTab |
-| Churn & saves | Actives crossing 90 days; at-risk customers recovered by 60/75/90-day touches | The leak automation exists to plug (H4) | GoTab + Fishbowl |
+| Churn & saves | Actives crossing 90 days; at-risk customers recovered by interval-based touches (#48) | The leak automation exists to plug (H4) | GoTab + Fishbowl |
 | Switcher adds | New refill customers whose system wasn’t bought here | P1's headline; the 50%-organic figure becomes a managed channel (H1) | GoTab (flag at first fill) |
 | Giveaway → purchase | Entrants (~1,000/cycle) → systems bought; today 22–25 via the 50% close | Nurture (H3) must beat this or it isn’t working | Entry list + GoTab |
 | Taproom → system | % of visitors buying a system (client estimate 20–30% [unverified – see #20B]) | The venue’s entire justification, measured | Demo QR/CTA capture + GoTab |

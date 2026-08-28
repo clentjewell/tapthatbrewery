@@ -24,7 +24,7 @@ Every channel in this programme exists to move a single number: **active keg cus
 | Stream | What runs | Owner |
 |---|---|---|
 | Organic social | 3 posts + 3–4 stories/week across the five pillars; UGC engine; community management | Harry |
-| Lifecycle messaging | Manual monthly winback SMS until GoTab × Fishbowl lands; then automated 60/75/90-day triggers, onboarding, cadence reminders, renewals | Jewell builds; Harry sends until automated |
+| Lifecycle messaging | Manual monthly winback SMS until GoTab × Fishbowl lands; then automated triggers keyed to each customer's own reorder interval (#48), onboarding, cadence reminders, renewals | Jewell builds; Harry sends until automated |
 | Local SEO | Google Business Profile, "keg refills Gold Coast" / "we fill any system" pages, calculator, FAQ schema | Jewell |
 | Referral (Tap Tokens) | 1,000 tokens/system · 1,000/venue · 500/refill – counter script, keg-box card, SMS footer, monthly leaderboard content | Harry, with #44 collateral |
 

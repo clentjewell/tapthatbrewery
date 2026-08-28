@@ -70,6 +70,29 @@ SUMMARY_MUST_SAY = {
     "the deck":                 r'href="/deck"',
 }
 
+def rule_wholesale_promoted(path, ls):
+    """#24 P4 reversed after the review: commercial and wholesale went from
+    opportunism to a ranked priority with an owner. Reworking one document and
+    not its dependants is how a set starts contradicting itself."""
+    text = "\n".join(ls)
+    for m in re.finditer(r"opportunis\w*|white[- ]label only", text):
+        window = near(text, m, 200)
+        if re.search(r"wholesale|commercial", window, re.I) and not re.search(
+                r"reversed|previously|no longer|first draft|rather than|resourced|"
+                r"one offer inside|not opportunism", window, re.I):
+            flag("wholesale-still-opportunism", path,
+                 f"line {line_of(text, m.start())}: wholesale framed as opportunism")
+
+def rule_lifecycle_cadence(path, ls):
+    """The lifecycle clock is per-customer after the review, not a flat 60/75/90.
+    A document may still name those days as a fallback, but not as the design."""
+    text = "\n".join(ls)
+    for m in re.finditer(r"60/75/90|day[- ]?60/75/90", text):
+        if not re.search(r"own (reorder )?interval|their interval|per[- ]customer|"
+                         r"fallback|flat|interim|rails", near(text, m, 320), re.I):
+            flag("flat-lifecycle-clock", path,
+                 f"line {line_of(text, m.start())}: flat 60/75/90 stated as the design")
+
 def rule_summary_completeness(path, ls):
     if not path.endswith("delivery-summary.html"):
         return
@@ -282,7 +305,7 @@ DOC_RULES = [rule_competitor_closed, rule_no_raef, rule_dead_baseline,
              rule_loss_making_named, rule_schooner_price, rule_membership_price,
              rule_discover_is_input, rule_ranked_moves_order,
              rule_no_ingestion_banner, rule_stale_census_tense, rule_review_absorbed,
-             rule_summary_completeness]
+             rule_summary_completeness, rule_wholesale_promoted, rule_lifecycle_cadence]
 
 # --------------------------------------------------------------------------
 # Rules over the counts, checked against the generator and the tracker

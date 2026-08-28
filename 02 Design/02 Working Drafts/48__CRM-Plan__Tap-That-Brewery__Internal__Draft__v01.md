@@ -33,19 +33,39 @@ One record per customer in Fishbowl, keyed to GoTab transactions:
 
 Data hygiene rule (KR 2.4): **100% of keg transactions attached to a customer record.** A counter script for staff ("what number do we text when it’s ready?") is the whole capture mechanism – it already works for corny customers.
 
-## Lifecycle automation: the 60/75/90 engine
+## Lifecycle automation: each customer's own clock, not ours
 
-Replaces the manual monthly SMS with triggers computed from days-since-last-keg:
+**This section was rebuilt after the 27 August review.** The first version fired at a fixed 60, 75 and 90 days for everybody. The review's objection is the right one:
 
-| Day | State | Automated action | Replaces |
+> "People are creatures of habit and likely go through kegs at about the same rate, so a 90-day SMS is a bit tone-deaf. We know their purchase patterns, so customise the contact and be Johnny on the spot."
+
+A fixed calendar is only correct for the average customer, and almost nobody is the average customer. Roughly **10% buy monthly, 60% about every three months, and 40% run longer**. At day 60, a monthly buyer is a month overdue and probably gone; a quarterly buyer is on schedule and being nagged. The same message is late for one and rude to the other.
+
+**So the trigger is relative to each customer's own interval.** Fishbowl computes a rolling median gap between kegs per customer from at least three purchases, and the flow fires against that.
+
+| Trigger | State | Automated action | Replaces |
 |---|---|---|---|
-| ~21–25 | Active, cadence due | "What’s kegged & ready" email (#47 seq 3) | Nothing – new revenue protection |
-| 60 | Active, drifting | Email nudge, no discount – range/freshness angle | Nothing |
-| 75 | **At-risk** | SMS + email: service/convenience angle (corny Tue→Fri, delivery when live). No discount yet – don’t train discount-waiting | The untargeted blast |
-| 90 | **Churned** | Winback ladder fires: $20-off/2-week window → Marie’s Pizza Buttercard → next tested offer; response rate logged per offer | The manual monthly SMS |
-| 90 + 60 | Dormant | Quarterly-max touch: giveaway invite, seasonal release, event invite | Nothing (list currently goes dark) |
+| **0.85 × their interval** | Cadence due | "What's kegged and ready" (#47 seq 3). Arrives just before they would normally reorder – the *Johnny on the spot* touch | Nothing – new revenue protection |
+| **1.15 × their interval** | Drifting | Nudge, no discount. Range and freshness angle | Nothing |
+| **1.5 × their interval** | **At-risk** | SMS and email: service and convenience (corny Tue→Fri, delivery when live). Still no discount – do not train discount-waiting | The untargeted blast |
+| **2 × their interval**, or 90 days, whichever is later | **Churned** | Winback ladder, tracked per offer: $20-off/2-week window → Marie's Pizza Buttercard → next tested offer | The manual monthly SMS |
+| Churned + 60 days | Dormant | Quarterly-max touch: giveaway invite, seasonal release, event invite | Nothing – the list currently goes dark |
+
+**Fallback.** Customers with fewer than three recorded purchases have no interval yet, so they run on the flat 60/75/90 rails until one exists. That is a starting state, not the design.
+
+**The 40% is the priority inside this.** The band that runs longest between kegs is the largest and the most winnable: they have **cut back rather than defected**, and the system is still in the backyard. Where they are also Keg Crew members they are paying for something they have stopped using, which is both the strongest reason to act and the easiest message to write. The product answer belongs with it — a low-alcohol or healthier line, framed as hydration rather than beer, reactivates them without asking anyone to drink more (#14).
 
 Every send and every response is written back to the record, so the at-risk save rate (KR 2.2 target ≥40%) and winback count (KR 2.3 target 30/yr) become dashboard numbers instead of anecdotes.
+
+## Loyalty: simplify before automating
+
+Two review findings sit here, and both cut against building more machinery.
+
+**The points system may be its own cost driver.** Tap Tokens require administration, reconciliation and explanation, and the review's question is whether that cost is bought back in loyalty. The proposed alternative is blunt and legible: **every tenth keg free.** A customer can hold that in their head, it needs almost no administration, and it rewards exactly the behaviour the business needs. Tokens do not have to go, but the burden of proof is now on keeping them rather than on replacing them.
+
+**Referral should be a free keg for both sides.** When a mate buys a system, both parties get a keg. That is simpler than a token balance and it pays out at the moment of goodwill rather than at some later threshold. Pay-with-a-tweet and a discount for tagging sit alongside it as low-cost UGC mechanics.
+
+Neither is a decision for us. Both belong in the same conversation as the membership price (open item #2), because the answer changes what the CRM has to track.
 
 ## Segmentation views (saved, standing views in Fishbowl)
 
@@ -79,7 +99,7 @@ Target: 6 new style-matched venue accounts in 12 months (KR 3.4). Sports-club wh
 | 1. Get the real GoTab/Fishbowl integration status + date from the vendors | Named D06 production gate – currently "pending", undated | Week 1–2 post-CP1 |
 | 2. Interim manual layer: weekly GoTab transaction export → days-since-last-keg sheet → hand-triggered 75/90 sends | None – do not wait for the integration | Immediately |
 | 3. Data model fields configured; switcher flag + provenance capture live at counter | GoTab field configuration | Month 1 |
-| 4. Automated 60/75/90 flows live | Integration complete; KR 2.1 says live within 90 days of that | Integration + 90 days |
+| 4. Automated interval-based flows live (60/75/90 fallback included) | Integration complete; KR 2.1 says live within 90 days of that | Integration + 90 days |
 | 5. Delivery (Uber Direct) and lease-to-buy data folded in | Respective GoTab features live | When shipped |
 
 The interim manual layer matters most: at 206 owners / 96–113 active, a weekly export and a sorted spreadsheet is a 30-minute job that captures most of the automation’s value **now**, while proving the send-and-save logic the automation will inherit.

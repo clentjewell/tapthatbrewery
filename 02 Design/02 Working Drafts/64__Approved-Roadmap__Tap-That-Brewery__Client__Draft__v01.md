@@ -35,7 +35,7 @@ This is the execution view of the approved strategy (#63): quarter by quarter, w
 | Onboarding + nurture continuation (Dec) | ~25 new owners onboarded (setup, first refill, referral card in every keg box); non-buyers finish their 3-month window; deliberately light month | R (light) · J (automation build continues) | C2 close volume | Pending CP2 sign-off |
 | Website + SEO live (#53/#55) | Rebuilt site: switcher page, range, calculator, membership (reconciled), booking/entry forms | J | Kit 4, #54 imagery, #58 form endpoints | Pending CP2 sign-off |
 | C3 Giveaway cycle 2 (Jan–Feb) | Cycle-1 playbook rerun with refreshed creative; Australia Day entry spike; close late Feb | R (content, lighter second run) · J (creative refresh) · C (prize budget) | Cycle-1 learnings; two-cycle spacing confirmed | Pending CP2 sign-off |
-| **Automation go-live (target Feb)** | 60/75/90-day triggers on; manual SMS retired; EDM sequences 4–6 delivered by CRM | J (flows) · C (GoTab/Fishbowl priority) | **The integration date – the roadmap’s biggest single risk** | Pending CP2 sign-off |
+| **Automation go-live (target Feb)** | Interval-based triggers on (#48), flat 60/75/90 as fallback; manual SMS retired; EDM sequences 4–6 delivered by CRM | J (flows) · C (GoTab/Fishbowl priority) | **The integration date – the roadmap’s biggest single risk** | Pending CP2 sign-off |
 | Paid media launch → scale check (#56) | Test budgets through both cycles; scale only past kill criteria with CRM + EDM live | J | #53 live, #58 tracking loop | Pending CP2 sign-off |
 | Delivery ("Keg Drop") | GoTab × Uber Direct live if capability lands; featured in C3 as summer convenience | C (GoTab) · J (launch comms) | GoTab × Uber Direct integration | Pending CP2 sign-off |
 
@@ -55,7 +55,7 @@ This is the execution view of the approved strategy (#63): quarter by quarter, w
 |---|---|---|---|---|
 | EOFY workplace push (Jun, light) | Invoice-friendly office systems; Origin nights content | R | None | Pending CP2 sign-off |
 | Membership renewal engine | Renewal sequence live (45/14/0 days), value-restated in dollars | J (emails) · R (ops) | Pricing reconciled (Q1); automation live | Pending CP2 sign-off |
-| Automation optimisation (Jul) | 60/75/90 triggers tuned on 6 months' data; winback partner test 2 | J (review) · R (content) | Two quarters of trigger data | Pending CP2 sign-off |
+| Automation optimisation (Jul) | Interval triggers tuned on 6 months' data, and per-customer intervals recomputed; winback partner test 2 | J (review) · R (content) | Two quarters of trigger data | Pending CP2 sign-off |
 | Playbook codification | Giveaway cycle, switcher lane, lifecycle flows, club model written as SOPs – the franchise-asset marker | J · C (endorsement) | Two giveaway cycles + C1/C4 actuals | Pending CP2 sign-off |
 | Year close-out (Aug) | Annual review vs the 450 gate; Father’s Day 2027 + giveaway cycle 3 staged from the cloned playbook; year-2 budget | J (review) · R (runs the playbook) · C (budget) | Full-year data | Pending CP2 sign-off |
 

@@ -81,7 +81,7 @@ No Design-phase asset should be built on unreconciled inputs. Three gates, all a
 
 ### Move 2 – Lifecycle automation second (design now; live within 90 days of integration)
 
-**What:** the 60/75/90-day triggered flows (pre-churn nudge → at-risk save → churned winback ladder, with the $20-off and Marie’s Pizza offers as tested variants), built on GoTab transaction data via Fishbowl.
+**What:** the triggered lifecycle flows (pre-churn nudge → at-risk save → churned winback ladder), fired against each customer's own reorder interval rather than a flat calendar (#48), with the $20-off and Marie’s Pizza offers as tested variants), built on GoTab transaction data via Fishbowl.
 
 **Why second:** highest margin per effort-hour (owned list, already-acquired customers, lapsed-not-lost), and it *permanently* removes a recurring manual task from Harry’s 70% – capacity that funds Moves 3 and 4. Second only because it is hostage to the integration date from Move 0; the flows, copy and offer ladder are designed in parallel so go-live is limited by the integration alone. Tests H4.
 

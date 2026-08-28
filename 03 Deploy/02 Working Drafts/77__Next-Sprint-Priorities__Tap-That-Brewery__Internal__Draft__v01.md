@@ -74,7 +74,7 @@ Naming these matters as much as naming the priorities, because each one has an a
 | Delivery launch | Needs licensing; then stock-up buyers only (79% vs 40%) | On licensing |
 | Letterbox drops, radio, advertorial | Held until Meta has two measured giveaway cycles | Q3+ |
 | Benchy campaign | Gated on productisation and pricing | ~Jan 2027 |
-| Automated 60/75/90 triggers | Gated on GoTab × Fishbowl; manual track covers it meanwhile | On integration |
+| Automated interval-based triggers (#48) | Gated on GoTab × Fishbowl; manual track covers it meanwhile | On integration |
 | Sports club white-label, PR-agency venue hire | One-pagers written, pitches held – two pilots at once is the cap | Q2 |
 | Design rework from the census | Needs CP1 and CP2 signed first | On gates |
 

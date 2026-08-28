@@ -14,9 +14,19 @@
 
 ## How to read this list
 
-These are the six bottlenecks D06 named, now ranked by commercial consequence, each with a definition of *solved* so progress is checkable rather than felt. The ranking principle: problems that block the refill engine (the margin) outrank problems that merely cost revenue at hospitality margins. Notably, none of these is a strategy problem – discovery confirmed the team’s model is right ("everything feeds refill volume"). Every problem below is an execution, systems, or attention problem.
+These are the bottlenecks D06 named, ranked by commercial consequence, each with a definition of *solved* so progress is checkable rather than felt. The ranking principle: problems that block the refill engine (the margin) outrank problems that merely cost revenue at hospitality margins.
+
+**One claim from the first draft has been withdrawn.** It said none of these is a strategy problem, because discovery confirmed the model was right. The 27 August advisory review does not support that. The business is losing money; nobody has priced what it costs to run; and the taproom and the refill model work against each other by design rather than by drift. Those are structural, and calling them execution problems let the list recommend effort where the honest answer is a decision. P0 below is new and outranks everything that follows it.
 
 ## The ranked list
+
+### P0 – Nobody knows what this business costs to run
+
+**The problem.** There is no COGS, no figure for what carrying 27 taps costs in ingredients, kegs, storage and refrigeration on stock that may never move, and no number for the taproom's actual monthly loss. The P&L is described as "red at the bottom" and that is the whole of it.
+
+**Commercial consequence.** This is the largest gap in the engagement, and it sits underneath every other problem here. Without it, every recommendation we have made is a judgement about revenue with no view of margin – including the ranking on this page. A loss-making business cannot fund everything below simultaneously, and we cannot currently say which parts it can fund.
+
+**Solved looks like.** COGS, the cost of the 27-tap range, and the taproom's monthly loss, in writing (open item #17). Test: we can state the break-even active count and the cost per new active, rather than the revenue per new active.
 
 ### P1 – Execution capacity (the master problem)
 
@@ -32,7 +42,7 @@ These are the six bottlenecks D06 named, now ranked by commercial consequence, e
 
 **Commercial consequence.** Every month of delay leaks refill revenue from a list the business already owns – the cheapest revenue available anywhere in the plan. Churned customers contacted personally said they had lapsed, not left ("hadn’t gotten around to coming in"), which means this is recoverable revenue dying of inattention.
 
-**Solved looks like.** Lifecycle automation live at 60/75/90-day triggers (OKR 2.1); an at-risk save rate ≥ 40% (OKR 2.2); the monthly SMS retired as a system, retained only as a tested offer within the ladder.
+**Solved looks like.** Lifecycle automation live on interval-based triggers keyed to each customer's own reorder rhythm (#48), with the flat 60/75/90 rails as the fallback for thin histories (OKR 2.1); an at-risk save rate ≥ 40% (OKR 2.2); the monthly SMS retired as a system, retained only as a tested offer within the ladder.
 
 ### P3 – Taproom gravity
 
@@ -40,7 +50,9 @@ These are the six bottlenecks D06 named, now ranked by commercial consequence, e
 
 **Commercial consequence.** Attention is the scarcest resource in the business (see P1); the taproom consumes it at hospitality returns while the refill engine – the actual margin – sits at 96–113 of a 1,000 target. Unchecked, the venue will keep winning attention by default.
 
-**Solved looks like.** The taproom formally re-scoped as a funnel (#18): measured on visitor→owner conversion (currently 20–30% [unverified – see #20B]), operating within an agreed loss tolerance, with events/functions run to feed giveaway entries and demos. Test: the monthly review discusses taproom *conversion* before taproom *takings*.
+**What the review changed here.** The first draft treated this as an attention problem to be corrected by re-scoping the taproom as a funnel. It is also a **zero-sum** problem: the refill business is built on people *not* coming in, so filling the room fills the half that loses money. And the conversion rate that justified calling it a funnel – 20–30% – is the client's own estimate and has never been measured (open item #18). At that rate the rational move would be to pay people to walk in, which is itself grounds for doubt.
+
+**Solved looks like.** A founders' decision on what the taproom is for (open item #20): restricted hours as a tasting and event venue, or an open drop-in that is knowingly paid for. Then, whichever way it goes, a measured conversion rate rather than an estimate, and an agreed loss tolerance. Test: the monthly review discusses taproom *cost and conversion* before taproom *takings* – and somebody can state both numbers.
 
 ### P4 – Wholesale lead leakage
 
@@ -70,10 +82,11 @@ These are the six bottlenecks D06 named, now ranked by commercial consequence, e
 
 | Rank | Problem | Blocks | First move lives in |
 |---|---|---|---|
+| **P0** | **Unknown cost base** | **Every recommendation in the set** | **Open item #17 – client to supply** |
 | P1 | Execution capacity | Everything | #22, Move 0 + sequence |
 | P2 | Manual re-engagement | Owned-list revenue | #22, Move 2 |
-| P3 | Taproom gravity | Attention allocation | #18 reframe, Gate 1 decision |
-| P4 | Wholesale lead leakage | Warm pipeline | #22, Move 3 (lightweight fix earlier) |
+| P3 | Taproom gravity **and the zero-sum tension** | Attention allocation, and the shape of the business | Open item #20 – founders' decision |
+| P4 | Commercial and wholesale left unowned | The channel worth ten households per account | #22 move 3, #24 P4 |
 | P5 | Price/collateral drift | All funnel copy | Gate 1 production gate |
 | P6 | Food friction | Function growth | Design phase, after P1–P4 |
 

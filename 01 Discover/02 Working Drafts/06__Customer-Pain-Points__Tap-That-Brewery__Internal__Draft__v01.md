@@ -49,7 +49,7 @@ The margin lives here, so friction here is churn. Lifecycle definitions in use: 
 | Lifecycle pain | In their words | Consequence | Current / pending answer |
 |---|---|---|---|
 | Running dry | "Mates arrived Saturday and the keg blew halfway through." | The system’s whole promise fails at the social moment it exists for | No low-keg warning today; delivery (GoTab × Uber Direct, same-day capable) and cadence-based prompts post Fishbowl integration |
-| Forgetting to swap | "I keep meaning to drop in – it’s been two months." | The lapsed-not-lost drift: churned customers contacted said they’d "not gotten around to it" | Manual monthly SMS ($20 off, 2-week window); automation at 60/75/90 days pending GoTab/Fishbowl |
+| Forgetting to swap | "I keep meaning to drop in – it’s been two months." | The lapsed-not-lost drift: churned customers contacted said they’d "not gotten around to it" | Manual monthly SMS ($20 off, 2-week window); interval-based automation pending GoTab/Fishbowl, with flat 60/75/90 rails as the fallback (#48) |
 | The refill errand | "Burleigh’s a 25-minute round trip with the empty rattling in the boot." | Convenience pillar erodes with distance from the taproom | Census says $20–30 delivery fee and 3–7 days acceptable; Uber Direct beats that |
 | Corny keg wait | "Drop it Tuesday, get it Friday – so I’m dry half the week." | Stainless owners lose days per cycle (+ $3 cleaning fee) | The Talos kegs: pick-up-and-go, no CO2 – ~70% of corny customers have already switched |
 | Range paralysis / same-again fatigue | "I just get the lager because I don’t know what’s pouring." | Refill cadence slows when the range isn’t visible at home | Tasting notes QR exists in venue; no owned digital "what’s kegged & ready" channel yet |

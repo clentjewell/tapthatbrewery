@@ -26,17 +26,17 @@ The Discover phase ended with a diagnosis: Tap That Brewery is a refill subscrip
 | 1 | Compete in the **home-tap category** – "beer on tap at home", which nobody on the Gold Coast owns | Becoming another Burleigh craft taproom brand – the most crowded fight in the region |
 | 2 | **Switchers first**: win refills from the installed base of keg systems, whoever sold the hardware (50% of the current book already switched unprompted) | Treating every new active as someone who must first be sold a $975 system |
 | 3 | **Kudos/connection open, cost closes** – cost framed per litre, private-voiced, in retargeting and the close only (high-volume drinkers the sole exception) | Price-led creative; any sticker fight against $85–90 rivals ($120–170 kegs lose it, and forfeit the award story doing so) |
-| 4 | **Lifecycle automation before new-audience spend** – the 60/75/90-day engine on the lists the business already owns | Cold-reach spend while the warm list leaks at 75–90 days |
+| 4 | **Lifecycle automation before new-audience spend** – the lifecycle engine on the lists the business already owns, fired against each customer's own reorder rhythm rather than a blanket clock | Cold-reach spend while the warm list leaks at 75–90 days |
 | 5 | Taproom scoped as **funnel, not profit centre** – events scored on contacts captured and systems attributed | Another 18 months of venue-first attention; bar take as a lead metric |
 | 6 | Paid media = **Meta + Google Search only**, test-protocol posture, gated behind CRM/EDM | TikTok, YouTube, display, Spotify; agency-normal always-on spend |
 | 7 | **Traditional media held** (signage/livery infrastructure excepted) until paid digital survives two giveaway cycles | TV, billboards, cinema, awareness print, always-on radio |
-| 8 | Wholesale as **white-label opportunism** (10% player / 10% club, non-CUB, short named list) with a 48-hour follow-up SLA | Broad wholesale prospecting; chasing CUB-locked venues |
+| 8 | **Commercial and wholesale, resourced** – one account is worth roughly ten households ($21,840 venue lifetime gross profit against $2,100 residential), so it gets structure, goals, KPIs and a named owner rather than opportunism. Tour operators and sports clubs included; white-label stays as one offer inside it | Unowned prospecting with no follow-up cadence; chasing CUB-locked venues |
 | 9 | PR **earned-only**, one pitch/month, riding real hooks (comeback story, award, Benchy) | PR agency retainer while the P&L is red |
 | 10 | Brand voice named as **Regular Guy × Jester** – the voice already on the walls; puns earn the follow, straight talk earns the trust | Inventing a new brand; letting the Jester price-joke the $975 trust decision |
 
 ## The priorities, in order (#24)
 
-P1 Refill acquisition, switchers first · P2 Lifecycle automation before new-audience spend · P3 Re-weight effort from taproom to engine · P4 Wholesale as white-label opportunism only · P5 Collateral and pricing hygiene · P6 Measure the engine, not the noise.
+P1 Refill acquisition, switchers first · P2 Lifecycle automation before new-audience spend · P3 Re-weight effort from taproom to engine · P4 Commercial and wholesale, resourced with an owner · P5 Collateral and pricing hygiene · P6 Measure the engine, not the noise.
 
 ## The 12-month plan shape (#43, #45)
 

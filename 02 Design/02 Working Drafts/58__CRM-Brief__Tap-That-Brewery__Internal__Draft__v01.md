@@ -29,17 +29,19 @@ Complete the GoTab (POS) → Fishbowl (CRM) integration and stand up the lifecyc
 | Web capture in | demo_booked, giveaway_entry, function_enquiry land as records with consent timestamp + UTM source |
 | Out of scope (phase 2) | Uber Direct delivery data, lease-to-buy contract handling, franchise reporting |
 
-## The 60/75/90 trigger set (replaces manual SMS)
+## The trigger set (replaces manual SMS)
 
-| Trigger | Fires | Condition guards |
-|---|---|---|
-| Day 60 | Nudge email (#57) | Skip if a purchase or an open winback offer exists |
-| Day 75 | At-risk SMS + email | Tag cohort for save-rate reporting (#19 KR 2.2) |
-| Day 90 | Winback SMS (offer ladder) | Offer variant recorded per send; suppress after 2 winback cycles without response [cadence TBC] |
+Triggers fire against **each customer's own reorder interval**, not a fixed calendar — see #48 for why. A blanket 90-day clock is a month late for the 10% who buy monthly and premature for the 40% who run longest. Fishbowl computes a rolling median gap between kegs from at least three purchases; customers without that history run the flat rails in the last column until they have it.
+
+| Trigger | Fires | Condition guards | Fallback |
+|---|---|---|---|
+| 1.15 × their interval | Nudge email (#57) | Skip if a purchase or an open winback offer exists | Day 60 |
+| 1.5 × their interval | At-risk SMS + email | Tag cohort for save-rate reporting (#19 KR 2.2) | Day 75 |
+| 2 × their interval, or 90 days, whichever is later | Winback SMS (offer ladder) | Offer variant recorded per send; suppress after 2 winback cycles without response [cadence TBC] | Day 90 |
 
 ## Required fields
 
-customer_id · name · mobile · email · suburb/postcode · consent status/date/source · segment self-select (backyard/shed/office/club) · **own_system_elsewhere (Y/N)** – the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.
+customer_id · name · mobile · email · suburb/postcode · **median_keg_interval** (rolling, from ≥3 purchases – the field the triggers above key off) · **interval_confidence** (purchase count) · consent status/date/source · segment self-select (backyard/shed/office/club) · **own_system_elsewhere (Y/N)** – the switcher flag, set at first fill (#19 KR 1.1) · system_owned (type, purchase date, bought-from-us Y/N) · membership tier + expiry · last_keg_date · lifecycle_state · lifetime keg count/value · Tap Token balance (or link) · referral source · winback offers sent/redeemed.
 
 ## Required views (Harry + founders, no analyst)
 

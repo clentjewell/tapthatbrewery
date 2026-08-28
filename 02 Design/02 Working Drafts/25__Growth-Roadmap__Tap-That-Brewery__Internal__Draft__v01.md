@@ -23,7 +23,7 @@ Four phases, each gated by an active-customer milestone on the path 96–113 →
 | **Switcher offer live** | "We fill any system" – landing page, Meta ads, in-venue sign; first-fill hook priced to make crossing the road worth it against $85–90 rivals | Direct refill actives, no hardware giveaway |
 | **Giveaway nurture** | Next competition’s ~1,000 entrants get a structured email/SMS sequence across the 3-month buying cycle (demo invite → objection content: census "~1.55 kegs a month" stat, her-drinks-on-tap, Afterpay/Zip → 50%-off close) instead of one closing offer | Beat 22–25 systems/cycle |
 | **Pricing hygiene** | Reconcile membership posters and paddle price; publish one price list | Unblocks all funnel copy |
-| **Semi-manual lifecycle** | Until integration lands: weekly export of 60/75/90-day lists; scheduled (not remembered) winback SMS incl. Marie’s Pizza test | Stops the leak now |
+| **Semi-manual lifecycle** | Until integration lands: weekly export of flat 60/75/90-day lists as an interim for the interval-based design (#48); scheduled (not remembered) winback SMS incl. Marie’s Pizza test | Stops the leak now |
 | **Referral surfacing** | Tap Tokens referral rewards (1,000/system, 500/refill) promoted digitally, not just on the wall | Cheapest word-of-mouth lever |
 
 ## Phase 2 – Systems (months 3–6) · ~270 → ~330 actives

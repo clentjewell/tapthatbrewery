@@ -26,7 +26,7 @@ Three lifecycle comms are live today and this build absorbs them rather than rep
 | Live today | Cadence | Absorbed into |
 |---|---|---|
 | Stock email to all system owners | Fortnightly | Sequence 3 (refill cadence) – same content, now triggered per customer |
-| At-risk nudge | Monthly | Sequence 4 (60/75/90) |
+| At-risk nudge | On their interval, not monthly | Sequence 4 (interval-based) |
 | Lapsed SMS + $20-off, 7-day window | Manual | Sequence 5 (winback ladder) |
 
 Rule: the manual sends continue on their existing rhythm until the automated equivalent has passed two full cycles. No gap between the old and the new.
@@ -66,11 +66,11 @@ Built in this order because each one’s data feeds the next.
 | 1 | **Giveaway nurture (90 days)** | Entry | 5 emails + 2 SMS across days 0–90, closing in the 61–90 window where **43% of the market actually decides** | Before C2 opens |
 | 2 | **New-owner onboarding** | System purchase | Day 0 setup · day 3 check-in · day 7 membership · day 21 first-refill reminder · day 30 referral ask | Week 4 |
 | 3 | **Refill cadence** | ~21–25 days since last fill | "What’s kegged & ready" – replaces the fortnightly blast with a per-customer clock | Week 5 |
-| 4 | **At-risk (60/75/90)** | Days since last keg | Day 60 range nudge, no discount · day 75 SMS + email on service/convenience · day 90 hands to sequence 5 | On CRM integration (#70) |
+| 4 | **At-risk (interval-based)** | Days since last keg against their own median gap | 1.15× their interval: range nudge, no discount · 1.5×: SMS + email on service/convenience · 2× or day 90, whichever is later: hands to sequence 5 | On CRM integration (#70) |
 | 5 | **Winback ladder** | Crossing 90 days | $20-off / 7-day window as today, then tested alternatives; response logged per offer | On CRM integration |
 | 6 | **Member renewal** | 45 / 14 / 0 days pre-expiry | Value restated in dollars actually saved | **Blocked** on membership pricing reconciliation (open item #2) |
 
-Sequences 1–3 run on manual CSV triggers from day one. Sequences 4–5 need the transaction feed; until GoTab × Fishbowl lands (**date outstanding**), Harry/Harry runs a fortnightly manual pull: export days-since-last-keg, filter to the 60/75/90 bands, upload as three segments, fire the sends. Fifteen minutes a fortnight is the interim price of an unknown integration date.
+Sequences 1–3 run on manual CSV triggers from day one. Sequences 4–5 need the transaction feed to compute each customer's interval; until GoTab × Fishbowl lands (**date outstanding**), Harry runs a fortnightly manual pull on the flat rails: export days-since-last-keg, filter to the 60/75/90 bands, upload as three segments, fire the sends. Fifteen minutes a fortnight is the interim price of an unknown integration date.
 
 ## Segmentation that the census earned
 

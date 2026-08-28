@@ -74,7 +74,7 @@ New system buyer → refill habit + membership. Trigger: system purchase in GoTa
 ## Assumptions & open items
 
 - Brand Copy Workbook pending – all copy above is structural, not final voice.
-- Sequence 2 timing hostage to GoTab/Fishbowl integration (#58); interim: run day-60/75/90 pulls off exported lists semi-manually.
+- Sequence 2 timing hostage to GoTab/Fishbowl integration (#58); interim: run flat day-60/75/90 pulls off exported lists semi-manually.
 - Day-75 offer, incentive economics and lease-to-buy availability [TBC].
 
 ---

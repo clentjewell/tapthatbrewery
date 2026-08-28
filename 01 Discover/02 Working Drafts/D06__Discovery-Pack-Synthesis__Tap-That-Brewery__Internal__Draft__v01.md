@@ -59,7 +59,7 @@ Pulls the discovery session, site visit, and in-venue evidence into one validate
 
 ## Executive summary
 
-The problem is not awareness or offer quality – it is **allocation**. Every unit of effort put into the taproom returns hospitality margins at hospitality effort; every unit put into refill acquisition returns subscription economics the venue exists to feed. The team already knows this ("everything feeds refill volume" is the owner’s own mental model) – discovery confirms the model is right and the execution capacity is the constraint. A part-time (70%) solo marketer cannot simultaneously run segment campaigns, wholesale outreach, re-engagement automation, UGC, and events. The strategy’s job is to sequence brutally: refills first, systems second, taproom as funnel, wholesale as white-label opportunism.
+The problem is not awareness or offer quality – it is **allocation**. Every unit of effort put into the taproom returns hospitality margins at hospitality effort; every unit put into refill acquisition returns subscription economics the venue exists to feed. The team already knows this ("everything feeds refill volume" is the owner’s own mental model) – discovery confirms the model is right and the execution capacity is the constraint. A part-time (70%) solo marketer cannot simultaneously run segment campaigns, wholesale outreach, re-engagement automation, UGC, and events. The strategy’s job is to sequence brutally: refills first, systems second, commercial and wholesale resourced properly (one account is worth roughly ten households), and the taproom as a decision rather than an assumed funnel.
 
 ---
 
@@ -139,7 +139,7 @@ The re-education pathway exists in-venue (taproom → demo → giveaway → 50% 
 - **H1 – Switcher campaign beats new-owner campaign on CAC.** 56% of owners (116 of 206) already switched from elsewhere; a "we fill any system" offer aimed at existing owners should acquire refill customers materially cheaper than creating new system owners.
 - **H2 – Kudos/connection-led creative outconverts cost-led creative**, with cost as the retargeting/close message (Christy’s dirty-little-secret thesis).
 - **H3 – A structured 90-day nurture matched to the 3-month buying cycle** (demo → objection content → giveaway → 50% close) lifts giveaway-to-purchase conversion beyond the current 22–25 per cycle.
-- **H4 – Automated lifecycle messaging at 60/75/90 days** (pre-churn nudge before the window closes) recovers more revenue than the current post-churn $20 discount.
+- **H4 – Automated lifecycle messaging keyed to each customer's own reorder interval** (pre-churn nudge before the window closes; flat 60/75/90 as the fallback) recovers more revenue than the current post-churn $20 discount.
 - **H5 – Benchy opens a zero-competition channel** through 4WD/outdoor retail partnerships that no incumbent can quickly copy.
 - **H6 – White-label club beer ("Surfers Paradise Demons Lager", 10% player discount / 10% club kickback)** converts clubs that reject transactional sponsorship, where tap infrastructure allows.
 - **H7 – The unmarketed health angle** (gluten-reduced, lower-carb, sessionable ABVs) is a differentiator for the female market and moderating drinkers – worth testing before competitors claim it.
