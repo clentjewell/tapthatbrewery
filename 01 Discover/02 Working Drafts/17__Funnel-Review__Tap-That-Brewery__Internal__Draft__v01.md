@@ -6,12 +6,10 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 **Purpose.** The full-funnel view of how a stranger becomes a repeat refill customer, with every known conversion number placed, every unmeasured point marked, and the leaks ranked. The context that disciplines everything below: the target is **1,000 active keg customers from today’s 96–113**, and the best-performing sales event in the business currently adds **22–25 owners twice a year** – at that rate alone, the gap takes 15+ years to close. The funnel must leak less and the switcher lane must open.
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ## The funnel, stage by stage
 

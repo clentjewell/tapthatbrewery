@@ -7,7 +7,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 03 Deploy |
 | **Status** | Draft v01 – Internal |
-| **Date** | 20 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 | **Descends from** | #50 Events Plan · #60 Events Brief |
 

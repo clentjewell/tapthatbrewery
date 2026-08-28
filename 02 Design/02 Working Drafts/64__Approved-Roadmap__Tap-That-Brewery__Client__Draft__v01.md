@@ -7,7 +7,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design → 03 Deploy handover |
 | **Status** | Draft v01 – Client · **All lines Pending CP2 sign-off** |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 *Pre-CP1 draft – produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*

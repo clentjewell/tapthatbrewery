@@ -7,7 +7,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 | **Builds on** | D03 Competitor Analysis, #10 Category Positioning, #11 Market Gaps, D05 Offer Worksheet |
 

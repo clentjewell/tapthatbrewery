@@ -6,12 +6,10 @@
 | **Engagement** | Jewell Projects × Tap That Brewery (Burleigh Heads, Gold Coast) |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal (Jewell + senior client) |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects (Clent Jewell, Christy Kilmartin) |
 | **Corrected by** | #20A Evidence Reconciliation (19 Aug 2026) – read first |
 | **Sources** | Discovery session 19 Aug 2026 (Circleback), site visit + 27 photos, in-venue pricing/signage, Gold Coast Bulletin founding article, customer census (49 respondents of 206 owners, 24% – **received and reconciled 19 Aug**, see #20A) |
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ---
 

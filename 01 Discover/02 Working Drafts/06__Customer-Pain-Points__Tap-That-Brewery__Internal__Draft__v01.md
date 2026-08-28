@@ -6,10 +6,8 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ---
 
@@ -59,7 +57,7 @@ The margin lives here, so friction here is churn. Lifecycle definitions in use: 
 
 ## Assumptions & open items
 
-- Quoted lines are Jewell renderings of client-stated pains, not verbatim customer quotes – validate and harvest real wording via the pending census detail and refill-counter conversations.
+- Quoted lines are Jewell renderings of client-stated pains, not verbatim customer quotes. The census gave us the ranked drivers but not the language; real wording still has to be harvested from refill-counter conversations and, when access lands, Square (open item #12).
 - "Running dry" and "range fatigue" are inferred lifecycle pains; the confirmed churn narrative is "cut back on drinking" or "hadn’t gotten around to it."
 - Distance/delivery pain assumes customer postcodes spread beyond Burleigh – confirm from sales data.
 

@@ -36,6 +36,11 @@ def surfaces():
     yield os.path.join(ROOT, "00 Admin/06 Presentations/deck_content.py")
 
 FINDINGS = []
+# Rules that report outstanding work rather than a defect. Something on this
+# list is not wrong, it is not finished -- so it is reported but does not fail
+# the gate. Everything else is a defect: the set says something untrue.
+BACKLOG = {"pre-review-interpretation"}
+
 def flag(rule, path, detail):
     FINDINGS.append((rule, os.path.relpath(path, ROOT), detail))
 
@@ -46,6 +51,93 @@ def lines(path):
 # --------------------------------------------------------------------------
 # Rules over the document set
 # --------------------------------------------------------------------------
+def rule_no_ingestion_banner(path, ls):
+    """Dated ingestion banners were removed from the set on 28 August. They were
+    scaffolding for us, not information for the client, and by then they were
+    also wrong -- the figures no longer predated the census, they had been
+    corrected in place. 20A keeps its own correction log; it IS the record."""
+    for i, l in enumerate(ls, 1):
+        if l.lstrip().startswith(">") and re.search(
+                r"Evidence note|predate the client|figures in this draft", l, re.I):
+            flag("ingestion-banner", path, f"line {i}: dated ingestion banner is back")
+
+def rule_stale_census_tense(path, ls):
+    """The census arrived 19 August and was worked through on 20 August. Nothing
+    may still speak of it as a future event."""
+    for i, l in enumerate(ls, 1):
+        if re.search(r"census (detail )?pending|pending census|awaiting the census|"
+                     r"when the census lands|until the census (lands|arrives)|once the census (lands|arrives)",
+                     l, re.I):
+            flag("census-still-future", path, f"line {i}: treats the census as not yet arrived")
+
+# Whether a document has absorbed the 27 August review, measured by content
+# rather than by whether it happens to cite #20B -- a one-line flag cites it
+# too. Each marker is a finding the review actually made.
+REVIEW_MARKERS = {
+    "loss-making":       r"loss[- ]making|los(e|es|ing) money",
+    "buy-the-databases": r"buy the database|Harvey Norman|BenchTop|Keg ?Land",
+    "cadence":           r"10/60/40|cut back, not defected|reorder pattern|before the reorder",
+    "commercial-x10":    r"ten households|worth roughly ten",
+    "taproom-zero-sum":  r"zero[- ]sum|built on people \*?not\*? coming|work against each other",
+    "census-demoted":    r"self[- ]report|will never surface|too small and too self|"
+                         r"say out loud|what people will say",
+    "catered-vs-covered": r"covered rather than catered|catered to rather than|blokes will follow",
+    "tour-operators":    r"Urban Legends|Pineapple Tours|Hop On",
+    "low-alcohol":       r"low[- ]alcohol|hydration not beer|healthier line|healthy or low",
+    "range-decision":    r"six core beers|cut to (about )?six|decision anxiety",
+    "premium-beats-middle": r"Second Earth|middle ground|neither cheap nor",
+}
+
+# Documents where a specific review finding clearly applies. Each entry names
+# the finding, so the list is auditable rather than a matter of opinion. A
+# document leaves this list by absorbing the finding, not by being removed.
+REVIEW_BEARS_ON = {
+    "06": "the unsaid drivers -- ego, status, wanting to be out of the house",
+    "07": "the partner reframed from veto to be managed into audience to cater for",
+    "08": "the hydration and health job for lapsed owners",
+    "10": "the competitor is weaker than assumed; premium beats the middle ground",
+    "12": "one commercial account is worth about ten households",
+    "14": "the range decision, the RTD range, the low-alcohol line",
+    "15": "reverse razor-and-blades, lease-to-buy, delivery priced as a benefit",
+    "16": "the puppy-dog close, and buying the system-owner databases",
+    "17": "the taproom and refill model are zero-sum",
+    "21": "the cost drivers are the largest gap",
+    "23": "the business is loss-making and its costs are unknown",
+    "24": "the three ranked moves reorder the priorities",
+    "27": "the unsaid drivers a self-report will not surface",
+    "28": "cadence: 10 percent monthly, 60 quarterly, 40 longer",
+    "29": "the stage copy still follows the superseded driver order",
+    "30": "the 20-30 percent conversion is unmeasured",
+    "31": "the census is one input, not the anchor",
+    "32": "Second Earth as the counter-example -- premium beats the middle",
+    "33": "whether cost is on the table at all",
+    "37": "the full website teardown, and Drink Hopper as the reference",
+    "39": "the above-the-fold findings from the teardown",
+    "40": "the competitor domain is suspended; check what resolves",
+    "43": "pulling people into the taproom by social is ranked below the three moves",
+    "46": "the prior Meta ad account, and the reordered priorities",
+    "47": "the 90-day blanket SMS is tone-deaf against real reorder patterns",
+    "48": "personalised reorder timing, and every tenth keg free over points",
+    "50": "one event drives a week of taproom trade",
+    "64": "the roadmap order changes with the three moves",
+    "71": "franchise-story consent, and the awards that are not being used",
+    "77": "the sprint order follows the three ranked moves",
+}
+
+def review_markers(text):
+    return [k for k, pat in REVIEW_MARKERS.items() if re.search(pat, text, re.I)]
+
+def rule_review_absorbed(path, ls):
+    """Removing the dated evidence banners took away the only visible signal
+    that a document predates the review. It lives here instead: internal,
+    specific about what is missing, and it shrinks as the work is done."""
+    num = os.path.basename(path).split("__")[0]
+    if num not in REVIEW_BEARS_ON:
+        return
+    if len(review_markers("\n".join(ls))) < 2:
+        flag("pre-review-interpretation", path,
+             f"#{num} predates the review -- missing: {REVIEW_BEARS_ON[num]}")
+
 def rule_competitor_closed(path, ls):
     """Open item #3 closed 27 Aug: the competitor is Aardvark and Arrow."""
     doubt = r"unverified|confirm spelling|confirm the competitor|verify before|carries that caveat"
@@ -159,7 +251,8 @@ def rule_ranked_moves_order(path, ls):
 DOC_RULES = [rule_competitor_closed, rule_no_raef, rule_dead_baseline,
              rule_growth_multiple, rule_taproom_conversion, rule_mangled_cadence,
              rule_loss_making_named, rule_schooner_price, rule_membership_price,
-             rule_discover_is_input, rule_ranked_moves_order]
+             rule_discover_is_input, rule_ranked_moves_order,
+             rule_no_ingestion_banner, rule_stale_census_tense, rule_review_absorbed]
 
 # --------------------------------------------------------------------------
 # Rules over the counts, checked against the generator and the tracker
@@ -225,22 +318,35 @@ def main():
         for r in SURFACE_RULES:
             r(f, ls)
 
+    defects  = [f for f in FINDINGS if f[0] not in BACKLOG]
+    backlog  = [f for f in FINDINGS if f[0] in BACKLOG]
+
     if not quiet:
         print(f"Audited {nd} source documents and {ns} client-facing surfaces.\n")
-        if not FINDINGS:
-            print("No findings. Every rule in the register holds across the set.")
-        else:
+
+        def block(title, rows):
             by_rule = {}
-            for rule, path, detail in FINDINGS:
+            for rule, path, detail in rows:
                 by_rule.setdefault(rule, []).append((path, detail))
+            print(f"{title}\n")
             for rule in sorted(by_rule, key=lambda k: -len(by_rule[k])):
                 hits = by_rule[rule]
                 print(f"## {rule} — {len(hits)}")
                 for path, detail in hits:
-                    print(f"   {path.split('/')[-1][:52]:<54} {detail}")
+                    print(f"   {path.split('/')[-1][:46]:<48} {detail}")
                 print()
-            print(f"TOTAL: {len(FINDINGS)} findings")
-    return 1 if FINDINGS else 0
+
+        if defects:
+            block("DEFECTS — the set says something untrue. These fail the gate.", defects)
+        else:
+            print("DEFECTS: none. Every correctness rule holds across the set.\n")
+
+        if backlog:
+            block("OUTSTANDING — not wrong, not finished. Reported, does not fail the gate.",
+                  backlog)
+
+        print(f"{len(defects)} defects, {len(backlog)} outstanding.")
+    return 1 if defects else 0
 
 if __name__ == "__main__":
     sys.exit(main())

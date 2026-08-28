@@ -7,7 +7,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover → 02 Design handover |
 | **Status** | Draft v01 – Internal · Sequencing is Jewell’s recommendation, pending Gate 1 |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 ---

@@ -7,10 +7,8 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 00 Admin – Gate 0 (Onboarding) |
 | **Status** | Draft v01 – Internal (Jewell only, candid) |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ---
 
@@ -43,7 +41,7 @@ The critical nuance from discovery: **this is not a strategy gap.** The founders
 |---|---|---|
 | **Execution bottleneck is structural** | Harry at ~70% is the whole delivery capacity; a brilliant strategy can die in his inbox | Scope Design outputs to what 0.7 FTE can run; make the Deploy execution retainer the honest answer, and say so in the proposal |
 | **Taproom gravity** | 18 months of drift shows the venue keeps winning founder attention because it is visible and social; it may pull our engagement the same way | Hold the line in every gate: refills first, systems second, taproom as funnel, wholesale as opportunism |
-| **Data gaps at the base** | Census is headline-only (n=50), P&L detail is "red at the bottom," two live membership posters disagree on price ($250/yr vs $300+$120 renewal), paddle signed $18 vs $20 on screen, competitor name now confirmed as Aardvark and Arrow | Gate 1 sign-off blocked until census lands and pricing is reconciled; do not build funnel copy on contaminated numbers |
+| **Data gaps at the base** | Census is headline-only (n=50), P&L detail is "red at the bottom," two live membership posters disagree on price ($250/yr vs $300+$120 renewal), paddle signed $18 vs $20 on screen, competitor name now confirmed as Aardvark and Arrow | The census has since landed and been worked through the set; sign-off now waits on the membership price and the cost data. Do not build funnel copy on unreconciled numbers |
 | **Loss-making client** | Fee tolerance is untested; a client bleeding cash may baulk mid-engagement | Price Discover–Design as a fixed scope with CP1/CP2 exits; tie Deploy fees to the refill growth narrative |
 | **Automation dependency** | Lifecycle work (H4) is blocked on GoTab/Fishbowl integration outside our control | Get the integration timeline in writing before CP2 sequences CRM deliverables |
 | **Two-founder dynamic** | Chris owns product, Justin owns model; sign-off authority not yet explicit | Name a single sign-off holder in the Welcome Pack; confirm at kick-off |

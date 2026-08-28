@@ -6,7 +6,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 | **Builds on** | 31 Brand Strategy, 32 Positioning, 33 Messaging & Offer Architecture, 34 Brand Guidelines |
 

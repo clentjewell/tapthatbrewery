@@ -6,11 +6,9 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 02 Design |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 | **Builds on** | D02 Audience Teardown, D03 Competitor Analysis, D06 Discovery Pack Synthesis, #05 Customer Segments, #10 Category Positioning |
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 *Pre-CP1 draft – produced ahead of Discover sign-off; census data, membership pricing reconciliation and competitor verification may revise inputs.*
 
@@ -78,7 +76,7 @@ The blend matters: Jester alone would undercut the $975 trust decision and the a
 ## Assumptions & open items
 
 - Archetype blend is a Jewell proposal for client endorsement at CP1 – validated against observed collateral only, not customer research.
-- Segment shares remain client estimates; census detail pending may re-rank pillar emphasis.
+- Segment shares remain client estimates. The census reordered the stated drivers, but the 27 August advisory review found it too small and too self-reported to carry the pillar emphasis on its own (#20B), so treat the ranking as what people will say rather than what moves them.
 - \*Aardvark and Arrow, confirmed 27 August. Domain suspended and now joined with Burleigh Homebrew.
 - Gluten-reduced claims need legal phrasing check before external use (cannot claim gluten-free).
 

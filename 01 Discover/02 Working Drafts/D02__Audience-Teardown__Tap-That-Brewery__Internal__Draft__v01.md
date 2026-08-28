@@ -3,8 +3,6 @@
 
 Segments ranked by commercial attractiveness for the keg system → refill model. Percentages are the client’s own estimates from the discovery workshop (deliberately overlapping, not summing to 100%). Message pillars: Cost, Convenience, Connection, Kudos, Taste/Freshness.
 
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
-
 ---
 
 ## 1. Young families (~45%) – the lead growth pillar

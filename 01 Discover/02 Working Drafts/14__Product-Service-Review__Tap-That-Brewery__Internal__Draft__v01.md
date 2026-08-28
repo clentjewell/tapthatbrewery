@@ -6,12 +6,10 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 **Purpose.** The complete inventory of what Tap That Brewery actually sells, verified against the tap wall, price boards and coolroom on the August 2026 site visit. Everything here is raw material for the offer architecture (D05) and pricing notes (#15) – the review closes on where the range is strong and where it has holes.
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ## The liquid: 27 taps, deliberately one-third non-beer
 

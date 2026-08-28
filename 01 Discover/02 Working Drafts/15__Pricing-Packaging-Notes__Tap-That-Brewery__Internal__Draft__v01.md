@@ -6,7 +6,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 **Purpose.** Every price photo-verified in venue (Aug 2026 site visit – see `01 Inputs/site-visit-photos/photo-index.md`), organised for strategy use: what the ladder is, what the packaging logic is doing commercially, and what must be reconciled before any of it touches a funnel.

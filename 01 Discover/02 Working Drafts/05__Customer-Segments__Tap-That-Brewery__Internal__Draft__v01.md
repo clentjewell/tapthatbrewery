@@ -9,8 +9,6 @@
 | **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
-> **Evidence note (28 Aug 2026).** This document has been through two rounds of correction. The client's census and planning records corrected the figures (`20A Evidence Reconciliation`). The 27 August advisory review then changed how much weight the census can carry and added three segments this model did not have (`20B Advisory Review Reconciliation`). Read both before citing anything here.
-
 ---
 
 ## What changed, and why it matters

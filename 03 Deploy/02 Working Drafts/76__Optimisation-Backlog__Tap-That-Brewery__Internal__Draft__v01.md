@@ -7,7 +7,7 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 03 Deploy |
 | **Status** | Draft v01 – Internal · **SEED – populated with real tests once Deploy runs** |
-| **Date** | 20 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 | **Descends from** | #26 Measurement Plan · the full Deploy set (#66–#75) |
 

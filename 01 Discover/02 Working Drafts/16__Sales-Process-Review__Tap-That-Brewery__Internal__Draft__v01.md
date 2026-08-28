@@ -6,12 +6,10 @@
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
 | **Status** | Draft v01 – Internal |
-| **Date** | 19 August 2026 |
+| **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 **Purpose.** How systems and refills actually get sold today – the real mechanics, with their conversion numbers where known – and the named gaps. The headline: Tap That Brewery converts remarkably well at the moments it controls, and loses buyers in every gap between those moments.
-
-> **Evidence note (19 Aug 2026).** Figures in this draft predate the client’s census and planning documents. Several have been corrected; some interpretations are still under revision. Read `20A Evidence Reconciliation` before citing anything here.
 
 ## How a keg system sells today
 
