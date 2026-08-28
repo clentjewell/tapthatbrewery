@@ -7,15 +7,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--ink:#111111;--cream:#FAF8F4;--blue:#2D5BFF;--grey:#666666;--line:#EDEBEA}
-html,body{height:100%}
-body{background:#0E0E0E;font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-  color:var(--ink);overflow:hidden}
-#stage{position:fixed;inset:0;display:grid;place-items:center}
-.slide{width:1280px;height:720px;position:absolute;opacity:0;pointer-events:none;
-  transform-origin:center center;transition:opacity .28s ease}
-.slide.on{opacity:1;pointer-events:auto}
-.s{width:100%;height:100%;background:var(--cream);padding:76px 96px;display:flex;flex-direction:column;position:relative}
+:root{--ink:#111111;--cream:#FAF8F4;--blue:#2D5BFF;--grey:#666666;--line:#EDEBEA;--pit:#0E0E0E}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;scroll-padding-top:0}
+body{background:var(--pit);font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  color:var(--ink);-webkit-font-smoothing:antialiased}
+.slide{height:100vh;height:100svh;scroll-snap-align:center;scroll-snap-stop:always;
+  display:grid;place-items:center;padding:22px 22px 58px}
+.frame{position:relative;overflow:hidden}
+/* fail-safe reveal: visible by default, JS opts in to the animation */
+.frame>.s{opacity:1;transform:scale(var(--k,1))}
+html.js-rv .frame>.s{opacity:0;transition:opacity .5s ease,filter .5s ease;filter:blur(3px)}
+html.js-rv .slide.in .frame>.s{opacity:1;filter:none}
+.s{width:1280px;height:720px;transform-origin:top left;background:var(--cream);
+  padding:76px 96px;display:flex;flex-direction:column;position:relative;
+  box-shadow:0 18px 60px rgba(0,0,0,.45)}
 .bar{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
 /* title */
 .s-title .t-block{margin-top:auto}
@@ -48,58 +53,74 @@ body{background:#0E0E0E;font-family:'Poppins',-apple-system,BlinkMacSystemFont,'
 /* chrome */
 #hud{position:fixed;left:0;right:0;bottom:0;height:52px;display:flex;align-items:center;
   justify-content:space-between;padding:0 20px;color:#EDEBEA;font-size:12px;letter-spacing:.06em;
-  background:linear-gradient(to top,rgba(0,0,0,.55),transparent);pointer-events:none}
-#hud .k{pointer-events:auto;display:flex;gap:14px;align-items:center}
+  background:linear-gradient(to top,rgba(0,0,0,.68),transparent);pointer-events:none;z-index:5}
+#hud .k{pointer-events:auto;display:flex;gap:10px;align-items:center}
 #hud button{background:none;border:1px solid rgba(237,235,234,.3);color:#EDEBEA;border-radius:6px;
   padding:5px 11px;font:inherit;cursor:pointer}
 #hud button:hover{border-color:var(--blue);color:#fff}
-#count{font-variant-numeric:tabular-nums}
-#dots{position:fixed;top:0;left:0;height:2px;background:var(--blue);transition:width .28s ease}
+#hud button[disabled]{opacity:.32;cursor:default}
+#hud button[disabled]:hover{border-color:rgba(237,235,234,.3);color:#EDEBEA}
+#count{font-variant-numeric:tabular-nums;pointer-events:none}
+#dots{position:fixed;top:0;left:0;height:2px;width:0;background:var(--blue);z-index:6}
+/* scroll cue, on the first slide only, retires once you move */
+#cue{position:fixed;left:50%;bottom:19px;transform:translateX(-50%);color:#EDEBEA;font-size:11px;
+  letter-spacing:.16em;text-transform:uppercase;opacity:.7;z-index:5;pointer-events:none;
+  transition:opacity .3s ease;animation:bob 2.4s ease-in-out infinite}
+#cue.gone{opacity:0}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,6px)}}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  #cue{animation:none}
+  html.js-rv .frame>.s{transition:none;filter:none;opacity:1}
+}
 @media print{
-  body{background:#fff;overflow:visible}
-  #hud,#dots{display:none}
-  #stage{position:static;display:block}
-  .slide{position:static;opacity:1!important;transform:none!important;page-break-after:always;
-    width:100%;height:auto;aspect-ratio:16/9}
+  html{scroll-snap-type:none}
+  body{background:#fff}
+  #hud,#dots,#cue{display:none}
+  .slide{height:auto;padding:0;display:block;page-break-after:always;break-after:page}
+  .frame{width:100%!important;height:auto!important;overflow:visible}
+  .s{opacity:1!important;filter:none!important;transform:none!important;
+    width:100%;height:auto;aspect-ratio:16/9;box-shadow:none}
   @page{size:A4 landscape;margin:0}
 }
 </style>
 <div id="dots"></div>
-<div id="stage">
-<section class="slide" id="s1" data-n="1"><div class="s s-title">
+<main id="deck">
+<section class="slide" id="s1" data-n="1"><div class="frame"><div class="s s-title">
   <div class="bar">JP · TAP THAT BREWERY · WHERE YOU ARE</div>
   <div class="t-block">
     <h1>Where you are, and the three things to do about it.</h1>
     <p class="sub">Prepared for Justin Mistry and Harry. The detail sits behind every slide.</p>
   </div>
   <div class="date">28 August 2026</div>
-</div></section>
-<section class="slide" id="s2" data-n="2"><div class="s s-div">
+</div></div></section>
+<section class="slide" id="s2" data-n="2"><div class="frame"><div class="s s-div">
   <div class="bar">Part 01</div>
   <div class="d-mid"><h2>Where you are</h2></div>
   <p class="strap">We have looked at this properly. This is the read.</p>
-</div></section>
-<section class="slide" id="s3" data-n="3"><div class="s s-content"><div class="bar">The read</div><h2 class="head">A refill business is being run with a hospitality venue&#x27;s attention. And it is losing money.</h2><div class="stats"><div class="stat"><span class="n">206</span><span class="l">Systems in your database</span></div><div class="stat"><span class="n">96 to 113</span><span class="l">Active customers. Your own documents define active three ways</span></div><div class="stat"><span class="n">56%</span><span class="l">Bought their system somewhere else and refill with you anyway</span></div><div class="stat"><span class="n">~9x</span><span class="l">The climb to 1,000 from where you actually are</span></div></div></div></section>
-<section class="slide" id="s4" data-n="4"><div class="s s-content"><div class="bar">The problem underneath</div><h2 class="head">The taproom and the refill model work against each other.</h2><p class="body">The refill business is built on people not coming in. So every campaign that fills the taproom fills the half that loses money. We had the taproom down as a funnel. It is at least as much a cost, and nobody has priced what carrying 27 taps actually costs you.</p></div></section>
-<section class="slide" id="s5" data-n="5"><div class="s s-content"><div class="bar">Before anything else</div><h2 class="head">What we got wrong.</h2><div class="rows"><div class="r"><div class="rk">We never said it</div><div class="rv">Nothing in seventy nine documents said the business is losing money.</div></div><div class="r"><div class="rk">The taproom</div><div class="rv">We treated it as a funnel when it is also a cost.</div></div><div class="r"><div class="rk">A number we used</div><div class="rv">The 20 to 30 per cent taproom conversion has never been measured.</div></div><div class="r"><div class="rk">The census</div><div class="rv">Fifty self selected people cannot carry a strategy on their own.</div></div><div class="r"><div class="rk">Your marketing lead</div><div class="rv">We called Harry by the wrong name in a hundred and sixty places.</div></div></div></div></section>
-<section class="slide" id="s6" data-n="6"><div class="s s-div">
+</div></div></section>
+<section class="slide" id="s3" data-n="3"><div class="frame"><div class="s s-content"><div class="bar">The read</div><h2 class="head">A refill business is being run with a hospitality venue&#x27;s attention. And it is losing money.</h2><div class="stats"><div class="stat"><span class="n">206</span><span class="l">Systems in your database</span></div><div class="stat"><span class="n">96 to 113</span><span class="l">Active customers. Your own documents define active three ways</span></div><div class="stat"><span class="n">56%</span><span class="l">Bought their system somewhere else and refill with you anyway</span></div><div class="stat"><span class="n">~9x</span><span class="l">The climb to 1,000 from where you actually are</span></div></div></div></div></section>
+<section class="slide" id="s4" data-n="4"><div class="frame"><div class="s s-content"><div class="bar">The problem underneath</div><h2 class="head">The taproom and the refill model work against each other.</h2><p class="body">The refill business is built on people not coming in. So every campaign that fills the taproom fills the half that loses money. We had the taproom down as a funnel. It is at least as much a cost, and nobody has priced what carrying 27 taps actually costs you.</p></div></div></section>
+<section class="slide" id="s5" data-n="5"><div class="frame"><div class="s s-content"><div class="bar">Before anything else</div><h2 class="head">What we got wrong.</h2><div class="rows"><div class="r"><div class="rk">We never said it</div><div class="rv">Nothing in seventy nine documents said the business is losing money.</div></div><div class="r"><div class="rk">The taproom</div><div class="rv">We treated it as a funnel when it is also a cost.</div></div><div class="r"><div class="rk">A number we used</div><div class="rv">The 20 to 30 per cent taproom conversion has never been measured.</div></div><div class="r"><div class="rk">The census</div><div class="rv">Fifty self selected people cannot carry a strategy on their own.</div></div><div class="r"><div class="rk">Your marketing lead</div><div class="rv">We called Harry by the wrong name in a hundred and sixty places.</div></div></div></div></div></section>
+<section class="slide" id="s6" data-n="6"><div class="frame"><div class="s s-div">
   <div class="bar">Part 02</div>
   <div class="d-mid"><h2>What to do</h2></div>
   <p class="strap">Three moves, ranked. And one we have ranked below them.</p>
-</div></section>
-<section class="slide" id="s7" data-n="7"><div class="s s-content"><div class="bar">Move 01</div><h2 class="head">Buy the databases of people who already own a system.</h2><p class="body">Harvey Norman lists six kegerator models plus a tap unit. Keg Land, Kegmaster and BenchTop hold buyer lists of their own. Every name on those lists owns hardware, so the price of the system, the most expensive objection your marketing fights, is already cleared. At about seventy dollars gross a keg, the data pays for itself quickly.</p></div></section>
-<section class="slide" id="s8" data-n="8"><div class="s s-content"><div class="bar">Move 02</div><h2 class="head">Do a deal with Harvey Norman directly.</h2><p class="body">A QR code at the point of sale. A referral rebate on each keg. Or a free keg with purchase if the liquor rules allow it. Monk is one of their closest allies and holds point contacts. This is a conversation, not a campaign, and it is worth having before any budget moves.</p></div></section>
-<section class="slide" id="s9" data-n="9"><div class="s s-content"><div class="bar">Move 03</div><h2 class="head">Go at the tour operators, and run wholesale properly.</h2><p class="body">Hop On, Urban Legends and Pineapple Tours all let the customer choose which breweries to visit. So your write up decides whether you get picked, and yours does not mention Midnight in Tokyo while Balter gets the imagery. On wholesale, one commercial account is worth about ten households, and it currently has no structure, no targets and nobody carrying it.</p></div></section>
-<section class="slide" id="s10" data-n="10"><div class="s s-content"><div class="bar">And one we have ranked below them</div><h2 class="head">Pulling people into the taproom through social media.</h2><p class="body">That was close to the centre of the plan we wrote for you. On this read it should not be. If the taproom is the half that loses money, spending the marketing budget filling it is the wrong instinct, however good the content is.</p></div></section>
-<section class="slide" id="s11" data-n="11"><div class="s s-content"><div class="bar">What we need from you</div><h2 class="head">Six decisions. None of them need research.</h2><div class="rows"><div class="r"><div class="rk">The taproom</div><div class="rv">Tasting and event venue, or keep paying for a drop in.</div></div><div class="r"><div class="rk">The range</div><div class="rv">Six core beers, or twenty seven taps.</div></div><div class="r"><div class="rk">Membership price</div><div class="rv">Two posters, two prices, both live in your venue today.</div></div><div class="r"><div class="rk">Active customer</div><div class="rv">Forty five, seventy five or ninety days. It decides every number we report.</div></div><div class="r"><div class="rk">Which plan is live</div><div class="rv">Three of your documents name three different core metrics.</div></div><div class="r"><div class="rk">Model A or B</div><div class="rv">Sell more systems, or convert the 116 who bought elsewhere.</div></div></div></div></section>
-<section class="slide" id="s12" data-n="12"><div class="s s-content"><div class="bar">How this splits</div><h2 class="head">Harry takes these. We would do these for you.</h2><div class="rows"><div class="r"><div class="rk">Harry</div><div class="rv">Tour operator outreach. Fresh copy, photos, reviews and the award to each operator. The referral reward nobody knows about.</div></div><div class="r"><div class="rk">Justin</div><div class="rv">The Harvey Norman conversation. Wholesale structure and targets. The six decisions above.</div></div><div class="r"><div class="rk">Jewell</div><div class="rv">Database acquisition and the campaign against it. The Urban Legends booking tool. Tracking, so you can see what any of it did.</div></div></div></div></section>
-<section class="slide" id="s13" data-n="13"><div class="s s-close">
+</div></div></section>
+<section class="slide" id="s7" data-n="7"><div class="frame"><div class="s s-content"><div class="bar">Move 01</div><h2 class="head">Buy the databases of people who already own a system.</h2><p class="body">Harvey Norman lists six kegerator models plus a tap unit. Keg Land, Kegmaster and BenchTop hold buyer lists of their own. Every name on those lists owns hardware, so the price of the system, the most expensive objection your marketing fights, is already cleared. At about seventy dollars gross a keg, the data pays for itself quickly.</p></div></div></section>
+<section class="slide" id="s8" data-n="8"><div class="frame"><div class="s s-content"><div class="bar">Move 02</div><h2 class="head">Do a deal with Harvey Norman directly.</h2><p class="body">A QR code at the point of sale. A referral rebate on each keg. Or a free keg with purchase if the liquor rules allow it. Monk is one of their closest allies and holds point contacts. This is a conversation, not a campaign, and it is worth having before any budget moves.</p></div></div></section>
+<section class="slide" id="s9" data-n="9"><div class="frame"><div class="s s-content"><div class="bar">Move 03</div><h2 class="head">Go at the tour operators, and run wholesale properly.</h2><p class="body">Hop On, Urban Legends and Pineapple Tours all let the customer choose which breweries to visit. So your write up decides whether you get picked, and yours does not mention Midnight in Tokyo while Balter gets the imagery. On wholesale, one commercial account is worth about ten households, and it currently has no structure, no targets and nobody carrying it.</p></div></div></section>
+<section class="slide" id="s10" data-n="10"><div class="frame"><div class="s s-content"><div class="bar">And one we have ranked below them</div><h2 class="head">Pulling people into the taproom through social media.</h2><p class="body">That was close to the centre of the plan we wrote for you. On this read it should not be. If the taproom is the half that loses money, spending the marketing budget filling it is the wrong instinct, however good the content is.</p></div></div></section>
+<section class="slide" id="s11" data-n="11"><div class="frame"><div class="s s-content"><div class="bar">What we need from you</div><h2 class="head">Six decisions. None of them need research.</h2><div class="rows"><div class="r"><div class="rk">The taproom</div><div class="rv">Tasting and event venue, or keep paying for a drop in.</div></div><div class="r"><div class="rk">The range</div><div class="rv">Six core beers, or twenty seven taps.</div></div><div class="r"><div class="rk">Membership price</div><div class="rv">Two posters, two prices, both live in your venue today.</div></div><div class="r"><div class="rk">Active customer</div><div class="rv">Forty five, seventy five or ninety days. It decides every number we report.</div></div><div class="r"><div class="rk">Which plan is live</div><div class="rv">Three of your documents name three different core metrics.</div></div><div class="r"><div class="rk">Model A or B</div><div class="rv">Sell more systems, or convert the 116 who bought elsewhere.</div></div></div></div></div></section>
+<section class="slide" id="s12" data-n="12"><div class="frame"><div class="s s-content"><div class="bar">How this splits</div><h2 class="head">Harry takes these. We would do these for you.</h2><div class="rows"><div class="r"><div class="rk">Harry</div><div class="rv">Tour operator outreach. Fresh copy, photos, reviews and the award to each operator. The referral reward nobody knows about.</div></div><div class="r"><div class="rk">Justin</div><div class="rv">The Harvey Norman conversation. Wholesale structure and targets. The six decisions above.</div></div><div class="r"><div class="rk">Jewell</div><div class="rv">Database acquisition and the campaign against it. The Urban Legends booking tool. Tracking, so you can see what any of it did.</div></div></div></div></div></section>
+<section class="slide" id="s13" data-n="13"><div class="frame"><div class="s s-close">
   <div class="c-mid"><h2>Next.</h2>
     <p class="c-line">Decisions back by Friday 4 September. We will scope the three moves against them.</p>
     <p class="c-line">Clent Jewell · clent@jewellprojects.com · Jewell Projects</p>
   </div>
-</div></section>
-</div>
+</div></div></section>
+</main>
+<div id="cue">Scroll</div>
 <div id="hud">
   <div class="k">
     <button id="prev">Prev</button><button id="next">Next</button><button id="print">Print</button>
@@ -109,31 +130,89 @@ body{background:#0E0E0E;font-family:'Poppins',-apple-system,BlinkMacSystemFont,'
 <script>
 (function(){
   var slides=[].slice.call(document.querySelectorAll('.slide'));
-  var n=slides.length, i=0, stage=document.getElementById('stage');
+  var n=slides.length;
+  var count=document.getElementById('count'), bar=document.getElementById('dots');
+  var cue=document.getElementById('cue');
+  var prev=document.getElementById('prev'), next=document.getElementById('next');
+  var i=0;
+
+  // Scale each 1280x720 canvas to its section, sizing the frame to the scaled
+  // box so nothing overflows the column and the page never scrolls sideways.
   function fit(){
-    var s=Math.min(window.innerWidth/1280,(window.innerHeight-52)/720);
-    slides.forEach(function(el){el.style.transform='scale('+s+')';});
+    // Measure the section's CONTENT box. getBoundingClientRect() includes the
+    // padding, and scaling against that pushes the canvas wider than the column.
+    var el=slides[0], cs=getComputedStyle(el);
+    var w=el.clientWidth -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+    var h=el.clientHeight-parseFloat(cs.paddingTop) -parseFloat(cs.paddingBottom);
+    var k=Math.min(w/1280,h/720);
+    slides.forEach(function(el){
+      var f=el.querySelector('.frame'), s=el.querySelector('.s');
+      f.style.width=(1280*k)+'px'; f.style.height=(720*k)+'px';
+      s.style.setProperty('--k',k); s.style.transform='scale('+k+')';
+    });
   }
-  function show(k){
-    i=Math.max(0,Math.min(n-1,k));
-    slides.forEach(function(el,j){el.classList.toggle('on',j===i);});
-    document.getElementById('count').textContent=(i+1)+' / '+n;
-    document.getElementById('dots').style.width=((i+1)/n*100)+'%';
-    if(history.replaceState) history.replaceState(null,'','#'+(i+1));
+
+  function goto(k){
+    k=Math.max(0,Math.min(n-1,k));
+    slides[k].scrollIntoView({block:'center'});
   }
+
+  var ticking=false;
+  function onScroll(){
+    if(ticking) return; ticking=true;
+    requestAnimationFrame(function(){
+      ticking=false;
+      var mid=innerHeight/2, best=0, bestd=Infinity;
+      slides.forEach(function(el,j){
+        var r=el.getBoundingClientRect(), d=Math.abs(r.top+r.height/2-mid);
+        if(d<bestd){bestd=d; best=j;}
+      });
+      if(best!==i){
+        i=best;
+        count.textContent=(i+1)+' / '+n;
+        prev.disabled=(i===0); next.disabled=(i===n-1);
+        if(history.replaceState) history.replaceState(null,'','#'+(i+1));
+      }
+      var max=document.documentElement.scrollHeight-innerHeight;
+      bar.style.width=(max>0?(scrollY/max*100):100)+'%';
+      if(cue&&scrollY>40) cue.classList.add('gone');
+    });
+  }
+
+  // Reveal as each slide arrives. Set up inside try/catch and only hide the
+  // slides once the observer is actually running, so a failure here leaves a
+  // readable page rather than a blank one.
+  try{
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(es){
+        es.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('in'); });
+      },{threshold:0.35});
+      document.documentElement.classList.add('js-rv');
+      slides.forEach(function(el){io.observe(el);});
+    }
+  }catch(err){ document.documentElement.classList.remove('js-rv'); }
+
   addEventListener('keydown',function(e){
-    if(['ArrowRight','PageDown',' '].indexOf(e.key)>-1){e.preventDefault();show(i+1);}
-    if(['ArrowLeft','PageUp'].indexOf(e.key)>-1){e.preventDefault();show(i-1);}
-    if(e.key==='Home')show(0); if(e.key==='End')show(n-1);
+    if(e.metaKey||e.ctrlKey||e.altKey) return;
+    if(['ArrowRight','ArrowDown','PageDown',' '].indexOf(e.key)>-1){e.preventDefault();goto(i+1);}
+    else if(['ArrowLeft','ArrowUp','PageUp'].indexOf(e.key)>-1){e.preventDefault();goto(i-1);}
+    else if(e.key==='Home'){e.preventDefault();goto(0);}
+    else if(e.key==='End'){e.preventDefault();goto(n-1);}
   });
-  stage.addEventListener('click',function(e){show(e.clientX<window.innerWidth*0.3?i-1:i+1);});
-  document.getElementById('prev').addEventListener('click',function(e){e.stopPropagation();show(i-1);});
-  document.getElementById('next').addEventListener('click',function(e){e.stopPropagation();show(i+1);});
-  document.getElementById('print').addEventListener('click',function(e){e.stopPropagation();window.print();});
-  addEventListener('resize',fit);
+  prev.addEventListener('click',function(){goto(i-1);});
+  next.addEventListener('click',function(){goto(i+1);});
+  document.getElementById('print').addEventListener('click',function(){window.print();});
+  addEventListener('scroll',onScroll,{passive:true});
+  addEventListener('resize',function(){fit();onScroll();});
   addEventListener('hashchange',function(){
-    var k=parseInt(location.hash.slice(1),10); if(k&&k-1!==i) show(k-1);
+    var k=parseInt(location.hash.slice(1),10); if(k&&k-1!==i) goto(k-1);
   });
-  fit(); show(Math.max(0,(parseInt(location.hash.slice(1),10)||1)-1));
+
+  fit();
+  count.textContent='1 / '+n;
+  prev.disabled=true;
+  var start=parseInt(location.hash.slice(1),10);
+  if(start&&start>1){ slides[Math.min(n,start)-1].scrollIntoView({block:'center',behavior:'auto'}); }
+  onScroll();
 })();
 </script>

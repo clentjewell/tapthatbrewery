@@ -44,20 +44,27 @@ def slide_html(d, n):
         parts.append(f'<div class="rows">{rows}</div>')
     return '<div class="s s-content">' + "".join(parts) + "</div>"
 
-slides = "\n".join(f'<section class="slide" id="s{i}" data-n="{i}">{slide_html(d,i)}</section>'
-                   for i, d in enumerate(SLIDES, 1))
+slides = "\n".join(
+    f'<section class="slide" id="s{i}" data-n="{i}">'
+    f'<div class="frame">{slide_html(d,i)}</div></section>'
+    for i, d in enumerate(SLIDES, 1))
 
 CSS = """
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--ink:#111111;--cream:#FAF8F4;--blue:#2D5BFF;--grey:#666666;--line:#EDEBEA}
-html,body{height:100%}
-body{background:#0E0E0E;font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-  color:var(--ink);overflow:hidden}
-#stage{position:fixed;inset:0;display:grid;place-items:center}
-.slide{width:1280px;height:720px;position:absolute;opacity:0;pointer-events:none;
-  transform-origin:center center;transition:opacity .28s ease}
-.slide.on{opacity:1;pointer-events:auto}
-.s{width:100%;height:100%;background:var(--cream);padding:76px 96px;display:flex;flex-direction:column;position:relative}
+:root{--ink:#111111;--cream:#FAF8F4;--blue:#2D5BFF;--grey:#666666;--line:#EDEBEA;--pit:#0E0E0E}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;scroll-padding-top:0}
+body{background:var(--pit);font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  color:var(--ink);-webkit-font-smoothing:antialiased}
+.slide{height:100vh;height:100svh;scroll-snap-align:center;scroll-snap-stop:always;
+  display:grid;place-items:center;padding:22px 22px 58px}
+.frame{position:relative;overflow:hidden}
+/* fail-safe reveal: visible by default, JS opts in to the animation */
+.frame>.s{opacity:1;transform:scale(var(--k,1))}
+html.js-rv .frame>.s{opacity:0;transition:opacity .5s ease,filter .5s ease;filter:blur(3px)}
+html.js-rv .slide.in .frame>.s{opacity:1;filter:none}
+.s{width:1280px;height:720px;transform-origin:top left;background:var(--cream);
+  padding:76px 96px;display:flex;flex-direction:column;position:relative;
+  box-shadow:0 18px 60px rgba(0,0,0,.45)}
 .bar{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
 /* title */
 .s-title .t-block{margin-top:auto}
@@ -90,19 +97,34 @@ body{background:#0E0E0E;font-family:'Poppins',-apple-system,BlinkMacSystemFont,'
 /* chrome */
 #hud{position:fixed;left:0;right:0;bottom:0;height:52px;display:flex;align-items:center;
   justify-content:space-between;padding:0 20px;color:#EDEBEA;font-size:12px;letter-spacing:.06em;
-  background:linear-gradient(to top,rgba(0,0,0,.55),transparent);pointer-events:none}
-#hud .k{pointer-events:auto;display:flex;gap:14px;align-items:center}
+  background:linear-gradient(to top,rgba(0,0,0,.68),transparent);pointer-events:none;z-index:5}
+#hud .k{pointer-events:auto;display:flex;gap:10px;align-items:center}
 #hud button{background:none;border:1px solid rgba(237,235,234,.3);color:#EDEBEA;border-radius:6px;
   padding:5px 11px;font:inherit;cursor:pointer}
 #hud button:hover{border-color:var(--blue);color:#fff}
-#count{font-variant-numeric:tabular-nums}
-#dots{position:fixed;top:0;left:0;height:2px;background:var(--blue);transition:width .28s ease}
+#hud button[disabled]{opacity:.32;cursor:default}
+#hud button[disabled]:hover{border-color:rgba(237,235,234,.3);color:#EDEBEA}
+#count{font-variant-numeric:tabular-nums;pointer-events:none}
+#dots{position:fixed;top:0;left:0;height:2px;width:0;background:var(--blue);z-index:6}
+/* scroll cue, on the first slide only, retires once you move */
+#cue{position:fixed;left:50%;bottom:19px;transform:translateX(-50%);color:#EDEBEA;font-size:11px;
+  letter-spacing:.16em;text-transform:uppercase;opacity:.7;z-index:5;pointer-events:none;
+  transition:opacity .3s ease;animation:bob 2.4s ease-in-out infinite}
+#cue.gone{opacity:0}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,6px)}}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  #cue{animation:none}
+  html.js-rv .frame>.s{transition:none;filter:none;opacity:1}
+}
 @media print{
-  body{background:#fff;overflow:visible}
-  #hud,#dots{display:none}
-  #stage{position:static;display:block}
-  .slide{position:static;opacity:1!important;transform:none!important;page-break-after:always;
-    width:100%;height:auto;aspect-ratio:16/9}
+  html{scroll-snap-type:none}
+  body{background:#fff}
+  #hud,#dots,#cue{display:none}
+  .slide{height:auto;padding:0;display:block;page-break-after:always;break-after:page}
+  .frame{width:100%!important;height:auto!important;overflow:visible}
+  .s{opacity:1!important;filter:none!important;transform:none!important;
+    width:100%;height:auto;aspect-ratio:16/9;box-shadow:none}
   @page{size:A4 landscape;margin:0}
 }
 """
@@ -110,32 +132,90 @@ body{background:#0E0E0E;font-family:'Poppins',-apple-system,BlinkMacSystemFont,'
 JS = """
 (function(){
   var slides=[].slice.call(document.querySelectorAll('.slide'));
-  var n=slides.length, i=0, stage=document.getElementById('stage');
+  var n=slides.length;
+  var count=document.getElementById('count'), bar=document.getElementById('dots');
+  var cue=document.getElementById('cue');
+  var prev=document.getElementById('prev'), next=document.getElementById('next');
+  var i=0;
+
+  // Scale each 1280x720 canvas to its section, sizing the frame to the scaled
+  // box so nothing overflows the column and the page never scrolls sideways.
   function fit(){
-    var s=Math.min(window.innerWidth/1280,(window.innerHeight-52)/720);
-    slides.forEach(function(el){el.style.transform='scale('+s+')';});
+    // Measure the section's CONTENT box. getBoundingClientRect() includes the
+    // padding, and scaling against that pushes the canvas wider than the column.
+    var el=slides[0], cs=getComputedStyle(el);
+    var w=el.clientWidth -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+    var h=el.clientHeight-parseFloat(cs.paddingTop) -parseFloat(cs.paddingBottom);
+    var k=Math.min(w/1280,h/720);
+    slides.forEach(function(el){
+      var f=el.querySelector('.frame'), s=el.querySelector('.s');
+      f.style.width=(1280*k)+'px'; f.style.height=(720*k)+'px';
+      s.style.setProperty('--k',k); s.style.transform='scale('+k+')';
+    });
   }
-  function show(k){
-    i=Math.max(0,Math.min(n-1,k));
-    slides.forEach(function(el,j){el.classList.toggle('on',j===i);});
-    document.getElementById('count').textContent=(i+1)+' / '+n;
-    document.getElementById('dots').style.width=((i+1)/n*100)+'%';
-    if(history.replaceState) history.replaceState(null,'','#'+(i+1));
+
+  function goto(k){
+    k=Math.max(0,Math.min(n-1,k));
+    slides[k].scrollIntoView({block:'center'});
   }
+
+  var ticking=false;
+  function onScroll(){
+    if(ticking) return; ticking=true;
+    requestAnimationFrame(function(){
+      ticking=false;
+      var mid=innerHeight/2, best=0, bestd=Infinity;
+      slides.forEach(function(el,j){
+        var r=el.getBoundingClientRect(), d=Math.abs(r.top+r.height/2-mid);
+        if(d<bestd){bestd=d; best=j;}
+      });
+      if(best!==i){
+        i=best;
+        count.textContent=(i+1)+' / '+n;
+        prev.disabled=(i===0); next.disabled=(i===n-1);
+        if(history.replaceState) history.replaceState(null,'','#'+(i+1));
+      }
+      var max=document.documentElement.scrollHeight-innerHeight;
+      bar.style.width=(max>0?(scrollY/max*100):100)+'%';
+      if(cue&&scrollY>40) cue.classList.add('gone');
+    });
+  }
+
+  // Reveal as each slide arrives. Set up inside try/catch and only hide the
+  // slides once the observer is actually running, so a failure here leaves a
+  // readable page rather than a blank one.
+  try{
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(es){
+        es.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('in'); });
+      },{threshold:0.35});
+      document.documentElement.classList.add('js-rv');
+      slides.forEach(function(el){io.observe(el);});
+    }
+  }catch(err){ document.documentElement.classList.remove('js-rv'); }
+
   addEventListener('keydown',function(e){
-    if(['ArrowRight','PageDown',' '].indexOf(e.key)>-1){e.preventDefault();show(i+1);}
-    if(['ArrowLeft','PageUp'].indexOf(e.key)>-1){e.preventDefault();show(i-1);}
-    if(e.key==='Home')show(0); if(e.key==='End')show(n-1);
+    if(e.metaKey||e.ctrlKey||e.altKey) return;
+    if(['ArrowRight','ArrowDown','PageDown',' '].indexOf(e.key)>-1){e.preventDefault();goto(i+1);}
+    else if(['ArrowLeft','ArrowUp','PageUp'].indexOf(e.key)>-1){e.preventDefault();goto(i-1);}
+    else if(e.key==='Home'){e.preventDefault();goto(0);}
+    else if(e.key==='End'){e.preventDefault();goto(n-1);}
   });
-  stage.addEventListener('click',function(e){show(e.clientX<window.innerWidth*0.3?i-1:i+1);});
-  document.getElementById('prev').addEventListener('click',function(e){e.stopPropagation();show(i-1);});
-  document.getElementById('next').addEventListener('click',function(e){e.stopPropagation();show(i+1);});
-  document.getElementById('print').addEventListener('click',function(e){e.stopPropagation();window.print();});
-  addEventListener('resize',fit);
+  prev.addEventListener('click',function(){goto(i-1);});
+  next.addEventListener('click',function(){goto(i+1);});
+  document.getElementById('print').addEventListener('click',function(){window.print();});
+  addEventListener('scroll',onScroll,{passive:true});
+  addEventListener('resize',function(){fit();onScroll();});
   addEventListener('hashchange',function(){
-    var k=parseInt(location.hash.slice(1),10); if(k&&k-1!==i) show(k-1);
+    var k=parseInt(location.hash.slice(1),10); if(k&&k-1!==i) goto(k-1);
   });
-  fit(); show(Math.max(0,(parseInt(location.hash.slice(1),10)||1)-1));
+
+  fit();
+  count.textContent='1 / '+n;
+  prev.disabled=true;
+  var start=parseInt(location.hash.slice(1),10);
+  if(start&&start>1){ slides[Math.min(n,start)-1].scrollIntoView({block:'center',behavior:'auto'}); }
+  onScroll();
 })();
 """
 
@@ -148,9 +228,10 @@ page = f"""<meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 <div id="dots"></div>
-<div id="stage">
+<main id="deck">
 {slides}
-</div>
+</main>
+<div id="cue">Scroll</div>
 <div id="hud">
   <div class="k">
     <button id="prev">Prev</button><button id="next">Next</button><button id="print">Print</button>
