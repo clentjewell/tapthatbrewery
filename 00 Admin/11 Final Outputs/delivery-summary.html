@@ -254,6 +254,61 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
   }
   .content { padding: 8px 20px 60px; }
 }
+
+/* ---- open-item answers ------------------------------------------------ */
+.answer { border: 0; margin: 18px 0 2px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.a-leg { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--steel);
+  padding: 0; width: 100%; margin-bottom: 2px; }
+.opt { display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 999px; padding: 8px 15px 8px 12px;
+  font-size: 14px; line-height: 1.3; background: var(--paper);
+  transition: border-color .16s var(--ease), background .16s var(--ease), color .16s var(--ease); }
+.opt:hover { border-color: var(--brass); }
+.opt input { appearance: none; -webkit-appearance: none; margin: 0; width: 14px; height: 14px; flex: 0 0 14px;
+  border: 1.5px solid var(--rule); border-radius: 50%; background: var(--paper);
+  transition: border-color .16s var(--ease), box-shadow .16s var(--ease); }
+.opt input:checked { border-color: var(--brass); box-shadow: inset 0 0 0 3.5px var(--brass); }
+.opt:has(input:checked) { border-color: var(--brass); background: rgba(0,102,255,0.06); color: var(--ink); font-weight: 500; }
+.opt input:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+.a-nl { width: 100%; font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--steel); margin-top: 6px; }
+.a-note { width: 100%; max-width: 62ch; font: inherit; font-size: 14.5px; line-height: 1.5; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px;
+  resize: vertical; transition: border-color .16s var(--ease); }
+.a-note:focus { outline: none; border-color: var(--brass); }
+.item:has(input:checked), .item:has(.a-note.filled) { border-bottom-color: rgba(0,102,255,0.28); }
+.item:has(input:checked) .item-n, .item:has(.a-note.filled) .item-n { color: var(--brass); }
+
+.oi-bar { position: sticky; top: 0; z-index: 4; display: flex; flex-direction: column; gap: 8px;
+  background: var(--cream); padding: 14px 0 12px; margin-top: 34px;
+  border-bottom: 1px solid var(--rule); }
+.oi-prog { height: 3px; background: var(--rule); border-radius: 2px; overflow: hidden; }
+.oi-prog-fill { height: 100%; width: 0; background: var(--brass); transition: width .3s var(--ease); }
+.oi-bar-r { display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: var(--steel); }
+.oi-saved { color: var(--ok); opacity: 0; transition: opacity .25s var(--ease); }
+.oi-saved.on { opacity: 1; }
+
+.oi-acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.oi-btn { font: inherit; font-size: 14px; cursor: pointer; border-radius: 999px; padding: 11px 20px;
+  border: 1px solid var(--rule-dk); background: transparent; color: var(--cream);
+  transition: background .16s var(--ease), border-color .16s var(--ease), color .16s var(--ease); }
+.oi-btn:hover { border-color: var(--brass-lt); color: #fff; }
+.oi-btn.primary { background: var(--brass); border-color: var(--brass); color: #fff; font-weight: 500; }
+.oi-btn.primary:hover { background: var(--brass-lt); border-color: var(--brass-lt); }
+.oi-btn.ghost { opacity: .6; }
+.oi-btn:focus-visible { outline: 2px solid var(--brass-lt); outline-offset: 2px; }
+.oi-hint { margin-top: 14px; font-size: 13.5px; color: var(--cream); opacity: .78; min-height: 1.2em; }
+
+@media print {
+  .oi-bar, .oi-acts { display: none; }
+  .opt { border-color: #999; }
+  .opt:has(input:checked) { background: none; font-weight: 600; }
+  .a-note { min-height: 46px; }
+}
+@media (max-width: 620px) { .opt { font-size: 13.5px; padding: 7px 13px 7px 10px; } }
 </style>
 
 <div class="progress" id="prog"></div>
@@ -318,7 +373,7 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
         <div class="row"><div class="row-k">06 &nbsp;What&rsquo;s in the set</div><div class="row-v">Phase by phase, with counts.</div></div>
         <div class="row"><div class="row-k">07 &nbsp;What we got wrong</div><div class="row-v">Five errors the review caught, and what we still have not done.</div></div>
         <div class="row"><div class="row-k">08 &nbsp;The three moves</div><div class="row-v">If you only do three things &ndash; and the one we ranked below them.</div></div>
-        <div class="row"><div class="row-k">09 &nbsp;What we need from you</div><div class="row-v">Nineteen open items, every one of them. Eight are decisions only you can make.</div></div>
+        <div class="row"><div class="row-k">09 &nbsp;What we need from you</div><div class="row-v">Nineteen open items, every one of them, answerable on the page. Eight are decisions only you can make.</div></div>
         <div class="row"><div class="row-k">10 &nbsp;Access</div><div class="row-v">Where every document lives.</div></div>
         <div class="row"><div class="row-k">11 &nbsp;Maxxim &amp; Max</div><div class="row-v">The system this was built in, if it is useful to you.</div></div>
         <div class="row"><div class="row-k">12 &nbsp;Next steps</div><div class="row-v">Three ways to take it forward.</div></div>
@@ -589,7 +644,15 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
     <section class="page" id="need">
       <div class="page-head"><span class="chip">What we still need from you</span><span class="count">09 / 12</span></div>
       <h2 class="h-sec rv">Nineteen open items. Eight of them are decisions, not research.</h2>
-      <p class="body mt28 rv">These are the questions the work is waiting on, every one of them, pulled straight from the tracker rather than summarised. Two have closed since we started: your census landed in August, and the advisory review settled the competitor&rsquo;s name. The rest split cleanly. Eight need a decision from the two of you, and no amount of further work will produce one. Ten arrive the moment someone sends a file, a date or a login. One we settle together. Nothing below is padding &ndash; each item names what it blocks.</p>
+      <p class="body mt28 rv">These are the questions the work is waiting on, every one of them, pulled straight from the tracker rather than summarised. Two have closed since we started: your census landed in August, and the advisory review settled the competitor&rsquo;s name. The rest split cleanly. Eight need a decision from the two of you, and no amount of further work will produce one. Ten arrive the moment someone sends a file, a date or a login. One we settle together. Nothing below is padding &ndash; each item names what it blocks, and you can answer them here on the page: pick an option, add a note if there is one, and send the lot back in whatever form suits.</p>
+
+      <div class="oi-bar rv" id="oiBar" hidden>
+        <div class="oi-prog"><div class="oi-prog-fill" id="oiFill"></div></div>
+        <div class="oi-bar-r">
+          <span class="oi-count" id="oiCount"></span>
+          <span class="oi-saved" id="oiSaved" aria-live="polite"></span>
+        </div>
+      </div>
 
       <div class="band rv">
         <div class="eyebrow on-dark">The two that would change the most</div>
@@ -602,68 +665,140 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
       <div class="eyebrow mt56 rv">Decisions &middot; nobody can research these for you</div>
       <p class="body mt12 rv" style="max-width:70ch">Eight questions that need a call, not more work. Six of them are on the deck; <b>name-versus-mark</b> and <b>cost on or off the table</b> are not, and belong in the same conversation.</p>
       <div class="items rv">
-        <div class="item">
+        <div class="item" data-oi="2">
           <div class="item-n">01</div>
           <div>
             <div class="item-t">Which membership price is the real one.</div>
             <div class="item-b">Two posters are live in the venue right now: one says Keg Crew is $250 a year, the other $300 plus a $120 renewal, and the token bonuses differ too. This is the single most-cited blocker in the set &ndash; it gates the website&rsquo;s membership page, every brief and all collateral, and it is worth fixing this week regardless of anything else here. While we are at it: break-even on the $250 version is <b>8.33 refills, not the six being quoted to staff</b>.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: CP1, the website, all collateral &middot; tracker #2</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi2" value="$250 a year"><span>$250 a year</span></label>
+              <label class="opt"><input type="radio" name="oi2" value="$300 plus a $120 renewal"><span>$300 plus a $120 renewal</span></label>
+              <label class="opt"><input type="radio" name="oi2" value="Neither – a new price"><span>Neither &ndash; a new price</span></label>
+              <label class="a-nl" for="note2">Anything we should know</label>
+              <textarea class="a-note" id="note2" data-note="2" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="10">
           <div class="item-n">02</div>
           <div>
             <div class="item-t">Name, or mark.</div>
             <div class="item-b">Every document in this set says &ldquo;Tap That Brewery&rdquo;. Your badge and your venue signage say &ldquo;Tap That &middot; Brewery &amp; Keghouse&rdquo;. That is either a short-name decision or a re-brand decision, and it changes collateral either way. It is not on the deck, and it should be.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: brand guidelines, logo brief, all collateral &middot; tracker #10</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi10" value="Tap That Brewery"><span>Tap That Brewery</span></label>
+              <label class="opt"><input type="radio" name="oi10" value="Tap That · Brewery &amp; Keghouse"><span>Tap That &middot; Brewery &amp; Keghouse</span></label>
+              <label class="opt"><input type="radio" name="oi10" value="Worth a proper re-brand conversation"><span>Worth a proper re-brand conversation</span></label>
+              <label class="a-nl" for="note10">Anything we should know</label>
+              <textarea class="a-note" id="note10" data-note="10" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="11">
           <div class="item-n">03</div>
           <div>
             <div class="item-t">What counts as an &ldquo;active&rdquo; customer.</div>
             <div class="item-b">Your own documents give three answers &ndash; 45 days in the Customer Success System, 75 days in the One-Page Plan, and &ldquo;2&ndash;3 months&rdquo; elsewhere. That is the difference between an active base of <b>96 and 113</b>, and every target, trigger day and report line keys off it. Our recommendation is 75 days, because your existing lifecycle comms already run on it and changing the clock while building the engine makes failure unattributable.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: every metric, the CRM build, the OKRs &middot; tracker #11</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi11" value="45 days"><span>45 days</span></label>
+              <label class="opt"><input type="radio" name="oi11" value="75 days"><span>75 days</span></label>
+              <label class="opt"><input type="radio" name="oi11" value="90 days"><span>90 days</span></label>
+              <label class="a-nl" for="note11">Anything we should know</label>
+              <textarea class="a-note" id="note11" data-note="11" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="13">
           <div class="item-n">04</div>
           <div>
             <div class="item-t">Sell more systems, or convert the 116 who bought elsewhere.</div>
             <div class="item-b">Both are defensible. They are not the same plan, and they send the budget to different places. The evidence leans toward the switchers &ndash; they already own the hardware, they found you unaided, and they cost nothing to acquire &ndash; but the call is yours, and everything from the growth roadmap to the paid media split waits on it.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: business plan, roadmap, activation plan &middot; tracker #13</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi13" value="Sell more systems"><span>Sell more systems</span></label>
+              <label class="opt"><input type="radio" name="oi13" value="Convert the 116 switchers"><span>Convert the 116 switchers</span></label>
+              <label class="opt"><input type="radio" name="oi13" value="Both, and we will weight it"><span>Both, and we will weight it</span></label>
+              <label class="a-nl" for="note13">Anything we should know</label>
+              <textarea class="a-note" id="note13" data-note="13" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="14">
           <div class="item-n">05</div>
           <div>
             <div class="item-t">Which of your three plans is the live one.</div>
             <div class="item-b">Scaling Up names 250 active customers as the Critical Number. The growth playbook names 15 kegerators a month. The vision document names installed kegerators. Three documents, three core metrics, three horizons &ndash; and they cannot all be the one the business is run against.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: success definition, OKRs, CP2 &middot; tracker #14</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi14" value="Scaling Up"><span>Scaling Up</span></label>
+              <label class="opt"><input type="radio" name="oi14" value="The growth playbook"><span>The growth playbook</span></label>
+              <label class="opt"><input type="radio" name="oi14" value="The vision document"><span>The vision document</span></label>
+              <label class="a-nl" for="note14">Anything we should know</label>
+              <textarea class="a-note" id="note14" data-note="14" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="15">
           <div class="item-n">06</div>
           <div>
             <div class="item-t">Is cost on the table, or off it.</div>
             <div class="item-b">Scaling Up says never compete on price. Your census ranks cost the <b>second-strongest purchase driver at 2.75</b>, a hair behind taste at 2.19. Those two positions cannot both hold. This decides whether the maths runs in the open feed or stays in retargeting, and it reaches the brand strategy, the messaging architecture and every ad. It is not on the deck, and it should be.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: brand strategy, positioning, messaging, paid media &middot; tracker #15</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi15" value="Cost is on the table"><span>Cost is on the table</span></label>
+              <label class="opt"><input type="radio" name="oi15" value="Cost stays off the table"><span>Cost stays off the table</span></label>
+              <label class="opt"><input type="radio" name="oi15" value="Only in retargeting, not the open feed"><span>Only in retargeting, not the open feed</span></label>
+              <label class="a-nl" for="note15">Anything we should know</label>
+              <textarea class="a-note" id="note15" data-note="15" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="20">
           <div class="item-n">07</div>
           <div>
             <div class="item-t">The taproom: destination, or drop-in.</div>
             <div class="item-b">This is the zero-sum question at the centre of the business. The refill model is built on people <em>not</em> coming in, so every campaign that fills the taproom fills the half that loses money. Restricting hours and running it as a tasting and event venue is our recommendation. Keeping it open as a drop-in is a choice to keep paying for it &ndash; a defensible choice, but it should be made deliberately rather than by default.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: activation plan, campaign calendar, events, PR &middot; tracker #20</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi20" value="Tasting and event venue"><span>Tasting and event venue</span></label>
+              <label class="opt"><input type="radio" name="oi20" value="Keep it open as a drop-in"><span>Keep it open as a drop-in</span></label>
+              <label class="opt"><input type="radio" name="oi20" value="Not ready to call it"><span>Not ready to call it</span></label>
+              <label class="a-nl" for="note20">Anything we should know</label>
+              <textarea class="a-note" id="note20" data-note="20" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="21">
           <div class="item-n">08</div>
           <div>
             <div class="item-t">Twenty-seven taps, or about six.</div>
             <div class="item-b">Cutting to roughly six core beers plus seasonals removes decision anxiety at the board and takes real cost out of ingredients, kegs, storage and refrigeration on stock that may never move. Keeping 27 is a range strategy, and it needs to be paid for knowingly. Either way this is a live cost driver, not a menu preference.</div>
             <div class="item-meta">Owner: Chris &amp; Justin &middot; Blocks: product review, pricing, business plan, collateral &middot; tracker #21</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi21" value="About six core plus seasonals"><span>About six core plus seasonals</span></label>
+              <label class="opt"><input type="radio" name="oi21" value="Keep the 27 taps"><span>Keep the 27 taps</span></label>
+              <label class="opt"><input type="radio" name="oi21" value="Somewhere in between"><span>Somewhere in between</span></label>
+              <label class="a-nl" for="note21">Anything we should know</label>
+              <textarea class="a-note" id="note21" data-note="21" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
       </div>
@@ -671,84 +806,173 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
       <div class="eyebrow mt56 rv">Data and access &middot; these arrive with a file, a date or a login</div>
       <p class="body mt12 rv" style="max-width:70ch">Nothing here needs a meeting. Each one unlocks a specific piece of the set, and two of them &ndash; the cost drivers and the Square history &ndash; are what stand between a judgement and a business case.</p>
       <div class="items rv">
-        <div class="item">
+        <div class="item" data-oi="4">
           <div class="item-n">09</div>
           <div>
             <div class="item-t">GoTab and Fishbowl integration dates.</div>
             <div class="item-b">The lifecycle automation does more for the numbers than anything else in the strategy &ndash; replacing the manual monthly SMS with triggers keyed to each customer&rsquo;s own reorder pattern. Every automation runbook now ships with a manual interim path so nothing waits on this, but the real build needs a date.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: CRM automation, EDM sequences 4&ndash;6 &middot; tracker #4</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi4" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi4" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi4" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note4">Anything we should know</label>
+              <textarea class="a-note" id="note4" data-note="4" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="5">
           <div class="item-n">10</div>
           <div>
             <div class="item-t">P&amp;L detail, by unit. <span class="pill pending">partly closed</span></div>
             <div class="item-b">Partly closed &ndash; the unit economics came through with your documents: about $70 gross per keg, $300 margin on a kegerator, lifetime gross profit around $2,100 residential and $21,840 for a venue account. Still missing: the P&amp;L itself, COGS, CAC and margin. Those would turn the business plan from a structure into a plan with numbers in it.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: business plan, budget setting &middot; tracker #5</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi5" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi5" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi5" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note5">Anything we should know</label>
+              <textarea class="a-note" id="note5" data-note="5" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="6">
           <div class="item-n">11</div>
           <div>
             <div class="item-t">Three founder confirmations.</div>
             <div class="item-b">The timeframe you want the 1,000 target inside &ndash; without a date, no plan can be paced against it. How long the taproom&rsquo;s loss stays acceptable while the decision above is being made. And whether the franchise ambition can be said out loud in PR.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: OKRs, PR plan, CP2 &middot; tracker #6</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi6" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi6" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi6" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note6">Anything we should know</label>
+              <textarea class="a-note" id="note6" data-note="6" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="7">
           <div class="item-n">12</div>
           <div>
             <div class="item-t">Brand source files. <span class="pill pending">partly closed</span></div>
             <div class="item-b">Partly closed &ndash; we pulled the badge and the TT mark off your website and sampled the palette from them: green #14361D, gold #CE9A49, off-white #DFDFDF, all now in the guidelines. Still needed: true vector artwork, and the typeface names and licences. The guidelines cannot lock without them.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: brand guidelines, logo lock &middot; tracker #7</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi7" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi7" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi7" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note7">Anything we should know</label>
+              <textarea class="a-note" id="note7" data-note="7" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="8">
           <div class="item-n">13</div>
           <div>
             <div class="item-t">One beer name.</div>
             <div class="item-b">The coolroom board reads &ldquo;Bong Water IPA&rdquo; in one place and &ldquo;Bone Water&rdquo; in another. Small, but it will end up in copy.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: menu and collateral copy &middot; tracker #8</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi8" value="Bong Water"><span>Bong Water</span></label>
+              <label class="opt"><input type="radio" name="oi8" value="Bone Water"><span>Bone Water</span></label>
+              <label class="opt"><input type="radio" name="oi8" value="Something else"><span>Something else</span></label>
+              <label class="a-nl" for="note8">Anything we should know</label>
+              <textarea class="a-note" id="note8" data-note="8" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="9">
           <div class="item-n">14</div>
           <div>
             <div class="item-t">Giveaway cadence.</div>
             <div class="item-b">To fit both giveaway closes inside the plan year, the calendar compresses them to about three and a half months apart &ndash; tighter than your historical rhythm. Tell us if that is too tight and it moves.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: campaign calendar, activation plan &middot; tracker #9</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi9" value="Three and a half months is fine"><span>Three and a half months is fine</span></label>
+              <label class="opt"><input type="radio" name="oi9" value="Too tight – move it"><span>Too tight &ndash; move it</span></label>
+              <label class="a-nl" for="note9">Anything we should know</label>
+              <textarea class="a-note" id="note9" data-note="9" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="12">
           <div class="item-n">15</div>
           <div>
             <div class="item-t">Square access &ndash; the refill history.</div>
             <div class="item-b">The census measures how much people <em>drink</em>. It cannot tell us how often they <em>refill</em>, how long the gap runs before they lapse, or what a customer is actually worth. That is all sitting in Square, and until we have it every revenue-per-customer figure in the set is a construction rather than a measurement.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: any revenue-per-customer figure, CAC &middot; tracker #12</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi12" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi12" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi12" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note12">Anything we should know</label>
+              <textarea class="a-note" id="note12" data-note="12" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="16">
           <div class="item-n">16</div>
           <div>
             <div class="item-t">Access to the ad account your last agency ran.</div>
             <div class="item-b">We only learned it existed from your growth playbook. There is history in there &ndash; creative that worked, creative that didn&rsquo;t, real cost-per-result numbers &ndash; and it is the one asset in this engagement that comes free. Recovering it is the first step of the paid media runbook, before a dollar moves.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: paid media launch, creative testing &middot; tracker #16</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi16" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi16" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi16" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note16">Anything we should know</label>
+              <textarea class="a-note" id="note16" data-note="16" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="17">
           <div class="item-n">17</div>
           <div>
             <div class="item-t">What it actually costs to run this business.</div>
             <div class="item-b">COGS, the true cost of carrying 27 taps, and the taproom&rsquo;s monthly loss. This is the largest gap in the set. Without these figures every business recommendation we have made is a judgement rather than a business case, and we would rather say so than dress it up.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: the business plan, and every recommendation that assumes the business can fund it &middot; tracker #17</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi17" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi17" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi17" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note17">Anything we should know</label>
+              <textarea class="a-note" id="note17" data-note="17" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
-        <div class="item">
+        <div class="item" data-oi="18">
           <div class="item-n">18</div>
           <div>
             <div class="item-t">A taproom conversion rate somebody has measured.</div>
             <div class="item-b">The 20&ndash;30% figure is your own estimate and has never been observed. It is an extraordinary rate for a $975 purchase, and a good deal of the strategy was leaning on it. Every use of it in the set now carries that flag. Replacing it with a counted number changes what the taproom is worth.</div>
             <div class="item-meta">Owner: Tap That Brewery &middot; Blocks: funnel review, conversion pathway, activation plan, the case study &middot; tracker #18</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi18" value="Sending it through"><span>Sending it through</span></label>
+              <label class="opt"><input type="radio" name="oi18" value="Someone else has it"><span>Someone else has it</span></label>
+              <label class="opt"><input type="radio" name="oi18" value="We do not have this"><span>We do not have this</span></label>
+              <label class="a-nl" for="note18">Anything we should know</label>
+              <textarea class="a-note" id="note18" data-note="18" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
       </div>
@@ -756,14 +980,38 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
       <div class="eyebrow mt56 rv">One we settle together</div>
       <p class="body mt12 rv" style="max-width:70ch">Not yours alone and not ours. It needs your price list against our arithmetic, in one sitting.</p>
       <div class="items rv">
-        <div class="item">
+        <div class="item" data-oi="19">
           <div class="item-n">19</div>
           <div>
             <div class="item-t">What a schooner at home actually costs.</div>
             <div class="item-b">Three sets of maths are in circulation and they cannot all be right: <b>$2.70</b> from a $120 keg at ~44 schooners, <b>$2.98</b> (and $2.34 for members) from a $140 keg at 47, and <b>$2.55 member / $3.19 non-member</b> from the verified price list at 47. Three keg prices, two schooner counts. This is the most quotable number in the business and there is a live ad running on one version of it. Until it is settled the instruction across the set is to pull the claim, not to re-price it.</div>
             <div class="item-meta">Owner: Jewell &amp; Tap That &middot; Blocks: all creative, paid media, the copy deck, the case study &middot; tracker #19</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+              <label class="opt"><input type="radio" name="oi19" value="Use the verified price list"><span>Use the verified price list</span></label>
+              <label class="opt"><input type="radio" name="oi19" value="Use our $2.98 maths"><span>Use our $2.98 maths</span></label>
+              <label class="opt"><input type="radio" name="oi19" value="Sit down and work it out"><span>Sit down and work it out</span></label>
+              <label class="a-nl" for="note19">Anything we should know</label>
+              <textarea class="a-note" id="note19" data-note="19" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>
+      </div>
+
+      <div class="band rv" id="oiSend" hidden>
+        <div class="eyebrow on-dark">When you have filled in what you can</div>
+        <p class="body on-dark mt20" style="max-width:66ch">Your answers save in this browser as you type, on this
+        device only &ndash; nothing is sent anywhere until you choose to send it. Partial is useful: the eight
+        decisions are worth more to us than the ten file requests, and you do not need all nineteen to unblock
+        the work.</p>
+        <div class="oi-acts">
+          <button type="button" class="oi-btn primary" id="oiMail">Open in email</button>
+          <button type="button" class="oi-btn" id="oiCopy">Copy answers</button>
+          <button type="button" class="oi-btn" id="oiFile">Download</button>
+          <button type="button" class="oi-btn ghost" id="oiClear">Clear</button>
+        </div>
+        <p class="oi-hint" id="oiHint" aria-live="polite"></p>
       </div>
 
       <div class="band deep rv">
@@ -945,5 +1193,164 @@ html.js-rv .rv.in { opacity: 1; transform: none; }
       }
     });
   }
+})();
+</script>
+
+<script>
+/* Open-item answers.
+   Entirely self-contained and wrapped in its own try/catch: if anything in here
+   throws, the page is still a readable document. The controls ship hidden and
+   this reveals them, so a browser that never runs this never shows a form that
+   would not work. Answers live in this viewer's localStorage and go nowhere
+   until they press a button. */
+(function () {
+  "use strict";
+  var KEY = "tapthat.openitems.v1";
+  var root = document.getElementById("need");
+  if (!root) return;
+  var items = [].slice.call(root.querySelectorAll(".item[data-oi]"));
+  if (!items.length) return;
+
+  function read() {
+    try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; }
+    catch (e) { return {}; }          // private mode, blocked storage, bad JSON
+  }
+  function write(d) {
+    try { localStorage.setItem(KEY, JSON.stringify(d)); return true; }
+    catch (e) { return false; }
+  }
+
+  var state = read();
+  var bar   = document.getElementById("oiBar");
+  var send  = document.getElementById("oiSend");
+  var fill  = document.getElementById("oiFill");
+  var count = document.getElementById("oiCount");
+  var saved = document.getElementById("oiSaved");
+  var hint  = document.getElementById("oiHint");
+
+  function title(el) {
+    var t = el.querySelector(".item-t");
+    return t ? t.textContent.replace(/\s+/g, " ").trim() : "";
+  }
+  function answered(el) {
+    var n = el.getAttribute("data-oi"), s = state[n] || {};
+    return !!(s.choice || (s.note && s.note.trim()));
+  }
+
+  function paint() {
+    var done = items.filter(answered).length;
+    count.textContent = done + " of " + items.length + " answered";
+    fill.style.width = (done / items.length * 100) + "%";
+    items.forEach(function (el) {
+      var note = el.querySelector(".a-note");
+      if (note) note.classList.toggle("filled", !!note.value.trim());
+    });
+  }
+
+  var flash;
+  function flashSaved(ok) {
+    saved.textContent = ok ? "Saved on this device" : "Could not save in this browser";
+    saved.style.color = ok ? "" : "var(--steel)";
+    saved.classList.add("on");
+    clearTimeout(flash);
+    flash = setTimeout(function () { saved.classList.remove("on"); }, 1600);
+  }
+
+  function store(n, patch) {
+    state[n] = Object.assign({}, state[n], patch);
+    flashSaved(write(state));
+    paint();
+  }
+
+  // restore, then wire up
+  items.forEach(function (el) {
+    var n = el.getAttribute("data-oi"), s = state[n] || {};
+    el.querySelectorAll('input[type="radio"]').forEach(function (r) {
+      if (s.choice && r.value === s.choice) r.checked = true;
+      r.addEventListener("change", function () { store(n, { choice: r.value }); });
+    });
+    var note = el.querySelector(".a-note");
+    if (note) {
+      if (s.note) note.value = s.note;
+      var t;
+      note.addEventListener("input", function () {
+        clearTimeout(t);
+        t = setTimeout(function () { store(n, { note: note.value }); }, 400);
+      });
+    }
+  });
+
+  function transcript() {
+    var lines = ["Tap That Brewery - answers to the open items",
+                 new Date().toLocaleDateString("en-AU", { day: "numeric", month: "long", year: "numeric" }),
+                 ""];
+    var done = 0;
+    items.forEach(function (el) {
+      var n = el.getAttribute("data-oi"), s = state[n] || {};
+      if (!s.choice && !(s.note || "").trim()) return;
+      done++;
+      lines.push("#" + n + "  " + title(el));
+      if (s.choice) lines.push("   Answer: " + s.choice);
+      if ((s.note || "").trim()) lines.push("   Note:   " + s.note.trim());
+      lines.push("");
+    });
+    if (!done) return null;
+    lines.push("Answered " + done + " of " + items.length + ".");
+    return lines.join("\n");
+  }
+
+  function say(msg) { hint.textContent = msg; }
+
+  document.getElementById("oiCopy").addEventListener("click", function () {
+    var t = transcript();
+    if (!t) return say("Nothing filled in yet.");
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(t).then(
+        function () { say("Copied. Paste it into an email or a message."); },
+        function () { say("Could not copy here - use Download instead."); });
+    } else { say("Copying is not available in this browser - use Download."); }
+  });
+
+  document.getElementById("oiFile").addEventListener("click", function () {
+    var t = transcript();
+    if (!t) return say("Nothing filled in yet.");
+    try {
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([t], { type: "text/plain" }));
+      a.download = "tap-that-open-items.txt";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+      say("Downloaded.");
+    } catch (e) { say("Download did not start - try Copy instead."); }
+  });
+
+  document.getElementById("oiMail").addEventListener("click", function () {
+    var t = transcript();
+    if (!t) return say("Nothing filled in yet.");
+    // No recipient: this opens a draft and lets you address it yourself.
+    var href = "mailto:?subject=" + encodeURIComponent("Tap That Brewery - open item answers") +
+               "&body=" + encodeURIComponent(t);
+    if (href.length > 1900) {
+      say("Too long for an email link. Use Copy, then paste it in.");
+      return;
+    }
+    location.href = href;
+    say("Opening your email app. Add the address and send.");
+  });
+
+  document.getElementById("oiClear").addEventListener("click", function () {
+    if (!window.confirm("Clear every answer on this device? This cannot be undone.")) return;
+    state = {};
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    items.forEach(function (el) {
+      el.querySelectorAll('input[type="radio"]').forEach(function (r) { r.checked = false; });
+      var note = el.querySelector(".a-note"); if (note) note.value = "";
+    });
+    paint(); say("Cleared.");
+  });
+
+  bar.hidden = false;
+  send.hidden = false;
+  paint();
 })();
 </script>

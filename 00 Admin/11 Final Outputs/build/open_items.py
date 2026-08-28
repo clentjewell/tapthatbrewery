@@ -13,7 +13,7 @@ rather than quietly dropping it from the page.
     python3 open_items.py            # print the section HTML
     python3 open_items.py --splice   # write it into delivery-summary.html
 """
-import os, re, sys
+import html as _html, os, re, sys
 
 WORD = {1:"One",2:"Two",3:"Three",4:"Four",5:"Five",6:"Six",7:"Seven",8:"Eight",9:"Nine",
         10:"Ten",11:"Eleven",12:"Twelve",13:"Thirteen",14:"Fourteen",15:"Fifteen",
@@ -98,6 +98,24 @@ COPY = {
     "Blocks: all creative, paid media, the copy deck, the case study"),
 }
 
+# What each item is actually asking. A decision gets its real alternatives, so
+# answering is a click rather than an essay; anything waiting on a file gets the
+# same three states. Every item also takes a free-text note.
+DATA_STATES = ["Sending it through", "Someone else has it", "We do not have this"]
+CHOICES = {
+     2: ["$250 a year", "$300 plus a $120 renewal", "Neither &ndash; a new price"],
+    10: ["Tap That Brewery", "Tap That &middot; Brewery &amp; Keghouse", "Worth a proper re-brand conversation"],
+    11: ["45 days", "75 days", "90 days"],
+    13: ["Sell more systems", "Convert the 116 switchers", "Both, and we will weight it"],
+    14: ["Scaling Up", "The growth playbook", "The vision document"],
+    15: ["Cost is on the table", "Cost stays off the table", "Only in retargeting, not the open feed"],
+    20: ["Tasting and event venue", "Keep it open as a drop-in", "Not ready to call it"],
+    21: ["About six core plus seasonals", "Keep the 27 taps", "Somewhere in between"],
+     8: ["Bong Water", "Bone Water", "Something else"],
+     9: ["Three and a half months is fine", "Too tight &ndash; move it"],
+    19: ["Use the verified price list", "Use our $2.98 maths", "Sit down and work it out"],
+}
+
 HEADS = {
   "decision": ("Decisions &middot; nobody can research these for you",
                "Eight questions that need a call, not more work. Six of them are on the deck; "
@@ -108,6 +126,31 @@ HEADS = {
   "joint":    ("One we settle together",
                "Not yours alone and not ours. It needs your price list against our arithmetic, in one sitting."),
 }
+
+BAR = """
+      <div class="oi-bar rv" id="oiBar" hidden>
+        <div class="oi-prog"><div class="oi-prog-fill" id="oiFill"></div></div>
+        <div class="oi-bar-r">
+          <span class="oi-count" id="oiCount"></span>
+          <span class="oi-saved" id="oiSaved" aria-live="polite"></span>
+        </div>
+      </div>"""
+
+FOOT = """
+      <div class="band rv" id="oiSend" hidden>
+        <div class="eyebrow on-dark">When you have filled in what you can</div>
+        <p class="body on-dark mt20" style="max-width:66ch">Your answers save in this browser as you type, on this
+        device only &ndash; nothing is sent anywhere until you choose to send it. Partial is useful: the eight
+        decisions are worth more to us than the ten file requests, and you do not need all nineteen to unblock
+        the work.</p>
+        <div class="oi-acts">
+          <button type="button" class="oi-btn primary" id="oiMail">Open in email</button>
+          <button type="button" class="oi-btn" id="oiCopy">Copy answers</button>
+          <button type="button" class="oi-btn" id="oiFile">Download</button>
+          <button type="button" class="oi-btn ghost" id="oiClear">Clear</button>
+        </div>
+        <p class="oi-hint" id="oiHint" aria-live="polite"></p>
+      </div>"""
 
 def parse():
     body = open(TRACKER, encoding="utf-8").read()
@@ -143,8 +186,11 @@ def render():
                 'landed in August, and the advisory review settled the competitor&rsquo;s name. The rest split cleanly. '
                 f'{word(counts["decision"], True)} need a decision from the two of you, and no amount of further work will produce one. '
                 f'{word(counts["data"], True)} arrive the moment someone sends a file, a date or a login. One we settle together. '
-                'Nothing below is padding &ndash; each item names what it blocks.</p>')
+                'Nothing below is padding &ndash; each item names what it blocks, and you can answer them here on '
+                'the page: pick an option, add a note if there is one, and send the lot back in whatever '
+                'form suits.</p>')
 
+    html.append(BAR)
     html.append('''
       <div class="band rv">
         <div class="eyebrow on-dark">The two that would change the most</div>
@@ -166,16 +212,30 @@ def render():
             owner = {"Founders": "Chris &amp; Justin", "Jewell + Client": "Jewell &amp; Tap That"}\
                     .get(it["owner"], "Tap That Brewery")
             tag = ' <span class="pill pending">partly closed</span>' if it["partly"] else ""
-            html.append(f'''        <div class="item">
+            num = it["n"]
+            opts = CHOICES.get(num, DATA_STATES)
+            radios = "\n".join(
+                f'              <label class="opt"><input type="radio" name="oi{num}" '
+                f'value="{_html.escape(_html.unescape(o), quote=True)}"><span>{o}</span></label>'
+                for o in opts)
+            html.append(f'''        <div class="item" data-oi="{num}">
           <div class="item-n">{n:02d}</div>
           <div>
             <div class="item-t">{title}{tag}</div>
             <div class="item-b">{para}</div>
-            <div class="item-meta">Owner: {owner} &middot; {blocks} &middot; tracker #{it["n"]}</div>
+            <div class="item-meta">Owner: {owner} &middot; {blocks} &middot; tracker #{num}</div>
+            <fieldset class="answer">
+              <legend class="a-leg">Your answer</legend>
+{radios}
+              <label class="a-nl" for="note{num}">Anything we should know</label>
+              <textarea class="a-note" id="note{num}" data-note="{num}" rows="2"
+                        placeholder="Optional &mdash; context, a caveat, a date"></textarea>
+            </fieldset>
           </div>
         </div>''')
         html.append('      </div>')
 
+    html.append(FOOT)
     html.append('''
       <div class="band deep rv">
         <div class="eyebrow on-dark">Two things worth fixing this week, whatever else happens</div>
