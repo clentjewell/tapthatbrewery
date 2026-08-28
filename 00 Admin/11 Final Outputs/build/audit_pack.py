@@ -110,17 +110,26 @@ def rule_loss_making_named(path, ls):
                      r"cannot fund|red at the bottom", body, re.I):
         flag("loss-making-unnamed", path, "strategy document never names the loss")
 
+def near(text, m, span=280):
+    """The window a caveat may live in. HTML wraps a paragraph across several
+    lines, so a line-bound check reads a qualified claim as an unqualified one."""
+    return text[max(0, m.start() - span): m.end() + span]
+
+def line_of(text, pos):
+    return text.count("\n", 0, pos) + 1
+
 def rule_schooner_price(path, ls):
     """Open item #19. Three incompatible sets of maths are in circulation:
     $2.70 ($120/44), $2.98 and $2.34 ($140/47, less the $30 member discount),
     and $2.55/$3.19 (verified price list, $120/$150 at 47). It is the most
     quotable number in the business, so no document may state one flat."""
-    for i, l in enumerate(ls, 1):
-        if re.search(r"\$2\.(34|98|70|55)|\$3\.19", l) and not re.search(
-                r"open item|unsettled|unresolved|#19\b|three (different|sets)|"
-                r"in circulation|settle|verified price list|reconcil|pull the|rather than re-pricing",
-                l, re.I):
-            flag("schooner-price-unflagged", path, f"line {i}: states a per-schooner price as settled")
+    text = "\n".join(ls)
+    ok = (r"open item|unsettled|unresolved|#19\b|three (different|sets)|in circulation|"
+          r"settle|verified price list|reconcil|pull the|rather than re-pricing|not settled")
+    for m in re.finditer(r"\$2\.(34|98|70|55)|\$3\.19", text):
+        if not re.search(ok, near(text, m), re.I):
+            flag("schooner-price-unflagged", path,
+                 f"line {line_of(text, m.start())}: states a per-schooner price as settled")
 
 def rule_membership_price(path, ls):
     """Open item #2. Two membership posters are live in the venue and disagree:

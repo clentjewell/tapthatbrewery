@@ -74,8 +74,8 @@ SLIDES = [
            "not be. If the taproom is the half that loses money, spending the marketing budget "
            "filling it is the wrong instinct, however good the content is."),
 
- dict(type="content", eyebrow="What we need from you",
-      headline="Six decisions. None of them need research.",
+ dict(type="content", eyebrow="What we need from you · six of eight decisions",
+      headline="The six decisions that most change the plan.",
       rows=[("The taproom","Tasting and event venue, or keep paying for a drop in."),
             ("The range","Six core beers, or twenty seven taps."),
             ("Membership price","Two posters, two prices, both live in your venue today."),
