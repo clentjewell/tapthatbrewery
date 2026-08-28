@@ -41,7 +41,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 |---|---|
 | **Pains** | $100+ bottle-shop weekends; pub prices worse; the Dan Murphy’s run is a chore that never ends. |
 | **Gains** | 44 schooners per 20L keg at $120–170, poured colder and fresher than anything in a tinnie; the drive disappears; delivery (GoTab × Uber Direct) removes even the pick-up. |
-| **Proof owned** | Photo-verified price board maths: member core 20L $120 ≈ $2.70/schooner vs $10+ over any bar; no excise (under threshold), no wholesaler margin – ~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler; corny kegs dropped Tuesday, ready Friday. |
+| **Proof owned** | Photo-verified price board maths: member core 20L $120 ≈ $2.70/schooner vs $10+ over any bar (the per-schooner figure is unsettled – open item #19); no excise (under threshold), no wholesaler margin – ~$275 equivalent vs ~$500 for a 50L Balter through a wholesaler; corny kegs dropped Tuesday, ready Friday. |
 | **Opening message** | *"Do the maths – then never do the bottle-o run again."* Cost + convenience lead openly. Guardrail: creative says "fresher and cheaper", never "more" – the census kills the bulk-drinking frame and the brand must never invite it. |
 
 ## 3. Cashed-up tradies (~20%) – the kudos profile
@@ -63,7 +63,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 |---|---|
 | **Pains** | Entertaining generously is effortful; packaged beer is stale and ungenerous; they care about quality and being the family hub. |
 | **Gains** | Fresh 20L variety on tap without fuss; their place stays the gathering place; the service relationship (corny drop Tuesday, ready Friday) suits their habits. |
-| **Proof owned** | Award-winning brewing (Midnight in Tokyo – Brewer’s Choice at Crafted); Keg Crew membership $250/yr with $30 off every refill and a 5L birthday keg – a genuine hosting perk; sessionable, gluten-reduced, lower-carb range (unmarketed, but real) for the quality-and-health-conscious. |
+| **Proof owned** | Award-winning brewing (Midnight in Tokyo – Brewer’s Choice at Crafted); Keg Crew membership $250/yr [one of two live prices – open item #2] with $30 off every refill and a 5L birthday keg – a genuine hosting perk; sessionable, gluten-reduced, lower-carb range (unmarketed, but real) for the quality-and-health-conscious. |
 | **Opening message** | *"Pour them something you’re proud of."* Connection and taste/freshness lead; the membership does the retention work. |
 
 ## Overlay – the partner / veto-holder

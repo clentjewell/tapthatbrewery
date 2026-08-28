@@ -32,7 +32,7 @@ SEO here is not traffic for its own sake – it serves the two acquisition doors
 | **Local / taproom** | brewery Burleigh Heads, taproom near me, function venue Burleigh, brewery venue hire Gold Coast | Visit + function intent | Taproom, Functions |
 | **Objection / informational** | how much does a keg system cost, is a kegerator worth it, how long does a 20L keg last, gluten reduced beer Gold Coast | Nurture-window capture | FAQ/objection content |
 
-\* Competitor name unverified ("Aardvark & Arrow" vs transcribed "Ardbach and Arrow") – verify before building any comparison page; never publish against an unconfirmed trading name.
+\* Competitor name closed 27 August: Aardvark and Arrow. A comparison page is unblocked. Note their domain is suspended and they have joined with Burleigh Homebrew, so check what actually resolves before targeting their brand terms.
 
 ## Local SEO (the half that likely matters most)
 

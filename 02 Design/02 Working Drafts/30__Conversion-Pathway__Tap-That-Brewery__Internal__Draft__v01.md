@@ -28,7 +28,7 @@ Tap That Brewery already converts – 20–30% [unverified – see #20B] of tapr
 | Consideration | Memory | 90-day email/SMS nurture + retargeting matched to the buying cycle |
 | Close | 50%-off blast at giveaway end | Trigger-based closes: deadline, payment unlock, partner sign-off, event |
 | Post-purchase | Ad-hoc return visits | Automated activation → habit → at-risk → winback ladder |
-| Measurement | Anecdote ("about 20–30%") | Named checkpoints with baselines and targets |
+| Measurement | Anecdote ("about 20–30%"), unmeasured – #20B | Named checkpoints with baselines and targets |
 
 ## Entry points, ranked by expected CAC
 
@@ -38,7 +38,7 @@ Ranking logic: how much of the funnel each entry point *skips*. The cheapest cus
 |---|---|---|---|
 | 1 | **Switcher offer – "we fill any system"** | Zero hardware subsidy, zero objection-handling: the owner already won every internal argument, someone else paid the CAC of creating them. 50% of the current base arrived this way *unprompted* (H1) | Always-on local campaign + first-fill incentive; land direct at Activation stage |
 | 2 | **Referral (Tap Tokens)** | Paid in tokens, not dollars; arrives pre-sold by a mate pouring the proof | 1,000 tokens per system referral / 500 per refill referral – promote outside the venue, prompt at high-satisfaction moments (post-first-refill, post-party) |
-| 3 | **Taproom** | Venue cost is sunk (it trades anyway); 20–30% visitor→owner conversion is the best rate in the business | Capture every visitor to a named list (QR → tasting notes / Tap Tokens signup already in venue); demo-booking path via cheers@ |
+| 3 | **Taproom** | Venue cost is sunk (it trades anyway); the claimed 20–30% visitor→owner conversion would be the best rate in the business, though it is unmeasured (#20B) | Capture every visitor to a named list (QR → tasting notes / Tap Tokens signup already in venue); demo-booking path via cheers@ |
 | 4 | **Giveaway** | ~1,000 entries per round for prize + promo cost, but most entrants need the full 3-month nurture | Keep 2×/yr cadence; the redesign is what happens to the ~975 non-winners (below) |
 | 5 | **Benchy / outdoor-living partnerships** | Highest effort, longest lag (reaches buyers 6–9 months out via pool/deck builders, BBQ retail, 4WD fit-outs – Smoked Barbecue Co proves the model), but no competitor and compounding shelf presence | Partner packs, display units, co-branded offers; Harry’s cousin’s 4WD network as the Benchy beachhead |
 
@@ -75,7 +75,7 @@ The pathway ends where the margin begins. At purchase, the lead record hands to 
 |---|---|---|---|
 | C1 | Capture rate | ~0 outside giveaways | % of taproom visitors + giveaway entrants landing on a named, contactable list |
 | C2 | Nurture engagement | n/a (no nurture) | Open/click by sequence phase; objection-content engagement per objection |
-| C3 | Window conversion | 22–25 per giveaway close; 20–30% taproom (anecdotal) | % of captured leads purchasing within 13 weeks, by entry point |
+| C3 | Window conversion | 22–25 per giveaway close; 20–30% taproom (anecdotal, unmeasured – #20B) | % of captured leads purchasing within 13 weeks, by entry point |
 | C4 | Switcher acquisitions | ~50% of base, organic | New refill customers/month with non-Tap-That hardware |
 | C5 | Attach rate | Not tracked | % of purchases leaving with Keg Crew + booked/prompted first refill |
 | C6 | Activation | Not tracked | % of new owners refilling within 30 days |

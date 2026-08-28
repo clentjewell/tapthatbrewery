@@ -59,7 +59,7 @@ Two known errors must not enter any new creative:
 
 | Claim | Status | Correct form |
 |---|---|---|
-| "$2.34 a schooner" | **Wrong as run.** 47 schooners from a $140 keg is $2.98. $2.34 holds only after the $30 Keg Crew discount | "From $2.98 a schooner – $2.34 for Keg Crew members" |
+| "$2.34 a schooner" | **Wrong as run** – it is member-only. But the replacement is not settled either: our $2.98 assumes a $140 keg at 47 schooners, while the verified price list gives $2.55 member and $3.19 non-member, and Christy's figure is $2.70. Open item #19. | Pull the claim. Do not substitute a number until #19 closes; run the creative without a per-schooner figure in the meantime. |
 | Keg Crew break-even "6 kegs" | **Wrong as briefed to staff.** $250 ÷ $30 = 8.33 | "Pays for itself at nine refills a year" |
 
 Rule: any comparative claim ("vs $14 at the pub") is written with its assumptions on the same asset, in legible type. If the assumption doesn’t fit, the claim doesn’t run.

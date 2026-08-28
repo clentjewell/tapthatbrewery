@@ -114,7 +114,7 @@ Local competitors (Aardvark & Arrow*, Laughing Lizard) and online distributors (
 
 Supporting wedge: the **Benchy** portable tap (4WD / camping / boating / caravan) has **no direct competitor** – a beachhead into outdoor-lifestyle retail partnerships 6–9 months ahead of purchase intent.
 
-\* name as handwritten in workshop notes; Circleback transcribed "Ardbach and Arrow" – confirm spelling.
+\* Aardvark and Arrow, confirmed 27 August; the Circleback transcript had mis-heard it. Domain suspended, now joined with Burleigh Homebrew.
 
 ## Offer synthesis (tiered, with a named spine)
 
@@ -122,7 +122,7 @@ Supporting wedge: the **Benchy** portable tap (4WD / camping / boating / caravan
 |---|---|---|
 | **Entry** | Taproom visit, tasting paddle ($18/20), 5L mini keg system ($225), keg system hire for parties | Low-risk first taste; the funnel |
 | **Spine** | 2-tap keg system $975 (at cost, +$40 bonus credit) → 20L refills | The conversion moment – hardware at cost is the *offer*, refills are the *revenue* |
-| **LTV engine** | Keg Crew membership ($250/yr: $30 off refills, 100 Tap Tokens, birthday keg) + Tap Token loyalty + referral rewards (1,000 tokens per system referral) | Locks the refill cadence; makes churn visible and addressable |
+| **LTV engine** | Keg Crew membership ($250/yr [one of two live prices – open item #2]: $30 off refills, 100 Tap Tokens, birthday keg) + Tap Token loyalty + referral rewards (1,000 tokens per system referral) | Locks the refill cadence; makes churn visible and addressable |
 | **Expansion** | Benchy portable, delivery (Uber Direct via GoTab), lease-to-buy (pending GoTab), white-label wholesale (sports clubs, weddings) | New pools of refill demand |
 
 The re-education pathway exists in-venue (taproom → demo → giveaway → 50% close) but has no owned digital equivalent yet – the 3-month buying cycle is currently nurtured by memory.

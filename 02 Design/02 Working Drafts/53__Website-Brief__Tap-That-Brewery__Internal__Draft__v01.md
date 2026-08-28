@@ -27,7 +27,7 @@ Rebuild tapthatbrewery.com.au as the digital half of the funnel the venue alread
 | **Home** | Trust bar (Brewer’s Choice at Crafted, first year entering; Gold Coast Bulletin press); the two funnels split clearly: "Get a system" / "Already own one? We fill any system" |
 | **Keg systems** | 2-tap $975 → 6-tap $2,550 (+ bonus credits $40–100), integrated from $1,750, 5L mini $225, assembly $300; Afterpay/Zip prominently; **demo booking CTA**; objection content (partner veto → 1/3 non-beer taps; "I’ll drink too much" → census: 57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** – 57% of owners buy one keg or fewer (census)) |
 | **We Fill Any System** (switcher) | Tue-drop→Fri-ready corny promise as mechanism; plastic vs corny explainer; first-fill offer [TBC]; refill referral (500 Tap Tokens) |
-| **Refills & pricing** | 20L member/non-member three-band pricing; **savings calculator** (kegs/month → $ vs bottle-o and pub; ~$2.70/schooner at home); "why 20L" freshness explainer |
+| **Refills & pricing** | 20L member/non-member three-band pricing; **savings calculator** (kegs/month → $ vs bottle-o and pub; per-schooner figure unsettled, open item #19 – do not hard-code one until it is closed); "why 20L" freshness explainer |
 | **Tap list** | All 27 taps, ABVs, non-beer filter ("a third of these aren’t beer") – from the live menu data |
 | **Membership** | Keg Crew / Mug Club / Brew Buds – **blocked until price reconciliation (#52 Kit 4)**; Tap Token + leaderboard explainer |
 | **Benchy** | Portable tap for 4WD/camping/boating; partner logos as they sign |

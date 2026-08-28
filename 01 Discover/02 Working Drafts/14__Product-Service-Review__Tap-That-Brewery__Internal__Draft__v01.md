@@ -58,7 +58,7 @@ Accessories: Bishop tap $25, decal holder $25, Headmaster glass $8, Tap That gla
 
 | Tier | Price (newer poster) | Core value |
 |---|---|---|
-| **Keg Crew** | $250/yr | $30 off every keg refill, 100 Tap Tokens, 5L birthday keg, mugs at schooner prices, tasting nights + free drink, 10% off Never Quit Gym |
+| **Keg Crew** | $250/yr [one of two live prices – open item #2] | $30 off every keg refill, 100 Tap Tokens, 5L birthday keg, mugs at schooner prices, tasting nights + free drink, 10% off Never Quit Gym |
 | **Mug Club** | $120/yr | 75 tokens + taproom perks |
 | **Brew Buds** | Free (mailing list) | 50 tokens |
 

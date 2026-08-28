@@ -60,7 +60,7 @@ A gate, not a formality – especially given the franchise ambition (10–12 yea
 
 1. **Ownership** – confirm Tap That Brewery owns the artwork outright (original designer’s assignment/licence; no stock elements with restricted licences).
 2. **Registrability** – IP Australia trade mark search for the name and device marks in classes 32 (beer), 40 (brewing), 43 (taproom services); note any conflicts.
-3. **Originality scan** – reverse-image check of badge and roundel against other breweries/keg businesses (the TT monogram and hex-badge forms are common in craft beer; confirm no confusable local mark, including the unverified "Aardvark & Arrow" across the road).
+3. **Originality scan** – reverse-image check of badge and roundel against other breweries/keg businesses (the TT monogram and hex-badge forms are common in craft beer; confirm no confusable local mark, including Aardvark and Arrow across the road).
 4. Record findings; if a conflict surfaces, that (and only that) reopens a design conversation – client’s call.
 
 ## 5. Lock criteria (definition of done)

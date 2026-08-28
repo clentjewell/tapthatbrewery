@@ -38,7 +38,7 @@ Earned only. No retainer, no wire, no spend beyond hours. One pitch cycle per qu
 | "Customers buy for taste and freshness first" | **Yes** | Driver ranking 2.19, ahead of cost at 2.75 |
 | Moderation counter-narrative | **Qualified** | Say "most owners pour about one and a half kegs a month" (1.55 weighted mean) – do **not** say drinkers consume less. Never a health claim |
 | Active customer count | **No, not yet** | The definition is unresolved (96 or ~113). No number goes to press until it is |
-| "$2.34 a schooner" | **No** | Member-only. Publicly: "from $2.98, $2.34 for members" |
+| "$2.34 a schooner" | **No** | Member-only – and the public alternative is unsettled (open item #19: $2.70, $2.98 and $3.19 are all in circulation). Run no per-schooner figure until it closes. |
 | Franchise ambition | **Hold** | Requires founder consent (open item #6) |
 
 ## Quarterly pitch cycle

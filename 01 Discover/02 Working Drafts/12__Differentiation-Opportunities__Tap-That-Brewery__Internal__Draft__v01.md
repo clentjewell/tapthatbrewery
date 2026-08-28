@@ -75,7 +75,7 @@ Note the asymmetry: in-venue already carries most of this story (which is why th
 ## Assumptions & open items
 
 - Membership pricing must be reconciled ($250/yr vs $300+$120 renewal posters) before differentiator 4 ships anywhere.
-- Competitor references ("across the road", $85–90) rest on the unverified Aardvark & Arrow* name and client-reported pricing. *Transcript: "Ardbach and Arrow" – confirm before external use.*
+- Competitor references ("across the road", $85–90) name Aardvark and Arrow, confirmed 27 August. The pricing is still client-reported and unswept. Their domain is suspended and they have joined with Burleigh Homebrew, so treat the $85–90 figure as historical until re-checked.
 - "Australia’s biggest beer festival" is the client’s description of Crafted – verify before print.
 - Contrast lines are strategy drafts, not final copy; voice pass happens in Design.
 - Current website content not yet audited – "web carries almost none of it" is inferred from discovery, confirm with a site review.

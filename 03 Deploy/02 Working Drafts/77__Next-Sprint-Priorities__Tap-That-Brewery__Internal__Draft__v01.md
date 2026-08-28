@@ -29,7 +29,7 @@ These are not sprint items. They are live errors and they are not gated on CP1, 
 
 | # | Action | Owner | Done when |
 |---|---|---|---|
-| W1 | Pull or correct the live "$2.34 a schooner" creative – non-member price is $2.98 | Justin + Jewell | Nothing in market states $2.34 unqualified |
+| W1 | Pull the live "$2.34 a schooner" creative. Do not correct it to $2.98 – that figure is unsettled (open item #19) | Justin + Jewell | Nothing in market states a per-schooner price until #19 closes |
 | W2 | Re-brief staff: Keg Crew break-even is **8.33 refills**, not 6 | Justin | Bar team can state it |
 | W3 | Remove one of the two conflicting membership posters; decide the price | Founders | One price in the room |
 | W4 | Correct the "Bong Water / Bone Water" name across menu, web and collateral | Harry/Harry | Consistent everywhere |

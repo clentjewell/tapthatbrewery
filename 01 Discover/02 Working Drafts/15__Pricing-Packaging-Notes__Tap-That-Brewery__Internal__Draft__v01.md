@@ -68,14 +68,14 @@ Afterpay + Zip accepted; lease-to-buy in development (GoTab-dependent). The bonu
 |---|---|---|
 | Local keg rivals (Aardvark & Arrow*, Laughing Lizard) | $85–90/keg | $120–170 (20L core–top shelf, non-member $150–170 for core/premium) |
 | Wholesale route (50L Balter via wholesaler) | ~$500 | ~$275 equivalent (no excise under threshold, no wholesaler margin) |
-| Bottle-shop / pub per serve | pub schooner economics | 20L core member keg = $120 ÷ ~44 schooners ≈ **$2.70/schooner at home** |
+| Bottle-shop / pub per serve | pub schooner economics | 20L core member keg = $120 ÷ ~44 schooners ≈ **$2.70/schooner at home**. Unsettled – open item #19; the verified price list gives $2.55 member and $3.19 non-member at 47 schooners, and our own documents say $2.98. |
 
 The read (consistent with D03): Tap That Brewery is 40–90% dearer than local keg rivals and must never fight them on sticker price – the fight is quality, range, ecosystem. Against retail, pubs and the wholesale route, the per-litre maths is the weapon – and per Christy’s working rule, it closes rather than leads.
 
 ## What the packaging logic is actually doing
 
 1. **Hardware at cost = a paid lead.** The $975–$2,550 system buys a customer, not margin; Afterpay/Zip and (soon) lease-to-buy exist purely to shrink the entry objection.
-2. **The member/non-member spread is the retention device.** $30 off every 20L refill is exactly the Keg Crew discount – at the observed ~2 refills/month cadence, $250/yr repays in **~4 months**, after which the member is economically locked in and their lapse is visible in the data.
+2. **The member/non-member spread is the retention device.** $30 off every 20L refill is exactly the Keg Crew discount – at the observed ~2 refills/month cadence, $250/yr [one of two live prices – open item #2] repays in **~4 months**, after which the member is economically locked in and their lapse is visible in the data.
 3. **Top Shelf is a kudos band, not a volume band.** $345–375 20L kegs and $70 growlers price the status buyer ("cashed-up wankers", DINKs) without touching core affordability.
 4. **Happy hour and the paddle are funnel pricing** – cheap trial serves that exist to trigger the "that’s a keg system?" moment, not to make taproom margin.
 5. **The 5L tier is the gift/gateway rung** ($225 system, $75–155 refills, birthday keg perk) – the lowest-risk on-ramp to ownership.

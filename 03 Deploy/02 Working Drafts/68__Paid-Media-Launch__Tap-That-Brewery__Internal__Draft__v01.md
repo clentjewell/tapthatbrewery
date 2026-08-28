@@ -72,7 +72,7 @@ Order of operations on launch day: confirm tracking (#75) → unpause Awareness 
 |---|---|
 | Audience age | 18+ enforced at ad-set level on every campaign, no exceptions |
 | ABAC | No consumption-rate claims, no under-25 talent, no drinking near vehicles or water, no health or performance claims |
-| Price claims | Non-member price first. The **$2.98 / $2.34 member rule** (#66) – the live "$2.34 a schooner vs $14 at the pub" ad is corrected or pulled before this programme starts |
+| Price claims | Non-member price first, per #66. The live "$2.34 a schooner vs $14 at the pub" ad is pulled before this programme starts. It is not replaced with $2.98 – that figure is unsettled too (open item #19) – so no per-schooner claim runs until #19 closes |
 | Alcohol delivery | No delivery creative until the service is licensed and live |
 
 ## Kill and scale criteria

@@ -36,7 +36,7 @@ Customer-list custom audiences (206 owners / 96–113 active + churned) are **ex
 | Segment | Lead pillar | Creative | Cost placement |
 |---|---|---|---|
 | Young families | Connection | Backyard UGC, "Your place just became the place", partner-drinks beat in every ad | Retargeting only ("cheaper than a babysat night out") |
-| High-volume drinkers | Cost + convenience | Do-the-maths creative (~$2.70/schooner), calculator CTA – "fresher and cheaper", never "more" | May lead |
+| High-volume drinkers | Cost + convenience | Do-the-maths creative (per-schooner figure unsettled – open item #19), calculator CTA – "fresher and cheaper", never "more" | May lead |
 | Tradies | Kudos | Install/mates-reaction UGC, "Finish the shed properly", Benchy crossover | Afterpay as closer, never headline |
 | Boomers | Connection + taste | Family-lunch UGC, award proof, "Pour them something you’re proud of" | Membership maths in retargeting |
 | Switchers (behavioural) | Convenience + proof | Tue→Fri promise, award badge as the why-pay-more answer | First-fill offer [TBC] |

@@ -32,7 +32,7 @@ One rule: if a number doesn’t move active keg customers or explain why they mo
 | Giveaway → purchase | Entrants (~1,000/cycle) → systems bought; today 22–25 via the 50% close | Nurture (H3) must beat this or it isn’t working | Entry list + GoTab |
 | Taproom → system | % of visitors buying a system (client estimate 20–30% [unverified – see #20B]) | The venue’s entire justification, measured | Demo QR/CTA capture + GoTab |
 | CAC by channel | Spend ÷ new actives: switcher ads, giveaway, taproom, referral, JV/club | Decides where next dollar and Harry-hour go | Meta/Buffer spend + GoTab |
-| Member share of refills | % of refills on Keg Crew ($250/yr, $30 off/refill) | Membership is the retention lock; also flags lapsed members early | GoTab |
+| Member share of refills | % of refills on Keg Crew ($250/yr [one of two live prices – open item #2], $30 off/refill) | Membership is the retention lock; also flags lapsed members early | GoTab |
 | Referral redemptions | Tap Token referral rewards claimed (1,000/system, 500/refill) | Cheapest channel; currently wall-signage only | GoTab / Tap Tokens |
 
 ## Data sources and their jobs

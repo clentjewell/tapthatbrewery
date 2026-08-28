@@ -56,7 +56,7 @@ Discovery’s core finding: the constraint is **execution capacity, not strategy
 
 - Ranking assumes GoTab/Fishbowl integration is achievable near-term – timeline unconfirmed; if it slips past Stage 1, P2 tactics run semi-manually off exported lists.
 - Switcher-pool size (existing GC keg owners) is inferred, not counted.
-- *Aardvark & Arrow spelling unverified (Circleback heard "Ardbach and Arrow").
+- *Aardvark and Arrow, confirmed 27 August. Domain suspended and merged with Burleigh Homebrew.
 - P3 assumes founders accept a capped taproom remit – needs explicit sign-off at CP1.
 
 ---

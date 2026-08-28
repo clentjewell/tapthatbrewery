@@ -79,7 +79,7 @@ The blend matters: Jester alone would undercut the $975 trust decision and the a
 
 - Archetype blend is a Jewell proposal for client endorsement at CP1 – validated against observed collateral only, not customer research.
 - Segment shares remain client estimates; census detail pending may re-rank pillar emphasis.
-- \*Competitor name "Aardvark & Arrow" unverified (Circleback heard "Ardbach and Arrow").
+- \*Aardvark and Arrow, confirmed 27 August. Domain suspended and now joined with Burleigh Homebrew.
 - Gluten-reduced claims need legal phrasing check before external use (cannot claim gluten-free).
 
 ---

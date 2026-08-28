@@ -26,7 +26,7 @@ Compressed (for decks and briefs): *The Gold Coast’s home-tap brand – brewed
 
 ## Frame of reference: the home-tap category, not the craft-brewery category
 
-Tap That Brewery must refuse the frame it superficially fits. As a craft brewery it is one of dozens on the Gold Coast, across the road from a cheaper one. As **the home-tap brand** it is alone: nobody – not Aardvark & Arrow*, not Laughing Lizard, not the online distributors – is building the relationship with the installed base of keg systems sitting in Gold Coast garages that need filling every month. The category claim is "beer on tap at home" (already the headline of Tap That Brewery’s own in-venue flyer: *"Did you say beer on tap at home?"*). The taproom, in this frame, is not the product – it is the demo floor, converting 20–30% [unverified – see #20B] of visitors into category entrants.
+Tap That Brewery must refuse the frame it superficially fits. As a craft brewery it is one of dozens on the Gold Coast, across the road from a cheaper one. As **the home-tap brand** it is alone: nobody – not Aardvark and Arrow, not Laughing Lizard, not the online distributors – is building the relationship with the installed base of keg systems sitting in Gold Coast garages that need filling every month. The category claim is "beer on tap at home" (already the headline of Tap That Brewery’s own in-venue flyer: *"Did you say beer on tap at home?"*). The taproom, in this frame, is not the product – it is the demo floor, converting 20–30% [unverified – see #20B] of visitors into category entrants.
 
 ## Points of difference (defensible, evidenced)
 
@@ -64,7 +64,7 @@ Structural note carried from #10: only the first row sells what Tap That Brewery
 
 ## Assumptions & open items
 
-- \*"Aardvark & Arrow" spelling and pricing unverified (transcript heard "Ardbach and Arrow"); competitor sweep pending before any external contrast copy.
+- \*Aardvark and Arrow, name confirmed 27 August; their domain is suspended and they have joined with Burleigh Homebrew. Pricing still unswept, so contrast copy can name them but should not quote their prices yet.
 - Positioning statement is proposed for client endorsement at CP1; D03's draft sentence remains the source.
 - "Fills any system" assumes no technical incompatibility across rival hardware – confirm with Chris before the claim goes absolute.
 - Per-litre comparison assumes the ~$275 vs ~$500 Balter example generalises; verify against a current wholesaler price list.

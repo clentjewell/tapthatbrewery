@@ -53,7 +53,7 @@ The venue sits in an industrial estate with limited foot traffic and wants after
 | Metric | Source | Why it ranks above bar take |
 |---|---|---|
 | Giveaway entries / new contacts captured | QR entries tagged to the event (#48 provenance) | Feeds the largest intent list |
-| Demo interactions / demo-day bookings | Staff tally | The 20–30% conversion moment |
+| Demo interactions / demo-day bookings | Staff tally | The claimed 20–30% conversion moment (unmeasured – #20B) |
 | Systems sold within 30 days, attributed | GoTab + provenance field | The actual product of the funnel |
 | New memberships sold | GoTab | LTV engine attach |
 | Bar take vs minimum spend | GoTab | Still counted – but fourth, not first |

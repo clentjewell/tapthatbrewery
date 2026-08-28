@@ -71,7 +71,7 @@ Kit 4: within 5 working days of client price confirmation. Kits 1–3: [TBC – 
 ## Assumptions & open items
 
 - Membership pricing, paddle price, first-fill offer, Benchy price and giveaway date all await client confirmation.
-- Aardvark & Arrow spelling unverified – no competitor is named in any asset regardless.
+- Aardvark and Arrow, confirmed 27 August. No competitor is named in any asset regardless.
 - Brand Copy Workbook supplies final lines; territories above are directional.
 
 ---

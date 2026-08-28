@@ -46,7 +46,7 @@ Gold Coast trade money with a shed, a ute and an unfinished outdoor build. The k
 
 ### 4. Baby boomers (~20%)
 
-Established southern-GC households hosting kids and grandkids. Quality entertainers: taste/freshness and generous, fuss-free hosting. Best natural fit for Keg Crew membership ($250/yr, $30 off refills, 5L birthday keg) and the corny-keg service relationship. Slower buying cycle; lowest creative-risk segment.
+Established southern-GC households hosting kids and grandkids. Quality entertainers: taste/freshness and generous, fuss-free hosting. Best natural fit for Keg Crew membership ($250/yr [one of two live prices – open item #2], $30 off refills, 5L birthday keg) and the corny-keg service relationship. Slower buying cycle; lowest creative-risk segment.
 
 ### 5–8. Secondary segments (~5% each)
 

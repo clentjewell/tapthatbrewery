@@ -31,7 +31,7 @@ Own search for the category nobody owns: "beer on tap at home" on the Gold Coast
 
 ## The first 6 content pieces (in order)
 
-1. **Keg cost calculator** – interactive (per #53): kegs/month → $ vs bottle-o vs pub (~$2.70/schooner maths). The link-earning asset; cost content is fine in search because the searcher raised it (dirty-little-secret rule governs ads, not answers).
+1. **Keg cost calculator** – interactive (per #53): kegs/month → $ vs bottle-o vs pub. The per-schooner figure is unsettled (open item #19) – build the calculator to read the price from a single source rather than baking a number into the page. The link-earning asset; cost content is fine in search because the searcher raised it (dirty-little-secret rule governs ads, not answers).
 2. **"Which keg system is right for you?"** – 2-tap ($975) to 6-tap ($2,550) chooser, at-cost explanation, Afterpay/Zip, space + partner objections answered inline.
 3. **The switcher guide** – "Already own a keg system? Here’s how refills work with us": Tue-drop→Fri-ready, plastic vs corny, we-fill-any-system promise.
 4. **Keg care basics** – line cleaning, keeping beer fresh, why 20L stays fresher than 50L. Service content for owners who bought elsewhere.
@@ -62,7 +62,7 @@ Each piece: one target cluster, FAQ schema, internal links to its money page, a 
 ## Assumptions & open items
 
 - Keyword volumes unvalidated (tooling pass required); current site/domain authority unaudited.
-- Competitor search visibility scan (Aardvark & Arrow*, Laughing Lizard, Kegs Off Tap, Keg Republic) pending – *name spelling unverified.
+- Competitor search visibility scan (Aardvark and Arrow, Laughing Lizard, Kegs Off Tap, Keg Republic) pending. Aardvark and Arrow's domain is suspended and they have joined with Burleigh Homebrew, so confirm what still resolves before scoping the scan.
 - Calculator inputs depend on reconciled pricing (#52 Kit 4).
 
 ---

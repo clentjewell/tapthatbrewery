@@ -25,7 +25,7 @@ Scoring: **Impact** (1–5, on active customers) × **Confidence** (1–5, in th
 
 | # | Item | Why | Owner | Score |
 |---|---|---|---|---|
-| F1 | **"$2.34 a schooner" ad running live** – the figure is member-only; non-member is $2.98 against a "$14 at the pub" comparison | Advertising-standards exposure on a claim currently in market | Jewell + Justin | Not scored – immediate |
+| F1 | **"$2.34 a schooner" ad running live** – the figure is member-only. The non-member figure is itself unsettled (open item #19: $2.98, $3.19 and $2.70 are all in circulation), so the fix is to pull the claim, not to swap the number | Advertising-standards exposure on a claim currently in market | Jewell + Justin | Not scored – immediate |
 | F2 | **Keg Crew break-even briefed to staff as 6 kegs; it is 8.33** ($250 ÷ $30) | Staff are making a promise the maths doesn’t keep | Justin | Not scored – immediate |
 | F3 | **Two conflicting membership posters in venue** ($250/yr vs $300 + $120 renewal, different token bonuses) | Customers are being quoted two prices in one room | Justin | Not scored – immediate |
 | F4 | Product name inconsistency – "Bong Water" vs "Bone Water" IPA | Menu, collateral and web disagree | Harry/Harry | Not scored – immediate |

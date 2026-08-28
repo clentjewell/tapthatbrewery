@@ -23,7 +23,7 @@
 | 3 | **System purchase** | Taproom demo: **20–30% [unverified – see #20B] of visitors** eventually buy (client estimate). Giveaway: 50%-off close converts **22–25 systems** (~2.2–2.5% of entries) | Partially measured | ⚠ Estimate + recall |
 | 4 | **Refill activation** | Bonus credit ($40–100) forces the first refill; corny Tue→Fri service; "we fill any system" for switchers | Activation rate unknown | ⚠ Unmeasured |
 | 5 | **Refill cadence** | ~1.55 kegs/month (census) ≈ $200/month; active <75 days | 206 owners / 96–113 active | ✅ Measured |
-| 6 | **Membership attach** | Keg Crew $250/yr ($30 off every refill – ~4-month payback at cadence) | Attach rate unknown | ⚠ Unmeasured |
+| 6 | **Membership attach** | Keg Crew $250/yr [one of two live prices – open item #2] ($30 off every refill – ~4-month payback at cadence) | Attach rate unknown | ⚠ Unmeasured |
 | 7 | **Retention / winback** | At-risk 75–90 days (no touch); churned 90+ → manual monthly SMS $20-off; Marie’s Pizza test | Winback rate unknown | ⚠ Unmeasured |
 | 8 | **Referral** | Tap Tokens: 1,000 per system/venue referral, 500 per refill referral; public leaderboard | Referral volume unknown | ⚠ Unmeasured |
 
@@ -33,7 +33,7 @@
 
 ## What the numbers say
 
-- **The demo works.** 20–30% visitor-to-owner conversion is an extraordinary claim for a $975+ purchase – even if validation halves it, the taproom is the best sales asset in the business. Its problem is anonymity: the 70–80% who leave without buying are not captured, and ~60% of eventual buyers take up to 3 months to decide.
+- **The demo may work.** The 20–30% visitor-to-owner conversion is the client's own estimate and has never been measured (#20B). It is an extraordinary claim for a $975+ purchase – even if validation halves it, the taproom is the best sales asset in the business. Its problem is anonymity: the 70–80% who leave without buying are not captured, and ~60% of eventual buyers take up to 3 months to decide.
 - **The giveaway is a list machine being used as a lottery.** ~2,000 self-qualified leads per year; ~45–50 convert on the single 50%-off touch; the rest receive nothing until the next competition. A structured 90-day nurture matched to the known objection set is hypothesis H3, and it is the highest-leverage test in the funnel.
 - **The engine measures itself, the funnel doesn’t.** Stages 5 and 7 have crisp lifecycle definitions (75/90 days) because refills run through the till; everything upstream runs on estimate and recall. GoTab/Fishbowl integration is the instrumentation dependency for nearly every ⚠ above.
 

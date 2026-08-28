@@ -12,6 +12,28 @@
 
 ---
 
+## The constraint that governs everything below
+
+*Added 28 August 2026 after advisory review (#20B).*
+
+**The business is losing money.** That was true when this document was first
+drafted and it went unwritten, which made every recommendation below read as
+though it could be funded. It cannot be, not all at once. The taproom is the
+half that loses, and the refill business it subsidises is built on people *not*
+coming in — so the two halves are working against each other.
+
+Two things follow, and they are the reason the ranking exists at all.
+
+First, **cost is not yet known**. There is no COGS, no true cost of carrying 27
+taps, and no figure for the taproom's monthly loss (open item #17). Until those
+land, every recommendation here is a judgement, not a business case, and should
+be read that way.
+
+Second, **the order is the recommendation**. Under a cash constraint the
+sequence is worth more than the list. Anything requiring new spend before the
+cheap acquisition is proven is deferred, not because it is wrong but because
+this business cannot currently carry both.
+
 ## The three moves, ranked
 
 *Added 28 August 2026 after advisory review (#20B). Christy Kilmartin was asked which three of everything raised we would actually recommend. These are they, and the ranking is deliberate — what sits below them matters less than it looks.*
@@ -45,7 +67,7 @@ No Design-phase asset should be built on unreconciled inputs. Three gates, all a
 | **Membership pricing reconciled** – which poster is live: $250/yr or $300 + $120/yr renewal? | Contaminates every funnel page, membership pitch, and KR 1.4 until one price is true (#21, P5) | **Founders (Justin/Chris)** | Before Gate 1 |
 | **GoTab/Fishbowl integration timeline** confirmed in writing | Move 2 cannot be scheduled without it; "pending" is not a date | **Justin (with GoTab)** | Before Gate 1 |
 
-*Also carried, small: confirm the competitor’s name ("Aardvark & Arrow" vs Circleback’s "Ardbach and Arrow") before any comparative collateral – Jewell, before D03 final.*
+*Closed 27 August: the competitor is Aardvark and Arrow. Their domain is suspended and they have joined up with Burleigh Homebrew. Comparative collateral is unblocked, and the nearest rival is weaker than the plan assumed.*
 
 ## The build order into Design
 

@@ -45,7 +45,7 @@ At ~$200/month per active, refill revenue alone runs ~$2.4M/yr at 1,000 actives;
 | Stage 3 (12–24 mo) | 700 | ~$140k/mo | Benchy channel + outdoor-living JVs producing owners; club white-label producing refill volume; second marketer or agency capacity [needs budget confirmation] |
 | Target | 1,000 | ~$200k/mo (~$2.4M/yr refills; ~$2.6M all-in) | Repeatable acquisition playbook – the franchise prospectus in practice |
 
-Growth arithmetic sanity check: 96–113 → 1,000 in 24 months requires ~37–38 net new actives/month, not the ~33 this plan assumed. Known engines: giveaways (2×/yr, ~1,000 entries, 22–25 systems per cycle today), taproom conversion (20–30% of visitors), and – cheapest of all – **switchers**: 116 of 206 owners (56%) bought their hardware elsewhere and came across with zero targeted effort. The switcher pool (existing Gold Coast keg system owners) is the only channel that adds actives without giving away a system first.
+Growth arithmetic sanity check: 96–113 → 1,000 in 24 months requires ~37–38 net new actives/month, not the ~33 this plan assumed. Known engines: giveaways (2×/yr, ~1,000 entries, 22–25 systems per cycle today), taproom conversion (a claimed 20–30% of visitors, unmeasured – #20B), and – cheapest of all – **switchers**: 116 of 206 owners (56%) bought their hardware elsewhere and came across with zero targeted effort. The switcher pool (existing Gold Coast keg system owners) is the only channel that adds actives without giving away a system first.
 
 ## Cost realities
 

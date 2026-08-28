@@ -47,7 +47,7 @@ Nothing advances past a checkpoint without your sign-off, and nothing in Deploy 
 Everything above serves one number – **1,000 active refill customers** – through four levers we already see in your data:
 
 1. **Switchers:** 50% of your refill base came from systems bought elsewhere with zero targeted effort. A deliberate "we fill any system" lane is your cheapest growth.
-2. **Conversion:** the giveaway funnel (about 1,000 entries, twice a year, 22–25 systems per cycle) and the taproom’s 20–30% conversion, nurtured properly across the 3-month buying cycle instead of left to memory.
+2. **Conversion:** the giveaway funnel (about 1,000 entries, twice a year, 22–25 systems per cycle) and the taproom’s claimed 20–30% conversion – your own estimate, which we would measure rather than assume – nurtured properly across the 3-month buying cycle instead of left to memory.
 3. **Retention:** automated lifecycle contact at 60/75/90 days so at-risk customers are caught before they lapse, replacing the manual monthly SMS.
 4. **New pools:** Benchy (no direct competitor), sports club white-label, outdoor-living partnerships, and delivery via GoTab × Uber Direct.
 

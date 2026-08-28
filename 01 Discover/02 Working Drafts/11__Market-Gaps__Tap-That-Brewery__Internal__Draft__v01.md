@@ -71,7 +71,7 @@ Gap 1 is the strategy – cheapest CAC, direct line to the 1,000-customer target
 - Census figures are headline-only (n=50, full data pending); delivery fee tolerance rests on it.
 - Gluten-reduced/low-carb claims need compliance wording locked before use.
 - Benchy pricing and margin unconfirmed; competitor absence is the client’s claim, not a verified scan.
-- Competitor name "Aardvark & Arrow" unverified (transcript: "Ardbach and Arrow").
+- Competitor name closed 27 August: Aardvark and Arrow. Domain suspended and merged with Burleigh Homebrew, which widens this gap rather than narrowing it.
 
 ---
 

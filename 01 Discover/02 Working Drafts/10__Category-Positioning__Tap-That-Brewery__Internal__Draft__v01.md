@@ -29,7 +29,7 @@ Tap That Brewery does not have one competitor set – it has five, and the winni
 | **Pubs / venues** | Local hospitality | The night out | Cost and freedom: no babysitter, no closing time, no $12 schooners. The garage wins. |
 | **Locked channel** | CUB-exclusive NRL-affiliated venues | Contracted taps | Not winnable head-on. Route around: non-affiliated clubs via white-label ("Surfers Paradise Demons Lager", 10%/10%), weddings, function venues. |
 
-\* Name unverified – handwritten workshop note reads "Aardvark and Arrow (across the road)"; the Circleback transcript heard "Ardbach and Arrow." Every use of this name in this document carries that caveat until verified.
+\* Name confirmed 27 August as **Aardvark and Arrow** (the Circleback transcript had mis-heard "Ardbach and Arrow"). Their domain is suspended and they have joined up with Burleigh Homebrew, so the competitive picture across the road is weaker than this table assumes.
 
 The structural point: **only the first row sells what Tap That Brewery sells.** Rows two to four are where the customers currently are; row one is where the refill margin gets contested. Positioning must recruit from bottleshops and pubs while defending against the keg swap across the road – two different jobs.
 
@@ -57,7 +57,7 @@ Read against the map: "award-winning… 27-tap range, brewed in Burleigh" is Axi
 
 ## Assumptions & open items
 
-- **Competitor name unverified** – "Aardvark & Arrow" vs "Ardbach and Arrow"; confirm spelling, pricing and profile before any external use.
+- **Competitor name closed** – Aardvark and Arrow, confirmed 27 August. Domain suspended, now joined with Burleigh Homebrew. Comparative collateral is unblocked; their pricing and current profile still need a fresh sweep before we quote figures.
 - Competitor pricing ($85–90) is the client’s report, not a verified sweep; Laughing Lizard unprofiled; no search-visibility scan yet.
 - The 40–90% premium calculation assumes like-for-like 20L comparison – confirm rival keg sizes.
 - Position sentence is a Discover proposal; DS04 Brand Strategy decides.

@@ -61,7 +61,7 @@ Target: system-referral awareness from 43.8% to ≥70% within two quarters.
 ## Publishing standards
 
 - **Every post**: 18+ audience setting on both platforms, responsible-consumption tone, no consumption-rate or health claims, no under-25-looking talent, no vehicle-adjacent drinking imagery (Benchy content shows the vehicle **parked**, per ABAC).
-- **Price posts**: non-member price first, member price second and labelled. The $2.98 / $2.34 rule from #66 applies to organic identically.
+- **Price posts**: non-member price first, member price second and labelled. The rule from #66 applies to organic identically – and note that #66's replacement figures are themselves unsettled (open item #19), so organic should carry no per-schooner number until it closes.
 - **UGC**: written permission captured before reposting – a story reply screenshot is enough, filed in the UGC folder.
 - **Comments**: answered within one business day; price and "will it fit" questions get the calculator link, not a debate.
 

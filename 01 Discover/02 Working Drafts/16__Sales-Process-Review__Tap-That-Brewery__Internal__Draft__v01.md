@@ -43,7 +43,7 @@ But the window itself is **unmanaged**: no email/SMS nurture, no objection-answe
 ## How refills sell today
 
 - **Cadence:** active customers average ~1.55 kegs/month (census) (~$200/month). Plastic bladder = walk in, swap, go; corny = drop COB Tuesday, ready Friday.
-- **Retention device:** Keg Crew membership ($30 off every refill – repays ~$250/yr in ~4 months at cadence) plus Tap Tokens on every dollar, leaderboard, referral rewards (1,000 tokens for a system or venue referral, 500 for a refill referral).
+- **Retention device:** Keg Crew membership ($30 off every refill – repays ~$250/yr [one of two live prices – open item #2] in ~4 months at cadence) plus Tap Tokens on every dollar, leaderboard, referral rewards (1,000 tokens for a system or venue referral, 500 for a refill referral).
 - **Lifecycle:** active <75 days since last keg · at-risk 75–90 · churned 90+.
 - **Winback:** a **manual monthly SMS** to churned customers – $20 off if they buy within 2 weeks; this month testing a free family-sized Marie’s Pizza (Buttercard partnership). Automation waits on the GoTab/Fishbowl integration. Churned customers contacted personally mostly say they’ve cut back or "hadn’t gotten around to it" – lapsed, not lost.
 - **Switchers:** 116 of 206 owners (56%) bought hardware elsewhere and switched to Tap That Brewery for fills – with zero targeted effort. There is no active sales process for this, the cheapest acquisition lane the business has.
@@ -62,7 +62,7 @@ Sports clubs hit three objections – no packaged cans, existing supplier contra
 
 ## The process gaps, named
 
-1. **No taproom lead capture** – the highest-converting moment (20–30%) has no mechanism to hold the 70–80% who don’t buy that day.
+1. **No taproom lead capture** – the highest-converting moment (a claimed 20–30%, unmeasured – see #20B) has no mechanism to hold the 70–80% who don’t buy that day.
 2. **The giveaway list dies between cycles** – ~1,000 warm, self-qualified leads twice a year get one offer and then silence.
 3. **The 3-month window is unmanaged** – no nurture matched to the known objections and known cycle length (D06 hypothesis H3 targets exactly this).
 4. **No switcher process** – the channel producing half the refill base has no campaign, no offer, no landing page.

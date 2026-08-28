@@ -46,7 +46,7 @@ The 3-month window is objection-handling territory. Each of the four discovery o
 
 - **Giveaway close (proven):** *"Didn’t win? Everyone taps something – 50% off your system, this week only."* (Converted 22–25 systems last round; keep the mechanic, tighten the deadline.)
 - **Payment softeners:** *"Take it home today, square it up in bits – Afterpay and Zip at the bar."* Lease-to-buy line held until GoTab confirms terms.
-- **Attach at the till (say it every time):** *"Keg Crew from day one – $30 off every refill, your birthday keg’s on us. It pays for itself by autumn."* (At 2 refills/month, $250/yr repays in ~4 months – the maths is true, so say it plainly.)
+- **Attach at the till (say it every time):** *"Keg Crew from day one – $30 off every refill, your birthday keg’s on us. It pays for itself by autumn."* (At 2 refills/month, $250/yr [one of two live prices – open item #2] repays in ~4 months – the maths is true, so say it plainly.)
 - **Bonus credit reframe:** *"Your $40 credit’s waiting on your first refill. Don’t leave it in the tank."*
 
 ## Activation – onboarding the first refill
