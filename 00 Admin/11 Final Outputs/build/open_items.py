@@ -127,6 +127,25 @@ HEADS = {
                "Not yours alone and not ours. It needs your price list against our arithmetic, in one sitting."),
 }
 
+CLOSED_BAND = """
+      <div class="band rv">
+        <div class="eyebrow on-dark">Two closed, and what closing them changed</div>
+        <p class="body on-dark mt20" style="max-width:66ch">Your customer census and four planning documents
+        arrived on <b>19 August</b> and were worked through the whole set the next day &ndash; corrections applied
+        in place across <b>46 documents</b>, not flagged and left. They reordered the purchase drivers, replaced
+        our acquisition-channel guesses with your numbers, and confirmed the switcher figure at <b>116 of 206</b>
+        rather than &ldquo;about half&rdquo;. Document 20A records every correction and which source outranked
+        which, including one case where we did <em>not</em> take the census at face value, and why. On
+        <b>27 August</b> the advisory review closed the second: the competitor across the road is Aardvark and
+        Arrow, their domain is suspended and they have joined up with Burleigh Homebrew.</p>
+        <p class="body on-dark mt20" style="max-width:66ch"><b>The consequence worth naming.</b> Correcting the
+        baseline roughly halves the starting point, which nearly doubles the climb to 1,000 &ndash; from about
+        <b>4.5&times;</b> to <b>~9&times;</b>. Every interim milestone in the roadmap, the OKRs and the approved
+        plan was derived from the old figure. They are marked as needing rebasing rather than quietly rescaled,
+        because the honest number changes what the plan should attempt &ndash; and that is a founders&rsquo;
+        decision, not a spreadsheet one.</p>
+      </div>"""
+
 BAR = """
       <div class="oi-bar rv" id="oiBar" hidden>
         <div class="oi-prog"><div class="oi-prog-fill" id="oiFill"></div></div>
@@ -190,6 +209,7 @@ def render():
                 'the page: pick an option, add a note if there is one, and send the lot back in whatever '
                 'form suits.</p>')
 
+    html.append(CLOSED_BAND)
     html.append(BAR)
     html.append('''
       <div class="band rv">

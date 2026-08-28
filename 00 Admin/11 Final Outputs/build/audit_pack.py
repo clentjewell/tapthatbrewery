@@ -51,6 +51,33 @@ def lines(path):
 # --------------------------------------------------------------------------
 # Rules over the document set
 # --------------------------------------------------------------------------
+# Claims the delivery summary must carry. The open-items section is generated,
+# and regenerating it once silently dropped the baseline correction -- the most
+# consequential finding in the engagement -- because the band that held it lived
+# inside the replaced region. A generator that rebuilds a region can quietly
+# lose anything that was in it, so the load-bearing claims are asserted here.
+SUMMARY_MUST_SAY = {
+    "the growth multiple":      r"9&times;|~9&times;",
+    "the multiple it replaces": r"4\.5&times;",
+    "corrections applied":      r"46 documents",
+    "the switcher figure":      r"116 of 206",
+    "the loss is named":        r"losing money|loss[- ]making",
+    "the taproom tension":      r"taproom as a funnel|also a cost|zero[- ]sum",
+    "the unmeasured rate":      r"never observed|nobody has measured|unmeasured",
+    "open item count":          r"Nineteen open items",
+    "document count":           r"Seventy-nine",
+    "price claim pulled":       r"pull the claim, not to swap",
+    "the deck":                 r'href="/deck"',
+}
+
+def rule_summary_completeness(path, ls):
+    if not path.endswith("delivery-summary.html"):
+        return
+    body = "\n".join(ls)
+    for label, pat in SUMMARY_MUST_SAY.items():
+        if not re.search(pat, body, re.I):
+            flag("summary-lost-a-claim", path, f"the summary no longer says: {label}")
+
 def rule_no_ingestion_banner(path, ls):
     """Dated ingestion banners were removed from the set on 28 August. They were
     scaffolding for us, not information for the client, and by then they were
@@ -172,10 +199,12 @@ def rule_dead_baseline(path, ls):
 
 def rule_growth_multiple(path, ls):
     """From 96-113 the climb to 1,000 is ~9x, not the ~4.5x the plan assumed."""
-    for i, l in enumerate(ls, 1):
-        if re.search(r"4\.5\s*(x|&times;|×)", l) and not re.search(
-                r"not|rather than|assumed|superseded|was\b", l, re.I):
-            flag("growth-multiple", path, f"line {i}: ~4.5x asserted as current")
+    text = "\n".join(ls)
+    ok = r"not\b|rather than|assumed|superseded|was\b|old figure|to ~?9|replaced|no longer"
+    for m in re.finditer(r"4\.5\s*(x|&times;|×)", text):
+        if not re.search(ok, near(text, m), re.I):
+            flag("growth-multiple", path,
+                 f"line {line_of(text, m.start())}: ~4.5x asserted as current")
 
 def rule_taproom_conversion(path, ls):
     """20-30% is the client's estimate, never measured (#20B). Must be flagged."""
@@ -252,7 +281,8 @@ DOC_RULES = [rule_competitor_closed, rule_no_raef, rule_dead_baseline,
              rule_growth_multiple, rule_taproom_conversion, rule_mangled_cadence,
              rule_loss_making_named, rule_schooner_price, rule_membership_price,
              rule_discover_is_input, rule_ranked_moves_order,
-             rule_no_ingestion_banner, rule_stale_census_tense, rule_review_absorbed]
+             rule_no_ingestion_banner, rule_stale_census_tense, rule_review_absorbed,
+             rule_summary_completeness]
 
 # --------------------------------------------------------------------------
 # Rules over the counts, checked against the generator and the tracker
