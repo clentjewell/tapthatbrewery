@@ -12,8 +12,10 @@
 
 Christy,
 
-The pack is reworked on your review and it is all here:
-**https://tapthat-3d-process.pages.dev** — password `tapthat2026`
+The updated 3D Process outputs are live at
+**https://tapthat-3d-process.pages.dev** — password `tapthat2026`. All
+seventy-nine documents across Onboarding, Discover, Design and Deploy, reworked
+on your review.
 
 Start at **/review-note**. It maps your twenty-seven findings to the document
 each one landed in, so you can check the changes without re-reading the set. The
