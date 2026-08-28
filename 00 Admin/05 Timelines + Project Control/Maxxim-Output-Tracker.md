@@ -4,7 +4,7 @@ The engagement's target output set: the **Maxxim 3D document catalogue** (65 doc
 
 **Status as at 28 August 2026: 77 catalogue documents drafted (v01), plus #20A and #20B reconciliations.**
 
-> **Advisory review, 27 August.** The set went to Christy Kilmartin before it reached the client. The verdict: accurate, but not hard enough for a business that is losing money. Four facts Discover never states, three proof points we can no longer lean on, and a re-sequencing of the whole engagement — Discover is now an input to the next step rather than the output, and the next deliverable is a 10–12 slide deck to Justin and Harry, not a signed CP1. Recorded in **#20B**. Read it before working any document in this set. Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design and Deploy sets were produced ahead of CP1/CP2, so the open items below may revise inputs.
+> **Advisory review, 27 August.** The set went to Christy Kilmartin before it reached the client. The verdict: accurate, but not hard enough for a business that is losing money. Four facts Discover never states, three proof points we can no longer lean on, and a re-sequencing of the whole engagement — Discover is now an input to the next step rather than the output, and the next deliverable is a deck to Justin and Harry, not a signed CP1. **That deck is now written** — 13 slides, `00 Admin/06 Presentations/`. Recorded in **#20B**. Read it before working any document in this set. Every document is `Draft v01` and unapproved — the pipeline equivalent of *Pending*. Nothing is signed off, and the Design and Deploy sets were produced ahead of CP1/CP2, so the open items below may revise inputs.
 
 | Phase | Documents | Status |
 |---|---|---|

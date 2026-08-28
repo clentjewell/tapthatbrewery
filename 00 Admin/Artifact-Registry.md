@@ -13,6 +13,7 @@ Master inventory of every artefact in this engagement. Update on creation, promo
 | Contacts + Stakeholders | `00 Admin/01 Contacts + Stakeholders/contacts.md` | Internal | Live | v01 |
 | Maxxim Output Tracker (77-doc catalogue + open items) | `00 Admin/05 Timelines + Project Control/Maxxim-Output-Tracker.md` | Internal | Live | v03 |
 | Maxxim spec workspace — 77 documents as taxonomy-slug HTML | `tap-that-brewery/` | Platform | Draft | v02 |
+| Client deck — *Where you are, and the three things to do about it* (13 slides) | `00 Admin/06 Presentations/JP_TapThat_WhereYouAre_v01.pptx` · served at `/JP_TapThat_WhereYouAre_v01.pptx` | Client | Draft | v01 |
 | Delivery site — https://tapthat-3d-process.pages.dev (pw `tapthat2026`) · `/` complete pack (78 documents), `/summary` overview | `00 Admin/11 Final Outputs/` | Client | Live | v03 |
 
 ## Catalogue documents
