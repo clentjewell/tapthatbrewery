@@ -532,6 +532,33 @@ body {
 .oap[data-sheet="deploy"] .b-measure .kpis{flex:none;}
 .oap[data-sheet="deploy"] .b-measure p{font-size:7.2pt;line-height:1.4;}
 
+/* Overall — the whole engagement on one sheet */
+.oap[data-sheet="overall"] .canvas{grid-template-rows:0.86fr 1.42fr 1.24fr}
+.oap[data-sheet="overall"] .b-read{grid-column:1/8;grid-row:1;}
+.oap[data-sheet="overall"] .b-numbers{grid-column:8/13;grid-row:1;}
+.oap[data-sheet="overall"] .core-cluster{grid-column:1/13;grid-row:2;display:flex;flex-direction:column;gap:1.4mm;min-height:0;}
+.oap[data-sheet="overall"] .b-moves{grid-column:1/4;grid-row:3;}
+.oap[data-sheet="overall"] .b-decisions{grid-column:4/7;grid-row:3;}
+.oap[data-sheet="overall"] .b-honest{grid-column:7/10;grid-row:3;}
+.oap[data-sheet="overall"] .b-next{grid-column:10/13;grid-row:3;}
+.oap[data-sheet="overall"] .b-read .statement{font-size:14pt;}
+.oap[data-sheet="overall"] .b-numbers .kpis{grid-template-columns:repeat(3,1fr);flex:1;}
+.oap[data-sheet="overall"] .b-numbers .kpi{display:flex;flex-direction:column;justify-content:center;}
+.oap[data-sheet="overall"] .b-numbers .kpi .num{font-size:14pt;}
+.oap[data-sheet="overall"] .b-numbers .kpi .lbl{font-size:5.6pt;line-height:1.28;}
+.oap[data-sheet="overall"] .core-box .core-body p.lead{font-size:8.4pt;line-height:1.42;}
+.oap[data-sheet="overall"] .core-box .core-body p{font-size:7.4pt;line-height:1.44;}
+.oap[data-sheet="overall"] .b-moves ol{list-style:none;counter-reset:m;display:flex;flex-direction:column;gap:1.6mm;flex:1;justify-content:space-evenly;}
+.oap[data-sheet="overall"] .b-moves li{counter-increment:m;padding-left:5mm;position:relative;font-size:7.2pt;line-height:1.4;color:var(--muted);}
+.oap[data-sheet="overall"] .b-moves li strong{color:var(--ink);font-weight:600;}
+.oap[data-sheet="overall"] .b-moves li::before{content:counter(m);position:absolute;left:0;top:0;width:3.6mm;height:3.6mm;
+  border-radius:50%;background:var(--accent);color:var(--paper);font-family:var(--font-label);font-weight:700;
+  font-size:6pt;text-align:center;line-height:3.6mm;}
+.oap[data-sheet="overall"] .b-decisions li{font-size:7.3pt;line-height:1.4;margin-bottom:1.4mm;}
+.oap[data-sheet="overall"] .b-honest li{font-size:6.9pt;line-height:1.38;margin-bottom:1.2mm;}
+.oap[data-sheet="overall"] .b-honest .verdict{font-size:9pt;line-height:1.25;margin-bottom:.6mm;}
+.oap[data-sheet="overall"] .b-next table.mini th,.oap[data-sheet="overall"] .b-next table.mini td{padding:1.5mm 1.8mm;font-size:6.8pt;}
+
 </style>
 </head>
 <body>
@@ -551,6 +578,7 @@ body {
     <nav class="nav" id="nav">
 <a class="nav-link edge active" href="/"><span class="nav-num">&middot;</span><span>Welcome</span></a>
 <p class="nav-phase">On a page</p>
+<a class="nav-link oap-nav" href="/on-a-page-overall" data-t="tap that on a page"><span class="nav-num">&#9656;</span><span>Overall on a page</span></a>
 <a class="nav-link oap-nav" href="/on-a-page-discover" data-t="discover on a page"><span class="nav-num">&#9656;</span><span>Discover on a page</span></a>
 <a class="nav-link oap-nav" href="/on-a-page-design" data-t="design on a page"><span class="nav-num">&#9656;</span><span>Design on a page</span></a>
 <a class="nav-link oap-nav" href="/on-a-page-deploy" data-t="deploy on a page"><span class="nav-num">&#9656;</span><span>Deploy on a page</span></a>
@@ -665,6 +693,7 @@ body {
     </section>
 
 <div class="eyebrow" style="margin-top:44px">Each phase on a single sheet</div><p class="note" style="margin-top:0">Three A3 sheets that distil a whole phase &ndash; built to be printed landscape and put on a wall, or read at the top of a meeting instead of the pack.</p><div class="oap-strip">
+<a class="oap-card" href="/on-a-page-overall"><span class="t">Tap That on a page<span class="arrow">&rarr;</span></span><span class="d">The whole engagement on one sheet – the read, the numbers, the CORE, the three moves, the six decisions, and what we got wrong.</span></a>
 <a class="oap-card" href="/on-a-page-discover"><span class="t">Discover on a page<span class="arrow">&rarr;</span></span><span class="d">Checkpoint 1 distilled to one sheet – the belief, the READY test, the five truths, the CORE, and what blocks Gate 1.</span></a>
 <a class="oap-card" href="/on-a-page-design"><span class="t">Design on a page<span class="arrow">&rarr;</span></span><span class="d">Checkpoint 2 distilled to one sheet – the strategy on a line, brand, customer, model, messaging, platform and the measures.</span></a>
 <a class="oap-card" href="/on-a-page-deploy"><span class="t">Deploy on a page<span class="arrow">&rarr;</span></span><span class="d">Checkpoint 3 distilled to one sheet – the twelve runbooks, the committed budget, the ninety-day flow and the consent gates.</span></a>

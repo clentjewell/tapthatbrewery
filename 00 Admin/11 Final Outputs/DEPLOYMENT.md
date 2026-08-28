@@ -15,7 +15,7 @@ The client-facing 3D Process site, deployed to Cloudflare Pages.
 |---|---|
 | `/` | **The pack landing page** — hero, the numbers, and a phase-grouped card index of all 78 documents |
 | `/<slug>` | **One page per document** — e.g. `/paid-media-launch`, `/discover-summary`. Same sidebar, prev/next at the foot |
-| `/on-a-page-discover`<br>`/on-a-page-design`<br>`/on-a-page-deploy` | **The three phase sheets** — each phase distilled to one A3 landscape sheet. Fit / full-size / print controls |
+| `/on-a-page-overall`<br>`/on-a-page-discover`<br>`/on-a-page-design`<br>`/on-a-page-deploy` | **The four sheets** — one for the whole engagement plus one per phase — each phase distilled to one A3 landscape sheet. Fit / full-size / print controls |
 | `/summary` | **The delivery summary** — the ten-section overview: what's in the set, what wasn't done, what's blocking sign-off |
 | `/__signout` | Clears the session cookie |
 
@@ -103,7 +103,7 @@ to someone on its own.
 
 ## The on-a-page sheets
 
-Three A3-landscape sheets, one per phase, at `/on-a-page-<phase>`. Unlike every other page
+Four A3-landscape sheets — the whole engagement, plus one per phase, at `/on-a-page-<phase>`. Unlike every other page
 these are hand-written HTML fragments in `build/oap/`, because a sheet is a layout, not a
 document — the grid placement carries as much meaning as the words.
 

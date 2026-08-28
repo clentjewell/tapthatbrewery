@@ -93,6 +93,8 @@ SIGNOFF = {2,20,34,36,61,62,63}
 
 # The three phase sheets — hand-authored A3 fragments in build/oap/, each its own page.
 OAP = [
+    ("on-a-page-overall", "Tap That on a page", "Overall", "overall.html",
+     "The whole engagement on one sheet – the read, the numbers, the CORE, the three moves, the six decisions, and what we got wrong."),
     ("on-a-page-discover", "Discover on a page", "Discover", "discover.html",
      "Checkpoint 1 distilled to one sheet – the belief, the READY test, the five truths, the CORE, and what blocks Gate 1."),
     ("on-a-page-design", "Design on a page", "Design", "design.html",
