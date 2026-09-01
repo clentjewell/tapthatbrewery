@@ -7,118 +7,145 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--ink:#111111;--cream:#FAF8F4;--blue:#2D5BFF;--grey:#666666;--line:#EDEBEA;--pit:#0E0E0E}
-html{scroll-snap-type:y mandatory;scroll-behavior:smooth;scroll-padding-top:0}
-body{background:var(--pit);font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-  color:var(--ink);-webkit-font-smoothing:antialiased}
-.slide{height:100vh;height:100svh;scroll-snap-align:center;scroll-snap-stop:always;
-  display:grid;place-items:center;padding:22px 22px 58px}
-.frame{position:relative;overflow:hidden}
-/* fail-safe reveal: visible by default, JS opts in to the animation */
-.frame>.s{opacity:1;transform:scale(var(--k,1))}
-html.js-rv .frame>.s{opacity:0;transition:opacity .5s ease,filter .5s ease;filter:blur(3px)}
-html.js-rv .slide.in .frame>.s{opacity:1;filter:none}
-.s{width:1280px;height:720px;transform-origin:top left;background:var(--cream);
-  padding:76px 96px;display:flex;flex-direction:column;position:relative;
-  box-shadow:0 18px 60px rgba(0,0,0,.45)}
-.bar{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
-/* title */
+/* Brand Book Ed. 02, locked May 2026 */
+:root{--ink:#111111;--charcoal:#1A1A1A;--cream:#FAF8F4;--grey:#EDEBEA;--blue:#2D5BFF;--muted:#666666;
+  /* one scale unit = 1/1280 of the reference canvas, tracking whichever edge binds,
+     so every brand size below is its exact px value at 1280x720 and grows with the page */
+  --k:min(0.078125vw, 0.13888vh)}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.slide{height:100vh;height:100svh;scroll-snap-align:start;scroll-snap-stop:always;position:relative}
+/* fail-safe reveal: visible by default, JS opts in */
+.slide .s{opacity:1}
+html.js-rv .slide .s{opacity:0;transition:opacity .45s ease}
+html.js-rv .slide.in .s{opacity:1}
+
+/* the slide fills the page. 96px of 1280 = the brand's 1in margin */
+.s{position:absolute;inset:0;background:var(--cream);
+  padding:calc(var(--k)*96) calc(var(--k)*96) calc(var(--k)*104);
+  display:flex;flex-direction:column}
+.bar{font-size:max(10px,calc(var(--k)*12));font-weight:500;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink)}
+
+/* 01 title */
 .s-title .t-block{margin-top:auto}
-.s-title h1{font-size:64px;font-weight:600;line-height:1.07;letter-spacing:-.03em;max-width:20ch;text-wrap:balance}
-.s-title .sub{font-size:19px;font-weight:300;margin-top:22px;max-width:60ch}
-.s-title .date{position:absolute;right:96px;bottom:60px;font-size:12px;color:var(--grey)}
-/* divider */
+.s-title h1{font-size:calc(var(--k)*96);font-weight:600;line-height:1.04;letter-spacing:-.03em;
+  max-width:19ch;text-wrap:balance}
+.s-title .sub{font-size:calc(var(--k)*28);font-weight:300;margin-top:calc(var(--k)*32);max-width:52ch;line-height:1.4}
+.s-title .date{position:absolute;right:calc(var(--k)*96);bottom:calc(var(--k)*96);
+  font-size:max(10px,calc(var(--k)*14));color:var(--muted)}
+
+/* 03 divider */
 .s-div{background:var(--ink);color:var(--cream)}
-.s-div .bar{color:var(--cream)}
-.s-div .d-mid{flex:1;display:grid;place-items:start center;align-content:center}
-.s-div h2{font-size:104px;font-weight:300;line-height:1;letter-spacing:-.03em;color:var(--cream)}
-.s-div .strap{font-size:17px;font-weight:300;color:var(--cream)}
-/* content */
-.head{font-size:40px;font-weight:500;line-height:1.18;letter-spacing:-.022em;margin-top:52px;max-width:26ch;text-wrap:balance}
-.body{font-size:16px;line-height:1.62;margin-top:auto;max-width:74ch;padding-bottom:8px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:auto;padding-bottom:6px}
-.stat{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:9px}
-.stat .n{font-size:34px;font-weight:600;letter-spacing:-.03em;line-height:1}
-.stat .l{font-size:12px;line-height:1.42;color:var(--grey)}
-.rows{margin-top:34px;display:flex;flex-direction:column}
-.r{display:grid;grid-template-columns:280px 1fr;gap:34px;border-top:1px solid var(--line);padding:15px 0}
-.r:last-child{border-bottom:1px solid var(--line)}
-.rk{font-size:15px;font-weight:600;line-height:1.35}
-.rv{font-size:15px;line-height:1.45;color:var(--grey)}
-/* closer */
+.s-div .bar{color:var(--cream);font-weight:300}
+.s-div .d-mid{flex:1;display:flex;flex-direction:column;justify-content:center}
+.s-div h2{font-size:calc(var(--k)*160);font-weight:300;line-height:.98;letter-spacing:-.035em;color:var(--cream)}
+.s-div .strap{font-size:calc(var(--k)*20);font-weight:300;color:var(--cream);margin-top:calc(var(--k)*24);max-width:46ch}
+
+/* 02 content */
+.head{font-size:calc(var(--k)*56);font-weight:500;line-height:1.14;letter-spacing:-.025em;
+  margin-top:calc(var(--k)*56);max-width:22ch;text-wrap:balance}
+.body{font-size:calc(var(--k)*18);line-height:1.62;margin-top:auto;max-width:70ch}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:calc(var(--k)*32);margin-top:auto}
+.stats + .body{margin-top:calc(var(--k)*40)}
+.stat{border-top:1px solid var(--grey);padding-top:calc(var(--k)*18);
+  display:flex;flex-direction:column;gap:calc(var(--k)*12)}
+.stat .n{font-size:calc(var(--k)*46);font-weight:600;letter-spacing:-.035em;line-height:1}
+.stat .l{font-size:max(10px,calc(var(--k)*14));line-height:1.45;color:var(--muted)}
+.rows{margin-top:calc(var(--k)*48);display:flex;flex-direction:column}
+.r{display:grid;grid-template-columns:minmax(0,0.34fr) minmax(0,1fr);gap:calc(var(--k)*40);
+  border-top:1px solid var(--grey);padding:calc(var(--k)*18) 0}
+.r:last-child{border-bottom:1px solid var(--grey)}
+.rows.dense{margin-top:calc(var(--k)*30)}
+.rows.dense .r{padding:calc(var(--k)*12) 0}
+.rows.dense .rk{font-size:calc(var(--k)*17)}
+.rows.dense .rv{font-size:calc(var(--k)*16);line-height:1.42}
+.rows.dense ~ *,.head:has(+ .rows.dense){margin-top:calc(var(--k)*40)}
+.rk{font-size:calc(var(--k)*19);font-weight:600;line-height:1.3}
+.rv{font-size:calc(var(--k)*18);line-height:1.5;color:var(--muted)}
+
+/* 05 closer */
 .s-close .c-mid{margin:auto 0}
-.s-close h2{font-size:104px;font-weight:600;line-height:1;letter-spacing:-.035em}
-.s-close .c-line{font-size:16px;margin-top:14px}
-.s-close .c-line:first-of-type{margin-top:38px}
+.s-close h2{font-size:calc(var(--k)*160);font-weight:600;line-height:1;letter-spacing:-.04em}
+.s-close .c-line{font-size:calc(var(--k)*18);margin-top:calc(var(--k)*16);max-width:64ch}
+.s-close .c-line:first-of-type{margin-top:calc(var(--k)*56)}
+
 /* chrome */
-#hud{position:fixed;left:0;right:0;bottom:0;height:52px;display:flex;align-items:center;
-  justify-content:space-between;padding:0 20px;color:#EDEBEA;font-size:12px;letter-spacing:.06em;
-  background:linear-gradient(to top,rgba(0,0,0,.68),transparent);pointer-events:none;z-index:5}
-#hud .k{pointer-events:auto;display:flex;gap:10px;align-items:center}
-#hud button{background:none;border:1px solid rgba(237,235,234,.3);color:#EDEBEA;border-radius:6px;
-  padding:5px 11px;font:inherit;cursor:pointer}
-#hud button:hover{border-color:var(--blue);color:#fff}
-#hud button[disabled]{opacity:.32;cursor:default}
-#hud button[disabled]:hover{border-color:rgba(237,235,234,.3);color:#EDEBEA}
-#count{font-variant-numeric:tabular-nums;pointer-events:none}
+#hud{position:fixed;left:0;right:0;bottom:0;height:46px;display:flex;align-items:center;
+  justify-content:space-between;padding:0 20px;font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);pointer-events:none;z-index:5;
+  mix-blend-mode:difference;filter:invert(1) grayscale(1) contrast(2)}
+#hud .k{pointer-events:auto;display:flex;gap:8px;align-items:center}
+#hud button{background:none;border:0;color:inherit;font:inherit;letter-spacing:inherit;
+  text-transform:inherit;padding:6px 4px;cursor:pointer;opacity:.75}
+#hud button:hover{opacity:1}
+#hud button[disabled]{opacity:.25;cursor:default}
+#count{font-variant-numeric:tabular-nums}
 #dots{position:fixed;top:0;left:0;height:2px;width:0;background:var(--blue);z-index:6}
-/* scroll cue, on the first slide only, retires once you move */
-#cue{position:fixed;left:50%;bottom:19px;transform:translateX(-50%);color:#EDEBEA;font-size:11px;
-  letter-spacing:.16em;text-transform:uppercase;opacity:.7;z-index:5;pointer-events:none;
+#cue{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);font-size:10px;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--muted);z-index:5;pointer-events:none;
   transition:opacity .3s ease;animation:bob 2.4s ease-in-out infinite}
 #cue.gone{opacity:0}
-@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,6px)}}
-@media (prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}
-  #cue{animation:none}
-  html.js-rv .frame>.s{transition:none;filter:none;opacity:1}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,5px)}}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}#cue{animation:none}
+  html.js-rv .slide .s{transition:none;opacity:1}}
+/* below the 16:9 reference the fixed canvas would crowd, so let type breathe on its own scale */
+@media (max-width:820px){
+  :root{--k:min(0.115vw, 0.1vh)}
+  .s{padding:26px 22px 56px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .r{grid-template-columns:1fr;gap:6px}
 }
 @media print{
   html{scroll-snap-type:none}
-  body{background:#fff}
   #hud,#dots,#cue{display:none}
-  .slide{height:auto;padding:0;display:block;page-break-after:always;break-after:page}
-  .frame{width:100%!important;height:auto!important;overflow:visible}
-  .s{opacity:1!important;filter:none!important;transform:none!important;
-    width:100%;height:auto;aspect-ratio:16/9;box-shadow:none}
+  .slide{height:auto;page-break-after:always;break-after:page}
+  .s{position:relative;inset:auto;aspect-ratio:16/9;opacity:1!important;
+    --k:min(0.078125vw, 0.13888vh)}
   @page{size:A4 landscape;margin:0}
 }
 </style>
 <div id="dots"></div>
 <main id="deck">
-<section class="slide" id="s1" data-n="1"><div class="frame"><div class="s s-title">
+<section class="slide" id="s1" data-n="1"><div class="s s-title">
   <div class="bar">JP · TAP THAT BREWERY · WHERE YOU ARE</div>
   <div class="t-block">
     <h1>Where you are, and the three things to do about it.</h1>
     <p class="sub">Prepared for Justin Mistry and Harry. The detail sits behind every slide.</p>
   </div>
   <div class="date">28 August 2026</div>
-</div></div></section>
-<section class="slide" id="s2" data-n="2"><div class="frame"><div class="s s-div">
+</div></section>
+<section class="slide" id="s2" data-n="2"><div class="s s-div">
   <div class="bar">Part 01</div>
   <div class="d-mid"><h2>Where you are</h2></div>
   <p class="strap">We have looked at this properly. This is the read.</p>
-</div></div></section>
-<section class="slide" id="s3" data-n="3"><div class="frame"><div class="s s-content"><div class="bar">The read</div><h2 class="head">A refill business is being run with a hospitality venue&#x27;s attention. And it is losing money.</h2><div class="stats"><div class="stat"><span class="n">206</span><span class="l">Systems in your database</span></div><div class="stat"><span class="n">96 to 113</span><span class="l">Active customers. Your own documents define active three ways</span></div><div class="stat"><span class="n">56%</span><span class="l">Bought their system somewhere else and refill with you anyway</span></div><div class="stat"><span class="n">~9x</span><span class="l">The climb to 1,000 from where you actually are</span></div></div></div></div></section>
-<section class="slide" id="s4" data-n="4"><div class="frame"><div class="s s-content"><div class="bar">The problem underneath</div><h2 class="head">The taproom and the refill model work against each other.</h2><p class="body">The refill business is built on people not coming in. So every campaign that fills the taproom fills the half that loses money. We had the taproom down as a funnel. It is at least as much a cost, and nobody has priced what carrying 27 taps actually costs you.</p></div></div></section>
-<section class="slide" id="s5" data-n="5"><div class="frame"><div class="s s-content"><div class="bar">Before anything else</div><h2 class="head">What we got wrong.</h2><div class="rows"><div class="r"><div class="rk">We never said it</div><div class="rv">Nothing in seventy nine documents said the business is losing money.</div></div><div class="r"><div class="rk">The taproom</div><div class="rv">We treated it as a funnel when it is also a cost.</div></div><div class="r"><div class="rk">A number we used</div><div class="rv">The 20 to 30 per cent taproom conversion has never been measured.</div></div><div class="r"><div class="rk">The census</div><div class="rv">Fifty self selected people cannot carry a strategy on their own.</div></div><div class="r"><div class="rk">Your marketing lead</div><div class="rv">We called Harry by the wrong name in a hundred and sixty places.</div></div></div></div></div></section>
-<section class="slide" id="s6" data-n="6"><div class="frame"><div class="s s-div">
+</div></section>
+<section class="slide" id="s3" data-n="3"><div class="s s-content"><div class="bar">The read</div><h2 class="head">You are running two businesses that cancel each other out.</h2><div class="stats"><div class="stat"><span class="n">206</span><span class="l">Systems in your database</span></div><div class="stat"><span class="n">96 to 113</span><span class="l">Active customers. Your own documents define active three ways</span></div><div class="stat"><span class="n">56%</span><span class="l">Bought their system somewhere else and refill with you anyway</span></div><div class="stat"><span class="n">~9x</span><span class="l">The climb to 1,000 from where you actually are</span></div></div></div></section>
+<section class="slide" id="s4" data-n="4"><div class="s s-content"><div class="bar">The problem underneath</div><h2 class="head">The taproom and the refill model work against each other.</h2><p class="body">Refills are a subscription business. It works when people stay home and the keg runs out. The taproom is a hospitality business. It works when people come in. For eighteen months the attention went to the taproom, because a venue is visible and always urgent, and it is the half that loses money. This is not a marketing problem. It is a decision about what the taproom is for.</p></div></section>
+<section class="slide" id="s5" data-n="5"><div class="s s-content"><div class="bar">The gap underneath everything</div><h2 class="head">Nobody has priced any of it.</h2><p class="body">There is no cost of goods, no figure for what carrying twenty seven taps costs in ingredients, kegs, storage and refrigeration, and no number for what the taproom loses each month. Until those land, everything we have written for you is a revenue plan. We would rather say that than dress it up as a business case.</p></div></section>
+<section class="slide" id="s6" data-n="6"><div class="s s-content"><div class="bar">Before anything else</div><h2 class="head">What we got wrong.</h2><div class="rows dense"><div class="r"><div class="rk">We never said it</div><div class="rv">Nothing in seventy nine documents said the business is losing money.</div></div><div class="r"><div class="rk">The taproom</div><div class="rv">We treated it as a funnel when it is also a cost.</div></div><div class="r"><div class="rk">A number we used</div><div class="rv">The 20 to 30 per cent taproom conversion has never been measured.</div></div><div class="r"><div class="rk">The census</div><div class="rv">Forty nine self selected people cannot carry a strategy on their own.</div></div><div class="r"><div class="rk">Your marketing lead</div><div class="rv">We called Harry by the wrong name in a hundred and sixty places.</div></div></div></div></section>
+<section class="slide" id="s7" data-n="7"><div class="s s-div">
   <div class="bar">Part 02</div>
   <div class="d-mid"><h2>What to do</h2></div>
   <p class="strap">Three moves, ranked. And one we have ranked below them.</p>
-</div></div></section>
-<section class="slide" id="s7" data-n="7"><div class="frame"><div class="s s-content"><div class="bar">Move 01</div><h2 class="head">Buy the databases of people who already own a system.</h2><p class="body">Harvey Norman lists six kegerator models plus a tap unit. Keg Land, Kegmaster and BenchTop hold buyer lists of their own. Every name on those lists owns hardware, so the price of the system, the most expensive objection your marketing fights, is already cleared. At about seventy dollars gross a keg, the data pays for itself quickly.</p></div></div></section>
-<section class="slide" id="s8" data-n="8"><div class="frame"><div class="s s-content"><div class="bar">Move 02</div><h2 class="head">Do a deal with Harvey Norman directly.</h2><p class="body">A QR code at the point of sale. A referral rebate on each keg. Or a free keg with purchase if the liquor rules allow it. Monk is one of their closest allies and holds point contacts. This is a conversation, not a campaign, and it is worth having before any budget moves.</p></div></div></section>
-<section class="slide" id="s9" data-n="9"><div class="frame"><div class="s s-content"><div class="bar">Move 03</div><h2 class="head">Go at the tour operators, and run wholesale properly.</h2><p class="body">Hop On, Urban Legends and Pineapple Tours all let the customer choose which breweries to visit. So your write up decides whether you get picked, and yours does not mention Midnight in Tokyo while Balter gets the imagery. On wholesale, one commercial account is worth about ten households, and it currently has no structure, no targets and nobody carrying it.</p></div></div></section>
-<section class="slide" id="s10" data-n="10"><div class="frame"><div class="s s-content"><div class="bar">And one we have ranked below them</div><h2 class="head">Pulling people into the taproom through social media.</h2><p class="body">That was close to the centre of the plan we wrote for you. On this read it should not be. If the taproom is the half that loses money, spending the marketing budget filling it is the wrong instinct, however good the content is.</p></div></div></section>
-<section class="slide" id="s11" data-n="11"><div class="frame"><div class="s s-content"><div class="bar">What we need from you · six of eight decisions</div><h2 class="head">The six decisions that most change the plan.</h2><div class="rows"><div class="r"><div class="rk">The taproom</div><div class="rv">Tasting and event venue, or keep paying for a drop in.</div></div><div class="r"><div class="rk">The range</div><div class="rv">Six core beers, or twenty seven taps.</div></div><div class="r"><div class="rk">Membership price</div><div class="rv">Two posters, two prices, both live in your venue today.</div></div><div class="r"><div class="rk">Active customer</div><div class="rv">Forty five, seventy five or ninety days. It decides every number we report.</div></div><div class="r"><div class="rk">Which plan is live</div><div class="rv">Three of your documents name three different core metrics.</div></div><div class="r"><div class="rk">Model A or B</div><div class="rv">Sell more systems, or convert the 116 who bought elsewhere.</div></div></div></div></div></section>
-<section class="slide" id="s12" data-n="12"><div class="frame"><div class="s s-content"><div class="bar">How this splits</div><h2 class="head">Harry takes these. We would do these for you.</h2><div class="rows"><div class="r"><div class="rk">Harry</div><div class="rv">Tour operator outreach. Fresh copy, photos, reviews and the award to each operator. The referral reward nobody knows about.</div></div><div class="r"><div class="rk">Justin</div><div class="rv">The Harvey Norman conversation. Wholesale structure and targets. The six decisions above.</div></div><div class="r"><div class="rk">Jewell</div><div class="rv">Database acquisition and the campaign against it. The Urban Legends booking tool. Tracking, so you can see what any of it did.</div></div></div></div></div></section>
-<section class="slide" id="s13" data-n="13"><div class="frame"><div class="s s-close">
+</div></section>
+<section class="slide" id="s8" data-n="8"><div class="s s-content"><div class="bar">Move 01</div><h2 class="head">Buy the databases of people who already own a system.</h2><p class="body">Harvey Norman lists six kegerator models plus a tap unit. Keg Land, Kegmaster and BenchTop hold buyer lists of their own. Every name on those lists owns hardware, so the price of the system, the most expensive objection your marketing fights, is already cleared. At about seventy dollars gross a keg, the data pays for itself quickly.</p></div></section>
+<section class="slide" id="s9" data-n="9"><div class="s s-content"><div class="bar">Move 02</div><h2 class="head">Do a deal with Harvey Norman directly.</h2><p class="body">A QR code at the point of sale. A referral rebate on each keg. Or a free keg with purchase if the liquor rules allow it. Monk is one of their closest allies and holds point contacts. This is a conversation, not a campaign, and it is worth having before any budget moves.</p></div></section>
+<section class="slide" id="s10" data-n="10"><div class="s s-content"><div class="bar">Move 03</div><h2 class="head">Go at the tour operators, and run wholesale properly.</h2><p class="body">Hop On, Urban Legends and Pineapple Tours all let the customer choose which breweries to visit. So your write up decides whether you get picked, and yours does not mention Midnight in Tokyo while Balter gets the imagery. On wholesale, one commercial account is worth about ten households, and it currently has no structure, no targets and nobody carrying it.</p></div></section>
+<section class="slide" id="s11" data-n="11"><div class="s s-content"><div class="bar">And one we have ranked below them</div><h2 class="head">Pulling people into the taproom through social media.</h2><p class="body">That was close to the centre of the plan we wrote for you. On this read it should not be. If the taproom is the half that loses money, spending the marketing budget filling it is the wrong instinct, however good the content is.</p></div></section>
+<section class="slide" id="s12" data-n="12"><div class="s s-content"><div class="bar">The opportunity nobody has worked</div><h2 class="head">Four in ten of your customers have quietly slowed down.</h2><p class="body">They have cut back on beer, not on thirst. A lighter or lower alcohol line puts something back in their taps without asking anyone to drink more. Where they are also members, they are paying for something they have stopped using.</p><div class="stats"><div class="stat"><span class="n">10%</span><span class="l">Buy about every month. Already at their ceiling</span></div><div class="stat"><span class="n">60%</span><span class="l">Buy about every three months. This is the core</span></div><div class="stat"><span class="n">40%</span><span class="l">Take longer than that. The system is still in the backyard</span></div><div class="stat"><span class="n">1 in 3</span><span class="l">Of your taps are not beer, which is the answer to this</span></div></div></div></section>
+<section class="slide" id="s13" data-n="13"><div class="s s-content"><div class="bar">Your website</div><h2 class="head">Four business units, given equal billing, and the award is buried.</h2><div class="rows dense"><div class="r"><div class="rk">Above the fold</div><div class="rv">Nothing arresting. The film cuts too fast to read the message under it.</div></div><div class="r"><div class="rk">The award</div><div class="rv">Brewer&#x27;s Choice at Crafted is not the first thing a visitor sees. It should be.</div></div><div class="r"><div class="rk">Fits any system</div><div class="rv">Your cheapest source of customers, and the site does not say it on arrival.</div></div><div class="r"><div class="rk">Reviews</div><div class="rv">Behind click dots that do not scroll, so nobody reaches them.</div></div><div class="r"><div class="rk">Wholesale</div><div class="rv">No margin argument, no white label, no cuisine matching. Nothing to say yes to.</div></div></div></div></section>
+<section class="slide" id="s14" data-n="14"><div class="s s-content"><div class="bar">What we need from you · six of eight decisions</div><h2 class="head">The six decisions that most change the plan.</h2><div class="rows dense"><div class="r"><div class="rk">The taproom</div><div class="rv">Tasting and event venue, or keep paying for a drop in.</div></div><div class="r"><div class="rk">The range</div><div class="rv">Six core beers, or twenty seven taps.</div></div><div class="r"><div class="rk">Membership price</div><div class="rv">Two posters, two prices, both live in your venue today.</div></div><div class="r"><div class="rk">Active customer</div><div class="rv">Forty five, seventy five or ninety days. It decides every number we report.</div></div><div class="r"><div class="rk">Which plan is live</div><div class="rv">Three of your documents name three different core metrics.</div></div><div class="r"><div class="rk">Model A or B</div><div class="rv">Sell more systems, or convert the 116 who bought elsewhere.</div></div><div class="r"><div class="rk">Two more behind these</div><div class="rv">Whether cost is on the table at all, and the name against the signage.</div></div></div></div></section>
+<section class="slide" id="s15" data-n="15"><div class="s s-content"><div class="bar">How this splits</div><h2 class="head">Harry takes these. We would do these for you.</h2><div class="rows"><div class="r"><div class="rk">Harry</div><div class="rv">Tour operator outreach. Fresh copy, photos, reviews and the award to each operator. The referral reward nobody knows about.</div></div><div class="r"><div class="rk">Justin</div><div class="rv">The Harvey Norman conversation. Wholesale structure and targets. The six decisions above.</div></div><div class="r"><div class="rk">Jewell</div><div class="rv">Database acquisition and the campaign against it. The Urban Legends booking tool. Tracking, so you can see what any of it did.</div></div></div></div></section>
+<section class="slide" id="s16" data-n="16"><div class="s s-close">
   <div class="c-mid"><h2>Next.</h2>
     <p class="c-line">Decisions back by Friday 4 September. We will scope the three moves against them.</p>
     <p class="c-line">Clent Jewell · clent@jewellprojects.com · Jewell Projects</p>
   </div>
-</div></div></section>
+</div></section>
 </main>
 <div id="cue">Scroll</div>
 <div id="hud">
@@ -136,21 +163,9 @@ html.js-rv .slide.in .frame>.s{opacity:1;filter:none}
   var prev=document.getElementById('prev'), next=document.getElementById('next');
   var i=0;
 
-  // Scale each 1280x720 canvas to its section, sizing the frame to the scaled
-  // box so nothing overflows the column and the page never scrolls sideways.
-  function fit(){
-    // Measure the section's CONTENT box. getBoundingClientRect() includes the
-    // padding, and scaling against that pushes the canvas wider than the column.
-    var el=slides[0], cs=getComputedStyle(el);
-    var w=el.clientWidth -parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
-    var h=el.clientHeight-parseFloat(cs.paddingTop) -parseFloat(cs.paddingBottom);
-    var k=Math.min(w/1280,h/720);
-    slides.forEach(function(el){
-      var f=el.querySelector('.frame'), s=el.querySelector('.s');
-      f.style.width=(1280*k)+'px'; f.style.height=(720*k)+'px';
-      s.style.setProperty('--k',k); s.style.transform='scale('+k+')';
-    });
-  }
+  // Sizing is CSS: --k scales every brand dimension off the viewport, so the
+  // slide fills the page rather than sitting letterboxed inside it.
+
 
   function goto(k){
     k=Math.max(0,Math.min(n-1,k));
@@ -203,12 +218,11 @@ html.js-rv .slide.in .frame>.s{opacity:1;filter:none}
   next.addEventListener('click',function(){goto(i+1);});
   document.getElementById('print').addEventListener('click',function(){window.print();});
   addEventListener('scroll',onScroll,{passive:true});
-  addEventListener('resize',function(){fit();onScroll();});
+  addEventListener('resize',onScroll);
   addEventListener('hashchange',function(){
     var k=parseInt(location.hash.slice(1),10); if(k&&k-1!==i) goto(k-1);
   });
 
-  fit();
   count.textContent='1 / '+n;
   prev.disabled=true;
   var start=parseInt(location.hash.slice(1),10);
