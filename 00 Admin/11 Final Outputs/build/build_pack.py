@@ -145,6 +145,12 @@ def convert(path):
     # the front-matter tables have an empty header row — drop it rather than
     # render an empty grey band at the top of every document
     h = re.sub(r'<thead>\s*<tr>(?:\s*<th[^>]*>\s*</th>)+\s*</tr>\s*</thead>', '', h)
+    # Every h3 already draws its own top rule, so a markdown "---" written just
+    # above a heading renders as a second line a few pixels away. Drop the rule
+    # where the heading supplies one, and any that ends up trailing or doubled.
+    h = re.sub(r'<hr\s*/?>\s*(?=<h3[ >])', '', h)
+    h = re.sub(r'(?:<hr\s*/?>\s*){2,}', '<hr />\n', h)
+    h = re.sub(r'<hr\s*/?>\s*$', '', h.rstrip()) + "\n"
     # wrap tables for horizontal scroll
     h = h.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
     return h
