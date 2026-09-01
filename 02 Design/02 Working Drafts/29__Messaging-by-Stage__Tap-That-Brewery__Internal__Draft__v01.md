@@ -20,7 +20,7 @@ The words for each stage of #28's journey. The rule this document was originally
 
 ## Before the stages: the driver order this document was built on
 
-**This is the open rework in the set.** The stage copy below follows the census ranking — taste first, cost second, kudos and connection last — and inverts the discovery-session read on that basis. The 27 August review put the inversion back in question: a survey of forty-nine self-selected people captures what they will admit to, and status is not something anyone writes down.
+**This copy is provisional.** The stage copy below follows the census ranking — taste first, cost second, kudos and connection last. That ranking is worth questioning: a survey of forty-nine self-selected people captures what they will admit to, and status is not something anyone writes down.
 
 Two consequences the copy below has not yet absorbed:
 

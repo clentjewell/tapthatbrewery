@@ -66,7 +66,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 
 ## What these profiles cannot show you
 
-*Added after the 27 August advisory review.* Every PAIN/GAIN above is drawn from what customers told us, and the census that ranked the drivers is forty-nine self-selected people. The review's caution applies directly to profile work: people do not necessarily know why they buy, and where they do know, some reasons are not sayable.
+Every PAIN/GAIN above is drawn from what customers told us, and the census that ranked the drivers is forty-nine self-selected people. That caution applies directly to profile work: people do not necessarily know why they buy, and where they do know, some reasons are not sayable.
 
 Taste ranks first at 2.19 partly because taste is the respectable answer. **Ego, status and wanting a reason to be at home without being in the house** rank nowhere, because nobody writes them on a form. They should be read across all four profiles below as a second layer — not written into copy in their own words, but present in the choice of setting, who is in frame, and what the first pour looks like.
 

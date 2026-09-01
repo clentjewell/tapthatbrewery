@@ -14,9 +14,9 @@
 
 ---
 
-## What the 27 August review moved
+## What runs before this calendar
 
-This plan was built before the advisory review, and the review reordered what should run first. Recorded here rather than quietly folded in, because the change is directional.
+Three things rank above everything in this calendar. They are not campaigns, so they do not wait on it.
 
 **Ranked above everything in this calendar:** buying the system-owner databases (Harvey Norman, Keg Land / Kegmaster, BenchTop, Benchy), a direct Harvey Norman arrangement, and going properly at the tour operators, commercial and wholesale. Those are not campaigns. They are a data purchase, a commercial conversation and a hire — and none of them needs a content calendar to start.
 

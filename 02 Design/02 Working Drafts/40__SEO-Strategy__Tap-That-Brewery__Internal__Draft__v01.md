@@ -18,7 +18,7 @@
 
 SEO here is not traffic for its own sake – it serves the two acquisition doors from #37: catch the **3-month considerers** while they research ("is a keg system worth it?"), and intercept the **installed base** at the moment of need ("kegerator refill near me"). Nobody on the Gold Coast owns the category in search any more than in market – the D06 white space applies verbatim. All volumes below are directional only [to validate – no keyword research run yet]; current rankings, indexation and authority are [pending site audit].
 
-## What the 27 August review changes
+## What this means for search
 
 **The nearest competitor is weaker than this plan assumes.** Aardvark and Arrow's domain is suspended and they have joined up with Burleigh Homebrew. Before targeting their brand terms or building a comparison page, check what actually resolves — a suspended domain may mean the search demand is unserved rather than contested, which is a better opportunity than the one originally scoped.
 
@@ -28,7 +28,7 @@ SEO here is not traffic for its own sake – it serves the two acquisition doors
 
 **Two assets missing from search, both already owned.** The Crafted Brewer's Choice award and "we fill any system" are the strongest proof and the cheapest acquisition respectively, and neither has a page that answers the queries people actually type. Christy's site read puts both above the fold on the landing page (#37); in search they each deserve their own answer page rather than a mention.
 
-**A note on the middle ground.** Where the brand sits between the cheaper keg rivals and a genuine premium position, search intent splits the same way — "cheap keg refill" and "best craft keg" are different searchers. Second Earth Brewery is the review's counter-example for what happens to a brand that sits between them (#32), and the content plan should pick a side rather than rank for both.
+**A note on the middle ground.** Where the brand sits between the cheaper keg rivals and a genuine premium position, search intent splits the same way — "cheap keg refill" and "best craft keg" are different searchers. Second Earth Brewery is the counter-example for what happens to a brand that sits between them (#32), and the content plan should pick a side rather than rank for both.
 
 ## Keyword territory
 

@@ -25,7 +25,9 @@ SLIDES = [
       stats=[("206","Systems in your database"),
              ("96 to 113","Active customers. Your own documents define active three ways"),
              ("56%","Bought their system somewhere else and refill with you anyway"),
-             ("~9x","The climb to 1,000 from where you actually are")]),
+             ("~9x","The climb to 1,000 from where you actually are")],
+      body="Two of those numbers need settling before they can carry a plan. Which definition of "
+           "active is the live one, and what the business actually costs to run."),
 
  dict(type="content", eyebrow="The problem underneath",
       headline="The taproom and the refill model\nwork against each other.",
@@ -41,14 +43,6 @@ SLIDES = [
            "ingredients, kegs, storage and refrigeration, and no number for what the taproom "
            "loses each month. Until those land, everything we have written for you is a revenue "
            "plan. We would rather say that than dress it up as a business case."),
-
- dict(type="content", eyebrow="Before anything else", headline="What we got wrong.",
-      rows=[("We never said it","Nothing in seventy nine documents said the business is losing money."),
-            ("The taproom","We treated it as a funnel when it is also a cost."),
-            ("A number we used","The 20 to 30 per cent taproom conversion has never been measured."),
-            ("The census","Forty nine self selected people cannot carry a strategy on their own."),
-            ("Your marketing lead","We called Harry by the wrong name in a hundred and sixty places.")],
-      row_top=3.1, row_col=3.4),
 
  dict(type="divider", num="Part 02", title="What to do",
       strapline="Three moves, ranked. And one we have ranked below them."),
@@ -76,11 +70,12 @@ SLIDES = [
            "commercial account is worth about ten households, and it currently has no structure, "
            "no targets and nobody carrying it."),
 
- dict(type="content", eyebrow="And one we have ranked below them",
-      headline="Pulling people into the taproom\nthrough social media.",
-      body="That was close to the centre of the plan we wrote for you. On this read it should "
-           "not be. If the taproom is the half that loses money, spending the marketing budget "
-           "filling it is the wrong instinct, however good the content is."),
+ dict(type="content", eyebrow="And one that sits below all three",
+      headline="Filling the taproom through social\nmedia is not the lead move.",
+      body="It is the obvious thing to do and it is the wrong thing to do first. The taproom is "
+           "the half of the business that loses money, and the refill model works when people "
+           "stay home. Spending the marketing budget filling the room means paying twice: once "
+           "for the campaign, and again for the trade it brings through the door."),
 
  dict(type="content", eyebrow="The opportunity nobody has worked",
       headline="Four in ten of your customers have\nquietly slowed down.",

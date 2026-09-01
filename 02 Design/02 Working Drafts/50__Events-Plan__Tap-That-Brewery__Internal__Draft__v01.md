@@ -20,7 +20,7 @@ The taproom loses money and already swallowed 18 months of attention. Events are
 
 ## What an event is actually worth
 
-*Added after the 27 August advisory review.* The rule above governs which events run. This is the figure that should govern how hard they are pursued.
+The rule above governs which events run. This is the figure that should govern how hard they are pursued.
 
 **One event drives a week of taproom trade.** And one commercial account is worth roughly ten households — venue lifetime gross profit around **$21,840** against **$2,100** residential. Events are the entry point to that account type, which makes this plan a commercial acquisition channel as much as a venue-utilisation one.
 

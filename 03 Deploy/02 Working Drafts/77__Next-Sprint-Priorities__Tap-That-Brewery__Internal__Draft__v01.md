@@ -15,7 +15,7 @@
 
 ---
 
-> **Reprioritised 28 August 2026 after advisory review (#20B).** The sprints below were built before the review and lead with instrumentation and paid social. The review ranks three things above all of that — buy the system-owner databases (Harvey Norman, Keg Land / Kegmaster, BenchTop), do a direct deal with Harvey Norman, and go at the tour operators and wholesale properly — and ranks *pulling people into the taproom through social media* explicitly below them. Sprint 2 should be rebuilt around the three; the Week 0 corrections and the Sprint 1 instrumentation still stand, because you cannot buy a database and then fail to measure what it produced. Treat what follows as the delivery mechanics, not the priority order.
+> **Read the three moves first.** The sprints below lead with instrumentation and paid social. We rank three things above all of that — buy the system-owner databases (Harvey Norman, Keg Land / Kegmaster, BenchTop), do a direct deal with Harvey Norman, and go at the tour operators and wholesale properly — and ranks *pulling people into the taproom through social media* explicitly below them. Sprint 2 should be rebuilt around the three; the Week 0 corrections and the Sprint 1 instrumentation still stand, because you cannot buy a database and then fail to measure what it produced. Treat what follows as the delivery mechanics, not the priority order.
 
 ## The shape of the next 90 days
 
@@ -36,7 +36,7 @@ These are not sprint items. They are live errors and they are not gated on CP1, 
 
 ## The three moves that outrank this sprint plan
 
-*Added after the 27 August advisory review.* The sprints below are sound as a marketing sequence. The review ranked three things above all of them, and none is a marketing task:
+The sprints below are sound as a marketing sequence. Three things rank above all of them, and none is a marketing task:
 
 1. **Buy the system-owner databases** — Harvey Norman, Keg Land / Kegmaster, BenchTop, Benchy. Every name has already overcome the $975 objection. At about $70 gross per keg the data pays for itself quickly.
 2. **Do a direct Harvey Norman deal** — point-of-sale QR, a per-keg referral rebate, or a free keg with purchase where liquor rules allow. Monk holds point contacts. A conversation, not a campaign.

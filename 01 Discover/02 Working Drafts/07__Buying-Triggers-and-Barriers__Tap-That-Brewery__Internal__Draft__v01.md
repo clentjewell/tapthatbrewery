@@ -51,7 +51,7 @@ Barrier 4's counter is the most under-used asset: it is proprietary data, it is 
 
 ## The partner: a barrier we described the wrong way round
 
-*Revised after the 27 August advisory review.* The barrier list above treats the partner as an approval gate — the source of "my wife won't let me", to be answered with reassurance that there is something on tap for her. The review's read is that the framing is itself the problem:
+The barrier list above treats the partner as an approval gate — the source of "my wife won't let me", to be answered with reassurance that there is something on tap for her. The sharper read is that the framing is itself the problem:
 
 > "This is a bloke's beer place and the chicks can come if they want. But the blokes will follow the girls."
 

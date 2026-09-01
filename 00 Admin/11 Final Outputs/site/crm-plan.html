@@ -760,11 +760,11 @@ body {
 </table></div>
 <p>Data hygiene rule (KR 2.4): <strong>100% of keg transactions attached to a customer record.</strong> A counter script for staff ("what number do we text when it’s ready?") is the whole capture mechanism – it already works for corny customers.</p>
 <h3>Lifecycle automation: each customer's own clock, not ours</h3>
-<p><strong>This section was rebuilt after the 27 August review.</strong> The first version fired at a fixed 60, 75 and 90 days for everybody. The review's objection is the right one:</p>
+<p>A fixed 60, 75 and 90-day clock is the obvious design and it is the wrong one:</p>
 <blockquote>
 <p>"People are creatures of habit and likely go through kegs at about the same rate, so a 90-day SMS is a bit tone-deaf. We know their purchase patterns, so customise the contact and be Johnny on the spot."</p>
 </blockquote>
-<p>A fixed calendar is only correct for the average customer, and almost nobody is the average customer. Roughly <strong>10% buy monthly, 60% about every three months, and 40% run longer</strong>. At day 60, a monthly buyer is a month overdue and probably gone; a quarterly buyer is on schedule and being nagged. The same message is late for one and rude to the other.</p>
+<p>A fixed calendar is correct only for the average customer, and almost nobody is the average customer. Roughly <strong>10% buy monthly, 60% about every three months, and 40% run longer</strong>. At day 60, a monthly buyer is a month overdue and probably gone; a quarterly buyer is on schedule and being nagged. The same message is late for one and rude to the other.</p>
 <p><strong>So the trigger is relative to each customer's own interval.</strong> Fishbowl computes a rolling median gap between kegs per customer from at least three purchases, and the flow fires against that.</p>
 <div class="tw"><table>
 <thead>
@@ -813,7 +813,7 @@ body {
 <p>Every send and every response is written back to the record, so the at-risk save rate (KR 2.2 target ≥40%) and winback count (KR 2.3 target 30/yr) become dashboard numbers instead of anecdotes.</p>
 <h3>Loyalty: simplify before automating</h3>
 <p>Two review findings sit here, and both cut against building more machinery.</p>
-<p><strong>The points system may be its own cost driver.</strong> Tap Tokens require administration, reconciliation and explanation, and the review's question is whether that cost is bought back in loyalty. The proposed alternative is blunt and legible: <strong>every tenth keg free.</strong> A customer can hold that in their head, it needs almost no administration, and it rewards exactly the behaviour the business needs. Tokens do not have to go, but the burden of proof is now on keeping them rather than on replacing them.</p>
+<p><strong>The points system may be its own cost driver.</strong> Tap Tokens require administration, reconciliation and explanation, and the question is whether that cost is bought back in loyalty. The proposed alternative is blunt and legible: <strong>every tenth keg free.</strong> A customer can hold that in their head, it needs almost no administration, and it rewards exactly the behaviour the business needs. Tokens do not have to go, but the burden of proof is now on keeping them rather than on replacing them.</p>
 <p><strong>Referral should be a free keg for both sides.</strong> When a mate buys a system, both parties get a keg. That is simpler than a token balance and it pays out at the moment of goodwill rather than at some later threshold. Pay-with-a-tweet and a discount for tagging sit alongside it as low-cost UGC mechanics.</p>
 <p>Neither is a decision for us. Both belong in the same conversation as the membership price (open item #2), because the answer changes what the CRM has to track.</p>
 <h3>Segmentation views (saved, standing views in Fishbowl)</h3>

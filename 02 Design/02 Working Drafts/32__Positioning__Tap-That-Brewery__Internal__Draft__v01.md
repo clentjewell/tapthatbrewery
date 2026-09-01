@@ -46,9 +46,9 @@ Tap That Brewery must refuse the frame it superficially fits. As a craft brewery
 
 ## The middle ground is a position, and it is the wrong one
 
-*Added after the 27 August advisory review.* The points of parity above are correct as parity. The risk they create is drift: match enough things and the brand ends up in the middle, dearer than the keg rivals and short of a genuine premium.
+The points of parity above are correct as parity. The risk they create is drift: match enough things and the brand ends up in the middle, dearer than the keg rivals and short of a genuine premium.
 
-The review's counter-example is **Second Earth Brewery**. They sat in exactly that middle ground — neither cheap nor expensive — until an investor told them plainly that they did not know their position. They put a dark beer into 500ml cans at about $50 for four and now cannot keep production up. The lesson is not the format; it is that **premium beats the middle**, and that the middle is a decision made by not deciding.
+The counter-example is **Second Earth Brewery**. They sat in exactly that middle ground — neither cheap nor expensive — until an investor told them plainly that they did not know their position. They put a dark beer into 500ml cans at about $50 for four and now cannot keep production up. The lesson is not the format; it is that **premium beats the middle**, and that the middle is a decision made by not deciding.
 
 Two consequences for the statement above. The word "commercial brewer" needs romance around it or it puts Tap That in the same sentence as the brewers it is differentiating from (#37). And the enemy is the pub and the bottle shop, not the operator across the road — whose domain is now suspended in any case.
 

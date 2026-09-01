@@ -33,7 +33,7 @@ Nobody hires a keg system for the hardware – the client said it themselves: *"
 
 ## The job the lapsed customer is hiring for now
 
-*Added after the 27 August advisory review.* The jobs above are all jobs of acquisition and hosting. There is a job this list is missing, and it belongs to the largest group in the base.
+The jobs above are all jobs of acquisition and hosting. There is a job this list is missing, and it belongs to the largest group in the base.
 
 Roughly **40% of customers have stretched their refill gap well beyond three months**. They have not defected — the system is still in the backyard. They have **cut back on beer, not on thirst**, and the health and lifestyle trend plus an ageing customer base both push the same way.
 

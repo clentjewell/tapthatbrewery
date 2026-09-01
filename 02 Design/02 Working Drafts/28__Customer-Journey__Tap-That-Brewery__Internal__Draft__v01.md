@@ -40,7 +40,7 @@ The structural finding, carried from D05/D06: the physical journey works – the
 
 ## The stage this journey was missing: how often they come back
 
-*Added after the 27 August advisory review.* The journey above ends at advocacy and treats refill as a single repeating stage. It is not one behaviour, it is three, and the difference decides what we send and when.
+The journey above ends at advocacy and treats refill as a single repeating stage. It is not one behaviour, it is three, and the difference decides what we send and when.
 
 | Band | Share | What is happening | The journey implication |
 |---|---|---|---|

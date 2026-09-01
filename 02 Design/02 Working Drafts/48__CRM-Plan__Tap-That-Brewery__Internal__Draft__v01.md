@@ -35,11 +35,11 @@ Data hygiene rule (KR 2.4): **100% of keg transactions attached to a customer re
 
 ## Lifecycle automation: each customer's own clock, not ours
 
-**This section was rebuilt after the 27 August review.** The first version fired at a fixed 60, 75 and 90 days for everybody. The review's objection is the right one:
+A fixed 60, 75 and 90-day clock is the obvious design and it is the wrong one:
 
 > "People are creatures of habit and likely go through kegs at about the same rate, so a 90-day SMS is a bit tone-deaf. We know their purchase patterns, so customise the contact and be Johnny on the spot."
 
-A fixed calendar is only correct for the average customer, and almost nobody is the average customer. Roughly **10% buy monthly, 60% about every three months, and 40% run longer**. At day 60, a monthly buyer is a month overdue and probably gone; a quarterly buyer is on schedule and being nagged. The same message is late for one and rude to the other.
+A fixed calendar is correct only for the average customer, and almost nobody is the average customer. Roughly **10% buy monthly, 60% about every three months, and 40% run longer**. At day 60, a monthly buyer is a month overdue and probably gone; a quarterly buyer is on schedule and being nagged. The same message is late for one and rude to the other.
 
 **So the trigger is relative to each customer's own interval.** Fishbowl computes a rolling median gap between kegs per customer from at least three purchases, and the flow fires against that.
 
@@ -61,7 +61,7 @@ Every send and every response is written back to the record, so the at-risk save
 
 Two review findings sit here, and both cut against building more machinery.
 
-**The points system may be its own cost driver.** Tap Tokens require administration, reconciliation and explanation, and the review's question is whether that cost is bought back in loyalty. The proposed alternative is blunt and legible: **every tenth keg free.** A customer can hold that in their head, it needs almost no administration, and it rewards exactly the behaviour the business needs. Tokens do not have to go, but the burden of proof is now on keeping them rather than on replacing them.
+**The points system may be its own cost driver.** Tap Tokens require administration, reconciliation and explanation, and the question is whether that cost is bought back in loyalty. The proposed alternative is blunt and legible: **every tenth keg free.** A customer can hold that in their head, it needs almost no administration, and it rewards exactly the behaviour the business needs. Tokens do not have to go, but the burden of proof is now on keeping them rather than on replacing them.
 
 **Referral should be a free keg for both sides.** When a mate buys a system, both parties get a keg. That is simpler than a token balance and it pays out at the moment of goodwill rather than at some later threshold. Pay-with-a-tweet and a discount for tagging sit alongside it as low-cost UGC mechanics.
 

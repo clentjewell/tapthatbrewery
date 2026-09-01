@@ -63,7 +63,7 @@ SUMMARY_MUST_SAY = {
     "the switcher figure":      r"116 of 206",
     "the loss is named":        r"losing money|loss[- ]making",
     "the taproom tension":      r"taproom as a funnel|also a cost|zero[- ]sum",
-    "the unmeasured rate":      r"never observed|nobody has measured|unmeasured",
+    "the unmeasured rate":      r"never (been )?observed|never been measured|nobody has measured|unmeasured",
     "open item count":          r"Nineteen open items",
     "document count":           r"Seventy-nine",
     "price claim pulled":       r"pull the claim, not to swap",
@@ -343,9 +343,13 @@ def rule_ranked_moves_order(path, ls):
     """#20B ranked the three moves, and ranked taproom-via-social below them.
     A document that presents taproom social as a leading move contradicts it."""
     body = "\n".join(ls)
-    if re.search(r"(lead|first|primary|top) (move|priority|recommendation)[^.]{0,80}"
-                 r"(taproom|social media)", body, re.I) and "#20B" not in body:
-        flag("ranked-moves-order", path, "leads with taproom/social, which #20B ranked below")
+    if not re.search(r"(lead|first|primary|top) (move|priority|recommendation)[^.]{0,80}"
+                     r"(taproom|social media)", body, re.I):
+        return
+    # correct handling is saying it ranks below, not citing where we recorded that
+    if not re.search(r"ranked \*?below|not the lead move|the wrong one|wrong (thing|instinct)|"
+                     r"sits below|below (all three|those|them)|#20B", body, re.I):
+        flag("ranked-moves-order", path, "leads with taproom or social without ranking it below")
 
 DOC_RULES = [rule_competitor_closed, rule_no_raef, rule_dead_baseline,
              rule_growth_multiple, rule_taproom_conversion, rule_mangled_cadence,

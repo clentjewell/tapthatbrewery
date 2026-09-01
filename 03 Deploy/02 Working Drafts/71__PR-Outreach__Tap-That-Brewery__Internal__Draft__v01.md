@@ -41,7 +41,7 @@ Earned only. No retainer, no wire, no spend beyond hours. One pitch cycle per qu
 | "$2.34 a schooner" | **No** | Member-only – and the public alternative is unsettled (open item #19: $2.70, $2.98 and $3.19 are all in circulation). Run no per-schooner figure until it closes. |
 | Franchise ambition | **Hold** | Requires founder consent (open item #6) |
 
-## Two things the 27 August review adds
+## Two assets we are not using
 
 **The award is not being used.** Midnight in Tokyo won Brewer's Choice at Crafted, and it does not appear on the website's landing page, is absent from the brewery write-ups tour operators publish, and is under-used in pitching. It is the strongest third-party proof the business owns. Every asset below should lead with it, and the tour-operator write-ups (#24 P4) are earned media in everything but name — the operator picks the venues, so the description is the pitch.
 

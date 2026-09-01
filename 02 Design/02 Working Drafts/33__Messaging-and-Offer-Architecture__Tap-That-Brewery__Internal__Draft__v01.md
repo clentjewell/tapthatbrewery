@@ -75,7 +75,7 @@ The four tiers from D05, rewritten as what the customer is told (naming suggesti
 
 ## The unresolved question underneath this architecture
 
-*Added after the 27 August advisory review.* The message house above is built on the census driver order — taste leading, cost stating itself plainly second. Two things now qualify that, and both are open.
+The message house above is built on the census driver order — taste leading, cost stating itself plainly second. Two things now qualify that, and both are open.
 
 **Whether cost belongs in open channels at all is undecided** (open item #15). Scaling Up forbids competing on price; the census ranks cost the second-strongest driver. Those positions cannot both hold, and the answer decides whether the maths runs in the open feed or stays in retargeting. The architecture below assumes the former.
 

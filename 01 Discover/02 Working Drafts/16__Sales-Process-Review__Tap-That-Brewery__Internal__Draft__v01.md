@@ -58,7 +58,7 @@ But the window itself is **unmanaged**: no email/SMS nurture, no objection-answe
 
 Sports clubs hit three objections – no packaged cans, existing supplier contracts, no tap infrastructure – plus NRL-affiliated venues locked by CUB exclusivity. The white-label play (club-branded lager, 10% player discount / 10% club kickback) is the designed answer, not yet systematised.
 
-## Two sales mechanics the review added
+## Two sales mechanics worth building
 
 **The puppy-dog close.** Put a working system in a booth in the taproom so customers use one rather than look at one — pour their own, sit with it for an hour. The objection this business fights is a $975 capital decision made on imagination; the counter is possession, not persuasion. Letting a member keep their own keg on tap, the way a pub holds a regular's whiskey bottle, is the same idea extended past the sale. Both are cheap and neither exists today.
 

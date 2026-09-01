@@ -32,7 +32,7 @@ Scoring: **Impact** (1–5, on active customers) × **Confidence** (1–5, in th
 
 None of these wait for a sprint.
 
-## Added by the advisory review (28 Aug 2026)
+## Ranked above the backlog
 
 *These entered from #20B and outrank most of what follows. They are not scored on the same scale because two of them are business decisions rather than marketing tests.*
 

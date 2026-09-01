@@ -35,7 +35,7 @@ Two pains recur across every segment and belong in all creative: **the night out
 
 ## The pains nobody states in a survey
 
-*Added after the 27 August advisory review.* Everything below this section is a pain a customer will describe. These are the ones they will not, and they move purchases at least as hard.
+Everything below this section is a pain a customer will describe. These are the ones they will not, and they move purchases at least as hard.
 
 > "Fifty people who do not really know why they do something, and do not do what they say. Ego. Wanting to be seen as more successful is a key driver that will not be said out loud. Compensating for something else. Not wanting to spend time with the missus."
 

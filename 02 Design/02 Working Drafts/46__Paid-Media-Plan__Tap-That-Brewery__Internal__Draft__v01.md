@@ -18,7 +18,7 @@
 
 The business is loss-making and has never run structured paid media. This plan is therefore not a media schedule – it is a **test protocol**. Every dollar must be traceable to one of three events GoTab can record: a giveaway entry, a demo booking (via cheers@ / booking link), or a first refill from a switcher. Total budget **[TBC – set against P&L data at CP1]**; the structural rule is that paid media never exceeds what one converted refill customer year-one value (~$2,400 at ~$200/month) justifies per acquisition, and starts an order of magnitude below agency-normal spend.
 
-## What the 27 August review changes about spending at all
+## What this means for search about spending at all
 
 **The order of moves changed, and paid media is not in the top three.** Ranked above it: buying the system-owner databases, a direct Harvey Norman arrangement, and going properly at tour operators, commercial and wholesale. None of those is media spend. On a loss-making P&L with no known cost base (open item #17), that ranking is the plan — this document describes what runs *after* those are moving, not instead of them.
 

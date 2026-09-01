@@ -16,7 +16,7 @@
 
 These are the bottlenecks D06 named, ranked by commercial consequence, each with a definition of *solved* so progress is checkable rather than felt. The ranking principle: problems that block the refill engine (the margin) outrank problems that merely cost revenue at hospitality margins.
 
-**One claim from the first draft has been withdrawn.** It said none of these is a strategy problem, because discovery confirmed the model was right. The 27 August advisory review does not support that. The business is losing money; nobody has priced what it costs to run; and the taproom and the refill model work against each other by design rather than by drift. Those are structural, and calling them execution problems let the list recommend effort where the honest answer is a decision. P0 below is new and outranks everything that follows it.
+**Not all of these are execution problems.** The business is losing money, nobody has priced what it costs to run, and the taproom and the refill model work against each other by design rather than by drift. Those are structural, and they need a decision rather than effort. P0 below outranks everything that follows it.
 
 ## The ranked list
 
@@ -50,7 +50,7 @@ These are the bottlenecks D06 named, ranked by commercial consequence, each with
 
 **Commercial consequence.** Attention is the scarcest resource in the business (see P1); the taproom consumes it at hospitality returns while the refill engine – the actual margin – sits at 96–113 of a 1,000 target. Unchecked, the venue will keep winning attention by default.
 
-**What the review changed here.** The first draft treated this as an attention problem to be corrected by re-scoping the taproom as a funnel. It is also a **zero-sum** problem: the refill business is built on people *not* coming in, so filling the room fills the half that loses money. And the conversion rate that justified calling it a funnel – 20–30% – is the client's own estimate and has never been measured (open item #18). At that rate the rational move would be to pay people to walk in, which is itself grounds for doubt.
+**This is not only an attention problem.** It is a **zero-sum** one: the refill business is built on people *not* coming in, so filling the room fills the half that loses money. And the conversion rate that justified calling it a funnel – 20–30% – is the client's own estimate and has never been measured (open item #18). At that rate the rational move would be to pay people to walk in, which is itself grounds for doubt.
 
 **Solved looks like.** A founders' decision on what the taproom is for (open item #20): restricted hours as a tasting and event venue, or an open drop-in that is knowingly paid for. Then, whichever way it goes, a measured conversion rate rather than an estimate, and an agreed loss tolerance. Test: the monthly review discusses taproom *cost and conversion* before taproom *takings* – and somebody can state both numbers.
 

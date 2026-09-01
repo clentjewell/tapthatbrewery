@@ -59,9 +59,7 @@ This is the execution view of the approved strategy (#63): quarter by quarter, w
 | Playbook codification | Giveaway cycle, switcher lane, lifecycle flows, club model written as SOPs – the franchise-asset marker | J · C (endorsement) | Two giveaway cycles + C1/C4 actuals | Pending CP2 sign-off |
 | Year close-out (Aug) | Annual review vs the 450 gate; Father’s Day 2027 + giveaway cycle 3 staged from the cloned playbook; year-2 budget | J (review) · R (runs the playbook) · C (budget) | Full-year data | Pending CP2 sign-off |
 
-## What the 27 August review moves in this roadmap
-
-*Added after the review; the quarters below have not yet been resequenced and should be read against this.*
+## What sits above this roadmap
 
 **Three moves now rank above most of Q1.** Buying the system-owner databases, a direct Harvey Norman arrangement, and structured commercial, wholesale and tour-operator outreach. None needs a campaign calendar, a build or a gate — they need a data purchase, a conversation and an owner. They can start in Week 0.
 

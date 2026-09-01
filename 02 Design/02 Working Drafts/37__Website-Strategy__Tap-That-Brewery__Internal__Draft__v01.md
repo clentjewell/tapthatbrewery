@@ -20,7 +20,7 @@ The taproom is claimed to convert 20–30% of visitors into keg system owners be
 
 This document specifies what the site must *do*; #38–#40 specify structure, pages and search.
 
-## What the 27 August review found on the current site
+## What the current site does, and does not, do
 
 The site has now been audited. This is Christy Kilmartin's read of tapthatbrewery.com.au, and it is the most specific external critique in the engagement. It supersedes the earlier note that no audit existed.
 
@@ -36,7 +36,7 @@ The site has now been audited. This is Christy Kilmartin's read of tapthatbrewer
 
 **Reviews are buried** behind click-dots that do not scroll. Social proof that a visitor cannot get to is not social proof.
 
-**Wholesale is missing its WIIFM entirely.** No margin argument, no white-label story, no cuisine matching. A venue buyer arriving on this site is given nothing to say yes to — and on the review's arithmetic that visitor is worth roughly ten household visitors (#23, #24 P4).
+**Wholesale is missing its WIIFM entirely.** No margin argument, no white-label story, no cuisine matching. A venue buyer arriving on this site is given nothing to say yes to — and on the arithmetic that visitor is worth roughly ten household visitors (#23, #24 P4).
 
 **Membership is split when it should be one.** One membership should span the taproom and refills if the taproom is to work as a feeder: the member changes a keg, gets a free schooner while they wait, and comes back for both reasons. Two schemes make the taproom a separate business rather than a door into the refill one.
 

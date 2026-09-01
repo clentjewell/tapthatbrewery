@@ -18,7 +18,7 @@
 
 Tap That Brewery already owns the lists – it just doesn’t work them. The 3-month buying cycle is "currently nurtured by memory" (D06), churn management is one hand-sent monthly SMS, and the mailing list is literally a membership tier (Brew Buds). Email and SMS cost near-zero per send, need no ad-policy approvals, and are the only channels that can run the nurture and the lifecycle clock at zero media budget. On a loss-making P&L, this channel comes **before** paid media, not after.
 
-**One change since the 27 August review.** The lifecycle sequences no longer fire on a fixed 60/75/90-day calendar. They fire against **each customer's own reorder interval**, because a blanket clock is late for the 10% who buy monthly and premature for the 40% who run longest. The mechanics live in #48; what matters here is that send timing is per-customer, so every sequence below is written to arrive just before someone would reorder anyway rather than on a date that suits us.
+**On timing.** The lifecycle sequences do not fire on a fixed 60/75/90-day calendar. They fire against **each customer's own reorder interval**, because a blanket clock is late for the 10% who buy monthly and premature for the 40% who run longest. The mechanics live in #48; what matters here is that send timing is per-customer, so every sequence below is written to arrive just before someone would reorder anyway rather than on a date that suits us.
 
 ## List assets today
 

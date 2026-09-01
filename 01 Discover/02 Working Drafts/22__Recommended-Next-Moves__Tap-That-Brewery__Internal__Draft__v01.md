@@ -14,8 +14,6 @@
 
 ## The constraint that governs everything below
 
-*Added 28 August 2026 after advisory review (#20B).*
-
 **The business is losing money.** That was true when this document was first
 drafted and it went unwritten, which made every recommendation below read as
 though it could be funded. It cannot be, not all at once. The taproom is the
@@ -36,7 +34,7 @@ this business cannot currently carry both.
 
 ## The three moves, ranked
 
-*Added 28 August 2026 after advisory review (#20B). Christy Kilmartin was asked which three of everything raised we would actually recommend. These are they, and the ranking is deliberate — what sits below them matters less than it looks.*
+*Asked which three of everything raised we would actually recommend, these are they. The ranking is deliberate: what sits below them matters less than it looks.*
 
 **1. Buy the databases.** Harvey Norman lists six kegerator models plus a 25L tap unit. Keg Land / Kegmaster and BenchTop hold buyer lists of their own. Every name on those lists already owns a system, which means the $975 objection — the single most expensive thing we fight — is already overcome. At roughly $70 gross per keg, the data pays for itself fast. This is the cheapest acquisition available to the business and nothing in the original plan pursued it.
 

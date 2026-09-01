@@ -5,23 +5,21 @@
 | **Document** | Customer Segments – catalogue #05 |
 | **Engagement** | Jewell Projects × Tap That Brewery |
 | **Phase** | 01 Discover |
-| **Status** | Draft v02 – Internal · reworked after the 27 August advisory review |
+| **Status** | Draft v02 – Internal |
 | **Date** | 28 August 2026 |
 | **Prepared by** | Jewell Projects |
 
 ---
 
-## What changed, and why it matters
+## How to read the drivers
 
-The first draft of this model did one big thing: it took the discovery-session read – that cost is the customer's dirty little secret, with kudos and connection leading – and **inverted it** on the strength of the census ranking. Taste first, cost second, kudos last.
-
-The advisory review put that inversion under question, and the challenge is a fair one:
+The census ranks the purchase drivers taste first, cost second, kudos last. That ranking is worth having and it is not the whole picture:
 
 > "Census = 50 people who don't really know why they do something, don't do what they say. Be careful placing too much emphasis on this for strategy. Ego. Want to be seen as (more) successful is a key driver that won't be said out loud."
 
-So the census is now **one input, not the arbiter**. Forty-nine self-selected respondents can tell us what they will *admit* to; they cannot tell us what moves them. Taste ranks first partly because taste is the respectable answer. The original discovery read was not wrong – it was measuring something a survey cannot reach.
+So the census is **one input, not the arbiter**. Forty-nine self-selected respondents can tell us what they will *admit* to; they cannot tell us what moves them. Taste ranks first partly because taste is the respectable answer, and status is not something anyone writes on a form. The workshop read was reaching for something a survey cannot – it was measuring something a survey cannot reach.
 
-The review also found this model missing three things entirely: **cadence**, **commercial**, and a **partner segment catered to rather than managed**. Those are now axes in their own right, and two of them outrank the demographic lenses below.
+Three things carry more weight than demography here: **cadence**, **commercial**, and a **partner audience catered to rather than managed**. Two of them outrank the demographic lenses below.
 
 ## How to read this model
 
@@ -30,7 +28,7 @@ There are three axes, and they are not interchangeable.
 | Axis | What it sorts by | Why it ranks here |
 |---|---|---|
 | **1 · Refill cadence** | How often an existing customer actually buys | The margin engine. Cheapest revenue in the business and the only axis measurable from your own data |
-| **2 · Commercial and wholesale** | Account type, not person | One commercial account is worth roughly ten households. Ranked near the top of the advisory review's recommendations |
+| **2 · Commercial and wholesale** | Account type, not person | One commercial account is worth roughly ten households. Ranked near the top of the recommendations |
 | **3 · Household lenses** | Demography and life stage | Still useful for creative direction. **Message lenses, not exclusive boxes** – they overlap deliberately and do not sum to 100% |
 
 Pillars remain **Cost · Convenience · Connection · Kudos · Taste/Freshness**. The census ranks them 1 Taste & Freshness **2.19**, 2 Cost **2.75**, 3 Convenience **2.81**, 4 Connection **3.61**, 5 Kudos **3.64**. Treat that as *the order people will say out loud*. Ego, status and – bluntly – wanting a reason not to be in the house are unsaid drivers that no self-report will surface, and creative should be built knowing both.
@@ -57,18 +55,18 @@ Your own records give the shape: roughly **10% buy monthly, 60% about every thre
 
 ## Axis 2 – Commercial, wholesale and clubs
 
-The first draft put workplaces at ~5% and said none of the secondary segments warranted a campaign. On the advisory review's arithmetic that is the wrong call.
+Workplaces sit at ~5% in the table above, and on the commercial arithmetic that understates them badly.
 
 **One commercial account is worth roughly ten households. One event drives a week of taproom trade.** Both facts were already sitting in our documents; neither was a headline. They should be.
 
-- **Venue and commercial accounts.** Lifetime gross profit on a venue account runs to about **$21,840** against roughly **$2,100** for a residential customer. That ratio is the argument for a dedicated person rather than a campaign. The review is blunt about it: *"Employ people there rather than employ social media managers."* Wholesale outreach needs structure, goals, KPIs and an owner – an FTE or an agent – not a channel plan.
+- **Venue and commercial accounts.** Lifetime gross profit on a venue account runs to about **$21,840** against roughly **$2,100** for a residential customer. That ratio is the argument for a dedicated person rather than a campaign. *"Employ people there rather than employ social media managers."* Wholesale outreach needs structure, goals, KPIs and an owner – an FTE or an agent – not a channel plan.
 - **Sports clubs.** A distinct segment with its own mechanic: customise the system and the brew, and place it free against a minimum guarantee of X kegs a month across the season. Then **move the system from footy to cricket** so it is not idle for half the year. Occupancy is the metric, not units sold.
 - **Tour operators.** Hop On, Urban Legends and Pineapple Tours all let the customer choose which breweries they visit, which means the write-up decides whether Tap That gets picked. Ours is perfunctory and does not mention the award-winning Midnight in Tokyo. Urban Legends makes customers book each tasting themselves; building them a booking tool that always includes Tap That is chargeable work in its own right.
 - **Wholesale is missing its WIIFM.** Margin, white label and cuisine matching are the arguments a venue buyer needs, and none of them are currently made anywhere.
 
 ## Axis 3 – Household lenses
 
-Retained from the first draft, with the ranking intact and the unsaid drivers added. These are lenses for creative, not a media plan on their own.
+Ranked, with the said and unsaid drivers side by side. These are lenses for creative, not a media plan on their own.
 
 | # | Lens | Share (est.) | Pillar emphasis | Said driver vs unsaid |
 |---|---|---|---|---|
@@ -96,21 +94,21 @@ Retained from the first draft, with the ranking intact and the unsaid drivers ad
 
 ## Overlay 1 – People who already own a system
 
-The cheapest acquisition available, and the one the advisory review ranked first overall.
+The cheapest acquisition available, and the one we rank first overall.
 
 **116 of 206 owners (56%) arrived this way with no targeted effort at all** – skipping the $975 objection, the partner veto and the three-month cycle, and going straight to the refill margin. No competitor is building this relationship.
 
-What the review added is *how to reach them at scale*: **buy the databases**. Harvey Norman sells six kegerator models plus a 25L tap unit. Keg Land / Kegmaster, BenchTop and Benchy hold buyer lists of their own. Every name on those lists owns a system and has already overcome the objection we spend most of the budget fighting. At about **$70 gross per keg**, the data pays for itself quickly. A direct Harvey Norman arrangement – point-of-sale QR, a referral rebate per keg, or a free keg with purchase where liquor rules allow – sits alongside it.
+And there is a way to reach them at scale: **buy the databases**. Harvey Norman sells six kegerator models plus a 25L tap unit. Keg Land / Kegmaster, BenchTop and Benchy hold buyer lists of their own. Every name on those lists owns a system and has already overcome the objection we spend most of the budget fighting. At about **$70 gross per keg**, the data pays for itself quickly. A direct Harvey Norman arrangement – point-of-sale QR, a referral rebate per keg, or a free keg with purchase where liquor rules allow – sits alongside it.
 
 This overlay is not a segment among segments. It is the first move, and "we fill any system" deserves a permanent campaign lane above every lens in Axis 3.
 
 ## Overlay 2 – The partner, catered to rather than managed
 
-The first draft treated the partner as the **approval audience** – the source of the "my wife won't let me" objection, to be answered with "here's what's on tap for her". The review's read is that this is the problem, not the solution:
+The obvious read treats the partner as the **approval audience** – the source of the "my wife won't let me" objection, to be answered with "here's what's on tap for her". The sharper read is that this is the problem, not the solution:
 
 > "This is a bloke's beer place and the chicks can come if they want. But the blokes will follow the girls."
 >
-> — advisory session, 27 Aug (recorded segment rather than the typed notes; Clent agreed it is a real blind spot)
+> — senior advisory read, 27 Aug (recorded segment rather than the typed notes)
 
 Being *covered* is not being *catered for*. Roughly a third of the 27 taps are non-beer – seltzers, a Strawberry Gin Fizz sour, ginger beer, Ranch Water, mojitos on tap – and the RTD range currently reads as a collection of items rather than a proposition. There is no romance in it and the perception internally is that it does not matter. Given the finding above, that is backwards: build the RTD range properly and the rest follows it.
 

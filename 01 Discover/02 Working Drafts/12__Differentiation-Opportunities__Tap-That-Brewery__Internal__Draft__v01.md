@@ -61,7 +61,7 @@ A differentiator without proof is a slogan. Every entry below survives D03's tes
 
 ## The differentiator this list under-weights: commercial
 
-*Added after the 27 August advisory review.* The six differentiators above are argued at the household. The review's arithmetic says the same proofs are worth roughly ten times more per account when they are argued at a venue.
+The six differentiators above are argued at the household. the arithmetic says the same proofs are worth roughly ten times more per account when they are argued at a venue.
 
 **One commercial account is worth roughly ten households.** Venue lifetime gross profit runs about **$21,840** against **$2,100** residential, and one event drives a week of taproom trade. Both figures were already in our documents and neither was a headline. They should be.
 

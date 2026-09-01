@@ -28,11 +28,11 @@ Tap That Brewery already converts – 20–30% [unverified – see #20B] of tapr
 | Post-purchase | Ad-hoc return visits | Automated activation → habit → at-risk → winback ladder |
 | Measurement | Anecdote ("about 20–30%"), unmeasured – #20B | Named checkpoints with baselines and targets |
 
-## The number this pathway rests on has never been measured
+## The number this pathway rests on
 
-*Added after the 27 August advisory review.* The taproom's 20–30% visitor-to-owner conversion appears throughout this document as the benchmark other entry points are judged against. It is the client's own estimate and has never been observed (open item #18).
+The taproom's 20–30% visitor-to-owner conversion appears throughout this document as the benchmark other entry points are judged against. It is the client's own estimate and has never been observed (open item #18).
 
-It is also an extraordinary rate for a $975 purchase. As the review put it: if that were true, the right answer would be to pay people to walk into the taproom. That it has not been done is itself a reason to doubt the figure.
+It is also an extraordinary rate for a $975 purchase. If it were true, the rational move would be to pay people to walk into the taproom. That nobody has is itself a reason to doubt the figure.
 
 Two things follow for this pathway. **The CAC ranking below is provisional** — if the real rate is a third of the claim, the taproom moves down the table and the bought-list and commercial routes move up. And **the taproom's conversions are not free**: the venue is the loss-making half of the business, and the refill model depends on people *not* coming in, so a visitor converted there carries a cost this pathway does not currently price.
 

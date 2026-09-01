@@ -64,7 +64,7 @@ Afterpay + Zip accepted; lease-to-buy in development (GoTab-dependent). The bonu
 
 ## The model is razor-and-blades in reverse, and the pricing should admit it
 
-*Added after the 27 August advisory review.* Gillette sells a cheap handle and expensive blades. This business sells an expensive handle — $975 to $2,550 — and then cheap blades, at a per-schooner price low enough to be the whole argument. That is the wrong way round, and every barrier in #07 traces back to the handle.
+Gillette sells a cheap handle and expensive blades. This business sells an expensive handle — $975 to $2,550 — and then cheap blades, at a per-schooner price low enough to be the whole argument. That is the wrong way round, and every barrier in #07 traces back to the handle.
 
 **Remove the upfront wall rather than argue with it.** Rental or lease-to-buy, framed and priced like a **gym membership at $50–100 a month**, converts a capital decision into a subscription one. It also suits a business that wants recurring revenue rather than one-off hardware sales it makes no margin on anyway.
 

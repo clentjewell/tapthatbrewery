@@ -14,18 +14,18 @@
 
 ---
 
-Discovery's first read was that the constraint is **execution capacity** – one marketer at about 70% cannot run segment campaigns, wholesale outreach, automation, UGC and events at once. That still holds. The 27 August advisory review added two constraints that sit above it.
+**Execution capacity** is a real constraint – one marketer at about 70% cannot run segment campaigns, commercial outreach, automation, UGC and events at once. Two constraints sit above it.
 
 **The business is losing money, and nobody has priced what it costs to run.** There is no COGS, no figure for carrying 27 taps, and no number for the taproom's monthly loss (open item #17). So the sequence below is not just about what one person can do. It is about what a business in this position can afford to attempt, and every priority that spends before the cheap acquisition is proven is deferred on those grounds.
 
-**The review also reordered the moves.** Ranked first, in its order: buy the system-owner databases, do a direct Harvey Norman deal, and go properly at the tour operators, commercial and wholesale. Explicitly ranked *below* those: pulling people into the taproom through social media – which is close to where the original activation plan put its weight. The priorities below have been resequenced accordingly, and P4 has changed direction outright.
+**The order of the moves.** Ranked first: buy the system-owner databases, do a direct Harvey Norman deal, and go properly at the tour operators, commercial and wholesale. Ranked *below* those: pulling people into the taproom through social media. It is the obvious first move and it is the wrong one, because the taproom is the half that loses money.
 
 Ranked; each states why now, what changes, and what we stop doing.
 
 ## P1 – Refill acquisition, switchers first
 
 **Why now.** 116 of 206 owners (56%) bought their hardware elsewhere and switched with zero targeted effort – the cheapest acquisition available (no $975 hardware giveaway required, no 3-month buying cycle). Nobody on the Gold Coast owns the installed base of existing keg systems; Aardvark & Arrow* and Laughing Lizard sell kegs, not the relationship.
-**What changes.** Two things, and the first is new since the review.
+**What changes.** Two things.
 
 **Buy the lists.** Harvey Norman sells six kegerator models plus a 25L tap unit. Keg Land / Kegmaster, BenchTop and Benchy hold buyer lists of their own. Every name on them owns a system and has already overcome the $975 objection we spend most of the budget fighting. At roughly $70 gross per keg the data pays for itself quickly, and this is the cheapest acquisition available to the business. Alongside it, a **direct arrangement with Harvey Norman** – point-of-sale QR, a referral rebate per keg, or a free keg with purchase where liquor rules allow. Monk holds point contacts there. This is a conversation, not a campaign.
 
@@ -42,7 +42,7 @@ Ranked; each states why now, what changes, and what we stop doing.
 
 ## P3 – Re-weight effort from taproom to engine
 
-**Why now.** The last 18 months drifted to the venue. It loses money, and the review named the tension underneath that: **the taproom and the refill model are zero-sum.** The refill business is built on people *not* coming in, so every campaign that fills the room fills the half that loses. The 20–30% visitor-to-owner conversion that justified treating it as a funnel is your own estimate and has never been measured (open item #18) – at that rate the rational move would be to pay people to walk in, which is itself a reason to doubt it.
+**Why now.** The last 18 months drifted to the venue. It loses money, and the tension underneath it is this: **the taproom and the refill model are zero-sum.** The refill business is built on people *not* coming in, so every campaign that fills the room fills the half that loses. The 20–30% visitor-to-owner conversion that justified treating it as a funnel is your own estimate and has never been measured (open item #18) – at that rate the rational move would be to pay people to walk in, which is itself a reason to doubt it.
 
 This is why the taproom is a founders' decision (open item #20) rather than a marketing allocation: run it as a restricted-hours tasting and event venue, or keep paying for a drop-in. Until that is settled, the allocation below is an interim, not a strategy.
 **What changes.** Taproom marketing is scoped to what feeds conversion: events that fill the room (ticketed nights already do a week’s trade in 5 hours), the demo moment, giveaway entry capture. Harry’s 70% marketing time is allocated engine-first (P1/P2) with a fixed, small taproom quota. Taproom→system conversion becomes a tracked number, not folklore.
@@ -50,9 +50,9 @@ This is why the taproom is a founders' decision (open item #20) rather than a ma
 
 ## P4 – Commercial and wholesale, properly resourced
 
-**This priority has reversed since the first draft.** It previously read "wholesale as white-label opportunism only" and stopped broad prospecting. The advisory review ranks commercial and wholesale near the top of everything, and the arithmetic is the reason: **one commercial account is worth roughly ten households**, and lifetime gross profit runs about **$21,840** on a venue account against **$2,100** residential. One event drives a week of taproom trade. Declining that on the grounds that cold walk-ins failed was a conclusion about *method*, not about the opportunity.
+**This ranks near the top, and the arithmetic is the reason.** One commercial account is worth roughly **ten households**: lifetime gross profit runs about **$21,840** on a venue account against **$2,100** residential, and one event drives a week of taproom trade. Cold walk-ins failing says something about *method*, not about the size of the opportunity.
 
-**Why now.** The earlier failure is real – cold walk-ins and emails to Broadbeach restaurants went nowhere, DM leads got responses but follow-up was loose, and NRL-affiliated clubs are CUB-locked. What that shows is that unowned, unstructured outreach fails. The review's answer is blunt: *"Employ people there rather than employ social media managers."*
+**Why now.** The earlier failure is real – cold walk-ins and emails to Broadbeach restaurants went nowhere, DM leads got responses but follow-up was loose, and NRL-affiliated clubs are CUB-locked. What that shows is that unowned, unstructured outreach fails. The answer is blunt: *"Employ people there rather than employ social media managers."*
 
 **What changes.**
 - **Structure, goals, KPIs and a named owner** – an FTE or an agent. Not a channel in a plan.
