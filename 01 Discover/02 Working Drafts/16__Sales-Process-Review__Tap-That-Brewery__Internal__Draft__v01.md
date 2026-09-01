@@ -34,7 +34,7 @@ The buying cycle is long: **~10% buy within a month, ~60% take up to 3 months, 4
 | Upfront cost (~$975) | At-cost pricing story, Afterpay/Zip, lease-to-buy in development (GoTab-dependent), 50%-off giveaway close |
 | "My wife won’t let me" | 1/3 non-beer taps (seltzers, RTDs, cocktails) – her drinks on tap too |
 | Nowhere to put it | Mini 5L system ($225), integrated options |
-| "I’ll drink too much" | Census (n=50): 57% pour daily or most days, yet average just ~1.55 kegs a month (census); "put a lock on the fridge" |
+| "I’ll drink too much" | Census (n=49): 57% pour daily or most days, yet average just ~1.55 kegs a month (census); "put a lock on the fridge" |
 
 But the window itself is **unmanaged**: no email/SMS nurture, no objection-answering content sequence, no retargeting. A 3-month decision is currently nurtured by the buyer’s memory of a good afternoon at the taproom.
 

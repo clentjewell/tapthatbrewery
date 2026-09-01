@@ -20,7 +20,7 @@ The words for each stage of #28's journey. The rule this document was originally
 
 ## Before the stages: the driver order this document was built on
 
-**This is the open rework in the set.** The stage copy below follows the census ranking — taste first, cost second, kudos and connection last — and inverts the discovery-session read on that basis. The 27 August review put the inversion back in question: a survey of fifty self-selected people captures what they will admit to, and status is not something anyone writes down.
+**This is the open rework in the set.** The stage copy below follows the census ranking — taste first, cost second, kudos and connection last — and inverts the discovery-session read on that basis. The 27 August review put the inversion back in question: a survey of forty-nine self-selected people captures what they will admit to, and status is not something anyone writes down.
 
 Two consequences the copy below has not yet absorbed:
 
@@ -51,7 +51,7 @@ The 3-month window is objection-handling territory. Each of the four discovery o
 | Upfront cost (~$975) | *"We sell the system at cost. Not a typo – we make our money when you love the beer."* Follow: Afterpay/Zip; lease-to-buy when live | Systems at supplier price, photo-verified card; radical-honesty framing converts the objection into trust |
 | "My wife won’t let me" | *"Bring her in. Nine of our taps are hers – seltzers, gin fizz, ranch water, mojitos on tap."* | ~1/3 of 27 taps non-beer, engineered for exactly this; gluten-reduced/lower-carb held in reserve |
 | Nowhere to put it | *"If a bar fridge fits, a 2-tap fits. Benchy fits in the tray."* + install-photo UGC | 2-tap footprint; integrated options from $1,750; real installs as evidence |
-| "I’ll drink too much" | *"We asked 50 keg owners. 70% pour daily – and still only go through 1–2 kegs a month. It’s a tap, not a dare."* | Census (n=50) moderation data – Tap That Brewery’s single most disarming proof point |
+| "I’ll drink too much" | *"We asked 50 keg owners. 70% pour daily – and still only go through 1–2 kegs a month. It’s a tap, not a dare."* | Census (n=49) moderation data – Tap That Brewery’s single most disarming proof point |
 
 ## Purchase moment – the close
 

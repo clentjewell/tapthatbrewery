@@ -60,7 +60,7 @@ Everything above serves one number – **1,000 active refill customers** – thr
 
 | Input | Why it matters | When |
 |---|---|---|
-| Full census data (the n=50 survey) + supporting business docs | Validates segment estimates and objection responses before we build messaging on them | Now – carried from the discovery session (Clent → Jules, Google Drive) |
+| Full census data (the n=49 survey) + supporting business docs | Validates segment estimates and objection responses before we build messaging on them | Now – carried from the discovery session (Clent → Jules, Google Drive) |
 | Membership pricing reconciliation | Two posters are live with different Keg Crew pricing ($250/yr vs $300 + $120 renewal) and token values; also the tasting paddle ($18 sign vs $20 screen). We need the real numbers before any pricing copy | Before CP1 |
 | Competitor confirmation | Correct name and details for the brewery across the road | Before CP1 |
 | GoTab/Fishbowl integration timeline | Sequences the CRM and lifecycle automation work | Before CP2 |

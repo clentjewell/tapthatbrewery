@@ -39,7 +39,7 @@ One rule: if a number doesn’t move active keg customers or explain why they mo
 - **Fishbowl (CRM)** – segments, automated lifecycle sends, open/click/redemption. *Integration pending – until live, lifecycle metrics run off manual GoTab exports.*
 - **Buffer + @tapthatbreweryandkeghouse socials** – reach/engagement as diagnostics only; never in the headline row.
 - **Site analytics (tapthatbrewery.com.au)** – switcher landing page traffic and conversion; giveaway entries.
-- **Census + surveys** – objection tracking (n=50 baseline: 57% pour daily or most days, yet average just ~1.55 kegs a month (census)); repeat annually.
+- **Census + surveys** – objection tracking (n=49 baseline: 57% pour daily or most days, yet average just ~1.55 kegs a month (census)); repeat annually.
 
 ## Current measurement gaps
 

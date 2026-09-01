@@ -26,7 +26,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 |---|---|
 | **Pains** | A night out costs a babysitter plus Burleigh prices before the first schooner; hosting means carting warm slabs, esky clutter and a fridge full of half-drunk mixers; social life is shrinking to logistics. |
 | **Gains** | Their place becomes the default – beer on tap for the mates, seltzers and Strawberry Gin Fizz for the partners, kids asleep upstairs, nobody drives home at 9:30pm to relieve the sitter. |
-| **Proof owned** | 27 taps with ~1/3 non-beer (partner buy-in engineered into the product); census (n=50): 57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** – 57% of owners buy one keg or fewer (census) – a moderation story, not an excess story; $975 2-tap at cost with Afterpay/Zip; 20L kegs from $120 (member core) – cheaper than one babysat night out. |
+| **Proof owned** | 27 taps with ~1/3 non-beer (partner buy-in engineered into the product); census (n=49): 57% pour daily or most days, yet the weighted average is just **~1.55 kegs a month** – 57% of owners buy one keg or fewer (census) – a moderation story, not an excess story; $975 2-tap at cost with Afterpay/Zip; 20L kegs from $120 (member core) – cheaper than one babysat night out. |
 | **Opening message** | *"Your place just became the place."* Connection leads; the cost-per-night-out maths arrives later, in retargeting, as the quiet justification. |
 
 *Guardrail (carried from D02): this segment must not turn Tap That Brewery into "the dad brand."*
@@ -66,7 +66,7 @@ Discover named the segments (#05, D02); this document arms them. Each profile is
 
 ## What these profiles cannot show you
 
-*Added after the 27 August advisory review.* Every PAIN/GAIN above is drawn from what customers told us, and the census that ranked the drivers is fifty self-selected people. The review's caution applies directly to profile work: people do not necessarily know why they buy, and where they do know, some reasons are not sayable.
+*Added after the 27 August advisory review.* Every PAIN/GAIN above is drawn from what customers told us, and the census that ranked the drivers is forty-nine self-selected people. The review's caution applies directly to profile work: people do not necessarily know why they buy, and where they do know, some reasons are not sayable.
 
 Taste ranks first at 2.19 partly because taste is the respectable answer. **Ego, status and wanting a reason to be at home without being in the house** rank nowhere, because nobody writes them on a form. They should be read across all four profiles below as a second layer — not written into copy in their own words, but present in the choice of setting, who is in frame, and what the first pour looks like.
 

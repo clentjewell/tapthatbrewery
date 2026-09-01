@@ -101,6 +101,16 @@ def rule_summary_completeness(path, ls):
         if not re.search(pat, body, re.I):
             flag("summary-lost-a-claim", path, f"the summary no longer says: {label}")
 
+def rule_census_sample(path, ls):
+    """The raw census states 49 respondents from 206 owners (24%). Ten documents
+    said n=50, including the places where the sample size is the argument for
+    not trusting it."""
+    text = "\n".join(ls)
+    for m in re.finditer(r"n\s*=\s*50\b|50[- ]person census|fifty self-selected|"
+                         r"\b50 respondents\b", text, re.I):
+        flag("census-sample-size", path,
+             f"line {line_of(text, m.start())}: census sample is 49, not 50")
+
 def rule_no_ingestion_banner(path, ls):
     """Dated ingestion banners were removed from the set on 28 August. They were
     scaffolding for us, not information for the client, and by then they were
@@ -341,7 +351,7 @@ DOC_RULES = [rule_competitor_closed, rule_no_raef, rule_dead_baseline,
              rule_growth_multiple, rule_taproom_conversion, rule_mangled_cadence,
              rule_loss_making_named, rule_schooner_price, rule_membership_price,
              rule_discover_is_input, rule_ranked_moves_order,
-             rule_no_ingestion_banner, rule_stale_census_tense, rule_review_absorbed,
+             rule_no_ingestion_banner, rule_census_sample, rule_stale_census_tense, rule_review_absorbed,
              rule_summary_completeness, rule_wholesale_promoted, rule_lifecycle_cadence]
 
 # --------------------------------------------------------------------------

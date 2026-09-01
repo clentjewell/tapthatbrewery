@@ -79,7 +79,7 @@ The four tiers from D05, rewritten as what the customer is told (naming suggesti
 
 **Whether cost belongs in open channels at all is undecided** (open item #15). Scaling Up forbids competing on price; the census ranks cost the second-strongest driver. Those positions cannot both hold, and the answer decides whether the maths runs in the open feed or stays in retargeting. The architecture below assumes the former.
 
-**The ranking itself is a ranking of what people will say.** Fifty self-selected respondents will not write down that they want to be seen as more successful than their mates. Ego and status are doing work that no self-report will surface, which means the kudos and connection pillars are probably carrying more of the purchase than their position suggests. That does not change the pillars; it changes their weighting, and it is why the awareness hooks lead on them.
+**The ranking itself is a ranking of what people will say.** Forty-nine self-selected respondents will not write down that they want to be seen as more successful than their mates. Ego and status are doing work that no self-report will surface, which means the kudos and connection pillars are probably carrying more of the purchase than their position suggests. That does not change the pillars; it changes their weighting, and it is why the awareness hooks lead on them.
 
 Treat the house as provisional pending CP1 rather than settled (#29).
 

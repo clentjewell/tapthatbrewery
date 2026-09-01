@@ -77,7 +77,7 @@ Two documents in this engagement carry a signature: the **Discover Summary (CP1)
 
 | # | Item | Notes | Send to |
 |---|---|---|---|
-| 1 | **Census data** – the full n=50 survey responses | Carried from the discovery session; headline figures only received so far | Jules, via the Google Drive folder |
+| 1 | **Census data** – the full n=49 survey responses | Carried from the discovery session; headline figures only received so far | Jules, via the Google Drive folder |
 | 2 | **Membership pricing – the real numbers** | Two posters are live in the venue with different Keg Crew pricing ($250/yr vs $300 + $120/yr renewal) and different token values; tell us which is current. Same for the tasting paddle ($18 sign vs $20 screen) | Clent |
 | 3 | **Competitor across the road** – correct business name | We have two spellings on record and want to profile them properly | Clent |
 | 4 | **P&L / financials** – whatever shape you’re comfortable sharing | Even a summary sharpens the business plan and roadmap | Clent (held confidentially) |

@@ -84,7 +84,7 @@ Giveaway months add the cycle assets on top – Jewell absorbs production overfl
 
 ## Assumptions & open items
 
-- Census detail (n=50 headline only) pending – the calculator and "drink too much" content should quote final validated figures.
+- Census detail (n=49 headline only) pending – the calculator and "drink too much" content should quote final validated figures.
 - Gluten-reduced / lower-carb claims require locked compliance wording before any health-angle content ships (Gap 3, #11).
 - Membership pricing must be reconciled ($250/yr vs $300 + $120 renewal posters) before Keg Crew appears in any content.
 - Tasting paddle price discrepancy ($18 sign / $20 screen) – confirm before menu content.

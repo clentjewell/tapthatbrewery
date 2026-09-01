@@ -19,7 +19,7 @@ The advisory review put that inversion under question, and the challenge is a fa
 
 > "Census = 50 people who don't really know why they do something, don't do what they say. Be careful placing too much emphasis on this for strategy. Ego. Want to be seen as (more) successful is a key driver that won't be said out loud."
 
-So the census is now **one input, not the arbiter**. Fifty self-selected respondents can tell us what they will *admit* to; they cannot tell us what moves them. Taste ranks first partly because taste is the respectable answer. The original discovery read was not wrong – it was measuring something a survey cannot reach.
+So the census is now **one input, not the arbiter**. Forty-nine self-selected respondents can tell us what they will *admit* to; they cannot tell us what moves them. Taste ranks first partly because taste is the respectable answer. The original discovery read was not wrong – it was measuring something a survey cannot reach.
 
 The review also found this model missing three things entirely: **cadence**, **commercial**, and a **partner segment catered to rather than managed**. Those are now axes in their own right, and two of them outrank the demographic lenses below.
 

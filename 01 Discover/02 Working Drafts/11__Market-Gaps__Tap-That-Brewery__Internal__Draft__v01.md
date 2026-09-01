@@ -39,7 +39,7 @@ The category’s structural blind spot. Every competitor sells kegs; nobody owns
 
 | | |
 |---|---|
-| **Evidence** | The beers are gluten-reduced (cannot legally claim gluten-free) and the range skews lower-carb by design; discovery confirms the angle *exists but isn’t yet marketed* – it appears nowhere in venue signage or socials. The census (n=50) shows the customer is a moderator, not a binger: 57% use their system daily or most days, yet drink just ~1.55 kegs a month on average (census). |
+| **Evidence** | The beers are gluten-reduced (cannot legally claim gluten-free) and the range skews lower-carb by design; discovery confirms the angle *exists but isn’t yet marketed* – it appears nowhere in venue signage or socials. The census (n=49) shows the customer is a moderator, not a binger: 57% use their system daily or most days, yet drink just ~1.55 kegs a month on average (census). |
 | **Size signal** | D06's H7 flags it as a differentiator for the female market (the veto-holder on the #1 objection, "my wife won’t let me") and moderating drinkers. No local keg rival or distributor claims health credentials – a first-mover claim that costs copy, not capex. |
 | **What claiming it takes** | Compliance first: lock the permissible wording ("gluten-reduced," carb claims) before any copy ships. Then: tap decals/menu flags, a website range page, and the "fresher, better, not more" moderation frame from D02. Cheapest gap on this list to claim – and the easiest for a competitor to copy once spoken, so speed matters. |
 
@@ -66,7 +66,7 @@ Gap 1 is the strategy – cheapest CAC, direct line to the 1,000-customer target
 ## Assumptions & open items
 
 - All size signals are directional – no market sizing exists for GC keg-system installed base, 4WD accessory demand, or club venue counts.
-- Census figures are headline-only (n=50, full data pending); delivery fee tolerance rests on it.
+- Census figures are headline-only (n=49, full data pending); delivery fee tolerance rests on it.
 - Gluten-reduced/low-carb claims need compliance wording locked before use.
 - Benchy pricing and margin unconfirmed; competitor absence is the client’s claim, not a verified scan.
 - Competitor name closed 27 August: Aardvark and Arrow. Domain suspended and merged with Burleigh Homebrew, which widens this gap rather than narrowing it.
