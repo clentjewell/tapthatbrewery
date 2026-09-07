@@ -60,6 +60,13 @@ So split the job.
    in `pivot/flyer_content.py`, separate from the layout. Change a headline,
    re-run, get a new A4 at 200 dpi. No re-prompting, no lottery.
 
+4. **The typefaces are the ones the brand asks for.** Section 3 of the
+   guidelines wants bold condensed sans headlines over a plain workhorse sans,
+   and rules out scripts and serifs. Oswald over Barlow. Reference layouts of
+   this kind usually set the sub-heads in a serif, because it photographs
+   nicely. It is off-brand here, so the sub-heads are condensed sans and the
+   warmth comes from the gold instead.
+
 Four of them: weddings, bucks and hens, work functions, tours and tastings.
 Print-ready A4 PNGs plus a combined PDF are in
 `02 Design/03 Assets/event-flyers/`. Copy is a first pass and expects your edit.

@@ -2,16 +2,20 @@
 
 The point of doing it this way: an image model cannot set type, so asking one
 for a whole flyer gets you a picture of a flyer with mangled words on it. Here
-the photograph is the only generated-looking part and it is not generated at
-all -- it is Tap That's own venue, shot on the August site visit. Everything
-with an edge or a letterform is laid out in CSS at 200 dpi.
+the photograph is the only part that is generated, and everything with an edge
+or a letterform is laid out in CSS at 200 dpi.
 
-The layout copies Tap That's existing in-venue flyer (site-visit photo 22,
+Structure follows Tap That's own in-venue flyer (site-visit photo 22,
 "FUNCTIONS & KEG SYSTEM HIRE"): photo band up top with the headline over it,
-torn edge, badge on the seam, dark green ground, gold sub-heads, contact and
+a seam, the badge on the seam, dark green ground, gold sub-heads, contact and
 QR at the foot.
 
-    python3 build_flyers.py            # writes ../../..//02 Design/03 Assets/event-flyers
+Type follows 34 Brand Guidelines section 3, which asks for bold condensed
+sans headlines over a plain workhorse sans for body, and rules out scripts and
+serifs. Oswald over Barlow. No serif sub-heads, however well they photograph.
+
+    python3 build_flyers.py            # commissioned hero plates
+    python3 build_flyers.py --venue    # August site-visit photography
 """
 
 import base64
@@ -49,11 +53,13 @@ from flyer_content import FLYERS, CONTACT, SITE  # noqa: E402
 GREEN = "#14361D"
 GREEN_DEEP = "#0C2113"
 GOLD = "#CE9A49"
+GOLD_SOFT = "rgba(206,154,73,.45)"
 OFFWHITE = "#DFDFDF"
 
 DPI = 200
 W = round(210 / 25.4 * DPI)   # 1654
 H = round(297 / 25.4 * DPI)   # 2339
+BAND = 0.46                   # photo band as a fraction of the page
 
 
 def data_uri(path, mime):
@@ -67,11 +73,11 @@ def font_face(family, weight, filename):
 
 
 def hero(f):
-    """Crop to the photo band and grade it down so white type holds."""
+    """Crop to the photo band and grade it for type to sit over."""
     src = (PHOTOS / f["photo"]) if VENUE else (HEROES / f["hero"])
     bias = 0.28 if VENUE else f.get("hero_bias", 0.3)
     im = Image.open(src).convert("RGB")
-    target = W / (H * 0.46)
+    target = W / (H * BAND)
     w, h = im.size
     if w / h > target:                       # too wide, trim the sides
         new_w = int(h * target)
@@ -80,14 +86,14 @@ def hero(f):
         new_h = int(w / target)              # carries the subject
         top = int((h - new_h) * bias)
         im = im.crop((0, top, w, top + new_h))
-    im = im.resize((W, int(H * 0.46)), Image.LANCZOS)
-    im = ImageEnhance.Color(im).enhance(0.82)
-    # The site-visit frames are flat and need taking down hard before white
-    # type holds. The commissioned plates are already lit for it, so knocking
-    # them back that far only makes them muddy.
-    im = ImageEnhance.Brightness(im).enhance(0.72 if VENUE else 0.86)
+    im = im.resize((W, int(H * BAND)), Image.LANCZOS)
+    # The site-visit frames are flat and have to be taken down hard before
+    # white type holds. The commissioned plates are lit for it already, so the
+    # scrim in .band::after does that work and the plate keeps its warmth.
+    im = ImageEnhance.Color(im).enhance(0.82 if VENUE else 1.0)
+    im = ImageEnhance.Brightness(im).enhance(0.72 if VENUE else 0.95)
     buf = io.BytesIO()
-    im.save(buf, "JPEG", quality=88)
+    im.save(buf, "JPEG", quality=90)
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
@@ -108,92 +114,150 @@ def head_html(lines, gold_word):
     for line in lines:
         if gold_word and gold_word in line:
             before, after = line.split(gold_word, 1)
-            line = (f"{before}<span class='gold'>{gold_word}</span>{after}")
+            line = f"{before}<span class='gold'>{gold_word}</span>{after}"
         out.append(f"<span class='hl'>{line}</span>")
     return "".join(out)
+
+
+# --- drawn marks -----------------------------------------------------------
+# Line art, stroked in gold, no fills. A hop cone and a stein: both read at
+# 40px and neither depends on a typeface being present.
+
+HOP = """<svg viewBox="0 0 48 60"><g fill="none" stroke="currentColor"
+ stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M24 5c10 5 14 15 12 26-2 12-9 20-12 24-3-4-10-12-12-24C10 20 14 10 24 5z"/>
+ <path d="M12 19c5 3 9 9 12 15 3-6 7-12 12-15"/>
+ <path d="M13 32c5 3 9 8 11 13 2-5 6-10 11-13"/>
+ <path d="M24 5v50"/></g></svg>"""
+
+STEIN = """<svg viewBox="0 0 52 60"><g fill="none" stroke="currentColor"
+ stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M12 16h22l-2 32a5 5 0 0 1-5 4h-8a5 5 0 0 1-5-4z"/>
+ <path d="M34 23h6a6 6 0 0 1 0 13h-5"/>
+ <path d="M12 25h21"/>
+ <path d="M14 10c3-4 7-4 10 0 3-4 7-4 9 0"/></g></svg>"""
+
+MAIL = """<svg viewBox="0 0 32 24"><g fill="none" stroke="currentColor"
+ stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="2" y="3" width="28" height="18" rx="2"/>
+ <path d="M3 5l13 10L29 5"/></g></svg>"""
+
+# The seam. A shallow bowl: the green ground rides higher at the edges and
+# dips under the badge, which is where the printed flyer's torn edge sits.
+WAVE = """<svg class="wave" viewBox="0 0 1654 210" preserveAspectRatio="none">
+ <path d="M0 14C286 14 452 168 827 168 1202 168 1368 14 1654 14L1654 210 0 210Z"
+  fill="%(GREEN)s"/>
+ <path d="M0 14C286 14 452 168 827 168 1202 168 1368 14 1654 14"
+  fill="none" stroke="%(GOLD)s" stroke-width="5"/></svg>"""
 
 
 CSS = """
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:%(W)spx;height:%(H)spx}
 body{background:%(GREEN)s;color:%(OFFWHITE)s;
-     font-family:'Barlow Condensed',sans-serif;overflow:hidden;position:relative}
+     font-family:'Barlow',sans-serif;overflow:hidden;position:relative}
+svg{width:100%%;height:100%%;display:block}
 
-/* --- photo band, headline sits over it --- */
-.band{position:absolute;inset:0 0 auto 0;height:46%%;overflow:hidden}
+/* --- photo band, headline over it --- */
+.band{position:absolute;inset:0 0 auto 0;height:%(BANDPC)s%%;overflow:hidden}
 .band img{width:100%%;height:100%%;object-fit:cover;display:block}
-.band::after{content:'';position:absolute;inset:0;
-  background:linear-gradient(180deg,rgba(12,33,19,.62) 0%%,rgba(12,33,19,.30) 38%%,
-                             rgba(12,33,19,.78) 100%%)}
+/* Dark at the top where the type sits, open through the middle so the plate
+   keeps its depth, closing again into the seam. */
+.band::after{content:'';position:absolute;inset:0;background:linear-gradient(
+  180deg,rgba(8,22,13,.80) 0%%,rgba(8,22,13,.62) 26%%,rgba(8,22,13,.12) 52%%,
+  rgba(8,22,13,.30) 100%%)}
 
-/* The torn seam. A single clipped block, not a stripe: it is the top edge of
-   the green ground eating into the photograph, the way the printed one does. */
-.tear{position:absolute;left:0;right:0;top:calc(46%% - 46px);height:120px;
-  background:%(GREEN)s;z-index:2;
-  clip-path:polygon(0 54px,38px 31px,88px 49px,132px 22px,186px 46px,236px 18px,
-    292px 44px,348px 15px,402px 41px,458px 12px,516px 43px,572px 17px,628px 40px,
-    686px 13px,742px 45px,798px 19px,856px 38px,912px 14px,970px 42px,1026px 16px,
-    1084px 47px,1140px 20px,1198px 39px,1254px 13px,1312px 44px,1368px 18px,
-    1426px 41px,1482px 15px,1540px 46px,1596px 24px,1654px 50px,
-    1654px 120px,0 120px)}
+.wave{position:absolute;left:0;right:0;top:calc(%(BANDPC)s%% - 150px);
+  height:210px;z-index:2}
 
-.kicker{position:absolute;top:74px;left:0;right:0;text-align:center;z-index:3;
-  font-family:'Oswald',sans-serif;font-weight:500;font-size:34px;
-  letter-spacing:.42em;color:%(GOLD)s;text-transform:uppercase}
+/* --- kicker, rules either side --- */
+.kicker{position:absolute;top:96px;left:150px;right:150px;z-index:3;
+  display:flex;align-items:center;gap:26px;
+  font-family:'Oswald',sans-serif;font-weight:500;font-size:31px;
+  letter-spacing:.36em;color:%(GOLD)s;text-transform:uppercase}
+.kicker span{white-space:nowrap}
+.kicker i{flex:1;height:1px;background:%(GOLD_SOFT)s}
 
-.head{position:absolute;left:96px;right:96px;top:250px;z-index:3;text-align:center}
+.head{position:absolute;left:110px;right:110px;top:212px;z-index:3;
+  text-align:center}
 .hl{display:block;font-family:'Oswald',sans-serif;font-weight:700;
-    font-size:%(HEAD)spx;line-height:.98;letter-spacing:.005em;
-    text-transform:uppercase;color:#F4F2ED;
-    text-shadow:0 6px 26px rgba(0,0,0,.55)}
+    font-size:%(HEAD)spx;line-height:1.0;letter-spacing:.004em;
+    text-transform:uppercase;color:#F7F5F0;
+    text-shadow:0 8px 30px rgba(0,0,0,.6)}
 .gold{color:%(GOLD)s}
 
-/* --- badge on the seam --- */
 .badge{position:absolute;left:50%%;transform:translateX(-50%%);
-  top:calc(46%% - 22px);width:360px;z-index:4}
+  top:calc(%(BANDPC)s%% - 42px);width:336px;z-index:4}
 .badge img{width:100%%;display:block}
 
 /* --- green ground --- */
-.body{position:absolute;left:150px;right:150px;top:calc(46%% + 258px);
-      bottom:392px;text-align:center;
-      display:flex;flex-direction:column;justify-content:center;gap:70px}
-.blk h2{font-family:'Oswald',sans-serif;font-weight:600;font-size:56px;
-        letter-spacing:.02em;color:%(GOLD)s;margin-bottom:16px}
-.blk p{font-size:44px;line-height:1.28;color:%(OFFWHITE)s}
+.frame{position:absolute;left:64px;right:64px;top:calc(%(BANDPC)s%% + 200px);
+  bottom:64px;border:1px solid %(GOLD_SOFT)s;border-radius:6px;z-index:1}
 
-.strap{position:absolute;left:150px;right:150px;bottom:250px;text-align:center;
-  font-family:'Oswald',sans-serif;font-weight:500;font-size:38px;
-  letter-spacing:.13em;text-transform:uppercase;color:#F4F2ED;
-  padding-top:34px;border-top:2px solid rgba(206,154,73,.42)}
+.cols{position:absolute;left:132px;right:132px;top:calc(%(BANDPC)s%% + 268px);
+  display:flex;align-items:flex-start}
+.col{flex:1;padding:0 44px;text-align:center}
+.divider{width:1px;align-self:stretch;background:%(GOLD_SOFT)s}
+.ico{width:104px;height:104px;margin:0 auto 26px;border:2px solid %(GOLD)s;
+  border-radius:50%%;display:flex;align-items:center;justify-content:center;
+  color:%(GOLD)s}
+.ico svg{width:62px;height:72px}
+.col h2{font-family:'Oswald',sans-serif;font-weight:600;font-size:54px;
+        letter-spacing:.01em;color:%(GOLD)s;margin-bottom:20px;line-height:1.08;
+        min-height:118px;display:flex;align-items:center;
+        justify-content:center;text-align:center}
+.col p{font-size:38px;line-height:1.38;color:%(OFFWHITE)s}
 
-/* --- foot: QR left, contact right, as on the house flyer --- */
-.foot{position:absolute;left:150px;right:150px;bottom:92px;
-  display:flex;align-items:center;gap:38px;text-align:left}
-.foot img{width:150px;height:150px;display:block;
-  border:9px solid #fff;background:#fff;border-radius:6px}
-.cta{font-family:'Oswald',sans-serif;font-weight:600;font-size:44px;
-     letter-spacing:.03em;color:%(GOLD)s;line-height:1.1}
-.mail{font-size:40px;color:%(OFFWHITE)s;margin-top:8px;word-break:break-all}
+/* --- strapline, rules either side --- */
+.strap{position:absolute;left:150px;right:150px;bottom:%(STRAPB)spx;
+  display:flex;align-items:center;gap:26px;
+  font-family:'Oswald',sans-serif;font-weight:500;font-size:37px;
+  letter-spacing:.14em;text-transform:uppercase;color:#F7F5F0}
+.strap span{white-space:nowrap}
+.strap i{flex:1;height:1px;background:%(GOLD_SOFT)s}
+
+/* --- foot: QR, call to action, address, inside a gold-ruled box --- */
+.foot{position:absolute;left:132px;right:132px;bottom:120px;height:206px;
+  border:2px solid %(GOLD)s;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;gap:44px;
+  padding:0 46px}
+.foot>img{width:132px;height:132px;display:block;
+  border:8px solid #fff;background:#fff;border-radius:5px}
+.cta{font-family:'Oswald',sans-serif;font-weight:600;font-size:47px;
+     letter-spacing:.02em;color:%(GOLD)s;line-height:1.1}
+.mail{display:flex;align-items:center;gap:16px;margin-top:12px;
+      font-size:37px;color:%(OFFWHITE)s}
+.mail em{width:34px;height:26px;color:%(GOLD)s;font-style:normal;flex:none}
 """
 
 
 def build_html(f, fonts):
+    icons = [HOP, STEIN]
+    cols = []
+    for i, b in enumerate(f["blocks"]):
+        cols.append(
+            f"<div class='col'><div class='ico'>{icons[i % 2]}</div>"
+            f"<h2>{b['title']}</h2><p>{b['body']}</p></div>")
+    body = f"<div class='divider'></div>".join(cols)
+    css = CSS % dict(W=W, H=H, GREEN=GREEN, GOLD=GOLD, GOLD_SOFT=GOLD_SOFT,
+                     OFFWHITE=OFFWHITE, HEAD=130, BANDPC=BAND * 100,
+                     STRAPB=396)
     return f"""<!doctype html><html><head><meta charset="utf-8">
 <style>{fonts}
-{CSS % dict(W=W, H=H, GREEN=GREEN, GOLD=GOLD, OFFWHITE=OFFWHITE, HEAD=124)}
+{css}
 </style></head><body>
 <div class="band"><img src="{hero(f)}"></div>
-<div class="tear"></div>
-<div class="kicker">{f['kicker']}</div>
+{WAVE % dict(GREEN=GREEN, GOLD=GOLD)}
+<div class="kicker"><i></i><span>{f['kicker']}</span><i></i></div>
 <div class="head">{head_html(f['head'], f.get('gold_word'))}</div>
 <div class="badge"><img src="{data_uri(BRAND / 'tapthat-logo-hires.png', 'image/png')}"></div>
-<div class="body">
-  {''.join(f"<div class='blk'><h2>{b['title']}</h2><p>{b['body']}</p></div>" for b in f['blocks'])}
-</div>
-<div class="strap">{f['strap']}</div>
+<div class="frame"></div>
+<div class="cols">{body}</div>
+<div class="strap"><i></i><span>{f['strap']}</span><i></i></div>
 <div class="foot">
   <img src="{qr_uri(SITE)}">
-  <div><div class="cta">{f['cta']}</div><div class="mail">{CONTACT}</div></div>
+  <div><div class="cta">{f['cta']}</div>
+       <div class="mail"><em>{MAIL}</em>{CONTACT}</div></div>
 </div>
 </body></html>"""
 
@@ -210,21 +274,20 @@ const fs = require('fs');
   for (const j of jobs.items) {
     await page.goto('file://' + j.html);
     await page.evaluate(() => document.fonts.ready);
-    // Report anything that spills, so a copy edit cannot silently overflow.
+    // The collisions this layout can actually produce, tested rather than
+    // eyeballed, so a copy edit cannot quietly push something off the page.
     const spill = await page.evaluate((H) => {
       const bad = [];
       const box = (s) => document.querySelector(s).getBoundingClientRect();
-      for (const s of ['.kicker', '.head', '.body', '.strap', '.foot']) {
+      for (const s of ['.kicker', '.head', '.cols', '.strap', '.foot']) {
         const r = box(s);
         if (r.top < 0 || r.bottom > H - 8) bad.push(s + ' off page ' + Math.round(r.top) + '-' + Math.round(r.bottom));
       }
-      // The two overlaps this layout can actually produce.
-      if (box('.head').bottom > box('.tear').top) bad.push('headline runs into the tear');
-      if (box('.badge').bottom > box('.body').top) bad.push('badge sits on the first sub-head');
-      if (box('.body').bottom > box('.strap').top) bad.push('copy runs into the strapline');
-      // Copy clipped inside its own flex box.
-      const b = document.querySelector('.body');
-      if (b.scrollHeight > b.clientHeight + 2) bad.push('copy clipped by ' + (b.scrollHeight - b.clientHeight) + 'px');
+      if (box('.head').bottom > box('.wave').top) bad.push('headline runs into the seam');
+      if (box('.badge').bottom > box('.cols').top) bad.push('badge sits on the first sub-head');
+      if (box('.cols').bottom > box('.strap').top) bad.push('copy runs into the strapline');
+      if (box('.strap').bottom > box('.foot').top) bad.push('strapline runs into the foot');
+      if (box('.foot').bottom > box('.frame').bottom) bad.push('foot breaks the frame');
       return bad;
     }, jobs.h);
     if (spill.length) console.log('SPILL ' + j.png + ': ' + spill.join(' | '));
@@ -245,10 +308,8 @@ def main():
         font_face("Oswald", 500, "@fontsource/oswald/files/oswald-latin-500-normal.woff2"),
         font_face("Oswald", 600, "@fontsource/oswald/files/oswald-latin-600-normal.woff2"),
         font_face("Oswald", 700, "@fontsource/oswald/files/oswald-latin-700-normal.woff2"),
-        font_face("Barlow Condensed", 400,
-                  "@fontsource/barlow-condensed/files/barlow-condensed-latin-400-normal.woff2"),
-        font_face("Barlow Condensed", 600,
-                  "@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2"),
+        font_face("Barlow", 400, "@fontsource/barlow/files/barlow-latin-400-normal.woff2"),
+        font_face("Barlow", 500, "@fontsource/barlow/files/barlow-latin-500-normal.woff2"),
     ])
 
     items = []
@@ -267,7 +328,7 @@ def main():
     if r.returncode:
         sys.exit(r.returncode)
     if "SPILL" in r.stdout:
-        sys.exit("flyer text overflows its page -- shorten the copy or drop a size")
+        sys.exit("flyer layout collides -- shorten the copy or drop a size")
 
 
 if __name__ == "__main__":
