@@ -93,6 +93,25 @@ FINDINGS_B = {
 }
 
 # ------------------------------------------------------------------ slide 05
+# Documentary evidence, not decoration. Every caption states what is in the
+# photograph and nothing that is not.
+EVIDENCE = {
+    "eyebrow": "PART 01 · CONTEXT",
+    "head": "The room the strategy has to work in.",
+    "shots": [
+        ("04-tap-wall-left-craft-range.jpg",
+         "27 taps, and a third of them are not beer"),
+        ("03-taproom-price-board.jpg",
+         "The price board, as it stands"),
+        ("26-hop-on-brewery-tours-poster.jpg",
+         "The tour circuit already comes past"),
+        ("17-corny-keg-referral-rewards-sign.jpg",
+         "Referral rewards, already running"),
+    ],
+    "foot": "Site visit, August 2026. Twenty-seven photographs on file.",
+}
+
+# ------------------------------------------------------------------ slide 06
 NUMBERS = {
     "eyebrow": "PART 01 · CONTEXT",
     "head": "Tap Room is vanity. Refills are sanity.",

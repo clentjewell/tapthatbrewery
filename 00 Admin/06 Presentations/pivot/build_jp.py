@@ -15,10 +15,11 @@ import re
 import subprocess
 import sys
 
-from PIL import Image, ImageFont
+from PIL import Image, ImageEnhance, ImageFont
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
+PHOTOS = ROOT / "01 Discover" / "01 Inputs" / "site-visit-photos"
 FLYERS = ROOT / "02 Design" / "03 Assets" / "event-flyers"
 CONCEPTS = ROOT / "02 Design" / "03 Assets" / "concept-renders"
 DECK = ROOT / "00 Admin" / "06 Presentations" / "JP_TapThat_ThePivot_v03.pptx"
@@ -69,6 +70,79 @@ def head_lines(text, pt=42, width_in=11.333):
     return lines
 
 
+# jp-brand-presentation imagery direction: real rooms, available daylight,
+# documentary over editorial, cool and slightly desaturated. The venue shoots
+# warm under its own festoon lighting, so the grade is doing real work here,
+# not styling for its own sake.
+COOL = (74, 84, 98)
+
+
+def graded(src, out_name, aspect, darken=1.0, tint=0.10, crop_bias=0.4,
+           px=1800):
+    """Crop to an aspect, then put the photograph into the JP grade.
+
+    crop_bias applies on whichever axis is being trimmed, so a landscape frame
+    cropped to portrait keeps the part of the room worth keeping.
+    """
+    im = Image.open(PHOTOS / src).convert("RGB")
+    w, h = im.size
+    if w / h > aspect:
+        nw = int(h * aspect)
+        left = int((w - nw) * crop_bias)
+        im = im.crop((left, 0, left + nw, h))
+    else:
+        nh = int(w / aspect)
+        top = int((h - nh) * crop_bias)
+        im = im.crop((0, top, w, top + nh))
+    im = im.resize((px, round(px / aspect)), Image.LANCZOS)
+    im = ImageEnhance.Color(im).enhance(0.34)
+    im = Image.blend(im, Image.new("RGB", im.size, COOL), tint)
+    if darken != 1.0:
+        im = ImageEnhance.Brightness(im).enhance(darken)
+    out = BUILD / out_name
+    im.save(out, "JPEG", quality=88)
+    return str(out)
+
+
+# Where the divider's type sits, as a fraction of the plate. The scrim and the
+# legibility check both work against this box rather than the whole frame.
+TYPE_ZONE = (0.0, 0.26, 0.64, 0.76)
+
+
+def divider_plate(src, out_name, crop_bias=0.35):
+    """A divider photograph, taken down until Cream at 120pt is unmissable.
+
+    A flat brightness cut is not enough. A busy frame like the coolroom board
+    stays legible as a board and fights the word sitting on it, so the plate
+    also gets a scrim that runs dark on the left, where the type is, and opens
+    up on the right. Then the type zone's mean luminance is measured and the
+    whole plate is scaled until it passes. Eyeballing this is what let the
+    Execution divider through the first time.
+    """
+    path = graded(src, out_name, 13.333 / 7.5, darken=0.34, tint=0.16,
+                  crop_bias=crop_bias, px=2000)
+    im = Image.open(path).convert("RGB")
+    w, h = im.size
+
+    # Horizontal scrim: 0.16 at the left edge, easing to 1.0 by 92% across.
+    ramp = Image.linear_gradient("L").rotate(-90, expand=True).resize((w, h))
+    scrim = ramp.point(lambda v: round(255 * min(0.70, 0.14 + 0.72 * max(
+        0.0, (v / 255 - 0.28) / 0.64) ** 1.5)))
+    im = Image.composite(im, Image.new("RGB", (w, h), (0, 0, 0)), scrim)
+
+    x0, y0, x1, y1 = TYPE_ZONE
+    for _ in range(6):
+        zone = im.convert("L").crop((int(x0 * w), int(y0 * h),
+                                     int(x1 * w), int(y1 * h)))
+        mean = sum(i * n for i, n in enumerate(zone.histogram())) / (
+            zone.width * zone.height)
+        if mean <= 26:
+            break
+        im = ImageEnhance.Brightness(im).enhance(max(0.5, 26 / mean))
+    im.save(path, "JPEG", quality=88)
+    return path
+
+
 def for_screen(src, out_name, px):
     """Downsample print artwork for the deck. Originals stay at 200 dpi."""
     out = BUILD / out_name
@@ -79,9 +153,9 @@ def for_screen(src, out_name, px):
 
 
 def content_json():
-    keys = ["TITLE", "DIVIDERS", "FINDINGS_A", "FINDINGS_B", "NUMBERS",
-            "CAUTIONS", "CORE", "MORE", "FLYERS_SLIDE", "WEDDING", "CONCEPTS",
-            "HOUSEKEEPING", "HELP", "CLOSER"]
+    keys = ["TITLE", "DIVIDERS", "FINDINGS_A", "FINDINGS_B", "EVIDENCE",
+            "NUMBERS", "CAUTIONS", "CORE", "MORE", "FLYERS_SLIDE", "WEDDING",
+            "CONCEPTS", "HOUSEKEEPING", "HELP", "CLOSER"]
     data = {k: getattr(JP, k) for k in keys}
     # Every content slide lays itself out below its own headline.
     for v in data.values():
@@ -99,6 +173,24 @@ def content_json():
                                  "jp-01-weddings-lg.jpg", 1100),
         "concepts": {f.name: for_screen(f, f"jp-{f.stem}.jpg", 1100)
                      for f in sorted(CONCEPTS.glob("*.png"))},
+        # Half-bleed on the title, so it is cropped tall rather than wide.
+        "titlePhoto": graded("14-taproom-interior-brewhouse.jpg",
+                             "jp-title.jpg", 5.6 / 7.5, darken=0.86,
+                             crop_bias=0.3, px=1200),
+        "dividerPhotos": {
+            "context": divider_plate("16-beer-menu-screen-abv-prices.jpg",
+                                     "jp-div-context.jpg"),
+            "direction": divider_plate("05-tap-wall-right-rtds-seltzers.jpg",
+                                       "jp-div-direction.jpg"),
+            "collateral": divider_plate("20-taproom-bar-merch-wall.jpg",
+                                        "jp-div-collateral.jpg"),
+            "execution": divider_plate("18-coolroom-kegged-and-ready-board.jpg",
+                                       "jp-div-execution.jpg"),
+        },
+        "evidence": [graded(src, f"jp-ev-{i}.jpg", 4 / 5, darken=0.96,
+                            crop_bias=bias, px=900)
+                     for i, ((src, _), bias) in enumerate(
+                         zip(JP.EVIDENCE["shots"], (0.28, 0.5, 0.5, 0.5)))],
     }
     p = BUILD / "content.json"
     p.write_text(json.dumps(data, indent=1))

@@ -24,7 +24,7 @@ no accent bars, no decoration.
 
 The flyers inside it stay in Tap That's green and gold, because they are Tap
 That's collateral. Putting client artwork in our palette would make it useless
-to them. Slide 11 says so on the slide.
+to them. Slide 12 says so on the slide.
 
 ## The flyers, and the better way you asked about
 
@@ -63,20 +63,38 @@ thumbnails, and in any PDF export not made by PowerPoint itself. If those had
 gone to Justin as a PDF he would have seen two empty pages. The replacements
 are PNG.
 
+## The photography
+
+Half the deck now carries an image, and all of it is the August site visit.
+Nothing generated, nothing stock.
+
+The title runs the brewhouse full-bleed down the right third with the type
+holding the left. Each of the four dividers is a room graded back almost to
+Jewell Black, so the slide still reads as a word on black and the venue is just
+present behind it. And there is a new slide in Part 01, four photographs of what
+we actually walked into: the tap wall, the price board, the tour poster already
+on the wall, the referral sign already running. Captions state what is in the
+frame and nothing that is not.
+
+Everything is in the house grade, cool and desaturated, which is doing real work
+here rather than styling for its own sake. The venue shoots warm under its own
+festoon lighting and reads as a different brand entirely if you leave it alone.
+
 ## What the rebuild changed
 
-The draft was eleven undifferentiated slides. It is now seventeen: a title,
-four dividers, ten content slides and a closer. Same argument, house structure.
+The draft was eleven undifferentiated slides. It is now eighteen: a title,
+four dividers, eleven content slides and a closer. Same argument, house
+structure.
 
 | Slide | Change | Why |
 |---|---|---|
 | all | Rebuilt into the five JP slide types | a JP deck has no sixth type |
 | 03, 04 | Six findings split across two slides | the sixth ran off the bottom of the slide in the draft, and one idea per slide is the house rule |
-| 08, 09 | The ten moves set as hairline tables | a content slide is never bulleted |
-| 11 | Two EMF artworks replaced with four PNG flyers | EMF renders blank outside PowerPoint |
-| 06 | Census stated as **49** people, not about 50 | the raw response file has 49 rows, and the sample size is the whole argument for treating it as colour rather than a map |
-| 12 | The wireframe can and keg replaced with the flyer | it is the thing that would actually go out |
-| 17 | Closer added | we close on the next action, never on the last content slide |
+| 09, 10 | The ten moves set as hairline tables | a content slide is never bulleted |
+| 12 | Two EMF artworks replaced with four PNG flyers | EMF renders blank outside PowerPoint |
+| 07 | Census stated as **49** people, not about 50 | the raw response file has 49 rows, and the sample size is the whole argument for treating it as colour rather than a map |
+| 13 | The wireframe can and keg replaced with the flyer | it is the thing that would actually go out |
+| 18 | Closer added | we close on the next action, never on the last content slide |
 
 ## Five phrases had to change
 
@@ -99,11 +117,11 @@ reintroduce them by accident.
 - **The closer needs a date.** It reads "Wording finalised with Christy, then
   this deck goes to Justin." I have not invented a date for that. Clent sets it
   before it goes.
-- **Slide 13, the co-branded systems.** DeWalt, Ford Raptor and Harley marks on
+- **Slide 14, the co-branded systems.** DeWalt, Ford Raptor and Harley marks on
   renders nobody has licensed, and no one has been approached. There is a line
   on the slide saying exactly that. Worth keeping for the reaction it gets in
   the room, worth not putting in anything that leaves it.
-- **Slide 16.** I added "event flyer and campaign artwork, in the format shown"
+- **Slide 17.** I added "event flyer and campaign artwork, in the format shown"
   to the also-worth-adding column, on the basis that the flyers make the case
   themselves. Cut it if it reads as selling.
 

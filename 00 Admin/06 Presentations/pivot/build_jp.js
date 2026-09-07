@@ -88,6 +88,9 @@ function divider(key) {
   const [part, title, strap] = C.DIVIDERS[key];
   const s = pres.addSlide();
   s.background = { color: BLACK };
+  // Full bleed, graded almost to the Jewell Black ground it replaces. The
+  // slide still reads as type on black; the room is just present behind it.
+  s.addImage({ path: A.dividerPhotos[key], x: 0, y: 0, w: W, h: H });
   s.addText(part, {
     x: M, y: 0.42, w: COL, h: 0.28, isTextBox: true, margin: 0,
     fontFace: LIGHT, fontSize: 14, color: CREAM, charSpacing: 3,
@@ -106,21 +109,26 @@ function divider(key) {
 /* ------------------------------------------------------------- 01 title */
 {
   const s = cream();
+  // Off-centre framing, per the imagery direction. The type keeps the left
+  // two thirds and the room takes the right, full bleed to three edges.
+  const pw = 5.6;
+  s.addImage({ path: A.titlePhoto, x: W - pw, y: 0, w: pw, h: H });
+  const tw = W - pw - M - 0.6;
   s.addText(C.TITLE.topbar, {
-    x: M, y: 0.4, w: COL, h: 0.24, isTextBox: true, margin: 0,
+    x: M, y: 0.4, w: tw, h: 0.24, isTextBox: true, margin: 0,
     fontFace: MED, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   s.addText(C.TITLE.title, {
-    x: M - 0.08, y: 4.35, w: COL, h: 1.15, isTextBox: true, margin: 0,
+    x: M - 0.08, y: 4.05, w: tw, h: 1.15, isTextBox: true, margin: 0,
     fontFace: SEMI, fontSize: 72, color: BLACK,
   });
   s.addText(C.TITLE.sub, {
-    x: M, y: 5.62, w: COL, h: 0.5, isTextBox: true, margin: 0,
-    fontFace: LIGHT, fontSize: 28, color: BLACK,
+    x: M, y: 5.3, w: tw, h: 1.0, isTextBox: true, margin: 0,
+    fontFace: LIGHT, fontSize: 24, color: BLACK, lineSpacingMultiple: 1.2,
   });
   s.addText(C.TITLE.date, {
-    x: W - M - 4, y: 6.5, w: 4, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 11, color: GREY, align: 'right',
+    x: M, y: 6.55, w: tw, h: 0.3, isTextBox: true, margin: 0,
+    fontFace: REG, fontSize: 11, color: GREY,
   });
   s.addNotes('The plan is sound. The shape is the problem, and that is a much '
     + 'better problem to have. Everything after this is about focus.');
@@ -159,7 +167,26 @@ findingsSlide(C.FINDINGS_A).addNotes('The second finding is the whole deck. '
 findingsSlide(C.FINDINGS_B).addNotes('Six is the one that gives permission to '
   + 'change the shape of the business.');
 
-/* ------------------------------------------------------------ 05 numbers */
+/* ----------------------------------------------------------- 05 evidence */
+{
+  const d = C.EVIDENCE;
+  const s = content(d);
+  const iw = (COL - 3 * 0.34) / 4, ih = iw * 5 / 4;
+  d.shots.forEach((shot, i) => {
+    const x = M + i * (iw + 0.34);
+    s.addImage({ path: A.evidence[i], x, y: s.y0, w: iw, h: ih });
+    rule(s, x, s.y0 + ih + 0.22, iw);
+    s.addText(shot[1], {
+      x, y: s.y0 + ih + 0.34, w: iw, h: 0.7, isTextBox: true, margin: 0,
+      fontFace: REG, fontSize: 12, color: BLACK, lineSpacingMultiple: 1.28,
+    });
+  });
+  footnote(s, d.foot);
+  s.addNotes('Everything in this deck comes out of this room. Worth a beat '
+    + 'before the numbers.');
+}
+
+/* ------------------------------------------------------------ 06 numbers */
 {
   const d = C.NUMBERS;
   const s = content(d);
