@@ -29,7 +29,13 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 PHOTOS = ROOT / "01 Discover" / "01 Inputs" / "site-visit-photos"
 BRAND = ROOT / "00 Admin" / "11 Final Outputs" / "brand-source"
-OUT = ROOT / "02 Design" / "03 Assets" / "event-flyers"
+HEROES = ROOT / "02 Design" / "03 Assets" / "generated-heroes"
+# --venue rebuilds the same four flyers on August site-visit photography, for
+# anything that goes out as Tap That's own marketing rather than as concept
+# artwork. Same copy, same layout, different plate.
+VENUE = "--venue" in sys.argv
+OUT = ROOT / "02 Design" / "03 Assets" / (
+    "event-flyers-venue" if VENUE else "event-flyers")
 NODE_MODULES = os.environ.get(
     "PIVOT_NODE_MODULES",
     "/tmp/claude-0/-home-user-tapthatbrewery/aff657a1-809f-5111-b96e-244c77408e59"
@@ -60,21 +66,26 @@ def font_face(family, weight, filename):
             f"font-style:normal;src:url({uri}) format('woff2');}}")
 
 
-def hero(photo_name):
+def hero(f):
     """Crop to the photo band and grade it down so white type holds."""
-    im = Image.open(PHOTOS / photo_name).convert("RGB")
+    src = (PHOTOS / f["photo"]) if VENUE else (HEROES / f["hero"])
+    bias = 0.28 if VENUE else f.get("hero_bias", 0.3)
+    im = Image.open(src).convert("RGB")
     target = W / (H * 0.46)
     w, h = im.size
     if w / h > target:                       # too wide, trim the sides
         new_w = int(h * target)
         im = im.crop(((w - new_w) // 2, 0, (w - new_w) // 2 + new_w, h))
-    else:                                    # too tall, keep the middle band
-        new_h = int(w / target)
-        top = int((h - new_h) * 0.28)
+    else:                                    # too tall, keep the band that
+        new_h = int(w / target)              # carries the subject
+        top = int((h - new_h) * bias)
         im = im.crop((0, top, w, top + new_h))
     im = im.resize((W, int(H * 0.46)), Image.LANCZOS)
     im = ImageEnhance.Color(im).enhance(0.82)
-    im = ImageEnhance.Brightness(im).enhance(0.72)
+    # The site-visit frames are flat and need taking down hard before white
+    # type holds. The commissioned plates are already lit for it, so knocking
+    # them back that far only makes them muddy.
+    im = ImageEnhance.Brightness(im).enhance(0.72 if VENUE else 0.86)
     buf = io.BytesIO()
     im.save(buf, "JPEG", quality=88)
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
@@ -171,7 +182,7 @@ def build_html(f, fonts):
 <style>{fonts}
 {CSS % dict(W=W, H=H, GREEN=GREEN, GOLD=GOLD, OFFWHITE=OFFWHITE, HEAD=124)}
 </style></head><body>
-<div class="band"><img src="{hero(f['photo'])}"></div>
+<div class="band"><img src="{hero(f)}"></div>
 <div class="tear"></div>
 <div class="kicker">{f['kicker']}</div>
 <div class="head">{head_html(f['head'], f.get('gold_word'))}</div>

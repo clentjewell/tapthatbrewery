@@ -231,10 +231,12 @@ MORE = {
 FLYERS_SLIDE = {
     "eyebrow": "PART 03 · COLLATERAL",
     "head": "The destination business, sold the way the venue already sells it.",
-    "body": "Format taken from Tap That's own in-venue flyer. Photography is "
-            "the August site visit, not stock. These sit in Tap That's brand, "
-            "not ours, because they are the client's collateral. Print-ready "
-            "A4 at 200 dpi.",
+    "body": "Format taken from Tap That's own in-venue flyer. The plates are "
+            "commissioned concept photography: product and room, no people, no "
+            "set type. A second set built on August site-visit photography is "
+            "in the folder, for anything that goes out as their own marketing. "
+            "These sit in Tap That's brand, not ours, because they are the "
+            "client's collateral. Print-ready A4 at 200 dpi.",
     "captions": ["Weddings", "Bucks and hens", "Work functions",
                  "Tours and tastings"],
 }

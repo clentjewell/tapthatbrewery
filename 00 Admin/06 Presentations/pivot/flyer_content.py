@@ -1,4 +1,13 @@
-"""Copy for the four event flyers on slide 06 of The Pivot.
+"""Copy for the four event flyers.
+
+Two hero sets. "hero" is a commissioned plate: product and room, no people,
+no text, lit and composed for the format. "photo" is the August site visit,
+used by the --venue build.
+
+Tap That's own guidelines (34, section 5) rule out anything that could not
+have been taken at Burleigh Heads, so the commissioned set is presented as
+concept artwork and the venue set stays buildable for anything that goes out
+as their own marketing.
 
 Kept apart from the renderer so Christy can rewrite the words without
 touching layout code. Every claim here is either already on Tap That's own
@@ -15,6 +24,8 @@ SITE = "https://tapthatbrewery.com.au/"
 FLYERS = [
     {
         "slug": "01-weddings",
+        "hero": "01-weddings.png",
+        "hero_bias": 0.22,
         # Real venue photography only -- 34 Brand Guidelines section 5 rules
         # out stock models and studio gloss.
         "photo": "04-tap-wall-left-craft-range.jpg",
@@ -40,6 +51,8 @@ FLYERS = [
     },
     {
         "slug": "02-bucks-and-hens",
+        "hero": "02-bucks-and-hens.png",
+        "hero_bias": 0.34,
         "photo": "05-tap-wall-right-rtds-seltzers.jpg",
         "kicker": "BUCKS & HENS AT TAP THAT",
         "head": ["THE LAST ROUND", "BEFORE THE BIG ONE"],
@@ -63,6 +76,8 @@ FLYERS = [
     },
     {
         "slug": "03-work-functions",
+        "hero": "03-work-functions.png",
+        "hero_bias": 0.3,
         "photo": "20-taproom-bar-merch-wall.jpg",
         "kicker": "WORK FUNCTIONS AT TAP THAT",
         "head": ["THE WORK DO,", "DONE PROPERLY"],
@@ -86,6 +101,8 @@ FLYERS = [
     },
     {
         "slug": "04-tours-and-tastings",
+        "hero": "04-tours-and-tastings.png",
+        "hero_bias": 0.34,
         "photo": "14-taproom-interior-brewhouse.jpg",
         "kicker": "TOURS & TASTINGS AT TAP THAT",
         "head": ["STAND IN THE", "BREWHOUSE"],

@@ -42,11 +42,19 @@ So split the job.
    they came from the same place as the one already on their bar, because in
    format terms they did.
 
-2. **The imagery is real, and it is theirs.** All four use August site-visit
-   photography: the tap wall twice, the bar, the brewhouse. Nothing generated,
-   no stock. Their own guidelines rule stock models out anyway, and the venue
-   is a better hero than a stock couple laughing at a beer. The venue is the
-   thing being hired.
+2. **The plates are commissioned, and there are two sets.** The set in the
+   deck is generated concept photography: the keg on the reception table, the
+   tasting paddle, the long table set up in the brewhouse, the fermenters.
+   Product and room, no people, no set type, composed for the format. A second
+   set built on August site-visit photography sits in
+   `02 Design/03 Assets/event-flyers-venue/`.
+
+   **Which set goes out matters.** Tap That's own guidelines (34, section 5)
+   rule out anything that could not have been taken at Burleigh Heads. The
+   generated set is the better-looking one and it is the right thing to show
+   in a concept deck. If these become real venue marketing, either shoot the
+   four frames properly or run the venue set. Do not let a generated plate go
+   out labelled as their brewery.
 
 3. **The type is set in code, so it is exact and it is editable.** Copy lives
    in `pivot/flyer_content.py`, separate from the layout. Change a headline,
@@ -89,8 +97,9 @@ effort:
 
 ## The photography
 
-Eight of eighteen slides carry an image, and all of it is the August site
-visit. Nothing generated, nothing stock.
+Eight of eighteen slides carry an image. The deck's own photography, meaning
+the title, the four dividers and the evidence slide, is all August site visit.
+The flyer plates on slides 12 and 13 are generated, and the slide says so.
 
 Each of the four dividers is a room graded back almost to Jewell Black, so the
 slide still reads as a word on black and the venue is just present behind it.
