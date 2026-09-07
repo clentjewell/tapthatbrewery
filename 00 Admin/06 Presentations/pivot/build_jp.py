@@ -173,10 +173,6 @@ def content_json():
                                  "jp-01-weddings-lg.jpg", 1100),
         "concepts": {f.name: for_screen(f, f"jp-{f.stem}.jpg", 1100)
                      for f in sorted(CONCEPTS.glob("*.png"))},
-        # Half-bleed on the title, so it is cropped tall rather than wide.
-        "titlePhoto": graded("14-taproom-interior-brewhouse.jpg",
-                             "jp-title.jpg", 5.6 / 7.5, darken=0.86,
-                             crop_bias=0.3, px=1200),
         "dividerPhotos": {
             "context": divider_plate("16-beer-menu-screen-abv-prices.jpg",
                                      "jp-div-context.jpg"),

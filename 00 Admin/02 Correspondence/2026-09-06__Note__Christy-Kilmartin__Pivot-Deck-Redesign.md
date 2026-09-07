@@ -63,18 +63,28 @@ thumbnails, and in any PDF export not made by PowerPoint itself. If those had
 gone to Justin as a PDF he would have seen two empty pages. The replacements
 are PNG.
 
+## Type
+
+Two weights and nothing else. Poppins SemiBold carries every heading, figure
+and label. Poppins Regular carries every line meant to be read as a sentence.
+Light and Medium are gone from the deck entirely, so nothing can drift back to
+a third weight on the next edit.
+
+Everything now aligns hard to the one inch margin. The big type used to carry
+small optical nudges, which meant three different left edges across the deck
+depending on the slide. One margin, no exceptions.
+
 ## The photography
 
-Half the deck now carries an image, and all of it is the August site visit.
-Nothing generated, nothing stock.
+Eight of eighteen slides carry an image, and all of it is the August site
+visit. Nothing generated, nothing stock.
 
-The title runs the brewhouse full-bleed down the right third with the type
-holding the left. Each of the four dividers is a room graded back almost to
-Jewell Black, so the slide still reads as a word on black and the venue is just
-present behind it. And there is a new slide in Part 01, four photographs of what
-we actually walked into: the tap wall, the price board, the tour poster already
-on the wall, the referral sign already running. Captions state what is in the
-frame and nothing that is not.
+Each of the four dividers is a room graded back almost to Jewell Black, so the
+slide still reads as a word on black and the venue is just present behind it.
+There is a new slide in Part 01, four photographs of what we actually walked
+into: the tap wall, the price board, the tour poster already on the wall, the
+referral sign already running. Captions state what is in the frame and nothing
+that is not. The title slide is type on Cream, no image.
 
 Everything is in the house grade, cool and desaturated, which is doing real work
 here rather than styling for its own sake. The venue shoots warm under its own
@@ -95,6 +105,7 @@ structure.
 | 07 | Census stated as **49** people, not about 50 | the raw response file has 49 rows, and the sample size is the whole argument for treating it as colour rather than a map |
 | 13 | The wireframe can and keg replaced with the flyer | it is the thing that would actually go out |
 | 18 | Closer added | we close on the next action, never on the last content slide |
+| 14 | Concept renders regridded to a true 16:9 with the caveat in its own column | they were being cover-cropped into a 2.8:1 letterbox that sliced the tops and bottoms off the units |
 
 ## Five phrases had to change
 

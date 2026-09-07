@@ -29,9 +29,10 @@ const CALM = 'EDEBEA';
 const HAIR = 'D8D4CF';       // Calm Grey a shade down, so a 0.75pt rule reads
 const BLUE = '2D5BFF';       // Signal Blue. Slide 05 only.
 
-const LIGHT = 'Poppins Light';
+// Two weights, as briefed. SemiBold carries every heading, figure and label;
+// Regular carries every line meant to be read as a sentence. Poppins Light and
+// Medium are deliberately absent, so nothing can drift back to a third weight.
 const REG = 'Poppins';
-const MED = 'Poppins Medium';
 const SEMI = 'Poppins SemiBold';
 
 const W = 13.333, H = 7.5, M = 1.0;
@@ -62,13 +63,13 @@ function content(d) {
   const s = cream();
   s.addText(d.eyebrow.toUpperCase(), {
     x: M, y: 0.42, w: COL, h: 0.22, isTextBox: true, margin: 0,
-    fontFace: MED, fontSize: 9, color: BLACK, charSpacing: 2,
+    fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   const lines = d.headLines || 1;
   const headH = lines * 0.62;
   s.addText(d.head, {
     x: M, y: 0.86, w: COL, h: headH, isTextBox: true, margin: 0,
-    fontFace: MED, fontSize: 42, color: BLACK, valign: 'top',
+    fontFace: SEMI, fontSize: 42, color: BLACK, valign: 'top',
     lineSpacingMultiple: 1.06,
   });
   // 48px below the headline, per the brand book spacing scale.
@@ -93,15 +94,15 @@ function divider(key) {
   s.addImage({ path: A.dividerPhotos[key], x: 0, y: 0, w: W, h: H });
   s.addText(part, {
     x: M, y: 0.42, w: COL, h: 0.28, isTextBox: true, margin: 0,
-    fontFace: LIGHT, fontSize: 14, color: CREAM, charSpacing: 3,
+    fontFace: SEMI, fontSize: 14, color: CREAM, charSpacing: 3,
   });
   s.addText(title, {
-    x: M - 0.1, y: 2.5, w: COL, h: 1.9, isTextBox: true, margin: 0,
-    fontFace: LIGHT, fontSize: 120, color: CREAM, valign: 'middle',
+    x: M, y: 2.5, w: COL, h: 1.9, isTextBox: true, margin: 0,
+    fontFace: SEMI, fontSize: 120, color: CREAM, valign: 'middle',
   });
   s.addText(strap, {
     x: M, y: 4.68, w: 8.5, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: LIGHT, fontSize: 16, color: CREAM,
+    fontFace: SEMI, fontSize: 16, color: CREAM,
   });
   return s;
 }
@@ -109,25 +110,22 @@ function divider(key) {
 /* ------------------------------------------------------------- 01 title */
 {
   const s = cream();
-  // Off-centre framing, per the imagery direction. The type keeps the left
-  // two thirds and the room takes the right, full bleed to three edges.
-  const pw = 5.6;
-  s.addImage({ path: A.titlePhoto, x: W - pw, y: 0, w: pw, h: H });
-  const tw = W - pw - M - 0.6;
+  const tw = COL;
   s.addText(C.TITLE.topbar, {
     x: M, y: 0.4, w: tw, h: 0.24, isTextBox: true, margin: 0,
-    fontFace: MED, fontSize: 9, color: BLACK, charSpacing: 2,
+    fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   s.addText(C.TITLE.title, {
-    x: M - 0.08, y: 4.05, w: tw, h: 1.15, isTextBox: true, margin: 0,
+    x: M, y: 4.42, w: tw, h: 1.15, isTextBox: true, margin: 0,
     fontFace: SEMI, fontSize: 72, color: BLACK,
   });
+  // Subtitle is a sentence, so it reads in Regular even at 28pt.
   s.addText(C.TITLE.sub, {
-    x: M, y: 5.3, w: tw, h: 1.0, isTextBox: true, margin: 0,
-    fontFace: LIGHT, fontSize: 24, color: BLACK, lineSpacingMultiple: 1.2,
+    x: M, y: 5.68, w: tw, h: 0.5, isTextBox: true, margin: 0,
+    fontFace: REG, fontSize: 28, color: BLACK,
   });
   s.addText(C.TITLE.date, {
-    x: M, y: 6.55, w: tw, h: 0.3, isTextBox: true, margin: 0,
+    x: M, y: 6.5, w: tw, h: 0.3, isTextBox: true, margin: 0,
     fontFace: REG, fontSize: 11, color: GREY,
   });
   s.addNotes('The plan is sound. The shape is the problem, and that is a much '
@@ -147,11 +145,11 @@ function findingsSlide(d) {
     rule(s, M, y, COL);
     s.addText(it[0], {
       x: M, y: y + 0.16, w: 0.7, h: 0.42, isTextBox: true, margin: 0,
-      fontFace: LIGHT, fontSize: 24, color: GREY,
+      fontFace: SEMI, fontSize: 24, color: GREY,
     });
     s.addText(it[1], {
       x: M + 0.85, y: y + 0.16, w: 3.9, h: 0.9, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 15, color: BLACK, lineSpacingMultiple: 1.14,
+      fontFace: SEMI, fontSize: 15, color: BLACK, lineSpacingMultiple: 1.14,
     });
     s.addText(it[2], {
       x: M + 5.05, y: y + 0.16, w: COL - 5.05, h: 1.1, isTextBox: true,
@@ -197,7 +195,7 @@ findingsSlide(C.FINDINGS_B).addNotes('Six is the one that gives permission to '
     // The one place Signal Blue appears. These three figures are the argument.
     s.addText(st[0], {
       x, y: s.y0 + 0.16, w: cw, h: 1.0, isTextBox: true, margin: 0,
-      fontFace: LIGHT, fontSize: 60, color: BLUE,
+      fontFace: SEMI, fontSize: 60, color: BLUE,
     });
     s.addText(st[1], {
       x, y: s.y0 + 1.28, w: cw, h: 1.3, isTextBox: true, margin: 0,
@@ -223,7 +221,7 @@ findingsSlide(C.FINDINGS_B).addNotes('Six is the one that gives permission to '
     rule(s, x, s.y0, cw);
     s.addText(c[0], {
       x, y: s.y0 + 0.2, w: cw, h: 0.34, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 14, color: BLACK,
+      fontFace: SEMI, fontSize: 14, color: BLACK,
     });
     s.addText(c[1], {
       x, y: s.y0 + 0.66, w: cw, h: 2.0, isTextBox: true, margin: 0,
@@ -244,13 +242,13 @@ function movesSlide(d) {
   const widths = [2.5, 2.35, 2.25, 4.233];
   const head = d.cols.map((t) => ({
     text: t,
-    options: { fontFace: MED, fontSize: 9, color: BLACK, charSpacing: 2,
+    options: { fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
                fill: { color: CALM }, margin: [6, 8, 6, 8], valign: 'middle' },
   }));
   const body = d.rows.map((r) => r.map((cell, k) => ({
     text: cell,
     options: {
-      fontFace: k === 0 ? MED : REG, fontSize: k === 0 ? 11 : 9.5,
+      fontFace: k === 0 ? SEMI : REG, fontSize: k === 0 ? 11 : 9.5,
       color: BLACK, margin: [9, 8, 9, 8], valign: 'top',
       lineSpacing: k === 0 ? 14 : 12,
     },
@@ -283,7 +281,7 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
     s.addImage({ path: p, x, y: s.y0, w: fw, h: fh });
     s.addText(d.captions[i], {
       x, y: s.y0 + fh + 0.08, w: fw, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 10, color: BLACK,
+      fontFace: SEMI, fontSize: 10, color: BLACK,
     });
   });
   s.addNotes('These replace the two flyer artworks in the earlier draft, which '
@@ -299,7 +297,7 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
   s.addImage({ path: A.flyerLarge, x: M, y: s.y0, w: iw, h: ih });
   s.addText('The artwork, ready to send', {
     x: M, y: s.y0 + ih + 0.1, w: iw, h: 0.26, isTextBox: true, margin: 0,
-    fontFace: MED, fontSize: 10, color: BLACK,
+    fontFace: SEMI, fontSize: 10, color: BLACK,
   });
 
   const x2 = M + iw + 0.75, cw = W - M - x2;
@@ -308,11 +306,11 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
     rule(s, x2, y, cw);
     s.addText(st[0], {
       x: x2, y: y + 0.12, w: 0.55, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: LIGHT, fontSize: 16, color: GREY,
+      fontFace: SEMI, fontSize: 16, color: GREY,
     });
     s.addText(st[1], {
       x: x2 + 0.6, y: y + 0.12, w: 2.5, h: 0.32, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 13, color: BLACK,
+      fontFace: SEMI, fontSize: 13, color: BLACK,
     });
     s.addText(st[2], {
       x: x2 + 3.2, y: y + 0.12, w: cw - 3.2, h: 0.62, isTextBox: true,
@@ -324,7 +322,7 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
 
   s.addText(d.strap, {
     x: x2, y: s.y0 + 3.66, w: cw, h: 0.24, isTextBox: true, margin: 0,
-    fontFace: MED, fontSize: 9, color: BLACK, charSpacing: 2,
+    fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   s.addText(d.body, {
     x: x2, y: s.y0 + 3.94, w: cw, h: 0.6, isTextBox: true, margin: 0,
@@ -338,21 +336,29 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
 {
   const d = C.CONCEPTS;
   const s = content(d);
-  footnote(s, d.body);
-  const cw = (COL - 0.5) / 2;
-  // Two rows plus captions have to finish clear of the footnote at 6.72.
-  const ih = (6.5 - s.y0 - 0.72) / 2;
+  // The renders were being cover-cropped into a 2.8:1 letterbox to make two
+  // full-width rows fit, which sliced the tops and bottoms off the units and
+  // read as stretched. The grid now holds a true 16:9 and takes the left two
+  // thirds; the caveat moves into a right-hand column rather than the foot,
+  // which is what pays for the width the images give up.
+  const iw = 3.10, ih = iw * 9 / 16, gap = 0.26, rowGap = 0.55;
   d.images.forEach((im, i) => {
-    const x = M + (i % 2) * (cw + 0.5);
-    const y = s.y0 + Math.floor(i / 2) * (ih + 0.46);
+    const x = M + (i % 2) * (iw + gap);
+    const y = s.y0 + Math.floor(i / 2) * (ih + rowGap);
     s.addImage({
-      path: A.concepts[im[0]], x, y, w: cw, h: ih,
-      sizing: { type: 'cover', w: cw, h: ih },
+      path: A.concepts[im[0]], x, y, w: iw, h: ih,
+      sizing: { type: 'cover', w: iw, h: ih },
     });
     s.addText(im[1], {
-      x, y: y + ih + 0.06, w: cw, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 10, color: BLACK,
+      x, y: y + ih + 0.1, w: iw, h: 0.26, isTextBox: true, margin: 0,
+      fontFace: SEMI, fontSize: 10, color: BLACK,
     });
+  });
+  const nx = M + 2 * iw + gap + 0.8;
+  rule(s, nx, s.y0, W - M - nx);
+  s.addText(d.body, {
+    x: nx, y: s.y0 + 0.14, w: W - M - nx, h: 3.2, isTextBox: true, margin: 0,
+    fontFace: REG, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.4,
   });
   s.addNotes('Concepts only. Nobody has been approached and the marks are not '
     + 'licensed. Worth showing because the reaction tells you which '
@@ -373,7 +379,7 @@ divider('execution').addNotes('None of these is a big job. All of them are '
     rule(s, M, y, COL);
     s.addText(r[0], {
       x: M, y: y + 0.16, w: 2.6, h: 0.34, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 14, color: BLACK,
+      fontFace: SEMI, fontSize: 14, color: BLACK,
     });
     s.addText(r[1], {
       x: M + 2.8, y: y + 0.16, w: COL - 2.8, h: 0.62, isTextBox: true,
@@ -393,7 +399,7 @@ divider('execution').addNotes('None of these is a big job. All of them are '
     const x = M + i * (cw + gap);
     s.addText(col[0], {
       x, y: s.y0, w: cw, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: MED, fontSize: 9, color: BLACK, charSpacing: 2,
+      fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
     });
     col[1].forEach((item, k) => {
       const y = s.y0 + 0.38 + k * 0.62;
@@ -414,7 +420,7 @@ divider('execution').addNotes('None of these is a big job. All of them are '
   const d = C.CLOSER;
   const s = cream();
   s.addText(d.word, {
-    x: M - 0.12, y: 2.4, w: COL, h: 1.9, isTextBox: true, margin: 0,
+    x: M, y: 2.4, w: COL, h: 1.9, isTextBox: true, margin: 0,
     fontFace: SEMI, fontSize: 120, color: BLACK, valign: 'middle',
   });
   s.addText(d.line1, {
