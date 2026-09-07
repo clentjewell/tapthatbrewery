@@ -22,8 +22,24 @@ ROOT = HERE.parents[2]
 PHOTOS = ROOT / "01 Discover" / "01 Inputs" / "site-visit-photos"
 FLYERS = ROOT / "02 Design" / "03 Assets" / "event-flyers"
 CONCEPTS = ROOT / "02 Design" / "03 Assets" / "concept-renders"
-DECK = ROOT / "00 Admin" / "06 Presentations" / "JP_TapThat_ThePivot_v03.pptx"
-BUILD = HERE / "build-jp"
+# --slim builds a screen-weight copy for upload. Google Slides re-encodes
+# everything it is handed anyway, and a base64 upload of the full-resolution
+# deck is far too large to pass through a tool call.
+SLIM = "--slim" in sys.argv
+NAME = "JP_TapThat_ThePivot_v03" + ("_slides" if SLIM else "")
+DECK = ROOT / "00 Admin" / "06 Presentations" / f"{NAME}.pptx"
+BUILD = HERE / ("build-jp-slim" if SLIM else "build-jp")
+
+
+def asset_px(full):
+    """Asset width in pixels, reduced for the slim build."""
+    return round(full * 0.68) if SLIM else full
+
+
+# Slides re-encodes every image it is handed, so the slim copy trades JPEG
+# quality rather than resolution. The divider plates are nearly black and lose
+# almost nothing at q58; dropping their pixel width instead would show.
+JPEG_Q = 58 if SLIM else 88
 
 NODE_MODULES = os.environ.get(
     "PIVOT_NODE_MODULES",
@@ -100,7 +116,7 @@ def graded(src, out_name, aspect, darken=1.0, tint=0.10, crop_bias=0.4,
     if darken != 1.0:
         im = ImageEnhance.Brightness(im).enhance(darken)
     out = BUILD / out_name
-    im.save(out, "JPEG", quality=88)
+    im.save(out, "JPEG", quality=JPEG_Q)
     return str(out)
 
 
@@ -120,7 +136,7 @@ def divider_plate(src, out_name, crop_bias=0.35):
     Execution divider through the first time.
     """
     path = graded(src, out_name, 13.333 / 7.5, darken=0.34, tint=0.16,
-                  crop_bias=crop_bias, px=2000)
+                  crop_bias=crop_bias, px=asset_px(2000))
     im = Image.open(path).convert("RGB")
     w, h = im.size
 
@@ -139,7 +155,7 @@ def divider_plate(src, out_name, crop_bias=0.35):
         if mean <= 26:
             break
         im = ImageEnhance.Brightness(im).enhance(max(0.5, 26 / mean))
-    im.save(path, "JPEG", quality=88)
+    im.save(path, "JPEG", quality=JPEG_Q)
     return path
 
 
@@ -148,7 +164,7 @@ def for_screen(src, out_name, px):
     out = BUILD / out_name
     im = Image.open(src).convert("RGB")
     im = im.resize((px, round(px * im.height / im.width)), Image.LANCZOS)
-    im.save(out, "JPEG", quality=88)
+    im.save(out, "JPEG", quality=JPEG_Q)
     return str(out)
 
 
@@ -167,11 +183,11 @@ def content_json():
         if not (FLYERS / f"{n}.png").exists():
             sys.exit(f"missing flyer {n} -- run build_flyers.py first")
     data["_assets"] = {
-        "flyers": [for_screen(FLYERS / f"{n}.png", f"jp-{n}.jpg", 800)
+        "flyers": [for_screen(FLYERS / f"{n}.png", f"jp-{n}.jpg", asset_px(800))
                    for n in names],
         "flyerLarge": for_screen(FLYERS / "01-weddings.png",
-                                 "jp-01-weddings-lg.jpg", 1100),
-        "concepts": {f.name: for_screen(f, f"jp-{f.stem}.jpg", 1100)
+                                 "jp-01-weddings-lg.jpg", asset_px(1100)),
+        "concepts": {f.name: for_screen(f, f"jp-{f.stem}.jpg", asset_px(1100))
                      for f in sorted(CONCEPTS.glob("*.png"))},
         "dividerPhotos": {
             "context": divider_plate("16-beer-menu-screen-abv-prices.jpg",
@@ -184,7 +200,7 @@ def content_json():
                                        "jp-div-execution.jpg"),
         },
         "evidence": [graded(src, f"jp-ev-{i}.jpg", 4 / 5, darken=0.96,
-                            crop_bias=bias, px=900)
+                            crop_bias=bias, px=asset_px(900))
                      for i, ((src, _), bias) in enumerate(
                          zip(JP.EVIDENCE["shots"], (0.28, 0.5, 0.5, 0.5)))],
     }

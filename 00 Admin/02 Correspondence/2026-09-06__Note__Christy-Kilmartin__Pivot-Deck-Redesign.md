@@ -63,7 +63,7 @@ thumbnails, and in any PDF export not made by PowerPoint itself. If those had
 gone to Justin as a PDF he would have seen two empty pages. The replacements
 are PNG.
 
-## Type
+## Type, and a warning about opening it
 
 Two weights and nothing else. Poppins SemiBold carries every heading, figure
 and label. Poppins Regular carries every line meant to be read as a sentence.
@@ -73,6 +73,19 @@ a third weight on the next edit.
 Everything now aligns hard to the one inch margin. The big type used to carry
 small optical nudges, which meant three different left edges across the deck
 depending on the slide. One margin, no exceptions.
+
+**Poppins is not installed on most machines.** The deck names the font, it does
+not carry it, so anything that does not have Poppins will substitute. WPS
+Office picked a handwriting face. Three ways round it, in order of least
+effort:
+
+1. **Open it in Google Slides.** Drop the file into Google Drive, right click,
+   Open with, Google Slides. Poppins is a Google font, so Slides serves it and
+   the deck looks correct with nothing installed.
+2. **Send the PDF.** Fonts are baked in. This is the right format for anything
+   going to Justin that does not need editing.
+3. **Install Poppins.** Free from Google Fonts. Needed on any machine that will
+   edit the .pptx and see it properly.
 
 ## The photography
 

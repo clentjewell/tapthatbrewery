@@ -29,11 +29,15 @@ const CALM = 'EDEBEA';
 const HAIR = 'D8D4CF';       // Calm Grey a shade down, so a 0.75pt rule reads
 const BLUE = '2D5BFF';       // Signal Blue. Slide 05 only.
 
-// Two weights, as briefed. SemiBold carries every heading, figure and label;
-// Regular carries every line meant to be read as a sentence. Poppins Light and
-// Medium are deliberately absent, so nothing can drift back to a third weight.
-const REG = 'Poppins';
-const SEMI = 'Poppins SemiBold';
+// Two weights, as briefed: bold carries every heading, figure and label,
+// regular carries every line meant to be read as a sentence.
+//
+// One family name, and the weight comes from the bold flag. Naming the weight
+// in the family ("Poppins SemiBold") is what put the deck into a handwriting
+// face in WPS: that string is not a family either WPS or Google Slides knows,
+// so both fell through to whatever their fallback happened to be. "Poppins"
+// they both resolve.
+const FONT = 'Poppins';
 
 const W = 13.333, H = 7.5, M = 1.0;
 const COL = W - 2 * M;       // 11.333
@@ -63,13 +67,13 @@ function content(d) {
   const s = cream();
   s.addText(d.eyebrow.toUpperCase(), {
     x: M, y: 0.42, w: COL, h: 0.22, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
+    fontFace: FONT, bold: true, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   const lines = d.headLines || 1;
   const headH = lines * 0.62;
   s.addText(d.head, {
     x: M, y: 0.86, w: COL, h: headH, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 42, color: BLACK, valign: 'top',
+    fontFace: FONT, bold: true, fontSize: 42, color: BLACK, valign: 'top',
     lineSpacingMultiple: 1.06,
   });
   // 48px below the headline, per the brand book spacing scale.
@@ -81,7 +85,7 @@ function content(d) {
 function footnote(s, text) {
   s.addText(text, {
     x: M, y: 6.72, w: COL, h: 0.5, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 11, color: GREY, lineSpacingMultiple: 1.3,
+    fontFace: FONT, fontSize: 11, color: GREY, lineSpacingMultiple: 1.3,
   });
 }
 
@@ -94,15 +98,15 @@ function divider(key) {
   s.addImage({ path: A.dividerPhotos[key], x: 0, y: 0, w: W, h: H });
   s.addText(part, {
     x: M, y: 0.42, w: COL, h: 0.28, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 14, color: CREAM, charSpacing: 3,
+    fontFace: FONT, bold: true, fontSize: 14, color: CREAM, charSpacing: 3,
   });
   s.addText(title, {
     x: M, y: 2.5, w: COL, h: 1.9, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 120, color: CREAM, valign: 'middle',
+    fontFace: FONT, bold: true, fontSize: 120, color: CREAM, valign: 'middle',
   });
   s.addText(strap, {
     x: M, y: 4.68, w: 8.5, h: 0.4, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 16, color: CREAM,
+    fontFace: FONT, bold: true, fontSize: 16, color: CREAM,
   });
   return s;
 }
@@ -113,20 +117,20 @@ function divider(key) {
   const tw = COL;
   s.addText(C.TITLE.topbar, {
     x: M, y: 0.4, w: tw, h: 0.24, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
+    fontFace: FONT, bold: true, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   s.addText(C.TITLE.title, {
     x: M, y: 4.42, w: tw, h: 1.15, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 72, color: BLACK,
+    fontFace: FONT, bold: true, fontSize: 72, color: BLACK,
   });
   // Subtitle is a sentence, so it reads in Regular even at 28pt.
   s.addText(C.TITLE.sub, {
     x: M, y: 5.68, w: tw, h: 0.5, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 28, color: BLACK,
+    fontFace: FONT, fontSize: 28, color: BLACK,
   });
   s.addText(C.TITLE.date, {
     x: M, y: 6.5, w: tw, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 11, color: GREY,
+    fontFace: FONT, fontSize: 11, color: GREY,
   });
   s.addNotes('The plan is sound. The shape is the problem, and that is a much '
     + 'better problem to have. Everything after this is about focus.');
@@ -145,15 +149,15 @@ function findingsSlide(d) {
     rule(s, M, y, COL);
     s.addText(it[0], {
       x: M, y: y + 0.16, w: 0.7, h: 0.42, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 24, color: GREY,
+      fontFace: FONT, bold: true, fontSize: 24, color: GREY,
     });
     s.addText(it[1], {
       x: M + 0.85, y: y + 0.16, w: 3.9, h: 0.9, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 15, color: BLACK, lineSpacingMultiple: 1.14,
+      fontFace: FONT, bold: true, fontSize: 15, color: BLACK, lineSpacingMultiple: 1.14,
     });
     s.addText(it[2], {
       x: M + 5.05, y: y + 0.16, w: COL - 5.05, h: 1.1, isTextBox: true,
-      margin: 0, fontFace: REG, fontSize: 12.5, color: BLACK,
+      margin: 0, fontFace: FONT, fontSize: 12.5, color: BLACK,
       lineSpacingMultiple: 1.34,
     });
   });
@@ -176,7 +180,7 @@ findingsSlide(C.FINDINGS_B).addNotes('Six is the one that gives permission to '
     rule(s, x, s.y0 + ih + 0.22, iw);
     s.addText(shot[1], {
       x, y: s.y0 + ih + 0.34, w: iw, h: 0.7, isTextBox: true, margin: 0,
-      fontFace: REG, fontSize: 12, color: BLACK, lineSpacingMultiple: 1.28,
+      fontFace: FONT, fontSize: 12, color: BLACK, lineSpacingMultiple: 1.28,
     });
   });
   footnote(s, d.foot);
@@ -195,17 +199,17 @@ findingsSlide(C.FINDINGS_B).addNotes('Six is the one that gives permission to '
     // The one place Signal Blue appears. These three figures are the argument.
     s.addText(st[0], {
       x, y: s.y0 + 0.16, w: cw, h: 1.0, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 60, color: BLUE,
+      fontFace: FONT, bold: true, fontSize: 60, color: BLUE,
     });
     s.addText(st[1], {
       x, y: s.y0 + 1.28, w: cw, h: 1.3, isTextBox: true, margin: 0,
-      fontFace: REG, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.4,
+      fontFace: FONT, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.4,
     });
   });
   rule(s, M, s.y0 + 2.94, COL);
   s.addText(d.foot, {
     x: M, y: s.y0 + 3.16, w: 9.8, h: 1.0, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 14, color: BLACK, lineSpacingMultiple: 1.42,
+    fontFace: FONT, fontSize: 14, color: BLACK, lineSpacingMultiple: 1.42,
   });
   s.addNotes('96 to 113 active refill customers, reached without a push. That '
     + 'is the proof the model works. The 20% is the number to be careful with.');
@@ -221,11 +225,11 @@ findingsSlide(C.FINDINGS_B).addNotes('Six is the one that gives permission to '
     rule(s, x, s.y0, cw);
     s.addText(c[0], {
       x, y: s.y0 + 0.2, w: cw, h: 0.34, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 14, color: BLACK,
+      fontFace: FONT, bold: true, fontSize: 14, color: BLACK,
     });
     s.addText(c[1], {
       x, y: s.y0 + 0.66, w: cw, h: 2.0, isTextBox: true, margin: 0,
-      fontFace: REG, fontSize: 14, color: BLACK, lineSpacingMultiple: 1.5,
+      fontFace: FONT, fontSize: 14, color: BLACK, lineSpacingMultiple: 1.5,
     });
   });
   s.addNotes('The census is 49 people answering forced-choice questions. It '
@@ -242,13 +246,13 @@ function movesSlide(d) {
   const widths = [2.5, 2.35, 2.25, 4.233];
   const head = d.cols.map((t) => ({
     text: t,
-    options: { fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
+    options: { fontFace: FONT, bold: true, fontSize: 9, color: BLACK, charSpacing: 2,
                fill: { color: CALM }, margin: [6, 8, 6, 8], valign: 'middle' },
   }));
   const body = d.rows.map((r) => r.map((cell, k) => ({
     text: cell,
     options: {
-      fontFace: k === 0 ? SEMI : REG, fontSize: k === 0 ? 11 : 9.5,
+      fontFace: FONT, bold: k === 0, fontSize: k === 0 ? 11 : 9.5,
       color: BLACK, margin: [9, 8, 9, 8], valign: 'top',
       lineSpacing: k === 0 ? 14 : 12,
     },
@@ -281,7 +285,7 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
     s.addImage({ path: p, x, y: s.y0, w: fw, h: fh });
     s.addText(d.captions[i], {
       x, y: s.y0 + fh + 0.08, w: fw, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 10, color: BLACK,
+      fontFace: FONT, bold: true, fontSize: 10, color: BLACK,
     });
   });
   s.addNotes('These replace the two flyer artworks in the earlier draft, which '
@@ -297,7 +301,7 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
   s.addImage({ path: A.flyerLarge, x: M, y: s.y0, w: iw, h: ih });
   s.addText('The artwork, ready to send', {
     x: M, y: s.y0 + ih + 0.1, w: iw, h: 0.26, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 10, color: BLACK,
+    fontFace: FONT, bold: true, fontSize: 10, color: BLACK,
   });
 
   const x2 = M + iw + 0.75, cw = W - M - x2;
@@ -306,15 +310,15 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
     rule(s, x2, y, cw);
     s.addText(st[0], {
       x: x2, y: y + 0.12, w: 0.55, h: 0.3, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 16, color: GREY,
+      fontFace: FONT, bold: true, fontSize: 16, color: GREY,
     });
     s.addText(st[1], {
       x: x2 + 0.6, y: y + 0.12, w: 2.5, h: 0.32, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 13, color: BLACK,
+      fontFace: FONT, bold: true, fontSize: 13, color: BLACK,
     });
     s.addText(st[2], {
       x: x2 + 3.2, y: y + 0.12, w: cw - 3.2, h: 0.62, isTextBox: true,
-      margin: 0, fontFace: REG, fontSize: 11, color: BLACK,
+      margin: 0, fontFace: FONT, fontSize: 11, color: BLACK,
       lineSpacingMultiple: 1.28,
     });
   });
@@ -322,11 +326,11 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
 
   s.addText(d.strap, {
     x: x2, y: s.y0 + 3.66, w: cw, h: 0.24, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
+    fontFace: FONT, bold: true, fontSize: 9, color: BLACK, charSpacing: 2,
   });
   s.addText(d.body, {
     x: x2, y: s.y0 + 3.94, w: cw, h: 0.6, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 12, color: BLACK, lineSpacingMultiple: 1.32,
+    fontFace: FONT, fontSize: 12, color: BLACK, lineSpacingMultiple: 1.32,
   });
   s.addNotes('The left column used to be a wireframe of a can and a keg. It is '
     + 'now the flyer that would actually go out.');
@@ -351,14 +355,14 @@ divider('collateral').addNotes('The artwork is in Tap That brand, not ours. '
     });
     s.addText(im[1], {
       x, y: y + ih + 0.1, w: iw, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 10, color: BLACK,
+      fontFace: FONT, bold: true, fontSize: 10, color: BLACK,
     });
   });
   const nx = M + 2 * iw + gap + 0.8;
   rule(s, nx, s.y0, W - M - nx);
   s.addText(d.body, {
     x: nx, y: s.y0 + 0.14, w: W - M - nx, h: 3.2, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.4,
+    fontFace: FONT, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.4,
   });
   s.addNotes('Concepts only. Nobody has been approached and the marks are not '
     + 'licensed. Worth showing because the reaction tells you which '
@@ -379,11 +383,11 @@ divider('execution').addNotes('None of these is a big job. All of them are '
     rule(s, M, y, COL);
     s.addText(r[0], {
       x: M, y: y + 0.16, w: 2.6, h: 0.34, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 14, color: BLACK,
+      fontFace: FONT, bold: true, fontSize: 14, color: BLACK,
     });
     s.addText(r[1], {
       x: M + 2.8, y: y + 0.16, w: COL - 2.8, h: 0.62, isTextBox: true,
-      margin: 0, fontFace: REG, fontSize: 13, color: BLACK,
+      margin: 0, fontFace: FONT, fontSize: 13, color: BLACK,
       lineSpacingMultiple: 1.32,
     });
   });
@@ -399,14 +403,14 @@ divider('execution').addNotes('None of these is a big job. All of them are '
     const x = M + i * (cw + gap);
     s.addText(col[0], {
       x, y: s.y0, w: cw, h: 0.26, isTextBox: true, margin: 0,
-      fontFace: SEMI, fontSize: 9, color: BLACK, charSpacing: 2,
+      fontFace: FONT, bold: true, fontSize: 9, color: BLACK, charSpacing: 2,
     });
     col[1].forEach((item, k) => {
       const y = s.y0 + 0.38 + k * 0.62;
       rule(s, x, y, cw);
       s.addText(item, {
         x, y: y + 0.13, w: cw, h: 0.46, isTextBox: true, margin: 0,
-        fontFace: REG, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.24,
+        fontFace: FONT, fontSize: 13, color: BLACK, lineSpacingMultiple: 1.24,
       });
     });
     rule(s, x, s.y0 + 0.38 + col[1].length * 0.62, cw);
@@ -421,15 +425,15 @@ divider('execution').addNotes('None of these is a big job. All of them are '
   const s = cream();
   s.addText(d.word, {
     x: M, y: 2.4, w: COL, h: 1.9, isTextBox: true, margin: 0,
-    fontFace: SEMI, fontSize: 120, color: BLACK, valign: 'middle',
+    fontFace: FONT, bold: true, fontSize: 120, color: BLACK, valign: 'middle',
   });
   s.addText(d.line1, {
     x: M, y: 4.68, w: 9, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 14, color: BLACK,
+    fontFace: FONT, fontSize: 14, color: BLACK,
   });
   s.addText(d.line2, {
     x: M, y: 5.02, w: 9, h: 0.3, isTextBox: true, margin: 0,
-    fontFace: REG, fontSize: 14, color: BLACK,
+    fontFace: FONT, fontSize: 14, color: BLACK,
   });
   s.addNotes('The date on line one needs setting before this goes to Justin.');
 }
