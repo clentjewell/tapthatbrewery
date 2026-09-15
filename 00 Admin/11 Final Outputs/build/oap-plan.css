@@ -1,0 +1,149 @@
+/* ============================================================
+   On-a-Page — the five plan sheets from the 15 September catch-up.
+   Grid placement only; every type, box and rule style is inherited
+   from oap.css so these sit beside the Discover / Design / Deploy
+   sheets without looking like a different set.
+   ============================================================ */
+
+/* ---- 01 Summary ---- */
+.oap[data-sheet="plan-summary"] .canvas{grid-template-rows:0.94fr 1.16fr 1.10fr}
+.oap[data-sheet="plan-summary"] .b-north{grid-column:1/8;grid-row:1;}
+.oap[data-sheet="plan-summary"] .b-numbers{grid-column:8/13;grid-row:1;}
+.oap[data-sheet="plan-summary"] .b-plans{grid-column:1/13;grid-row:2;}
+.oap[data-sheet="plan-summary"] .b-sequence{grid-column:1/5;grid-row:3;}
+.oap[data-sheet="plan-summary"] .b-owners{grid-column:5/9;grid-row:3;}
+.oap[data-sheet="plan-summary"] .b-decisions{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="plan-summary"] .b-north .statement{font-size:14pt;}
+.oap[data-sheet="plan-summary"] .b-numbers .kpis{grid-template-columns:repeat(3,1fr);flex:1;}
+.oap[data-sheet="plan-summary"] .b-numbers .kpi{display:flex;flex-direction:column;justify-content:center;}
+.oap[data-sheet="plan-summary"] .b-numbers .kpi .num{font-size:14pt;}
+.oap[data-sheet="plan-summary"] .b-numbers .kpi .lbl{font-size:5.6pt;line-height:1.28;}
+.oap[data-sheet="plan-summary"] .plan-grid{flex:1;min-height:0;display:grid;
+  grid-template-columns:repeat(4,1fr);gap:var(--gap);}
+.oap[data-sheet="plan-summary"] .plan-cell{border:.3mm solid var(--line);border-top:.8mm solid var(--accent);
+  border-radius:var(--radius);padding:2.4mm 2.8mm;background:var(--tint);overflow:hidden;
+  display:flex;flex-direction:column;gap:1.3mm;}
+.oap[data-sheet="plan-summary"] .plan-cell h4{font-family:var(--font-label);font-weight:600;font-size:6.8pt;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--accent);}
+.oap[data-sheet="plan-summary"] .plan-cell p.lead{font-size:9.6pt;line-height:1.28;}
+.oap[data-sheet="plan-summary"] .plan-cell p{font-size:7.5pt;line-height:1.46;}
+.oap[data-sheet="plan-summary"] .seq{display:flex;flex-direction:column;gap:2mm;flex:1;justify-content:space-evenly;}
+.oap[data-sheet="plan-summary"] .seq-row{display:flex;gap:2.6mm;align-items:flex-start;}
+.oap[data-sheet="plan-summary"] .seq-k{font-family:var(--font-label);font-weight:700;font-size:6.4pt;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--paper);background:var(--ink);
+  border-radius:999px;padding:1mm 2.6mm;flex:none;margin-top:.3mm;}
+.oap[data-sheet="plan-summary"] .b-owners table.mini td,
+.oap[data-sheet="plan-summary"] .b-owners table.mini th{padding:1.3mm 1.6mm;font-size:6.6pt;}
+.oap[data-sheet="plan-summary"] .b-decisions li{font-size:7.3pt;line-height:1.4;margin-bottom:1.5mm;}
+
+/* ---- 02 Business ---- */
+.oap[data-sheet="plan-business"] .canvas{grid-template-rows:1.04fr 1.06fr 1.02fr}
+.oap[data-sheet="plan-business"] .b-model{grid-column:1/7;grid-row:1;}
+.oap[data-sheet="plan-business"] .b-units{grid-column:7/13;grid-row:1;}
+.oap[data-sheet="plan-business"] .b-maths{grid-column:1/5;grid-row:2;}
+.oap[data-sheet="plan-business"] .b-econ{grid-column:5/9;grid-row:2;}
+.oap[data-sheet="plan-business"] .b-canning{grid-column:9/13;grid-row:2;}
+.oap[data-sheet="plan-business"] .b-decisions{grid-column:1/7;grid-row:3;}
+.oap[data-sheet="plan-business"] .b-risks{grid-column:7/13;grid-row:3;}
+.oap[data-sheet="plan-business"] .b-model .statement{font-size:13pt;}
+.oap[data-sheet="plan-business"] .b-units table.mini td,
+.oap[data-sheet="plan-business"] .b-units table.mini th{padding:1.5mm 1.8mm;font-size:6.9pt;}
+.oap[data-sheet="plan-business"] .b-maths .kpis{grid-template-columns:repeat(3,1fr);}
+.oap[data-sheet="plan-business"] .b-maths .kpi .num{font-size:13pt;}
+.oap[data-sheet="plan-business"] .b-maths .kpi .lbl{font-size:5.5pt;line-height:1.26;}
+
+/* ---- 03 Brand ---- */
+.oap[data-sheet="plan-brand"] .canvas{grid-template-rows:0.90fr 1.14fr 1.08fr}
+.oap[data-sheet="plan-brand"] .b-position{grid-column:1/6;grid-row:1;}
+.oap[data-sheet="plan-brand"] .b-enemy{grid-column:6/13;grid-row:1;}
+.oap[data-sheet="plan-brand"] .b-range{grid-column:1/5;grid-row:2;}
+.oap[data-sheet="plan-brand"] .b-her{grid-column:5/9;grid-row:2;}
+.oap[data-sheet="plan-brand"] .b-proof{grid-column:9/13;grid-row:2;}
+.oap[data-sheet="plan-brand"] .b-open{grid-column:1/7;grid-row:3;}
+.oap[data-sheet="plan-brand"] .b-voice{grid-column:7/13;grid-row:3;}
+.oap[data-sheet="plan-brand"] .b-position .statement{font-size:13.4pt;}
+.oap[data-sheet="plan-brand"] .b-proof li{font-size:7.2pt;line-height:1.4;margin-bottom:1.4mm;}
+.oap[data-sheet="plan-brand"] .b-open li{font-size:7.3pt;line-height:1.42;margin-bottom:1.5mm;}
+
+/* ---- 04 Sales and marketing ---- */
+.oap[data-sheet="plan-sales"] .canvas{grid-template-rows:0.96fr 1.20fr 1.04fr}
+.oap[data-sheet="plan-sales"] .b-engine{grid-column:1/13;grid-row:1;}
+.oap[data-sheet="plan-sales"] .b-segments{grid-column:1/7;grid-row:2;}
+.oap[data-sheet="plan-sales"] .b-convert{grid-column:7/13;grid-row:2;}
+.oap[data-sheet="plan-sales"] .b-wholesale{grid-column:1/5;grid-row:3;}
+.oap[data-sheet="plan-sales"] .b-search{grid-column:5/9;grid-row:3;}
+.oap[data-sheet="plan-sales"] .b-measure{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="plan-sales"] .b-engine .statement{font-size:12.4pt;}
+.oap[data-sheet="plan-sales"] .flow{flex:1;min-height:0;display:grid;
+  grid-template-columns:repeat(5,1fr);gap:2mm;}
+.oap[data-sheet="plan-sales"] .flow-cell{border:.3mm solid var(--line);border-top:.8mm solid var(--accent);
+  border-radius:var(--radius);padding:2mm 2.4mm;background:var(--tint);overflow:hidden;}
+.oap[data-sheet="plan-sales"] .flow-cell .fk{display:block;font-family:var(--font-label);font-weight:600;
+  font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin-bottom:1mm;}
+.oap[data-sheet="plan-sales"] .flow-cell p{font-size:7pt;line-height:1.38;}
+.oap[data-sheet="plan-sales"] .b-segments table.mini td,
+.oap[data-sheet="plan-sales"] .b-segments table.mini th{padding:1.4mm 1.8mm;font-size:6.8pt;}
+.oap[data-sheet="plan-sales"] .b-convert p.lead{font-size:8.6pt;margin-top:.6mm;}
+.oap[data-sheet="plan-sales"] .b-measure .kpis{grid-template-columns:repeat(2,1fr);flex:none;}
+.oap[data-sheet="plan-sales"] .b-measure .kpi .num{font-size:11pt;}
+.oap[data-sheet="plan-sales"] .b-measure .kpi .lbl{font-size:5.5pt;line-height:1.26;}
+
+/* ---- 05 Activation ---- */
+.oap[data-sheet="plan-activation"] .canvas{grid-template-rows:1.06fr 1.06fr 1.02fr}
+.oap[data-sheet="plan-activation"] .b-90{grid-column:1/13;grid-row:1;}
+.oap[data-sheet="plan-activation"] .b-destination{grid-column:1/5;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-partners{grid-column:5/9;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-campaign{grid-column:9/13;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-raci{grid-column:1/9;grid-row:3;}
+.oap[data-sheet="plan-activation"] .b-check{grid-column:9/13;grid-row:3;}
+.oap[data-sheet="plan-activation"] .band-grid{flex:1;min-height:0;display:grid;
+  grid-template-columns:repeat(4,1fr);gap:var(--gap);}
+.oap[data-sheet="plan-activation"] .band-cell{border:.3mm solid var(--line);border-top:.8mm solid var(--accent);
+  border-radius:var(--radius);padding:2.2mm 2.6mm;background:var(--tint);overflow:hidden;}
+.oap[data-sheet="plan-activation"] .band-cell .bk{display:block;font-family:var(--font-label);font-weight:600;
+  font-size:6.5pt;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:1.4mm;}
+.oap[data-sheet="plan-activation"] .band-cell li{font-size:7pt;line-height:1.36;margin-bottom:1.1mm;}
+.oap[data-sheet="plan-activation"] .b-partners table.mini td,
+.oap[data-sheet="plan-activation"] .b-partners table.mini th{padding:1.3mm 1.6mm;font-size:6.6pt;}
+.oap[data-sheet="plan-activation"] .b-raci table.mini td,
+.oap[data-sheet="plan-activation"] .b-raci table.mini th{padding:1.4mm 1.6mm;font-size:6.7pt;text-align:center;}
+.oap[data-sheet="plan-activation"] .b-raci table.mini td:first-child,
+.oap[data-sheet="plan-activation"] .b-raci table.mini th:first-child{text-align:left;}
+.oap[data-sheet="plan-activation"] .b-check li{font-size:7.3pt;line-height:1.4;margin-bottom:1.6mm;}
+
+/* ---- density ----------------------------------------------------------
+   Short lists were clumping at the top of a box and leaving a void under
+   them, which is what the Overall sheet already solves by distributing its
+   list items. Same idiom here, plus tables that stretch their rows, plus a
+   slightly larger reading size because these sheets are read across a table
+   rather than held. ------------------------------------------------------ */
+.oap[data-sheet^="plan-"] .box p{font-size:8.1pt;line-height:1.5;}
+.oap[data-sheet^="plan-"] .box li{font-size:8pt;line-height:1.46;}
+.oap[data-sheet^="plan-"] .box ul{flex:1;display:flex;flex-direction:column;
+  justify-content:space-evenly;}
+.oap[data-sheet^="plan-"] .box ul li{margin-bottom:0;}
+.oap[data-sheet^="plan-"] .box table.mini{flex:1;}
+.oap[data-sheet^="plan-"] .box .note-line{font-size:7pt;}
+
+/* The boxes that are prose only: spread the paragraphs instead of stacking
+   them against the label. */
+.oap[data-sheet="plan-business"] .b-model,
+.oap[data-sheet="plan-business"] .b-econ,
+.oap[data-sheet="plan-business"] .b-canning,
+.oap[data-sheet="plan-brand"] .b-position,
+.oap[data-sheet="plan-brand"] .b-enemy,
+.oap[data-sheet="plan-brand"] .b-range,
+.oap[data-sheet="plan-brand"] .b-her,
+.oap[data-sheet="plan-brand"] .b-voice,
+.oap[data-sheet="plan-sales"] .b-convert,
+.oap[data-sheet="plan-sales"] .b-wholesale,
+.oap[data-sheet="plan-sales"] .b-search,
+.oap[data-sheet="plan-activation"] .b-destination,
+.oap[data-sheet="plan-activation"] .b-campaign{gap:2.6mm;}
+
+/* Cells inside the four-up and five-up grids distribute too. */
+.oap[data-sheet="plan-summary"] .plan-cell{justify-content:flex-start;gap:1.8mm;}
+.oap[data-sheet="plan-summary"] .plan-cell p{font-size:7.9pt;line-height:1.48;}
+.oap[data-sheet="plan-sales"] .flow-cell p{font-size:7.4pt;line-height:1.44;}
+.oap[data-sheet="plan-activation"] .band-cell ul{gap:1.2mm;}
+.oap[data-sheet="plan-activation"] .band-cell li{font-size:7.4pt;line-height:1.42;}
