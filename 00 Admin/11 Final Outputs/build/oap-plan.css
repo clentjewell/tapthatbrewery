@@ -147,3 +147,11 @@
 .oap[data-sheet="plan-sales"] .flow-cell p{font-size:7.4pt;line-height:1.44;}
 .oap[data-sheet="plan-activation"] .band-cell ul{gap:1.2mm;}
 .oap[data-sheet="plan-activation"] .band-cell li{font-size:7.4pt;line-height:1.42;}
+
+/* ---- the Jewell mark, upper right --------------------------------------
+   Sits on the right margin with the chips running back from it, replacing
+   the solid wordmark chip that used to hold that corner. Scoped to the plan
+   sheets so the earlier three are not disturbed. --------------------------- */
+.oap[data-sheet^="plan-"] .sheet-head .meta{align-items:center;}
+.oap[data-sheet^="plan-"] .jp-mark{height:5.4mm;width:auto;display:block;
+  margin-left:2mm;}

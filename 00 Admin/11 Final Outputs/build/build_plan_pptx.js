@@ -264,6 +264,9 @@ function rowGeom(rows) {
 }
 
 const LOGO = '../site/brand/tapthat-icon.png';
+const JPMARK = '../site/brand/jewell-wordmark.png';
+const JPMARK_H = 5.4 * MM;              // matches .jp-mark in oap-plan.css
+const JPMARK_W = JPMARK_H * 720 / 159;  // the wordmark's own aspect
 
 async function header(s, sheet) {
   s.addImage({ path: LOGO, x: M, y: 0.33, w: 10 * MM, h: 10 * MM });
@@ -272,23 +275,25 @@ async function header(s, sheet) {
     fontFace: FONT, bold: true, fontSize: 21, color: INK, valign: 'bottom',
     fit: 'none',
   });
-  // Chips run right to left so the last one sits on the margin.
-  let x = W - M;
+  s.addImage({ path: JPMARK, x: W - M - JPMARK_W, y: 0.40 + (0.275 - JPMARK_H) / 2,
+               w: JPMARK_W, h: JPMARK_H });
+  // Chips run right to left, starting back from the mark on the margin.
+  let x = W - M - JPMARK_W - 2 * MM;
   const chips = [].concat(sheet.chips).reverse();
   for (let i = 0; i < chips.length; i += 1) {
-    const label = chips[i];
+    const chip = chips[i];
+    const label = chip.t;
     const w = await runWidth([{ t: label, b: true }], 6.5, 0.12, true) + 7 * MM;
     x -= w;
-    const solid = i === 0;
     s.addShape(pres.ShapeType.roundRect, {
       x: x, y: 0.40, w: w, h: 0.275, rectRadius: 0.1375,
-      fill: { color: solid ? INK : PAPER },
-      line: { color: solid ? INK : LINE, width: 0.75 },
+      fill: { color: PAPER },
+      line: { color: chip.gate ? ACCENT : LINE, width: 0.75 },
     });
     s.addText(label.toUpperCase(), {
       x: x, y: 0.40, w: w, h: 0.275, isTextBox: true, margin: 0, fit: 'none',
       fontFace: FONT, bold: true, fontSize: 6.5, charSpacing: 6.5 * 0.12,
-      color: solid ? PAPER : MUTED, align: 'center', valign: 'middle',
+      color: chip.gate ? ACCENT : MUTED, align: 'center', valign: 'middle',
     });
     x -= 2.5 * MM;
   }

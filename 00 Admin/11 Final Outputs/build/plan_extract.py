@@ -151,7 +151,8 @@ def main():
         sheets.append({
             "key": key,
             "title": " ".join(head.find("div").find("h1").text_content().split()),
-            "chips": [" ".join(c.text_content().split())
+            "chips": [{"t": " ".join(c.text_content().split()),
+                       "gate": "gate" in (c.get("class") or "").split()}
                       for c in head.find_class("chip")],
             "boxes": boxes,
         })

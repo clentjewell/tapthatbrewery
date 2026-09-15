@@ -101,8 +101,9 @@ def main():
         frag = (HERE / "oap-plan" / fname).read_text(encoding="utf-8")
         # The fragments carry a relative logo path so they also work when the
         # pack build drops them into site/.
-        frag = frag.replace('src="brand/tapthat-icon.png"',
-                            f'src="file://{SITE}/brand/tapthat-icon.png"')
+        for mark in ("tapthat-icon.png", "jewell-wordmark.png"):
+            frag = frag.replace(f'src="brand/{mark}"',
+                                f'src="file://{SITE}/brand/{mark}"')
         page = WORK / f"{slug}.html"
         page.write_text(PAGE % dict(title=title, css=css, frag=frag),
                         encoding="utf-8")
