@@ -155,7 +155,7 @@ const brandBlock = [
 
 const meta = metaTable([
   ['ENGAGEMENT', 'Tap That Brewery – marketing strategy and execution'],
-  ['STATUS', 'Draft v02 – client-facing; investment to be confirmed'],
+  ['STATUS', 'Draft v02 – client-facing, with proposed investment'],
   ['AUDIENCE', 'Justin Mistry and Chris Smith, Tap That Brewery'],
   ['DATE', '16 September 2026'],
   ['SUPERSEDES', 'Proposal v01, 28 August 2026'],
@@ -293,15 +293,39 @@ body.push(twoCol([
 ]));
 
 body.push(H('Investment and Terms'));
-body.push(P('Two options, so you can choose the commitment that fits a business that is not yet cashflow positive. Both run on the same plan and the same rhythm.'));
+body.push(P('Two options. Both run on the same plan and the same rhythm. All figures are Australian dollars, exclude GST, and include project management and administration. Ad spend is paid by Tap That directly to Meta and Google.'));
 body.push(twoCol([
-  ['Option', ['Structure']],
-  ['A. Ninety-day sprint, then review', ['A fixed fee for the first 30-day and three-month horizons, ending at the mid-December review with a stop-or-continue decision. Fee: [to be confirmed]. Payment: [to be confirmed].']],
-  ['B. Twelve-month retainer', ['A monthly fee for the full year to September 2027, reviewed at each rung of your ladder with the right to stop at any review. Fee: [to be confirmed] per month. Payment: [to be confirmed].']],
-  ['Not included', ['Media spend (Meta, search), which is paid by Tap That directly and reported by us. Photography and video production days, quoted per shoot. Third-party software, including GoTab, Fishbowl and any booking tool licence. Print.']],
-  ['Case study', ['We ask for the right to tell this story once the numbers have moved, with your approval of the final text.']],
+  ['The basis', ['']],
+  ['Discover and Design, already delivered', ['The Discovery pack, the Pivot, the plan on a page and four event flyers. Rack value $20,000. Charged at $4,995, payable on acceptance of either option.']],
+  ['The rates behind every figure below', ['Client Director $1,500 a day. Client Manager $1,250 a day.']],
 ], [3000, 6026]));
-body.push(Note('Fees and payment terms are being confirmed and will be set before this proposal is issued. No figure in this document is an estimate of them.'));
+body.push(SUB('Option A – the ninety-day sprint'));
+body.push(twoCol([
+  ['Line', ['Fee']],
+  ['Foundation builds', ['Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages. $9,250']],
+  ['Programme design', ['Switcher offer and the partner approach; referral programme and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; Oktoberfest and the giveaway campaign. $8,500']],
+  ['Running the sprint, three months', ['SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report. $3,250 a month, $9,750']],
+  ['Option A total', [[b('$27,500 + GST')]]],
+], [3000, 6026]));
+body.push(P('Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review.'));
+body.push(SUB('Option B – twelve months'));
+body.push(twoCol([
+  ['Line', ['Fee']],
+  ['Everything in Option A', ['Delivered in the first three months. Included.']],
+  ['Months four to twelve', ['The weddings and functions programme; membership redesign; the designing-for-her brief; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September. Included.']],
+  ['Option B total', [[b('$5,500 a month, $66,000 + GST over twelve months')]]],
+], [3000, 6026]));
+body.push(P('Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.'));
+body.push(SUB('What it has to earn'));
+body.push(P('Option A is $9,167 a month for three months with no commitment beyond it. Option B is $5,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. Option B pays for itself at 28 additional active refillers held for a year. Your own six-month target adds about 145.'));
+body.push(twoCol([
+  ['Not included', ['']],
+  ['Media spend', ['Billed directly by Meta and Google. Management of spend above $5,000 a month at 10% of the excess.']],
+  ['Photography and video', ['$1,250 a day, quoted per shoot.']],
+  ['The Urban Legends booking widget', ['Scoped separately once the operator agrees to carry it.']],
+  ['Third-party software and print', ['GoTab, Fishbowl, any booking tool licence, and print runs.']],
+], [3000, 6026]));
+body.push(Note('These figures are proposed on the rates Jewell Projects charges today and on what this business can carry while it is not yet cashflow positive. They are not the value of the work at rack; that is closer to double.'));
 
 body.push(H('Decisions This Proposal Needs'));
 const s2 = 'jp-num-2';

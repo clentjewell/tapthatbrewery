@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Proposal &middot; Tap That Brewery &middot; Jewell Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--keg:#0E171F;--brass:#0066FF;--brass-lt:#5B8CFF;--cream:#FAF8F4;--paper:#FFFFFF;--ink:#111111;--steel:#666666;--rule:#D4D2D0;--shade:#EDEBEA}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--keg:#141C24;--brass:#5B8CFF;--brass-lt:#8FB4FF;--cream:#14181C;--paper:#1A1F25;--ink:#E9E7E3;--steel:#9AA0A6;--rule:rgba(233,231,227,.15);--shade:#191E23}}
+:root[data-theme="dark"]{--keg:#141C24;--brass:#5B8CFF;--brass-lt:#8FB4FF;--cream:#14181C;--paper:#1A1F25;--ink:#E9E7E3;--steel:#9AA0A6;--rule:rgba(233,231,227,.15);--shade:#191E23}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:'Poppins',system-ui,sans-serif;font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--cream) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule)}
+.top-in{max-width:960px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.wm{height:18px;width:auto;display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wm{filter:invert(1)}}
+:root[data-theme="dark"] .wm{filter:invert(1)}
+.top .k{font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--steel)}
+.top nav{margin-left:auto;display:flex;gap:2px;flex-wrap:wrap}
+.top nav a{font-size:12px;color:var(--steel);text-decoration:none;padding:5px 9px;border-radius:6px}
+.top nav a:hover{color:var(--ink);background:var(--shade)}
+.wrap{max-width:960px;margin:0 auto;padding:44px 24px 80px}
+.hero{padding-bottom:28px;margin-bottom:28px;border-bottom:2px solid var(--ink)}
+.hero .eyebrow{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:12px}
+.hero h1{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:-.03em;line-height:1.05;text-wrap:balance}
+.hero h1 span{color:var(--brass)}
+.hero .meta{margin-top:18px;display:grid;grid-template-columns:max-content 1fr;gap:6px 22px;font-size:13px}
+.hero .meta b{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);padding-top:2px}
+.prose h3{font-size:20px;font-weight:600;letter-spacing:-.015em;color:var(--brass);margin:44px 0 12px;padding-top:26px;border-top:1px solid var(--rule)}
+.prose h3:first-child{border-top:0;padding-top:0;margin-top:0}
+.prose h4{font-size:15px;font-weight:600;margin:26px 0 8px}
+.prose p{margin:0 0 12px;max-width:72ch}
+.prose em{color:var(--steel)}
+.prose ul,.prose ol{margin:0 0 14px 22px;max-width:72ch}
+.prose li{margin:0 0 6px}
+.prose li::marker{color:var(--brass)}
+.prose hr{display:none}
+.tw{overflow-x:auto;margin:14px 0 20px;border:1px solid var(--rule);border-radius:8px;background:var(--paper)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--rule)}
+th{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--steel);background:var(--shade)}
+tr:last-child td{border-bottom:0}
+td strong{color:var(--ink)}
+/* the metadata table at the top of the source has a blank header: render it as a key/value block */
+.prose > .tw:first-of-type{display:none}
+.foot{margin-top:60px;padding-top:16px;border-top:1px solid var(--rule);font-size:12px;color:var(--steel);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media print{.top{display:none}body{background:#fff;color:#000;font-size:11pt}.wrap{padding:0;max-width:none}.tw{border-color:#ccc;break-inside:avoid}.prose h3{break-after:avoid}@page{size:A4;margin:18mm}}
+</style>
+</head>
+<body>
+<div class="top"><div class="top-in">
+  <img class="wm" src="/brand/jewell-wordmark.png" alt="Jewell Projects">
+  <span class="k">Tap That Brewery</span>
+  <nav><a href="#purpose">Purpose</a><a href="#where-you-are">Where you are</a><a href="#what-we-are-proposing">What we are proposing</a><a href="#the-work-by-workstream">The work, by workstream</a><a href="#the-first-30-days">The first 30 days</a><a href="#timeline-on-your-ladder">Timeline, on your ladder</a><a href="#ways-of-working">Ways of working</a><a href="#what-we-need-from-you">What we need from you</a><a href="#investment-and-terms">Investment and terms</a><a href="#decisions-this-proposal-needs">Decisions this proposal needs</a><a href="#sign-off">Sign-off</a></nav>
+</div></div>
+<main class="wrap">
+  <header class="hero">
+    <div class="eyebrow">Proposal &middot; v02 &middot; 16 September 2026</div>
+    <h1>Executing the plan on a page<span>.</span></h1>
+    <div class="meta">
+      <b>Engagement</b><span>Tap That Brewery – marketing strategy and execution</span>
+      <b>Audience</b><span>Justin Mistry and Chris Smith, Tap That Brewery</span>
+      <b>Status</b><span>Draft v02 – client-facing, with proposed investment</span>
+      <b>Supersedes</b><span>Proposal v01, 28 August 2026</span>
+      <b>Prepared by</b><span>Jewell Projects</span>
+    </div>
+  </header>
+  <article class="prose">
+<div class="tw"><table>
+
+<tbody>
+<tr>
+<td><strong>Document</strong></td>
+<td>02 – Proposal: Executing the plan on a page (Maxxim catalogue #2, Gate 0 – Onboarding) · <strong>Client sign-off document</strong></td>
+</tr>
+<tr>
+<td><strong>Engagement</strong></td>
+<td>Tap That Brewery – marketing strategy and execution</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Draft v02 – client-facing, with proposed investment</td>
+</tr>
+<tr>
+<td><strong>Audience</strong></td>
+<td>Justin Mistry and Chris Smith, Tap That Brewery</td>
+</tr>
+<tr>
+<td><strong>Date</strong></td>
+<td>16 September 2026</td>
+</tr>
+<tr>
+<td><strong>Supersedes</strong></td>
+<td>Proposal v01, 28 August 2026</td>
+</tr>
+<tr>
+<td><strong>Prepared by</strong></td>
+<td>Jewell Projects</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="purpose">Purpose</h3>
+<p>This proposal sets out the work Jewell Projects will do with Tap That Brewery over the next twelve months, and what it costs. It replaces the August proposal, which was written before the Pivot was presented on 15 September and before your own plan on a page arrived the following day. Everything in it now runs on your plan: your north star, your horizons, your priorities. Where we recommend something you have not yet adopted, it is marked as our recommendation.</p>
+<h3 id="where-you-are">Where you are</h3>
+<p>Three weeks ago the diagnosis was that you did not have a strategy problem, you had an execution problem. That still holds, and the catch-up on 15 September sharpened it. The refill business is at MVP with 96 to 113 active customers reached without a marketing push. 56% of them bought their system somewhere else and switched to you anyway. The Tap Room makes money on events and functions and loses it as a walk-in venue. Meta ads are finally working and there is nowhere to send the traffic. The website, POS and CRM do not talk to each other, so every campaign is set up to underperform before it launches.</p>
+<p>Your own plan, received on 16 September, puts the north star where it belongs: <strong>1,000 active keg refillers</strong> across the Gold Coast, Brisbane and Northern Rivers by year three, with <strong>250 by March 2027</strong>. Not systems in the market, refillers. A system that is not refilling is worth nothing. Every activity below is tested against whether it moves that number.</p>
+<p>Your five priorities, in your words: find every existing keg system owner and switch them; website upgrade plus SEM; JVPs, referral partners and an internal referral programme; taproom traffic from local business, functions and ticketed music; wholesale. This proposal is built around those five, plus the foundations they all depend on.</p>
+<h3 id="what-we-are-proposing">What we are proposing</h3>
+<p>Discover and Design are substantially done. The Discovery pack, the Pivot deck and the five-sheet plan on a page are delivered and in your hands. What is missing is the same thing it was in August: hands. One marketer at roughly seventy per cent capacity cannot run a switcher campaign, a referral programme, an events calendar, a wholesale pipeline and a CRM build at once, and Chris is trapped in production.</p>
+<p>So this is a Deploy proposal. Jewell Projects becomes the delivery capacity around Harry for the next twelve months: we build, launch and run the activities below, to your plan, on your horizons, reporting one set of four numbers monthly. You keep every decision. We do the work between decisions.</p>
+<p><em>The real constraint in this business is hands, not ideas. We said that in August. Nothing since has changed it.</em></p>
+<h3 id="the-work-by-workstream">The work, by workstream</h3>
+<p>Seven workstreams. The first is the foundation the other six sit on. Each activity carries the horizon from your own plan on a page: 30 days to mid-October, three months to mid-December, six months to March 2027, one year to September 2027.</p>
+<h4>1. Connect the system</h4>
+<p>Nothing else compounds until this is done. Spending more on ads before it is fixed buys traffic the business cannot catch.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Website upgrade</strong></td>
+<td>Rebuild around a buy path for systems and refills, with proof above the fold: the Crafted Brewers’ Choice award, fits-any-system, no CO2, strong reviews. About, FAQ and awards pages so both people and AI search can read it. Category language of its own rather than “commercial brewer”.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>SEM</strong></td>
+<td>Search campaigns on the category nobody on the Gold Coast owns: beer at home, keg refills, keg systems. Budget and structure agreed with you; run by us; reported monthly.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>GoTab and Fishbowl transition</strong></td>
+<td>Support the POS and inventory move so that every sale writes back to the customer record. We do not run the transition; we make sure the CRM and the website are ready for it and that nothing is built twice.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Trigger-based CRM</strong></td>
+<td>Replace the blanket 90-day SMS with reminders timed to each customer’s own consumption. Segments for owners who bought elsewhere, lapsed-forgot, lapsed-cutting-back and never-owned. A re-engagement flow for lapsed customers, split by reason once the CRM can tell us which.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Meta Ads budget breakdown</strong></td>
+<td>Confirmed split across switcher, giveaway, destination and retargeting, with a landing page for each rather than a home page for all.</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td><strong>One monthly report</strong></td>
+<td>Four numbers, one page: keg system sales, active keg refillers, wholesale accounts, and the lapse rate. Active refiller defined once, before the first report.</td>
+<td>30 days, then monthly</td>
+</tr>
+</tbody>
+</table></div>
+<h4>2. Switch the owners who already have a system</h4>
+<p>Your number one, and ours. These people have already overcome every objection. They just buy their beer somewhere else.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Harvey Norman</strong></td>
+<td>Gift-with-purchase or first-keg-free tied to keg system sales, at franchisee level. We hold contacts into Harvey Norman franchisees and a contact who has installed for Harvey Norman, JB Hi-Fi and The Good Guys at scale. The Bunnings-installer model: they sell the hardware, Tap That is the named first call for what goes in it.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Kegland, corny keg and Benchy</strong></td>
+<td>Buy or partner for the owner databases. Formalise the Benchy partnership. A voucher for a Tap That refill in the box.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Switcher campaign</strong></td>
+<td>One offer, one message, one landing page: “You already have the hardware. We are the beer. First keg on us.” Run across Meta, search and the CRM.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Lease-to-buy and delivery</strong></td>
+<td>Your launch items. We build the offer page, the CRM flow and the launch creative for lease-to-buy systems and the keg delivery service.</td>
+<td>3 months</td>
+</tr>
+</tbody>
+</table></div>
+<h4>3. Referrals, JVPs and ambassadors</h4>
+<p>Your priority three and your one-year marker: referrals, JVPs and online driving the majority of system sales.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Referral programme and Bring a Mate</strong></td>
+<td>Design, mechanics, CRM automation and creative. Referral is already 18% of acquisition and fewer than half the base knows a keg-system reward exists. Fixing that is the cheapest campaign on this list.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>JVP and referral partner programme</strong></td>
+<td>The list, the offer, the outreach and the follow-up, run from the CRM. Starts with the contacts already named: Mark’s two wedding venues, the Zip water network, Never Quit, and the tour operators.</td>
+<td>3 months, ongoing</td>
+</tr>
+<tr>
+<td><strong>UGC and brand ambassador content</strong></td>
+<td>A content programme with your named ambassadors, Kurt, Troy, Mitch, Aden and Ash: the brief, the shoot plan, the release schedule, the rights. Ready to deploy within three months.</td>
+<td>3 months</td>
+</tr>
+</tbody>
+</table></div>
+<h4>4. The Tap Room as a destination</h4>
+<p>Your priority four. Local business, functions and ticketed music. The shape decision is yours; the programme below works under any of the three, and grows the room the way you want it grown.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Oktoberfest and the keg system giveaway</strong></td>
+<td>The first dated event. Campaign, artwork, entry mechanics that feed the CRM, and the follow-up sequence that turns a thousand entries into system sales over the three-month buying cycle.</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td><strong>Local business programme</strong></td>
+<td>Lunch and after-work trade from the industrial area: the offer, the outreach list, the collateral.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Ticketed music and events calendar</strong></td>
+<td>A replicable calendar of ticketed events and collaborations, with the promotion built once and reused. Your one-year marker is a replicable events and promotions calendar; this is it.</td>
+<td>3 months, then quarterly</td>
+</tr>
+<tr>
+<td><strong>Tours and tastings</strong></td>
+<td>Get onto the circuit: profiles updated with every operator, the award and the bus parking sold as the reasons to stop here, and a booking widget for Urban Legends so operators stop coordinating venue by venue.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Weddings and functions</strong></td>
+<td>The hens-and-bucks-to-wedding programme: tasting session, signature brew, reception supply, take-home sample. PR to planners, starting with Mark’s roughly 300 weddings a year.</td>
+<td>6 months</td>
+</tr>
+<tr>
+<td><strong>Party rental and membership</strong></td>
+<td>Rethink party rental so a minimum keg guarantee replaces the $75 hire barrier. Redesign membership so one programme serves the refill business rather than two programmes serving two shapes.</td>
+<td>6 months</td>
+</tr>
+</tbody>
+</table></div>
+<h4>5. Wholesale as a function</h4>
+<p>Bars have approached you and it has not converted. That is not a demand problem. It is the absence of follow-up, and about twelve touch points before a venue buys beer.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Structure and KPIs</strong></td>
+<td>Targets, pipeline stages and reporting in the CRM, so the function exists before the person does. A one-page brief for the next hire, whichever way the brewer-versus-wholesale call goes.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Venue outreach programme</strong></td>
+<td>Event venues, niched venues and sporting clubs: the list, the offer, the twelve-touch sequence, run from the CRM until a hire takes it over.</td>
+<td>3 months, ongoing</td>
+</tr>
+<tr>
+<td><strong>Club and venue offers</strong></td>
+<td>Club-branded kegs, season minimum guarantees, and rigs that move from footy to cricket. A packaged offer that works alongside duopoly contracts rather than against them.</td>
+<td>6 months</td>
+</tr>
+</tbody>
+</table></div>
+<h4>6. Brand, range and proof</h4>
+<p>The brand is not being rebuilt. It is being sharpened around one enemy, overpriced pubs, and one line, yours: every household in Australia deserves beer on tap.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Key messaging by target market</strong></td>
+<td>Your 30-day item. One page per segment: what we say, what we prove, what we ask. Built on $2.55 a schooner against $12 at the pub.</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td><strong>Customer journey mapped</strong></td>
+<td>Your 30-day item. From first contact to first refill to reorder, with the CRM trigger at each step.</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td><strong>Proof assets</strong></td>
+<td>The Crafted award, the reviews, fits-any-system and no CO2, produced for the website, the venue, the tap decals and social. Owned already, barely used.</td>
+<td>3 months</td>
+</tr>
+<tr>
+<td><strong>Designing for her</strong></td>
+<td>A product and design brief, not a campaign: the range, the RTD, the hydration and light story, and a system that sits in eyesight at home. Wellness influencer collaborations as the first proof.</td>
+<td>6 months</td>
+</tr>
+<tr>
+<td><strong>Range and heroes</strong></td>
+<td>Support the cut to hero brews with the product marketing behind them: social proof cues at the point of sale, most popular, award winner, what to eat with it.</td>
+<td>6 months</td>
+</tr>
+<tr>
+<td><strong>Campaign artwork</strong></td>
+<td>Four event flyers are built. Next: Oktoberfest, the switcher campaign, the referral programme, the ambassador content, and everything the calendar needs, in Tap That’s own format.</td>
+<td>Ongoing</td>
+</tr>
+</tbody>
+</table></div>
+<h4>7. Governance</h4>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Activity</th>
+<th>What we deliver</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Meeting rhythm</strong></td>
+<td>Your 30-day item. A weekly 30 minutes with Harry, a monthly hour with the founders against the four numbers, and a review at each rung of your ladder.</td>
+<td>30 days, ongoing</td>
+</tr>
+<tr>
+<td><strong>Who does what</strong></td>
+<td>The responsibility matrix on the Activation sheet, agreed and dated, so nothing sits with everybody.</td>
+<td>30 days</td>
+</tr>
+<tr>
+<td><strong>Reviews on your ladder</strong></td>
+<td>Mid-October, mid-December, March 2027, September 2027. Every review asks first whether active refillers moved.</td>
+<td>As dated</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="the-first-30-days">The first 30 days</h3>
+<p>Your own 30-day list is the first sprint. We work it with you rather than around you.</p>
+<ol>
+<li><strong>The shape decision.</strong> Taproom selling kegs, showroom selling beers, or event space doing both. Our recommendation stays on the table: pause walk-in trade and point the room at destination demand. Your call, and everything below works under any answer.</li>
+<li><strong>Residential versus commercial.</strong> Where the energy goes. The refill data can answer this in a week once the CRM can be read.</li>
+<li><strong>Key messaging and the customer journey.</strong> Delivered by us, signed by you.</li>
+<li><strong>KPIs and the meeting rhythm.</strong> Four numbers, one definition of active refiller, one weekly and one monthly meeting.</li>
+<li><strong>External support versus in-house.</strong> This proposal is the answer to that question. What we do, what Harry does, what waits for the hire.</li>
+<li><strong>Ambassadors named, Oktoberfest run.</strong> The giveaway mechanics feed the CRM from day one.</li>
+<li><strong>Settle $2.55.</strong> One per-schooner figure on the live ad and on every piece of collateral, and the other sets of maths retired.</li>
+</ol>
+<h3 id="timeline-on-your-ladder">Timeline, on your ladder</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Horizon</th>
+<th>What is true at the end of it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>30 days – mid-October</strong></td>
+<td>Shape decided. Messaging and journey signed. KPIs, definitions and meeting rhythm set. Oktoberfest run, giveaway entries in the CRM. $2.55 on the ad.</td>
+</tr>
+<tr>
+<td><strong>3 months – mid-December</strong></td>
+<td>Website and SEM live. GoTab and Fishbowl connected, CRM triggers replacing the 90-day SMS. Lease-to-buy and delivery launched. Harvey Norman and Kegland conversations open. Referral programme and Bring a Mate live. Ambassador content deploying. Wholesale pipeline in the CRM. Next hire decided.</td>
+</tr>
+<tr>
+<td><strong>6 months – March 2027</strong></td>
+<td>250 active keg refillers. Wedding and functions programme selling. Membership redesigned. Designing-for-her brief in market. Career pathways for Chris and Harry defined.</td>
+</tr>
+<tr>
+<td><strong>1 year – September 2027</strong></td>
+<td>Referrals, JVPs and online driving most system sales. Replicable events calendar running. Cashflow positive, Justin on a wage.</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>– The longer horizons on your plan, 1,000 refillers and proprietary system supply at three years, expansion and a production facility at five, an exit at ten to twelve, are on the summary sheet. This proposal covers the first year of the climb.</em></p>
+<h3 id="ways-of-working">Ways of working</h3>
+<ul>
+<li><strong>Weekly with Harry.</strong> Thirty minutes: progress, blockers, what we need. Harry is the operator; everything we build is runnable by that seat.</li>
+<li><strong>Monthly with the founders.</strong> One hour against the four numbers. Decisions taken in the room and recorded.</li>
+<li><strong>Reviews on your ladder.</strong> Mid-October, mid-December, March, September. A written review at each, and a stop-or-continue conversation at each.</li>
+<li><strong>One source of truth.</strong> Everything lives in the shared engagement folder and on the plan on a page. Nothing important travels only by text.</li>
+<li><strong>Sign-off.</strong> One named person on your side, our suggestion is Justin with Chris consulted on brand and product, approves messaging, offers and anything that goes to market.</li>
+<li><strong>Coverage.</strong> Clent is overseas from the end of September. The weekly rhythm continues online and Christy carries strategy in the room.</li>
+</ul>
+<h3 id="what-we-need-from-you">What we need from you</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Why, and when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>The shape decision</strong></td>
+<td>Everything on the Business sheet follows from it. Within 30 days.</td>
+</tr>
+<tr>
+<td><strong>One definition of active keg refiller</strong></td>
+<td>Before the first monthly report, or the number gets argued about instead of acted on.</td>
+</tr>
+<tr>
+<td><strong>$2.55 as the per-schooner figure</strong></td>
+<td>Confirmed as the number on the live ad, and the other maths retired. Within 30 days.</td>
+</tr>
+<tr>
+<td><strong>GoTab and Fishbowl timeline</strong></td>
+<td>It sequences the CRM build. Before the three-month sprint starts.</td>
+</tr>
+<tr>
+<td><strong>Introductions</strong></td>
+<td>Kurt, Troy, Mitch, Aden and Ash; Mark’s venues; the Kegland and Benchy contacts. As the workstreams open.</td>
+</tr>
+<tr>
+<td><strong>The breakeven period</strong></td>
+<td>Your one-page plan gives about $50k without saying per month or per year. One line back.</td>
+</tr>
+<tr>
+<td><strong>A named sign-off holder</strong></td>
+<td>One signature that closes each checkpoint. At kick-off.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="investment-and-terms">Investment and terms</h3>
+<p>Two options. Both run on the same plan and the same rhythm. All figures are Australian dollars, exclude GST, and include project management and administration. Ad spend is paid by Tap That directly to Meta and Google.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>The basis</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Discover and Design, already delivered</strong></td>
+<td>The Discovery pack, the Pivot, the plan on a page and four event flyers. Rack value $20,000. Charged at <strong>$4,995</strong>, payable on acceptance of either option.</td>
+</tr>
+<tr>
+<td><strong>The rates behind every figure below</strong></td>
+<td>Client Director $1,500 a day. Client Manager $1,250 a day.</td>
+</tr>
+</tbody>
+</table></div>
+<h4>Option A – the ninety-day sprint</h4>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Fee</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Foundation builds.</strong> Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages.</td>
+<td>$9,250</td>
+</tr>
+<tr>
+<td><strong>Programme design.</strong> Switcher offer and the partner approach; referral programme and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; Oktoberfest and the giveaway campaign.</td>
+<td>$8,500</td>
+</tr>
+<tr>
+<td><strong>Running the sprint, three months.</strong> SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report.</td>
+<td>$3,250 a month, $9,750</td>
+</tr>
+<tr>
+<td><strong>Option A total</strong></td>
+<td><strong>$27,500 + GST</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review.</p>
+<h4>Option B – twelve months</h4>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Fee</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Everything in Option A</strong>, delivered in the first three months.</td>
+<td>Included</td>
+</tr>
+<tr>
+<td><strong>Months four to twelve.</strong> The weddings and functions programme; membership redesign; the designing-for-her brief; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September.</td>
+<td>Included</td>
+</tr>
+<tr>
+<td><strong>Option B total</strong></td>
+<td><strong>$5,500 a month, $66,000 + GST over twelve months</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.</p>
+<h4>What it has to earn</h4>
+<p>Option A is $9,167 a month for three months with no commitment beyond it. Option B is $5,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. Option B pays for itself at 28 additional active refillers held for a year. Your own six-month target adds about 145.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Not included</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Media spend</strong></td>
+<td>Billed directly by Meta and Google. Management of spend above $5,000 a month at 10% of the excess.</td>
+</tr>
+<tr>
+<td><strong>Photography and video</strong></td>
+<td>$1,250 a day, quoted per shoot.</td>
+</tr>
+<tr>
+<td><strong>The Urban Legends booking widget</strong></td>
+<td>Scoped separately once the operator agrees to carry it.</td>
+</tr>
+<tr>
+<td><strong>Third-party software and print</strong></td>
+<td>GoTab, Fishbowl, any booking tool licence, and print runs.</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>– These figures are proposed on the rates Jewell Projects charges today and on what this business can carry while it is not yet cashflow positive. They are not the value of the work at rack; that is closer to double.</em></p>
+<h3 id="decisions-this-proposal-needs">Decisions this proposal needs</h3>
+<ol>
+<li>Which option, A or B.</li>
+<li>Who signs for Tap That Brewery.</li>
+<li>A start date. We propose the week of 21 September, so the 30-day sprint lands before the end of October and Oktoberfest is inside it.</li>
+</ol>
+<h3 id="sign-off">Sign-off</h3>
+<div class="tw"><table>
+
+<tbody>
+<tr>
+<td><strong>Accepted for Tap That Brewery</strong></td>
+<td>Name: <strong><em>_</em></strong><strong><em>_</em></strong> Signature: <strong><em>_</em></strong><strong><em>_</em></strong> Date: ______</td>
+</tr>
+<tr>
+<td><strong>For Jewell Projects</strong></td>
+<td>Name: Clent Jewell Signature: <strong><em>_</em></strong><strong><em>_</em></strong> Date: ______</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="appendix-a-what-is-already-delivered">Appendix A – What is already delivered</h3>
+<p>All of the following exist, are in the shared folder, and are the basis for this proposal.</p>
+<ul>
+<li><strong>The Discovery pack.</strong> Audience, competitors, offers, economics and the six priority problems, with the census worked through it.</li>
+<li><strong>The Pivot.</strong> Eighteen slides presented on 15 September: six findings, ten moves, the collateral, the small fixes and the scope.</li>
+<li><strong>The plan on a page.</strong> Five A3 sheets, v02, reworked on 16 September around your own plan: the summary, business, brand, sales and marketing, activation. Editable PowerPoint and print master.</li>
+<li><strong>Four event flyers.</strong> Weddings, bucks and hens, work functions, tours and tastings. Print-ready A4 in Tap That’s own format, in two image sets.</li>
+<li><strong>The catch-up transcript.</strong> Verbatim, filed, and the reference where anything above is in question.</li>
+</ul>
+<hr />
+<p><em>Feeds into: the SOW on acceptance, and the first 30-day sprint.</em></p>
+
+  </article>
+  <footer class="foot"><span>Jewell Projects</span><span>Proposal v02 – Tap That Brewery</span><span>clent@jewellprojects.com</span></footer>
+</main>
+</body>
+</html>
