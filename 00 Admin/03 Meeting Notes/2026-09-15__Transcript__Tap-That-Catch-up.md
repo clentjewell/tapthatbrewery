@@ -2,7 +2,7 @@
 
 **Date:** 15 September 2026  
 **Source:** Circleback meeting `HFwQgwtAFLB2TwuwtTcC1`, *[Confirmed] Tap that - Catch-up*  
-**Present:** Justin Mitchell and the Tap That team, Clent Jewell and Christy Kilmartin
+**Present:** Justin Mistry and the Tap That team, Clent Jewell and Christy Kilmartin
  (Jewell Projects), with Ronnie Ignacio and Lizelle Vertera.
 
 Verbatim, machine-transcribed, unedited. Speaker attribution is the

@@ -1,6 +1,6 @@
 # Justin's own plan, as received 16 September 2026
 
-Two documents from Justin Mitchell, plus a five-line email summary. These are
+Two documents from Justin Mistry, plus a five-line email summary. These are
 the owner's thinking and they lead wherever they and the JP recommendations
 differ: the plan on a page is his to run, so his framing, his numbers and his
 names are the ones the sheets carry, with JP's recommendations sitting where
