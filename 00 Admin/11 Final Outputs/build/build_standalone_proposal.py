@@ -20,7 +20,7 @@ def tag(m):
     t = re.sub(r"<[^>]+>", "", m.group(1)); sid = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
     secs.append((sid, t)); return f'<h3 id="{sid}">{m.group(1)}</h3>'
 body = re.sub(r"<h3>(.*?)</h3>", tag, body)
-nav = "".join(f'<a href="#{i}">{html.escape(t)}</a>' for i, t in secs if not t.startswith("Appendix"))
+nav = "".join(f'<a href="#{i}"><span class="n">{k:02d}</span>{html.escape(t)}</a>' for k, (i, t) in enumerate(secs, 1))
 
 PAGE = """<!DOCTYPE html>
 <html lang="en">
@@ -45,9 +45,23 @@ body{background:var(--cream);color:var(--ink);font-family:'Poppins',system-ui,sa
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wm{filter:invert(1)}}
 :root[data-theme="dark"] .wm{filter:invert(1)}
 .top .k{font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--steel)}
-.top nav{margin-left:auto;display:flex;gap:2px;flex-wrap:wrap}
-.top nav a{font-size:12px;color:var(--steel);text-decoration:none;padding:5px 9px;border-radius:6px}
-.top nav a:hover{color:var(--ink);background:var(--shade)}
+.top-in{position:relative}
+.menu-b{margin-left:auto;display:inline-flex;align-items:center;gap:10px;font:inherit;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:none;border:1px solid var(--rule);border-radius:8px;padding:7px 12px;cursor:pointer}
+.menu-b:hover{background:var(--shade)}
+.menu-b:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.menu-b .bars{display:inline-block;width:16px;height:12px;position:relative}
+.menu-b .bars i{position:absolute;left:0;right:0;height:2px;background:currentColor;border-radius:1px;transition:transform .18s,opacity .18s}
+.menu-b .bars i:nth-child(1){top:0}.menu-b .bars i:nth-child(2){top:5px}.menu-b .bars i:nth-child(3){top:10px}
+.menu-b[aria-expanded="true"] .bars i:nth-child(1){transform:translateY(5px) rotate(45deg)}
+.menu-b[aria-expanded="true"] .bars i:nth-child(2){opacity:0}
+.menu-b[aria-expanded="true"] .bars i:nth-child(3){transform:translateY(-5px) rotate(-45deg)}
+.menu{position:absolute;right:24px;top:calc(100% + 6px);min-width:260px;max-width:min(360px,calc(100vw - 32px));background:var(--paper);border:1px solid var(--rule);border-radius:10px;box-shadow:0 12px 34px rgba(14,23,31,.14);padding:8px;display:none;z-index:30}
+.menu[data-open="true"]{display:block}
+.menu a{display:block;font-size:13.5px;color:var(--ink);text-decoration:none;padding:9px 12px;border-radius:7px}
+.menu a:hover{background:var(--shade)}
+.menu a:focus-visible{outline:2px solid var(--brass);outline-offset:-2px}
+.menu .n{display:inline-block;width:22px;font-size:11px;font-weight:600;color:var(--brass);font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:reduce){.menu-b .bars i{transition:none}}
 .wrap{max-width:960px;margin:0 auto;padding:44px 24px 80px}
 .hero{padding-bottom:28px;margin-bottom:28px;border-bottom:2px solid var(--ink)}
 .hero .eyebrow{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:12px}
@@ -80,7 +94,8 @@ td strong{color:var(--ink)}
 <div class="top"><div class="top-in">
   <img class="wm" src="/brand/jewell-wordmark.png" alt="Jewell Projects">
   <span class="k">Tap That Brewery</span>
-  <nav>@@NAV@@</nav>
+  <button class="menu-b" id="menu-b" type="button" aria-expanded="false" aria-controls="menu" aria-label="Contents"><span class="bars"><i></i><i></i><i></i></span>Contents</button>
+  <nav class="menu" id="menu" data-open="false" aria-label="Sections">@@NAV@@</nav>
 </div></div>
 <main class="wrap">
   <header class="hero">
@@ -99,6 +114,16 @@ td strong{color:var(--ink)}
   </article>
   <footer class="foot"><span>Jewell Projects</span><span>Proposal v02 – Tap That Brewery</span><span>clent@jewellprojects.com</span></footer>
 </main>
+<script>
+(function(){
+  var b=document.getElementById('menu-b'), m=document.getElementById('menu');
+  function set(open){ b.setAttribute('aria-expanded', String(open)); m.setAttribute('data-open', String(open)); }
+  b.addEventListener('click', function(){ set(b.getAttribute('aria-expanded')!=='true'); });
+  m.addEventListener('click', function(e){ if(e.target.closest('a')) set(false); });
+  document.addEventListener('click', function(e){ if(!e.target.closest('.top-in')) set(false); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ set(false); b.focus(); } });
+})();
+</script>
 </body>
 </html>
 """
