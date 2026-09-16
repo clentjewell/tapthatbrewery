@@ -126,6 +126,13 @@ def find_files():
                 found[LEGACY[m.group(1)]] = p
     return found
 
+def read_version(path):
+    """The Status row of the front-matter table, e.g. "Draft v02 – ...". Falls
+    back to v01, which every catalogue document was at when the pack shipped."""
+    raw = open(path, encoding="utf-8").read()
+    m = re.search(r"\*\*Status\*\*\s*\|\s*((?:Draft|Final)?\s*v\d{2}|Final)", raw)
+    return m.group(1).strip() if m else "Draft v01"
+
 def convert(path):
     raw = open(path, encoding="utf-8").read()
     # drop the leading H1 (we render our own title) and any immediate H2 subtitle
@@ -224,7 +231,7 @@ HERO = """    <section id="top">
         <p class="b">Everything downstream follows from that. For the short version of this pack &ndash; what&rsquo;s here, what isn&rsquo;t, and what&rsquo;s blocking sign-off &ndash; see the <a href="/summary">delivery summary</a>.</p>
       </div>
 
-      <p class="note">Status: every document is a working draft at v01, AI-assisted, and none are approved. Deploy runbooks were written ahead of both checkpoints and say so on their face &ndash; they are ready to run, not authorised to run. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
+      <p class="note">Status: every document is a working draft, AI-assisted, and none are approved. The Proposal is at v02, reworked on 16 September around Justin&rsquo;s own plan; everything else is at v01. Deploy runbooks were written ahead of both checkpoints and say so on their face &ndash; they are ready to run, not authorised to run. The Design phase was written ahead of Discover sign-off so the whole shape could be seen at once. Where a figure is an estimate, a single source or an open question, it is marked rather than smoothed over.</p>
     </section>
 """
 
@@ -292,7 +299,7 @@ def build_doc_main(d, i, docs, total):
     sig = '<span class="pill sign">Sign-off</span>' if d["signoff"] else ''
     return f'''<article class="doc" id="{d["slug"]}">
   <div class="doc-head">
-    <div class="doc-head-l"><span class="doc-chip">{d["phase"]}</span>{sig}<span class="pill draft">Draft v01</span></div>
+    <div class="doc-head-l"><span class="doc-chip">{d["phase"]}</span>{sig}<span class="pill draft">{d.get("version", "Draft v01")}</span></div>
     <span class="doc-count">Document {d["label"]} of {total}</span>
   </div>
   <h2 class="doc-title">{html.escape(d["title"])}</h2>
@@ -320,7 +327,8 @@ def main():
         title, phase, slug = CAT[n]
         label = {205: "20A", 206: "20B"}.get(n) or f"{n:02d}"
         docs.append(dict(n=n, label=label, title=title, phase=phase, slug=slug,
-                         html=convert(files[n]), signoff=n in SIGNOFF))
+                         html=convert(files[n]), version=read_version(files[n]),
+                         signoff=n in SIGNOFF))
     total = len(docs)
 
     counts = {}
