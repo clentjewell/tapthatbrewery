@@ -508,14 +508,22 @@ async function measureBox(box, key, wIn, avail) {
       out.blocks.push({ b: b, h: g.h, g: g, grow: 1.4 });
     } else if (b.k === 'seq') {
       const s = spec('para');
+      let kw = 0;
+      for (let k = 0; k < b.rows.length; k += 1) {
+        kw = Math.max(kw, await runWidth([{ t: b.rows[k].k, b: true }],
+          6.4, 0.1, true));
+      }
+      kw = Math.max(0.6, kw + 5.2 * MM);          // the pill's own padding
+      const gutter = kw + 0.18;
       let h = 0;
       const hs = [];
       for (let k = 0; k < b.rows.length; k += 1) {
-        const rh = Math.max(await textH(b.rows[k].runs, s, iw - 0.8), 0.26);
+        const rh = Math.max(await textH(b.rows[k].runs, s, iw - gutter), 0.26);
         hs.push(rh);
         h += rh;
       }
-      out.blocks.push({ b: b, h: h, hs: hs, s: s, grow: 2 });
+      out.blocks.push({ b: b, h: h, hs: hs, s: s, kw: kw, gutter: gutter,
+        grow: 2 });
     }
   }
 
@@ -621,17 +629,18 @@ function drawBox(s, box, m, geom) {
       let ry = cy;
       b.rows.forEach((r, k) => {
         s.addShape(pres.ShapeType.roundRect, {
-          x: x + pad, y: ry, w: 0.6, h: 0.225, rectRadius: 0.1125,
+          x: x + pad, y: ry, w: blk.kw, h: 0.225, rectRadius: 0.1125,
           fill: { color: INK }, line: { width: 0 },
         });
         s.addText(r.k.toUpperCase(), {
-          x: x + pad, y: ry, w: 0.6, h: 0.225, isTextBox: true, margin: 0,
+          x: x + pad, y: ry, w: blk.kw, h: 0.225, isTextBox: true, margin: 0,
           fontFace: FONT, bold: true, fontSize: 6.4, charSpacing: 0.64,
           color: PAPER, align: 'center', valign: 'middle', fit: 'none',
         });
         s.addText(rich(r.runs, MUTED), Object.assign(
           body(blk.s, { color: MUTED }),
-          { x: x + pad + 0.8, y: ry - 0.014, w: iw - 0.8, h: blk.hs[k] }));
+          { x: x + pad + blk.gutter, y: ry - 0.014, w: iw - blk.gutter,
+            h: blk.hs[k] }));
         ry += blk.hs[k] + lead;
       });
       cy += blk.h + grow;

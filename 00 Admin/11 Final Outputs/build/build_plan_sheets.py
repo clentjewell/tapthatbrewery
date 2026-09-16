@@ -91,28 +91,38 @@ const fs = require('fs');
 
 
 def main():
-    WORK.mkdir(exist_ok=True)
+    # --check <fragment.html>: render that one sheet into its own work dir and
+    # report clip status, writing nothing to the outputs. Lets several people
+    # edit different sheets at once without colliding on build-plan/ or the
+    # merged PDF.
+    only = None
+    if "--check" in sys.argv:
+        only = sys.argv[sys.argv.index("--check") + 1]
+    work = WORK / ("check-" + only.replace(".html", "")) if only else WORK
+    work.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
     css = ((HERE / "oap.css").read_text(encoding="utf-8")
            + "\n" + (HERE / "oap-plan.css").read_text(encoding="utf-8"))
 
     items = []
     for slug, fname, title in SHEETS:
+        if only and fname != only:
+            continue
         frag = (HERE / "oap-plan" / fname).read_text(encoding="utf-8")
         # The fragments carry a relative logo path so they also work when the
         # pack build drops them into site/.
         for mark in ("tapthat-icon.png", "jewell-wordmark.png"):
             frag = frag.replace(f'src="brand/{mark}"',
                                 f'src="file://{SITE}/brand/{mark}"')
-        page = WORK / f"{slug}.html"
+        page = work / f"{slug}.html"
         page.write_text(PAGE % dict(title=title, css=css, frag=frag),
                         encoding="utf-8")
         items.append({"name": slug, "html": str(page),
-                      "pdf": str(WORK / f"{slug}.pdf")})
+                      "pdf": str(work / f"{slug}.pdf")})
 
-    jobs = WORK / "jobs.json"
+    jobs = work / "jobs.json"
     jobs.write_text(json.dumps({"viewport": VIEWPORT, "items": items}))
-    js = WORK / "render.js"
+    js = work / "render.js"
     js.write_text(RENDER_JS)
 
     r = subprocess.run(["node", str(js), str(jobs)], capture_output=True,
@@ -121,6 +131,9 @@ def main():
     if r.returncode:
         sys.exit("a sheet is clipping its own content -- cut copy or retune "
                  "that row in oap-plan.css")
+    if only:
+        print("check only: nothing written to", OUT)
+        return
 
     from pypdf import PdfWriter
     merged = OUT / "TapThat_Plan-on-a-Page_A3.pdf"

@@ -233,15 +233,16 @@ body{
 <main class="wrap">
   <div class="intro">
     <h1>The plan on a page</h1>
-    <p class="lede">Five A3 sheets from the catch-up on 15 September 2026. One
-      page each for the business, the brand, sales and marketing, and
-      activation, with a summary in front of them. Everything here is either
-      grounded in the meeting transcript or in figures already verified in the
-      Discovery pack. Where a number is not settled, the sheet says so rather
-      than rounding it into something quotable.</p>
+    <p class="lede">Five A3 sheets: a summary, then one page each for the
+      business, the brand, sales and marketing, and activation. Built from the
+      catch-up on 15 September, then reworked around Justin's own plan on a
+      page and one-page business plan, received the next day. Where the two
+      differ, Justin's framing, numbers and names lead, and the Jewell
+      Projects recommendation stands beside them as a recommendation. Where a
+      number is not settled, the sheet says so.</p>
     <div class="meta">
       <span class="hot">Draft for review</span>
-      <span>v01 &middot; 15 Sept 2026</span>
+      <span>v02 &middot; 16 Sept 2026</span>
       <span>A3 landscape &middot; 420 &times; 297mm</span>
     </div>
   </div>
@@ -251,10 +252,13 @@ body{
   <p class="foot"><strong>These print at true size.</strong> A3 landscape, one
     sheet per page, and the editable PowerPoint carries the same words at the
     same size, so a slide and a printed sheet are the same artefact rather than
-    two versions of it. Two figures are deliberately marked unsettled: the
-    at-home cost per schooner, which has three sets of maths in circulation and
-    one of them on a live ad, and the split between lapsed customers who are
-    cutting back and those who simply did not get around to it.</p>
+    two versions of it. The north star is Justin's: 1,000 active keg refillers
+    by year three, 250 by March 2027. The at-home cost per schooner is his
+    figure too, $2.55, and the open item is making sure the live ad and every
+    piece of collateral carry that one number. One figure stays deliberately
+    unsettled: the split between lapsed customers who are cutting back and
+    those who simply did not get around to it, which has to be read off the
+    CRM before either message is written.</p>
 </main>
 
 <script>
