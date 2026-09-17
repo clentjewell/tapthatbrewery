@@ -185,14 +185,50 @@ def r_investment(content):
 
 
 def r_signoff(content):
+    """A sign-off block that can actually be signed.
+
+    Each party types a name and either draws a signature or types one, and the
+    state is kept in that browser so a half-finished signature survives a
+    reload. It is deliberately not a filing system: there is no store behind
+    this page, so the block says what it is and offers a signed copy to send
+    back.
+    """
     rows = split_table(content[content.index("|"):])
     out = ['<div class="signs">']
-    for who, _ in rows:
-        out.append(f'''<div class="sign"><span class="sign-k">{inline(who)}</span>
-  <div class="sign-f"><span>Name</span><i></i></div>
-  <div class="sign-f"><span>Signature</span><i></i></div>
-  <div class="sign-f"><span>Date</span><i></i></div></div>''')
+    for i, (who, _) in enumerate(rows):
+        pid = "p%d" % i
+        out.append(f'''<form class="sign rv" data-party="{pid}" novalidate>
+  <div class="sign-top"><span class="sign-k">{inline(who)}</span>
+    <span class="sign-state" data-state="unsigned">Unsigned</span></div>
+
+  <label class="sign-l" for="{pid}-name">Full name</label>
+  <input class="sign-in" id="{pid}-name" name="name" type="text" autocomplete="name"
+         placeholder="Type your full name" spellcheck="false">
+
+  <div class="sign-l sign-l-row"><span>Signature</span>
+    <span class="sig-modes" role="group" aria-label="Signature method">
+      <button type="button" class="sig-m" data-mode="draw" aria-pressed="true">Draw</button>
+      <button type="button" class="sig-m" data-mode="type" aria-pressed="false">Type</button>
+    </span></div>
+  <div class="sig-wrap">
+    <canvas class="sig-pad" aria-label="Signature pad. Draw your signature, or switch to Type."></canvas>
+    <img class="sig-img" alt="" hidden>
+    <span class="sig-hint">Draw here</span>
+  </div>
+
+  <div class="sign-foot">
+    <span class="sign-date">Date <b>&mdash;</b></span>
+    <span class="sign-acts">
+      <button type="button" class="btn-t sig-clear">Clear</button>
+      <button type="submit" class="btn-p sig-go">Sign</button>
+    </span>
+  </div>
+</form>''')
     out.append("</div>")
+    out.append('<p class="sign-note">Signing here records your acceptance and keeps it '
+               'in this browser so nothing is lost on a reload. It does not send anything: '
+               'use <button type="button" class="btn-t" id="sign-print">download a signed copy</button> '
+               'and return it, and we will issue the executed original for countersignature.</p>')
     return "\n".join(out)
 
 
@@ -453,6 +489,48 @@ td:first-child{width:32%;color:var(--ink)}
 .sign-f span{font-size:11px;color:var(--steel);width:64px;flex:none}
 .sign-f i{flex:1;border-bottom:1px solid var(--rule);height:15px}
 
+/* ---- sign-off ---- */
+.sign-top{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.sign-state{margin-left:auto;font-size:9.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;
+  padding:4px 10px;border-radius:999px;border:1px solid var(--rule);color:var(--steel)}
+.sign-state[data-state="signed"]{background:var(--brass);border-color:var(--brass);color:#fff}
+.sign-l{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--steel);margin-bottom:7px}
+.sign-l-row{display:flex;align-items:center;gap:12px;margin-top:18px}
+.sign-in{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--cream);
+  border:1px solid var(--rule);border-radius:9px;padding:11px 13px}
+.sign-in::placeholder{color:var(--steel);opacity:.75}
+.sign-in:focus-visible{outline:2px solid var(--brass);outline-offset:1px;border-color:var(--brass)}
+.sign-in[readonly]{background:transparent;border-style:dashed;color:var(--ink)}
+.sig-modes{margin-left:auto;display:inline-flex;border:1px solid var(--rule);border-radius:7px;overflow:hidden}
+.sig-m{font:inherit;font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  background:none;border:0;color:var(--steel);padding:5px 10px;cursor:pointer}
+.sig-m+.sig-m{border-left:1px solid var(--rule)}
+.sig-m[aria-pressed="true"]{background:var(--brass);color:#fff}
+.sig-m:focus-visible{outline:2px solid var(--brass);outline-offset:-2px}
+/* the pad stays white paper in both themes, the way a signature strip is */
+.sig-wrap{position:relative;margin-top:8px;background:#fff;border:1px solid var(--rule);
+  border-radius:9px;height:110px;overflow:hidden}
+.sig-pad{display:block;width:100%;height:100%;touch-action:none;cursor:crosshair}
+.sig-img{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}
+.sig-hint{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:12.5px;
+  color:#B9B6B1;pointer-events:none}
+.sig-wrap[data-dirty="1"] .sig-hint{display:none}
+.sign-foot{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:16px;
+  padding-top:15px;border-top:1px solid var(--rule)}
+.sign-date{font-size:12.5px;color:var(--steel)}
+.sign-date b{color:var(--ink);font-weight:600}
+.sign-acts{margin-left:auto;display:flex;gap:8px}
+.btn-t{font:inherit;font-size:12px;font-weight:600;background:none;border:1px solid var(--rule);
+  border-radius:8px;padding:8px 14px;color:var(--steel);cursor:pointer}
+.btn-t:hover{color:var(--ink);border-color:var(--steel)}
+.btn-p{font:inherit;font-size:12px;font-weight:600;background:var(--brass);border:1px solid var(--brass);
+  border-radius:8px;padding:8px 18px;color:#fff;cursor:pointer}
+.btn-p:hover{filter:brightness(1.08)}
+.btn-t:focus-visible,.btn-p:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.sign-note{margin-top:18px;font-size:12.5px;line-height:1.6;color:var(--steel);max-width:var(--meas)}
+.sign-note .btn-t{padding:3px 9px;font-size:11.5px}
+
 /* ---- foot ---- */
 .foot{border-top:1px solid var(--rule);padding:26px var(--pad) 60px}
 .foot-in{max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;gap:16px;
@@ -475,6 +553,10 @@ html.js .cover dl{animation-delay:.22s}
 /* ---- print ---- */
 @media print{
   .top,.prog,.menu{display:none}
+  .sig-modes,.sign-acts,.sig-hint,.sign-note .btn-t{display:none!important}
+  .sign-in{border:0;border-bottom:1px solid #999;border-radius:0;padding-left:0;background:#fff!important}
+  .sig-wrap{border:0;border-bottom:1px solid #999;border-radius:0;height:76px}
+  .sign-state{border-color:#999;background:#fff!important;color:#000!important}
   body{background:#fff;color:#000;font-size:10.5pt}
   .cover,.sec[data-dark]{background:#fff!important;color:#000!important}
   .cover::after{display:none}
@@ -548,6 +630,153 @@ document.documentElement.className += ' js';
     es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
   },{rootMargin:'0px 0px -8% 0px',threshold:.06});
   rv.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+<script>
+/* Sign-off. Draw or type a signature, stamp the date, keep it in this
+   browser. There is no store behind this page, so nothing leaves the
+   machine; the printed copy is what gets returned. */
+(function(){
+  var KEY = 'tt-proposal-signoff-v1';
+  var forms = [].slice.call(document.querySelectorAll('.sign[data-party]'));
+  if (!forms.length) return;
+
+  function load(){ try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+                   catch(e){ return {}; } }
+  function save(st){ try { localStorage.setItem(KEY, JSON.stringify(st)); } catch(e){} }
+  var state = load();
+
+  function today(){
+    try { return new Date().toLocaleDateString('en-AU',
+            { day:'numeric', month:'long', year:'numeric' }); }
+    catch(e){ return new Date().toDateString(); }
+  }
+
+  forms.forEach(function(f){
+    var id    = f.getAttribute('data-party'),
+        name  = f.querySelector('.sign-in'),
+        wrap  = f.querySelector('.sig-wrap'),
+        cv    = f.querySelector('.sig-pad'),
+        img   = f.querySelector('.sig-img'),
+        dateB = f.querySelector('.sign-date b'),
+        pill  = f.querySelector('.sign-state'),
+        go    = f.querySelector('.sig-go'),
+        clr   = f.querySelector('.sig-clear'),
+        modes = [].slice.call(f.querySelectorAll('.sig-m')),
+        ctx   = cv.getContext('2d'),
+        mode = 'draw', drawing = false, dirty = false, signed = false;
+
+    function fit(){
+      var r = cv.getBoundingClientRect(), d = window.devicePixelRatio || 1;
+      if (!r.width) return;
+      var keep = dirty ? cv.toDataURL() : null;
+      cv.width = Math.round(r.width * d); cv.height = Math.round(r.height * d);
+      ctx.setTransform(d, 0, 0, d, 0, 0);
+      ctx.lineWidth = 2.1; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+      ctx.strokeStyle = '#141414'; ctx.fillStyle = '#141414';
+      if (keep) { var im = new Image();
+        im.onload = function(){ ctx.drawImage(im, 0, 0, r.width, r.height); };
+        im.src = keep; }
+    }
+
+    function mark(on){ dirty = on; wrap.setAttribute('data-dirty', on ? '1' : '0'); }
+
+    function pt(e){ var r = cv.getBoundingClientRect();
+                    return { x: e.clientX - r.left, y: e.clientY - r.top }; }
+
+    cv.addEventListener('pointerdown', function(e){
+      if (signed || mode !== 'draw') return;
+      drawing = true; cv.setPointerCapture(e.pointerId);
+      var q = pt(e); ctx.beginPath(); ctx.moveTo(q.x, q.y);
+      ctx.lineTo(q.x + 0.1, q.y + 0.1); ctx.stroke(); mark(true);
+    });
+    cv.addEventListener('pointermove', function(e){
+      if (!drawing) return; var q = pt(e); ctx.lineTo(q.x, q.y); ctx.stroke();
+    });
+    ['pointerup','pointercancel','pointerleave'].forEach(function(ev){
+      cv.addEventListener(ev, function(){ drawing = false; });
+    });
+
+    function typeSig(){
+      var r = cv.getBoundingClientRect(), t = (name.value || '').trim();
+      ctx.clearRect(0, 0, r.width, r.height); mark(false);
+      if (!t) return;
+      var size = 40;
+      ctx.textBaseline = 'middle';
+      do { ctx.font = 'italic 500 ' + size + "px 'Poppins', serif"; size -= 1; }
+      while (ctx.measureText(t).width > r.width - 28 && size > 12);
+      ctx.fillText(t, 14, r.height / 2); mark(true);
+    }
+
+    modes.forEach(function(m){
+      m.addEventListener('click', function(){
+        if (signed) return;
+        mode = m.getAttribute('data-mode');
+        modes.forEach(function(x){
+          x.setAttribute('aria-pressed', String(x === m)); });
+        cv.style.cursor = mode === 'draw' ? 'crosshair' : 'default';
+        var r = cv.getBoundingClientRect();
+        ctx.clearRect(0, 0, r.width, r.height); mark(false);
+        if (mode === 'type') typeSig();
+      });
+    });
+    name.addEventListener('input', function(){ if (mode === 'type' && !signed) typeSig(); });
+
+    function lock(on){
+      signed = on;
+      name.readOnly = on;
+      pill.textContent = on ? 'Signed' : 'Unsigned';
+      pill.setAttribute('data-state', on ? 'signed' : 'unsigned');
+      go.textContent = on ? 'Edit' : 'Sign';
+      cv.hidden = on; img.hidden = !on;
+      cv.style.cursor = on ? 'default' : (mode === 'draw' ? 'crosshair' : 'default');
+    }
+
+    function store(){
+      state[id] = signed
+        ? { name: name.value, date: dateB.textContent, sig: img.src }
+        : null;
+      save(state);
+    }
+
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      if (signed) { lock(false); store(); return; }
+      if (!name.value.trim()) { name.focus(); name.reportValidity
+        ? name.setCustomValidity('') : 0; name.placeholder = 'Your full name is needed';
+        return; }
+      if (!dirty) { wrap.animate
+        ? wrap.animate([{transform:'translateX(-4px)'},{transform:'translateX(4px)'},
+                        {transform:'none'}], {duration:220}) : 0;
+        return; }
+      img.src = cv.toDataURL('image/png');
+      img.alt = 'Signature of ' + name.value.trim();
+      dateB.textContent = today();
+      lock(true); store();
+    });
+
+    clr.addEventListener('click', function(){
+      if (signed) lock(false);
+      var r = cv.getBoundingClientRect();
+      ctx.clearRect(0, 0, r.width, r.height); mark(false);
+      dateB.innerHTML = '&mdash;'; store();
+    });
+
+    // restore
+    fit();
+    var was = state[id];
+    if (was && was.sig) {
+      name.value = was.name || '';
+      dateB.textContent = was.date || today();
+      img.src = was.sig; img.alt = 'Signature of ' + (was.name || '');
+      mark(true); lock(true);
+    }
+    addEventListener('resize', function(){ if (!signed) fit(); });
+  });
+
+  var pr = document.getElementById('sign-print');
+  if (pr) pr.addEventListener('click', function(){ window.print(); });
 })();
 </script>
 </body>
