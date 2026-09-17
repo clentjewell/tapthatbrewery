@@ -139,23 +139,35 @@ def r_investment(content):
 
     blocks = dict(re.findall(r"^### (.+?)\n(.*?)(?=^### |\Z)", content, re.M | re.S))
     out.append('<div class="options">')
-    for key, tag, price, sub in [
-        ("Option A – the ninety-day sprint", "A", "$27,500", "+ GST, fixed, three months"),
-        ("Option B – twelve months", "B", "$5,500", "a month + GST, $66,000 over twelve"),
-    ]:
+    for key, tag in [("Option A – the ninety-day sprint", "A"),
+                     ("Option B – twelve months", "B")]:
         chunk = blocks[key]
         rows = split_table(chunk[chunk.index("|"):])
         pay = re.search(r"^Payment: (.+)$", chunk, re.M)
         lines = [r for r in rows if not r[0].lower().startswith("**option")]
+        # The price is read off the table's own total row, so the figure on
+        # the page and the figure in the document are one number, not two.
+        total = [r for r in rows if r[0].lower().startswith("**option")][0][1]
+        m = re.match(r"\*\*(.+?)\*\*(.*)", total)
+        headline, rest = m.group(1).strip(), m.group(2)
+        big = re.match(r"\$[\d,]+", headline).group(0)
+        sub = headline[len(big):].strip(" ·,")
+        was = re.search(r"normally (\$[\d,]+)", rest)
+        extra = [x.strip() for x in rest.split("·") if x.strip() and "normally" not in x]
+        sub = " · ".join([x for x in [sub] + extra if x])
+        wasline = (f'<span class="was">Normally <s>{was.group(1)}</s></span>'
+                   if was else "")
+        offtag = '<span class="opt-off">Discounted</span>' if was else ""
         out.append(f'''<section class="opt rv">
-  <div class="opt-top"><span class="opt-tag">Option {tag}</span>
+  <div class="opt-top"><span class="opt-tag">Option {tag}</span>{offtag}
     <h4>{inline(key.split("– ",1)[1].strip().capitalize())}</h4></div>
-  <div class="opt-price"><strong>{price}</strong><span>{sub}</span></div>
+  <div class="opt-price">{wasline}<strong>{big}</strong><span>{sub}</span></div>
   <ul class="opt-lines">''')
         for line, fee in lines:
             out.append(f'<li><span class="ol-t">{inline(line)}</span>'
                        f'<span class="ol-f">{inline(fee)}</span></li>')
-        out.append(f'</ul><p class="opt-pay">{inline(pay.group(1)) if pay else ""}</p></section>')
+        out.append(f'</ul><p class="opt-pay"><strong>Payment:</strong> '
+                   f'{inline(pay.group(1)) if pay else ""}</p></section>')
     out.append("</div>")
 
     earn = blocks["What it has to earn"]
@@ -406,9 +418,14 @@ td:first-child{width:32%;color:var(--ink)}
 .options{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));margin-bottom:26px}
 .opt{background:var(--keg-2);border:1px solid rgba(244,242,238,.16);border-radius:16px;padding:26px clamp(20px,2.4vw,28px);display:flex;flex-direction:column}
 .opt:first-child{border-color:color-mix(in srgb,var(--brass-lt) 42%,transparent)}
+.opt-top{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .opt-tag{font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-lt)}
-.opt-top h4{font-size:19px;font-weight:600;margin-top:7px;color:#F4F2EE}
+.opt-off{font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--brass);color:#fff;padding:4px 9px;border-radius:999px}
+.opt-top h4{flex-basis:100%;font-size:19px;font-weight:600;margin-top:2px;color:#F4F2EE}
 .opt-price{margin:20px 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(244,242,238,.16)}
+.opt-price .was{display:block;font-size:13px;color:rgba(244,242,238,.52);margin-bottom:6px}
+.opt-price .was s{text-decoration-thickness:1.5px;text-decoration-color:var(--brass-lt)}
 .opt-price strong{display:block;font-size:clamp(36px,4.6vw,52px);font-weight:700;letter-spacing:-.045em;
   line-height:1;color:#fff;font-variant-numeric:tabular-nums}
 .opt-price span{display:block;margin-top:9px;font-size:12.5px;color:rgba(244,242,238,.62)}
@@ -419,6 +436,7 @@ td:first-child{width:32%;color:var(--ink)}
 .ol-t{color:rgba(244,242,238,.74)}
 .ol-t strong{color:#F4F2EE}
 .ol-f{color:#F4F2EE;font-weight:600;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.opt-pay strong{color:rgba(244,242,238,.82)}
 .opt-pay{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,242,238,.16);
   font-size:12.5px;line-height:1.55;color:rgba(244,242,238,.62)}
 .earn{border-left:2px solid var(--brass-lt);padding:4px 0 4px 20px;margin-bottom:28px}
@@ -461,7 +479,7 @@ html.js .cover dl{animation-delay:.22s}
   .cover,.sec[data-dark]{background:#fff!important;color:#000!important}
   .cover::after{display:none}
   .cover h1{font-size:30pt}
-  .cover dt,.cover dd,.cover .thesis,.sec[data-dark] .lede,.sec[data-dark] .note,
+  .was,.was s,.cover dt,.cover dd,.cover .thesis,.sec[data-dark] .lede,.sec[data-dark] .note,
   .basis dt,.basis dd,.ol-t,.ol-f,.earn p,.opt-price strong,.opt-top h4,.opt-pay{color:#000!important}
   .cover dl>div,.opt,.basis>div{background:#fff!important}
   /* the 1px-gap trick paints a grey block wherever the grid has no cell */

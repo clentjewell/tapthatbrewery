@@ -176,9 +176,9 @@ Two options. Both run on the same plan and the same rhythm. All figures are Aust
 | **Foundation builds.** Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages. | $9,250 |
 | **Programme design.** Switcher offer and the partner approach; referral programme and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; Oktoberfest and the giveaway campaign. | $8,500 |
 | **Running the sprint, three months.** SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report. | $3,250 a month, $9,750 |
-| **Option A total** | **$27,500 + GST** |
+| **Option A total** | **$12,500 + GST** · normally $27,500 |
 
-Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review.
+Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.
 
 ### Option B – twelve months
 
@@ -186,13 +186,13 @@ Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at 
 |---|---|
 | **Everything in Option A**, delivered in the first three months. | Included |
 | **Months four to twelve.** The weddings and functions programme; membership redesign; the designing-for-her brief; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September. | Included |
-| **Option B total** | **$5,500 a month, $66,000 + GST over twelve months** |
+| **Option B total** | **$2,500 a month + GST** · normally $5,500 · $30,000 over twelve months |
 
 Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.
 
 ### What it has to earn
 
-Option A is $9,167 a month for three months with no commitment beyond it. Option B is $5,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. Option B pays for itself at 28 additional active refillers held for a year. Your own six-month target adds about 145.
+Option A is $4,167 a month for three months with no commitment beyond it. Option B is $2,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. **Option B pays for itself at thirteen additional active refillers held for a year.** Your own six-month target adds about 145.
 
 | Not included | |
 |---|---|
@@ -201,7 +201,7 @@ Option A is $9,167 a month for three months with no commitment beyond it. Option
 | **The Urban Legends booking widget** | Scoped separately once the operator agrees to carry it. |
 | **Third-party software and print** | GoTab, Fishbowl, any booking tool licence, and print runs. |
 
-*– These figures are proposed on the rates Jewell Projects charges today and on what this business can carry while it is not yet cashflow positive. They are not the value of the work at rack; that is closer to double.*
+*– The struck-through figures are the standard rate, built on what Jewell Projects charges today: Client Director $1,500 a day, Client Manager $1,250 a day. The discounted rate is what we are putting on the table for this engagement, and it holds for its term.*
 
 ## Decisions this proposal needs
 

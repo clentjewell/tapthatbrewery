@@ -184,9 +184,14 @@ td:first-child{width:32%;color:var(--ink)}
 .options{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));margin-bottom:26px}
 .opt{background:var(--keg-2);border:1px solid rgba(244,242,238,.16);border-radius:16px;padding:26px clamp(20px,2.4vw,28px);display:flex;flex-direction:column}
 .opt:first-child{border-color:color-mix(in srgb,var(--brass-lt) 42%,transparent)}
+.opt-top{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
 .opt-tag{font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-lt)}
-.opt-top h4{font-size:19px;font-weight:600;margin-top:7px;color:#F4F2EE}
+.opt-off{font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  background:var(--brass);color:#fff;padding:4px 9px;border-radius:999px}
+.opt-top h4{flex-basis:100%;font-size:19px;font-weight:600;margin-top:2px;color:#F4F2EE}
 .opt-price{margin:20px 0 18px;padding-bottom:18px;border-bottom:1px solid rgba(244,242,238,.16)}
+.opt-price .was{display:block;font-size:13px;color:rgba(244,242,238,.52);margin-bottom:6px}
+.opt-price .was s{text-decoration-thickness:1.5px;text-decoration-color:var(--brass-lt)}
 .opt-price strong{display:block;font-size:clamp(36px,4.6vw,52px);font-weight:700;letter-spacing:-.045em;
   line-height:1;color:#fff;font-variant-numeric:tabular-nums}
 .opt-price span{display:block;margin-top:9px;font-size:12.5px;color:rgba(244,242,238,.62)}
@@ -197,6 +202,7 @@ td:first-child{width:32%;color:var(--ink)}
 .ol-t{color:rgba(244,242,238,.74)}
 .ol-t strong{color:#F4F2EE}
 .ol-f{color:#F4F2EE;font-weight:600;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.opt-pay strong{color:rgba(244,242,238,.82)}
 .opt-pay{margin-top:16px;padding-top:14px;border-top:1px solid rgba(244,242,238,.16);
   font-size:12.5px;line-height:1.55;color:rgba(244,242,238,.62)}
 .earn{border-left:2px solid var(--brass-lt);padding:4px 0 4px 20px;margin-bottom:28px}
@@ -239,7 +245,7 @@ html.js .cover dl{animation-delay:.22s}
   .cover,.sec[data-dark]{background:#fff!important;color:#000!important}
   .cover::after{display:none}
   .cover h1{font-size:30pt}
-  .cover dt,.cover dd,.cover .thesis,.sec[data-dark] .lede,.sec[data-dark] .note,
+  .was,.was s,.cover dt,.cover dd,.cover .thesis,.sec[data-dark] .lede,.sec[data-dark] .note,
   .basis dt,.basis dd,.ol-t,.ol-f,.earn p,.opt-price strong,.opt-top h4,.opt-pay{color:#000!important}
   .cover dl>div,.opt,.basis>div{background:#fff!important}
   /* the 1px-gap trick paints a grey block wherever the grid has no cell */
@@ -467,31 +473,31 @@ html.js .cover dl{animation-delay:.22s}
 </dl>
 <div class="options">
 <section class="opt rv">
-  <div class="opt-top"><span class="opt-tag">Option A</span>
+  <div class="opt-top"><span class="opt-tag">Option A</span><span class="opt-off">Discounted</span>
     <h4>The ninety-day sprint</h4></div>
-  <div class="opt-price"><strong>$27,500</strong><span>+ GST, fixed, three months</span></div>
+  <div class="opt-price"><span class="was">Normally <s>$27,500</s></span><strong>$12,500</strong><span>+ GST</span></div>
   <ul class="opt-lines">
 <li><span class="ol-t"><strong>Foundation builds.</strong> Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages.</span><span class="ol-f">$9,250</span></li>
 <li><span class="ol-t"><strong>Programme design.</strong> Switcher offer and the partner approach; referral programme and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; Oktoberfest and the giveaway campaign.</span><span class="ol-f">$8,500</span></li>
 <li><span class="ol-t"><strong>Running the sprint, three months.</strong> SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report.</span><span class="ol-f">$3,250 a month, $9,750</span></li>
-</ul><p class="opt-pay">50% on acceptance, 50% at the mid-December review. Stop or continue at that review.</p></section>
+</ul><p class="opt-pay"><strong>Payment:</strong> 50% on acceptance, 50% at the mid-December review. Stop or continue at that review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.</p></section>
 <section class="opt rv">
-  <div class="opt-top"><span class="opt-tag">Option B</span>
+  <div class="opt-top"><span class="opt-tag">Option B</span><span class="opt-off">Discounted</span>
     <h4>Twelve months</h4></div>
-  <div class="opt-price"><strong>$5,500</strong><span>a month + GST, $66,000 over twelve</span></div>
+  <div class="opt-price"><span class="was">Normally <s>$5,500</s></span><strong>$2,500</strong><span>a month + GST · $30,000 over twelve months</span></div>
   <ul class="opt-lines">
 <li><span class="ol-t"><strong>Everything in Option A</strong>, delivered in the first three months.</span><span class="ol-f">Included</span></li>
 <li><span class="ol-t"><strong>Months four to twelve.</strong> The weddings and functions programme; membership redesign; the designing-for-her brief; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September.</span><span class="ol-f">Included</span></li>
-</ul><p class="opt-pay">monthly in advance. Minimum three months, then stop at any review with a month’s notice.</p></section>
+</ul><p class="opt-pay"><strong>Payment:</strong> monthly in advance. Minimum three months, then stop at any review with a month’s notice.</p></section>
 </div>
-<div class="earn rv"><h4>What it has to earn</h4><p>Option A is $9,167 a month for three months with no commitment beyond it. Option B is $5,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. Option B pays for itself at 28 additional active refillers held for a year. Your own six-month target adds about 145.</p></div>
+<div class="earn rv"><h4>What it has to earn</h4><p>Option A is $4,167 a month for three months with no commitment beyond it. Option B is $2,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. <strong>Option B pays for itself at thirteen additional active refillers held for a year.</strong> Your own six-month target adds about 145.</p></div>
 <h4 class="sub">Not included</h4><dl class="basis tight">
 <div><dt><strong>Media spend</strong></dt><dd>Billed directly by Meta and Google. Management of spend above $5,000 a month at 10% of the excess.</dd></div>
 <div><dt><strong>Photography and video</strong></dt><dd>$1,250 a day, quoted per shoot.</dd></div>
 <div><dt><strong>The Urban Legends booking widget</strong></dt><dd>Scoped separately once the operator agrees to carry it.</dd></div>
 <div><dt><strong>Third-party software and print</strong></dt><dd>GoTab, Fishbowl, any booking tool licence, and print runs.</dd></div>
 </dl>
-<p class="note">These figures are proposed on the rates Jewell Projects charges today and on what this business can carry while it is not yet cashflow positive. They are not the value of the work at rack; that is closer to double.</p></div>
+<p class="note">The struck-through figures are the standard rate, built on what Jewell Projects charges today: Client Director $1,500 a day, Client Manager $1,250 a day. The discounted rate is what we are putting on the table for this engagement, and it holds for its term.</p></div>
   </div>
 </section>
 <section class="sec" id="decisions-this-proposal-needs">

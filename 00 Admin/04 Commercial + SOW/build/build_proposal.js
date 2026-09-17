@@ -306,19 +306,19 @@ body.push(twoCol([
   ['Foundation builds', ['Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages. $9,250']],
   ['Programme design', ['Switcher offer and the partner approach; referral programme and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; Oktoberfest and the giveaway campaign. $8,500']],
   ['Running the sprint, three months', ['SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report. $3,250 a month, $9,750']],
-  ['Option A total', [[b('$27,500 + GST')]]],
+  ['Option A total', [[b('$12,500 + GST'), run('  \u00b7  normally $27,500')]]],
 ], [3000, 6026]));
-body.push(P('Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review.'));
+body.push(P('Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.'));
 body.push(SUB('Option B – twelve months'));
 body.push(twoCol([
   ['Line', ['Fee']],
   ['Everything in Option A', ['Delivered in the first three months. Included.']],
   ['Months four to twelve', ['The weddings and functions programme; membership redesign; the designing-for-her brief; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September. Included.']],
-  ['Option B total', [[b('$5,500 a month, $66,000 + GST over twelve months')]]],
+  ['Option B total', [[b('$2,500 a month + GST'), run('  \u00b7  normally $5,500  \u00b7  $30,000 over twelve months')]]],
 ], [3000, 6026]));
 body.push(P('Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.'));
 body.push(SUB('What it has to earn'));
-body.push(P('Option A is $9,167 a month for three months with no commitment beyond it. Option B is $5,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. Option B pays for itself at 28 additional active refillers held for a year. Your own six-month target adds about 145.'));
+body.push(P([run('Option A is $4,167 a month for three months with no commitment beyond it. Option B is $2,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. '), b('Option B pays for itself at thirteen additional active refillers held for a year.'), run(' Your own six-month target adds about 145.')]));
 body.push(twoCol([
   ['Not included', ['']],
   ['Media spend', ['Billed directly by Meta and Google. Management of spend above $5,000 a month at 10% of the excess.']],
@@ -326,7 +326,7 @@ body.push(twoCol([
   ['The Urban Legends booking widget', ['Scoped separately once the operator agrees to carry it.']],
   ['Third-party software and print', ['GoTab, Fishbowl, any booking tool licence, and print runs.']],
 ], [3000, 6026]));
-body.push(Note('These figures are proposed on the rates Jewell Projects charges today and on what this business can carry while it is not yet cashflow positive. They are not the value of the work at rack; that is closer to double.'));
+body.push(Note('The struck-through figures are the standard rate, built on what Jewell Projects charges today: Client Director $1,500 a day, Client Manager $1,250 a day. The discounted rate is what we are putting on the table for this engagement, and it holds for its term.'));
 
 body.push(H('Decisions This Proposal Needs'));
 const s2 = 'jp-num-2';
