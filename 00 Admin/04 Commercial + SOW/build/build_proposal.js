@@ -246,7 +246,7 @@ body.push(activityTable([
 
 body.push(SUB('7. Governance'));
 body.push(activityTable([
-  ['Meeting rhythm', ['Your 30-day item. A weekly 30 minutes with Harry, a monthly hour with the founders against the four numbers, and a review at each rung of your ladder.'], ['30 days, ongoing']],
+  ['Meeting rhythm', ['Your 30-day item. A weekly 30 minutes with Harry and Justin, a monthly hour with both founders against the four numbers, and a review at each rung of your ladder.'], ['30 days, ongoing']],
   ['Who does what', ['The responsibility matrix on the Activation sheet, agreed and dated, so nothing sits with everybody.'], ['30 days']],
   ['Reviews on your ladder', ['Mid-October, mid-December, March 2027, September 2027. Every review asks first whether active refillers moved.'], ['As dated']],
 ]));
@@ -273,12 +273,13 @@ body.push(twoCol([
 body.push(Note('The longer horizons on your plan, 1,000 refillers and proprietary system supply at three years, expansion and a production facility at five, an exit at ten to twelve, are on the summary sheet. This proposal covers the first year of the climb.'));
 
 body.push(H('Ways of Working'));
-body.push(bullet([b('Weekly with Harry. '), run('Thirty minutes: progress, blockers, what we need. Harry is the operator; everything we build is runnable by that seat.')]));
-body.push(bullet([b('Monthly with the founders. '), run('One hour against the four numbers. Decisions taken in the room and recorded.')]));
+body.push(bullet([b('Christy runs it. '), run('Christy Kilmartin leads the engagement for Jewell Projects: strategy, direction, and the call on what gets built next. Your first call on anything.')]));
+body.push(bullet([b('Harry executes. '), run('Harry is the operator inside Tap That. Everything we design is built to be run from that seat, and the day-to-day sits with him.')]));
+body.push(bullet([b('Weekly with Harry and Justin. '), run('Thirty minutes: progress, blockers, what we need next. Both of you in the room, so direction and execution do not drift apart between meetings.')]));
+body.push(bullet([b('Monthly against the numbers. '), run('One hour with both founders on the four numbers. Decisions taken in the room and recorded.')]));
 body.push(bullet([b('Reviews on your ladder. '), run('Mid-October, mid-December, March, September. A written review at each, and a stop-or-continue conversation at each.')]));
 body.push(bullet([b('One source of truth. '), run('Everything lives in the shared engagement folder and on the plan on a page. Nothing important travels only by text.')]));
 body.push(bullet([b('Sign-off. '), run('One named person on your side, our suggestion is Justin with Chris consulted on brand and product, approves messaging, offers and anything that goes to market.')]));
-body.push(bullet([b('Coverage. '), run('Clent is overseas from the end of September. The weekly rhythm continues online and Christy carries strategy in the room.')]));
 
 body.push(H('What We Need From You'));
 body.push(twoCol([

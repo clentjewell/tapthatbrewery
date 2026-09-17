@@ -111,7 +111,7 @@ The brand is not being rebuilt. It is being sharpened around one enemy, overpric
 
 | Activity | What we deliver | When |
 |---|---|---|
-| **Meeting rhythm** | Your 30-day item. A weekly 30 minutes with Harry, a monthly hour with the founders against the four numbers, and a review at each rung of your ladder. | 30 days, ongoing |
+| **Meeting rhythm** | Your 30-day item. A weekly 30 minutes with Harry and Justin, a monthly hour with both founders against the four numbers, and a review at each rung of your ladder. | 30 days, ongoing |
 | **Who does what** | The responsibility matrix on the Activation sheet, agreed and dated, so nothing sits with everybody. | 30 days |
 | **Reviews on your ladder** | Mid-October, mid-December, March 2027, September 2027. Every review asks first whether active refillers moved. | As dated |
 
@@ -140,12 +140,13 @@ Your own 30-day list is the first sprint. We work it with you rather than around
 
 ## Ways of working
 
-- **Weekly with Harry.** Thirty minutes: progress, blockers, what we need. Harry is the operator; everything we build is runnable by that seat.
-- **Monthly with the founders.** One hour against the four numbers. Decisions taken in the room and recorded.
+- **Christy runs it.** Christy Kilmartin leads the engagement for Jewell Projects: strategy, direction, and the call on what gets built next. Your first call on anything.
+- **Harry executes.** Harry is the operator inside Tap That. Everything we design is built to be run from that seat, and the day-to-day sits with him.
+- **Weekly with Harry and Justin.** Thirty minutes: progress, blockers, what we need next. Both of you in the room, so direction and execution do not drift apart between meetings.
+- **Monthly against the numbers.** One hour with both founders on the four numbers. Decisions taken in the room and recorded.
 - **Reviews on your ladder.** Mid-October, mid-December, March, September. A written review at each, and a stop-or-continue conversation at each.
 - **One source of truth.** Everything lives in the shared engagement folder and on the plan on a page. Nothing important travels only by text.
 - **Sign-off.** One named person on your side, our suggestion is Justin with Chris consulted on brand and product, approves messaging, offers and anything that goes to market.
-- **Coverage.** Clent is overseas from the end of September. The weekly rhythm continues online and Christy carries strategy in the room.
 
 ## What we need from you
 
