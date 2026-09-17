@@ -201,6 +201,7 @@ body.push(SUB('2. Switch the owners who already have a system'));
 body.push(P('Your number one, and ours. These people have already overcome every objection. They just buy their beer somewhere else.'));
 body.push(activityTable([
   ['Harvey Norman', ['Gift-with-purchase or first-keg-free tied to keg system sales, at franchisee level. We hold contacts into Harvey Norman franchisees and a contact who has installed for Harvey Norman, JB Hi-Fi and The Good Guys at scale. The Bunnings-installer model: they sell the hardware, Tap That is the named first call for what goes in it.'], ['3 months']],
+  ['Outdoor kitchen and appliance specification', ['Get a compact keg-and-tap unit specified as a standard inclusion in outdoor kitchens, the way the bar fridge already is. Renders and visuals first, tested on social for demand before anything is manufactured. It opens the outdoor living aisle, where keg systems do not currently appear at all.'], ['6 months']],
   ['Kegland, corny keg and Benchy', ['Buy or partner for the owner databases. Formalise the Benchy partnership. A voucher for a Tap That refill in the box.'], ['3 months']],
   ['Switcher campaign', ['One offer, one message, one landing page: “You already have the hardware. We are the beer. First keg on us.” Run across Meta, search and the CRM.'], ['3 months']],
   ['Lease-to-buy and delivery', ['Your launch items. We build the offer page, the CRM flow and the launch creative for lease-to-buy systems and the keg delivery service.'], ['3 months']],
@@ -210,7 +211,9 @@ body.push(SUB('3. Referrals, JVPs and ambassadors'));
 body.push(P('Your priority three and your one-year marker: referrals, JVPs and online driving the majority of system sales.'));
 body.push(activityTable([
   ['Referral programme and Bring a Mate', ['Design, mechanics, CRM automation and creative. Referral is already 18% of acquisition and fewer than half the base knows a keg-system reward exists. Fixing that is the cheapest campaign on this list.'], ['3 months']],
-  ['JVP and referral partner programme', ['The list, the offer, the outreach and the follow-up, run from the CRM. Starts with the contacts already named: Mark’s two wedding venues, the Zip water network, Never Quit, and the tour operators.'], ['3 months, ongoing']],
+  ['JVP and referral partner programme', ['The list, the offer, the outreach and the follow-up, run from the CRM. Starts with the contacts already named: Mark’s two wedding venues, the Zip water network, Value H2O and its east coast service base, Never Quit, and the tour operators.'], ['3 months, ongoing']],
+  ['Trades as a referral force', ['Plumbers, kitchen installers and outdoor living fitters are in the room when the decision gets made. A card or QR code each, a kickback or beer for every referral that converts, and the tracking that lets you pay it.'], ['3 months']],
+  ['Host a tasting', ['Turn owners into the sales force. They pour for about twenty friends at home, we supply the kit, the invitation and the mechanics, and they earn on anything sold. The referral runs at their table rather than in your inbox.'], ['6 months']],
   ['UGC and brand ambassador content', ['A content programme with your named ambassadors, Kurt, Troy, Mitch, Aden and Ash: the brief, the shoot plan, the release schedule, the rights. Ready to deploy within three months.'], ['3 months']],
 ]));
 
@@ -234,12 +237,14 @@ body.push(activityTable([
 ]));
 
 body.push(SUB('6. Brand, range and proof'));
-body.push(P('The brand is not being rebuilt. It is being sharpened around one enemy, overpriced pubs, and one line, yours: every household in Australia deserves beer on tap.'));
+body.push(P('The brand is not being rebuilt. It is being sharpened around one enemy, overpriced pubs, and one line, yours: every household in Australia deserves beer on tap. The one addition we recommend is where the category sits, because it changes who will partner with you and what the hardware has to look like.'));
 body.push(activityTable([
   ['Key messaging by target market', ['Your 30-day item. One page per segment: what we say, what we prove, what we ask. Built on $2.55 a schooner against $12 at the pub.'], ['30 days']],
+  ['Where the category sits', ['Our recommendation, for your call. Elevate from beer to home entertainment. Every household deserves beer on tap is the business ambition; the idea underneath it is that Tap That takes an ordinary catch-up and makes it the one people remember. The comparison set becomes coffee machines and outdoor kitchens, upgrades people choose to display, rather than kegerators in the appliance aisle.'], ['30 days']],
   ['Customer journey mapped', ['Your 30-day item. From first contact to first refill to reorder, with the CRM trigger at each step.'], ['30 days']],
   ['Proof assets', ['The Crafted award, the reviews, fits-any-system and no CO2, produced for the website, the venue, the tap decals and social. Owned already, barely used.'], ['3 months']],
   ['Designing for her', ['A product and design brief, not a campaign: the range, the RTD, the hydration and light story, and a system that sits in eyesight at home. Wellness influencer collaborations as the first proof.'], ['6 months']],
+  ['The unit as an object worth owning', ['A design direction for the hardware and how it is presented, so it earns a place on the bench or in the outdoor kitchen. A Zip HydroTap sells at around $10,000 largely on how it looks. Runs alongside designing for her, and it is what gets a keg system into the outdoor living aisle instead of the appliance aisle.'], ['6 months']],
   ['Range and heroes', ['Support the cut to hero brews with the product marketing behind them: social proof cues at the point of sale, most popular, award winner, what to eat with it.'], ['6 months']],
   ['Campaign artwork', ['Four event flyers are built. Next: Oktoberfest, the switcher campaign, the referral programme, the ambassador content, and everything the calendar needs, in Tap That’s own format.'], ['Ongoing']],
 ]));
@@ -266,8 +271,8 @@ body.push(H('Timeline, on Your Ladder'));
 body.push(twoCol([
   ['Horizon', ['What is true at the end of it']],
   ['30 days – mid-October', ['Shape decided. Messaging and journey signed. KPIs, definitions and meeting rhythm set. Oktoberfest run, giveaway entries in the CRM. $2.55 on the ad.']],
-  ['3 months – mid-December', ['Website and SEM live. GoTab and Fishbowl connected, CRM triggers replacing the 90-day SMS. Lease-to-buy and delivery launched. Harvey Norman and Kegland conversations open. Referral programme and Bring a Mate live. Ambassador content deploying. Wholesale pipeline in the CRM. Next hire decided.']],
-  ['6 months – March 2027', ['250 active keg refillers. Wedding and functions programme selling. Membership redesigned. Designing-for-her brief in market. Career pathways for Chris and Harry defined.']],
+  ['3 months – mid-December', ['Website and SEM live. GoTab and Fishbowl connected, CRM triggers replacing the 90-day SMS. Lease-to-buy and delivery launched. Harvey Norman and Kegland conversations open. Referral programme and Bring a Mate live, with trades carrying cards. Ambassador content deploying. Wholesale pipeline in the CRM. Next hire decided.']],
+  ['6 months – March 2027', ['250 active keg refillers. Wedding and functions programme selling. Membership redesigned. Designing-for-her and the hardware-as-object briefs in market. Outdoor kitchen and host-a-tasting pilots running. Career pathways for Chris and Harry defined.']],
   ['1 year – September 2027', ['Referrals, JVPs and online driving most system sales. Replicable events calendar running. Cashflow positive, Justin on a wage.']],
 ]));
 body.push(Note('The longer horizons on your plan, 1,000 refillers and proprietary system supply at three years, expansion and a production facility at five, an exit at ten to twelve, are on the summary sheet. This proposal covers the first year of the climb.'));

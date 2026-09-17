@@ -98,6 +98,13 @@ def main():
     only = None
     if "--check" in sys.argv:
         only = sys.argv[sys.argv.index("--check") + 1]
+        # A bare filename, not a path. Anything else matches no sheet, and a
+        # run with nothing in it reports clean -- which is how a clipped sheet
+        # gets shipped.
+        only = pathlib.Path(only).name
+        known = [f for _, f, _ in SHEETS]
+        if only not in known:
+            sys.exit("--check takes one of: " + ", ".join(known))
     work = WORK / ("check-" + only.replace(".html", "")) if only else WORK
     work.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)

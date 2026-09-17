@@ -53,9 +53,9 @@
 .oap[data-sheet="plan-business"] .b-maths .kpi .lbl{font-size:5.5pt;line-height:1.26;}
 
 /* ---- 03 Brand ---- */
-.oap[data-sheet="plan-brand"] .canvas{grid-template-rows:0.90fr 1.14fr 1.08fr}
-.oap[data-sheet="plan-brand"] .b-position{grid-column:1/6;grid-row:1;}
-.oap[data-sheet="plan-brand"] .b-enemy{grid-column:6/13;grid-row:1;}
+.oap[data-sheet="plan-brand"] .canvas{grid-template-rows:0.96fr 1.15fr 1.01fr}
+.oap[data-sheet="plan-brand"] .b-position{grid-column:1/7;grid-row:1;}
+.oap[data-sheet="plan-brand"] .b-enemy{grid-column:7/13;grid-row:1;}
 .oap[data-sheet="plan-brand"] .b-range{grid-column:1/5;grid-row:2;}
 .oap[data-sheet="plan-brand"] .b-her{grid-column:5/9;grid-row:2;}
 .oap[data-sheet="plan-brand"] .b-proof{grid-column:9/13;grid-row:2;}
@@ -66,10 +66,10 @@
 .oap[data-sheet="plan-brand"] .b-open li{font-size:7.3pt;line-height:1.42;margin-bottom:1.5mm;}
 
 /* ---- 04 Sales and marketing ---- */
-.oap[data-sheet="plan-sales"] .canvas{grid-template-rows:0.96fr 1.20fr 1.04fr}
+.oap[data-sheet="plan-sales"] .canvas{grid-template-rows:0.84fr 1.33fr 1.03fr}
 .oap[data-sheet="plan-sales"] .b-engine{grid-column:1/13;grid-row:1;}
-.oap[data-sheet="plan-sales"] .b-segments{grid-column:1/7;grid-row:2;}
-.oap[data-sheet="plan-sales"] .b-convert{grid-column:7/13;grid-row:2;}
+.oap[data-sheet="plan-sales"] .b-segments{grid-column:1/6;grid-row:2;}
+.oap[data-sheet="plan-sales"] .b-convert{grid-column:6/13;grid-row:2;}
 .oap[data-sheet="plan-sales"] .b-wholesale{grid-column:1/5;grid-row:3;}
 .oap[data-sheet="plan-sales"] .b-search{grid-column:5/9;grid-row:3;}
 .oap[data-sheet="plan-sales"] .b-measure{grid-column:9/13;grid-row:3;}
@@ -89,10 +89,10 @@
 .oap[data-sheet="plan-sales"] .b-measure .kpi .lbl{font-size:5.5pt;line-height:1.26;}
 
 /* ---- 05 Activation ---- */
-.oap[data-sheet="plan-activation"] .canvas{grid-template-rows:1.06fr 1.06fr 1.02fr}
+.oap[data-sheet="plan-activation"] .canvas{grid-template-rows:0.96fr 1.24fr 0.94fr}
 .oap[data-sheet="plan-activation"] .b-90{grid-column:1/13;grid-row:1;}
-.oap[data-sheet="plan-activation"] .b-destination{grid-column:1/5;grid-row:2;}
-.oap[data-sheet="plan-activation"] .b-partners{grid-column:5/9;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-destination{grid-column:1/4;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-partners{grid-column:4/9;grid-row:2;}
 .oap[data-sheet="plan-activation"] .b-campaign{grid-column:9/13;grid-row:2;}
 .oap[data-sheet="plan-activation"] .b-raci{grid-column:1/9;grid-row:3;}
 .oap[data-sheet="plan-activation"] .b-check{grid-column:9/13;grid-row:3;}

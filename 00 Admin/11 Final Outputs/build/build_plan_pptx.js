@@ -59,15 +59,15 @@ const LAYOUT = {
     'b-model': [1, 7, 1], 'b-units': [7, 13, 1], 'b-maths': [1, 5, 2],
     'b-econ': [5, 9, 2], 'b-canning': [9, 13, 2], 'b-decisions': [1, 7, 3],
     'b-risks': [7, 13, 3] } },
-  brand: { rows: [0.90, 1.14, 1.08], boxes: {
-    'b-position': [1, 6, 1], 'b-enemy': [6, 13, 1], 'b-range': [1, 5, 2],
+  brand: { rows: [0.96, 1.15, 1.01], boxes: {
+    'b-position': [1, 7, 1], 'b-enemy': [7, 13, 1], 'b-range': [1, 5, 2],
     'b-her': [5, 9, 2], 'b-proof': [9, 13, 2], 'b-open': [1, 7, 3],
     'b-voice': [7, 13, 3] } },
-  sales: { rows: [0.96, 1.20, 1.04], boxes: {
-    'b-engine': [1, 13, 1], 'b-segments': [1, 7, 2], 'b-convert': [7, 13, 2],
+  sales: { rows: [0.84, 1.33, 1.03], boxes: {
+    'b-engine': [1, 13, 1], 'b-segments': [1, 6, 2], 'b-convert': [6, 13, 2],
     'b-wholesale': [1, 5, 3], 'b-search': [5, 9, 3], 'b-measure': [9, 13, 3] } },
-  activation: { rows: [1.06, 1.06, 1.02], boxes: {
-    'b-90': [1, 13, 1], 'b-destination': [1, 5, 2], 'b-partners': [5, 9, 2],
+  activation: { rows: [0.96, 1.24, 0.94], boxes: {
+    'b-90': [1, 13, 1], 'b-destination': [1, 4, 2], 'b-partners': [4, 9, 2],
     'b-campaign': [9, 13, 2], 'b-raci': [1, 9, 3], 'b-check': [9, 13, 3] } },
 };
 
