@@ -16,7 +16,7 @@ import markdown
 from build_pack import ROOT, SITE
 
 SRC = os.path.join(ROOT, "00 Admin/04 Commercial + SOW",
-                   "02__Proposal__Tap-That-Brewery__Client__Draft__v02.md")
+                   "02__Proposal__Tap-That-Brewery__Client__Draft__v03.md")
 OUT = os.path.join(SITE, "engagement-proposal.html")
 
 # ---------------------------------------------------------------- parsing
