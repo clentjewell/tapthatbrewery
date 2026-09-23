@@ -66,7 +66,7 @@
 .oap[data-sheet="plan-brand"] .b-open li{font-size:7.3pt;line-height:1.42;margin-bottom:1.5mm;}
 
 /* ---- 04 Sales and marketing ---- */
-.oap[data-sheet="plan-sales"] .canvas{grid-template-rows:0.84fr 1.33fr 1.03fr}
+.oap[data-sheet="plan-sales"] .canvas{grid-template-rows:0.92fr 1.25fr 1.03fr}
 .oap[data-sheet="plan-sales"] .b-engine{grid-column:1/13;grid-row:1;}
 .oap[data-sheet="plan-sales"] .b-segments{grid-column:1/6;grid-row:2;}
 .oap[data-sheet="plan-sales"] .b-convert{grid-column:6/13;grid-row:2;}
@@ -89,11 +89,11 @@
 .oap[data-sheet="plan-sales"] .b-measure .kpi .lbl{font-size:5.5pt;line-height:1.26;}
 
 /* ---- 05 Activation ---- */
-.oap[data-sheet="plan-activation"] .canvas{grid-template-rows:0.96fr 1.24fr 0.94fr}
+.oap[data-sheet="plan-activation"] .canvas{grid-template-rows:0.88fr 1.32fr 0.94fr}
 .oap[data-sheet="plan-activation"] .b-90{grid-column:1/13;grid-row:1;}
-.oap[data-sheet="plan-activation"] .b-destination{grid-column:1/4;grid-row:2;}
-.oap[data-sheet="plan-activation"] .b-partners{grid-column:4/9;grid-row:2;}
-.oap[data-sheet="plan-activation"] .b-campaign{grid-column:9/13;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-destination{grid-column:1/5;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-partners{grid-column:5/10;grid-row:2;}
+.oap[data-sheet="plan-activation"] .b-campaign{grid-column:10/13;grid-row:2;}
 .oap[data-sheet="plan-activation"] .b-raci{grid-column:1/9;grid-row:3;}
 .oap[data-sheet="plan-activation"] .b-check{grid-column:9/13;grid-row:3;}
 .oap[data-sheet="plan-activation"] .band-grid{flex:1;min-height:0;display:grid;
@@ -104,7 +104,7 @@
   font-size:6.5pt;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:1.4mm;}
 .oap[data-sheet="plan-activation"] .band-cell li{font-size:7pt;line-height:1.36;margin-bottom:1.1mm;}
 .oap[data-sheet="plan-activation"] .b-partners table.mini td,
-.oap[data-sheet="plan-activation"] .b-partners table.mini th{padding:1.3mm 1.6mm;font-size:6.6pt;}
+.oap[data-sheet="plan-activation"] .b-partners table.mini th{padding:1.05mm 1.5mm;font-size:6.5pt;}
 .oap[data-sheet="plan-activation"] .b-raci table.mini td,
 .oap[data-sheet="plan-activation"] .b-raci table.mini th{padding:1.4mm 1.6mm;font-size:6.7pt;text-align:center;}
 .oap[data-sheet="plan-activation"] .b-raci table.mini td:first-child,

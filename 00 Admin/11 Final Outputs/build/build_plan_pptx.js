@@ -63,12 +63,12 @@ const LAYOUT = {
     'b-position': [1, 7, 1], 'b-enemy': [7, 13, 1], 'b-range': [1, 5, 2],
     'b-her': [5, 9, 2], 'b-proof': [9, 13, 2], 'b-open': [1, 7, 3],
     'b-voice': [7, 13, 3] } },
-  sales: { rows: [0.84, 1.33, 1.03], boxes: {
+  sales: { rows: [0.92, 1.25, 1.03], boxes: {
     'b-engine': [1, 13, 1], 'b-segments': [1, 6, 2], 'b-convert': [6, 13, 2],
     'b-wholesale': [1, 5, 3], 'b-search': [5, 9, 3], 'b-measure': [9, 13, 3] } },
-  activation: { rows: [0.96, 1.24, 0.94], boxes: {
-    'b-90': [1, 13, 1], 'b-destination': [1, 4, 2], 'b-partners': [4, 9, 2],
-    'b-campaign': [9, 13, 2], 'b-raci': [1, 9, 3], 'b-check': [9, 13, 3] } },
+  activation: { rows: [0.88, 1.32, 0.94], boxes: {
+    'b-90': [1, 13, 1], 'b-destination': [1, 5, 2], 'b-partners': [5, 10, 2],
+    'b-campaign': [10, 13, 2], 'b-raci': [1, 9, 3], 'b-check': [9, 13, 3] } },
 };
 
 /* Type, straight out of the two stylesheets. [size in pt, line height]. */
@@ -101,7 +101,7 @@ const OVER = {
   'sales/b-segments':       { td: [6.8, 1.36], pad: 1.4 },
   'sales/b-convert':        { lead: [8.6, 1.38] },
   'sales/b-measure':        { kpiNum: [11, 1.0], kpiLbl: [5.5, 1.26] },
-  'activation/b-partners':  { td: [6.6, 1.36], pad: 1.3 },
+  'activation/b-partners':  { td: [6.5, 1.36], pad: 1.05 },
   'activation/b-raci':      { td: [6.7, 1.36], pad: 1.4 },
   'activation/b-check':     { li: [7.3, 1.4] },
 };
