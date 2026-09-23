@@ -54,6 +54,46 @@ def slug(t):
     return re.sub(r"[^a-z0-9]+", "-", re.sub(r"<[^>]+>", "", t).lower()).strip("-")
 
 
+# The package this proposal belongs to. Copied into the site at build time
+# rather than uploaded by hand, so the link and the file cannot drift apart.
+COMMERCIAL = os.path.join(ROOT, "00 Admin/04 Commercial + SOW")
+PLAN = os.path.join(ROOT, "00 Admin/11 Final Outputs/plan-on-a-page")
+DOWNLOADS = [
+    ("The proposal", "PDF", os.path.join(COMMERCIAL, "JP_TapThat_Proposal_v03.pdf")),
+    ("The proposal", "Word", os.path.join(COMMERCIAL, "JP_TapThat_Proposal_v03.docx")),
+    ("The proposal, as a deck", "PDF", os.path.join(COMMERCIAL, "JP_TapThat_ProposalDeck_v03.pdf")),
+    ("The proposal, as a deck", "PowerPoint", os.path.join(COMMERCIAL, "JP_TapThat_ProposalDeck_v03.pptx")),
+    ("The plan on a page", "PDF, five A3 sheets", os.path.join(PLAN, "TapThat_Plan-on-a-Page_A3.pdf")),
+    ("The plan on a page", "PowerPoint, editable A3", os.path.join(PLAN, "TapThat_Plan-on-a-Page_A3.pptx")),
+]
+
+
+def r_downloads():
+    import shutil
+    out_dir = os.path.join(SITE, "downloads")
+    os.makedirs(out_dir, exist_ok=True)
+    cards = ['<p class="lede">Everything in this proposal, as files you can keep. '
+             'The deck is the same content as the document, laid out to be walked through.</p>',
+             '<div class="dl">']
+    for title, fmt, src in DOWNLOADS:
+        if not os.path.exists(src):
+            raise SystemExit("download missing, build it first: " + src)
+        name = os.path.basename(src)
+        shutil.copyfile(src, os.path.join(out_dir, name))
+        kb = os.path.getsize(src) / 1024.0
+        size = "%.1f MB" % (kb / 1024) if kb > 1024 else "%d KB" % round(kb)
+        ext = name.rsplit(".", 1)[1].upper()
+        cards.append(
+            f'<a class="dl-c rv" href="/downloads/{name}" download>'
+            f'<span class="dl-x">{ext}</span>'
+            f'<span class="dl-t">{html.escape(title)}</span>'
+            # The badge already carries the extension, so only repeat the
+            # format when it says something the badge does not.
+            f'<span class="dl-m">{size if fmt.upper() == ext else html.escape(fmt) + " · " + size}</span></a>')
+    cards.append("</div>")
+    return "\n".join(cards)
+
+
 raw = open(SRC, encoding="utf-8").read()
 
 meta = {}
@@ -255,6 +295,15 @@ for i, (title, content) in enumerate(sections, 1):
   </div>
 </section>''')
 
+i = len(sections) + 1
+nav.append(f'<a href="#take-it-away"><span class="n">{i:02d}</span>Take it away</a>')
+blocks.append(f'''<section class="sec" id="take-it-away">
+  <div class="sec-in">
+    <header class="sec-h rv"><span class="sec-n">{i:02d}</span><h3>Take it away</h3></header>
+    <div class="sec-b">{r_downloads()}</div>
+  </div>
+</section>''')
+
 THESIS = ("One marketer cannot run a switcher campaign, a referral programme, an events "
           "calendar, a wholesale pipeline and a CRM build at once. This is the hands.")
 
@@ -425,6 +474,15 @@ td:first-child{width:32%;color:var(--ink)}
 .steps strong{color:var(--ink)}
 
 /* ---- ladder ---- */
+.dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:26px}
+.dl-c{display:flex;flex-direction:column;gap:5px;padding:20px 22px;text-decoration:none;
+  background:var(--paper);border:1px solid var(--rule);border-radius:14px;color:var(--ink);
+  transition:border-color .15s,transform .15s}
+.dl-c:hover{border-color:var(--brass);transform:translateY(-2px)}
+.dl-x{font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--brass)}
+.dl-t{font-size:16px;font-weight:600;line-height:1.3}
+.dl-m{font-size:12.5px;color:var(--steel)}
+@media print{.dl-c{break-inside:avoid}}
 .ladder{list-style:none;position:relative;padding-left:30px}
 .ladder::before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:1px;background:var(--rule)}
 .ladder li{position:relative;padding:0 0 30px}

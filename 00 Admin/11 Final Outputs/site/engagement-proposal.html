@@ -155,6 +155,15 @@ td:first-child{width:32%;color:var(--ink)}
 .steps strong{color:var(--ink)}
 
 /* ---- ladder ---- */
+.dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:26px}
+.dl-c{display:flex;flex-direction:column;gap:5px;padding:20px 22px;text-decoration:none;
+  background:var(--paper);border:1px solid var(--rule);border-radius:14px;color:var(--ink);
+  transition:border-color .15s,transform .15s}
+.dl-c:hover{border-color:var(--brass);transform:translateY(-2px)}
+.dl-x{font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--brass)}
+.dl-t{font-size:16px;font-weight:600;line-height:1.3}
+.dl-m{font-size:12.5px;color:var(--steel)}
+@media print{.dl-c{break-inside:avoid}}
 .ladder{list-style:none;position:relative;padding-left:30px}
 .ladder::before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:1px;background:var(--rule)}
 .ladder li{position:relative;padding:0 0 30px}
@@ -315,7 +324,7 @@ html.js .cover dl{animation-delay:.22s}
   <img class="wm" src="/brand/jewell-wordmark.png" alt="Jewell Projects">
   <span class="k">Tap That Brewery</span>
   <button class="menu-b" id="menu-b" type="button" aria-expanded="false" aria-controls="menu" aria-label="Contents"><span class="bars"><i></i><i></i><i></i></span>Contents</button>
-  <nav class="menu" id="menu" data-open="false" aria-label="Sections"><a href="#purpose"><span class="n">01</span>Purpose</a><a href="#where-you-are"><span class="n">02</span>Where you are</a><a href="#what-we-are-proposing"><span class="n">03</span>What we are proposing</a><a href="#the-work-by-workstream"><span class="n">04</span>The work, by workstream</a><a href="#the-first-30-days"><span class="n">05</span>The first 30 days</a><a href="#timeline-on-your-ladder"><span class="n">06</span>Timeline, on your ladder</a><a href="#ways-of-working"><span class="n">07</span>Ways of working</a><a href="#what-we-need-from-you"><span class="n">08</span>What we need from you</a><a href="#investment-and-terms"><span class="n">09</span>Investment and terms</a><a href="#decisions-this-proposal-needs"><span class="n">10</span>Decisions this proposal needs</a><a href="#sign-off"><span class="n">11</span>Sign-off</a><a href="#appendix-a-what-is-already-delivered"><span class="n">12</span>Appendix A – What is already delivered</a></nav>
+  <nav class="menu" id="menu" data-open="false" aria-label="Sections"><a href="#purpose"><span class="n">01</span>Purpose</a><a href="#where-you-are"><span class="n">02</span>Where you are</a><a href="#what-we-are-proposing"><span class="n">03</span>What we are proposing</a><a href="#the-work-by-workstream"><span class="n">04</span>The work, by workstream</a><a href="#the-first-30-days"><span class="n">05</span>The first 30 days</a><a href="#timeline-on-your-ladder"><span class="n">06</span>Timeline, on your ladder</a><a href="#ways-of-working"><span class="n">07</span>Ways of working</a><a href="#what-we-need-from-you"><span class="n">08</span>What we need from you</a><a href="#investment-and-terms"><span class="n">09</span>Investment and terms</a><a href="#decisions-this-proposal-needs"><span class="n">10</span>Decisions this proposal needs</a><a href="#sign-off"><span class="n">11</span>Sign-off</a><a href="#appendix-a-what-is-already-delivered"><span class="n">12</span>Appendix A – What is already delivered</a><a href="#take-it-away"><span class="n">13</span>Take it away</a></nav>
 </div></div>
 
 <header class="cover">
@@ -642,6 +651,20 @@ html.js .cover dl{animation-delay:.22s}
 <li><strong>Four event flyers.</strong> Weddings, bucks and hens, work functions, tours and tastings. Print-ready A4 in Tap That’s own format, in two image sets.</li>
 <li><strong>The catch-up transcripts.</strong> Verbatim, filed, and the reference where anything above is in question.</li>
 </ul></div>
+  </div>
+</section>
+<section class="sec" id="take-it-away">
+  <div class="sec-in">
+    <header class="sec-h rv"><span class="sec-n">13</span><h3>Take it away</h3></header>
+    <div class="sec-b"><p class="lede">Everything in this proposal, as files you can keep. The deck is the same content as the document, laid out to be walked through.</p>
+<div class="dl">
+<a class="dl-c rv" href="/downloads/JP_TapThat_Proposal_v03.pdf" download><span class="dl-x">PDF</span><span class="dl-t">The proposal</span><span class="dl-m">205 KB</span></a>
+<a class="dl-c rv" href="/downloads/JP_TapThat_Proposal_v03.docx" download><span class="dl-x">DOCX</span><span class="dl-t">The proposal</span><span class="dl-m">Word · 74 KB</span></a>
+<a class="dl-c rv" href="/downloads/JP_TapThat_ProposalDeck_v03.pdf" download><span class="dl-x">PDF</span><span class="dl-t">The proposal, as a deck</span><span class="dl-m">161 KB</span></a>
+<a class="dl-c rv" href="/downloads/JP_TapThat_ProposalDeck_v03.pptx" download><span class="dl-x">PPTX</span><span class="dl-t">The proposal, as a deck</span><span class="dl-m">PowerPoint · 73 KB</span></a>
+<a class="dl-c rv" href="/downloads/TapThat_Plan-on-a-Page_A3.pdf" download><span class="dl-x">PDF</span><span class="dl-t">The plan on a page</span><span class="dl-m">PDF, five A3 sheets · 607 KB</span></a>
+<a class="dl-c rv" href="/downloads/TapThat_Plan-on-a-Page_A3.pptx" download><span class="dl-x">PPTX</span><span class="dl-t">The plan on a page</span><span class="dl-m">PowerPoint, editable A3 · 825 KB</span></a>
+</div></div>
   </div>
 </section>
 </main>

@@ -17,6 +17,8 @@ The client-facing 3D Process site, deployed to Cloudflare Pages.
 | `/<slug>` | **One page per document** — e.g. `/paid-media-launch`, `/discover-summary`. Same sidebar, prev/next at the foot |
 | `/deck` | **The client deck** — 13 slides, scroll or arrow keys, deep-linkable by `#n`, prints to PDF. Generated from `06 Presentations/deck_content.py`, the same source as the .pptx |
 | `/on-a-page-overall`<br>`/on-a-page-discover`<br>`/on-a-page-design`<br>`/on-a-page-deploy` | **The four sheets** — one for the whole engagement plus one per phase — each phase distilled to one A3 landscape sheet. Fit / full-size / print controls |
+| `/engagement-proposal` | **The proposal** — the designed standalone page, with the interactive sign-off and the download block |
+| `/downloads/<file>` | **The package as files** — the proposal in PDF and Word, the proposal deck in PDF and PowerPoint, and the plan on a page in PDF and editable A3 PowerPoint. Copied in by `build_standalone_proposal.py`, never uploaded by hand. Behind the gate like everything else |
 | `/summary` | **The delivery summary** — the ten-section overview: what's in the set, what wasn't done, what's blocking sign-off |
 | `/__signout` | Clears the session cookie |
 
