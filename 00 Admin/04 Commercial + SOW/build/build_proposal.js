@@ -245,7 +245,8 @@ body.push(activityTable([
   ['Ticketed music and events calendar', ['A replicable calendar of ticketed events and collaborations, with the promotion built once and reused. Your one-year marker is a replicable events and promotions calendar; this is it.'], ['3 months, then quarterly']],
   ['Tours and tastings', ['Get onto the circuit: profiles updated with every operator, the award and the bus parking sold as the reasons to stop here, and a booking widget for Urban Legends so operators stop coordinating venue by venue.'], ['3 months']],
   ['Weddings and functions', ['The hens-and-bucks-to-wedding programme: tasting session, signature brew, reception supply, take-home sample. PR to planners, starting with Mark’s roughly 300 weddings a year.'], ['6 months']],
-  ['Party rental and membership', ['Rethink party rental so a minimum keg guarantee replaces the $75 hire barrier. Redesign membership so one programme serves the refill business rather than two programmes serving two shapes.'], ['6 months']],
+  ['Party rental', ['A system in a house for a weekend is a demo the host runs for you, in front of the people who might buy one. Rethink the offer so a minimum keg guarantee replaces the $75 hire barrier, and build the follow-up that turns a hire into a system sale.'], ['6 months']],
+  ['Membership redesign', ['One programme serving the refill business, rather than two programmes serving two shapes the business no longer has. Two live membership posters currently quote different prices, so one has to be withdrawn as part of this.'], ['6 months']],
 ]));
 
 body.push(SUB('5. Wholesale as a function'));
@@ -257,14 +258,12 @@ body.push(activityTable([
 ]));
 
 body.push(SUB('6. Brand, range and proof'));
-body.push(P('The brand is not being rebuilt. It is being sharpened around one enemy, overpriced pubs, and one line, yours: every household in Australia deserves beer on tap. On 18 September you adopted the one addition we recommended, which is where the category sits. It changes who will partner with you and what the hardware has to look like.'));
+body.push(P('The brand is not being rebuilt. It is being sharpened around one enemy, overpriced pubs, and one line, yours: every household in Australia deserves beer on tap. On 18 September you adopted the one addition we recommended, which is where the category sits. It changes who will partner with you and what the hardware has to look like, and those two consequences, the range and the hardware, are concepts rather than work booked here. They are scoped as a separate project and covered in Beyond this engagement below.'));
 body.push(activityTable([
   ['Key messaging by target market', ['Your 30-day item. One page per segment: what we say, what we prove, what we ask. Built on $2.55 a schooner against $12 at the pub.'], ['30 days']],
   ['Where the category sits', ['Settled: the best night in, on tap. Christy works it into key messaging for each target market, and into the brief for anything that goes to market.'], ['30 days']],
   ['Customer journey mapped', ['Your 30-day item. From first contact to first refill to reorder, with the CRM trigger at each step.'], ['30 days']],
   ['Proof assets', ['The Crafted award, the reviews, fits-any-system and no CO2, and the integrated units already selling, three to four plumbed-in systems with only the font showing and none of them on the website. Produced for the website, the venue, the tap decals and social. Owned already, barely used.'], ['3 months']],
-  ['Designing for her', ['A product and design brief, not a campaign: the range, the RTD, the hydration and light story, and a system that sits in eyesight at home. Wellness influencer collaborations as the first proof.'], ['6 months']],
-  ['The unit as an object worth owning', ['A design direction for the hardware and how it is presented, so it earns a place on the bench or in the outdoor kitchen. A Zip HydroTap sells at around $10,000 largely on how it looks. Runs alongside designing for her, and it is what gets a keg system into the outdoor living aisle instead of the appliance aisle.'], ['6 months']],
   ['Range and heroes', ['Support the cut to hero brews with the product marketing behind them: social proof cues at the point of sale, most popular, award winner, what to eat with it.'], ['6 months']],
   ['Campaign artwork', ['Four event flyers are built. Next: Oktoberfest, the switcher campaign, the referral programme, the ambassador content, and everything the calendar needs, in Tap That’s own format.'], ['Ongoing']],
 ]));
@@ -279,7 +278,7 @@ body.push(activityTable([
 body.push(H('Beyond This Engagement'));
 body.push(P('Two items in workstream 6 are briefs rather than the work itself: designing for her, and the unit as an object worth owning. That is deliberate. Writing a brief is a month. Acting on one is product and industrial design, with different people in it and a different order of spend, and it deserves its own decision rather than being absorbed into a marketing retainer.'));
 body.push(P([run('Both are scoped as a separate project in the '), b('Product Design Brief'), run(', catalogue #78, on the delivery site at /product-design-brief. It covers the range designed for her and the hardware as something worth owning, in four stages with a stop-or-continue point at each, and nothing in it commits to manufacturing before demand has been tested.')]));
-body.push(P([b('It runs alongside this engagement, not inside it. '), run('It is quoted separately, and nothing in it changes what is covered here or what it costs. This proposal still delivers both briefs at six months. The separate project is what they grow into if you want them to.')]));
+body.push(P([b('It runs alongside this engagement, not inside it. '), run('It is quoted separately, and nothing in it changes what is covered here or what it costs. Both are concepts at this stage rather than work booked into a horizon, which is why neither carries a date in the workstreams above. They become a project when you decide they should.')]));
 body.push(Note('Read it when you are ready to decide on it, not before. The decision it needs first is whether Tap That makes hardware, specifies it with a manufacturer, or licences the design.'));
 
 body.push(H('The First 30 Days'));
@@ -299,7 +298,7 @@ body.push(twoCol([
   ['Horizon', ['What is true at the end of it']],
   ['30 days – mid-October', ['Showroom or event space decided, and the Jewell split agreed. Messaging and journey signed, on the home entertainment position. KPIs, definitions and the weekly rhythm set. Oktoberfest run, giveaway entries in the CRM. $2.55 on the ad. The 250 date chosen.']],
   ['3 months – mid-December', ['Website and SEM live. GoTab and Fishbowl connected, CRM triggers replacing the 90-day SMS. Lease-to-buy and delivery launched. Harvey Norman and Kegland conversations open. Referral programme and Bring a Mate live, with trades carrying cards. Ambassador content deploying. Wholesale pipeline in the CRM. Next hire decided.']],
-  ['6 months – March 2027', ['250 active keg refillers, or December if you take the Christmas date. Wedding and functions programme selling. Membership redesigned. Designing-for-her and the hardware-as-object briefs in market. Outdoor kitchen and host-a-tasting pilots running. Career pathways for Chris and Harry defined.']],
+  ['6 months – March 2027', ['250 active keg refillers, or December if you take the Christmas date. Wedding and functions programme selling. Membership redesigned and party rental reworked. Outdoor kitchen and host-a-tasting pilots running. Career pathways for Chris and Harry defined.']],
   ['1 year – September 2027', ['Referrals, JVPs and online driving most system sales. Replicable events calendar running. Cashflow positive, Justin on a wage.']],
 ]));
 body.push(Note('The longer horizons on your plan, 1,000 refillers and proprietary system supply at three years, expansion and a production facility at five, an exit at ten to twelve, are on the summary sheet. This proposal covers the first year of the climb.'));
@@ -346,7 +345,7 @@ body.push(SUB('Option B – twelve months'));
 body.push(twoCol([
   ['Line', ['Fee']],
   ['Everything in Option A', ['Delivered in the first three months. Included.']],
-  ['Months four to twelve', ['The weddings and functions programme; membership redesign; the designing-for-her brief; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September. Included.']],
+  ['Months four to twelve', ['The weddings and functions programme; party rental reworked and membership redesigned; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September. Included.']],
   ['Option B total', [[b('$2,500 a month + GST'), run('  \u00b7  normally $5,500  \u00b7  $30,000 over twelve months')]]],
 ], [3000, 6026]));
 body.push(P('Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.'));

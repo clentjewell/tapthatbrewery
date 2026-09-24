@@ -541,9 +541,9 @@ def build(out_path):
          ["Ticketed music and calendar", "A replicable calendar, with the promotion built once and reused", "3 months"],
          ["Tours and tastings", "Onto the circuit. The award and the bus parking are the reasons to stop here", "3 months"],
          ["Weddings and functions", "Hens and bucks through to reception supply. Mark's roughly 300 weddings a year", "6 months"],
-         ["Party rental and membership", "A minimum keg guarantee replaces the $75 barrier. One membership, not two", "6 months"]],
+         ["Party rental", "A system in a house for a weekend is a demo the host runs. A keg guarantee replaces the $75 barrier", "6 months"],
+         ["Membership redesign", "One programme serving the refill business, not two serving two shapes. Two posters quote different prices", "6 months"]],
         [0.22, 0.64, 0.14],
-        lead="Settled: the room is a destination. Showroom or event space is still your call.",
     )
 
     table_slide(
@@ -563,8 +563,6 @@ def build(out_path):
          ["Key messaging by market", "One page per segment: what we say, what we prove, what we ask", "30 days"],
          ["Customer journey mapped", "First contact to first refill to reorder, with the CRM trigger at each step", "30 days"],
          ["Proof assets", "The Crafted award, the reviews, no CO2, and the integrated units already selling and nowhere on the site", "3 months"],
-         ["Designing for her", "A product and design brief, not a campaign. The range, the RTD, the light and hydration story", "6 months"],
-         ["The unit as an object", "A design direction for hardware that earns a place on the bench or in the outdoor kitchen", "6 months"],
          ["Range and heroes", "Social proof at the point of sale: most popular, award winner, what to eat with it", "6 months"],
          ["Campaign artwork", "Oktoberfest, the switcher, the referral programme, the ambassadors and the calendar", "Ongoing"]],
         [0.22, 0.64, 0.14],
@@ -584,13 +582,11 @@ def build(out_path):
     content_slide(
         prs, "Beyond this engagement",
         "Two of these are briefs, not the work itself.",
-        "Designing for her, and the unit as an object worth owning. Writing a brief is a "
-        "month. Acting on one is product and industrial design, with different people in it "
-        "and a different order of spend.\n"
-        "Both are scoped as a separate project in the Product Design Brief, on the delivery "
-        "site at /product-design-brief. It runs alongside this engagement rather than inside "
-        "it and is quoted separately. Nothing in it changes what is covered here or what it "
-        "costs.",
+        "Designing for her, and the unit as an object worth owning. Acting on either is product "
+        "and industrial design, with different people in it and a different order of spend.\n"
+        "Both are scoped separately in the Product Design Brief, at /product-design-brief. "
+        "They are concepts at this stage, not work booked into a horizon, which is why "
+        "neither carries a date in the workstreams.",
         foot="The decision it needs first is whether Tap That makes hardware, specifies it "
              "with a manufacturer, or licences the design.",
     )
