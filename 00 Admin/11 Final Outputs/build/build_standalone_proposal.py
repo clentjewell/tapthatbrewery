@@ -433,7 +433,11 @@ h4.sub{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:upperc
   color:var(--steel);margin:34px 0 12px}
 
 /* ---- generic tables (kept for the plain sections) ---- */
-.tw{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:12px;background:var(--paper)}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 20px;border:1px solid var(--rule);border-radius:12px;background:var(--paper)}
+/* Subheads written in a prose section, such as the positioning options. */
+.sec-b h3{font-size:clamp(17px,2.2vw,20px);font-weight:600;letter-spacing:-.01em;
+  line-height:1.25;margin:34px 0 10px}
+.sec-b h3:first-child{margin-top:0}
 table{width:100%;border-collapse:collapse;font-size:13.5px}
 th,td{text-align:left;vertical-align:top;padding:13px 16px;border-bottom:1px solid var(--rule)}
 th{font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);background:var(--shade)}

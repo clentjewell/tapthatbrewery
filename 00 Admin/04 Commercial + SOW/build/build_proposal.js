@@ -179,9 +179,23 @@ body.push(P([
 body.push(P('On 18 September you also closed the money question. Break-even is about $50,000 a month against a current run rate of $35,000 to $45,000, and one month has already hit it. You confirmed that 250 active refillers clears it, so the six-month number and the money number are the same number. Christy has put 250 by Christmas on the table given the outdoor entertaining season. You have not chosen between Christmas and March, and that date should be settled before this is signed.'));
 body.push(P([run('Your five priorities, in your words: find every existing keg system owner and switch them; website upgrade plus SEM; JVPs, referral partners and an internal referral programme; taproom traffic from local business, functions and ticketed music; wholesale. This proposal is built around those five, plus the foundations they all depend on.')]));
 
+body.push(H('The Position'));
+body.push(P('Tap That is not in the beer business. It is in home entertainment, and in the business of bringing people together. The product does not just put beer in a glass at home. It turns an ordinary get-together into an occasion worth hosting, and it makes having people over something you look forward to rather than something you organise.'));
+body.push(P('Every household deserves beer on tap stays as the ambition. It is broad, and it describes what you want to be true rather than why anyone buys. The brand idea sits underneath it, and it is the one that sells.'));
+body.push(P([b('The comparison set changes with it. '), run('If the category is home entertainment, a keg system belongs beside the outdoor kitchen, the high-end barbecue and the coffee machine, rather than beside the bar fridge. That changes who will partner with you, what the hardware has to look like, and what people will pay for it.')]));
+body.push(P([b('Which makes this a design brief as much as a marketing one. '), run('The keg systems on the market today read as appliances. Stand one next to a premium outdoor kitchen and it looks like equipment rather than something you chose. The comparison worth studying is the premium filtered-water tap: people pay for it because it looks right on the bench and they show it to visitors. A Tap That system should earn the same reaction.')]));
+body.push(SUB('Positioning lines, for you to choose'));
+body.push(P('Three drafts, none of them final. Pick one, or take the one closest and we will work it up.'));
+body.push(activityTable([
+  ['A', ['The best night in, on tap.'], ['Occasion and hosting. Closest to the home entertainment idea, and the easiest to build a campaign around.']],
+  ['B', ['Your place. The one everyone wants to be at.'], ['Social proof. Strongest for the be-the-envy-of-your-friends register you already use.']],
+  ['C', ['Pour like a pub. Host like a home.'], ['Product and craft. Keeps the beer quality argument visible for the people who buy on taste.']],
+], [900, 3400, 4726]));
+body.push(Note('Options for discussion, not approved copy. Christy owns the final wording, and it should be settled before key messaging is written.'));
+
 body.push(H('What We Are Proposing'));
 body.push(P('Discover and Design are substantially done. The Discovery pack, the Pivot deck and the five-sheet plan on a page are delivered and in your hands. What is missing is the same thing it was in August: hands. One marketer at roughly seventy per cent capacity cannot run a switcher campaign, a referral programme, an events calendar, a wholesale pipeline and a CRM build at once, and Chris is trapped in production.'));
-body.push(P('So this is a Deploy proposal. Jewell Projects becomes the delivery capacity around Harry for the next twelve months: we build, launch and run the activities below, to your plan, on your horizons, reporting one set of four numbers monthly. You keep every decision. We do the work between decisions.'));
+body.push(P('So this is a Deploy proposal: a paid coaching and implementation engagement. Jewell Projects becomes the delivery capacity around Harry for the next twelve months. We build, launch and run the activities below, to your plan and on your horizons. Christy coaches the direction in a short weekly check-in, we do the work between those check-ins, and every milestone on your ladder gets a written review and a stop-or-continue conversation. You keep every decision. One set of four numbers is reported monthly.'));
 body.push(P([i('The real constraint in this business is hands, not ideas. We said that in August. Nothing since has changed it.')]));
 
 body.push(H('The Work, by Workstream'));
@@ -199,22 +213,25 @@ body.push(activityTable([
 ]));
 
 body.push(SUB('2. Switch the owners who already have a system'));
-body.push(P('Your number one, and ours. These people have already overcome every objection. They just buy their beer somewhere else.'));
+body.push(P('The lead priority. These people have already bought the hardware and overcome every objection that goes with it. They just buy their beer somewhere else.'));
 body.push(activityTable([
-  ['Harvey Norman', ['Gift-with-purchase or first-keg-free tied to keg system sales, at franchisee level. We hold contacts into Harvey Norman franchisees and a contact who has installed for Harvey Norman, JB Hi-Fi and The Good Guys at scale. The Bunnings-installer model: they sell the hardware, Tap That is the named first call for what goes in it.'], ['3 months']],
+  ['National retail, to explore', ['Harvey Norman, JB Hi-Fi and The Good Guys all sell the hardware. The opportunity is a gift-with-purchase or first-keg-free tied to a system sale at franchisee level, and access to the buyer database. The Bunnings-installer model: they sell the hardware, Tap That is the named first call for what goes in it. We hold the contacts to open these conversations.'], ['3 months']],
   ['Outdoor kitchen and appliance specification', ['Get a compact keg-and-tap unit specified as a standard inclusion in outdoor kitchens, the way the bar fridge already is. Renders and visuals first, tested on social for demand before anything is manufactured. It opens the outdoor living aisle, where keg systems do not currently appear at all.'], ['6 months']],
   ['Kegland, corny keg and Benchy', ['Buy or partner for the owner databases. Formalise the Benchy partnership. A voucher for a Tap That refill in the box.'], ['3 months']],
-  ['Switcher campaign', ['One offer, one message, one landing page: “You already have the hardware. We are the beer. First keg on us.” Run across Meta, search and the CRM.'], ['3 months']],
+  ['Switcher campaign', ['The lead priority. One offer, one message, one landing page: “You already have the hardware. We are the beer. First keg on us.” Run across Meta, search and the CRM.'], ['3 months']],
+  ['Switcher offer conditions', ['Written before the campaign runs, so the offer holds up. A hardware compatibility check before redemption; one offer per household or venue; proof of system ownership; wording that meets responsible service and liquor promotion rules; and Meta alcohol targeting set to 18 and over.'], ['3 months']],
   ['Lease-to-buy and delivery', ['Your launch items. We build the offer page, the CRM flow and the launch creative for lease-to-buy systems and the keg delivery service.'], ['3 months']],
 ]));
 
 body.push(SUB('3. Referrals, JVPs and ambassadors'));
 body.push(P('Your priority three and your one-year marker: referrals, JVPs and online driving the majority of system sales.'));
 body.push(activityTable([
-  ['Referral programme and Bring a Mate', ['Referral is already 18% of acquisition, on a programme nobody can hold in their hand: 1,000 tap tokens, about $50 or half a keg, for a system or wholesale referral, and 500 for a refill customer. Tokens do not travel. A free keg does. We rebuild it as a free keg and a card with a QR code an owner can hand to a mate, with the CRM automation and the creative behind both. The cheapest campaign on this list.'], ['3 months']],
-  ['JVP and referral partner programme', ['The list, the offer, the outreach and the follow-up, run from the CRM. Starts with the contacts already named: Mark’s two wedding venues, the Zip water network, Value H2O and its east coast service base, Jim’s Mowing for the backyard, Never Quit, and the tour operators.'], ['3 months, ongoing']],
-  ['Trades as a referral force', ['Plumbers, kitchen installers and outdoor living fitters are in the room when the decision gets made. They carry the same card the owners carry, with a kickback or beer for every referral that converts, and the tracking that lets you pay it.'], ['3 months']],
-  ['Host a tasting', ['Turn owners into the sales force. They pour for about twenty friends at home, we supply the kit, the invitation and the mechanics, and they earn on anything sold. The referral runs at their table rather than in your inbox.'], ['6 months']],
+  ['Referral programme and Bring a Mate', ['Referral is already 18% of acquisition, on a programme nobody can hold in their hand: 1,000 tap tokens, about $50 or half a keg, for a system or wholesale referral, and 500 for a refill customer. Tokens do not travel. A free keg does. We rebuild it around a reward worth passing on, a card with a QR code an owner can hand to a mate, and the CRM automation and creative behind both. The cheapest campaign on this list.'], ['3 months']],
+  ['Internal referral programme', ['The same mechanic pointed at keg system sales, for the team and for existing customers. Rewards in free beer or system credit, tracked so they can be paid without argument.'], ['3 months']],
+  ['JVP and referral partner programme', ['The list, the offer, the outreach and the follow-up, run from the CRM. Starts with contacts already in hand: Mark’s two wedding venues, Never Quit, and the tour operators.'], ['3 months, ongoing']],
+  ['Service networks, to explore', ['Commercial service networks already running technician routes along the east coast, water cooler operators among them, put a trained person in front of thousands of businesses every month. The opportunity is a referral or introduction on a service visit. Worth a conversation before it is worth a plan.'], ['6 months']],
+  ['Trades as a referral force', ['Plumbers, kitchen installers and outdoor living fitters are in the room when the decision gets made. They carry the same QR or referral card the owners carry, earn free beer or a keg on every referral that converts, and the tracking sits in the CRM so it can be paid without argument.'], ['3 months']],
+  ['Hosted tasting nights, to test', ['A test, not a commitment. An owner hosts a tasting at home, we supply the kit, the invitation and the mechanics, and they earn a free keg or system credit on anything sold. Run a small number first and decide on the numbers, not the idea.'], ['6 months']],
   ['UGC and brand ambassador content', ['A content programme with your named ambassadors, Kurt, Troy, Mitch, Aden and Ash: the brief, the shoot plan, the release schedule, the rights. Ready to deploy within three months.'], ['3 months']],
 ]));
 
@@ -242,7 +259,7 @@ body.push(SUB('6. Brand, range and proof'));
 body.push(P('The brand is not being rebuilt. It is being sharpened around one enemy, overpriced pubs, and one line, yours: every household in Australia deserves beer on tap. On 18 September you adopted the one addition we recommended, which is where the category sits. It changes who will partner with you and what the hardware has to look like.'));
 body.push(activityTable([
   ['Key messaging by target market', ['Your 30-day item. One page per segment: what we say, what we prove, what we ask. Built on $2.55 a schooner against $12 at the pub.'], ['30 days']],
-  ['Where the category sits', ['Adopted on 18 September. Home entertainment, not beer. Your line stays as the ambition; the brand idea underneath it is what the product does to an ordinary Saturday, which is turn a catch-up into the one people talk about. That puts the kegerator beside the outdoor kitchen, the high-end barbecue and the coffee machine, rather than beside the bar fridge. Christy owns the wording and leads the rewrite of key messaging on that basis.'], ['30 days']],
+  ['Where the category sits', ['The position section above, worked into a line you can sign off, then into key messaging. Christy owns the wording. Three options are on the table and one needs choosing before the messaging is written.'], ['30 days']],
   ['Customer journey mapped', ['Your 30-day item. From first contact to first refill to reorder, with the CRM trigger at each step.'], ['30 days']],
   ['Proof assets', ['The Crafted award, the reviews, fits-any-system and no CO2, and the integrated units already selling, three to four plumbed-in systems with only the font showing and none of them on the website. Produced for the website, the venue, the tap decals and social. Owned already, barely used.'], ['3 months']],
   ['Designing for her', ['A product and design brief, not a campaign: the range, the RTD, the hydration and light story, and a system that sits in eyesight at home. Wellness influencer collaborations as the first proof.'], ['6 months']],
