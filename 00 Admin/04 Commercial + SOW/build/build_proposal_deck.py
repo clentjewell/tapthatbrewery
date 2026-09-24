@@ -429,6 +429,41 @@ def build(out_path):
     )
 
     content_slide(
+        prs, "The position",
+        "Tap That is not in the beer business.",
+        "It is in home entertainment, and in the business of bringing people together. The "
+        "product does not just put beer in a glass at home. It turns an ordinary get-together "
+        "into an occasion worth hosting.\n"
+        "Every household deserves beer on tap stays as the ambition. It describes what you "
+        "want to be true rather than why anyone buys. The brand idea sits underneath it, and "
+        "it is the one that sells.",
+    )
+
+    content_slide(
+        prs, "The position · what it changes",
+        "A design brief as much as a marketing one.",
+        "If the category is home entertainment, a keg system belongs beside the outdoor "
+        "kitchen, the high-end barbecue and the coffee machine, rather than beside the bar "
+        "fridge.\n"
+        "The systems on the market today read as appliances. Stand one next to a premium "
+        "outdoor kitchen and it looks like equipment rather than something you chose. The "
+        "comparison worth studying is the premium filtered-water tap: people pay for it "
+        "because it looks right on the bench and they show it to visitors.",
+    )
+
+    table_slide(
+        prs, "The position · for you to choose", "Three lines. None of them final.",
+        ["", "The line", "What it leans on"],
+        [["A", "The best night in, on tap.", "Occasion and hosting. Closest to the home entertainment idea, and the easiest to build a campaign around"],
+         ["B", "Your place. The one everyone wants to be at.", "Social proof. Strongest for the be-the-envy-of-your-friends register you already use"],
+         ["C", "Pour like a pub. Host like a home.", "Product and craft. Keeps the beer quality argument visible for the people who buy on taste"]],
+        [0.05, 0.37, 0.58],
+        lead="Pick one, or take the one closest and we will work it up.",
+        foot="Options for discussion, not approved copy. Christy owns the final wording, and it "
+             "should be settled before key messaging is written.",
+    )
+
+    content_slide(
         prs, "Settled 18 September · three of three",
         "250 refillers is also the money number.",
         "Break-even is about $50,000 a month against a current run rate of $35,000 to "
@@ -475,25 +510,27 @@ def build(out_path):
     table_slide(
         prs, "Workstream 02", "Switch the owners who already have a system.",
         ["Activity", "What we deliver", "When"],
-        [["Harvey Norman", "Gift-with-purchase or first keg free at franchisee level, plus the buyer database and the outdoor living grouping", "3 months"],
+        [["National retail, to explore", "Harvey Norman, JB Hi-Fi and The Good Guys. A gift-with-purchase or first keg free at franchisee level, plus the buyer database", "3 months"],
          ["Kegland and Benchy", "Buy or partner for the owner databases. A refill voucher in the box", "3 months"],
-         ["Switcher campaign", "One offer, one page: you already have the hardware, we are the beer, first keg on us", "3 months"],
+         ["Switcher campaign", "The lead priority. One offer, one page: you already have the hardware, we are the beer, first keg on us", "3 months"],
+         ["Switcher offer conditions", "Compatibility check, one offer per household or venue, proof of ownership, liquor promotion wording, Meta targeting 18 and over", "3 months"],
          ["Lease-to-buy and delivery", "Your launch items. Offer page, CRM flow and launch creative for both", "3 months"],
          ["Outdoor kitchen specification", "A keg-and-tap unit as a standard inclusion. Visuals and a demand test before anything is manufactured", "6 months"]],
         [0.22, 0.64, 0.14],
-        lead="Your number one, and ours. They have overcome every objection already.",
+        lead="The lead priority. They have bought the hardware and overcome every objection already.",
     )
 
     table_slide(
         prs, "Workstream 03", "Referrals, JVPs and ambassadors.",
         ["Activity", "What we deliver", "When"],
-        [["Referral programme", "Tokens do not travel. A free keg does. Rebuilt around a free keg and a QR card an owner hands to a mate", "3 months"],
-         ["JVPs and partners", "The list, offer, outreach and follow-up from the CRM. Mark's venues, Zip, Value H2O, Jim's Mowing, the tour operators", "3 months"],
+        [["Referral programme", "Tokens do not travel. A reward worth passing on does. Rebuilt around a free keg and a QR card an owner hands to a mate", "3 months"],
+         ["Internal referral programme", "The same mechanic pointed at keg system sales, for the team and for existing customers. Tracked so it can be paid", "3 months"],
+         ["JVPs and partners", "The list, offer, outreach and follow-up from the CRM. Mark's venues, Never Quit and the tour operators", "3 months"],
          ["Trades as a referral force", "Plumbers and kitchen installers carry the same card, with a kickback and the tracking that lets you pay it", "3 months"],
          ["UGC and ambassadors", "Kurt, Troy, Mitch, Aden and Ash. The brief, the shoot plan, the release schedule, the rights", "3 months"],
-         ["Host a tasting", "An owner pours for about twenty friends at home and earns on anything sold", "6 months"]],
+         ["Hosted tasting nights, to test", "A test, not a commitment. An owner hosts at home and earns a free keg or credit on anything sold", "6 months"],
+         ["Service networks, to explore", "East coast technician routes already visiting thousands of businesses. A referral on a service visit", "6 months"]],
         [0.22, 0.64, 0.14],
-        lead="Referral is already 18% of acquisition, on a programme nobody can hold in their hand.",
     )
 
     table_slide(
@@ -523,7 +560,7 @@ def build(out_path):
     table_slide(
         prs, "Workstream 06", "Brand, range and proof.",
         ["Activity", "What we deliver", "When"],
-        [["Where the category sits", "Adopted 18 September. Home entertainment, not beer. Christy owns the wording", "30 days"],
+        [["Where the category sits", "The position, worked into a line you sign off, then into key messaging. Christy owns the wording", "30 days"],
          ["Key messaging by market", "One page per segment: what we say, what we prove, what we ask", "30 days"],
          ["Customer journey mapped", "First contact to first refill to reorder, with the CRM trigger at each step", "30 days"],
          ["Proof assets", "The Crafted award, the reviews, no CO2, and the integrated units already selling and nowhere on the site", "3 months"],
