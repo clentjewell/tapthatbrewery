@@ -276,6 +276,12 @@ body.push(activityTable([
   ['Reviews on your ladder', ['Mid-October, mid-December, March 2027, September 2027. Every review asks first whether active refillers moved.'], ['As dated']],
 ]));
 
+body.push(H('Beyond This Engagement'));
+body.push(P('Two items in workstream 6 are briefs rather than the work itself: designing for her, and the unit as an object worth owning. That is deliberate. Writing a brief is a month. Acting on one is product and industrial design, with different people in it and a different order of spend, and it deserves its own decision rather than being absorbed into a marketing retainer.'));
+body.push(P([run('Both are scoped as a separate project in the '), b('Product Design Brief'), run(', catalogue #78, on the delivery site at /product-design-brief. It covers the range designed for her and the hardware as something worth owning, in four stages with a stop-or-continue point at each, and nothing in it commits to manufacturing before demand has been tested.')]));
+body.push(P([b('It runs alongside this engagement, not inside it. '), run('It is quoted separately, and nothing in it changes what is covered here or what it costs. This proposal still delivers both briefs at six months. The separate project is what they grow into if you want them to.')]));
+body.push(Note('Read it when you are ready to decide on it, not before. The decision it needs first is whether Tap That makes hardware, specifies it with a manufacturer, or licences the design.'));
+
 body.push(H('The First 30 Days'));
 body.push(P('Your own 30-day list is the first sprint. We work it with you rather than around you.'));
 const s1 = 'jp-num-1';

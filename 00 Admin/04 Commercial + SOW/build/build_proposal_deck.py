@@ -581,6 +581,20 @@ def build(out_path):
         lead="Agreed on 18 September. Ronnie locks the standing day.",
     )
 
+    content_slide(
+        prs, "Beyond this engagement",
+        "Two of these are briefs, not the work itself.",
+        "Designing for her, and the unit as an object worth owning. Writing a brief is a "
+        "month. Acting on one is product and industrial design, with different people in it "
+        "and a different order of spend.\n"
+        "Both are scoped as a separate project in the Product Design Brief, on the delivery "
+        "site at /product-design-brief. It runs alongside this engagement rather than inside "
+        "it and is quoted separately. Nothing in it changes what is covered here or what it "
+        "costs.",
+        foot="The decision it needs first is whether Tap That makes hardware, specifies it "
+             "with a manufacturer, or licences the design.",
+    )
+
     # ---- Part 03 -------------------------------------------------------
     divider_slide(prs, "Part 03", "How it runs.",
                   "The first sprint, the ladder, and what we need from you.")

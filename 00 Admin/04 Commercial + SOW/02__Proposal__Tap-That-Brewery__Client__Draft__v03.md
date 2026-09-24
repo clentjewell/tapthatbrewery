@@ -151,6 +151,16 @@ The brand is not being rebuilt. It is being sharpened around one enemy, overpric
 | **Who does what** | The responsibility matrix on the Activation sheet, agreed and dated, so nothing sits with everybody. It is a draft until you and Chris return the split of what Jewell owns and what Harry and Justin keep. | 30 days |
 | **Reviews on your ladder** | Mid-October, mid-December, March 2027, September 2027. Every review asks first whether active refillers moved. | As dated |
 
+## Beyond this engagement
+
+Two items in workstream 6 are briefs rather than the work itself: designing for her, and the unit as an object worth owning. That is deliberate. Writing a brief is a month. Acting on one is product and industrial design, with different people in it and a different order of spend, and it deserves its own decision rather than being absorbed into a marketing retainer.
+
+Both are scoped as a separate project in the **[Product Design Brief](/product-design-brief)**. It covers the range designed for her and the hardware as something worth owning, in four stages with a stop-or-continue point at each, and nothing in it commits to manufacturing before demand has been tested.
+
+**It runs alongside this engagement, not inside it.** It is quoted separately, and nothing in it changes what is covered here or what it costs. This proposal still delivers both briefs at six months. The separate project is what they grow into if you want them to.
+
+*– Read it when you are ready to decide on it, not before. The decision it needs first is whether Tap That makes hardware, specifies it with a manufacturer, or licences the design.*
+
 ## The first 30 days
 
 Your own 30-day list is the first sprint. We work it with you rather than around you.
