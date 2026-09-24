@@ -87,6 +87,7 @@ CAT = {
  75:("Tracking Setup","Deploy","tracking-setup"),
  76:("Optimisation Backlog","Deploy","optimisation-backlog"),
  77:("Next Sprint Priorities","Deploy","next-sprint-priorities"),
+ 78:("Product Design Brief","Design","product-design-brief"),
 }
 
 SIGNOFF = {2,20,34,36,61,62,63}
