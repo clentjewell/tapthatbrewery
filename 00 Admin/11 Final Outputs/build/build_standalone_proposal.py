@@ -75,9 +75,18 @@ def r_downloads():
     cards = ['<p class="lede">Everything in this proposal, as files you can keep. '
              'The deck is the same content as the document, laid out to be walked through.</p>',
              '<div class="dl">']
+    src_mtime = os.path.getmtime(SRC)
     for title, fmt, src in DOWNLOADS:
         if not os.path.exists(src):
             raise SystemExit("download missing, build it first: " + src)
+        # A file older than the proposal it is generated from is a stale
+        # download waiting to be served. Copying it silently is how the page
+        # ends up contradicting its own attachments.
+        if src.startswith(COMMERCIAL) and os.path.getmtime(src) < src_mtime - 1:
+            raise SystemExit(
+                "stale download: %s predates the proposal markdown.\n"
+                "Rebuild the docx and the deck first, then run this again."
+                % os.path.basename(src))
         name = os.path.basename(src)
         shutil.copyfile(src, os.path.join(out_dir, name))
         kb = os.path.getsize(src) / 1024.0
@@ -135,8 +144,17 @@ def r_workstreams(content):
     <div><h4>{inline(title)}</h4>{f'<p>{inline(lede)}</p>' if lede else ''}</div></div>
   <ul class="acts">''')
         for a, d, w in rows:
+            how, _, gets = d.partition("**You get:**")
+            got = ""
+            if gets.strip():
+                items = [g.strip().rstrip(".") for g in gets.strip().split(";") if g.strip()]
+                # The source reads as a sentence, so the final clause carries an
+                # "and" that a bullet does not want.
+                items = [re.sub(r"^and ", "", g) for g in items]
+                lis = "".join(f"<li>{inline(g)}</li>" for g in items)
+                got = f'<div class="gets"><span class="gets-k">You get</span><ul>{lis}</ul></div>'
             out.append(f'''<li><div class="act-n">{inline(a)}</div>'''
-                       f'''<div class="act-d">{inline(d)}</div>'''
+                       f'''<div class="act-d">{inline(how.strip())}{got}</div>'''
                        f'''<div class="act-w"><span class="when w-{horizon_class(w)}">{html.escape(w)}</span></div></li>''')
         out.append("</ul></section>")
     out.append("</div>")
@@ -453,10 +471,17 @@ td:first-child{width:32%;color:var(--ink)}
 .stream-h h4{font-size:clamp(17px,2vw,20px);font-weight:600}
 .stream-h p{margin-top:7px;font-size:14px;line-height:1.55;color:var(--steel);max-width:58ch}
 .acts{list-style:none}
-.acts li{display:grid;grid-template-columns:200px minmax(0,1fr) 128px;gap:18px;align-items:start;
+.gets{margin-top:11px;padding:11px 14px;background:var(--tint);border:1px solid var(--rule);border-radius:10px}
+.gets-k{display:block;font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--brass);margin-bottom:6px}
+.gets ul{list-style:none;display:grid;gap:5px}
+.gets li{font-size:13.2px;line-height:1.5;color:var(--ink);padding-left:14px;position:relative}
+.gets li::before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;
+  background:var(--brass);opacity:.55}
+.acts > li{display:grid;grid-template-columns:200px minmax(0,1fr) 128px;gap:18px;align-items:start;
   padding:15px 0;border-bottom:1px solid var(--rule)}
-.acts li:last-child{border-bottom:0;padding-bottom:0}
-@media(max-width:760px){.acts li{grid-template-columns:1fr;gap:6px}}
+.acts > li:last-child{border-bottom:0;padding-bottom:0}
+@media(max-width:760px){.acts > li{grid-template-columns:1fr;gap:6px}}
 .act-n{font-size:14px;font-weight:600;line-height:1.45}
 .act-d{font-size:13.8px;line-height:1.6;color:var(--steel)}
 .act-w{text-align:right}
