@@ -451,16 +451,15 @@ def build(out_path):
         "because it looks right on the bench and they show it to visitors.",
     )
 
-    table_slide(
-        prs, "The position · for you to choose", "Three lines. None of them final.",
-        ["", "The line", "What it leans on"],
-        [["A", "The best night in, on tap.", "Occasion and hosting. Closest to the home entertainment idea, and the easiest to build a campaign around"],
-         ["B", "Your place. The one everyone wants to be at.", "Social proof. Strongest for the be-the-envy-of-your-friends register you already use"],
-         ["C", "Pour like a pub. Host like a home.", "Product and craft. Keeps the beer quality argument visible for the people who buy on taste"]],
-        [0.05, 0.37, 0.58],
-        lead="Pick one, or take the one closest and we will work it up.",
-        foot="Options for discussion, not approved copy. Christy owns the final wording, and it "
-             "should be settled before key messaging is written.",
+    content_slide(
+        prs, "The position · the line",
+        "The best night in, on tap.",
+        "Chosen on 24 September from three drafts. It leans on occasion and hosting, which is "
+        "the closest of the three to the idea underneath it and the easiest to build a "
+        "campaign around.\n"
+        "The two it beat name arguments the work still has to carry: social proof and the "
+        "be-the-envy-of-your-friends register, and the beer quality argument for the people "
+        "who buy on taste. Christy works the line into key messaging inside 30 days.",
     )
 
     content_slide(
@@ -560,7 +559,7 @@ def build(out_path):
     table_slide(
         prs, "Workstream 06", "Brand, range and proof.",
         ["Activity", "What we deliver", "When"],
-        [["Where the category sits", "The position, worked into a line you sign off, then into key messaging. Christy owns the wording", "30 days"],
+        [["Where the category sits", "Settled: the best night in, on tap. Christy works it into key messaging and into every brief", "30 days"],
          ["Key messaging by market", "One page per segment: what we say, what we prove, what we ask", "30 days"],
          ["Customer journey mapped", "First contact to first refill to reorder, with the CRM trigger at each step", "30 days"],
          ["Proof assets", "The Crafted award, the reviews, no CO2, and the integrated units already selling and nowhere on the site", "3 months"],

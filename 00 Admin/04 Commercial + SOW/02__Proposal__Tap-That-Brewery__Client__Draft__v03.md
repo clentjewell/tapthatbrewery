@@ -29,6 +29,10 @@ Your five priorities, in your words: find every existing keg system owner and sw
 
 ## The position
 
+**The best night in, on tap.**
+
+Chosen on 24 September from three drafts. It leans on occasion and hosting, which is the closest of the three to the idea underneath it and the easiest to build a campaign around. Every piece of collateral is written against it from here.
+
 Tap That is not in the beer business. It is in home entertainment, and in the business of bringing people together. The product does not just put beer in a glass at home. It turns an ordinary get-together into an occasion worth hosting, and it makes having people over something you look forward to rather than something you organise.
 
 Every household deserves beer on tap stays as the ambition. It is broad, and it describes what you want to be true rather than why anyone buys. The brand idea sits underneath it, and it is the one that sells.
@@ -37,17 +41,16 @@ Every household deserves beer on tap stays as the ambition. It is broad, and it 
 
 **Which makes this a design brief as much as a marketing one.** The keg systems on the market today read as appliances. Stand one next to a premium outdoor kitchen and it looks like equipment rather than something you chose. The comparison worth studying is the premium filtered-water tap: people pay for it because it looks right on the bench and they show it to visitors. A Tap That system should earn the same reaction.
 
-### Positioning lines, for you to choose
+### What it was chosen against
 
-Three drafts, none of them final. Pick one, or take the one closest and we will work it up.
+Three drafts went up. The other two are recorded here, because they name the two arguments the line has to keep carrying even though it does not lead with them.
 
-| The line | What it leans on |
+| Not chosen | What it leaned on |
 |---|---|
-| **A. The best night in, on tap.** | Occasion and hosting. Closest to the home entertainment idea, and the easiest to build a campaign around. |
-| **B. Your place. The one everyone wants to be at.** | Social proof. Strongest for the be-the-envy-of-your-friends register you already use. |
-| **C. Pour like a pub. Host like a home.** | Product and craft. Keeps the beer quality argument visible for the people who buy on taste. |
+| Your place. The one everyone wants to be at. | Social proof, and the be-the-envy-of-your-friends register. The chosen line has to keep that note in the work. |
+| Pour like a pub. Host like a home. | Product and craft. The beer quality argument still has to reach the people who buy on taste. |
 
-*– Options for discussion, not approved copy. Christy owns the final wording, and it should be settled before key messaging is written.*
+*– Christy works the line into key messaging for each target market inside 30 days.*
 
 ## What we are proposing
 
@@ -132,7 +135,7 @@ The brand is not being rebuilt. It is being sharpened around one enemy, overpric
 | Activity | What we deliver | When |
 |---|---|---|
 | **Key messaging by target market** | Your 30-day item. One page per segment: what we say, what we prove, what we ask. Built on $2.55 a schooner against $12 at the pub. | 30 days |
-| **Where the category sits** | The position section above, worked into a line you can sign off, then into key messaging. Christy owns the wording. Three options are on the table and one needs choosing before the messaging is written. | 30 days |
+| **Where the category sits** | Settled: the best night in, on tap. Christy works it into key messaging for each target market, and into the brief for anything that goes to market. | 30 days |
 | **Customer journey mapped** | Your 30-day item. From first contact to first refill to reorder, with the CRM trigger at each step. | 30 days |
 | **Proof assets** | The Crafted award, the reviews, fits-any-system and no CO2, and the integrated units already selling, three to four plumbed-in systems with only the font showing and none of them on the website. Produced for the website, the venue, the tap decals and social. Owned already, barely used. | 3 months |
 | **Designing for her** | A product and design brief, not a campaign: the range, the RTD, the hydration and light story, and a system that sits in eyesight at home. Wellness influencer collaborations as the first proof. | 6 months |

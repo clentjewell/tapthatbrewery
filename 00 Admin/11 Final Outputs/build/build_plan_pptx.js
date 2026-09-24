@@ -63,7 +63,7 @@ const LAYOUT = {
     'b-position': [1, 7, 1], 'b-enemy': [7, 13, 1], 'b-range': [1, 5, 2],
     'b-her': [5, 9, 2], 'b-proof': [9, 13, 2], 'b-open': [1, 7, 3],
     'b-voice': [7, 13, 3] } },
-  sales: { rows: [0.92, 1.25, 1.03], boxes: {
+  sales: { rows: [0.96, 1.21, 1.03], boxes: {
     'b-engine': [1, 13, 1], 'b-segments': [1, 6, 2], 'b-convert': [6, 13, 2],
     'b-wholesale': [1, 5, 3], 'b-search': [5, 9, 3], 'b-measure': [9, 13, 3] } },
   activation: { rows: [0.88, 1.32, 0.94], boxes: {
