@@ -522,13 +522,14 @@ def build(out_path):
     table_slide(
         prs, "Workstream 03", "Referrals, JVPs and ambassadors.",
         ["Activity", "What we deliver", "When"],
-        [["Referral programme", "Tokens do not travel. A reward worth passing on does. Rebuilt around a free keg and a QR card an owner hands to a mate", "3 months"],
-         ["Internal referral programme", "The same mechanic pointed at keg system sales, for the team and for existing customers. Tracked so it can be paid", "3 months"],
+        [["Referral programme", "Tokens do not travel. A free keg does. Rebuilt around a keg and a QR card an owner hands to a mate", "3 months"],
+         ["Internal referral programme", "The same mechanic pointed at system sales, for the team and existing customers. Tracked so it can be paid", "3 months"],
          ["JVPs and partners", "The list, offer, outreach and follow-up from the CRM. Mark's venues, Never Quit and the tour operators", "3 months"],
-         ["Trades as a referral force", "Plumbers and kitchen installers carry the same card, with a kickback and the tracking that lets you pay it", "3 months"],
+         ["Trades as a referral force", "Plumbers and kitchen installers carry the same card, with a kickback the CRM tracks", "3 months"],
+         ["Influencer strategy and outreach", "Three tiers: local reach, outdoor living, food and drink. Gifted first, paid where earned. Run to ABAC rules", "3 months"],
          ["UGC and ambassadors", "Kurt, Troy, Mitch, Aden and Ash. The brief, the shoot plan, the release schedule, the rights", "3 months"],
-         ["Hosted tasting nights, to test", "A test, not a commitment. An owner hosts at home and earns a free keg or credit on anything sold", "6 months"],
-         ["Service networks, to explore", "East coast technician routes already visiting thousands of businesses. A referral on a service visit", "6 months"]],
+         ["Hosted tasting nights, to test", "A test. An owner hosts at home and earns a keg or credit on anything sold", "6 months"],
+         ["Service networks, to explore", "East coast technician routes already visiting thousands of businesses. A referral on a service call", "6 months"]],
         [0.22, 0.64, 0.14],
     )
 
