@@ -1,0 +1,526 @@
+<title>Tap That Creator Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Layout: a taproom chalkboard feel. Condensed signage type, brand green bands, a sticky section rail, one column of readable text with wide tables where the data needs it. */
+:root{
+  --bg:#F6F5F0; --surface:#FFFFFF; --ink:#18221B; --muted:#5B665E; --line:#DAD9D0;
+  --green:#14361D; --green-soft:#E5ECE5; --gold:#8A5F22; --gold-bright:#CE9A49; --gold-soft:#F4EAD8;
+  --on-green:#F3F1EA; --warn:#9A3B1E; --warn-soft:#F7E4DC; --ok:#2E6B3A;
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1511; --surface:#16201A; --ink:#E9ECE6; --muted:#A3AEA5; --line:#2A3A2F;
+  --green:#1E4A29; --green-soft:#1B2B20; --gold:#DDB06A; --gold-bright:#CE9A49; --gold-soft:#2C2517;
+  --on-green:#F3F1EA; --warn:#F0A080; --warn-soft:#33201A; --ok:#8CCB97; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1511; --surface:#16201A; --ink:#E9ECE6; --muted:#A3AEA5; --line:#2A3A2F;
+  --green:#1E4A29; --green-soft:#1B2B20; --gold:#DDB06A; --gold-bright:#CE9A49; --gold-soft:#2C2517;
+  --on-green:#F3F1EA; --warn:#F0A080; --warn-soft:#33201A; --ok:#8CCB97; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+a{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.05;margin:0}
+h2{font-size:clamp(28px,4vw,40px);font-weight:800;text-transform:uppercase;letter-spacing:.01em;color:var(--ink)}
+h3{font-size:22px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+p{margin:0;max-width:68ch}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+
+/* hero */
+.hero{background:var(--green);color:var(--on-green)}
+.hero .wrap{padding-block:44px 36px;display:grid;gap:22px}
+.hero .eyebrow{color:var(--gold-bright)}
+.hero h1{font-size:clamp(44px,8vw,84px);font-weight:800;text-transform:uppercase;letter-spacing:-.005em}
+.hero h1 span{color:var(--gold-bright)}
+.hero p{font-size:19px;max-width:60ch;color:var(--on-green);opacity:.92}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:rgba(243,241,234,.18);border:1px solid rgba(243,241,234,.18);border-radius:6px;overflow:hidden;margin-top:6px}
+.fact{background:var(--green);padding:14px 16px}
+.fact b{display:block;font-family:var(--display);font-size:34px;font-weight:800;color:var(--gold-bright);line-height:1;font-variant-numeric:tabular-nums}
+.fact span{font-size:14px;opacity:.9}
+.meta{font-size:13px;opacity:.75}
+
+/* nav */
+nav.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav.rail .wrap{display:flex;gap:4px;overflow-x:auto;padding-block:8px;scrollbar-width:none}
+nav.rail a{flex:0 0 auto;font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding:6px 10px;border-radius:4px}
+nav.rail a:hover{color:var(--ink);background:var(--green-soft)}
+
+section{padding-block:52px;border-bottom:1px solid var(--line)}
+section .head{display:grid;gap:8px;margin-bottom:24px}
+.lede{font-size:18px;color:var(--muted)}
+.stack{display:grid;gap:14px}
+
+.callout{background:var(--gold-soft);border-left:4px solid var(--gold-bright);padding:14px 18px;border-radius:0 6px 6px 0;max-width:80ch}
+.callout b{color:var(--ink)}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-family:var(--display);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:14px;text-align:left;background:var(--green);color:var(--on-green);padding:10px 12px;white-space:nowrap}
+td{padding:11px 12px;border-top:1px solid var(--line);vertical-align:top}
+td:first-child{font-weight:600}
+.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* top 10 */
+.top10{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;counter-reset:none}
+.pick{display:grid;grid-template-columns:52px minmax(0,1fr);gap:4px 14px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px}
+.pick .rank{grid-row:span 3;font-family:var(--display);font-weight:800;font-size:44px;line-height:.9;color:var(--gold);font-variant-numeric:tabular-nums}
+.pick h3{font-size:21px}
+.pick .h{color:var(--muted);font-size:14px}
+.pick p{font-size:15px}
+.pick .how{font-size:14px;color:var(--ink);margin-top:6px}
+.pick .how b{font-family:var(--display);letter-spacing:.06em;text-transform:uppercase;font-size:13px;color:var(--gold)}
+
+/* shortlist */
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.chip{font:600 14px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:var(--on-green)}
+.search{flex:1 1 200px;min-width:0;font:15px var(--body);padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink)}
+.count{font-size:14px;color:var(--muted)}
+.list{display:grid;gap:8px}
+details.c{background:var(--surface);border:1px solid var(--line);border-radius:6px}
+details.c summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:34px minmax(0,2.2fr) minmax(0,1.6fr) minmax(0,1.6fr) 20px;gap:12px;align-items:center;padding:12px 14px}
+details.c summary::-webkit-details-marker{display:none}
+details.c summary::after{content:"+";font:700 20px var(--display);color:var(--muted);text-align:right}
+details.c[open] summary::after{content:"–"}
+.cid{font-family:var(--display);font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums}
+.who b{display:block;font-weight:600}
+.who span{font-size:14px;color:var(--muted)}
+.star{color:var(--gold);font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:.06em;margin-left:6px;text-transform:uppercase}
+.fol{font-size:14px;font-variant-numeric:tabular-nums}
+.tier{display:inline-block;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:3px;background:var(--green-soft);color:var(--ink);margin-bottom:3px}
+.opp{font-size:14px}
+.body{padding:0 14px 16px 60px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;font-size:15px}
+.body dt{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.body dd{margin:2px 0 0}
+.body .full{grid-column:1/-1}
+.flag{background:var(--warn-soft);color:var(--ink);padding:8px 10px;border-radius:4px}
+.flag dt{color:var(--warn)}
+.sel{user-select:all}
+
+/* models */
+.models{display:grid;gap:10px}
+.model{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,2fr) minmax(0,2fr) minmax(0,1fr);gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px}
+.model h3{font-size:20px}
+.model .for{font-size:14px;color:var(--muted);margin-top:4px}
+.model dt{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.model dd{margin:2px 0 0;font-size:15px}
+.cost{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.15;font-variant-numeric:tabular-nums}
+.budget{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:6px}
+.budget div{border-top:3px solid var(--gold-bright);padding-top:8px}
+.budget b{font-family:var(--display);font-size:26px;font-weight:800;display:block;font-variant-numeric:tabular-nums}
+.budget span{font-size:14px;color:var(--muted)}
+
+/* compliance */
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.rule{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:grid;gap:4px}
+.rule h3{font-size:19px}
+.rule p{font-size:15px}
+.rule .src{font-size:13px;color:var(--muted)}
+.rule.key{border-color:var(--gold-bright);background:var(--gold-soft)}
+
+/* templates */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.tpl{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:20px;display:grid;gap:12px}
+.tpl .bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.tpl pre{margin:0;white-space:pre-wrap;font:15px/1.6 var(--body);color:var(--ink);max-width:72ch}
+.btn{font:700 14px var(--display);letter-spacing:.08em;text-transform:uppercase;background:var(--green);color:var(--on-green);border:0;border-radius:4px;padding:8px 14px;cursor:pointer}
+.btn.done{background:var(--ok)}
+.note{font-size:14px;color:var(--muted)}
+
+/* timeline */
+.timeline{display:grid;gap:0}
+.phase{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px;padding-block:18px;border-top:1px solid var(--line)}
+.phase:first-child{border-top:0}
+.phase .when b{display:block;font-family:var(--display);font-size:24px;font-weight:800;text-transform:uppercase;line-height:1}
+.phase .when span{font-size:14px;color:var(--muted)}
+.phase h3{font-size:21px;margin-bottom:6px}
+.phase ul{margin:6px 0 0;padding-left:18px;display:grid;gap:3px}
+.phase .out{margin-top:8px;font-size:14px}
+.phase .out b{font-family:var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-size:13px}
+.bars{display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:3px;margin-bottom:18px}
+.bars div{height:10px;border-radius:2px;background:var(--green-soft)}
+.bars .p1{background:var(--muted)}.bars .p2{background:var(--green)}.bars .p3{background:var(--gold-bright)}.bars .p4{background:var(--gold)}.bars .p5{background:var(--ink)}
+.barlbl{display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:3px;font-size:12px;color:var(--muted);margin-top:-12px;margin-bottom:18px;font-variant-numeric:tabular-nums}
+
+ul.plain{margin:0;padding-left:18px;display:grid;gap:6px;max-width:80ch}
+footer{padding-block:32px 48px;font-size:14px;color:var(--muted)}
+
+@media (max-width:820px){
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .top10,.rules{grid-template-columns:minmax(0,1fr)}
+  .model{grid-template-columns:minmax(0,1fr);gap:8px}
+  .budget{grid-template-columns:repeat(2,minmax(0,1fr))}
+  details.c summary{grid-template-columns:28px minmax(0,1fr) 18px}
+  details.c summary .fol,details.c summary .opp{display:none}
+  .body{padding-left:14px;grid-template-columns:minmax(0,1fr)}
+  .phase{grid-template-columns:minmax(0,1fr);gap:6px}
+}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">A proposal for Tap That Brewery · Burleigh Heads</div>
+    <h1>Local creators, <span>on tap</span></h1>
+    <p>A three-month creator programme to lift local awareness, social reach and visits to the taproom. It uses Gold Coast and Northern NSW creators who already have the trust of the people you want through the door.</p>
+    <div class="facts">
+      <div class="fact"><b>27</b><span>creators and local pages checked</span></div>
+      <div class="fact"><b>10</b><span>to approach first</span></div>
+      <div class="fact"><b>90 days</b><span>5 Oct 2026 – 3 Jan 2027</span></div>
+      <div class="fact"><b>$5–8K</b><span>creator and media budget</span></div>
+    </div>
+    <div class="meta">Prepared by Jewell Projects · For discussion with the Tap That team · September 2026</div>
+  </div>
+</header>
+
+<nav class="rail" aria-label="Sections"><div class="wrap">
+  <a href="#job">The job</a><a href="#top10">Top 10</a><a href="#shortlist">Shortlist</a><a href="#approach">Approach</a><a href="#content">Content</a><a href="#rules">Compliance</a><a href="#outreach">Outreach</a><a href="#brief">Brief</a><a href="#plan">90 days</a><a href="#roles">Who does what</a><a href="#measure">Measures</a><a href="#open">Next steps</a>
+</div></nav>
+
+<main>
+<section id="job"><div class="wrap stack">
+  <div class="head"><div class="eyebrow">Why creators, why now</div><h2>Get found by people choosing where to go this weekend</h2></div>
+  <p class="lede">We want to put Tap That in front of Gold Coast and Northern NSW locals as they decide where to go this weekend. The ones who love the visit then get a reason to think about the best night in, on tap. The taproom is your demo floor, so every good visit is the start of a keg system sale.</p>
+  <p>Tap That's Instagram has about 1.5K followers. The local food and what's-on creators in this plan each reach 5K to 80K Gold Coast locals. We lead with micro creators, with 5K to 40K followers in your own suburbs. They usually get stronger engagement and more trust than big accounts, and they're happy to trade content for a great hosted experience. We only pay creators who have shown their audience actually responds.</p>
+  <div class="callout"><b>A ready-made opening.</b> Inside Gold Coast published a Gold Coast brewery checklist in September with 20 breweries on it. Tap That isn't one of them. That's the first email we'd send.</div>
+  <ul class="plain">
+    <li><b>Food, venue and what's-on creators do most of the work.</b> Dedicated craft beer creators are rare on the Gold Coast. A small home-and-outdoor group carries the keg system and the Benchy portable tap.</li>
+    <li><b>Instagram first.</b> Many of the best local creators post mainly on TikTok, but TikTok tightened its rules on alcohol content from 31 August 2026. Their collaborations run on Instagram until Tap That is approved on TikTok.</li>
+    <li><b>Every creator is checked before we contact them.</b> We confirm live follower numbers, look back over six months of posts, and check their age and their audience's age.</li>
+  </ul>
+</div></section>
+
+<section id="top10"><div class="wrap">
+  <div class="head"><div class="eyebrow">Wave 1 · week of 5 October</div><h2>Top 10 to approach first</h2>
+  <p class="lede">Two local media pages open the biggest doors cheaply. Four micro creators do the gifted visits that build the content bank. Two list publishers follow. Two paid creators carry the home keg system and Benchy story.</p></div>
+  <div class="top10" id="top10list"></div>
+</div></section>
+
+<section id="shortlist"><div class="wrap">
+  <div class="head"><div class="eyebrow">The shortlist</div><h2>27 creators and local pages</h2>
+  <p class="lede">Select any row to see why we chose them and how we'd work with them. Follower numbers are approximate, as of September 2026.</p></div>
+  <div class="filters" role="group" aria-label="Filter by tier">
+    <button class="chip" id="f-all" aria-pressed="true" data-t="">All</button>
+    <button class="chip" id="f-top" aria-pressed="false" data-t="top">Top 10</button>
+    <button class="chip" id="f-a" aria-pressed="false" data-t="A">Food &amp; drink</button>
+    <button class="chip" id="f-b" aria-pressed="false" data-t="B">Craft beer</button>
+    <button class="chip" id="f-c" aria-pressed="false" data-t="C">What's on / media</button>
+    <button class="chip" id="f-d" aria-pressed="false" data-t="D">Northern NSW</button>
+    <button class="chip" id="f-e" aria-pressed="false" data-t="E">Home &amp; outdoor</button>
+    <input class="search" id="q" type="search" placeholder="Search name, handle, suburb" aria-label="Search creators">
+    <span class="count" id="count"></span>
+  </div>
+  <div class="list" id="list"></div>
+  <p class="note" style="margin-top:14px"><b>Partner channels (free):</b> What's On Tweed, the council events calendar, takes free event submissions. MNF4x4 Gold Coast (Ironman4x4 Burleigh Heads, @mnf4x4goldcoast) is a neighbouring 4x4 shop for Benchy cross-promotion.<br><b>Deliberately left off:</b> fitness coaches who appear in "Gold Coast food" rankings, family creators whose content centres on children, anyone who is or looks under 25, and inactive accounts.</p>
+</div></section>
+
+<section id="approach"><div class="wrap">
+  <div class="head"><div class="eyebrow">How to work with them</div><h2>Gifted first, paid when it's earned</h2>
+  <p class="lede">We start every creator with a hosted visit, except media pages and managed talent, who only work paid. Money goes only to creators whose audiences have responded. Every paid deal includes usage rights, so you can boost the best Reels to 25–55-year-olds within 20 km of Burleigh.</p></div>
+  <div class="models" id="models"></div>
+  <div class="stack" style="margin-top:22px">
+    <h3>Suggested 90-day budget: $5,000–$8,000</h3>
+    <div class="budget">
+      <div><b>~$1,000</b><span>hosted product (visits)</span></div>
+      <div><b>~$800</b><span>creator night</span></div>
+      <div><b>$3–5K</b><span>paid collabs and features</span></div>
+      <div><b>~$500</b><span>ABAC pre-vetting</span></div>
+    </div>
+    <p class="note">Indicative. This budget is paid directly to creators and publishers, separately from Jewell Projects fees. We get a quote before anything is booked, and nothing paid goes ahead without your approval.</p>
+  </div>
+</div></section>
+
+<section id="content"><div class="wrap">
+  <div class="head"><div class="eyebrow">Suggested content</div><h2>What we want them to make</h2>
+  <p class="lede">Ask for Reels and Stories, not feed posts. They reach people who don't follow the creator, and they're what Tap That can boost. One Reel plus a Stories set is the default.</p></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Content</th><th>Format</th><th>Who</th><th>The shot that matters</th></tr></thead>
+    <tbody>
+      <tr><td>The brewery experience</td><td>Reel / TikTok, 20–45s</td><td>Food &amp; drink, craft beer</td><td>Walk in past the brewhouse, the 27-tap wall, a paddle landing on the bar, the Kegged &amp; Ready board, Chris explaining one beer</td></tr>
+      <tr><td>New beers</td><td>Reel + Stories</td><td>Food &amp; drink, craft beer, creator night</td><td>First pour of a new release (Tropical Hazy, Smuggler's Haze, the award-winning Midnight in Tokyo), tasting notes in the creator's words</td></tr>
+      <tr><td>Events and live music</td><td>Stories on the night + a Reel after</td><td>What's on, creator night</td><td>The room full, the band, the shuffleboard, people at tables. Never drinking games or skolling</td></tr>
+      <tr><td>Behind the scenes</td><td>Reel</td><td>Craft beer, paid creators</td><td>Brewing day, kegging, a 20L keg filled for a customer's home system</td></tr>
+      <tr><td>Things to do / venue lists</td><td>Carousel, list Reel, newsletter</td><td>What's on / media</td><td>Tap That inside a "Burleigh this weekend" or "Gold Coast breweries" list, with address, hours and what's on</td></tr>
+      <tr><td>The best night in</td><td>Reel</td><td>Home &amp; outdoor</td><td>A keg system at home with the backyard, the outdoor kitchen and friends round. A fresh pour, with the partner's seltzer or sour on the next tap. For the Benchy: camp set up, vehicle parked, the day done</td></tr>
+    </tbody>
+  </table></div>
+</div></section>
+
+<section id="rules"><div class="wrap">
+  <div class="head"><div class="eyebrow">Keeping you compliant</div><h2>Australian alcohol marketing rules</h2>
+  <p class="lede">Because Tap That promotes alcohol, every creator post has to meet Australian alcohol marketing rules. Tap That is responsible for any content it pays for or gifts product for, and for anything it reposts. That applies whether or not Tap That has signed up to ABAC, because ABAC also rules on complaints about non-signatories and publishes its decisions. We build these rules into every agreement, brief and approval.</p></div>
+  <div class="rules" id="ruleslist"></div>
+  <p class="note" style="margin-top:14px">Every creator also signs a one-page agreement covering deliverables, disclosure, age-gating, comment moderation, takedown on request, usage rights and ABAC compliance, and does ABAC's free one-hour online course. This is a working summary, not legal advice. Confirm the TikTok and Meta settings on the platforms before launch.</p>
+</div></section>
+
+<section id="outreach"><div class="wrap">
+  <div class="head"><div class="eyebrow">Outreach</div><h2>How we'll approach creators</h2>
+  <p class="lede">We run outreach and negotiation for you. These are the messages we'll send, each opening with a genuine line about the creator's own content, which is what gets a reply. Each creator gets one follow-up after five working days.</p></div>
+  <div class="tabs" role="tablist" aria-label="Templates">
+    <button class="chip" role="tab" id="t-dm" aria-pressed="true" data-k="dm">Instagram / TikTok DM</button>
+    <button class="chip" role="tab" id="t-email" aria-pressed="false" data-k="email">Creator email</button>
+    <button class="chip" role="tab" id="t-media" aria-pressed="false" data-k="media">Media page pitch</button>
+  </div>
+  <div class="tpl"><div class="bar"><h3 id="tplname"></h3></div><pre id="tpltext"></pre></div>
+</div></section>
+
+<section id="brief"><div class="wrap">
+  <div class="head"><div class="eyebrow">One page, sent to every creator</div><h2>The creator brief</h2>
+  <p class="lede">Every creator gets the same one-page brief. It tells them what makes Tap That worth talking about, and exactly what the rules need.</p></div>
+  <div class="tpl"><div class="bar"><h3>Tap That Brewery × [creator]</h3></div><pre id="brieftext"></pre></div>
+</div></section>
+
+<section id="plan"><div class="wrap">
+  <div class="head"><div class="eyebrow">5 October 2026 – 3 January 2027</div><h2>The 90-day campaign</h2>
+  <p class="lede">The quarter covers spring racing, the run to Christmas and the start of summer. It's peak season for "where are we going this weekend" and "we're hosting this year".</p></div>
+  <div class="bars" aria-hidden="true">
+    <div class="p1"></div><div class="p1"></div><div class="p2"></div><div class="p2"></div><div class="p2"></div><div class="p2"></div><div class="p3"></div><div class="p4"></div><div class="p4"></div><div class="p4"></div><div class="p4"></div><div class="p5"></div><div class="p5"></div>
+  </div>
+  <div class="barlbl" aria-hidden="true"><span>Wk 1</span><span></span><span>3</span><span></span><span></span><span></span><span>7</span><span>8</span><span></span><span></span><span></span><span>12</span><span>13</span></div>
+  <div class="timeline" id="phases"></div>
+</div></section>
+
+<section id="roles"><div class="wrap">
+  <div class="head"><div class="eyebrow">Who does what</div><h2>We run it. You host and approve.</h2></div>
+  <div class="rules">
+    <div class="rule"><h3>Jewell Projects</h3><ul class="plain">
+      <li>Verify every creator, then run the outreach and negotiation</li>
+      <li>Write the agreements and the creator brief</li>
+      <li>Book visits and run the creator night</li>
+      <li>Check every draft against the rules before it reaches you</li>
+      <li>Send anything borderline to ABAC pre-vetting</li>
+      <li>Track every post, and report to you monthly and at day 90</li>
+    </ul></div>
+    <div class="rule key"><h3>Tap That team</h3><ul class="plain">
+      <li>Host two visits a week, with Chris giving about 30 minutes to the tour</li>
+      <li>Provide product for the visits and the creator night</li>
+      <li>Approve drafts within 24 hours, through one named person</li>
+      <li>Repost the best creator content on your own channels (Harry)</li>
+      <li>Tell us about new releases and events early, so creators have something new</li>
+      <li>Approve the budget and every paid deal</li>
+    </ul></div>
+  </div>
+</div></section>
+
+<section id="measure"><div class="wrap">
+  <div class="head"><div class="eyebrow">Measuring it</div><h2>Reach, visits and keg systems, not likes</h2></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Measure</th><th>90-day target</th><th>Where from</th></tr></thead>
+    <tbody>
+      <tr><td>Creator content live</td><td class="num">15+ Reels, 60+ Stories</td><td>Content &amp; Results log</td></tr>
+      <tr><td>Combined views</td><td class="num">150,000+</td><td>Creator screenshots at day 7</td></tr>
+      <tr><td>Average engagement rate</td><td class="num">4%+ micro · 1.5%+ media pages</td><td>Log formula</td></tr>
+      <tr><td>@tapthatbreweryandkeghouse followers</td><td class="num">~1.5K → 2.5K</td><td>Instagram insights, baseline in week 1</td></tr>
+      <tr><td>Creator code mentions at the bar</td><td class="num">100+</td><td>GoTab note or bar tally</td></tr>
+      <tr><td>Keg system enquiries from creators</td><td class="num">15+</td><td>"How did you hear about us?" on the demo form</td></tr>
+      <tr><td>Cost per 1,000 views (paid)</td><td class="num">Under $15</td><td>Log formula</td></tr>
+      <tr><td>Media listings gained</td><td class="num">Inside Gold Coast + 1</td><td>Links</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note" style="margin-top:12px">At day 90 we recommend the 3–5 creators for a six-month arrangement, judged on cost per 1,000 views, engagement, code mentions, keg system enquiries, how easy they were to work with, and whether their content was good enough to boost. You get a short report each month and a full readout at day 90.</p>
+</div></section>
+
+<section id="open"><div class="wrap stack">
+  <div class="head"><div class="eyebrow">Next steps</div><h2>What we need from you to start on 5 October</h2></div>
+  <ul class="plain">
+    <li><b>Budget.</b> Agree the creator and media budget ($5,000–$8,000 suggested), and who signs off paid deals.</li>
+    <li><b>Creator code reward.</b> Choose what a creator's followers get when they mention the code. Queensland law means it can't be free or discounted drinks for drinking on site. We suggest a free Tap That glass, or $50 off keg system delivery.</li>
+    <li><b>Chris's time.</b> Around 30 minutes, twice a week, for hosted tours, plus the creator night in mid-November.</li>
+    <li><b>An approver.</b> One person who can approve creator drafts within 24 hours.</li>
+    <li><b>New releases.</b> What's coming between October and December, so every visit has something new to taste.</li>
+    <li><b>TikTok.</b> Whether to apply for TikTok's approval for alcohol creator content. Until then, we run on Instagram.</li>
+  </ul>
+  <div class="callout">Once these are agreed, we verify the top 10 and send the first approaches in the week of 5 October. The first hosted visits follow from 19 October.</div>
+</div></section>
+</main>
+<footer><div class="wrap">Prepared by Jewell Projects for Tap That Brewery · September 2026 · Draft for discussion. This programme sits alongside the social strategy and the ambassador work. The ambassadors are Justin's own people; this programme reaches people Tap That doesn't reach yet. The compliance summary is a working guide, not legal advice.</div></footer>
+
+<script>
+const C = [{"id": 1, "name": "Ethan Cox (Brit in Australia)", "handle": "@ethan.cox01", "platform": "TikTok (IG to confirm)", "followers": "~11K TikTok", "location": "Gold Coast", "content": "\"Best X on the Gold Coast?!\" food and venue review videos", "why": "His 'best on the Gold Coast' videos reach up to 50K views, far past his follower count, and he already reviews dinner-and-drinks venues. A 'best taproom in Burleigh' video is his format exactly.", "opp": "Hosted visit, then paid if it performs", "tier": "A · Food & drink", "top": 3}, {"id": 2, "name": "Lauren", "handle": "@laurenguides", "platform": "TikTok", "followers": "~10K TikTok", "location": "Gold Coast (Burleigh, Surfers)", "content": "Venue, restaurant and 'must do' guides; posts almost daily", "why": "Daily Gold Coast venue guides that already cover Burleigh bars. Her things-to-do audience suits the taproom, live music and tours.", "opp": "Hosted visit + creator night", "tier": "A · Food & drink", "top": 4}, {"id": 3, "name": "Lucy Klodinsky", "handle": "@badgalfoody", "platform": "Instagram + TikTok", "followers": "~14K IG · ~9K TikTok", "location": "Gold Coast / Melbourne", "content": "Gold Coast restaurant and café reviews, near-daily", "why": "A near-daily Gold Coast food reviewer with an Instagram following. Pizza, a tasting paddle and a tour is an easy review for her audience.", "opp": "Hosted visit", "tier": "A · Food & drink", "top": 5}, {"id": 4, "name": "Gold Coast foodie", "handle": "@gc_eats", "platform": "Instagram + TikTok", "followers": "~7K IG", "location": "Gold Coast", "content": "GC eats and new openings", "why": "Small, but with the strongest engagement we found (around 14%). This is the micro-creator profile that moves people.", "opp": "Hosted visit", "tier": "A · Food & drink", "top": 6}, {"id": 5, "name": "Tushna Mehta", "handle": "@thefoodhedonist", "platform": "Instagram", "followers": "~12.5K IG", "location": "Gold Coast / Brisbane", "content": "Food, wine and hospitality storytelling; creates content for venues", "why": "A drinks-literate food and hospitality storyteller who creates content for venues. Best used to make Reels for Tap That's own channels.", "opp": "Paid content creation", "tier": "A · Food & drink", "top": null}, {"id": 6, "name": "Catherine", "handle": "@goldcoastfoodie", "platform": "Instagram + TikTok", "followers": "~37K IG", "location": "Gold Coast", "content": "GC venue and opening features", "why": "A well-known local food handle with experience of drinks events. Worth a hosted visit.", "opp": "Hosted visit", "tier": "A · Food & drink", "top": null}, {"id": 7, "name": "Food Fantasia", "handle": "@foodfantasia_", "platform": "Instagram + TikTok", "followers": "~7K IG · ~3K TikTok", "location": "Brisbane, GC, Sunshine Coast", "content": "Reviews and new openings, daily", "why": "Active South East Queensland reviewer who covers bars. A second-wave add.", "opp": "Hosted visit (wave 2)", "tier": "A · Food & drink", "top": null}, {"id": 8, "name": "Katrina & Derek", "handle": "@fantasticfeastz", "platform": "Instagram + TikTok", "followers": "~56K IG · ~32K TikTok", "location": "Brisbane & Gold Coast", "content": "'Best X' roundup Reels, buffet guides", "why": "A couple whose roundup Reels regularly reach tens of thousands. The couple format suits 'something on tap for both of you'.", "opp": "Paid roundup inclusion or hosted visit", "tier": "A · Food & drink", "top": null}, {"id": 9, "name": "Foodie of Gold Coast", "handle": "@foodieofgoldcoast", "platform": "Instagram", "followers": "~7.5K IG", "location": "Gold Coast", "content": "Gold Coast food", "why": "A local Gold Coast food account for the second wave.", "opp": "Hosted visit (wave 2)", "tier": "A · Food & drink", "top": null}, {"id": 10, "name": "Good Food Gold Coast", "handle": "@foodgoldcoast", "platform": "Instagram + website", "followers": "~12K IG + website", "location": "Gold Coast (Upper Nerang)", "content": "Local food media and blog since 2011", "why": "A local food publisher since 2011. The value is a web article that helps Tap That show up in search.", "opp": "Editorial pitch", "tier": "A · Food & drink", "top": null}, {"id": 11, "name": "Timothy Hill", "handle": "@thethoughtfultipple", "platform": "Instagram", "followers": "~5K IG", "location": "Milton, Brisbane", "content": "Independent Australian craft beer reviews", "why": "One of the few active craft beer reviewers in South East Queensland. A brewer-led tasting with Chris gives beer people a reason to take Tap That seriously.", "opp": "Brewer tasting + creator night", "tier": "B · Craft beer", "top": null}, {"id": 12, "name": "Benedict Evison", "handle": "@craftyfollow", "platform": "Instagram", "followers": "~22K IG", "location": "Gold Coast", "content": "Craft 'beertography'", "why": "A Gold Coast craft beer photographer. If still active, the most on-category local name we found.", "opp": "Brewer tasting", "tier": "B · Craft beer", "top": null}, {"id": 13, "name": "Inside Gold Coast", "handle": "@insidegoldcoast", "platform": "Instagram + TikTok + web", "followers": "~55K IG · ~8K TikTok", "location": "Gold Coast", "content": "'Everything to eat, drink & do' guide; daily posts", "why": "Published a Gold Coast brewery checklist in September with 20 breweries on it, and Tap That isn't one of them. We ask to be added, then book a feature on the taproom and events.", "opp": "Editorial pitch, then paid feature", "tier": "C · What's on / media", "top": 1}, {"id": 14, "name": "What's On Goldy", "handle": "@whatsongoldy", "platform": "Instagram + TikTok", "followers": "~34K IG · ~6K TikTok", "location": "Gold Coast", "content": "Things to do, date ideas, events, food and bar lists", "why": "The 'what to do this weekend' audience, exactly who a live-music night or brewery tour is for. Good engagement for its size.", "opp": "Paid event feature + creator night", "tier": "C · What's on / media", "top": 2}, {"id": 15, "name": "Urban List Gold Coast", "handle": "@urbanlistgc", "platform": "Instagram + web", "followers": "~81K IG", "location": "Gold Coast", "content": "Restaurants, bars, events; has a 'best breweries 2026' list", "why": "The biggest local list publisher, with a 'best breweries' list. Getting onto it costs nothing but a pitch.", "opp": "Editorial pitch; paid later if justified", "tier": "C · What's on / media", "top": 7}, {"id": 16, "name": "Must Do Gold Coast", "handle": "@mustdogoldcoast", "platform": "Instagram + Facebook + web", "followers": "~37K IG · ~57K FB", "location": "Gold Coast", "content": "What's on and things to do; 2,000+ reviewed listings", "why": "Sells sponsored reviews with a write-up, newsletter and socials. Its Facebook reach matters because that's where older keg buyers are.", "opp": "Paid sponsored review", "tier": "C · What's on / media", "top": 8}, {"id": 17, "name": "The Weekend Edition Gold Coast", "handle": "@theweekendeditiongoldcoast", "platform": "Instagram + newsletter", "followers": "~33K IG · 40K+ newsletter", "location": "Gold Coast", "content": "Weekly events, food and drink guide", "why": "A weekly newsletter read by people planning their weekend. Good for live-music and tour listings.", "opp": "Free event listing; paid newsletter spot", "tier": "C · What's on / media", "top": null}, {"id": 18, "name": "The Guide (Gold Coast Magazine)", "handle": "@goldcoast.guide", "platform": "Instagram", "followers": "~12K IG", "location": "Gold Coast", "content": "What's on, eat, play, stay", "why": "Linked to Gold Coast Magazine, so a print and social package is possible later.", "opp": "Paid (later)", "tier": "C · What's on / media", "top": null}, {"id": 19, "name": "Gold Coast Eats", "handle": "@goldcoasteats", "platform": "Instagram", "followers": "~39K IG", "location": "Gold Coast", "content": "'Best eats & drinks' guide", "why": "A large local food and drink page.", "opp": "Hosted visit or paid feature", "tier": "C · What's on / media", "top": null}, {"id": 20, "name": "Tweed Coast Guide", "handle": "@tweedcoastguide", "platform": "Instagram + Facebook + web", "followers": "~17K IG", "location": "Tweed Coast (Kingscliff, Cabarita)", "content": "Visitor guide and local business reviews", "why": "Burleigh is 20 minutes from the Tweed. This page reaches Tweed locals and holidaymakers looking for things to do across the border.", "opp": "Hosted visit or paid feature", "tier": "D · Northern NSW", "top": null}, {"id": 21, "name": "Cat Jones, Byron Bay Eats", "handle": "@byron.bay.eats", "platform": "Instagram", "followers": "~13K IG", "location": "Byron Bay", "content": "Food guide; writes the monthly foodie top 10 for byronbay.com", "why": "A respected Northern Rivers food voice who writes a monthly foodie top 10 for byronbay.com. Suits a day-trip or brewery-trail angle.", "opp": "Hosted visit (wave 2)", "tier": "D · Northern NSW", "top": null}, {"id": 22, "name": "Byron What's On & To Do", "handle": "@northernriversconnect", "platform": "Instagram", "followers": "Local what's-on page", "location": "Byron, Mullumbimby, Ballina", "content": "Monthly what's-on roundups: gigs, markets", "why": "Monthly roundups of gigs and events across the Northern Rivers. A free listing for Tap That's live music.", "opp": "Free event listing", "tier": "D · Northern NSW", "top": null}, {"id": 23, "name": "Magdalena Roze", "handle": "@magdalena_roze", "platform": "Instagram + Substack", "followers": "~89K IG", "location": "Byron Bay", "content": "Journalist, TV presenter, cookbook author; Byron food guide incl. wine and pubs", "why": "An established Byron food writer and presenter. A later option for a new-release or food-matching story.", "opp": "Paid (later)", "tier": "D · Northern NSW", "top": null}, {"id": 24, "name": "Jon Wyeth", "handle": "@jon.wyeth", "platform": "TikTok + Instagram + YouTube", "followers": "~130K TikTok · ~95K IG", "location": "Brisbane", "content": "Food and 'weird stuff' vlogs; top reel was the Meatstock BBQ festival", "why": "A large South East Queensland audience that leans male and turns up for BBQ content. The ideal creator for 'we put a brewery tap in the backyard'.", "opp": "Paid: home keg system piece", "tier": "E · Home & outdoor", "top": 9}, {"id": 25, "name": "Mick Viller, The Camp Oven Cook", "handle": "@thecampovencook", "platform": "TikTok + YouTube + Facebook + IG", "followers": "~5.5K TikTok · YouTube · FB", "location": "South East Queensland", "content": "Camp-oven and bush cooking; presents at caravan and camping shows", "why": "A camp-cooking presenter with an older, male camping audience, the heart of the keg buyer. A natural home for the Benchy portable tap.", "opp": "Benchy trial + paid video", "tier": "E · Home & outdoor", "top": 10}, {"id": 26, "name": "Jess & Jed, Wild Road Wanderers", "handle": "@wildroadwanderers", "platform": "Instagram + TikTok", "followers": "~55K IG · ~42K TikTok", "location": "Sunshine Coast", "content": "Troopy 4WD camping, photography", "why": "A strong 4WD audience for the Benchy. Their content often includes their young children, so any shoot would be adults only.", "opp": "Later, adults-only Benchy shoot", "tier": "E · Home & outdoor", "top": null}, {"id": 27, "name": "Reese Bros (Kell & Tom Reese)", "handle": "@reesebros", "platform": "TikTok + Instagram + podcast", "followers": "1.6M TikTok", "location": "Burleigh / Gold Coast", "content": "Aussie comedy skits", "why": "Burleigh locals with huge reach. For 2027, once the programme has proved itself.", "opp": "Later (2027)", "tier": "E · Home & outdoor", "top": null}];
+const TIERS = {A:"Food & drink",B:"Craft beer",C:"What's on / media",D:"Northern NSW",E:"Home & outdoor"};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tierKey = t => t.trim()[0];
+const HOW = {1:"Email the editor to be added to the checklist and offer a hosted visit. Then a paid feature for the creator night.",2:"Paid event feature for the live music nights, plus an invite to the creator night.",3:"Gifted hosted visit. Pay for a follow-up if the first piece performs.",4:"Gifted hosted visit, plus the creator night.",5:"Gifted hosted visit: pizza and a tasting paddle.",6:"Gifted hosted visit.",7:"Editorial pitch now. Paid only in month 3 if the numbers justify it.",8:"Paid sponsored review in month 2.",9:"Paid: a brewery tap in the backyard, a home keg system piece.",10:"Gifted Benchy trial, then a paid video."};
+
+// Top 10
+document.getElementById("top10list").innerHTML = C.filter(c=>c.top).sort((a,b)=>a.top-b.top).map(c=>`
+  <article class="pick"><div class="rank">${c.top}</div>
+  <div><h3>${esc(c.name)}</h3><div class="h">${esc(c.handle)} · ${esc(c.followers)}</div></div>
+  <p>${esc(c.why)}</p>
+  <div class="how"><b>Approach</b> ${esc(HOW[c.top])}</div></article>`).join("");
+
+// Shortlist
+let tf = "", q = "";
+function render(){
+  const rows = C.filter(c => (!tf || (tf==="top" ? c.top : tierKey(c.tier)===tf)) &&
+    (!q || (c.name+" "+c.handle+" "+c.location+" "+c.content).toLowerCase().includes(q)));
+  document.getElementById("count").textContent = rows.length + " shown";
+  document.getElementById("list").innerHTML = rows.map(c=>`
+   <details class="c"><summary>
+     <span class="cid">${c.id}</span>
+     <span class="who"><b>${esc(c.name)}${c.top?`<span class="star">Top ${c.top}</span>`:""}</b><span>${esc(c.handle)} · ${esc(c.platform)}</span></span>
+     <span class="fol">${esc(c.followers)}</span>
+     <span class="opp"><span class="tier">${esc(TIERS[tierKey(c.tier)])}</span><br>${esc(c.opp)}</span>
+   </summary>
+   <dl class="body">
+     <div class="full"><dt>Why they suit Tap That</dt><dd>${esc(c.why)}</dd></div>
+     <div><dt>Location</dt><dd>${esc(c.location)}</dd></div>
+     <div><dt>Content</dt><dd>${esc(c.content)}</dd></div>
+     <div><dt>Audience</dt><dd>${esc(c.followers)}</dd></div>
+     <div><dt>How we'd work with them</dt><dd>${esc(c.opp)}</dd></div>
+   </dl></details>`).join("");
+}
+document.querySelectorAll(".filters .chip").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll(".filters .chip").forEach(x=>x.setAttribute("aria-pressed","false"));
+  b.setAttribute("aria-pressed","true"); tf=b.dataset.t; render();}));
+document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render();});
+render();
+
+// Models
+const M = [
+ ["Hosted brewery experience","Gifted · micro creators (food & drink, craft beer, Northern NSW)","Creator and one adult guest: a brewer-led tour with Chris, tasting paddle, Ammazza pizza, a schooner of their choice, and a Tap That glass to take home.","1 Reel and 3–5 Stories, tagged, with the paid partnership label, #ad and an 18+ age gate. Rights to repost.","~$80–120","per visit, at retail"],
+ ["Food and drinks for content","Gifted · inbound requests and wave 2","Pizza and a tasting paddle, with no tour.","Stories on the night, and a Reel if the creator wants to make one.","~$40–60","per visit"],
+ ["Paid collaboration","Stronger creators, media pages, top performers from gifted visits","A fee plus the hosted visit. Home and outdoor creators also get a keg system or Benchy on loan.","Agreed deliverables, 30–90 days of paid usage rights so Tap That can boost the post, and a performance report.","$250–4,000","micro $250–800 per Reel · media feature $500–2,500 · 90K+ creator $1,500–4,000"],
+ ["Creator night","8–12 creators from the list, plus a guest each","A private hour before a live-music night: a new-release tasting with Chris, pizza and the team, then the gig.","A weekend burst of Stories and Reels. Creators meet each other and the brand.","~$600–1,000","all in"],
+ ["Longer-term relationship","The best 3–5 performers after 90 days","A six-month arrangement: a monthly visit, first taste of new beers, a creator code, and a small retainer or keg system deal.","Monthly content, event coverage, and a trusted local face.","$300–800","per creator per month, or product"]
+];
+document.getElementById("models").innerHTML = M.map((m,i)=>`
+  <article class="model"><div><div class="eyebrow">Model ${i+1}</div><h3>${m[0]}</h3><div class="for">${m[1]}</div></div>
+  <dl><dt>Tap That gives</dt><dd>${m[2]}</dd></dl><dl><dt>Tap That gets</dt><dd>${m[3]}</dd></dl>
+  <div><div class="cost">${m[4]}</div><div class="note">${m[5]}</div></div></article>`).join("");
+
+// Rules
+const R = [
+ ["Creator is 25+","They must also look 25+ and must not be pregnant. We check before contacting anyone. ABAC's pre-vetters take a cautious view of how old someone looks.","ABAC Code 3(b)(iii); Toolkit #3",1],
+ ["Audience is 80%+ adult","We ask each creator for a screenshot of their audience ages, and leave out accounts with family or teenage audiences. The old 75% figure is out of date.","ABAC Code 4(c); Guidance Notes",1],
+ ["Age-gate the post to 18+","On Instagram: Paid Partnership label → Audience restrictions → minimum age 18. Set boosted posts to 18+ in the ad set.","ABAC Code 4(b); Toolkit #3",1],
+ ["Disclose clearly","Use the Paid Partnership label plus #ad at the start of the caption. Gifted counts as paid. \"Gifted\" or \"thanks to\" on its own isn't enough.","AANA Code of Ethics 2.7; ACCC",1],
+ ["Moderation is the story","No rapid or excessive drinking, no skolling, games or dares, no drunkenness played for laughs. Keep within NHMRC guidelines: at most 4 standard drinks on any day.","ABAC Code 3(a)",0],
+ ["No success or mood claims","Beer doesn't make the night, relax you or make you popular. The night is good because of the people, the music and the place.","ABAC Code 3(c)",0],
+ ["No alcohol with vehicles, boats or water","Benchy and 4WD content shows camp set up, the vehicle parked and the day done. Never a pour near a moving vehicle, a boat or the pool.","ABAC Code 3(d)",0],
+ ["No free or cheap drink offers","Queensland law bans advertising free or discounted drinks for on-site drinking. Creator codes are for merch, food or keg systems, never \"free beer\" or happy hour prices.","Liquor Act 1992 (Qld) s142ZZC",1],
+ ["You approve before anything posts","Every draft comes to you first, and we aim to turn approvals around within 24 hours. We send paid pieces over $1K, and anything borderline, to ABAC pre-vetting: $250 per half hour for non-signatories, under 4 working days.","ABAC Toolkit #2; Pre-vetting Service",0],
+ ["TikTok needs approval first","Since 31 August 2026, alcohol branded content on TikTok needs TikTok's permission, a Registered Business Account and the TikTok One platform. Posts must be restricted to 18+ with the disclosure toggle on. We use Instagram until Tap That is approved.","TikTok Branded Content Policy",1],
+ ["Giveaways with a liquor prize","Entry is free and 18+, with a date-of-birth check.","Charitable and Non-Profit Gaming Act 1999 (Qld) s110",0],
+ ["Watch the words","Say \"gluten-reduced\", never \"gluten-free\". Don't lead with ABV. Every caption ends with a responsible line, such as \"Enjoy responsibly. 18+.\"","#41 Social Strategy; ABAC Code 3(c)",0]
+];
+document.getElementById("ruleslist").innerHTML = R.map(r=>`<div class="rule${r[3]?" key":""}"><h3>${r[0]}</h3><p>${esc(r[1])}</p><div class="src">${r[2]}</div></div>`).join("");
+
+// Templates
+const T = {
+ dm:["Instagram / TikTok DM",`Hey [first name]! Lizelle here, working with Tap That Brewery in Burleigh (Ern Harley Dr). We love your [specific post, e.g. "Burleigh date night list"].
+
+We'd love to host you and a +1 for a brewer-led tour with our head brewer Chris, a tasting paddle and pizza, on us. If you enjoy it, a Reel and a few Stories would be amazing, but no pressure.
+
+Can I send the details to your email? 🍻 (18+ event, all content tagged #ad)`],
+ email:["Creator email",`Subject: A brewer's tour at Tap That Burleigh, on us?
+
+Hi [first name],
+
+I'm Lizelle, working with Tap That Brewery on Ern Harley Drive in Burleigh Heads. [One genuine line about their content, e.g. "Your Gold Coast breweries list was spot on, and we'd love a chance to make the next one."]
+
+Tap That brews on site. We pour 27 taps, a third of them seltzers, sours and cocktails for the non-beer drinkers. We have live music on [night] and an award-winning black lager, Midnight in Tokyo. We also set people up with beer on tap at home.
+
+We'd love to host you and a guest:
+- a behind-the-scenes tour with head brewer Chris
+- a tasting paddle of your choice, pizza, and first taste of our next release
+- a Tap That glass to take home
+
+In return we'd love 1 Reel + 3–5 Stories tagging @tapthatbreweryandkeghouse. Because we're an alcohol brand, there are a few simple rules: the paid partnership label and #ad, the post set to 18+, and a quick look at the draft before it goes live. I'll send a one-page brief to make it easy.
+
+[For paid: "We'd also like to talk about a paid collaboration. Could you send your rates and a recent audience insights screenshot showing location and age?"]
+
+Would any of these dates suit? [3 date options, Wed–Sat]
+
+Cheers,
+Lizelle, for Tap That Brewery · 1/10 Ern Harley Dr, Burleigh Heads · cheers@tapthatbrewery.com.au`],
+ media:["Media page pitch",`Subject: The Gold Coast brewery you haven't listed yet
+
+Hi [name],
+
+We loved the [brewery checklist / best breweries list]. Tap That Brewery on Ern Harley Drive, Burleigh isn't on it yet, and we'd love to change that.
+
+We brew on site and pour 27 taps, a third of them non-beer. We host live music and run brewer-led tours. Could we host you for a visit?
+
+We're also planning [creator night / live music series] for [month] and would like to talk about a feature. Could you send a rate card?
+
+Cheers,
+Lizelle, for Tap That Brewery · 1/10 Ern Harley Dr, Burleigh Heads · cheers@tapthatbrewery.com.au`]
+};
+let tk = "dm";
+function showTpl(){document.getElementById("tplname").textContent=T[tk][0];document.getElementById("tpltext").textContent=T[tk][1];}
+document.querySelectorAll(".tabs .chip").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll(".tabs .chip").forEach(x=>x.setAttribute("aria-pressed","false"));
+  b.setAttribute("aria-pressed","true"); tk=b.dataset.k; showTpl();}));
+showTpl();
+
+const BRIEF = `Tap That Brewery × [creator]: content brief
+
+WHO WE ARE
+An independent brewery and taproom in Burleigh Heads. We brew on site, pour 27 taps (a third are seltzers, sours and cocktails), host live music and tours, and put beer on tap in people's homes. The best night in, on tap.
+
+THE VISIT
+[date/time]. You and 1 guest, both 18+. A tour with Chris, a tasting paddle, pizza, and first taste of [new release].
+
+DELIVERABLES
+1 Reel (20–45s) and 3–5 Stories within 7 days of the visit. [Paid: plus the agreed extras.]
+
+MUST INCLUDE
+- Tag @tapthatbreweryandkeghouse and the location "Tap That Brewery, Burleigh Heads"
+- Paid Partnership label, and #ad at the start of the caption
+- Audience restriction set to 18+
+- The line: Enjoy responsibly. 18+.
+
+GREAT SHOTS
+Walking in past the brewhouse · the tap wall · the paddle landing · Chris pouring or explaining a beer · the Kegged & Ready board · your honest first sip and verdict · the room and the music.
+
+TALKING POINTS (IN YOUR WORDS)
+Brewed right here · something on tap for everyone, not just beer drinkers · fresh beer · you can have it on tap at home.
+
+PLEASE DON'T
+- Show anyone under 25 drinking
+- Skol, race or play drinking games
+- Show more than a couple of drinks each
+- Say beer makes you relax, happy or the life of the party
+- Show drinking near cars, boats or the pool
+- Mention free drinks, discounts or happy hour prices
+- Say "gluten-free"
+
+APPROVAL
+Send the draft to Lizelle before posting. We aim to reply within 24 hours.
+
+USAGE
+Tap That may repost and share. [Paid: Tap That may also boost the post as an ad for 30, 60 or 90 days.]
+
+YOUR CODE
+[CREATORNAME] gets your followers [a free Tap That glass on their visit / $50 off keg system delivery]. We'll track mentions at the bar.`;
+document.getElementById("brieftext").textContent = BRIEF;
+
+function copyBtn(id, getText){
+  const b=document.getElementById(id), label=b.textContent;
+  b.addEventListener("click",()=>{
+    const done=()=>{b.textContent="Copied";b.classList.add("done");setTimeout(()=>{b.textContent=label;b.classList.remove("done")},1600)};
+    const fallback=()=>{const pre=b.closest(".tpl").querySelector("pre");const r=document.createRange();r.selectNodeContents(pre);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selected, press Ctrl/Cmd+C";setTimeout(()=>{b.textContent=label},2400)};
+    try{navigator.clipboard.writeText(getText()).then(done,fallback)}catch(e){fallback()}
+  });
+}
+
+
+// Phases
+const P = [
+ ["Set up","Weeks 1–2","5–18 Oct",["Check the top 10 live: followers, the last six months of posts, age, and audience insights.","Set Tap That's own Instagram to 18+.","Finish the one-page agreement and the brief. Set up creator codes and the tracker.","Email Inside Gold Coast and Urban List for editorial listings.","Send wave 1 outreach to the top 10.","Submit events to What's On Tweed and The Weekend Edition (free)."],"Top 10 checked, agreements ready, 10 approaches sent"],
+ ["Hosted visits","Weeks 3–6","19 Oct – 15 Nov",["Two hosted visits a week, Wednesday to Saturday: creator and guest, with Chris leading.","Log every post within 48 hours.","First paid feature: What's On Goldy or Inside Gold Coast, promoting the creator night and live music.","Repost the best creator content on Tap That's own account."],"6–8 creator visits, 6–8 Reels, 25+ Stories"],
+ ["Creator night","Week 7","Mid-November, e.g. Thu 12 or 19 Nov",["8–12 creators and their guests.","A private hour before a live-music night: new-release tasting with Chris, pizza, then stay for the band.","A 10-minute talk on the home keg system, with no hard sell."],"A weekend burst of Stories and Reels, and relationships"],
+ ["Paid, and the best night in","Weeks 8–11","16 Nov – 13 Dec",["Paid pieces with the 1–2 best performers from the gifted visits.","Jon Wyeth's backyard keg system piece and Mick's Benchy video.","Must Do Gold Coast sponsored review.","Wave 2 outreach: Northern NSW and the rest of the food and drink creators.","Boost the two best Reels to 18+, aged 25–55, within 20 km."],"3–4 paid pieces, boosted Reels, keg system enquiries"],
+ ["Summer and review","Weeks 12–13","14 Dec – 3 Jan",["Things-to-do-over-summer content from the what's-on pages.","The holiday hosting angle: the best night in this Christmas.","Pull the results and rank creators on cost per 1,000 views, engagement, code mentions and keg system enquiries."],"The 90-day readout, and 3–5 creators picked for six months"]
+];
+document.getElementById("phases").innerHTML = P.map(p=>`
+  <div class="phase"><div class="when"><b>${p[1]}</b><span>${p[2]}</span></div>
+  <div><h3>${p[0]}</h3><ul>${p[3].map(x=>`<li>${esc(x)}</li>`).join("")}</ul><div class="out"><b>Output</b> ${esc(p[4])}</div></div></div>`).join("");
+</script>
