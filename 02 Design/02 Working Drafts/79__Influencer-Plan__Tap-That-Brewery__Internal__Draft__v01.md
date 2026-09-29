@@ -153,6 +153,10 @@ Every creator also gets a one-page agreement covering deliverables, disclosure, 
 > We'd love to host you and a +1 for a brewer-led tour with our head brewer Chris, a tasting paddle and pizza, on us. If you enjoy it, a Reel and a few Stories would be amazing, but no pressure.
 >
 > Can I send the details to your email? 🍻 (18+ event, all content tagged #ad)
+>
+> P.S. Do you do TikTok collabs too? Keen to hear how you work with drinks brands there.
+
+*The TikTok question is fact-finding only. Whatever the answer, the collaboration stays on Instagram until Tap That has TikTok approval. If a creator offers to post without #ad or without a tag, decline.*
 
 ### Email
 
@@ -172,6 +176,8 @@ Every creator also gets a one-page agreement covering deliverables, disclosure, 
 > In return we'd love **1 Reel + 3–5 Stories** tagging @tapthatbreweryandkeghouse. Because we're an alcohol brand we have a few simple rules: the paid partnership label and #ad, the post set to 18+, and a quick look at the draft before it goes live. I'll send a one-page brief so it's easy.
 >
 > [For paid: "We'd also like to talk about a paid collaboration. Could you send your rates and a recent audience insights screenshot (location and age)?"]
+>
+> One question: do you also post collaborations on TikTok? TikTok has new rules for alcohol brands, so have you worked with an alcohol brand or venue there before, and are you set up on TikTok One? We'd love to understand what's possible with you there.
 >
 > Would any of these dates suit? [3 date options, Wed–Sat]
 >
