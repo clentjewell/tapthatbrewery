@@ -19,7 +19,7 @@
 
 Put Tap That in front of Gold Coast and Northern NSW people who are deciding **where to go this weekend**, and give the ones who like it a reason to think about **the best night in, on tap**. Visits first, keg systems second: the taproom is the demo floor, so a good visit is the start of a system sale.
 
-**Why influencers, and why small ones.** Tap That's Instagram has about 1.5K followers. The local food and what's-on accounts below reach 5K–80K Gold Coast locals each. Micro creators (5K–40K) in the same suburbs usually get stronger engagement and more genuine trust than big accounts, and they will trade content for a hosted experience. Paid money goes only to accounts that prove they move people.
+**Why influencers, and why small ones.** Tap That's Instagram has about 2K followers. The local food and what's-on accounts below reach 5K–80K Gold Coast locals each. Micro creators (5K–40K) in the same suburbs usually get stronger engagement and more genuine trust than big accounts, and they will trade content for a hosted experience. Paid money goes only to accounts that prove they move people.
 
 **An opening worth taking now.** Inside Gold Coast published a Gold Coast brewery checklist in September 2026 with 20 breweries on it, and Tap That isn't one of them. That is the first email to send.
 
@@ -65,7 +65,7 @@ Put Tap That in front of Gold Coast and Northern NSW people who are deciding **w
 | 23 | Magdalena Roze<br>**@magdalena_roze** | Instagram + Substack | ~89K IG (snippet) | Byron Bay | Journalist, TV presenter, cookbook author; Byron food guide incl. wine and pubs | Not verified | Via management / website | An established name. Only relevant later, as a paid stretch for a food-matching or new-release story. | Paid (stretch, month 3+) | Large and expensive; not a first-wave approach. |
 | | **Tier E · Home & outdoor** | | | | | | | | | |
 | 24 | Jon Wyeth<br>**@jon.wyeth** ★ | TikTok + Instagram + YouTube | 131.5K TikTok (28 Sep 26); 94.6K IG (Modash, 18 Sep 26) | Brisbane | Food and 'weird stuff' vlogs; top reel was the Meatstock BBQ festival | 1.66% IG ER; audience 52% male, Brisbane 32% / Gold Coast 8% | talent@neuralle.com | The paid stretch for the home keg system: a 'we put a brewery tap in the backyard' piece for a big, male-leaning SEQ audience that turned up for BBQ content. | Paid collab (keg system install at home) | Managed talent, so budget accordingly. Confirm 25+ and audience age. |
-| 25 | Mick Viller, The Camp Oven Cook<br>**@thecampovencook** ★ | TikTok + YouTube + Facebook + IG | 5.5K TikTok; 3.5K YouTube (28 Sep 26); ~4.4K FB (snippet) | South East Queensland | Camp-oven and bush cooking; presents at caravan and camping shows | Not verified | thecampovencook.com.au | Older male camping audience, the heart of the keg buyer, and a natural fit for the Benchy portable tap: camp set up, cooking done, a cold one after. | Gifted Benchy trial + paid video | ABAC: never a pour near a vehicle or boat in use; the day is done. |
+| 25 | Mick Viller, The Camp Oven Cook<br>**@thecampovencook** ★ | TikTok + YouTube + Facebook + IG | 5.5K TikTok; 3.5K YouTube (28 Sep 26); ~4.4K FB (snippet) | South East Queensland | Camp-oven and bush cooking; presents at caravan and camping shows | Not verified | thecampovencook.com.au | Older male camping audience, the heart of the keg buyer, and a natural fit for the Benchy portable tap: camp set up, cooking done, a cold one after. | Gifted Benchy trial; paid video only with the week-6 step-up | ABAC: never a pour near a vehicle or boat in use; the day is done. |
 | 26 | Jess & Jed, Wild Road Wanderers<br>**@wildroadwanderers** | Instagram + TikTok | ~55K IG (snippet); 42K TikTok (28 Sep 26) | Sunshine Coast | Troopy 4WD camping, photography | Not verified | wildroadwanderers@gmail.com | Strong 4WD audience for the Benchy. Held back because their content includes young children. | Hold: Benchy only, adults-only shoot | ABAC flag: family content with kids. Only if the brief keeps children out of every alcohol shot and the audience check passes 80% adult. |
 | 27 | Reese Bros (Kell & Tom Reese)<br>**@reesebros** | TikTok + Instagram + podcast | 1.6M TikTok (28 Sep 26); IG Kell 139K / Tom 113K (Modash) | Burleigh / Gold Coast | Aussie comedy skits | High: Kell 21% IG ER (Modash) | management@reesebros.org | Burleigh locals with huge reach. Park until the programme has proved itself; a skit brief is hard to keep ABAC-safe. | Park (paid, 2027 at earliest) | Ages not verified. Comedy around drinking carries ABAC risk (drinking played for laughs). |
 
@@ -77,16 +77,16 @@ Put Tap That in front of Gold Coast and Northern NSW people who are deciding **w
 
 | Rank | Who | Why first | Approach |
 |---|---|---|---|
-| 1 | **Inside Gold Coast** @insidegoldcoast | Their September brewery checklist leaves Tap That out. That's an editorial fix before it's a sale | Email the editor: ask to be added and offer a hosted visit; then a paid feature for the creator night |
+| 1 | **Inside Gold Coast** @insidegoldcoast | Their September brewery checklist leaves Tap That out. That's an editorial fix before it's a sale | Email the editor: ask to be added and offer a hosted visit. Editorial first, with no fee |
 | 2 | **What's On Goldy** @whatsongoldy | The "what to do this weekend" audience; 2.5% engagement at 33K+ | Paid event feature for live music nights; invite to the creator night |
 | 3 | **Ethan Cox** @ethan.cox01 | Recent videos pull 6.7K–52K views and he already reviews drinks venues | Gifted hosted visit; paid follow-up if the first piece performs |
 | 4 | **Lauren** @laurenguides | Daily Gold Coast venue guides, already covering Burleigh bars | Gifted hosted visit + creator night |
 | 5 | **Lucy Klodinsky** @badgalfoody | Near-daily Gold Coast reviews with an Instagram following | Gifted hosted visit (pizza + tasting paddle) |
 | 6 | **@gc_eats** | 14.5% engagement, the strongest on the list | Gifted hosted visit |
 | 7 | **Urban List Gold Coast** @urbanlistgc | The biggest local list publisher, and it runs a "best breweries" list | Editorial pitch now; paid only in month 3 if the numbers justify it |
-| 8 | **Must Do Gold Coast** @mustdogoldcoast | Sells sponsored reviews and reaches Facebook, where the older keg buyer is | Paid sponsored review in month 2 |
-| 9 | **Jon Wyeth** @jon.wyeth | 131K TikTok / 95K Instagram, male-leaning SEQ audience that came for BBQ content | Paid: "a brewery tap in the backyard" home keg system piece |
-| 10 | **Mick, The Camp Oven Cook** @thecampovencook | Older male camping audience: the keg buyer, and the Benchy's natural home | Gifted Benchy trial + paid video |
+| 8 | **Must Do Gold Coast** @mustdogoldcoast | Sells sponsored reviews and reaches Facebook, where the older keg buyer is | Paid sponsored review, only with the week-6 step-up |
+| 9 | **Jon Wyeth** @jon.wyeth | 131K TikTok / 95K Instagram, male-leaning SEQ audience that came for BBQ content | Paid "a brewery tap in the backyard" piece, only with the week-6 step-up |
+| 10 | **Mick, The Camp Oven Cook** @thecampovencook | Older male camping audience: the keg buyer, and the Benchy's natural home | Gifted Benchy trial; paid video only with the week-6 step-up |
 
 Why this order: two local media pages open the biggest doors cheaply. Four micro creators do the gifted visits that build the content bank. Two list publishers follow. Two paid creators carry the home keg system and Benchy story.
 
@@ -104,7 +104,11 @@ Why this order: two local media pages open the biggest doors cheaply. Four micro
 
 **Rules for the money.** Start everyone gifted unless they only work paid (media pages, managed talent). Pay only after a creator has shown on the log that their audience engages. Any paid deal includes usage rights, because a creator Reel boosted to 25–55-year-olds within 20 km of Burleigh does more than the original post.
 
-**Suggested 90-day budget:** $5,000–$8,000 total. About $1,000 in hosted product, $800 for the creator night, $3,000–$5,000 in paid collaborations and features, and about $500 for ABAC pre-vetting on paid pieces. Confirm with Justin before paid outreach starts.
+**Suggested 90-day budget: $2,000–$3,000, with an optional step-up.** About $700 in hosted product for 6–8 visits and $500 for the creator night, both at retail value, so the real cost is lower. Then $800–$1,500 for two paid pieces: one What's On Goldy feature and one creator follow-up. Allow $0–$250 for ABAC pre-vetting, only if a paid piece needs it. Editorial pitches and event listings are free.
+
+**Week-6 step-up: $2,000–$4,000, only if the gate is cleared.** It covers Jon Wyeth's home keg system piece, Mick's paid Benchy video and a Must Do review. The gate: gifted content averaging 4%+ engagement, plus 5+ keg system enquiries or 40+ code mentions.
+
+**Why lean.** The business is loss-making, and #46 Paid Media Plan sets the rule to test first, starting well below agency-normal spend. A keg refill customer is worth about $2,400 a year in refills, so one or two new keg customers pay back the core programme on revenue. Confirm the budget with Justin before paid outreach starts.
 
 ## What we want them to make
 
@@ -205,9 +209,9 @@ The quarter runs through spring racing, the lead-up to Christmas and the start o
 | Phase | Dates | What happens | Output |
 |---|---|---|---|
 | **1. Set up** | Week 1–2 · 5–18 Oct | Check the top 10 live: followers, last 6 months of posts, age, audience insights. Age-gate Tap That's own Instagram to 18+. Finalise the one-page agreement and brief. Set up creator codes and the log. Email Inside Gold Coast and Urban List (editorial). Send wave 1 outreach (top 10). Submit events to What's On Tweed and The Weekend Edition (free) | Checked top 10, agreements ready, 10 approaches sent |
-| **2. Hosted visits** | Week 3–6 · 19 Oct – 15 Nov | 2 hosted visits a week (Wed–Sat), creator + guest, Chris leading. Log every post within 48 hours. First paid feature: What's On Goldy or Inside Gold Coast, promoting the creator night and live music. Repost the best creator content on Tap That's own account | 6–8 creator visits, 6–8 Reels, 25+ Stories |
+| **2. Hosted visits** | Week 3–6 · 19 Oct – 15 Nov | 2 hosted visits a week (Wed–Sat), creator + guest, Chris leading. Log every post within 48 hours. One paid feature with What's On Goldy, promoting the creator night and live music. Repost the best creator content on Tap That's own account | 6–8 creator visits, 6–8 Reels, 25+ Stories |
 | **3. Creator night** | Week 7 · mid-November (e.g. Thu 12 or 19 Nov) | 8–12 creators + guests. A private hour before a live-music night: new-release tasting with Chris, pizza, then stay for the band. A 10-minute talk on the home keg system, no hard sell | A weekend burst of Stories and Reels; relationships |
-| **4. Paid + the best night in** | Week 8–11 · 16 Nov – 13 Dec | Paid pieces with the 1–2 best gifted performers. Tier E: Jon Wyeth's backyard keg system piece, and Mick's Benchy video. Must Do sponsored review. Wave 2 outreach (Northern NSW and remaining tier A). Boost the two best Reels to 25–55s within 20 km, 18+ | 3–4 paid pieces; boosted Reels; keg system enquiries |
+| **4. Paid + the best night in** | Week 8–11 · 16 Nov – 13 Dec | One paid follow-up with the best gifted performer. Week-6 checkpoint: if the gate is cleared and Justin approves, the step-up adds Jon Wyeth's backyard keg system piece, Mick's Benchy video and a Must Do sponsored review. Wave 2 outreach (Northern NSW and remaining tier A). Boost the two best Reels to 25–55s within 20 km, 18+ | 1 paid piece (up to 4 with the step-up); boosted Reels; keg system enquiries |
 | **5. Summer + review** | Week 12–13 · 14 Dec – 3 Jan | Things-to-do-over-summer content from tier C. Holiday hosting angle ("the best night in this Christmas"). Pull the results; rank creators on cost per 1,000 views, engagement, code redemptions and keg system enquiries | 90-day readout; 3–5 creators picked for a 6-month relationship |
 
 **Weekly rhythm for Lizelle (~3 hrs):** Monday, outreach and follow-ups · Wednesday–Saturday, host visits (Chris for 30 minutes) · Friday, log posts and update the tracker · last Friday of the month, a one-line summary to Justin.
@@ -218,12 +222,12 @@ Measured on reach, visits and system sales, not likes.
 
 | Measure | 90-day target | Where from |
 |---|---|---|
-| Creator content pieces live | 15+ Reels, 60+ Stories | Content & Results log |
-| Combined views | 150,000+ | Creator screenshots at day 7 |
+| Creator content pieces live | 12+ Reels, 50+ Stories | Content & Results log |
+| Combined views | 100,000+ | Creator screenshots at day 7 |
 | Average engagement rate | 4%+ (micro), 1.5%+ (media pages) | Log formula |
-| Instagram followers @tapthatbreweryandkeghouse | ~1.5K → 2.5K | Instagram insights (baseline in week 1) |
-| Creator code mentions at the bar | 100+ | GoTab note / bar tally |
-| Keg system enquiries from creator content | 15+ | "How did you hear about us?" on the demo form |
+| Instagram followers @tapthatbreweryandkeghouse | ~2K → 3K | Instagram insights (baseline in week 1) |
+| Creator code mentions at the bar | 60+ | GoTab note / bar tally |
+| Keg system enquiries from creator content | 10+ | "How did you hear about us?" on the demo form |
 | Cost per 1,000 views (paid) | Under $15 | Log formula |
 | Media listings gained | Inside Gold Coast brewery list + 1 more | Links |
 
