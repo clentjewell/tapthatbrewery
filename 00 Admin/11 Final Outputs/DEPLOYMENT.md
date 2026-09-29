@@ -125,3 +125,21 @@ Every pack page carries a **Delivery summary** button at the top of the sidebar,
 filter and outside `.nav` so it stays visible when the contents collapse on mobile. The brand
 mark beside it links to `/` (it used to be a `#top` anchor, which did nothing on 81 of the 82
 pages). The summary links the other way from its Access section.
+
+## Creator plan (separate Pages project)
+
+The influencer proposal is its own Pages project, so it can be shared without the full pack.
+
+| | |
+|---|---|
+| **Live** | https://tapthat-creator-plan.pages.dev |
+| **Password** | `tapthat2026` (same gate as the pack; override with `PACK_PASSWORD`) |
+| **Pages project** | `tapthat-creator-plan` (production branch `main`) |
+| **Source** | `influencer-site/`: `index.html` (the proposal page), `_worker.js` (the pack's gate, reworded for the plan), `brand/` |
+
+`index.html` is `02 Design/02 Working Drafts/79__Influencer-Proposal__Tap-That-Brewery__Client__Draft__v01.html` wrapped in a doctype/head/body shell with a `noindex` meta. Rewrap it after editing the proposal, then:
+
+```bash
+cd "00 Admin/11 Final Outputs/influencer-site"
+npx wrangler pages deploy . --project-name tapthat-creator-plan --branch main --commit-dirty=true
+```
