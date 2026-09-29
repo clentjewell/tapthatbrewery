@@ -191,7 +191,7 @@ footer{padding-block:32px 48px;font-size:14px;color:var(--muted)}
   <div class="callout"><b>A ready-made opening.</b> Inside Gold Coast published a Gold Coast brewery checklist in September with 20 breweries on it. Tap That isn't one of them. That's the first email we'd send.</div>
   <ul class="plain">
     <li><b>Food, venue and what's-on creators do most of the work.</b> Dedicated craft beer creators are rare on the Gold Coast. A small home-and-outdoor group carries the keg system and the Benchy portable tap.</li>
-    <li><b>Instagram first.</b> Many of the best local creators post mainly on TikTok, but TikTok tightened its rules on alcohol content from 31 August 2026. Their collaborations run on Instagram until Tap That is approved on TikTok.</li>
+    <li><b>Instagram first.</b> Many of the best local creators post mainly on TikTok, but TikTok tightened its rules on alcohol content from 31 August 2026. Their collaborations run on Instagram. Tap That has no TikTok account yet, and TikTok's rules don't allow a creator to post a gifted or paid alcohol collaboration there without the brand's approval, so we don't ask for TikToks.</li>
     <li><b>Every creator is checked before we contact them.</b> We confirm live follower numbers, look back over six months of posts, and check their age and their audience's age.</li>
   </ul>
 </div></section>
@@ -244,7 +244,7 @@ footer{padding-block:32px 48px;font-size:14px;color:var(--muted)}
   <div class="tbl"><table>
     <thead><tr><th>Content</th><th>Format</th><th>Who</th><th>The shot that matters</th></tr></thead>
     <tbody>
-      <tr><td>The brewery experience</td><td>Reel / TikTok, 20–45s</td><td>Food &amp; drink, craft beer</td><td>Walk in past the brewhouse, the 27-tap wall, a paddle landing on the bar, the Kegged &amp; Ready board, Chris explaining one beer</td></tr>
+      <tr><td>The brewery experience</td><td>Instagram Reel, 20–45s</td><td>Food &amp; drink, craft beer</td><td>Walk in past the brewhouse, the 27-tap wall, a paddle landing on the bar, the Kegged &amp; Ready board, Chris explaining one beer</td></tr>
       <tr><td>New beers</td><td>Reel + Stories</td><td>Food &amp; drink, craft beer, creator night</td><td>First pour of a new release (Tropical Hazy, Smuggler's Haze, the award-winning Midnight in Tokyo), tasting notes in the creator's words</td></tr>
       <tr><td>Events and live music</td><td>Stories on the night + a Reel after</td><td>What's on, creator night</td><td>The room full, the band, the shuffleboard, people at tables. Never drinking games or skolling</td></tr>
       <tr><td>Behind the scenes</td><td>Reel</td><td>Craft beer, paid creators</td><td>Brewing day, kegging, a 20L keg filled for a customer's home system</td></tr>
@@ -265,7 +265,7 @@ footer{padding-block:32px 48px;font-size:14px;color:var(--muted)}
   <div class="head"><div class="eyebrow">Outreach</div><h2>How we'll approach creators</h2>
   <p class="lede">We run outreach and negotiation for you. These are the messages we'll send, each opening with a genuine line about the creator's own content, which is what gets a reply. Each creator gets one follow-up after five working days.</p></div>
   <div class="tabs" role="tablist" aria-label="Templates">
-    <button class="chip" role="tab" id="t-dm" aria-pressed="true" data-k="dm">Instagram / TikTok DM</button>
+    <button class="chip" role="tab" id="t-dm" aria-pressed="true" data-k="dm">Instagram DM</button>
     <button class="chip" role="tab" id="t-email" aria-pressed="false" data-k="email">Creator email</button>
     <button class="chip" role="tab" id="t-media" aria-pressed="false" data-k="media">Media page pitch</button>
   </div>
@@ -408,7 +408,7 @@ const R = [
  ["No alcohol with vehicles, boats or water","Benchy and 4WD content shows camp set up, the vehicle parked and the day done. Never a pour near a moving vehicle, a boat or the pool.","ABAC Code 3(d)",0],
  ["No free or cheap drink offers","Queensland law bans advertising free or discounted drinks for on-site drinking. Creator codes are for merch, food or keg systems, never \"free beer\" or happy hour prices.","Liquor Act 1992 (Qld) s142ZZC",1],
  ["You approve before anything posts","Every draft comes to you first, and we aim to turn approvals around within 24 hours. We send paid pieces over $1K, and anything borderline, to ABAC pre-vetting: $250 per half hour for non-signatories, under 4 working days.","ABAC Toolkit #2; Pre-vetting Service",0],
- ["TikTok needs approval first","Since 31 August 2026, alcohol branded content on TikTok needs TikTok's permission, a Registered Business Account and the TikTok One platform. Posts must be restricted to 18+ with the disclosure toggle on. We use Instagram until Tap That is approved.","TikTok Branded Content Policy",1],
+ ["Instagram only, no TikToks","We never ask creators to post the collaboration on TikTok. Since 31 August 2026, gifted or paid alcohol content on TikTok needs TikTok's permission, a Registered Business Account and the TikTok One platform. Posts must be restricted to 18+ with the disclosure toggle on. We use Instagram until Tap That is approved.","TikTok Branded Content Policy",1],
  ["Giveaways with a liquor prize","Entry is free and 18+, with a date-of-birth check.","Charitable and Non-Profit Gaming Act 1999 (Qld) s110",0],
  ["Watch the words","Say \"gluten-reduced\", never \"gluten-free\". Don't lead with ABV. Every caption ends with a responsible line, such as \"Enjoy responsibly. 18+.\"","#41 Social Strategy; ABAC Code 3(c)",0]
 ];
@@ -416,7 +416,7 @@ document.getElementById("ruleslist").innerHTML = R.map(r=>`<div class="rule${r[3
 
 // Templates
 const T = {
- dm:["Instagram / TikTok DM",`Hey [first name]! Lizelle here, working with Tap That Brewery in Burleigh (Ern Harley Dr). We love your [specific post, e.g. "Burleigh date night list"].
+ dm:["Instagram DM",`Hey [first name]! Lizelle here, working with Tap That Brewery in Burleigh (Ern Harley Dr). We love your [specific post, e.g. "Burleigh date night list"].
 
 We'd love to host you and a +1 for a brewer-led tour with our head brewer Chris, a tasting paddle and pizza, on us. If you enjoy it, a Reel and a few Stories would be amazing, but no pressure.
 
@@ -471,7 +471,7 @@ THE VISIT
 [date/time]. You and 1 guest, both 18+. A tour with Chris, a tasting paddle, pizza, and first taste of [new release].
 
 DELIVERABLES
-1 Reel (20–45s) and 3–5 Stories within 7 days of the visit. [Paid: plus the agreed extras.]
+1 Instagram Reel (20–45s) and 3–5 Instagram Stories within 7 days of the visit. [Paid: plus the agreed extras.]
 
 MUST INCLUDE
 - Tag @tapthatbreweryandkeghouse and the location "Tap That Brewery, Burleigh Heads"
@@ -493,6 +493,7 @@ PLEASE DON'T
 - Show drinking near cars, boats or the pool
 - Mention free drinks, discounts or happy hour prices
 - Say "gluten-free"
+- Post this collaboration on TikTok (TikTok's alcohol rules don't allow it yet)
 
 APPROVAL
 Send the draft to Lizelle before posting. We aim to reply within 24 hours.

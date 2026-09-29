@@ -114,7 +114,7 @@ Why this order: two local media pages open the biggest doors cheaply. Four micro
 
 | Content | Format | Who | The shot that matters |
 |---|---|---|---|
-| **The brewery experience** | Reel / TikTok, 20–45s | Tier A, B | Walk in past the brewhouse, the 27-tap wall, a paddle landing on the bar, the Kegged & Ready board, Chris explaining one beer |
+| **The brewery experience** | Instagram Reel, 20–45s | Tier A, B | Walk in past the brewhouse, the 27-tap wall, a paddle landing on the bar, the Kegged & Ready board, Chris explaining one beer |
 | **New beers** | Reel + Stories | Tier A, B; creator night | First pour of a new release (Tropical Hazy, Smuggler's Haze, Midnight in Tokyo, which won an award), tasting notes in the creator's words |
 | **Events and live music** | Stories on the night + a Reel after | Tier C, creator night | The room full, the band, the shuffleboard, people at tables. Not drinking games or skolling |
 | **Behind the scenes** | Reel | Tier B, paid creators | Brewing day, kegging, a 20L keg filled for a customer's home system |
@@ -138,7 +138,7 @@ Tap That is responsible for any creator content it pays for or gifts product for
 | **No alcohol with driving, boating, swimming or machinery** | Benchy and 4WD content: camp set up, vehicle parked, day done. Never a pour near a moving vehicle or boat | ABAC Code 3(d) |
 | **No free or cheap drink offers in creator content** | Queensland bans advertising free or discounted liquor for drinking on the premises. Creator codes are for **merch, food or keg systems**, never "free beer" or happy hour prices | Liquor Act 1992 (Qld) s142ZZC |
 | **Tap That approves before posting** | Every draft comes to Tap That first. Paid pieces over $1K, or anything borderline, go to ABAC pre-vetting ($250 per half hour for non-signatories, under 4 working days) | ABAC Toolkit #2; ABAC Pre-vetting Service |
-| **TikTok needs approval first** | Since 31 August 2026, alcohol branded content on TikTok needs TikTok's explicit permission, a Registered Business Account and TikTok One, with an 18+ audience and the disclosure toggle on. Until Tap That is approved, TikTok-first creators post the collaboration on Instagram | TikTok Branded Content Policy (effective 31 Aug 2026) |
+| **TikTok needs approval first** | Since 31 August 2026, alcohol branded content on TikTok needs TikTok's explicit permission, a Registered Business Account and TikTok One, with an 18+ audience and the disclosure toggle on. Tap That has no TikTok account, so we never ask for TikToks: TikTok-first creators post the collaboration on Instagram only, and the brief tells them not to cross-post it to TikTok | TikTok Branded Content Policy (effective 31 Aug 2026) |
 | **Giveaways with a liquor prize** | Entry 18+ with a date-of-birth check; entry must be free | Charitable and Non-Profit Gaming Act 1999 (Qld) s110 |
 | **Words** | "Gluten-reduced", never "gluten-free". Don't lead with ABV. Every caption carries a responsible line, e.g. *Enjoy responsibly. 18+.* | #41 Social Strategy; ABAC Code 3(c) |
 
@@ -146,7 +146,7 @@ Every creator also gets a one-page agreement covering deliverables, disclosure, 
 
 ## Outreach templates
 
-### DM (Instagram / TikTok): under 80 words
+### Instagram DM: under 80 words
 
 > Hey [first name]! Lizelle here, working with Tap That Brewery in Burleigh (Ern Harley Dr). We love your [specific post, e.g. "Burleigh date night list"].
 >
@@ -193,7 +193,7 @@ Every creator also gets a one-page agreement covering deliverables, disclosure, 
 
 - **Who we are:** An independent brewery and taproom in Burleigh Heads. We brew on site, pour 27 taps (a third are seltzers, sours and cocktails), host live music and tours, and put beer on tap in people's homes. *The best night in, on tap.*
 - **The visit:** [date/time]. You + 1 guest (both 18+). Tour with Chris, a tasting paddle, pizza, first taste of [new release].
-- **Deliverables:** 1 Reel (20–45s) + 3–5 Stories within 7 days of the visit. [Paid: + agreed extras.]
+- **Deliverables:** 1 Instagram Reel (20–45s) + 3–5 Instagram Stories within 7 days of the visit. Not on TikTok. [Paid: + agreed extras.]
 - **Must include:** Tag @tapthatbreweryandkeghouse and location "Tap That Brewery, Burleigh Heads". Paid Partnership label. **#ad** at the start of the caption. **Audience restriction 18+**. The line *Enjoy responsibly. 18+.*
 - **Great shots:** Walking in past the brewhouse · the tap wall · the paddle landing · Chris pouring or explaining a beer · the Kegged & Ready board · your honest first sip and verdict · the room and the music.
 - **Talking points (in your words):** brewed right here · something on tap for everyone, not just beer drinkers · fresh beer · you can have it on tap at home.
