@@ -331,20 +331,15 @@ body.push(twoCol([
 body.push(SUB('Option A – the ninety-day sprint'));
 body.push(twoCol([
   ['Line', ['Fee']],
-  ['Foundation builds', ['Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages. $9,250']],
-  ['Program design', ['Switcher offer and the partner approach; referral program and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; the competition and giveaway campaign. $8,500']],
-  ['Running the sprint, three months', ['SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report. $3,250 a month, $9,750']],
   ['Option A total', [[b('$25,000 + GST'), run('  \u00b7  normally $27,500')]]],
 ], [3000, 6026]));
-body.push(P('Payment: $25,000 on acceptance, or $8,333 a month across the three months. Stop or continue at the mid-December review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.'));
+body.push(P('Payment: $25,000 on acceptance, or $8,333 a month across the three months. Stop or continue at the mid-December review. Inclusions to be confirmed.'));
 body.push(SUB('Option B – twelve months'));
 body.push(twoCol([
   ['Line', ['Fee']],
-  ['Everything in Option A', ['Delivered in the first three months. Included.']],
-  ['Months four to twelve', ['The weddings and functions program; party rental reworked, and the membership redesign when you release it; range and hero product marketing; club and venue offers; SEM, outreach, content and artwork continuing; the reviews at March and September. Included.']],
   ['Option B total', [[b('$4,999 a month + GST'), run('  \u00b7  normally $5,500  \u00b7  $59,988 over twelve months')]]],
 ], [3000, 6026]));
-body.push(P('Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.'));
+body.push(P('Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice. Inclusions to be confirmed.'));
 body.push(SUB('What it has to earn'));
 body.push(P([run('Option A is $8,333 a month for three months with no commitment beyond it. Option B is $4,999 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. '), b('Option B pays for itself at twenty-five additional active refillers held for a year.'), run(' Your own six-month target adds about 145.')]));
 body.push(twoCol([

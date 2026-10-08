@@ -352,10 +352,6 @@ def money():
         "b_year": grab(r"Option B total.*?· \$([\d,]+) over twelve months", "Option B year"),
         "gate": grab(r"Charged at \*\*\$([\d,]+)\*\*", "Discover and Design"),
         "rack": grab(r"Rack value \$([\d,]+)", "rack value"),
-        "found": grab(r"three campaign landing pages\. \| \$([\d,]+)", "foundation"),
-        "prog": grab(r"the competition and giveaway campaign\. \| \$([\d,]+)", "program"),
-        "run_mo": grab(r"the report\. \| \$([\d,]+) a month", "run monthly"),
-        "run_tot": grab(r"the report\. \| \$[\d,]+ a month, \$([\d,]+)", "run total"),
     }
     return f
 
@@ -639,28 +635,22 @@ def build(out_path):
     table_slide(
         prs, "Option A", "The ninety-day sprint.",
         ["Line", "Fee"],
-        [["Foundation builds. Website rebuild with the buy path and proof pages, SEM set-up, trigger-based CRM with segments, three campaign landing pages", "$" + f["found"]],
-         ["Program design. Switcher offer and partner approach, referral program, wholesale structure and hire brief, key messaging and the customer journey, the competition campaign", "$" + f["prog"]],
-         ["Running the sprint, three months. SEM and Meta management, JVP and wholesale outreach, content and artwork, the rhythm and the report", "$%s a month, $%s" % (f["run_mo"], f["run_tot"])],
-         ["Option A total", "$%s + GST\nnormally $%s" % (f["a_total"], f["a_rack"])]],
+         [["Option A total", "$%s + GST\nnormally $%s" % (f["a_total"], f["a_rack"])]],
         [0.78, 0.22],
         lead="Discover and Design already delivered, rack value $%s, charged at $%s on acceptance of either option." % (f["rack"], f["gate"]),
         foot="$%s on acceptance, or $8,333 a month across the three months. "
-             "Stop or continue at the mid-December review. The line fees are the "
-             "standard rate and sum to $%s; the discount is applied to the total."
-             % (f["a_total"], f["a_rack"]),
+             "Stop or continue at the mid-December review. Inclusions to be "
+             "confirmed." % f["a_total"],
     )
 
     table_slide(
         prs, "Option B", "Twelve months.",
         ["Line", "Fee"],
-        [["Everything in Option A, delivered in the first three months", "Included"],
-         ["Months four to twelve. Weddings and functions, party rental reworked, the membership redesign when you release it, range and hero marketing, club and venue offers, SEM, outreach, content and artwork continuing, the reviews at March and September", "Included"],
-         ["Option B total", "$%s a month + GST\nnormally $%s\n$%s over twelve months" % (f["b_total"], f["b_rack"], f["b_year"])]],
+         [["Option B total", "$%s a month + GST\nnormally $%s\n$%s over twelve months" % (f["b_total"], f["b_rack"], f["b_year"])]],
         [0.68, 0.32],
         lead="An active refill customer is worth about $2,400 a year. Option B pays for itself at twenty-five additional refillers held for a year, and your own six-month target adds about 145.",
         foot="Monthly in advance. Minimum three months, then stop at any review "
-             "with a month's notice.",
+             "with a month's notice. Inclusions to be confirmed.",
     )
 
     table_slide(

@@ -207,22 +207,17 @@ Two options. Both run on the same plan and the same rhythm. All figures are Aust
 
 | Line | Fee |
 |---|---|
-| **Foundation builds.** Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages. | $9,250 |
-| **Program design.** Switcher offer and the partner approach; referral program and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; the competition and giveaway campaign. | $8,500 |
-| **Running the sprint, three months.** SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report. | $3,250 a month, $9,750 |
 | **Option A total** | **$25,000 + GST** · normally $27,500 |
 
-Payment: $25,000 on acceptance, or $8,333 a month across the three months. Stop or continue at the mid-December review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.
+Payment: $25,000 on acceptance, or $8,333 a month across the three months. Stop or continue at the mid-December review. Inclusions to be confirmed.
 
 ### Option B – twelve months
 
 | Line | Fee |
 |---|---|
-| **Everything in Option A**, delivered in the first three months. | Included |
-| **Months four to twelve.** The weddings and functions program; party rental reworked, and the membership redesign when you release it; range and hero product marketing; club and venue offers; SEM, outreach, content and artwork continuing; the reviews at March and September. | Included |
 | **Option B total** | **$4,999 a month + GST** · normally $5,500 · $59,988 over twelve months |
 
-Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.
+Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice. Inclusions to be confirmed.
 
 ### What it has to earn
 
