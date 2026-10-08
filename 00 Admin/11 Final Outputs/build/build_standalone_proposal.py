@@ -145,6 +145,7 @@ def r_workstreams(content):
   <ul class="acts">''')
         for a, d, w in rows:
             how, _, gets = d.partition("**You get:**")
+            gets, _, cta = gets.partition("**Creator plan:**")
             got = ""
             if gets.strip():
                 items = [g.strip().rstrip(".") for g in gets.strip().split(";") if g.strip()]
@@ -153,6 +154,9 @@ def r_workstreams(content):
                 items = [re.sub(r"^and ", "", g) for g in items]
                 lis = "".join(f"<li>{inline(g)}</li>" for g in items)
                 got = f'<div class="gets"><span class="gets-k">You get</span><ul>{lis}</ul></div>'
+            if cta.strip():
+                got += (f'<p class="cta-row">{inline(cta.strip())}</p>'
+                        .replace('<a ', '<a class="cta" '))
             out.append(f'''<li><div class="act-n">{inline(a)}</div>'''
                        f'''<div class="act-d">{inline(how.strip())}{got}</div>'''
                        f'''<div class="act-w"><span class="when w-{horizon_class(w)}">{html.escape(w)}</span></div></li>''')
@@ -322,7 +326,7 @@ blocks.append(f'''<section class="sec" id="take-it-away">
   </div>
 </section>''')
 
-THESIS = ("One marketer cannot run a switcher campaign, a referral programme, an events "
+THESIS = ("One marketer cannot run a switcher campaign, a referral program, an events "
           "calendar, a wholesale pipeline and a CRM build at once. This is the hands.")
 
 FIGURES = [("1,000", "active keg refillers by year three"),
@@ -472,6 +476,12 @@ td:first-child{width:32%;color:var(--ink)}
 .stream-h p{margin-top:7px;font-size:14px;line-height:1.55;color:var(--steel);max-width:58ch}
 .acts{list-style:none}
 .gets{margin-top:11px;padding:11px 14px;background:var(--tint);border:1px solid var(--rule);border-radius:10px}
+.cta-row{margin:11px 0 0}
+.cta-row p{margin:0}
+a.cta{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.02em;
+  text-decoration:none;padding:9px 15px;border-radius:999px;color:#fff;
+  background:var(--brass);border:1px solid var(--brass);transition:opacity .15s}
+a.cta:hover{opacity:.84}
 .gets-k{display:block;font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
   color:var(--brass);margin-bottom:6px}
 .gets ul{list-style:none;display:grid;gap:5px}

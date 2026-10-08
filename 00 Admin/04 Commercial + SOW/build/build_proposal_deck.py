@@ -352,10 +352,8 @@ def money():
         "b_year": grab(r"Option B total.*?· \$([\d,]+) over twelve months", "Option B year"),
         "gate": grab(r"Charged at \*\*\$([\d,]+)\*\*", "Discover and Design"),
         "rack": grab(r"Rack value \$([\d,]+)", "rack value"),
-        "cd": grab(r"Client Director \$([\d,]+) a day", "Client Director"),
-        "cm": grab(r"Client Manager \$([\d,]+) a day", "Client Manager"),
         "found": grab(r"three campaign landing pages\. \| \$([\d,]+)", "foundation"),
-        "prog": grab(r"Oktoberfest and the giveaway campaign\. \| \$([\d,]+)", "programme"),
+        "prog": grab(r"the competition and giveaway campaign\. \| \$([\d,]+)", "program"),
         "run_mo": grab(r"the report\. \| \$([\d,]+) a month", "run monthly"),
         "run_tot": grab(r"the report\. \| \$[\d,]+ a month, \$([\d,]+)", "run total"),
     }
@@ -483,8 +481,8 @@ def build(out_path):
         ["", "Workstream", "The move"],
         [["01", "Connect the system", "Nothing compounds until the website, POS and CRM talk"],
          ["02", "Switch existing owners", "Your number one. They have already bought the hardware"],
-         ["03", "Referrals, JVPs, ambassadors", "18% of sales already, on a programme nobody can hold"],
-         ["04", "The Tap Room as a destination", "Events, functions, ticketed music and local business"],
+         ["03", "Referrals, JVPs, ambassadors", "18% of sales already, on a program nobody can hold"],
+         ["04", "The Tap Room as a destination", "Events, functions and local business trade"],
          ["05", "Wholesale as a function", "Demand exists. Follow-up does not"],
          ["06", "Brand, range and proof", "Sharpened, not rebuilt. Proof you own and barely use"],
          ["07", "Governance", "Four numbers, one page, one rhythm"]],
@@ -522,11 +520,11 @@ def build(out_path):
     table_slide(
         prs, "Workstream 03", "Referrals, JVPs and ambassadors.",
         ["Activity", "What we deliver", "When"],
-        [["Referral programme", "Tokens do not travel. A free keg does. Rebuilt around a keg and a QR card an owner hands to a mate", "3 months"],
-         ["Internal referral programme", "The same mechanic pointed at system sales, for the team and existing customers. Tracked so it can be paid", "3 months"],
+        [["Referral program", "Tokens do not travel. A free keg does. Rebuilt around a keg and a QR card an owner hands to a mate", "3 months"],
+         ["Internal referral program", "The same mechanic pointed at system sales, for the team and existing customers. Tracked so it can be paid", "3 months"],
          ["JVPs and partners", "The list, offer, outreach and follow-up from the CRM. Mark's venues, Never Quit and the tour operators", "3 months"],
          ["Trades as a referral force", "Plumbers and kitchen installers carry the same card, with a kickback the CRM tracks", "3 months"],
-         ["Influencer strategy and outreach", "Three tiers: local reach, outdoor living, food and drink. Gifted first, paid where earned. Run to ABAC rules", "3 months"],
+         ["Influencer strategy and outreach", "Three tiers: local reach, outdoor living, food and drink. Gifted first, paid where earned, to ABAC rules. Plan: tapthat-creator-plan.pages.dev", "3 months"],
          ["UGC and ambassadors", "Kurt, Troy, Mitch, Aden and Ash. The brief, the shoot plan, the release schedule, the rights", "3 months"],
          ["Hosted tasting nights, to test", "A test. An owner hosts at home and earns a keg or credit on anything sold", "6 months"],
          ["Service networks, to explore", "East coast technician routes already visiting thousands of businesses. A referral on a service call", "6 months"]],
@@ -536,14 +534,12 @@ def build(out_path):
     table_slide(
         prs, "Workstream 04", "The Tap Room as a destination.",
         ["Activity", "What we deliver", "When"],
-        [["Oktoberfest and the giveaway", "The first dated event. Campaign, artwork, entry mechanics into the CRM, and the follow-up that converts entries", "30 days"],
-         ["Competitions, twice a year", "About thirty systems each. The insider offer lands the moment someone enters", "3 months"],
-         ["Local business programme", "Lunch and after-work trade from the industrial area: offer, outreach list, collateral", "3 months"],
-         ["Ticketed music and calendar", "A replicable calendar, with the promotion built once and reused", "3 months"],
+         [["Competitions, twice a year", "About thirty systems each. The insider offer lands the moment someone enters", "3 months"],
+         ["Local business program", "Lunch and after-work trade from the industrial area: offer, outreach list, collateral", "3 months"],
          ["Tours and tastings", "Onto the circuit. The award and the bus parking are the reasons to stop here", "3 months"],
          ["Weddings and functions", "Hens and bucks through to reception supply. Mark's roughly 300 weddings a year", "6 months"],
          ["Party rental", "A system in a house for a weekend is a demo the host runs. A keg guarantee replaces the $75 barrier", "6 months"],
-         ["Membership redesign", "One programme serving the refill business, not two serving two shapes. Two posters quote different prices", "6 months"]],
+         ["Membership redesign", "Held at your request until you release it. One program for the refill business, not two. Two posters quote different prices", "On hold"]],
         [0.22, 0.64, 0.14],
     )
 
@@ -565,7 +561,7 @@ def build(out_path):
          ["Customer journey mapped", "First contact to first refill to reorder, with the CRM trigger at each step", "30 days"],
          ["Proof assets", "The Crafted award, the reviews, no CO2, and the integrated units already selling and nowhere on the site", "3 months"],
          ["Range and heroes", "Social proof at the point of sale: most popular, award winner, what to eat with it", "6 months"],
-         ["Campaign artwork", "Oktoberfest, the switcher, the referral programme, the ambassadors and the calendar", "Ongoing"]],
+         ["Campaign artwork", "The switcher, the referral program, the ambassador and creator content, and the competition campaign", "Ongoing"]],
         [0.22, 0.64, 0.14],
         lead="Not rebuilt. Sharpened around one enemy, overpriced pubs, and your own line.",
     )
@@ -604,23 +600,11 @@ def build(out_path):
          ["03", "Key messaging and the customer journey. Delivered by us, signed by you"],
          ["04", "KPIs and the meeting rhythm. Four numbers, one definition of active refiller"],
          ["05", "The Jewell split. What we own, what Harry and Justin keep"],
-         ["06", "Ambassadors named, Oktoberfest run, giveaway entries in the CRM"],
+         ["06", "Ambassadors named and briefed, with a shoot date in the calendar"],
          ["07", "Settle $2.55 as the per-schooner figure on the live ad"],
          ["08", "The 250 date. March 2027 or Christmas 2026"]],
         [0.05, 0.95],
         foot="We work it with you rather than around you.",
-    )
-
-    table_slide(
-        prs, "Timeline", "On your ladder, not ours.",
-        ["Horizon", "What is true at the end of it"],
-        [["30 days\nMid-October", "Showroom or event space decided, and the Jewell split agreed. Messaging and journey signed on the home entertainment position. KPIs and the weekly rhythm set. Oktoberfest run. The 250 date chosen"],
-         ["3 months\nMid-December", "Website and SEM live. GoTab and Fishbowl connected, CRM triggers replacing the 90-day SMS. Lease-to-buy and delivery launched. Referral programme live, with trades carrying cards. Wholesale pipeline in the CRM. Next hire decided"],
-         ["6 months\nMarch 2027", "250 active keg refillers, or December if you take the Christmas date. Weddings and functions selling. Membership redesigned. Designing-for-her and hardware-as-object briefs in market"],
-         ["1 year\nSeptember 2027", "Referrals, JVPs and online driving most system sales. Replicable events calendar running. Cashflow positive, Justin on a wage"]],
-        [0.17, 0.83],
-        foot="Three years, five years and the exit sit on the summary sheet. This covers the "
-             "first year of the climb.",
     )
 
     table_slide(
@@ -656,27 +640,27 @@ def build(out_path):
         prs, "Option A", "The ninety-day sprint.",
         ["Line", "Fee"],
         [["Foundation builds. Website rebuild with the buy path and proof pages, SEM set-up, trigger-based CRM with segments, three campaign landing pages", "$" + f["found"]],
-         ["Programme design. Switcher offer and partner approach, referral programme, wholesale structure and hire brief, key messaging and the customer journey, Oktoberfest", "$" + f["prog"]],
+         ["Program design. Switcher offer and partner approach, referral program, wholesale structure and hire brief, key messaging and the customer journey, the competition campaign", "$" + f["prog"]],
          ["Running the sprint, three months. SEM and Meta management, JVP and wholesale outreach, content and artwork, the rhythm and the report", "$%s a month, $%s" % (f["run_mo"], f["run_tot"])],
          ["Option A total", "$%s + GST\nnormally $%s" % (f["a_total"], f["a_rack"])]],
         [0.78, 0.22],
         lead="Discover and Design already delivered, rack value $%s, charged at $%s on acceptance of either option." % (f["rack"], f["gate"]),
-        foot="50%% on acceptance, 50%% at the mid-December review. Stop or continue at that "
-             "review. The line fees are the standard rate and sum to $%s; the discount is "
-             "applied to the total." % f["a_rack"],
+        foot="$%s on acceptance, or $8,333 a month across the three months. "
+             "Stop or continue at the mid-December review. The line fees are the "
+             "standard rate and sum to $%s; the discount is applied to the total."
+             % (f["a_total"], f["a_rack"]),
     )
 
     table_slide(
         prs, "Option B", "Twelve months.",
         ["Line", "Fee"],
         [["Everything in Option A, delivered in the first three months", "Included"],
-         ["Months four to twelve. Weddings and functions, membership redesign, the designing-for-her brief, range and hero marketing, club and venue offers, the events calendar, SEM, outreach, content and artwork continuing, the reviews at March and September", "Included"],
+         ["Months four to twelve. Weddings and functions, party rental reworked, the membership redesign when you release it, range and hero marketing, club and venue offers, SEM, outreach, content and artwork continuing, the reviews at March and September", "Included"],
          ["Option B total", "$%s a month + GST\nnormally $%s\n$%s over twelve months" % (f["b_total"], f["b_rack"], f["b_year"])]],
         [0.68, 0.32],
-        lead="An active refill customer is worth about $2,400 a year. Option B pays for itself at thirteen additional refillers held for a year, and your own six-month target adds about 145.",
-        foot="Monthly in advance. Minimum three months, then stop at any review with a "
-             "month's notice. Rates behind every figure: Client Director $%s a day, "
-             "Client Manager $%s a day." % (f["cd"], f["cm"]),
+        lead="An active refill customer is worth about $2,400 a year. Option B pays for itself at twenty-five additional refillers held for a year, and your own six-month target adds about 145.",
+        foot="Monthly in advance. Minimum three months, then stop at any review "
+             "with a month's notice.",
     )
 
     table_slide(
@@ -696,8 +680,8 @@ def build(out_path):
         prs,
         "Decision · proposal v03",
         "Four decisions, and we start.",
-        "We propose the week of 28 September, which puts Oktoberfest on 1 October inside "
-        "the first week and closes the 30-day sprint before the end of October.",
+        "We propose the week of 12 October, which closes the 30-day sprint "
+        "before the middle of November.",
         [("01", "Which option, A or B."),
          ("02", "Who signs for Tap That Brewery."),
          ("03", "The 250 date: March 2027, or Christmas 2026."),

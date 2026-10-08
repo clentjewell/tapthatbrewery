@@ -25,7 +25,7 @@ Your own plan, received on 16 September, puts the north star where it belongs: *
 
 On 18 September you also closed the money question. Break-even is about $50,000 a month against a current run rate of $35,000 to $45,000, and one month has already hit it. You confirmed that 250 active refillers clears it, so the six-month number and the money number are the same number. Christy has put 250 by Christmas on the table given the outdoor entertaining season. You have not chosen between Christmas and March, and that date should be settled before this is signed.
 
-Your five priorities, in your words: find every existing keg system owner and switch them; website upgrade plus SEM; JVPs, referral partners and an internal referral programme; taproom traffic from local business, functions and ticketed music; wholesale. This proposal is built around those five, plus the foundations they all depend on.
+Your five priorities, in your words: find every existing keg system owner and switch them; website upgrade plus SEM; JVPs, referral partners and an internal referral program; taproom traffic from local business, functions and ticketed music; wholesale. This proposal is built around those five, plus the foundations they all depend on.
 
 ## The position
 
@@ -54,7 +54,7 @@ Three drafts went up. The other two are recorded here, because they name the two
 
 ## What we are proposing
 
-Discover and Design are substantially done. The Discovery pack, the Pivot deck and the five-sheet plan on a page are delivered and in your hands. What is missing is the same thing it was in August: hands. One marketer at roughly seventy per cent capacity cannot run a switcher campaign, a referral programme, an events calendar, a wholesale pipeline and a CRM build at once, and Chris is trapped in production.
+Discover and Design are substantially done. The Discovery pack, the Pivot deck and the five-sheet plan on a page are delivered and in your hands. What is missing is the same thing it was in August: hands. One marketer at roughly seventy per cent capacity cannot run a switcher campaign, a referral program, an events calendar, a wholesale pipeline and a CRM build at once, and Chris is trapped in production.
 
 So this is a Deploy proposal: a paid coaching and implementation engagement. Jewell Projects becomes the delivery capacity around Harry for the next twelve months. We build, launch and run the activities below, to your plan and on your horizons. Christy coaches the direction in a short weekly check-in, we do the work between those check-ins, and every milestone on your ladder gets a written review and a stop-or-continue conversation. You keep every decision. One set of four numbers is reported monthly.
 
@@ -96,29 +96,27 @@ Your priority three and your one-year marker: referrals, JVPs and online driving
 
 | Activity | What we deliver | When |
 |---|---|---|
-| **Referral programme and Bring a Mate** | Referral is already 18% of acquisition, on a programme nobody can hold in their hand: 1,000 tap tokens, about $50 or half a keg, for a system or wholesale referral, and 500 for a refill customer. Tokens do not travel. A free keg does. We rebuild it around a reward worth passing on, a card with a QR code an owner can hand to a mate, and the CRM automation and creative behind both. The cheapest campaign on this list. **You get:** the reward redesigned and costed; a QR card an owner can hand over, printed and digital; the CRM automation that tracks a referral through to a sale; creative for the ask; and a referral number in the monthly report. | 3 months |
-| **Internal referral programme** | The same mechanic pointed at keg system sales, for the team and for existing customers. Rewards in free beer or system credit, tracked so they can be paid without argument. **You get:** the mechanic and reward written up; a tracking field in the CRM; a one-page explainer for the team; and the payout rule, so nobody argues about it later. | 3 months |
-| **JVP and referral partner programme** | The list, the offer, the outreach and the follow-up, run from the CRM. Starts with contacts already in hand: Mark’s two wedding venues, Never Quit, and the tour operators. **You get:** the partner list and the tier each sits in; a one-page partner offer; the outreach sequence in the CRM; the follow-up cadence; and a pipeline you can see. | 3 months, ongoing |
+| **Referral program and Bring a Mate** | Referral is already 18% of acquisition, on a program nobody can hold in their hand: 1,000 tap tokens, about $50 or half a keg, for a system or wholesale referral, and 500 for a refill customer. Tokens do not travel. A free keg does. We rebuild it around a reward worth passing on, a card with a QR code an owner can hand to a mate, and the CRM automation and creative behind both. The cheapest campaign on this list. **You get:** the reward redesigned and costed; a QR card an owner can hand over, printed and digital; the CRM automation that tracks a referral through to a sale; creative for the ask; and a referral number in the monthly report. | 3 months |
+| **Internal referral program** | The same mechanic pointed at keg system sales, for the team and for existing customers. Rewards in free beer or system credit, tracked so they can be paid without argument. **You get:** the mechanic and reward written up; a tracking field in the CRM; a one-page explainer for the team; and the payout rule, so nobody argues about it later. | 3 months |
+| **JVP and referral partner program** | The list, the offer, the outreach and the follow-up, run from the CRM. Starts with contacts already in hand: Mark’s two wedding venues, Never Quit, and the tour operators. **You get:** the partner list and the tier each sits in; a one-page partner offer; the outreach sequence in the CRM; the follow-up cadence; and a pipeline you can see. | 3 months, ongoing |
 | **Service networks, to explore** | Commercial service networks already running technician routes along the east coast, water cooler operators among them, put a trained person in front of thousands of businesses every month. The opportunity is a referral or introduction on a service visit. Worth a conversation before it is worth a plan. **You get:** a shortlist of networks worth approaching; the introduction approach; and a written note back on what each conversation found, before any plan is built. | 6 months |
 | **Trades as a referral force** | Plumbers, kitchen installers and outdoor living fitters are in the room when the decision gets made. They carry the same QR or referral card the owners carry, earn free beer or a keg on every referral that converts, and the tracking sits in the CRM so it can be paid without argument. **You get:** the trade card, printed and digital; sign-up and tracking in the CRM; the reward rule; and a list of trades to approach with the outreach started. | 3 months |
 | **Hosted tasting nights, to test** | A test, not a commitment. An owner hosts a tasting at home, we supply the kit, the invitation and the mechanics, and they earn a free keg or system credit on anything sold. Run a small number first and decide on the numbers, not the idea. **You get:** the host kit and invitation; the booking and tracking flow; the reward rule; and a small first run with the numbers written up, so the decision is made on evidence. | 6 months |
-| **Social influencer strategy and outreach** | Standard practice for an awareness problem, and missing from this plan until now. Three tiers, each doing a different job: local Gold Coast creators for reach, home and outdoor living accounts for the category shift, and food and drink creators for the product. Gifted first, paid only where a creator earns it on the numbers. Separate from the ambassador work above, which is Justin’s own named people; this is reach you do not already have. Alcohol marketing carries rules, so talent and audience age thresholds are set against the ABAC code, disclosure goes on every post, and creative runs through ABAC pre-vetting before it goes live. **You get:** a tiered creator strategy with a brief for each tier; a target list with reach, audience make-up and rate against each name; the outreach and negotiation run for you; a plain agreement covering usage, disclosure and exclusivity; the content delivered with the rights to reuse it in paid; and a readout against reach, referral code redemptions and system sales rather than likes. | 3 months, ongoing |
-| **UGC and brand ambassador content** | A content programme with your named ambassadors, Kurt, Troy, Mitch, Aden and Ash: the brief, the shoot plan, the release schedule, the rights. Ready to deploy within three months. **You get:** a brief per ambassador; a shoot plan and shot list; a release schedule; a plain rights and usage agreement; and the content delivered ready to post. | 3 months |
+| **Social influencer strategy and outreach** | Standard practice for an awareness problem, and missing from this plan until now. Three tiers, each doing a different job: local Gold Coast creators for reach, home and outdoor living accounts for the category shift, and food and drink creators for the product. Gifted first, paid only where a creator earns it on the numbers. Separate from the ambassador work above, which is Justin’s own named people; this is reach you do not already have. Alcohol marketing carries rules, so talent and audience age thresholds are set against the ABAC code, disclosure goes on every post, and creative runs through ABAC pre-vetting before it goes live. **You get:** a tiered creator strategy with a brief for each tier; a target list with reach, audience make-up and rate against each name; the outreach and negotiation run for you; a plain agreement covering usage, disclosure and exclusivity; the content delivered with the rights to reuse it in paid; and a readout against reach, referral code redemptions and system sales rather than likes. **Creator plan:** [the three tiers, the target list and the rates, set out in full](https://tapthat-creator-plan.pages.dev/) | 3 months, ongoing |
+| **UGC and brand ambassador content** | A content program with your named ambassadors, Kurt, Troy, Mitch, Aden and Ash: the brief, the shoot plan, the release schedule, the rights. Ready to deploy within three months. **You get:** a brief per ambassador; a shoot plan and shot list; a release schedule; a plain rights and usage agreement; and the content delivered ready to post. | 3 months |
 
 ### 4. The Tap Room as a destination
 
-Your priority four. Local business, functions and ticketed music. Settled on 18 September: the room is a destination, not a walk-in bar. Whether it reads as a showroom or an event space is still your call inside 30 days, and the programme below works under either.
+Your priority four. Local business, functions and ticketed music. Settled on 18 September: the room is a destination, not a walk-in bar. Whether it reads as a showroom or an event space is still your call inside 30 days, and the program below works under either. One part of your priority four is deliberately not in it. A twelve-month calendar of ticketed music needs a promoter working it week to week, and that is not a service we are set up to run for you, so we have left it out rather than price something we would do badly. The functions, local business and competition work below is where the same traffic comes from.
 
 | Activity | What we deliver | When |
 |---|---|---|
-| **Oktoberfest and the keg system giveaway** | The first dated event. Campaign, artwork, entry mechanics that feed the CRM, and the follow-up sequence that turns a thousand entries into system sales over the three-month buying cycle. **You get:** the campaign and artwork; entry mechanics that write to the CRM; the on-the-day collateral; the follow-up sequence across the three-month buying cycle; and a results readout. | 30 days |
 | **Competitions, twice a year** | Each keg system giveaway moves about thirty systems. Your call is two a year, not three. We build the insider offer so it lands the moment someone enters, and repeat the Crafted Festival funnel: free taste and paddle, entry, automation. **You get:** a competition template you can run again; the insider offer that fires the moment someone enters; the entry-to-sale sequence; and the funnel documented so Harry can run the next one without us. | 3 months, then twice yearly |
-| **Local business programme** | Lunch and after-work trade from the industrial area: the offer, the outreach list, the collateral. **You get:** the offer; an outreach list of businesses in the industrial area; the collateral; and the approach sequence in the CRM. | 3 months |
-| **Ticketed music and events calendar** | A replicable calendar of ticketed events and collaborations, with the promotion built once and reused. Your one-year marker is a replicable events and promotions calendar; this is it. **You get:** a twelve-month calendar; a promotion template built once and reused; ticketing and tracking set up; and a post-event reporting sheet. | 3 months, then quarterly |
+| **Local business program** | Lunch and after-work trade from the industrial area: the offer, the outreach list, the collateral. **You get:** the offer; an outreach list of businesses in the industrial area; the collateral; and the approach sequence in the CRM. | 3 months |
 | **Tours and tastings** | Get onto the circuit: profiles updated with every operator, the award and the bus parking sold as the reasons to stop here, and a booking widget for Urban Legends so operators stop coordinating venue by venue. **You get:** operator profiles updated and submitted; a one-page sell for operators; the booking widget scoped and specified; and a tracked list of who has been approached and what they said. | 3 months |
-| **Weddings and functions** | The hens-and-bucks-to-wedding programme: tasting session, signature brew, reception supply, take-home sample. PR to planners, starting with Mark’s roughly 300 weddings a year. **You get:** the programme written from tasting through to reception supply; a planner-facing one-pager; the PR approach and target list; and the enquiry-to-booking flow in the CRM. | 6 months |
+| **Weddings and functions** | The hens-and-bucks-to-wedding program: tasting session, signature brew, reception supply, take-home sample. PR to planners, starting with Mark’s roughly 300 weddings a year. **You get:** the program written from tasting through to reception supply; a planner-facing one-pager; the PR approach and target list; and the enquiry-to-booking flow in the CRM. | 6 months |
 | **Party rental** | A system in a house for a weekend is a demo the host runs for you, in front of the people who might buy one. Rethink the offer so a minimum keg guarantee replaces the $75 hire barrier, and build the follow-up that turns a hire into a system sale. **You get:** the offer reworked with a minimum keg guarantee in place of the $75 barrier; the booking and deposit flow; the follow-up that turns a hire into a system enquiry; and the collateral the host hands around. | 6 months |
-| **Membership redesign** | One programme serving the refill business, rather than two programmes serving two shapes the business no longer has. Two live membership posters currently quote different prices, so one has to be withdrawn as part of this. **You get:** one membership programme, priced and written; a migration plan for current members; the conflicting poster withdrawn; and the sign-up flow in the CRM. | 6 months |
+| **Membership redesign** *(on hold)* | Held at your request, and not started until you release it. The work when it starts: one program serving the refill business, rather than two programs serving two shapes the business no longer has. Two live membership posters currently quote different prices, so one has to be withdrawn as part of this. **You get:** one membership program, priced and written; a migration plan for current members; the conflicting poster withdrawn; and the sign-up flow in the CRM. | On hold |
 
 ### 5. Wholesale as a function
 
@@ -127,7 +125,7 @@ Bars have approached you and it has not converted. That is not a demand problem.
 | Activity | What we deliver | When |
 |---|---|---|
 | **Structure and KPIs** | Targets, pipeline stages and reporting in the CRM, so the function exists before the person does. A one-page brief for the next hire, whichever way the brewer-versus-wholesale call goes. **You get:** pipeline stages and targets built in the CRM; the reporting view; a written definition of a qualified wholesale lead; and a one-page role brief for the next hire. | 3 months |
-| **Venue outreach programme** | Event venues, niched venues and sporting clubs: the list, the offer, the twelve-touch sequence, run from the CRM until a hire takes it over. **You get:** the venue list by type; the offer; a twelve-touch sequence built in the CRM; the outreach run until a hire takes it over; and a pipeline you can see. | 3 months, ongoing |
+| **Venue outreach program** | Event venues, niched venues and sporting clubs: the list, the offer, the twelve-touch sequence, run from the CRM until a hire takes it over. **You get:** the venue list by type; the offer; a twelve-touch sequence built in the CRM; the outreach run until a hire takes it over; and a pipeline you can see. | 3 months, ongoing |
 | **Club and venue offers** | Club-branded kegs, season minimum guarantees, and rigs that move from footy to cricket. A packaged offer that works alongside duopoly contracts rather than against them. **You get:** the club-branded keg offer written and costed; season guarantee terms; a packaged one-pager for clubs; and the approach list. | 6 months |
 
 ### 6. Brand, range and proof
@@ -141,7 +139,7 @@ The brand is not being rebuilt. It is being sharpened around one enemy, overpric
 | **Customer journey mapped** | Your 30-day item. From first contact to first refill to reorder, with the CRM trigger at each step. **You get:** the journey mapped from first contact to reorder; the CRM trigger at each step; and the gaps named with an owner against each. | 30 days |
 | **Proof assets** | The Crafted award, the reviews, fits-any-system and no CO2, and the integrated units already selling, three to four plumbed-in systems with only the font showing and none of them on the website. Produced for the website, the venue, the tap decals and social. Owned already, barely used. **You get:** award, review, fits-any-system and no-CO2 assets produced for web, venue, tap decals and social; the integrated units photographed and written up; and a proof block for the website. | 3 months |
 | **Range and heroes** | Support the cut to hero brews with the product marketing behind them: social proof cues at the point of sale, most popular, award winner, what to eat with it. **You get:** point-of-sale social proof cues designed and print-ready; product copy for each hero brew; and a tap wall and menu treatment. | 6 months |
-| **Campaign artwork** | Four event flyers are built. Next: Oktoberfest, the switcher campaign, the referral programme, the ambassador content, and everything the calendar needs, in Tap That’s own format. **You get:** artwork for each campaign in the sizes every channel needs; editable source files; and a template set so Harry can produce variations without coming back to us. | Ongoing |
+| **Campaign artwork** | Four event flyers are built. Next: the switcher campaign, the referral program, the ambassador and creator content, and the competition campaign, in Tap That’s own format. **You get:** artwork for each campaign in the sizes every channel needs; editable source files; and a template set so Harry can produce variations without coming back to us. | Ongoing |
 
 ### 7. Governance
 
@@ -170,20 +168,9 @@ Your own 30-day list is the first sprint. We work it with you rather than around
 3. **Key messaging and the customer journey.** Delivered by us, signed by you.
 4. **KPIs and the meeting rhythm.** Four numbers, one definition of active refiller, one weekly and one monthly meeting.
 5. **The Jewell split.** This proposal is what Jewell owns. You and Chris mark it up: what stays with Harry and Justin, what waits for the hire. Agreed at the first weekly check-in.
-6. **Ambassadors named, Oktoberfest run.** The giveaway mechanics feed the CRM from day one.
+6. **Ambassadors named and briefed.** Kurt, Troy, Mitch, Aden and Ash, with a brief each and a shoot date in the calendar.
 7. **Settle $2.55.** One per-schooner figure on the live ad and on every piece of collateral, and the other sets of maths retired.
 8. **The 250 date.** March 2027, or Christmas 2026 if you take Christy’s date.
-
-## Timeline, on your ladder
-
-| Horizon | What is true at the end of it |
-|---|---|
-| **30 days – mid-October** | Showroom or event space decided, and the Jewell split agreed. Messaging and journey signed, on the home entertainment position. KPIs, definitions and the weekly rhythm set. Oktoberfest run, giveaway entries in the CRM. $2.55 on the ad. The 250 date chosen. |
-| **3 months – mid-December** | Website and SEM live. GoTab and Fishbowl connected, CRM triggers replacing the 90-day SMS. Lease-to-buy and delivery launched. Harvey Norman and Kegland conversations open. Referral programme and Bring a Mate live, with trades carrying cards. Ambassador content deploying. Wholesale pipeline in the CRM. Next hire decided. |
-| **6 months – March 2027** | 250 active keg refillers, or December if you take the Christmas date. Wedding and functions programme selling. Membership redesigned and party rental reworked. Outdoor kitchen and host-a-tasting pilots running. Career pathways for Chris and Harry defined. |
-| **1 year – September 2027** | Referrals, JVPs and online driving most system sales. Replicable events calendar running. Cashflow positive, Justin on a wage. |
-
-*– The longer horizons on your plan, 1,000 refillers and proprietary system supply at three years, expansion and a production facility at five, an exit at ten to twelve, are on the summary sheet. This proposal covers the first year of the climb.*
 
 ## Ways of working
 
@@ -215,32 +202,31 @@ Two options. Both run on the same plan and the same rhythm. All figures are Aust
 | The basis | |
 |---|---|
 | **Discover and Design, already delivered** | The Discovery pack, the Pivot, the plan on a page and four event flyers. Rack value $20,000. Charged at **$4,995**, payable on acceptance of either option. |
-| **The rates behind every figure below** | Client Director $1,500 a day. Client Manager $1,250 a day. |
 
 ### Option A – the ninety-day sprint
 
 | Line | Fee |
 |---|---|
 | **Foundation builds.** Website rebuild with the buy path and proof pages; SEM set-up; trigger-based CRM with segments; three campaign landing pages. | $9,250 |
-| **Programme design.** Switcher offer and the partner approach; referral programme and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; Oktoberfest and the giveaway campaign. | $8,500 |
+| **Program design.** Switcher offer and the partner approach; referral program and Bring a Mate; wholesale structure, pipeline and hire brief; key messaging and the customer journey; the competition and giveaway campaign. | $8,500 |
 | **Running the sprint, three months.** SEM and Meta management; JVP, partner and wholesale outreach; content and campaign artwork; the weekly and monthly rhythm and the report. | $3,250 a month, $9,750 |
-| **Option A total** | **$12,500 + GST** · normally $27,500 |
+| **Option A total** | **$25,000 + GST** · normally $27,500 |
 
-Payment: 50% on acceptance, 50% at the mid-December review. Stop or continue at that review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.
+Payment: $25,000 on acceptance, or $8,333 a month across the three months. Stop or continue at the mid-December review. The line fees above are the standard rate and sum to $27,500; the discount is applied to the total.
 
 ### Option B – twelve months
 
 | Line | Fee |
 |---|---|
 | **Everything in Option A**, delivered in the first three months. | Included |
-| **Months four to twelve.** The weddings and functions programme; party rental reworked and membership redesigned; range and hero product marketing; club and venue offers; the events calendar; SEM, outreach, content and artwork continuing; the reviews at March and September. | Included |
-| **Option B total** | **$2,500 a month + GST** · normally $5,500 · $30,000 over twelve months |
+| **Months four to twelve.** The weddings and functions program; party rental reworked, and the membership redesign when you release it; range and hero product marketing; club and venue offers; SEM, outreach, content and artwork continuing; the reviews at March and September. | Included |
+| **Option B total** | **$4,999 a month + GST** · normally $5,500 · $59,988 over twelve months |
 
 Payment: monthly in advance. Minimum three months, then stop at any review with a month’s notice.
 
 ### What it has to earn
 
-Option A is $4,167 a month for three months with no commitment beyond it. Option B is $2,500 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. **Option B pays for itself at thirteen additional active refillers held for a year.** Your own six-month target adds about 145.
+Option A is $8,333 a month for three months with no commitment beyond it. Option B is $4,999 a month with the builds spread across the year. An active refill customer is worth about $2,400 a year at roughly $200 a month. **Option B pays for itself at twenty-five additional active refillers held for a year.** Your own six-month target adds about 145.
 
 | Not included | |
 |---|---|
@@ -249,14 +235,14 @@ Option A is $4,167 a month for three months with no commitment beyond it. Option
 | **The Urban Legends booking widget** | Scoped separately once the operator agrees to carry it. |
 | **Third-party software and print** | GoTab, Fishbowl, any booking tool licence, and print runs. |
 
-*– The struck-through figures are the standard rate, built on what Jewell Projects charges today: Client Director $1,500 a day, Client Manager $1,250 a day. The discounted rate is what we are putting on the table for this engagement, and it holds for its term.*
+*– The struck-through figures are the standard rate. The discounted rate is what we are putting on the table for this engagement, and it holds for its term.*
 
 ## Decisions this proposal needs
 
 1. Which option, A or B.
 2. Who signs for Tap That Brewery.
 3. The 250 date: March 2027, or Christmas 2026.
-4. A start date. We propose the week of 28 September, which puts Oktoberfest on 1 October inside the first week and closes the 30-day sprint before the end of October.
+4. A start date. We propose the week of 12 October, which closes the 30-day sprint before the middle of November.
 
 ## Sign-off
 
